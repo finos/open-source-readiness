@@ -2,9 +2,7 @@
 
 # FINOS OSR
 
-FINOS Decentralized Ecosystem is a community-led initiative that ...
-
-This repository contains the object definitions and the logic to publish its documentation on [decentralized.finos.org](https://decentralized.finos.org), where you can find out how to use the objects or contribute to the project.
+Welcome to the FINOS Open Source Readiness Program. We understand that financial services firms face unique obstacles on their road to open source collaboration, including legal & regulatory concerns, internal policies, cultural friction, and heavily restricted technology environments. FINOS supports our members every step of the way through our Open Source Readiness Program, which provides guidance and tools for new open source participants in financial technology.
 
 If you want to build and contribute to this repository, checkout the [website README](website/README.md)
 
@@ -12,12 +10,13 @@ If you want to check the objects source code, browse the [src/objects](src/objec
 
 ## Contributing
 
-1. Fork it (<https://github.com/finos-osr/finos-osr.github.io/fork>)
+1. Fork it (<https://github.com/open-source-readiness/open-source-readiness.github.io/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
 4. Commit your changes (`git commit -am 'Add some fooBar'`)
 5. Push to the branch (`git push origin feature/fooBar`)
 6. Create a new Pull Request
+7. 
 ## Governance
 This blueprint implements https://github.com/finos/community/tree/master/governance#open-source-software-projects
 
