@@ -6,7 +6,6 @@ Welcome to the FINOS Open Source Readiness Program. We understand that financial
 
 If you want to build and contribute to this repository, checkout the [website README](website/README.md)
 
-If you want to check the objects source code, browse the [src/objects](src/objects) folder.
 
 ## Contributing
 
