@@ -7,9 +7,9 @@
 // site configuration options.
 
 // Replace 'project-blueprint' with {project name}
-const projectName = 'Project Blueprint'
+const projectName = 'Open Source Readines'
 // Replace 'project-blueprint' with {project name}
-const projectSlug = 'project-blueprint'
+const projectSlug = 'open-source-readiness'
 // Replace 'FINOS' with {name of copyright owner}
 const copyrightOwner = 'FINOS'
 
