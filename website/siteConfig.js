@@ -24,7 +24,7 @@ const siteConfig = {
 
   // Header menu
   headerLinks: [
-    {doc: 'home', label: 'Docs'},
+    {doc: 'oslc-overview', label: 'OSLC'},
     {doc: 'roadmap', label: 'Roadmap'},
     {doc: 'team', label: 'Team'},
     {href: `https://github.com/finos/${projectSlug}`, label: 'GitHub'},
