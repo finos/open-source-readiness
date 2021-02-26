@@ -1,5 +1,6 @@
 {
   "Main Menu": {
-    "Main Menu": ["home", "team", "roadmap", "contributing"]
+    "Open Source Readiness": ["home", "team", "roadmap", "contributing"],
+    "OSLC": ["oslc-overview", "oslc-licenses"]
   }
 }

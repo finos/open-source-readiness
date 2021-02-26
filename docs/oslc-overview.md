@@ -1,9 +1,8 @@
 ---
 id: oslc-overview
 title: OSLC Handbook Overview
-sidebar_label: OSLC Handbook Overview
+sidebar_label: Overview
 ---
-
 
 This handbook provides information on how to comply with some common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some "self-serve" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses. This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.
 
