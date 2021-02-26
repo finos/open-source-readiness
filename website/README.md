@@ -19,8 +19,8 @@ $ npm -v
 2. Install and run Docusaurus locally
 
 ```sh
-$ git clone git@github.com:<your fork>/{project slug}.git
-$ cd {project slug}
+$ git clone git@github.com:<your fork>/open-source-readiness.git
+$ cd open-source-readiness
 
 # Download dependencies
 $ yarn --cwd website install

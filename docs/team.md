@@ -1,6 +1,6 @@
 ---
 id: team
-title: {project name} Team
+title: Open Source Readiness Team
 ---
 
 ....
