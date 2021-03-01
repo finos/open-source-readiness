@@ -14,6 +14,7 @@ const projectSlug = 'open-source-readiness'
 const copyrightOwner = 'FINOS'
 
 const siteConfig = {
+  noIndex: true,
   title: `FINOS ${projectName}`,
   tagline: `FINOS ${projectName}`,
   url: `https://finos.github.io/${projectSlug}`,
