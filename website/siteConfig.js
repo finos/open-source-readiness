@@ -18,7 +18,7 @@ const siteConfig = {
   title: `FINOS ${projectName}`,
   tagline: `FINOS ${projectName}`,
   url: `https://finos.github.io/${projectSlug}`,
-  baseUrl: `/${projectSlug}/`,
+  baseUrl: `/`,
   projectName: projectSlug,
   repoUrl: `https://github.com/finos/${projectSlug}`,
   organizationName: 'FINOS',
