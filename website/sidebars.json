@@ -1,5 +1,5 @@
 {
-  "Main Menu": {
+  "docs": {
     "Open Source Readiness": ["home", "team", "roadmap", "contributing"],
     "OSLC": ["oslc-overview", "oslc-licenses"]
   }
