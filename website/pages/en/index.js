@@ -72,7 +72,7 @@ class Index extends React.Component {
     const GridBlock = CompLibrary.GridBlock;
 
     const Projects = () => (
-      <Block background="white" layout="threeColumn">
+      <Block background="white" layout="fourColumn">
         {[
           {
             content: `A guide for complying with a wide range of open source licenses in common use cases. It's an invaluable resource for enabling developers to manage the most common compliance tasks without unnecessary legal and compliance review.`,
