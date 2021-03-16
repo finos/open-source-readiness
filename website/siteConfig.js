@@ -16,7 +16,7 @@ const copyrightOwner = 'FINOS'
 const siteConfig = {
   noIndex: true,
   title: `FINOS ${projectName}`,
-  tagline: `FINOS ${projectName}`,
+  tagline: `OVERCOMING OBSTACLES TO OPEN SOURCE`,
   url: `https://${projectSlug}.netlify.app/`,
   cname: `${projectSlug}.netlify.app`,
   baseUrl: `/`,
@@ -26,10 +26,11 @@ const siteConfig = {
 
   // Header menu
   headerLinks: [
-    {doc: 'oslc-overview', label: 'OSLC'},
-    {doc: 'roadmap', label: 'Roadmap'},
-    {doc: 'team', label: 'Team'},
-    {href: `https://github.com/finos/${projectSlug}`, label: 'GitHub'},
+    {doc: 'oslc', label: 'OSLC Handbook'},
+    {doc: 'foss-policy', label: 'FOSS Policy'},
+    {doc: 'whitepaper', label: 'WhitePaper'},
+    {doc: 'compliance-checklist', label: 'Compliance Checklist'},
+    {doc: 'compliance-workflows', label: 'Compliance Workflows'},
     {blog: false}
   ],
 

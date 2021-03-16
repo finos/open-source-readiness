@@ -1,6 +1,5 @@
 {
   "Main Menu": {
-    "Open Source Readiness": ["home", "team", "roadmap", "contributing"],
-    "OSLC": ["oslc-overview", "oslc-licenses"]
+    "Projects": ["oslc", "whitepaper", "foss-policy", "compliance-checklist"]
   }
 }
