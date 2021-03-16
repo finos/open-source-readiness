@@ -133,13 +133,6 @@ class Index extends React.Component {
               <li>Cultural friction & <a href="https://www.fintechfutures.com/2019/06/killing-four-myths-about-open-source-in-financial-services/">open source myths</a></li>
             </ul>
             <p>FINOS helps firms overcome these challenges with its Open Source Readiness Project, focused on enabling financial services organizations and employees to be first class citizens in OSS Communities. The group has produced several valuable practical resources for firms developing their open source strategy and process, listed below.</p>
-            <h3>Archives</h3>
-            <ul>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/815202423/OSR+2019+Roadmap">OSR 2019 Roadmap</a></li>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/1331855369/OSR+2020+Roadmap">OSR 2020 Roadmap</a></li>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154533976/Meetings+-+Open+Source+Readiness+Working+Group">Meetings</a></li>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154435619/Action+Items+-+Open+Source+Readiness+Working+Group">Past action items</a></li>
-            </ul>
           </div>
           <Projects />
           <div className="wrapper">
@@ -149,6 +142,13 @@ class Index extends React.Component {
             <p>Participants are encouraged to join the Project's mailing list: <a href="mailto:osr+subscribe@finos.org">osr+subscribe@finos.org</a> (<a href="https://groups.google.com/a/finos.org/forum/#!forum/osr-regulatory-compliance">web archive</a>)</p>
             <h3>Meetings</h3>
             <p>The Project meets every other Wednesday at 10:00 US/Eastern. For the next meeting, which is scheduled for agenda/minutes, see the <a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154533976/Meetings+-+Open+Source+Readiness+Working+Group">Meetings page</a>. You can also subscribe to the <a href="https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York">FINOS Programs Calendar</a>.</p>
+            <h3>Archives</h3>
+            <ul>
+              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/815202423/OSR+2019+Roadmap">OSR 2019 Roadmap</a></li>
+              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/1331855369/OSR+2020+Roadmap">OSR 2020 Roadmap</a></li>
+              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154533976/Meetings+-+Open+Source+Readiness+Working+Group">Meetings</a></li>
+              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154435619/Action+Items+-+Open+Source+Readiness+Working+Group">Past action items</a></li>
+            </ul>
           </div>
         </div>
       </div>
