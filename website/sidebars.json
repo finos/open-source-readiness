@@ -1,5 +1,5 @@
 {
-  "Main Menu": {
+  "docs": {
     "Projects": ["oslc", "whitepaper", "foss-policy", "compliance-checklist"]
   }
 }
