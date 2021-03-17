@@ -16,7 +16,7 @@ const copyrightOwner = 'FINOS'
 const siteConfig = {
   noIndex: true,
   title: `FINOS ${projectName}`,
-  tagline: `FINOS ${projectName}`,
+  tagline: `OVERCOMING OBSTACLES TO OPEN SOURCE`,
   url: `https://${projectSlug}.netlify.app/`,
   cname: `${projectSlug}.netlify.app`,
   baseUrl: `/`,
@@ -26,21 +26,22 @@ const siteConfig = {
 
   // Header menu
   headerLinks: [
-    {doc: 'oslc-overview', label: 'OSLC'},
-    {doc: 'roadmap', label: 'Roadmap'},
-    {doc: 'team', label: 'Team'},
-    {href: `https://github.com/finos/${projectSlug}`, label: 'GitHub'},
+    {doc: 'oslc', label: 'OSLC Handbook'},
+    {doc: 'foss-policy', label: 'FOSS Policy'},
+    {doc: 'whitepaper', label: 'WhitePaper'},
+    {doc: 'compliance-checklist', label: 'Compliance Checklist'},
+    {doc: 'compliance-workflows', label: 'Compliance Workflows'},
     {blog: false}
   ],
 
   // Update icon files with program/project logos
-  headerIcon: 'img/favicon/favicon-finos.ico',   
-  footerIcon: 'img/favicon/favicon-finos.ico',
+  headerIcon: 'img/osr-icon-2019.png',   
+  footerIcon: 'img/osr-icon-2019.png',
   favicon: 'img/favicon/favicon-finos.ico',
 
   colors: {
     primaryColor: '#0086bf',
-    secondaryColor: '#0033A0'
+    secondaryColor: '#0086bf'
   },
 
   // Change the copyright info with correct program/project names */

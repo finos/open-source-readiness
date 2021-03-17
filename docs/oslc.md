@@ -1,7 +1,7 @@
 ---
-id: oslc-overview
-title: OSLC Handbook Overview
-sidebar_label: Overview
+id: oslc
+title: OSLC Handbook
+sidebar_label: OSLC Handbook
 ---
 
 This handbook provides information on how to comply with some common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some "self-serve" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses. This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.
@@ -27,6 +27,3 @@ This is important as most open source license obligations are triggered by a dis
 1. UB = Distribution, unmodified, binary form 2. MB = Distribution, modified, binary form
 3. US = Distribution, unmodified, source form 4. MS = Distribution, modified, source form
 Where "binary" refers to compiled code, binary, executable, non-source form; and "source" refers to the human readable, editable form.
-
-## Copyright and License Notice
-© 2021 Fintech Open Source Foundation, Jilayne Lovejoy, and other contributors. This document is licensed under the terms of the Creative Commons Attribution-ShareAlike (CC By-SA) License, version 4.0. It is offered as-is and as-available, without representation or warranty of any kind, whether express, implied, statutory, or other. The original version of this document is available at https://github.com/finos-osr/OSLC-handbook/. Any modified version must indicate modifications. This notice and disclaimer must be retained on any copies and derivative works.
