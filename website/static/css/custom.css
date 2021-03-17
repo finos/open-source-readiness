@@ -63,7 +63,7 @@ header.postHeader:empty + article h1 {
 }
 
 .navigationSlider .slidingNav ul li a:hover {
-  background: #0033A0;  /* DO NOT CHANGE - THIS IS THE NAVIGATION BACKGROUND - SHOULD STAY FINOS BLUE */
+  background: #0086bf;  /* DO NOT CHANGE - THIS IS THE NAVIGATION BACKGROUND - SHOULD STAY FINOS BLUE */
 
 }
 
@@ -84,10 +84,10 @@ body {
 }
 
 .homeContainer {
-  background-image: url("../img/background.png"); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
+  background-image: url("../img/osr-background.png"); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #0086BF; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
+  background-color: #0091c7; /* CHANGE THIS TO PRIMARY PROJECT COLOR */
 }
 
 .homeContainer h2{

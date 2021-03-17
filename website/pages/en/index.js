@@ -50,6 +50,7 @@ class HomeSplash extends React.Component {
     return (
       <SplashContainer>
         <div className="inner">
+          <img src="img/osr-icon-2019.png"></img>
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
             <Button href='https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us'>WhitePaper</Button>
@@ -76,22 +77,26 @@ class Index extends React.Component {
         {[
           {
             content: `A guide for complying with a wide range of open source licenses in common use cases. It's an invaluable resource for enabling developers to manage the most common compliance tasks without unnecessary legal and compliance review.`,
-            image: ``,
+            image: `img/check-box.svg`,
+            imageAlign: 'top',
             title: `<a href="https://github.com/finos/OSLC-handbook">Open Source License Compliance Handbook</a>`
           },
           {
             content: `A comprehensive model corporate policy for consuming, contributing to, and publishing open source software. It's a great starting point for firms adopting their first open source policy or revising an existing one.`,
-            image: ``,
+            image: `img/check-box.svg`,
+            imageAlign: 'top',
             title: '<a href="https://github.com/finos/reference-foss-policy">Reference FOSS Policy</a>'
           },
           {
             content: `Our whitepaper on Business Value of Open Source in Financial Services lays out the business case for open source engagement and is a helpful aid for pitching open source to decision-makers on the business side of finance firms.`,
-            image: ``,
+            image: `img/check-box.svg`,
+            imageAlign: 'top',
             title: '<a href="https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">Whitepaper: Business Value of Open Source in Financial Services</a>'
           },
           {
             content: `We built some high-level workflows for common open source compliance processes, along with a checklist that helps establishing an open source compliance program within your firm.`,
-            image: ``,
+            image: `img/check-box.svg`,
+            imageAlign: 'top',
             title: 'Compliance checklist and workflow'
           }
 
@@ -152,8 +157,10 @@ class Index extends React.Component {
           </div>
         </div>
       </div>
+      
     );
   }
 }
+
 
 module.exports = Index;
