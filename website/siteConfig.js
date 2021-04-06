@@ -26,11 +26,9 @@ const siteConfig = {
 
   // Header menu
   headerLinks: [
-    {doc: 'oslc', label: 'OSLC Handbook'},
-    {doc: 'foss-policy', label: 'FOSS Policy'},
-    {doc: 'whitepaper', label: 'WhitePaper'},
-    {doc: 'compliance-checklist', label: 'Compliance Checklist'},
-    {doc: 'compliance-workflows', label: 'Compliance Workflows'},
+    {doc: 'meetings', label: 'MEETINGS'},
+    {doc: 'projects', label: 'PROJECTS'},
+    {doc: 'resources', label: 'RESOURCES'},
     {blog: false}
   ],
 
