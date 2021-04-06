@@ -145,15 +145,6 @@ class Index extends React.Component {
             <p>This group is open to anyone. The primary audiences are financial services firms seeking to learn more about open source readiness and companies with mature open source programs interested in sharing knowledge. While various products and solutions will be discussed at meetings, promotion of specific vendors or products is not appropriate at Project meetings or on the mailing list, nor are press and PR inquiries.</p>
             <h3>Mailing list</h3>
             <p>Participants are encouraged to join the Project's mailing list: <a href="mailto:osr+subscribe@finos.org">osr+subscribe@finos.org</a> (<a href="https://groups.google.com/a/finos.org/forum/#!forum/osr-regulatory-compliance">web archive</a>)</p>
-            <h3>Meetings</h3>
-            <p>The Project meets every other Wednesday at 10:00 US/Eastern. For the next meeting, which is scheduled for agenda/minutes, see the <a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154533976/Meetings+-+Open+Source+Readiness+Working+Group">Meetings page</a>. You can also subscribe to the <a href="https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York">FINOS Programs Calendar</a>.</p>
-            <h3>Archives</h3>
-            <ul>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/815202423/OSR+2019+Roadmap">OSR 2019 Roadmap</a></li>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/1331855369/OSR+2020+Roadmap">OSR 2020 Roadmap</a></li>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154533976/Meetings+-+Open+Source+Readiness+Working+Group">Meetings</a></li>
-              <li><a href="https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154435619/Action+Items+-+Open+Source+Readiness+Working+Group">Past action items</a></li>
-            </ul>
           </div>
         </div>
       </div>
