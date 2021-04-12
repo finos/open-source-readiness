@@ -97,7 +97,7 @@ class Index extends React.Component {
             content: `We built some high-level workflows for common open source compliance processes, along with a checklist that helps establishing an open source compliance program within your firm.`,
             image: `img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Compliance checklist and workflow'
+            title: '<a href="https://open-source-readiness.netlify.app/docs/compliance-checklist">Compliance checklist and workflow</a>'
           }
 
         ]}
