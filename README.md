@@ -1,13 +1,12 @@
 [![Slack](https://img.shields.io/badge/slack-@finos/osr-green.svg?logo=slack)](https://finos-lf.slack.com/messages/fdc3/)
 
-<img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
+<img align="right" width="40%" src="https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/open-source-readiness.svg">
 
 # FINOS Open Source Readiness (OSR)
 
-Welcome to the FINOS Open Source Readiness Program. We understand that financial services firms face unique obstacles on their road to open source collaboration, including legal & regulatory concerns, internal policies, cultural friction, and heavily restricted technology environments. FINOS supports our members every step of the way through our Open Source Readiness Program, which provides guidance and tools for new open source participants in financial technology.
+Welcome to the FINOS Open Source Readiness (OSR) initiative. The purpose of the OSR is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the Project are to 1) advance the readiness of participants’ firms and 2) to inform guidance for the broader industry in the form of white papers, presentations, and blog posts.
 
-If you want to build and contribute to this repository, checkout the [website README](website/README.md)
-
+Read more at [osr.finos.org](osr.finos.org)
 
 ## Contributing
 
