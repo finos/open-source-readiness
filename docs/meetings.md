@@ -4,6 +4,8 @@ title: OSR Meetings
 sidebar_label: Meetings
 ---
 
-The Open Source Readiness Project (OSR) is open to everyone and welcomes participation from any organization. The group meets on a bi-weekly basis and features world class open source experts as well as lively conversations among financial firms legal, compliance and technical peers, providing invaluable guidance to enable institutional open source readiness. 
+Past guest presentations recordings are available at https://www.finos.org/knowledge-base
 
-... information on how to attend meetings.
+For 2019 and 2020 Open Source Readiness Working Group meetings, see here https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/154533976/Meetings+-+Open+Source+Readiness+Working+Group
+
+Currently this group is in the process of becoming a Special Interest Group, stay tuned!
