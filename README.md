@@ -4,7 +4,7 @@
 
 # FINOS Open Source Readiness (OSR)
 
-Welcome to the FINOS Open Source Readiness (OSR) initiative. The purpose of the OSR is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the Project are to 1) advance the readiness of participants’ firms and 2) to inform guidance for the broader industry in the form of white papers, presentations, and blog posts.
+Welcome to the FINOS Open Source Readiness (OSR) initiative. In the next few weeks, this initiative will become a Special Interest Group (SIG). The purpose of the OSR is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the Project are to 1) advance the readiness of participants’ firms and 2) to inform guidance for the broader industry in the form of white papers, presentations, and blog posts.
 
 Read more at [osr.finos.org](osr.finos.org)
 
