@@ -1,7 +1,7 @@
 ---
-name: "\U0001F91D [PROJECT NAME] Meeting Minutes"
-about: To track [PROJECT NAME] meeting agenda and attendance
-title: DD MMM YYYY - [PROJECT NAME] Meeting Minutes
+name: "\U0001F91D Open Source Readiness Meeting Agenda"
+about: To track Open Source Readiness meeting agenda, minutes and attendance
+title: DD MMM YYYY - Open Source Readiness Meeting Agenda
 labels: meeting
 assignees: 
 
@@ -45,7 +45,10 @@ YYYYMMDD - time
 - [ ] ...
 
 ### WebEx info
-- Meeting link: 
-- Meeting number: 
-- Password:
-- Call-in:
+- Webex: https://finos.webex.com/finos/j.php?MTID=mec6bb47084d671bc772c0652add2605c
+- Meeting number: 664 434 054
+
+### Join by phone
+- +1-415-655-0003 US Toll
+- +44-20319-88141 UK Toll
+- Access code: 664 434 054
