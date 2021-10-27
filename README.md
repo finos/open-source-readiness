@@ -8,7 +8,11 @@ Welcome to the FINOS Open Source Readiness Special Interest Group (OSR). The pur
 
 Read more at [osr.finos.org](osr.finos.org)
 
-## Contributing
+## Meetings
+
+The SIG meets on the first Wednesday of every month at 10:00 US/Eastern. Agendas and conference info for upcoming meetings can be found in the [issues](https://github.com/finos/open-source-readiness/issues). 
+
+## Contributing to This Repository
 
 1. Fork it (<https://github.com/open-source-readiness/open-source-readiness.github.io/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
@@ -17,12 +21,9 @@ Read more at [osr.finos.org](osr.finos.org)
 5. Push to the branch (`git push origin feature/fooBar`)
 6. Create a new Pull Request
 
-## Governance
-This blueprint implements https://github.com/finos/community/tree/master/governance#open-source-software-projects
-
 ## License
 
-Copyright 2021 Fintech Open Source Foundation
+Copyright Fintech Open Source Foundation
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
