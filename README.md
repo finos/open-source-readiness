@@ -2,9 +2,9 @@
 
 <img align="right" width="40%" src="https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/open-source-readiness.svg">
 
-# FINOS Open Source Readiness (OSR)
+# FINOS Open Source Readiness Special Interest Group
 
-Welcome to the FINOS Open Source Readiness (OSR) initiative. In the next few weeks, this initiative will become a Special Interest Group (SIG). The purpose of the OSR is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the Project are to 1) advance the readiness of participants’ firms and 2) to inform guidance for the broader industry in the form of white papers, presentations, and blog posts.
+Welcome to the FINOS Open Source Readiness Special Interest Group (OSR). The purpose of the OSR SIG is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the SIG are to 1) advance the readiness of participants’ firms and 2) to provide guidance for the broader industry in the form of white papers, presentations, and blog posts.
 
 Read more at [osr.finos.org](osr.finos.org)
 
@@ -16,7 +16,7 @@ Read more at [osr.finos.org](osr.finos.org)
 4. Commit your changes (`git commit -am 'Add some fooBar'`)
 5. Push to the branch (`git push origin feature/fooBar`)
 6. Create a new Pull Request
-7. 
+
 ## Governance
 This blueprint implements https://github.com/finos/community/tree/master/governance#open-source-software-projects
 
