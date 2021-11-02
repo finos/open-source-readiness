@@ -131,7 +131,7 @@ class Index extends React.Component {
               <li>
                 We produce <strong>resources</strong> to support FSI firms in developing robust open source programs, including an <a href="https://github.com/finos/OSLC-handbook">Open Source License Compliance Handbook</a> with information about complying with common open source licenses, a <a href="https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">executive whitepaper on the business value of open source</a>, and a <a href="https://github.com/finos/reference-foss-policy">reference open source policy</a> for FSI firms. 
               </li>
-            </p>
+            </ul>
           </div>
 
           <div className="wrapper">
@@ -145,6 +145,7 @@ class Index extends React.Component {
               <li>
                 Check out our <strong>open source projects</strong> on GitHub. All of our resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers. If you have a project to propose, <a href="https://github.com/finos/open-source-readiness/issues">open a GitHub issue</a> and share your vision!
               </li>
+            </ul>
           </div>
         </div>
       </div>
