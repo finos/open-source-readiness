@@ -127,6 +127,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <strong>Media</strong> from guest presentations and SIG sessions provides invaluable insights from experts and FSI colleagues on a range of topics related to open source usage, contribution, and compliance.
+              </li>
               <li>
                 We produce <strong>resources</strong> to support FSI firms in developing robust open source programs, including an <a href="https://github.com/finos/OSLC-handbook">Open Source License Compliance Handbook</a> with information about complying with common open source licenses, a <a href="https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">executive whitepaper on the business value of open source</a>, and a <a href="https://github.com/finos/reference-foss-policy">reference open source policy</a> for FSI firms. 
               </li>
