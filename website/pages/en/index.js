@@ -51,12 +51,14 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <img src="img/osr-icon-2019.png"></img>
-          <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
+          <ProjectTitle tagline="Special Interest Group" title={siteConfig.title} />
+          <!--
           <PromoSection>
             <Button href='https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us'>WhitePaper</Button>
             <Button href='https://github.com/finos/reference-foss-policy/raw/master/bin/docx/FINOS%20Reference%20FOSS%20Policy%20v0.2.3.docx'>Reference FOSS Policy</Button>
             <Button href="https://www.finos.org/open-source-license-compliance-handbook-download-page?hs_preview=nOUxUYUU-7982450440&hsLang=en-us">OSR HandBook</Button>
           </PromoSection>
+          -->
         </div>
       </SplashContainer>
     );
@@ -123,28 +125,32 @@ class Index extends React.Component {
         <div className="mainContainer">
 
           <div className="wrapper">
-            <h2>Project Charter</h2>
-            <p>The purpose of the Open Source Readiness Project is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the Project are to 1) advance the readiness of participants’ firms and 2) to inform guidance for the broader industry in the form of white papers, presentations, and blog posts.</p>
-            <p>Meetings will be designed to provide value to, and welcome participation from, participants at every stage of open source readiness. Each meeting will center on a particular open source topic, introduced by a reading or presentation, followed by a discussion and "office hours" where members can raise issues and get answers. Topics will generally relate to strategy & business value, policy & process, and tools & technology.</p>
+            <h2>Welcome to the FINOS Open Source Readiness SIG!</h2>
+            <p>
+            The OSR SIG is dedicated to helping financial services firms advance their open source programs. Here's what we have to offer:</p>
+            <ul>
+              <li>
+                <strong>Meetings</strong> of the SIG are held on the first Wednesday of each month at 10am US/Eastern, and are open to anyone who would like to participate. Meetings include group discussions of open source best practices, guest presentations from open source experts, and collaborative sessions to produce resources for the industry.
+              </li>
+              <li>
+                <strong>Media</strong> from guest presentations and SIG sessions provides invaluable insights from experts and FSI colleagues on a range of topics related to open source usage, contribution, and compliance.
+              <li>
+                We produce <strong>resources</strong> to support FSI firms in developing robust open source programs, including an <a href="https://github.com/finos/OSLC-handbook">Open Source License Compliance Handbook</a> with information about complying with common open source licenses, a <a href="https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">executive whitepaper on the business value of open source</a>, and a <a href="https://github.com/finos/reference-foss-policy">reference open source policy</a> for FSI firms. 
+              </li>
+            </p>
           </div>
 
           <div className="wrapper">
-            <h2>Background</h2>
-            <p>Financial services firms face a variety of barriers, both real and perceived, that impede adoption of Open Source software and related software development practices. These obstacles include:</p>
+            <h2>Get Involved</h2>
+            <p>Interested in the SIG? Join us! Here are a few ways to get involved:</p>
             <ul>
-              <li>Corporate strategy considerations on competitive advantage and protecting trade secrets</li>
-              <li>Legal & regulatory concerns or incompatible internal policies</li>
-              <li>Inhospitable technical environments & resistance from corporate IT departments</li>
-              <li>Cultural friction & <a href="https://www.fintechfutures.com/2019/06/killing-four-myths-about-open-source-in-financial-services/">open source myths</a></li>
-            </ul>
-            <p>FINOS helps firms overcome these challenges with its Open Source Readiness Project, focused on enabling financial services organizations and employees to be first class citizens in OSS Communities. The group has produced several valuable practical resources for firms developing their open source strategy and process, listed below.</p>
-          </div>
-          <Projects />
-          <div className="wrapper">
-            <h2>Participating</h2>
-            <p>This group is open to anyone. The primary audiences are financial services firms seeking to learn more about open source readiness and companies with mature open source programs interested in sharing knowledge. While various products and solutions will be discussed at meetings, promotion of specific vendors or products is not appropriate at Project meetings or on the mailing list, nor are press and PR inquiries.</p>
-            <h3>Mailing list</h3>
-            <p>Participants are encouraged to join the Project's mailing list: <a href="mailto:osr+subscribe@finos.org">osr+subscribe@finos.org</a> (<a href="https://groups.google.com/a/finos.org/forum/#!forum/osr-regulatory-compliance">web archive</a>)</p>
+              <li>Join us for an <a href="https://github.com/finos/open-source-readiness/issues?q=is%3Aopen+is%3Aissue+label%3Ameeting">upcoming meeting</a>!</li>
+              <li>
+              Subscribe to our <a href="https://groups.google.com/a/finos.org/forum/#!forum/osr-regulatory-compliance">mailing list</a> by sending an email to <a href="mailto:osr+subscribe@finos.org">osr+subscribe@finos.org</a>, and get updates on upcoming meetings and other activity.
+              </li>
+              <li>
+                Check out our <strong>open source projects</strong> on GitHub. All of our resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers. If you have a project to propose, <a href="https://github.com/finos/open-source-readiness/issues">open a GitHub issue</a> and share your vision!
+              </li>
           </div>
         </div>
       </div>
