@@ -52,13 +52,6 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <img src="img/osr-icon-2019.png"></img>
           <ProjectTitle tagline="Special Interest Group" title={siteConfig.title} />
-          <!--
-          <PromoSection>
-            <Button href='https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us'>WhitePaper</Button>
-            <Button href='https://github.com/finos/reference-foss-policy/raw/master/bin/docx/FINOS%20Reference%20FOSS%20Policy%20v0.2.3.docx'>Reference FOSS Policy</Button>
-            <Button href="https://www.finos.org/open-source-license-compliance-handbook-download-page?hs_preview=nOUxUYUU-7982450440&hsLang=en-us">OSR HandBook</Button>
-          </PromoSection>
-          -->
         </div>
       </SplashContainer>
     );
