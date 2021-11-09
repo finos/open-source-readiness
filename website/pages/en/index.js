@@ -69,38 +69,6 @@ class Index extends React.Component {
     const Container = CompLibrary.Container;
     const GridBlock = CompLibrary.GridBlock;
 
-    const Projects = () => (
-      <Block background="white" layout="fourColumn">
-        {[
-          {
-            content: `A guide for complying with a wide range of open source licenses in common use cases. It's an invaluable resource for enabling developers to manage the most common compliance tasks without unnecessary legal and compliance review.`,
-            image: `img/check-box.svg`,
-            imageAlign: 'top',
-            title: `<a href="https://github.com/finos/OSLC-handbook">Open Source License Compliance Handbook</a>`
-          },
-          {
-            content: `A comprehensive model corporate policy for consuming, contributing to, and publishing open source software. It's a great starting point for firms adopting their first open source policy or revising an existing one.`,
-            image: `img/check-box.svg`,
-            imageAlign: 'top',
-            title: '<a href="https://github.com/finos/reference-foss-policy">Reference FOSS Policy</a>'
-          },
-          {
-            content: `Our whitepaper on Business Value of Open Source in Financial Services lays out the business case for open source engagement and is a helpful aid for pitching open source to decision-makers on the business side of finance firms.`,
-            image: `img/check-box.svg`,
-            imageAlign: 'top',
-            title: '<a href="https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">Whitepaper: Business Value of Open Source in Financial Services</a>'
-          },
-          {
-            content: `We built some high-level workflows for common open source compliance processes, along with a checklist that helps establishing an open source compliance program within your firm.`,
-            image: `img/check-box.svg`,
-            imageAlign: 'top',
-            title: '<a href="https://open-source-readiness.netlify.app/docs/compliance-checklist">Compliance checklist and workflow</a>'
-          }
-
-        ]}
-      </Block>
-    );
-
     const Block = props => (
       <Container
         padding={['bottom', 'top']}
@@ -142,7 +110,7 @@ class Index extends React.Component {
             <ul>
               <li>Join us for an <a href="https://github.com/finos/open-source-readiness/issues?q=is%3Aopen+is%3Aissue+label%3Ameeting">upcoming meeting</a>!</li>
               <li>
-              Subscribe to our <a href="https://groups.google.com/a/finos.org/forum/#!forum/osr-regulatory-compliance">mailing list</a> by sending an email to <a href="mailto:osr+subscribe@finos.org">osr+subscribe@finos.org</a>, and get updates on upcoming meetings and other activity.
+              Subscribe to our <a href="https://groups.google.com/a/finos.org/forum/#!forum/osr">mailing list</a> by sending an email to <a href="mailto:osr+subscribe@finos.org">osr+subscribe@finos.org</a>, and get updates on upcoming meetings and other activity.
               </li>
               <li>
               Contribute to our <strong><a href="/docs/resources/">resources</a> for open source programs</strong>. Most OSR resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers. If you have a project to propose, <a href="https://github.com/finos/open-source-readiness/issues">open a GitHub issue</a> and share your vision!
