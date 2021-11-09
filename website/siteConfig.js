@@ -27,8 +27,8 @@ const siteConfig = {
   // Header menu
   headerLinks: [
     {doc: 'meetings', label: 'MEETINGS'},
-    {doc: 'projects', label: 'PROJECTS'},
     {doc: 'resources', label: 'RESOURCES'},
+    {doc: 'about', label: 'ABOUT'},
     {blog: false}
   ],
 

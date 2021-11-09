@@ -1,6 +1,5 @@
 {
   "docs": {
-    "General": ["meetings", "projects", "resources"],
-    "Projects": ["oslc", "whitepaper", "foss-policy", "compliance-checklist"]
+    "General": ["meetings", "resources", "about"]
   }
 }
