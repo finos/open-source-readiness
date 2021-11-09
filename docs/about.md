@@ -18,10 +18,10 @@ Be a trusted venue for our members and community in their open source journey an
 
 ### OSR SIG Chair
 
-Andrew Aitken
+Andrew Aitken\
 *Wipro*
 
 ### FINOS OSR Lead
 
-Aaron Williamson
+Aaron Williamson\
 *Williamson Legal, PLLC*
