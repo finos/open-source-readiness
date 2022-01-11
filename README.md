@@ -1,4 +1,4 @@
-[![Slack](https://img.shields.io/badge/slack-@finos/osr-green.svg?logo=slack)](https://finos-lf.slack.com/messages/fdc3/)
+[![Slack](https://img.shields.io/badge/slack-@finos/osr-green.svg?logo=slack)](https://finos-lf.slack.com/messages/open-source-readiness/)
 
 <img align="right" width="40%" src="https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/open-source-readiness.svg">
 
