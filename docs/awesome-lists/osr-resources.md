@@ -4,7 +4,7 @@ title: OSR Resources
 sidebar_label: OSR Resources
 ---
 
-Below you can find a list of useful links and resources; you can find more on [FINOS Knowledge Base page](https://www.finos.org/knowledge-base)
+Below you can find a list of useful links and resources; you can find more on [FINOS Knowledge Base page](https://www.finos.org/knowledge-base).
 
 - [External Resources](external-resources)
 - [Trainings](trainings)
