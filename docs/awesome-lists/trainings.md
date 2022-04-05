@@ -1,5 +1,5 @@
 ---
-id: awesome-trainings
+id: trainings
 title: Trainings
 sidebar_label: Trainings
 ---

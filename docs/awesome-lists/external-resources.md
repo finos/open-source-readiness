@@ -1,5 +1,5 @@
 ---
-id: awesome-external-resources
+id: external-resources
 title: External Resources
 sidebar_label: External Resources
 ---

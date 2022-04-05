@@ -6,9 +6,8 @@
     ],
     "Awesome Lists": [
       "awesome-lists/resources",
-      "awesome-lists/awesome-resources",
-      "awesome-lists/awesome-external-resources",
-      "awesome-lists/awesome-trainings"
+      "awesome-lists/external-resources",
+      "awesome-lists/trainings"
     ]
   }
 }
