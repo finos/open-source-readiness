@@ -1,5 +1,14 @@
 {
   "docs": {
-    "General": ["meetings", "resources", "about"]
+    "General": [
+      "meetings",
+      "about"
+    ],
+    "Awesome Lists": [
+      "awesome-lists/resources",
+      "awesome-lists/awesome-resources",
+      "awesome-lists/awesome-external-resources",
+      "awesome-lists/awesome-trainings"
+    ]
   }
 }
