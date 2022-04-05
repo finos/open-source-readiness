@@ -4,9 +4,7 @@ title: External Resources
 sidebar_label: External Resources
 ---
 
-## External Resources
-
-### Similar Efforts
+## Similar Efforts
 
 - The [TODO group](https://todogroup.org/) of the Linux Foundation brings together leaders of open source programs from across industries to share knowledge and best practices about running an open source program.
 - The [OpenChain Project](https://www.openchainproject.org/) publishes an ISO standard for open source compliance programs, as well as training and educational resources for open source programs.
