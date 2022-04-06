@@ -26,6 +26,7 @@ const siteConfig = {
 
   // Header menu
   headerLinks: [
+    {doc: 'roadmap', label: 'OSR 2022 ROADMAP'},
     {doc: 'meetings', label: 'MEETINGS'},
     {doc: 'resources', label: 'RESOURCES'},
     {doc: 'about', label: 'ABOUT'},

@@ -41,3 +41,17 @@ The following lists the 2022 responsibilities of the Open Source Readiness SIG.
 - Spin off projects to address common areas of challenge as prioritized by the SIG (see point above)
 
 ### Define and own relationship with peer (e.g.Reg SIG, Innersource SIG, DevOps SIG) and upstream initiatives (e.g. TODO group, OpenSSF)
+
+# Implementing the OSR SIG Roadmap
+
+To help accelerate the OSR SIG roadmap, the following labels have been added to the OSR repo in GitHub that can be applied to GitHub Issues and Pull Requests.
+
+### Open Source Readiness GitHub Labels
+
+- `osr-relationship-building`
+- `open-source-readiness-promotion`
+- `open-source-maturity-model`
+- `reglatory-requirement`
+- `finacial-institution-challenge`
+
+These labels are available to help with the triaging of ideas, issues and feedback that are posted by the OSR SIG community.
