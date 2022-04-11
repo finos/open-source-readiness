@@ -30,7 +30,7 @@ The following lists the 2022 responsibilities of the Open Source Readiness SIG.
 ### Support the definition and evolution of a truly industry-wide OSMM
 
 - Provide / solicit ongoing Feedback and validation of OSMM ahead of FINOS OSMM launch
-- Participate and amply FINOS OSMM launch
+- Participate and amplify FINOS OSMM launch
 - Promote participants and adjacent communities to take the survey
 - Propose training / certifications to strengthen the value proposition of OSMM for all constituents
 
