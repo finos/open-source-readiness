@@ -5,6 +5,43 @@
       "meetings",
       "resources",
       "about"
+    ],
+    "OSR SIG Materials": [
+      {
+        "type": "subcategory",
+        "label": "Goals and Objectives",
+        "ids": [
+          "goals-objectives/resources"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Corporate Alignment",
+        "ids": [
+          "corporate-alignment/resources"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Community & Ecosystem",
+        "ids": [
+          "community-ecosystem/resources"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Operations",
+        "ids": [
+          "operations/resources"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Culture",
+        "ids": [
+          "culture/resources"
+        ]
+      }
     ]
   }
 }
