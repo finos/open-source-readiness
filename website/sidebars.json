@@ -41,6 +41,11 @@
           "culture/resources"
         ]
       }
+    ],
+    "OSR Resources": [
+      "osr-resources/resources",
+      "osr-resources/external-resources",
+      "osr-resources/trainings"
     ]
   }
 }

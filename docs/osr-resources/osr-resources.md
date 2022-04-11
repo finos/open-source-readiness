@@ -1,10 +1,30 @@
 ---
 id: resources
 title: OSR Resources
-sidebar_label: Resources
+sidebar_label: OSR Resources
 ---
 
-Below you can find a list of useful links and resources; you can find more on [FINOS Knowledge Base page](https://www.finos.org/knowledge-base)
+Below you can find a list of useful links and resources; you can find more on [FINOS Knowledge Base page](https://www.finos.org/knowledge-base).
+
+- [External Resources](external-resources)
+- [Trainings](trainings)
+
+## Adding and Updating OSR SIG Documentation
+
+Open Source Readiness welcomes new contributions and updates to SIG documentation.
+
+Please make your `markdown` changes and contributions to the following Open Source Readiness folder.
+
+- https://github.com/finos/open-source-readiness/tree/master/docs
+
+### How to contribute documentation using GitHub
+
+The following resources demonstrate how to edit `markdown` and contribute to projects on GitHub using pull requests.
+
+- [About writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
+- [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ## FINOS OSR Resources
 
@@ -35,16 +55,3 @@ A whitepaper laying out the business case for open source engagement. A helpful 
 We built some high-level workflows for common open source compliance processes, along with a checklist that helps establishing an open source compliance program within your firm.
 
 - [Check out](https://github.com/finos/osr-checklists) the project on GitHub
-
-## External Resources
-
-### Similar Efforts
-- The [TODO group](https://todogroup.org/) of the Linux Foundation brings together leaders of open source programs from across industries to share knowledge and best practices about running an open source program.
-- The [OpenChain Project](https://www.openchainproject.org/) publishes an ISO standard for open source compliance programs, as well as training and educational resources for open source programs.
-- GitHub's [Open Source Guides](https://opensource.guide/) provide great information about best practices for creating and maintaining successful open source projects.
-
-### Books
-- [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/resources/publications/open-source-compliance-in-the-enterprise) provides a deep dive into open source compliance practice focused on companies that distribute software containing open source components.
-
-## Trainings
-- The Linux Foundation offers a range of [Open Source Best Practices trainings](https://training.linuxfoundation.org/full-catalog/?_sft_topic_area=open-source-best-practice&utm_campaign=Membership&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8sBd1hN8oeoN5u2mBjCQOaPgA6gi67geoN9Ispzk-ohq4uptc4rnyPyj0uV65LTerRJSWh)
