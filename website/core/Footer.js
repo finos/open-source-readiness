@@ -56,13 +56,13 @@ class Footer extends React.Component {
               FINOS Website
             </a>
             <a
-              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook"
+              href="https://community.finos.org/"
               target="_blank"
               rel="noreferrer noopener">
-              Community Handbook
+              Community Microsite
             </a>
             <a
-              href="https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530783/Community+Governance"
+              href="https://community.finos.org/docs/governance/intro"
               target="_blank"
               rel="noreferrer noopener">
               Community Governance
