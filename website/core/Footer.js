@@ -62,7 +62,7 @@ class Footer extends React.Component {
               Community Microsite
             </a>
             <a
-              href="https://community.finos.org/docs/governance/intro"
+              href="https://www.finos.org/governance"
               target="_blank"
               rel="noreferrer noopener">
               Community Governance
