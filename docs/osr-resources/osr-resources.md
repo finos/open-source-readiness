@@ -1,5 +1,5 @@
 ---
-id: resources
+id: osr-resources
 title: OSR Resources
 sidebar_label: OSR Resources
 ---

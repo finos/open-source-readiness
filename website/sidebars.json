@@ -47,9 +47,11 @@
       }
     ],
     "OSR Resources": [
-      "osr-resources/resources",
+      "osr-resources/osr-resources",
       "osr-resources/external-resources",
-      "osr-resources/trainings"
+      "osr-resources/trainings",
+      "osr-resources/oslc-licenses",
+      "osr-resources/whitepaper"
     ]
   }
 }
