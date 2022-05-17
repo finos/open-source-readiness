@@ -6,7 +6,7 @@ sidebar_label: Compliance Workflows
 
 Below are some high-level workflows for common open source compliance processes. To provide a point of reference for the various steps, the workflows refer to the functional components of an open source compliance toolchain in the diagram below, produced by the Open Source Tooling group of the OpenChain Project.
 
-<img src="/img/OSS-Compliance-Toolchain-Big-Picture.png"/>
+<img class="max-width" src="https://oss-compliance-tooling.org/img/OSS-Compliance-Toolchain-Big-Picture.jfif"/>
 
 ## Continuous compliance via CI/CD (DRAFT)
 

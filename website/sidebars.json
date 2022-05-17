@@ -31,7 +31,11 @@
         "type": "subcategory",
         "label": "Operations",
         "ids": [
-          "operations/resources"
+          "operations/resources",
+          "operations/compliance-checklist",
+          "operations/compliance-workflows",
+          "operations/foss-policy",
+          "operations/oslc"
         ]
       },
       {
