@@ -31,7 +31,11 @@
         "type": "subcategory",
         "label": "Operations",
         "ids": [
-          "operations/resources"
+          "operations/resources",
+          "operations/compliance-checklist",
+          "operations/compliance-workflows",
+          "operations/foss-policy",
+          "operations/oslc"
         ]
       },
       {
@@ -43,9 +47,11 @@
       }
     ],
     "OSR Resources": [
-      "osr-resources/resources",
+      "osr-resources/osr-resources",
       "osr-resources/external-resources",
-      "osr-resources/trainings"
+      "osr-resources/trainings",
+      "osr-resources/oslc-licenses",
+      "osr-resources/whitepaper"
     ]
   }
 }

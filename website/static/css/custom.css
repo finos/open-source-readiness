@@ -156,3 +156,7 @@ article iframe {
 .nav-footer .sitemap{
   margin: 0 auto 1em;
 }
+
+img.max-width{
+  max-width: 100%;
+}
