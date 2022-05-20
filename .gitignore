@@ -1,15 +1,19 @@
+
+# vim swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+#---
+*.*~
+*~
+*.txt~
+*.md~
+*.swp
 .DS_Store
-
-# Docusaurus generated folders
-website/translated_docs/
-website/build/
-website/i18n/
-
-# Yarn build
-website/node_modules/
-
-# Generated docs
-docs/contributing.md
-
-# We use YARN
-website/package-lock.json
+~$*
