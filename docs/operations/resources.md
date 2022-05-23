@@ -8,3 +8,4 @@ sidebar_label: The Role of Operations
 - [Compliance Workflows](compliance-workflows.md)
 - [OSLC](oslc.md)
 - [FOSS Policy](foss-policy.md)
+- [Considerations and Guidance for Electronic Communications Policies and Open Source](electronic-communications.md)s
