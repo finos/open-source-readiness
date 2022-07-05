@@ -9,3 +9,4 @@ sidebar_label: The Role of Operations
 - [OSLC](oslc.md)
 - [FOSS Policy](foss-policy.md)
 - [Considerations and Guidance for Electronic Communications Policies and Open Source](electronic-communications.md)
+- [Considerations and Guidance for Records Management regards Open Source](records-management.md)
