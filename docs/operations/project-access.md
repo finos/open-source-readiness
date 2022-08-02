@@ -22,6 +22,8 @@ When applying for an exception to DLP in order to access open source projects, i
 * Links to the security policies for each project or the service that hosts it
 * Benefits of access for the firm (how will it allow you to perform your job?)
 
+Depending upon the needs of you and your team, it may be possible to acquire a blanket exception (for instance, for all of GitHub or GitLab). Check with your IT and security teams to see whether this makes more sense than a continual series of one-off exception applications.
+
 ## Potential workarounds
 
 * Workarounds
