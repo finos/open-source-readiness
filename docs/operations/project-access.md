@@ -1,13 +1,8 @@
 ---
 id: project-access
-title: TODO
-sidebar_label: TODO
+title: Working with DLP Limitations to Open Source Access
+sidebar_label: DLP and Open Source
 ---
-<!-- 
-TODO:
-* fix title, sidebar_label in head matter above
--->
-
 Companies in financial services and other highly regulated industries often face difficulties accessing open source projects. The websites or online services that host these projects may be entirely disallowed by the firm's [Data Leak Prevention](https://en.wikipedia.org/wiki/Data_loss_prevention_software) (DLP) software. Alternatively, these resources may be available in a read-only form, preventing contributions or participation in online discussions. 
 
 ## Requestion an exception
