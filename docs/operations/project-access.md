@@ -15,6 +15,8 @@ When applying for an exception to DLP in order to access open source projects, i
 * The type of access needed for each (download, read-only, read-write if you need to contribute back)
     * If you'd like to contribute back to one or more projects, concrete examples of the sort of contributions you'd make can be very helpful
 * Links to the security policies for each project or the service that hosts it
+* Links to the licenses for each project
+* Duration of the access exception (one-time? specific duration? ongoing?)
 * Benefits of access for the firm (how will it allow you to perform your job?)
 
 Depending upon the needs of you and your team, it may be possible to acquire a blanket exception (for instance, for all of GitHub or GitLab). Check with your IT and security teams to see whether this makes more sense than a continual series of one-off exception applications.
@@ -44,6 +46,3 @@ Once you've acquired approval to access upstream open source projects and IT has
 As work you're performing on behalf of the firm, these open source contributions are the intellectual property of the firm. To aid in tracking that work and intellectual property, these contributions should be made using your work email address.
 
 Most open source source code forges such as GitHub and GitLab allow users to set up multiple email addresses for use on a single account (for example, [here's the GitHub documentation for setting that up](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account)). You can then select which email address to associate with your git commits on each contribution. Alternatively, you can [set up your git config on your work computer](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-in-git) to use your work email address for all commits you make on that device.
-
-* Set up multiple emails
-* Use work email for work contributions
