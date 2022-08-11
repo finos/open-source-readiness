@@ -10,3 +10,4 @@ sidebar_label: The Role of Operations
 - [FOSS Policy](foss-policy.md)
 - [Considerations and Guidance for Electronic Communications Policies and Open Source](electronic-communications.md)
 - [Considerations and Guidance for Records Management regards Open Source](records-management.md)
+- [Working with DLP Limitations to Open Source Access](./project-access.md)
