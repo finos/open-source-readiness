@@ -36,7 +36,9 @@
           "operations/compliance-workflows",
           "operations/foss-policy",
           "operations/oslc",
-          "operations/electronic-communications"
+          "operations/electronic-communications",
+          "operations/project-access",
+          "operations/records-management"
         ]
       },
       {
