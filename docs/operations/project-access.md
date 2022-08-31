@@ -92,6 +92,7 @@ There are a number of different ways this is handled at the moment:
 - Try pressing the `.` key when viewing a GitHub repo.  You'll be taken into an online VS-Code instance where you can edit all of the project's files.  This is a simple example of a GitHub ephemeral environment - they support a more involved paid-model version which might be appropriate for your organisation.
 - See also: [GitPod](https://www.gitpod.io) and [CodeAnywhere](https://codeanywhere.com)
 - For Java developers, [EclipseChe](https://www.eclipse.org/che/)
+- [Microsoft DevBox](https://azure.microsoft.com/en-us/services/dev-box/)
 
 ### Internal Fork
 
