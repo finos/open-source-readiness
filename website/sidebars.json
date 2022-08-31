@@ -54,7 +54,8 @@
       "osr-resources/external-resources",
       "osr-resources/trainings",
       "osr-resources/oslc-licenses",
-      "osr-resources/whitepaper"
+      "osr-resources/whitepaper",
+      "osr-resources/osr-playbook"
     ]
   }
 }
