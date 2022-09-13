@@ -47,6 +47,7 @@ _Finance is not a domain traditionally comfortable with the values of Open-Sourc
 - **Gamification** Points / Rewards / Badges for the right behaviour such as doing talks, etc.
 - **Encouraging External Interaction**: e.g. covering the expenses of developers going to conferences, getting them to do talks at those conferences, asking people to attend meetups, asking people to engage with external open-source projects, giving people time to work on Open-Source.
 - **Remove The Fear**:  you have to keep messaging that contributing to Open Source is OK.  In lots of institutions, drawing attention to your work has been considered harmful.  In some institutions code exfiltration has been a sackable offence.
+- **Shift-Left of Licensing**: can you identify which OSS licenses are being used by your projects at build time, rather than once the projects are released?  (see also: SBOMs)
 
 
 ## Changing Behaviour
@@ -59,6 +60,8 @@ _Many developers lead a double life: their corporate selves and their external, 
 - **Golden Paths**:  is there a "golden path" to doing something right?  e.g. starting a new application, open-sourcing a project?  Can you make this path as simple as possible?
 - **DEVX (Developer Experience)**:  can you reduce the number of disparate sources of information (JIRA, Email, GitHub, vulnerabilities) for the developer, to reduce their cognitive load?  
 - **Networking**:  how can you put like developers together within the organisation?  Can you find out which tools+libraries developers are using, and share with them details of who else uses it, and training resources?
+- **Scorecards**: Discover are looking at building project scorecards using the data-graph from Backstage.  Can you rate the quality of the project based on documentation, licensing, observability, test coverage?  
+- **Recommendation Algorithm**: Once you have a graph of projects-technologies-developers, can you build recommendations of blog articles, training courses and technologies for developers based on what other, similar developers/projects are doing?
 
 ## Inner Source
 
@@ -83,7 +86,7 @@ _Even where contributing to Open-Source is allowed, the amount of process involv
 
 _Some tools which help OSPOs do their work._
 
-- **Backstage**:  trying to reduce the cognitive load for developers by reducing the number of streams of information they need to consume.  _tbd._
+- **Backstage**:  Builds a graph of the tech landscape by consuming other golden-sources of data, such as GitHub, Artifactory, Jenkins, JIRA, etc.   This gives you a really good high-level view of the whole landscape.   More and more sources are getting backstage plugins to allow them to connect their data.  
 - **SBOMs**: _tbd._
 - **LFX**: _tbd._
 - **cauldron.io**: _tbd._
