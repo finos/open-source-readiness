@@ -3,11 +3,11 @@ id: project-access
 title: Working with DLP Limitations to Open Source Access
 sidebar_label: DLP and Open Source
 ---
-Companies in financial services and other highly regulated industries often face difficulties accessing and contributing to open source projects. The websites or online services that host these projects may be entirely disallowed by the firm's [Data Leak Prevention](https://en.wikipedia.org/wiki/Data_loss_prevention_software) (DLP) software, which runs counter to consuming and contributing to projects hosted on public websites such as GitHub and GitLab.
+Companies in financial services and other highly regulated industries often face difficulties accessing and contributing to open source projects. The websites or online services that host these projects may be entirely disallowed by the firm's [Data Loss Prevention](https://en.wikipedia.org/wiki/Data_loss_prevention_software) (DLP) software, which runs counter to consuming and contributing to projects hosted on public websites such as GitHub and GitLab.
 
 ## The Problem
 
-Financial institutions run the risk of accidental or deliberate data exfiltration via public websites.  For example, an employee could use [Google Drive](https://drive.google.com) to upload a list of account holders, or leak internal software onto a public archive such as [GitHub](https://github.com) or [DropBox](https://dropbox.com).
+Financial institutions run the risk of accidental or deliberate data exfiltration via public websites.  For example, an employee could use [Google Drive](https://drive.google.com) to upload a list of account holders, or leak internal software onto a public archive such as [GitHub](https://github.com) or [DropBox](https://dropbox.com).  Alternatively, secrets such as passwords, keys or other details of internal infrastructure could be accidentally exposed as part of an GitHub commit.
 
 Historically, the way the institutions have dealt with this risk is via a deny list operated at the firewall/proxy level of the network.  This usually means that sites like [Facebook](https://facebook.com) or [Twitter](https://twitter.com) are not visible from the institution's network.
 
@@ -57,7 +57,7 @@ There are a number of different ways this is handled at the moment:
 #### Advantages
 
 - Depending upon the situation, the only solution to the open source access problem may be to use a personal laptop or computer to access the necessary projects. 
-- Since the employee's personal laptop doesn't contain firm-confidential information, there should be nearly zero chance of an accidental data-leakage event.
+- Since the employee's personal laptop doesn't contain firm-confidential information, there should be nearly zero chance of an accidental data-loss event.
 
 #### Disadvantages
 
