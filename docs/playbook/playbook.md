@@ -1,20 +1,18 @@
 ---
-id: osr-playbook
 title: OSR Playbook
-sidebar_label: OSR Playbook
 ---
 
-This article contains some ideas for solving common problems when starting an OSPO.  It's divided into sections according to the type of problem you are trying to solve.  Eventually, I hope that each item in the list leads to a "recipe" type article to give further clarity on how to proceed with this particular play. 
+This article contains some ideas for solving common problems when starting an OSPO.  It's divided into sections according to the type of problem you are trying to solve.  
 
 ## Funding
 
 _How to make the case for funding an OSPO within an organisation._
 
 - **Legal**: sometimes, OSPOs are started from a position of legal necessity.  Are you using appropriate licenses?  Does someone have to adjudicate which packages are allowed and which aren't?
-- **Code Duplication**: a lot of times, people need changes to an open-source project.  If you don't allow them to contribute to the original project then they're going to fork the project internally.  If you are a large organisation, you may end up with several different, incompatible forks of some open source project.  This has to be maintained.
-- **Sharing Cost**: Working on open source projects should mean that cost is amortised amongst the collaborating organisations.
-- **Many Eyes / Fewer Bugs**: Linus Torvalds makes the case for Linux that because the OS is so popular, more bugs get found (and fixed) more quickly.   Increasing the user base of any system should surface rough edges faster.
 
+- [Code Duplication](code-duplication): a lot of times, people need changes to an open-source project.  If you don't allow them to contribute to the original project then they're going to fork the project internally.  If you are a large organisation, you may end up with several different, incompatible forks of some open source project.  This has to be maintained.
+
+- **Sharing Cost**: Working on open source projects should mean that cost is amortised amongst the collaborating organisations.
 
 ## Staffing
 
@@ -22,9 +20,7 @@ _Who do you need in the OSPO?_
 
 - **Guild Model**:  ideally, you need representatives interacting with the OSPO from all the areas of business: finance, HR, Legal etc.   Several firms operate their OSPO on a "Guild Model", with staff being present in the OSPO and their line function.
 - **IP Council**:  You may need someone who is expert on software licensing if this is part of the remit of your OSPO.
-- (ask Ekow about this)
-- (also, notes from last roundtable)
-
+- [IP Policy](ip-policy): The organisation's IP Policy has a bearing on whether employees can contribute to open source.  
 
 ## Remit
 

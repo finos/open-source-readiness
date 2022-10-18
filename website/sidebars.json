@@ -54,8 +54,24 @@
       "osr-resources/external-resources",
       "osr-resources/trainings",
       "osr-resources/oslc-licenses",
-      "osr-resources/whitepaper",
-      "osr-resources/osr-playbook"
+      "osr-resources/whitepaper"
+    ],
+    "OSR Playbook" : [
+       "playbook/playbook",
+       {
+        "type": "subcategory",
+        "label": "Funding",
+        "ids": [
+          "playbook/code-duplication"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Staffing",
+        "ids": [
+          "playbook/ip-policy"
+        ]
+      }
     ]
   }
 }
