@@ -56,8 +56,8 @@
       "osr-resources/oslc-licenses",
       "osr-resources/whitepaper"
     ],
-    "OSR Playbook" : [
-       "playbook/playbook",
+    "OSR Common Problems" : [
+       "playbook/common-problems",
        {
         "type": "subcategory",
         "label": "Funding",
