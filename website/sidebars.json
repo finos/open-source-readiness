@@ -55,6 +55,23 @@
       "osr-resources/trainings",
       "osr-resources/oslc-licenses",
       "osr-resources/whitepaper"
+    ],
+    "OSR Common Problems" : [
+       "playbook/common-problems",
+       {
+        "type": "subcategory",
+        "label": "Funding",
+        "ids": [
+          "playbook/code-duplication"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Staffing",
+        "ids": [
+          "playbook/ip-policy"
+        ]
+      }
     ]
   }
 }
