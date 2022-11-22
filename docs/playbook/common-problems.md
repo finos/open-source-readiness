@@ -1,5 +1,5 @@
 ---
-title: OSR Playbook
+title: OSR Common Problems
 ---
 
 This article contains some ideas for solving common problems when starting an OSPO.  It's divided into sections according to the type of problem you are trying to solve.  
@@ -8,11 +8,14 @@ This article contains some ideas for solving common problems when starting an OS
 
 _How to make the case for funding an OSPO within an organisation._
 
-- **Legal**: sometimes, OSPOs are started from a position of legal necessity.  Are you using appropriate licenses?  Does someone have to adjudicate which packages are allowed and which aren't?
+- [Licenses](inbound-licenses): sometimes, OSPOs are started from a position of legal necessity.  Are you using code with appropriate licenses?  Does someone have to adjudicate which licenses are allowed and which aren't?
 
-- [Code Duplication](code-duplication): a lot of times, people need changes to an open-source project.  If you don't allow them to contribute to the original project then they're going to fork the project internally.  If you are a large organisation, you may end up with several different, incompatible forks of some open source project.  This has to be maintained.
+- [Maintenance Costs](code-duplication): a lot of times, people need changes to an open-source project.  If you don't allow them to contribute to the original project then they're going to fork the project internally.  If you are a large organisation, you may end up with several different, incompatible forks of some open source project.  This has to be maintained.
 
 - **Sharing Cost**: Working on open source projects should mean that cost is amortised amongst the collaborating organisations.
+
+- **Many Eyes / Fewer Bugs**: Linus Torvalds makes the case for Linux that because the OS is so popular, more bugs get found (and fixed) more quickly.   Increasing the user base of any system should surface rough edges faster.
+
 
 ## Staffing
 
@@ -81,6 +84,6 @@ _Even where contributing to Open-Source is allowed, the amount of process involv
 _Some tools which help OSPOs do their work._
 
 - **Backstage**:  Builds a graph of the tech landscape by consuming other golden-sources of data, such as GitHub, Artifactory, Jenkins, JIRA, etc.   This gives you a really good high-level view of the whole landscape.   More and more sources are getting backstage plugins to allow them to connect their data.  
-- **SBOMs**: _tbd._
+- [SBOM](https://en.wikipedia.org/wiki/Software_supply_chain)s: A way of describing the provenance and contents of a software library or package.
 - **LFX**: _tbd._
 - **cauldron.io**: _tbd._
