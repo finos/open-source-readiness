@@ -16,6 +16,9 @@ _How to make the case for funding an OSPO within an organisation._
 
 - **Many Eyes / Fewer Bugs**: Linus Torvalds makes the case for Linux that because the OS is so popular, more bugs get found (and fixed) more quickly.   Increasing the user base of any system should surface rough edges faster.
 
+- **Direction**: Banks are technology companies which rely on software.  Estimates suggest that upwards of 95% of this is open source.  Thry are completely beholden to other organisations and individuals for providing it but without an open source presence have no voice in the direction the software takes.  If an organisation's modernisation strategy is predicated on the use of open source, then there is risk in basing that strategy on something you have no control over.
+
+- [Risk](risk-based-view): OSPOs have been set up by arguing from a position of _more favourable risk_.  That is, the risks of _having_ an OSPO and open source presence are more favourable than _not having one_. 
 
 ## Staffing
 
