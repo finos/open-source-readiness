@@ -4,9 +4,9 @@ title: OSR Resources
 sidebar_label: OSR Resources
 ---
 
-## Open Source Maturity Model
+## Open Source Maturity Model (OSMM)
 
-The Open Source Maturity Model (OSMM) allows you to understand where your organization is on its open source journey by providing a snapshot of its current stage of maturity.
+The Open Source Maturity Model allows you to understand where your organization is on its open source journey by providing a snapshot of its current stage of maturity.
 
 The model is an open source project and is free to use, study, improve, and redistribute according to the license requirements.
 
