@@ -10,7 +10,7 @@ The Open Source Maturity Model allows you to understand where your organization 
 
 The model is an open source project and is free to use, study, improve, and redistribute according to the license requirements.
 
-You can take the Open Source Maturity Model survey now at https://survey.osmm.finos.org/551476 and we welcome your open source contributions on the [OSMM GitHub Repository](https://github.com/finos-labs/osmm/issues).
+You can take the Open Source Maturity Model survey now at https://survey.osmm.finos.org/551476 and we welcome your open source contributions on the [OSMM GitHub Repository](https://github.com/finos-labs/osmm/).
 
 ## Useful Links and Resources
 
