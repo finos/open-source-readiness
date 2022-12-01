@@ -26,7 +26,7 @@ const siteConfig = {
 
   // Header menu
   headerLinks: [
-    {href: 'https://survey.osmm.finos.org/551476', label: 'OPEN SOURCE MATURITY MODEL'},
+    {href:'https://survey.osmm.finos.org/551476', label: 'OPEN SOURCE MATURITY MODEL'},
     {doc: 'meetings', label: 'MEETINGS'},
     {doc: 'osr-resources/osr-resources', label: 'RESOURCES'},
     {doc: 'about', label: 'ABOUT'},
