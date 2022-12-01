@@ -62,7 +62,8 @@
         "type": "subcategory",
         "label": "Funding",
         "ids": [
-          "playbook/code-duplication"
+          "playbook/code-duplication",
+          "playbook/risk-based-view"
         ]
       },
       {
