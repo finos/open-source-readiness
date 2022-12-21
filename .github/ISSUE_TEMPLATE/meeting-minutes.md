@@ -44,11 +44,10 @@ YYYYMMDD - time
 - [ ] Action 2
 - [ ] ...
 
-### WebEx info
-- Webex: https://finos.webex.com/finos/j.php?MTID=mec6bb47084d671bc772c0652add2605c
-- Meeting number: 664 434 054
+### Zoom Details
+- https://zoom.us/j/99753528440?pwd=OEFPWkQzLy9hWlV4NmM0RC9VRjhwQT09
+- **Meeting ID:** 997 5352 8440
+- **Passcode:** 987996
 
-### Join by phone
-- +1-415-655-0003 US Toll
-- +44-20319-88141 UK Toll
-- Access code: 664 434 054
+### Join by Phone
+- Find your local number: https://zoom.us/u/adl5rhui4P
