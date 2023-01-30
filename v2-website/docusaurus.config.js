@@ -37,7 +37,7 @@ module.exports={
     "navbar": {
       "title": "FINOS Open Source Readiness",
       "logo": {
-        "src": "img/osr-icon-2019.png"
+        "src": "./static/img/osr-icon-2019.png"
       },
       "items": [
         {
