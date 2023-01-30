@@ -1,0 +1,30 @@
+{
+  "unversionedId": "bok/risks/Codebase-Risk",
+  "id": "bok/risks/Codebase-Risk",
+  "title": "Codebase-Risk",
+  "description": "Reducing Code Duplication",
+  "source": "@site/../docs/bok/risks/Codebase-Risk.md",
+  "sourceDirName": "bok/risks",
+  "slug": "/bok/risks/Codebase-Risk",
+  "permalink": "/docs/bok/risks/Codebase-Risk",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "cross-reference": {
+      "roles": "Developers, CIO-CTO, OSPO-Leads"
+    }
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Developer-Training",
+    "permalink": "/docs/bok/activities/Developer-Training"
+  },
+  "next": {
+    "title": "Data-Leakage-Risk",
+    "permalink": "/docs/bok/risks/Data-Leakage-Risk"
+  }
+}

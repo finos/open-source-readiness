@@ -1,0 +1,26 @@
+{
+  "unversionedId": "bok/roles/Risk-Officers",
+  "id": "bok/roles/Risk-Officers",
+  "title": "Risk-Officers",
+  "description": "A risk officer is responsible for identifying, assessing, and mitigating risks to an organization. They assess the potential impact of risks and develop and implement risk management strategies to minimize the potential impact of those risks.",
+  "source": "@site/../docs/bok/roles/Risk-Officers.md",
+  "sourceDirName": "bok/roles",
+  "slug": "/bok/roles/Risk-Officers",
+  "permalink": "/docs/bok/roles/Risk-Officers",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "OSPO-Leads",
+    "permalink": "/docs/bok/roles/OSPO-Leads"
+  },
+  "next": {
+    "title": "Security-Experts",
+    "permalink": "/docs/bok/roles/Security-Experts"
+  }
+}

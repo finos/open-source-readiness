@@ -1,0 +1,30 @@
+{
+  "unversionedId": "osr-resources/osr-resources",
+  "id": "osr-resources/osr-resources",
+  "title": "OSR Resources",
+  "description": "Below you can find a list of useful links and resources; you can find more on FINOS Knowledge Base page.",
+  "source": "@site/../docs/osr-resources/osr-resources.md",
+  "sourceDirName": "osr-resources",
+  "slug": "/osr-resources/",
+  "permalink": "/docs/osr-resources/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "osr-resources",
+    "title": "OSR Resources",
+    "sidebar_label": "OSR Resources"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Creating Positive Communities",
+    "permalink": "/docs/culture/resources"
+  },
+  "next": {
+    "title": "External Resources",
+    "permalink": "/docs/osr-resources/external-resources"
+  }
+}

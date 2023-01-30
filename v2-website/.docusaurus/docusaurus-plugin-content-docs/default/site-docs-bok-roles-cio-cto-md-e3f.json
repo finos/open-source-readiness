@@ -1,0 +1,26 @@
+{
+  "unversionedId": "bok/roles/CIO-CTO",
+  "id": "bok/roles/CIO-CTO",
+  "title": "CIO-CTO",
+  "description": "",
+  "source": "@site/../docs/bok/roles/CIO-CTO.md",
+  "sourceDirName": "bok/roles",
+  "slug": "/bok/roles/CIO-CTO",
+  "permalink": "/docs/bok/roles/CIO-CTO",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Staff-Risk",
+    "permalink": "/docs/bok/risks/Staff-Risk"
+  },
+  "next": {
+    "title": "Developers",
+    "permalink": "/docs/bok/roles/Developers"
+  }
+}

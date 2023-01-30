@@ -1,0 +1,30 @@
+{
+  "unversionedId": "operations/foss-policy",
+  "id": "operations/foss-policy",
+  "title": "FOSS Policy Reference",
+  "description": "This is a template for a comprehensive free and open source software (FOSS) policy for a financial services institution, including sample provisions governing the acquisition and use of FOSS, and contribution to FOSS projects.",
+  "source": "@site/../docs/operations/foss-policy.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/foss-policy",
+  "permalink": "/docs/operations/foss-policy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "foss-policy",
+    "title": "FOSS Policy Reference",
+    "sidebar_label": "FOSS Policy Reference"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Compliance Workflows",
+    "permalink": "/docs/operations/compliance-workflows"
+  },
+  "next": {
+    "title": "OSLC Handbook",
+    "permalink": "/docs/operations/oslc"
+  }
+}

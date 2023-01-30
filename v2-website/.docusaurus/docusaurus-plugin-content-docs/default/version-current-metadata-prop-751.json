@@ -1,0 +1,565 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "docs": [
+      {
+        "type": "category",
+        "label": "General",
+        "items": [
+          {
+            "type": "link",
+            "label": "Meetings",
+            "href": "/docs/meetings",
+            "docId": "meetings"
+          },
+          {
+            "type": "link",
+            "label": "About",
+            "href": "/docs/about",
+            "docId": "about"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Body Of Knowledge",
+        "items": [
+          {
+            "type": "category",
+            "label": "activities",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Developer-Training",
+                "href": "/docs/bok/activities/Developer-Training",
+                "docId": "bok/activities/Developer-Training"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "risks",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Codebase-Risk",
+                "href": "/docs/bok/risks/Codebase-Risk",
+                "docId": "bok/risks/Codebase-Risk"
+              },
+              {
+                "type": "link",
+                "label": "Data-Leakage-Risk",
+                "href": "/docs/bok/risks/Data-Leakage-Risk",
+                "docId": "bok/risks/Data-Leakage-Risk"
+              },
+              {
+                "type": "link",
+                "label": "Dependency-Risks",
+                "href": "/docs/bok/risks/Dependency-Risks",
+                "docId": "bok/risks/Dependency-Risks"
+              },
+              {
+                "type": "link",
+                "label": "Financial-Risk",
+                "href": "/docs/bok/risks/Financial-Risk",
+                "docId": "bok/risks/Financial-Risk"
+              },
+              {
+                "type": "link",
+                "label": "Legal-Risk",
+                "href": "/docs/bok/risks/Legal-Risk",
+                "docId": "bok/risks/Legal-Risk"
+              },
+              {
+                "type": "link",
+                "label": "Staff-Risk",
+                "href": "/docs/bok/risks/Staff-Risk",
+                "docId": "bok/risks/Staff-Risk"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "roles",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "CIO-CTO",
+                "href": "/docs/bok/roles/CIO-CTO",
+                "docId": "bok/roles/CIO-CTO"
+              },
+              {
+                "type": "link",
+                "label": "Developers",
+                "href": "/docs/bok/roles/Developers",
+                "docId": "bok/roles/Developers"
+              },
+              {
+                "type": "link",
+                "label": "HR-Training",
+                "href": "/docs/bok/roles/HR-Training",
+                "docId": "bok/roles/HR-Training"
+              },
+              {
+                "type": "link",
+                "label": "Legal",
+                "href": "/docs/bok/roles/Legal",
+                "docId": "bok/roles/Legal"
+              },
+              {
+                "type": "link",
+                "label": "OSPO-Leads",
+                "href": "/docs/bok/roles/OSPO-Leads",
+                "docId": "bok/roles/OSPO-Leads"
+              },
+              {
+                "type": "link",
+                "label": "Risk-Officers",
+                "href": "/docs/bok/roles/Risk-Officers",
+                "docId": "bok/roles/Risk-Officers"
+              },
+              {
+                "type": "link",
+                "label": "Security-Experts",
+                "href": "/docs/bok/roles/Security-Experts",
+                "docId": "bok/roles/Security-Experts"
+              }
+            ]
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "OSR SIG Materials",
+        "items": [
+          {
+            "type": "category",
+            "label": "Goals and Objectives",
+            "items": [
+              {
+                "type": "link",
+                "label": "Defining Corporate Objectives",
+                "href": "/docs/goals-objectives/resources",
+                "docId": "goals-objectives/resources"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Corporate Alignment",
+            "items": [
+              {
+                "type": "link",
+                "label": "Aligning Your Firm",
+                "href": "/docs/corporate-alignment/resources",
+                "docId": "corporate-alignment/resources"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Community & Ecosystem",
+            "items": [
+              {
+                "type": "link",
+                "label": "What is a Community Ecosystem?",
+                "href": "/docs/community-ecosystem/resources",
+                "docId": "community-ecosystem/resources"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Operations",
+            "items": [
+              {
+                "type": "link",
+                "label": "The Role of Operations",
+                "href": "/docs/operations/resources",
+                "docId": "operations/resources"
+              },
+              {
+                "type": "link",
+                "label": "Compliance Checklist",
+                "href": "/docs/operations/compliance-checklist",
+                "docId": "operations/compliance-checklist"
+              },
+              {
+                "type": "link",
+                "label": "Compliance Workflows",
+                "href": "/docs/operations/compliance-workflows",
+                "docId": "operations/compliance-workflows"
+              },
+              {
+                "type": "link",
+                "label": "FOSS Policy Reference",
+                "href": "/docs/operations/foss-policy",
+                "docId": "operations/foss-policy"
+              },
+              {
+                "type": "link",
+                "label": "OSLC Handbook",
+                "href": "/docs/operations/oslc",
+                "docId": "operations/oslc"
+              },
+              {
+                "type": "link",
+                "label": "Electronic Communications Policies",
+                "href": "/docs/operations/electronic-communications",
+                "docId": "operations/electronic-communications"
+              },
+              {
+                "type": "link",
+                "label": "DLP and Open Source",
+                "href": "/docs/operations/project-access",
+                "docId": "operations/project-access"
+              },
+              {
+                "type": "link",
+                "label": "Record Management Policies",
+                "href": "/docs/operations/records-management",
+                "docId": "operations/records-management"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Culture",
+            "items": [
+              {
+                "type": "link",
+                "label": "Creating Positive Communities",
+                "href": "/docs/culture/resources",
+                "docId": "culture/resources"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "OSR Resources",
+        "items": [
+          {
+            "type": "link",
+            "label": "OSR Resources",
+            "href": "/docs/osr-resources/",
+            "docId": "osr-resources/osr-resources"
+          },
+          {
+            "type": "link",
+            "label": "External Resources",
+            "href": "/docs/osr-resources/external-resources",
+            "docId": "osr-resources/external-resources"
+          },
+          {
+            "type": "link",
+            "label": "Trainings",
+            "href": "/docs/osr-resources/trainings",
+            "docId": "osr-resources/trainings"
+          },
+          {
+            "type": "link",
+            "label": "Licenses",
+            "href": "/docs/osr-resources/oslc-licenses",
+            "docId": "osr-resources/oslc-licenses"
+          },
+          {
+            "type": "link",
+            "label": "WhitePaper",
+            "href": "/docs/osr-resources/whitepaper",
+            "docId": "osr-resources/whitepaper"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "OSR Common Problems",
+        "items": [
+          {
+            "type": "link",
+            "label": "OSR Common Problems",
+            "href": "/docs/playbook/common-problems",
+            "docId": "playbook/common-problems"
+          },
+          {
+            "type": "category",
+            "label": "Funding",
+            "items": [
+              {
+                "type": "link",
+                "label": "Code Duplication",
+                "href": "/docs/playbook/code-duplication",
+                "docId": "playbook/code-duplication"
+              },
+              {
+                "type": "link",
+                "label": "Risk-Based View",
+                "href": "/docs/playbook/risk-based-view",
+                "docId": "playbook/risk-based-view"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "about": {
+      "id": "about",
+      "title": "About the OSR SIG",
+      "description": "Vision",
+      "sidebar": "docs"
+    },
+    "bok/activities/Developer-Training": {
+      "id": "bok/activities/Developer-Training",
+      "title": "Developer-Training",
+      "description": "Details of Trainings",
+      "sidebar": "docs"
+    },
+    "bok/risks/Codebase-Risk": {
+      "id": "bok/risks/Codebase-Risk",
+      "title": "Codebase-Risk",
+      "description": "Reducing Code Duplication",
+      "sidebar": "docs"
+    },
+    "bok/risks/Data-Leakage-Risk": {
+      "id": "bok/risks/Data-Leakage-Risk",
+      "title": "Data-Leakage-Risk",
+      "description": "- Financial firms are technology organisations, and all such organisations need to worry about Intellectual Property Risk.  IP Leakage can happen anywhere.",
+      "sidebar": "docs"
+    },
+    "bok/risks/Dependency-Risks": {
+      "id": "bok/risks/Dependency-Risks",
+      "title": "Dependency-Risks",
+      "description": "Software Dependency Risks",
+      "sidebar": "docs"
+    },
+    "bok/risks/Financial-Risk": {
+      "id": "bok/risks/Financial-Risk",
+      "title": "Financial-Risk",
+      "description": "Accountancy Regulations",
+      "sidebar": "docs"
+    },
+    "bok/risks/Legal-Risk": {
+      "id": "bok/risks/Legal-Risk",
+      "title": "Legal-Risk",
+      "description": "License Compliance",
+      "sidebar": "docs"
+    },
+    "bok/risks/Staff-Risk": {
+      "id": "bok/risks/Staff-Risk",
+      "title": "Staff-Risk",
+      "description": "Talent Retention",
+      "sidebar": "docs"
+    },
+    "bok/roles/CIO-CTO": {
+      "id": "bok/roles/CIO-CTO",
+      "title": "CIO-CTO",
+      "description": "",
+      "sidebar": "docs"
+    },
+    "bok/roles/Developers": {
+      "id": "bok/roles/Developers",
+      "title": "Developers",
+      "description": "Developers are responsible for designing, coding, and testing software applications. They are responsible for writing and maintaining code, troubleshooting and debugging software, and working with other developers to create and implement software solutions.",
+      "sidebar": "docs"
+    },
+    "bok/roles/HR-Training": {
+      "id": "bok/roles/HR-Training",
+      "title": "HR-Training",
+      "description": "Human Resources (HR) and training departments are responsible for the overall management of a company's human resources, including recruiting and hiring employees, managing employee benefits and compensation, and providing training and development opportunities.",
+      "sidebar": "docs"
+    },
+    "bok/roles/Legal": {
+      "id": "bok/roles/Legal",
+      "title": "Legal",
+      "description": "The legal team is responsible for providing legal advice and support to the organization. They review and draft contracts, advise on legal compliance, and represent the company in legal matters.",
+      "sidebar": "docs"
+    },
+    "bok/roles/OSPO-Leads": {
+      "id": "bok/roles/OSPO-Leads",
+      "title": "OSPO-Leads",
+      "description": "The Open Source Program Office (OSPO) is responsible for the overall management and direction of an organization's open source program. This includes managing the open source software inventory, identifying and managing legal and compliance risks, and ensuring that open source software is used in compliance with company policies and procedures.",
+      "sidebar": "docs"
+    },
+    "bok/roles/Risk-Officers": {
+      "id": "bok/roles/Risk-Officers",
+      "title": "Risk-Officers",
+      "description": "A risk officer is responsible for identifying, assessing, and mitigating risks to an organization. They assess the potential impact of risks and develop and implement risk management strategies to minimize the potential impact of those risks.",
+      "sidebar": "docs"
+    },
+    "bok/roles/Security-Experts": {
+      "id": "bok/roles/Security-Experts",
+      "title": "Security-Experts",
+      "description": "A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.",
+      "sidebar": "docs"
+    },
+    "community-ecosystem/resources": {
+      "id": "community-ecosystem/resources",
+      "title": "What is a Community Ecosystem?",
+      "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/52",
+      "sidebar": "docs"
+    },
+    "corporate-alignment/resources": {
+      "id": "corporate-alignment/resources",
+      "title": "How to align your firm",
+      "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/53",
+      "sidebar": "docs"
+    },
+    "culture/resources": {
+      "id": "culture/resources",
+      "title": "How to create a positive community",
+      "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/54",
+      "sidebar": "docs"
+    },
+    "goals-objectives/resources": {
+      "id": "goals-objectives/resources",
+      "title": "Defining Corporate Objectives",
+      "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/55",
+      "sidebar": "docs"
+    },
+    "meetings": {
+      "id": "meetings",
+      "title": "OSR Meetings",
+      "description": "Meetings of the OSR SIG are held on the first Wednesday of each month at 10am US/Eastern, and are open to anyone who would like to participate. Meetings include group discussions of open source best practices, guest presentations from open source experts, and collaborative sessions to produce resources for the industry.",
+      "sidebar": "docs"
+    },
+    "operations/compliance-checklist": {
+      "id": "operations/compliance-checklist",
+      "title": "Checklist: establishing an open source compliance program",
+      "description": "Strategy",
+      "sidebar": "docs"
+    },
+    "operations/compliance-workflows": {
+      "id": "operations/compliance-workflows",
+      "title": "Open Source Compliance Workflows",
+      "description": "Below are some high-level workflows for common open source compliance processes. To provide a point of reference for the various steps, the workflows refer to the functional components of an open source compliance toolchain in the diagram below, produced by the Open Source Tooling group of the OpenChain Project.",
+      "sidebar": "docs"
+    },
+    "operations/electronic-communications": {
+      "id": "operations/electronic-communications",
+      "title": "Considerations and Guidance for Electronic Communications Policies and Open Source",
+      "description": "<!--",
+      "sidebar": "docs"
+    },
+    "operations/foss-policy": {
+      "id": "operations/foss-policy",
+      "title": "FOSS Policy Reference",
+      "description": "This is a template for a comprehensive free and open source software (FOSS) policy for a financial services institution, including sample provisions governing the acquisition and use of FOSS, and contribution to FOSS projects.",
+      "sidebar": "docs"
+    },
+    "operations/oslc": {
+      "id": "operations/oslc",
+      "title": "OSLC Handbook",
+      "description": "This handbook provides information on how to comply with some common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some \"self-serve\" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses. This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.",
+      "sidebar": "docs"
+    },
+    "operations/project-access": {
+      "id": "operations/project-access",
+      "title": "Working with DLP Limitations to Open Source Access",
+      "description": "Companies in financial services and other highly regulated industries often face difficulties accessing open source projects. The websites or online services that host these projects may be entirely disallowed by the firm's Data Leak Prevention (DLP) software. Alternatively, these resources may be available in a read-only form, preventing contributions or participation in online discussions.",
+      "sidebar": "docs"
+    },
+    "operations/records-management": {
+      "id": "operations/records-management",
+      "title": "Considerations and Guidance for Records Management regards Open Source",
+      "description": "Financial companies do define their retention policies when comes to record management, like how email communication, internal source code, internal chat systems (all involving possible counter parties) are applied to all firm business; some of these even surveiled in real time. However, such policies only apply to what is considered firm business. As by definiton the Open Source work is not considered a firm-related business, only the firm wide communication policies that would be applied to the incoming email notifications from GitHub, would be applicable here.",
+      "sidebar": "docs"
+    },
+    "operations/resources": {
+      "id": "operations/resources",
+      "title": "The Role of Operations",
+      "description": "- Compliance Checklist",
+      "sidebar": "docs"
+    },
+    "osr-resources/external-resources": {
+      "id": "osr-resources/external-resources",
+      "title": "External Resources",
+      "description": "Similar Efforts",
+      "sidebar": "docs"
+    },
+    "osr-resources/oslc-licenses": {
+      "id": "osr-resources/oslc-licenses",
+      "title": "OSLC Handbook Licenses",
+      "description": "BSD Zero Clause License",
+      "sidebar": "docs"
+    },
+    "osr-resources/osr-resources": {
+      "id": "osr-resources/osr-resources",
+      "title": "OSR Resources",
+      "description": "Below you can find a list of useful links and resources; you can find more on FINOS Knowledge Base page.",
+      "sidebar": "docs"
+    },
+    "osr-resources/trainings": {
+      "id": "osr-resources/trainings",
+      "title": "Trainings",
+      "description": "Open Source Best Practices Trainings",
+      "sidebar": "docs"
+    },
+    "osr-resources/whitepaper": {
+      "id": "osr-resources/whitepaper",
+      "title": "Whitepaper: Business Value of Open Source in Financial Services",
+      "description": "This white paper outlines the benefits and value of open source for financial services across varying degrees of open source engagement including consumption, contribution to existing projects and open sourcing proprietary software. It also looks at the real and perceived risks and challenges to open source participation and ways to address these.",
+      "sidebar": "docs"
+    },
+    "playbook/code-duplication": {
+      "id": "playbook/code-duplication",
+      "title": "Code Duplication",
+      "description": "This article will cover:",
+      "sidebar": "docs"
+    },
+    "playbook/common-problems": {
+      "id": "playbook/common-problems",
+      "title": "OSR Common Problems",
+      "description": "This article contains some ideas for solving common problems when starting an OSPO.  It's divided into sections according to the type of problem you are trying to solve.",
+      "sidebar": "docs"
+    },
+    "playbook/risk-based-view": {
+      "id": "playbook/risk-based-view",
+      "title": "Risk-Based View",
+      "description": "Organisational change can be very hard to achieve since organisations are naturally protective of themselves and the status quo.  Setting up an OSPO and beginning an open source journey will seem like a risky and dangerous proposition for many parts of an organisation.",
+      "sidebar": "docs"
+    },
+    "projects": {
+      "id": "projects",
+      "title": "OSR Projects",
+      "description": "The Open Source Readiness SIG maintains several projects to support financial services firms' open source efforts."
+    }
+  }
+}

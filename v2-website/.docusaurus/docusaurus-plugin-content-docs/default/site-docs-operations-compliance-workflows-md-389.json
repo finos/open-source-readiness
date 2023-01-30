@@ -1,0 +1,30 @@
+{
+  "unversionedId": "operations/compliance-workflows",
+  "id": "operations/compliance-workflows",
+  "title": "Open Source Compliance Workflows",
+  "description": "Below are some high-level workflows for common open source compliance processes. To provide a point of reference for the various steps, the workflows refer to the functional components of an open source compliance toolchain in the diagram below, produced by the Open Source Tooling group of the OpenChain Project.",
+  "source": "@site/../docs/operations/compliance-workflows.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/compliance-workflows",
+  "permalink": "/docs/operations/compliance-workflows",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "compliance-workflows",
+    "title": "Open Source Compliance Workflows",
+    "sidebar_label": "Compliance Workflows"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Compliance Checklist",
+    "permalink": "/docs/operations/compliance-checklist"
+  },
+  "next": {
+    "title": "FOSS Policy Reference",
+    "permalink": "/docs/operations/foss-policy"
+  }
+}

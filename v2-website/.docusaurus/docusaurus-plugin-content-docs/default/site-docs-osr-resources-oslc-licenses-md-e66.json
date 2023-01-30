@@ -1,0 +1,30 @@
+{
+  "unversionedId": "osr-resources/oslc-licenses",
+  "id": "osr-resources/oslc-licenses",
+  "title": "OSLC Handbook Licenses",
+  "description": "BSD Zero Clause License",
+  "source": "@site/../docs/osr-resources/oslc-licenses.md",
+  "sourceDirName": "osr-resources",
+  "slug": "/osr-resources/oslc-licenses",
+  "permalink": "/docs/osr-resources/oslc-licenses",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "oslc-licenses",
+    "title": "OSLC Handbook Licenses",
+    "sidebar_label": "Licenses"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Trainings",
+    "permalink": "/docs/osr-resources/trainings"
+  },
+  "next": {
+    "title": "WhitePaper",
+    "permalink": "/docs/osr-resources/whitepaper"
+  }
+}

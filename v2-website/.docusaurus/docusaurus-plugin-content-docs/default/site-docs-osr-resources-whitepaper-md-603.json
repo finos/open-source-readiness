@@ -1,0 +1,30 @@
+{
+  "unversionedId": "osr-resources/whitepaper",
+  "id": "osr-resources/whitepaper",
+  "title": "Whitepaper: Business Value of Open Source in Financial Services",
+  "description": "This white paper outlines the benefits and value of open source for financial services across varying degrees of open source engagement including consumption, contribution to existing projects and open sourcing proprietary software. It also looks at the real and perceived risks and challenges to open source participation and ways to address these.",
+  "source": "@site/../docs/osr-resources/whitepaper.md",
+  "sourceDirName": "osr-resources",
+  "slug": "/osr-resources/whitepaper",
+  "permalink": "/docs/osr-resources/whitepaper",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "whitepaper",
+    "title": "Whitepaper: Business Value of Open Source in Financial Services",
+    "sidebar_label": "WhitePaper"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Licenses",
+    "permalink": "/docs/osr-resources/oslc-licenses"
+  },
+  "next": {
+    "title": "OSR Common Problems",
+    "permalink": "/docs/playbook/common-problems"
+  }
+}

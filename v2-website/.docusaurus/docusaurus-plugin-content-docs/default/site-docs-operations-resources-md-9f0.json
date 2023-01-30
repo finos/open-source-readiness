@@ -1,0 +1,30 @@
+{
+  "unversionedId": "operations/resources",
+  "id": "operations/resources",
+  "title": "The Role of Operations",
+  "description": "- Compliance Checklist",
+  "source": "@site/../docs/operations/resources.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/resources",
+  "permalink": "/docs/operations/resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "resources",
+    "title": "The Role of Operations",
+    "sidebar_label": "The Role of Operations"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "What is a Community Ecosystem?",
+    "permalink": "/docs/community-ecosystem/resources"
+  },
+  "next": {
+    "title": "Compliance Checklist",
+    "permalink": "/docs/operations/compliance-checklist"
+  }
+}

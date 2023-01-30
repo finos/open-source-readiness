@@ -1,0 +1,8 @@
+---
+
+---
+
+
+## Details of Trainings
+
+tbd

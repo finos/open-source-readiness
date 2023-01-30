@@ -1,0 +1,30 @@
+{
+  "unversionedId": "operations/project-access",
+  "id": "operations/project-access",
+  "title": "Working with DLP Limitations to Open Source Access",
+  "description": "Companies in financial services and other highly regulated industries often face difficulties accessing open source projects. The websites or online services that host these projects may be entirely disallowed by the firm's Data Leak Prevention (DLP) software. Alternatively, these resources may be available in a read-only form, preventing contributions or participation in online discussions.",
+  "source": "@site/../docs/operations/project-access.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/project-access",
+  "permalink": "/docs/operations/project-access",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "project-access",
+    "title": "Working with DLP Limitations to Open Source Access",
+    "sidebar_label": "DLP and Open Source"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Electronic Communications Policies",
+    "permalink": "/docs/operations/electronic-communications"
+  },
+  "next": {
+    "title": "Record Management Policies",
+    "permalink": "/docs/operations/records-management"
+  }
+}

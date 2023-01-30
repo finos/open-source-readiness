@@ -1,0 +1,30 @@
+{
+  "unversionedId": "operations/compliance-checklist",
+  "id": "operations/compliance-checklist",
+  "title": "Checklist: establishing an open source compliance program",
+  "description": "Strategy",
+  "source": "@site/../docs/operations/compliance-checklist.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/compliance-checklist",
+  "permalink": "/docs/operations/compliance-checklist",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "compliance-checklist",
+    "title": "Checklist: establishing an open source compliance program",
+    "sidebar_label": "Compliance Checklist"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "The Role of Operations",
+    "permalink": "/docs/operations/resources"
+  },
+  "next": {
+    "title": "Compliance Workflows",
+    "permalink": "/docs/operations/compliance-workflows"
+  }
+}

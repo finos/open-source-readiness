@@ -1,0 +1,30 @@
+{
+  "unversionedId": "corporate-alignment/resources",
+  "id": "corporate-alignment/resources",
+  "title": "How to align your firm",
+  "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/53",
+  "source": "@site/../docs/corporate-alignment/resources.md",
+  "sourceDirName": "corporate-alignment",
+  "slug": "/corporate-alignment/resources",
+  "permalink": "/docs/corporate-alignment/resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "resources",
+    "title": "How to align your firm",
+    "sidebar_label": "Aligning Your Firm"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Defining Corporate Objectives",
+    "permalink": "/docs/goals-objectives/resources"
+  },
+  "next": {
+    "title": "What is a Community Ecosystem?",
+    "permalink": "/docs/community-ecosystem/resources"
+  }
+}

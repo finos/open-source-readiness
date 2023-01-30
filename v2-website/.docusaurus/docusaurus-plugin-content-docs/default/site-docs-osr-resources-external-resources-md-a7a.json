@@ -1,0 +1,30 @@
+{
+  "unversionedId": "osr-resources/external-resources",
+  "id": "osr-resources/external-resources",
+  "title": "External Resources",
+  "description": "Similar Efforts",
+  "source": "@site/../docs/osr-resources/external-resources.md",
+  "sourceDirName": "osr-resources",
+  "slug": "/osr-resources/external-resources",
+  "permalink": "/docs/osr-resources/external-resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "external-resources",
+    "title": "External Resources",
+    "sidebar_label": "External Resources"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "OSR Resources",
+    "permalink": "/docs/osr-resources/"
+  },
+  "next": {
+    "title": "Trainings",
+    "permalink": "/docs/osr-resources/trainings"
+  }
+}

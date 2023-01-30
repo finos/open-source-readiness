@@ -1,0 +1,26 @@
+{
+  "unversionedId": "bok/risks/Financial-Risk",
+  "id": "bok/risks/Financial-Risk",
+  "title": "Financial-Risk",
+  "description": "Accountancy Regulations",
+  "source": "@site/../docs/bok/risks/Financial-Risk.md",
+  "sourceDirName": "bok/risks",
+  "slug": "/bok/risks/Financial-Risk",
+  "permalink": "/docs/bok/risks/Financial-Risk",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dependency-Risks",
+    "permalink": "/docs/bok/risks/Dependency-Risks"
+  },
+  "next": {
+    "title": "Legal-Risk",
+    "permalink": "/docs/bok/risks/Legal-Risk"
+  }
+}

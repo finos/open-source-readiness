@@ -7,30 +7,30 @@
     ],
     "OSR SIG Materials": [
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Goals and Objectives",
-        "ids": [
+        "items": [
           "goals-objectives/resources"
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Corporate Alignment",
-        "ids": [
+        "items": [
           "corporate-alignment/resources"
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Community & Ecosystem",
-        "ids": [
+        "items": [
           "community-ecosystem/resources"
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Operations",
-        "ids": [
+        "items": [
           "operations/resources",
           "operations/compliance-checklist",
           "operations/compliance-workflows",
@@ -42,9 +42,9 @@
         ]
       },
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Culture",
-        "ids": [
+        "items": [
           "culture/resources"
         ]
       }
@@ -59,18 +59,11 @@
     "OSR Common Problems" : [
        "playbook/common-problems",
        {
-        "type": "subcategory",
+        "type": "category",
         "label": "Funding",
-        "ids": [
+        "items": [
           "playbook/code-duplication",
           "playbook/risk-based-view"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Staffing",
-        "ids": [
-          "playbook/ip-policy"
         ]
       }
     ]

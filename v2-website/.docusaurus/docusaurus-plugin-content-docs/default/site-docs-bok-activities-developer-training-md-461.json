@@ -1,0 +1,26 @@
+{
+  "unversionedId": "bok/activities/Developer-Training",
+  "id": "bok/activities/Developer-Training",
+  "title": "Developer-Training",
+  "description": "Details of Trainings",
+  "source": "@site/../docs/bok/activities/Developer-Training.md",
+  "sourceDirName": "bok/activities",
+  "slug": "/bok/activities/Developer-Training",
+  "permalink": "/docs/bok/activities/Developer-Training",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "About",
+    "permalink": "/docs/about"
+  },
+  "next": {
+    "title": "Codebase-Risk",
+    "permalink": "/docs/bok/risks/Codebase-Risk"
+  }
+}

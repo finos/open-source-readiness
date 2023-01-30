@@ -1,0 +1,30 @@
+{
+  "unversionedId": "operations/oslc",
+  "id": "operations/oslc",
+  "title": "OSLC Handbook",
+  "description": "This handbook provides information on how to comply with some common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some \"self-serve\" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses. This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.",
+  "source": "@site/../docs/operations/oslc.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/oslc",
+  "permalink": "/docs/operations/oslc",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "oslc",
+    "title": "OSLC Handbook",
+    "sidebar_label": "OSLC Handbook"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "FOSS Policy Reference",
+    "permalink": "/docs/operations/foss-policy"
+  },
+  "next": {
+    "title": "Electronic Communications Policies",
+    "permalink": "/docs/operations/electronic-communications"
+  }
+}

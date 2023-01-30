@@ -1,0 +1,26 @@
+{
+  "unversionedId": "bok/risks/Staff-Risk",
+  "id": "bok/risks/Staff-Risk",
+  "title": "Staff-Risk",
+  "description": "Talent Retention",
+  "source": "@site/../docs/bok/risks/Staff-Risk.md",
+  "sourceDirName": "bok/risks",
+  "slug": "/bok/risks/Staff-Risk",
+  "permalink": "/docs/bok/risks/Staff-Risk",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Legal-Risk",
+    "permalink": "/docs/bok/risks/Legal-Risk"
+  },
+  "next": {
+    "title": "CIO-CTO",
+    "permalink": "/docs/bok/roles/CIO-CTO"
+  }
+}

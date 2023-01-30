@@ -1,0 +1,26 @@
+{
+  "unversionedId": "bok/risks/Dependency-Risks",
+  "id": "bok/risks/Dependency-Risks",
+  "title": "Dependency-Risks",
+  "description": "Software Dependency Risks",
+  "source": "@site/../docs/bok/risks/Dependency-Risks.md",
+  "sourceDirName": "bok/risks",
+  "slug": "/bok/risks/Dependency-Risks",
+  "permalink": "/docs/bok/risks/Dependency-Risks",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data-Leakage-Risk",
+    "permalink": "/docs/bok/risks/Data-Leakage-Risk"
+  },
+  "next": {
+    "title": "Financial-Risk",
+    "permalink": "/docs/bok/risks/Financial-Risk"
+  }
+}
