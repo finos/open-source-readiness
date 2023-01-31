@@ -1,5 +1,7 @@
 ---
-
+tags: 
+  - HR/Training (Role)
+  - CIO/CTO (Role)
 ---
 
 

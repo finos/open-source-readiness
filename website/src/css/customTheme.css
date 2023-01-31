@@ -28,4 +28,5 @@ html[data-theme='light'] .footer-strap {
 
 html[data-theme='light'] .footer-copyright {
   color: #dddddd;
+  font-size: smaller;
 }

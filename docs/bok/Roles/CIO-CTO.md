@@ -1,5 +1,7 @@
 ---
 title: CTO / CIO
+tags: 
+  - CIO/CTO (Role)
 ---
 The Chief Technology Officer (CTO) or Chief Information Officer (CIO) is responsible for the overall technology strategy and direction of an organization. They are responsible for ensuring that technology supports the business goals and objectives of the company. This includes managing the technology budget, selecting and implementing new technology, and ensuring the security and integrity of the company's data.
 

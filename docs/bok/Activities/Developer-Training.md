@@ -1,5 +1,8 @@
 ---
-
+title: Developer Training
+tags: 
+  - Developer (Role)
+  - Data Leakage (Risk)
 ---
 
 

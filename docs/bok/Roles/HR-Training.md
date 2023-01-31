@@ -1,5 +1,7 @@
 ---
 title: Human Resources and Training
+tags:
+  - HR/Training (Role)
 ---
 
 Human Resources (HR) and training departments are responsible for the overall management of a company's human resources, including recruiting and hiring employees, managing employee benefits and compensation, and providing training and development opportunities.

@@ -1,6 +1,8 @@
 ---
-cross-reference: 
-  roles: Developers, CIO-CTO, OSPO-Leads
+title: Codebase Risk
+tags: 
+  - Developer (Role)
+  - CIO/CTO (Role)
 ---
 
 ## Reducing Code Duplication

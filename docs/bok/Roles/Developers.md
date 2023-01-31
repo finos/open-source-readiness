@@ -1,5 +1,6 @@
 ---
-
+tags: 
+  - Developer (Role)
 ---
 Developers are responsible for designing, coding, and testing software applications. They are responsible for writing and maintaining code, troubleshooting and debugging software, and working with other developers to create and implement software solutions.
 

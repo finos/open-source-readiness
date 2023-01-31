@@ -1,5 +1,7 @@
 ---
 title: Legal Team
+tags:
+  - Legal (Role)
 ---
 
 The legal team is responsible for providing legal advice and support to the organization. They review and draft contracts, advise on legal compliance, and represent the company in legal matters.
