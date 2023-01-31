@@ -7,6 +7,8 @@ website/i18n/
 
 # Yarn build
 website/node_modules/
+v2-website/node_modules/
+
 
 # Generated docs
 docs/contributing.md
