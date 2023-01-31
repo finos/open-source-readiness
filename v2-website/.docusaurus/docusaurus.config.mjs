@@ -32,7 +32,7 @@ export default {
         },
         "blog": {},
         "theme": {
-          "customCss": "./static/css/custom.css"
+          "customCss": "src/css/customTheme.css"
         }
       }
     ]
@@ -42,7 +42,8 @@ export default {
     "navbar": {
       "title": "FINOS Open Source Readiness",
       "logo": {
-        "src": "./static/img/osr-icon-2019.png"
+        "alt": "Open Source Readiness Logo",
+        "src": "img/osr-icon-2019.png"
       },
       "items": [
         {
@@ -59,6 +60,11 @@ export default {
           "to": "docs/about",
           "label": "ABOUT",
           "position": "left"
+        },
+        {
+          "to": "https://survey.osmm.finos.org/551476",
+          "label": "OPEN SOURCE MATURITY MODEL",
+          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -67,18 +73,60 @@ export default {
     "footer": {
       "links": [
         {
-          "title": "Community",
+          "title": "Docs",
           "items": [
             {
-              "label": "Twitter",
-              "to": "https://twitter.com/FinosFoundation"
+              "label": "OSR Resources",
+              "to": "docs/osr-resources"
+            },
+            {
+              "label": "OSR Common Problems",
+              "to": "docs/playbook/common-problems"
+            },
+            {
+              "label": "Body of Knowledge",
+              "to": "docs/bok/Body-of-Knowledge"
+            }
+          ]
+        },
+        {
+          "title": "FINOS",
+          "items": [
+            {
+              "label": "FINOS Website",
+              "to": "https://www.finos.org"
+            },
+            {
+              "label": "Community Microsite",
+              "to": "https://community.finos.org"
+            },
+            {
+              "label": "Community Governance",
+              "to": "https://www.finos.org/governance"
+            }
+          ]
+        },
+        {
+          "title": "More",
+          "items": [
+            {
+              "html": "<a href=\"https://github.com/finos/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/finos/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
+            },
+            {
+              "html": "<a href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
+            },
+            {
+              "label": "LinkedIn",
+              "to": "https://www.linkedin.com/company/finosfoundation/"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Open Source Readiness - FINOS",
+      "copyright": "<span class=\"footer-strap\">Proud member of the Fintech Open Source Foundation</span><br/><br/><span class=\"footer-copyright\">Copyright © 2023 Open Source Readiness - FINOS</span>",
       "logo": {
-        "src": "img/osr-icon-2019.png"
+        "src": "img/finos_wordmark.svg",
+        "alt": "FINOS Logo",
+        "width": 50
       },
       "style": "light"
     },

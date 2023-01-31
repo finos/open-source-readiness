@@ -1,7 +1,7 @@
 {
   "unversionedId": "bok/roles/HR-Training",
   "id": "bok/roles/HR-Training",
-  "title": "HR-Training",
+  "title": "Human Resources and Training",
   "description": "Human Resources (HR) and training departments are responsible for the overall management of a company's human resources, including recruiting and hiring employees, managing employee benefits and compensation, and providing training and development opportunities.",
   "source": "@site/../docs/bok/roles/HR-Training.md",
   "sourceDirName": "bok/roles",
@@ -13,14 +13,16 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Human Resources and Training"
+  },
   "sidebar": "docs",
   "previous": {
     "title": "Developers",
     "permalink": "/docs/bok/roles/Developers"
   },
   "next": {
-    "title": "Legal",
+    "title": "Legal Team",
     "permalink": "/docs/bok/roles/Legal"
   }
 }

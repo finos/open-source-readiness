@@ -1,7 +1,7 @@
 {
   "unversionedId": "bok/roles/Security-Experts",
   "id": "bok/roles/Security-Experts",
-  "title": "Security-Experts",
+  "title": "Security Experts",
   "description": "A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.",
   "source": "@site/../docs/bok/roles/Security-Experts.md",
   "sourceDirName": "bok/roles",
@@ -13,10 +13,12 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Security Experts"
+  },
   "sidebar": "docs",
   "previous": {
-    "title": "Risk-Officers",
+    "title": "Risk Officers",
     "permalink": "/docs/bok/roles/Risk-Officers"
   },
   "next": {

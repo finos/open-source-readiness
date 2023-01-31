@@ -1,7 +1,7 @@
 {
   "unversionedId": "bok/roles/Legal",
   "id": "bok/roles/Legal",
-  "title": "Legal",
+  "title": "Legal Team",
   "description": "The legal team is responsible for providing legal advice and support to the organization. They review and draft contracts, advise on legal compliance, and represent the company in legal matters.",
   "source": "@site/../docs/bok/roles/Legal.md",
   "sourceDirName": "bok/roles",
@@ -13,14 +13,16 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Legal Team"
+  },
   "sidebar": "docs",
   "previous": {
-    "title": "HR-Training",
+    "title": "Human Resources and Training",
     "permalink": "/docs/bok/roles/HR-Training"
   },
   "next": {
-    "title": "OSPO-Leads",
+    "title": "OSPO Leads",
     "permalink": "/docs/bok/roles/OSPO-Leads"
   }
 }

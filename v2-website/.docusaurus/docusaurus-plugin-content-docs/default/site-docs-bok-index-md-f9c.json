@@ -1,0 +1,26 @@
+{
+  "unversionedId": "bok/index",
+  "id": "bok/index",
+  "title": "index",
+  "description": "Introduction to the body of knowledge",
+  "source": "@site/../docs/bok/index.md",
+  "sourceDirName": "bok",
+  "slug": "/bok/",
+  "permalink": "/docs/bok/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Developer-Training",
+    "permalink": "/docs/bok/activities/Developer-Training"
+  },
+  "next": {
+    "title": "Codebase-Risk",
+    "permalink": "/docs/bok/risks/Codebase-Risk"
+  }
+}

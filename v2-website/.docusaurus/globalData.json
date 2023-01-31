@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "meetings",
+          "mainDocId": "index",
           "docs": [
             {
               "id": "about",
@@ -18,6 +18,11 @@
             {
               "id": "bok/activities/Developer-Training",
               "path": "/docs/bok/activities/Developer-Training",
+              "sidebar": "docs"
+            },
+            {
+              "id": "bok/Body-Of-Knowledge",
+              "path": "/docs/bok/Body-Of-Knowledge",
               "sidebar": "docs"
             },
             {
@@ -104,6 +109,10 @@
               "id": "goals-objectives/resources",
               "path": "/docs/goals-objectives/resources",
               "sidebar": "docs"
+            },
+            {
+              "id": "index",
+              "path": "/docs/"
             },
             {
               "id": "meetings",

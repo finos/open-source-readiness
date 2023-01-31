@@ -1,7 +1,7 @@
 {
   "unversionedId": "bok/roles/OSPO-Leads",
   "id": "bok/roles/OSPO-Leads",
-  "title": "OSPO-Leads",
+  "title": "OSPO Leads",
   "description": "The Open Source Program Office (OSPO) is responsible for the overall management and direction of an organization's open source program. This includes managing the open source software inventory, identifying and managing legal and compliance risks, and ensuring that open source software is used in compliance with company policies and procedures.",
   "source": "@site/../docs/bok/roles/OSPO-Leads.md",
   "sourceDirName": "bok/roles",
@@ -13,14 +13,16 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "OSPO Leads"
+  },
   "sidebar": "docs",
   "previous": {
-    "title": "Legal",
+    "title": "Legal Team",
     "permalink": "/docs/bok/roles/Legal"
   },
   "next": {
-    "title": "Risk-Officers",
+    "title": "Risk Officers",
     "permalink": "/docs/bok/roles/Risk-Officers"
   }
 }

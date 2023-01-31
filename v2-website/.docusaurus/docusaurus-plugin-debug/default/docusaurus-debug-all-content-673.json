@@ -43,8 +43,8 @@
                 "permalink": "/docs/meetings"
               },
               "next": {
-                "title": "Developer-Training",
-                "permalink": "/docs/bok/activities/Developer-Training"
+                "title": "Body-Of-Knowledge",
+                "permalink": "/docs/bok/Body-Of-Knowledge"
               }
             },
             {
@@ -65,12 +65,38 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "About",
-                "permalink": "/docs/about"
+                "title": "Body-Of-Knowledge",
+                "permalink": "/docs/bok/Body-Of-Knowledge"
               },
               "next": {
                 "title": "Codebase-Risk",
                 "permalink": "/docs/bok/risks/Codebase-Risk"
+              }
+            },
+            {
+              "unversionedId": "bok/Body-Of-Knowledge",
+              "id": "bok/Body-Of-Knowledge",
+              "title": "Body-Of-Knowledge",
+              "description": "Introduction to the body of knowledge",
+              "source": "@site/../docs/bok/Body-Of-Knowledge.md",
+              "sourceDirName": "bok",
+              "slug": "/bok/Body-Of-Knowledge",
+              "permalink": "/docs/bok/Body-Of-Knowledge",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "About",
+                "permalink": "/docs/about"
+              },
+              "next": {
+                "title": "Developer-Training",
+                "permalink": "/docs/bok/activities/Developer-Training"
               }
             },
             {
@@ -229,15 +255,15 @@
                 "permalink": "/docs/bok/risks/Legal-Risk"
               },
               "next": {
-                "title": "CIO-CTO",
+                "title": "CTO / CIO",
                 "permalink": "/docs/bok/roles/CIO-CTO"
               }
             },
             {
               "unversionedId": "bok/roles/CIO-CTO",
               "id": "bok/roles/CIO-CTO",
-              "title": "CIO-CTO",
-              "description": "",
+              "title": "CTO / CIO",
+              "description": "The Chief Technology Officer (CTO) or Chief Information Officer (CIO) is responsible for the overall technology strategy and direction of an organization. They are responsible for ensuring that technology supports the business goals and objectives of the company. This includes managing the technology budget, selecting and implementing new technology, and ensuring the security and integrity of the company's data.",
               "source": "@site/../docs/bok/roles/CIO-CTO.md",
               "sourceDirName": "bok/roles",
               "slug": "/bok/roles/CIO-CTO",
@@ -248,7 +274,9 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "CTO / CIO"
+              },
               "sidebar": "docs",
               "previous": {
                 "title": "Staff-Risk",
@@ -277,18 +305,18 @@
               "frontMatter": {},
               "sidebar": "docs",
               "previous": {
-                "title": "CIO-CTO",
+                "title": "CTO / CIO",
                 "permalink": "/docs/bok/roles/CIO-CTO"
               },
               "next": {
-                "title": "HR-Training",
+                "title": "Human Resources and Training",
                 "permalink": "/docs/bok/roles/HR-Training"
               }
             },
             {
               "unversionedId": "bok/roles/HR-Training",
               "id": "bok/roles/HR-Training",
-              "title": "HR-Training",
+              "title": "Human Resources and Training",
               "description": "Human Resources (HR) and training departments are responsible for the overall management of a company's human resources, including recruiting and hiring employees, managing employee benefits and compensation, and providing training and development opportunities.",
               "source": "@site/../docs/bok/roles/HR-Training.md",
               "sourceDirName": "bok/roles",
@@ -300,21 +328,23 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Human Resources and Training"
+              },
               "sidebar": "docs",
               "previous": {
                 "title": "Developers",
                 "permalink": "/docs/bok/roles/Developers"
               },
               "next": {
-                "title": "Legal",
+                "title": "Legal Team",
                 "permalink": "/docs/bok/roles/Legal"
               }
             },
             {
               "unversionedId": "bok/roles/Legal",
               "id": "bok/roles/Legal",
-              "title": "Legal",
+              "title": "Legal Team",
               "description": "The legal team is responsible for providing legal advice and support to the organization. They review and draft contracts, advise on legal compliance, and represent the company in legal matters.",
               "source": "@site/../docs/bok/roles/Legal.md",
               "sourceDirName": "bok/roles",
@@ -326,21 +356,23 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Legal Team"
+              },
               "sidebar": "docs",
               "previous": {
-                "title": "HR-Training",
+                "title": "Human Resources and Training",
                 "permalink": "/docs/bok/roles/HR-Training"
               },
               "next": {
-                "title": "OSPO-Leads",
+                "title": "OSPO Leads",
                 "permalink": "/docs/bok/roles/OSPO-Leads"
               }
             },
             {
               "unversionedId": "bok/roles/OSPO-Leads",
               "id": "bok/roles/OSPO-Leads",
-              "title": "OSPO-Leads",
+              "title": "OSPO Leads",
               "description": "The Open Source Program Office (OSPO) is responsible for the overall management and direction of an organization's open source program. This includes managing the open source software inventory, identifying and managing legal and compliance risks, and ensuring that open source software is used in compliance with company policies and procedures.",
               "source": "@site/../docs/bok/roles/OSPO-Leads.md",
               "sourceDirName": "bok/roles",
@@ -352,21 +384,23 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "OSPO Leads"
+              },
               "sidebar": "docs",
               "previous": {
-                "title": "Legal",
+                "title": "Legal Team",
                 "permalink": "/docs/bok/roles/Legal"
               },
               "next": {
-                "title": "Risk-Officers",
+                "title": "Risk Officers",
                 "permalink": "/docs/bok/roles/Risk-Officers"
               }
             },
             {
               "unversionedId": "bok/roles/Risk-Officers",
               "id": "bok/roles/Risk-Officers",
-              "title": "Risk-Officers",
+              "title": "Risk Officers",
               "description": "A risk officer is responsible for identifying, assessing, and mitigating risks to an organization. They assess the potential impact of risks and develop and implement risk management strategies to minimize the potential impact of those risks.",
               "source": "@site/../docs/bok/roles/Risk-Officers.md",
               "sourceDirName": "bok/roles",
@@ -378,21 +412,23 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Risk Officers"
+              },
               "sidebar": "docs",
               "previous": {
-                "title": "OSPO-Leads",
+                "title": "OSPO Leads",
                 "permalink": "/docs/bok/roles/OSPO-Leads"
               },
               "next": {
-                "title": "Security-Experts",
+                "title": "Security Experts",
                 "permalink": "/docs/bok/roles/Security-Experts"
               }
             },
             {
               "unversionedId": "bok/roles/Security-Experts",
               "id": "bok/roles/Security-Experts",
-              "title": "Security-Experts",
+              "title": "Security Experts",
               "description": "A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.",
               "source": "@site/../docs/bok/roles/Security-Experts.md",
               "sourceDirName": "bok/roles",
@@ -404,10 +440,12 @@
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
               "formattedLastUpdatedAt": "Oct 14, 2018",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Security Experts"
+              },
               "sidebar": "docs",
               "previous": {
-                "title": "Risk-Officers",
+                "title": "Risk Officers",
                 "permalink": "/docs/bok/roles/Risk-Officers"
               },
               "next": {
@@ -527,13 +565,30 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Security-Experts",
+                "title": "Security Experts",
                 "permalink": "/docs/bok/roles/Security-Experts"
               },
               "next": {
                 "title": "Aligning Your Firm",
                 "permalink": "/docs/corporate-alignment/resources"
               }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "index",
+              "description": "Welcome to the FINOS Open Source Readiness SIG!",
+              "source": "@site/../docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
             },
             {
               "unversionedId": "meetings",
@@ -1076,6 +1131,10 @@
                 "type": "category",
                 "label": "Body Of Knowledge",
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "bok/Body-Of-Knowledge"
+                  },
                   {
                     "type": "category",
                     "label": "activities",

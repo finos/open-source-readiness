@@ -1,5 +1,5 @@
 ---
-
+title: Risk Officers
 ---
 A risk officer is responsible for identifying, assessing, and mitigating risks to an organization. They assess the potential impact of risks and develop and implement risk management strategies to minimize the potential impact of those risks.
 

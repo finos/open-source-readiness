@@ -34,6 +34,12 @@
         "label": "Body Of Knowledge",
         "items": [
           {
+            "type": "link",
+            "label": "Body-Of-Knowledge",
+            "href": "/docs/bok/Body-Of-Knowledge",
+            "docId": "bok/Body-Of-Knowledge"
+          },
+          {
             "type": "category",
             "label": "activities",
             "collapsible": true,
@@ -99,7 +105,7 @@
             "items": [
               {
                 "type": "link",
-                "label": "CIO-CTO",
+                "label": "CTO / CIO",
                 "href": "/docs/bok/roles/CIO-CTO",
                 "docId": "bok/roles/CIO-CTO"
               },
@@ -111,31 +117,31 @@
               },
               {
                 "type": "link",
-                "label": "HR-Training",
+                "label": "Human Resources and Training",
                 "href": "/docs/bok/roles/HR-Training",
                 "docId": "bok/roles/HR-Training"
               },
               {
                 "type": "link",
-                "label": "Legal",
+                "label": "Legal Team",
                 "href": "/docs/bok/roles/Legal",
                 "docId": "bok/roles/Legal"
               },
               {
                 "type": "link",
-                "label": "OSPO-Leads",
+                "label": "OSPO Leads",
                 "href": "/docs/bok/roles/OSPO-Leads",
                 "docId": "bok/roles/OSPO-Leads"
               },
               {
                 "type": "link",
-                "label": "Risk-Officers",
+                "label": "Risk Officers",
                 "href": "/docs/bok/roles/Risk-Officers",
                 "docId": "bok/roles/Risk-Officers"
               },
               {
                 "type": "link",
-                "label": "Security-Experts",
+                "label": "Security Experts",
                 "href": "/docs/bok/roles/Security-Experts",
                 "docId": "bok/roles/Security-Experts"
               }
@@ -352,6 +358,12 @@
       "description": "Details of Trainings",
       "sidebar": "docs"
     },
+    "bok/Body-Of-Knowledge": {
+      "id": "bok/Body-Of-Knowledge",
+      "title": "Body-Of-Knowledge",
+      "description": "Introduction to the body of knowledge",
+      "sidebar": "docs"
+    },
     "bok/risks/Codebase-Risk": {
       "id": "bok/risks/Codebase-Risk",
       "title": "Codebase-Risk",
@@ -390,8 +402,8 @@
     },
     "bok/roles/CIO-CTO": {
       "id": "bok/roles/CIO-CTO",
-      "title": "CIO-CTO",
-      "description": "",
+      "title": "CTO / CIO",
+      "description": "The Chief Technology Officer (CTO) or Chief Information Officer (CIO) is responsible for the overall technology strategy and direction of an organization. They are responsible for ensuring that technology supports the business goals and objectives of the company. This includes managing the technology budget, selecting and implementing new technology, and ensuring the security and integrity of the company's data.",
       "sidebar": "docs"
     },
     "bok/roles/Developers": {
@@ -402,31 +414,31 @@
     },
     "bok/roles/HR-Training": {
       "id": "bok/roles/HR-Training",
-      "title": "HR-Training",
+      "title": "Human Resources and Training",
       "description": "Human Resources (HR) and training departments are responsible for the overall management of a company's human resources, including recruiting and hiring employees, managing employee benefits and compensation, and providing training and development opportunities.",
       "sidebar": "docs"
     },
     "bok/roles/Legal": {
       "id": "bok/roles/Legal",
-      "title": "Legal",
+      "title": "Legal Team",
       "description": "The legal team is responsible for providing legal advice and support to the organization. They review and draft contracts, advise on legal compliance, and represent the company in legal matters.",
       "sidebar": "docs"
     },
     "bok/roles/OSPO-Leads": {
       "id": "bok/roles/OSPO-Leads",
-      "title": "OSPO-Leads",
+      "title": "OSPO Leads",
       "description": "The Open Source Program Office (OSPO) is responsible for the overall management and direction of an organization's open source program. This includes managing the open source software inventory, identifying and managing legal and compliance risks, and ensuring that open source software is used in compliance with company policies and procedures.",
       "sidebar": "docs"
     },
     "bok/roles/Risk-Officers": {
       "id": "bok/roles/Risk-Officers",
-      "title": "Risk-Officers",
+      "title": "Risk Officers",
       "description": "A risk officer is responsible for identifying, assessing, and mitigating risks to an organization. They assess the potential impact of risks and develop and implement risk management strategies to minimize the potential impact of those risks.",
       "sidebar": "docs"
     },
     "bok/roles/Security-Experts": {
       "id": "bok/roles/Security-Experts",
-      "title": "Security-Experts",
+      "title": "Security Experts",
       "description": "A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.",
       "sidebar": "docs"
     },
@@ -453,6 +465,11 @@
       "title": "Defining Corporate Objectives",
       "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/55",
       "sidebar": "docs"
+    },
+    "index": {
+      "id": "index",
+      "title": "index",
+      "description": "Welcome to the FINOS Open Source Readiness SIG!"
     },
     "meetings": {
       "id": "meetings",

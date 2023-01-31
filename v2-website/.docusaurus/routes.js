@@ -39,8 +39,13 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd6c'),
+    component: ComponentCreator('/docs', 'f32'),
     routes: [
+      {
+        path: '/docs/',
+        component: ComponentCreator('/docs/', 'a6b'),
+        exact: true
+      },
       {
         path: '/docs/about',
         component: ComponentCreator('/docs/about', '6f0'),
@@ -50,6 +55,12 @@ export default [
       {
         path: '/docs/bok/activities/Developer-Training',
         component: ComponentCreator('/docs/bok/activities/Developer-Training', '6f5'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/docs/bok/Body-Of-Knowledge',
+        component: ComponentCreator('/docs/bok/Body-Of-Knowledge', 'd57'),
         exact: true,
         sidebar: "docs"
       },

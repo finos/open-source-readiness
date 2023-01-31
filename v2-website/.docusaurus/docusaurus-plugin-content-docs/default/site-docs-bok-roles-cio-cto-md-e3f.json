@@ -1,8 +1,8 @@
 {
   "unversionedId": "bok/roles/CIO-CTO",
   "id": "bok/roles/CIO-CTO",
-  "title": "CIO-CTO",
-  "description": "",
+  "title": "CTO / CIO",
+  "description": "The Chief Technology Officer (CTO) or Chief Information Officer (CIO) is responsible for the overall technology strategy and direction of an organization. They are responsible for ensuring that technology supports the business goals and objectives of the company. This includes managing the technology budget, selecting and implementing new technology, and ensuring the security and integrity of the company's data.",
   "source": "@site/../docs/bok/roles/CIO-CTO.md",
   "sourceDirName": "bok/roles",
   "slug": "/bok/roles/CIO-CTO",
@@ -13,7 +13,9 @@
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
   "formattedLastUpdatedAt": "Oct 14, 2018",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "CTO / CIO"
+  },
   "sidebar": "docs",
   "previous": {
     "title": "Staff-Risk",
