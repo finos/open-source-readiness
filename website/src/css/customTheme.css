@@ -15,9 +15,11 @@
 
 html[data-theme='light'] {
   --ifm-navbar-background-color: #0086bf; 
-  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-color: #dddddd;
+  --ifm-navbar-link-hover-color: #ffffff;
   --ifm-footer-background-color: #0086bf; 
   --ifm-footer-title-color: #ffffff;
+  --ifm-footer-link-hover-color: #eeeeee;
   --ifm-footer-link-color: #dddddd;
 }  
 

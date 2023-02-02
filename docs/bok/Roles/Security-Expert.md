@@ -1,5 +1,5 @@
 ---
-title: Security Experts
+title: Security Expert
 tag:
   - Security Expert (Role)
 ---

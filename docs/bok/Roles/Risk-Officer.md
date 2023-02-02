@@ -1,5 +1,5 @@
 ---
-title: Risk Officers
+title: Risk Officer
 tags:
   - Codebase Risk
   - Data Leakage Risk

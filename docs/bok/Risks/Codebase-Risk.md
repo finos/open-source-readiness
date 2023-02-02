@@ -5,6 +5,8 @@ tags:
   - CIO/CTO (Role)
 ---
 
+Codebase Risk is 
+
 ## Reducing Code Duplication
 
  - The [Code Duplication](code-duplication) article already describes the maintainance costs associated with internal forks of projects, and in passing discusses how this also presents a security risk.

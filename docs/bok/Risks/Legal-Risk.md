@@ -1,4 +1,5 @@
 ---
+title: Legal Risk
 tags:
   - Legal Risk
   - Legal (Role)

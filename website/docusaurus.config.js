@@ -41,26 +41,6 @@ module.exports={
         "src": "img/osr-icon-2019.png"
       },
       "items": [
-        {
-          "to": "docs/meetings",
-          "label": "MEETINGS",
-          "position": "left"
-        },
-        {
-          "to": "docs/osr-resources/osr-resources",
-          "label": "RESOURCES",
-          "position": "left"
-        },
-        {
-          "to": "docs/about",
-          "label": "ABOUT",
-          "position": "left"
-        },
-        {
-          "to": "https://survey.osmm.finos.org/551476",
-          "label": 'OPEN SOURCE MATURITY MODEL',
-          "position": "left"
-        }
       ]
     },
     "image": "img/undraw_online.svg",
@@ -80,6 +60,11 @@ module.exports={
             {
               "label": "Body of Knowledge",
               "to": "docs/bok/Body-of-Knowledge"
+            },
+            {
+              "to": "https://survey.osmm.finos.org/551476",
+              "label": 'Open Source Maturity Model',
+              "position": "left"
             }
           ]
         },
