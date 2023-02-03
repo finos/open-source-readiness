@@ -1,5 +1,5 @@
 ---
-title: CTO / CIO
+title: CTO/CIO
 tags: 
   - CIO/CTO (Role)
 ---
