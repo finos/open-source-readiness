@@ -17,7 +17,7 @@ The Open Source Readiness Special Interest Group (OSR SIG) is dedicated to helpi
 
 Interested in the SIG? Join us! Here are a few ways to get involved:
 
-- Join us for an **[Unpcoming Meeting](https://github.com/finos/open-source-readiness/issues?q=is%3Aopen+is%3Aissue+label%3Ameeting)**
+- Join us for an **[Upcoming Meeting](https://github.com/finos/open-source-readiness/issues?q=is%3Aopen+is%3Aissue+label%3Ameeting)**
 
 - Subscribe to our **[mailing list](https://groups.google.com/a/finos.org/forum/#!forum/osr)** by sending an email to **[mailto:osr+subscribe@finos.org](mailto:osr+subscribe@finos.org)** and get updates on upcoming meetings and other activity.
 
