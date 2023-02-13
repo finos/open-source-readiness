@@ -71,10 +71,9 @@ Open source licenses differ by the permissions they give, the limitations they r
 
 GitHub provides a useful summary for most of the popular licenses when you view the license.  For example:
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |
-| **GNU Affero General Public License v3.0**<br><br>##### <br><br>##### <br><br>##### | Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available. | ##### Permissions<br><br>* Commercial use<br>* Modification<br>* Distribution<br>* Patent use<br>* Private use | ##### Limitations<br><br>* Liability<br>* Warranty | ##### Conditions<br><br>* License and copyright notice<br>* State changes<br>* Disclose source<br>* Network use is distribution<br>* Same license |
-| ### Apache License 2.0 | A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code. | ##### Permissions<br><br>	Commercial use<br>	<br>	Modification<br>	<br>	Distribution<br>	<br>	Patent use<br>	<br>	Private use | ##### Limitations<br><br>	Trademark use<br>	<br>	Liability<br>	<br>	Warranty | ##### Conditions<br><br>	License and copyright notice<br>	<br>	State changes |
+![GitHub's License Summary Card 1](github-license-summary-affero.png)
+
+![GitHub's License Summary Card 2](github-license-summary-apache.png)
 
 Both of these licenses are open source, however the Apache License 2.0 is much more compatible with private/corporate software development as there is no condition that _derived works are also open source._ The important take-away here is that open source licenses can differ widely in what they require and legal counsel will need to be sought to define which are acceptable.
 
