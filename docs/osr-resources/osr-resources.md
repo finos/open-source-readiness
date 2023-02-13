@@ -4,6 +4,16 @@ title: OSR Resources
 sidebar_label: OSR Resources
 ---
 
+## Open Source Maturity Model (OSMM)
+
+The Open Source Maturity Model allows you to understand where your organization is on its open source journey by providing a snapshot of its current stage of maturity.
+
+The model is an open source project and is free to use, study, improve, and redistribute according to the license requirements.
+
+You can take the Open Source Maturity Model survey now at https://survey.osmm.finos.org/551476 and we welcome your open source contributions on the [OSMM GitHub Repository](https://github.com/finos-labs/osmm/).
+
+## Useful Links and Resources
+
 Below you can find a list of useful links and resources; you can find more on [FINOS Knowledge Base page](https://www.finos.org/knowledge-base).
 
 - [External Resources](external-resources)
