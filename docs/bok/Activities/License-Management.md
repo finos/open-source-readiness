@@ -69,7 +69,7 @@ Open source licenses differ by the permissions they give, the limitations they r
 
 ### GitHub's Summary
 
-GitHub provides a useful summary for most of the popular licenses when you view the license.  For example:
+GitHub provides a useful summary for most of the popular licenses when you view the LICENSE file in the repository.  For example:
 
 ![GitHub's License Summary Card 1](github-license-summary-affero.png)
 
