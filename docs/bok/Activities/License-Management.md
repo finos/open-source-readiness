@@ -1,8 +1,9 @@
 ---
-title: License Management
+title: License Compliance Management
 tags: 
   - OSPO (Role)
   - Developer (Role)
+  - Legal Risk
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:
@@ -33,8 +34,6 @@ It is expected that developers would set up these tools to run on the CI/CD pipe
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
 Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called an SBOM.  There are various tools you can use to identify licenses across an estate of projects such as [FOSSA](https://fossa.com), [Mend](https://www.mend.io) and [Snyk](https://snyk.io).
-
-License Identification is can be done as a part of [Software Composition Analysis](security/Software-Composition-Analysis).
 
 ### License Identifiers
 
@@ -105,5 +104,5 @@ FINOS provides a categorization around acceptable software licenses which may be
 ## Final Points to Consider
 
 * The enterprise should have a _process_ in place for tracking open-source components, monitoring license changes, and ensuring compliance with all license obligations.  That is, it is important that license management is performed continually:  dependencies can change license, projects can take on new dependencies, risk appetite can change. 
-* Cataloguing the usage of third-party open source software should be done as part of **Software Composition Analysis,** and so license usage should be considered part of this analysis.
+* Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](Security-Testing.md#software-composition-analysis-sca) and so license usage should be considered part of this analysis.
 
