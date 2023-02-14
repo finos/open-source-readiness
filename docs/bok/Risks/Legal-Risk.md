@@ -5,10 +5,6 @@ tags:
   - Legal (Role)
 ---
 
-
-
-
-
 ## License Compliance
 
  - What consitutes an acceptable license depends on the software, the license and the context it is used in.  
