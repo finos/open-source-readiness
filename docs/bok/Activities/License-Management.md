@@ -106,3 +106,7 @@ FINOS provides a categorization around acceptable software licenses which may be
 * The enterprise should have a _process_ in place for tracking open-source components, monitoring license changes, and ensuring compliance with all license obligations.  That is, it is important that license management is performed continually:  dependencies can change license, projects can take on new dependencies, risk appetite can change. 
 * Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](Security-Testing.md#software-composition-analysis-sca) and so license usage should be considered part of this analysis.
 
+## Further Reading
+
+- [Why Open Source License Management Matters (Mend)](https://www.mend.io/resources/blog/why-open-source-license-management-matters/)
+
