@@ -108,5 +108,16 @@ FINOS provides a categorization around acceptable software licenses which may be
 
 ## Further Reading
 
+- **[Why Open Source License Management Matters (Mend)](https://www.mend.io/resources/blog/why-open-source-license-management-matters/)**. Vendor article on why enterprises should resource license management. Duplicated [here](https://www.linkedin.com/pulse/why-open-source-license-management-matters-mend-io).
+
+- **[The 8 Best Free and Open Source License Management Software](https://www.goodfirms.co/license-management-software/blog/best-free-open-source-license-management-software)**. Opinionated discussion of what to look for in license management tooling.
+
+- **[The Legal Side of Open Source](https://opensource.guide/legal/)**. A very basic introduction on why open source software needs a license.  
+
+- **[Open Source Software: A Legal Guide](https://www.legal.io/articles/5170736/Open-Source-Software-a-legal-guide)**. Documentation aimed at legal teams to explain their responsibilities towards open source.
+
+- **[A Developer's Guide To Open Source Licenses](https://www.toptal.com/open-source/developers-guide-to-open-source-licenses)**.  Delves into the details of what developers need to know about licenses.
+
+
 - [Why Open Source License Management Matters (Mend)](https://www.mend.io/resources/blog/why-open-source-license-management-matters/)
 
