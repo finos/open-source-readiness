@@ -1,0 +1,34 @@
+
+/**
+ * You can override the default Infima variables here.
+ * Note: this is not a complete list of --ifm- variables.
+ */
+ :root {
+  --ifm-color-primary: #0086bf; 
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+}
+
+html[data-theme='light'] {
+  --ifm-navbar-background-color: #0086bf; 
+  --ifm-navbar-link-color: #dddddd;
+  --ifm-navbar-link-hover-color: #ffffff;
+  --ifm-footer-background-color: #0086bf; 
+  --ifm-footer-title-color: #ffffff;
+  --ifm-footer-link-hover-color: #eeeeee;
+  --ifm-footer-link-color: #dddddd;
+}  
+
+html[data-theme='light'] .footer-strap {
+  font-weight: bold;
+  color:  #ffffff;
+}
+
+html[data-theme='light'] .footer-copyright {
+  color: #dddddd;
+  font-size: smaller;
+}

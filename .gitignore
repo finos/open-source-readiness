@@ -4,9 +4,12 @@
 website/translated_docs/
 website/build/
 website/i18n/
+website/.docusaurus
 
 # Yarn build
 website/node_modules/
+v2-website/node_modules/
+
 
 # Generated docs
 docs/contributing.md

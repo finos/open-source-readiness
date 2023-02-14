@@ -18,15 +18,15 @@ This is a blanket license with no conditions.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col style={{'width': '100%'}} />
 </colgroup>
 <thead>
-<tr class="header">
+<tr className="header">
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr className="odd">
 <td><p>This license places no conditions whatsoever on using, copyring, modifying or distributing the software for any purpose.</p></td>
 </tr>
 </tbody>
@@ -51,12 +51,12 @@ and by using AGPL-3.0-only or AGPL-3.0-or-later.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -124,7 +124,7 @@ and by using AGPL-3.0-only or AGPL-3.0-or-later.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -145,7 +145,7 @@ and by using AGPL-3.0-only or AGPL-3.0-or-later.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -163,8 +163,8 @@ and by using AGPL-3.0-only or AGPL-3.0-or-later.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -196,12 +196,12 @@ List).
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -259,12 +259,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -308,7 +308,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -339,12 +339,12 @@ sections 5-8 and relevant definitions for more details.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -404,7 +404,7 @@ sections 5-8 and relevant definitions for more details.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -433,12 +433,12 @@ details.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -498,7 +498,7 @@ details.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -516,7 +516,7 @@ details.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -543,12 +543,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -590,12 +590,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -644,12 +644,12 @@ essentially BSD-3-Clause.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -691,12 +691,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -746,12 +746,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -789,12 +789,12 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -854,7 +854,7 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -875,7 +875,7 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -893,7 +893,7 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -924,12 +924,12 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -989,7 +989,7 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1010,7 +1010,7 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1028,7 +1028,7 @@ infringement clause and choice of law.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1061,12 +1061,12 @@ List).
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1124,12 +1124,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1189,7 +1189,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1210,7 +1210,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1228,7 +1228,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1252,12 +1252,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1309,7 +1309,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1330,7 +1330,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1348,7 +1348,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1382,12 +1382,12 @@ or GPL-2.0-or-later
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1455,7 +1455,7 @@ or GPL-2.0-or-later
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1473,7 +1473,7 @@ or GPL-2.0-or-later
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1506,12 +1506,12 @@ GPLv2](http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009)
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1587,7 +1587,7 @@ GPLv2](http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009)
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1608,7 +1608,7 @@ GPLv2](http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009)
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1626,8 +1626,8 @@ GPLv2](http://copyleft.org/guide/comprehensive-gpl-guidech10.html#x13-610009)
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1657,12 +1657,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1709,12 +1709,12 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1782,7 +1782,7 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1800,7 +1800,7 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1818,8 +1818,8 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1850,12 +1850,12 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1923,7 +1923,7 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1941,7 +1941,7 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1959,8 +1959,8 @@ addition of section 6(b) in LGPL-2.1.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -1991,7 +1991,7 @@ license with the terms listed here.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2009,8 +2009,8 @@ license with the terms listed here.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2040,12 +2040,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2081,7 +2081,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2105,12 +2105,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2152,12 +2152,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2199,12 +2199,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2264,7 +2264,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2282,7 +2282,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2300,7 +2300,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2333,12 +2333,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2398,7 +2398,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2422,7 +2422,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2440,7 +2440,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2479,12 +2479,12 @@ GPL-3.0-or-later which is difficult to capture, please see sections
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2536,7 +2536,7 @@ GPL-3.0-or-later which is difficult to capture, please see sections
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2557,7 +2557,7 @@ GPL-3.0-or-later which is difficult to capture, please see sections
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2575,7 +2575,7 @@ GPL-3.0-or-later which is difficult to capture, please see sections
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2605,12 +2605,12 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2662,7 +2662,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2690,12 +2690,12 @@ compliance is the same as BSD-3-Clause.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2744,12 +2744,12 @@ specific copyright holder.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2835,12 +2835,12 @@ the acknowledment text.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2892,7 +2892,7 @@ the acknowledment text.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2920,12 +2920,12 @@ the acknowledment text.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -2977,7 +2977,7 @@ the acknowledment text.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -3006,12 +3006,12 @@ given" to the copyright holder, but given the non-obligatory nature of
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -3065,12 +3065,12 @@ Python as it has developed over the years.
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 4%" />
-<col style="width: 50%" />
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -3114,7 +3114,7 @@ Python as it has developed over the years.
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -3138,7 +3138,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">
@@ -3162,7 +3162,7 @@ SPDX License ID
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col/>
 </colgroup>
 <thead>
 <tr class="header">

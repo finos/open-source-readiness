@@ -1,6 +1,6 @@
 ---
 id: compliance-checklist
-title: Checklist: establishing an open source compliance program
+title: "Checklist: establishing an open source compliance program"
 sidebar_label: Compliance Checklist
 ---
 
