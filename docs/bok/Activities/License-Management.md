@@ -117,7 +117,3 @@ FINOS provides a categorization around acceptable software licenses which may be
 - **[Open Source Software: A Legal Guide](https://www.legal.io/articles/5170736/Open-Source-Software-a-legal-guide)**. Documentation aimed at legal teams to explain their responsibilities towards open source.
 
 - **[A Developer's Guide To Open Source Licenses](https://www.toptal.com/open-source/developers-guide-to-open-source-licenses)**.  Delves into the details of what developers need to know about licenses.
-
-
-- [Why Open Source License Management Matters (Mend)](https://www.mend.io/resources/blog/why-open-source-license-management-matters/)
-
