@@ -33,7 +33,7 @@ It is expected that developers would set up these tools to run on the CI/CD pipe
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
-Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../Artifacts/SBOM).  There are various tools you can use to identify licenses across an estate of projects such as [FOSSA](https://fossa.com), [Mend](https://www.mend.io) and [Snyk](https://snyk.io).
+Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../Artifacts/SBOMs).  There are various tools you can use to identify licenses across an estate of projects such as [FOSSA](https://fossa.com), [Mend](https://www.mend.io) and [Snyk](https://snyk.io).
 
 ### License Identifiers
 
