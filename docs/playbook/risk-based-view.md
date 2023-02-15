@@ -10,7 +10,7 @@ If you want to change an organisation you will need to convince people that what
  - Provides an approach to mitigating the risks
  - Presents a _preferable risk profile_ to the status quo
 
-## The Benefits
+## The Benefits
 
 1.  Steering The Technology
 
