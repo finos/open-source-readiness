@@ -25,7 +25,7 @@ Individual software projects often include direct and transitive dependencies on
 
 2. [License Checker](https://www.npmjs.com/package/license-checker) which is an NPM module you can use in node projects to list the licenses used by the project.
 
-3. [FINOS' Security Scanning](https://github.com/finos/security-scanning#License-reporting-and-scanning) project provides GitHub Actions which will report licenses on Java (Maven), Node and Python projects via the use of [license-maven-plugin,](https://www.mojohaus.org/license-maven-plugin/) [node-license-validator](https://www.npmjs.com/package/node-license-validator) and [pip-licenses](https://pypi.org/project/pip-licenses/) respectively.
+3. [FINOS' Security Scanning](https://github.com/finos/security-scanning#License-reporting-and-scanning) project provides GitHub Actions which will report licenses on Java (Maven), Node and Python projects via the use of [license-maven-plugin](https://www.mojohaus.org/license-maven-plugin/), [node-license-validator](https://www.npmjs.com/package/node-license-validator) and [pip-licenses](https://pypi.org/project/pip-licenses/) respectively.
 	
 It is expected that developers would set up these tools to run on the CI/CD pipeline of their projects and generate license reports every time a build is run.
 
