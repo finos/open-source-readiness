@@ -4,8 +4,6 @@ tags:
   - OSPO (Role)
 ---
 
-## Synopsis
-
 An OSPO maturity model featuring case studies from Bloomberg, Comcast, and Porsche.
 
 ## Details

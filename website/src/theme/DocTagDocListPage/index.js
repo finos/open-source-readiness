@@ -38,7 +38,7 @@ function DocItem({doc}) {
   );
 }
 
-const categoryStubs = [ 'Risks', 'Roles', 'Activities', 'Training'];
+const categoryStubs = [ 'Risks', 'Roles', 'OSMM', 'Activities', 'Training', 'Artifacts'];
 
 function sortDocs(items, exclude) {
   const out = {}
@@ -67,7 +67,7 @@ function sortDocs(items, exclude) {
 function mainDoc(tag) {
   const index = tag.label.indexOf(" (");
   if (index > -1) {
-    const tagWithoutBracket = 'CIO/CTO'; // tag.label.substr(0, index);
+    const tagWithoutBracket = tag.label.substr(0, index);
     tag.items.forEach(t => {
       if (t.title.indexOf(tagWithoutBracket) > -1) {
         return t;

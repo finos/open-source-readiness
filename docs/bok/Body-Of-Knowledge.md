@@ -14,3 +14,5 @@ The OSBOK project aims to provide a reference point for individuals, organizatio
 The OSBOK is designed as a collection of interconnecting documents and categories which can be browsed in any order.   The following diagram summarizes the information architecture:
 
 ![Information Architecture](/img/bok/information-architecture.png)
+
+<BokTagList tag="Introduction" geff="sfda" />
