@@ -4,6 +4,7 @@ tags:
   - OSPO (Role)
   - Developer (Role)
   - Legal Risk
+  - Level 2 (OSMM)
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:
@@ -70,9 +71,9 @@ Open source licenses differ by the permissions they give, the limitations they r
 
 GitHub provides a useful summary for most of the popular licenses when you view the LICENSE file in the repository.  For example:
 
-![GitHub's License Summary Card 1](github-license-summary-affero.png)
+![GitHub's License Summary Card 1](/img/bok/github-license-summary-affero.png)
 
-![GitHub's License Summary Card 2](github-license-summary-apache.png)
+![GitHub's License Summary Card 2](/img/bok/github-license-summary-apache.png)
 
 Both of these licenses are open source, however the Apache License 2.0 is much more compatible with private/corporate software development as there is no condition that _derived works are also open source._ The important take-away here is that open source licenses can differ widely in what they require and legal counsel will need to be sought to define which are acceptable.
 
