@@ -5,15 +5,12 @@ tags:
   - Legal (Role)
 ---
 
-
-
-
-
 ## License Compliance
 
  - What consitutes an acceptable license depends on the software, the license and the context it is used in.  
  - For this reason, it is difficult to get (say the legal department) to review each license and make a blanket decision on each one.
  - Again - look to tooling to help mitigate this risk.  Can software project's build be failed because the wrong licenses are included in the codebase?
+ - See [License Compliance Management](../Activities/License-Management.md)
 
 ## Cross-Border Obligations
 

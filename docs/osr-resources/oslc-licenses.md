@@ -4,7 +4,6 @@ title: OSLC Handbook Licenses
 sidebar_label: Licenses
 ---
 
-
 BSD Zero Clause License
 -----------------------
 
