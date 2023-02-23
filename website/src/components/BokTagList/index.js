@@ -15,14 +15,18 @@ function DocItem({doc}) {
   }
   
 
-export default function BokTagList({tag}) {
+export default function BokTagList(props) {
     const allTags = usePluginData('category-listing');
-    const oneTag = allTags[tag];
+    const oneTag = allTags[props.tag] ?? [];
+    const filter = props.filter ?? ''
+
 
     return (
-        <div id="soo">   
+        <div class="bok-tag-list" key={props.tag}>   
             {
-               oneTag.map(d => <DocItem doc={d} />)
+               oneTag
+                .filter(d => d.permalink.indexOf(filter) > -1) 
+                .map(d => <DocItem key={d} doc={d} />)
             }
         </div>
     );

@@ -2,6 +2,9 @@
 title: "Level 4: Engagement & Hosting"
 sidebar_label: Level 4
 sidebar_position: 4
+tags:
+  - Level 4 (OSMM)
+  - OSMM
 ---
 
 At this level, an organization has a well-managed process for open source software.  Open source is culturally embedded in the organisation and its value is understood.  At this level _the organisation itself_ is contributing to open source software. 
@@ -32,3 +35,6 @@ At this level, an organisation might work closely with an open source foundation
 
     > At Stage 3, organizations initiate and then host or act as primary sponsors of OSS projects. They will dedicate one or more FTEs to a project, and they accept responsibility for nurturing a project community and ensuring its health. They don’t confuse this level of organizational commitment with individual employees who decide to open-source their projects
 
+## OSMM Level 4 Expected Activities
+
+<BokTagList tag="Level 4 (OSMM)" filter="Activities" />

@@ -25,3 +25,7 @@ tags:
 - In February 2022, the [TODO Group](todogroup.org) (a sub-foundation of the Linux Foundation) published "[The Evolution of the Open Source Program Office (OSPO)](https://www.linuxfoundation.org/research/the-evolution-of-the-open-source-program-office-ospo)" describing a five-level [OSPO](../Roles/OSPO) maturity model (Stages 0-4) based on its work with Bloomberg, Comcast and Porsche.  
 
 Fortunately, there is common agreement between these two models about what practices are expected at each level.  Here, we adopt a 1-5 numbering scheme as this is more consistent with the original and most well-known maturity model, [CMMI](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration).
+
+## The Five Levels
+
+<BokTagList tag="OSMM" filter="OSMM" />

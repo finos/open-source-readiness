@@ -2,6 +2,9 @@
 title: "Level 1: Ad-Hoc Usage"
 sidebar_label: Level 1
 sidebar_position: 1
+tags:
+  - Level 1 (OSMM)
+  - OSMM
 ---
 At this level, an organization has ad hoc or informal practices for managing open source software. There is no formal policy or process in place for managing open source software, and its use is left up to individual developers. The organization has limited visibility into open source use and does not keep track of the software used.
 
@@ -18,8 +21,6 @@ At this level, an organization has ad hoc or informal practices for managing ope
     > [This level] is about using OSS and competences in using OSS. It covers technical ability and experience with OSS. Plus developing some understanding and awareness of OSS.
 
 
-## Related Articles
+## Level 1 Expected Activities
 
-<BokTagList tag="Level 1 (OSMM)" />
-
-done
+<BokTagList tag="Level 1 (OSMM)" filter="Activities" />
