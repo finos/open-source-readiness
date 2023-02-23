@@ -10,6 +10,8 @@ module.exports = async function myPlugin(context, options) {
         allVersions.forEach(version => {
             const docs = version.docs;
 
+            //console.log(JSON.stringify(docs));
+
             // build the mapping of tags to docs
             const tagToDocMap = {};
             docs.forEach(doc => {
@@ -20,7 +22,9 @@ module.exports = async function myPlugin(context, options) {
                     const shortForm = {
                         title: doc.title,
                         permalink: doc.permalink,
-                        description: doc.description
+                        description: doc.description,
+                        order: doc.sidebarPosition ?? 0,
+                        tags: doc.tags
                     }
 
                     collection.push(shortForm);
