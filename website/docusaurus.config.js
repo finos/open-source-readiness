@@ -32,7 +32,9 @@ module.exports={
       }
     ]
   ],
-  "plugins": [],
+  "plugins": [
+    './src/plugin/category-listing'
+  ],
   "themeConfig": {
     "navbar": {
       "title": "FINOS Open Source Readiness",
