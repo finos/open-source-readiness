@@ -3,6 +3,7 @@ title: License Compliance Management
 tags: 
   - OSPO (Role)
   - Developer (Role)
+  - Legal (Role)
   - Legal Risk
   - Level 2 (OSMM)
 ---
