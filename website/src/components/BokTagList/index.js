@@ -25,7 +25,7 @@ export default function BokTagList(props) {
     const oneTag = props.tag ? allTags[props.tag] : Object.values(allTags)
         .flatMap(a => a)
         .filter(uniqueOnly)
-    const filter = props.filter ?? ''
+    const filter = props.filter ? '/'+props.filter+'/' : ''
 
     return (
         <div class="bok-tag-list" key={props.tag}>   

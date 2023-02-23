@@ -47,7 +47,7 @@ function sortDocs(items, exclude) {
     .filter(i => i !== exclude)
     .forEach(i => {
     categoryStubs.forEach(c => {
-      if (i.permalink.indexOf(c) > -1) {
+      if (i.permalink.indexOf('/'+c+'/') > -1) {
         const list = out[c];
         if (!list) {
           out[c] = [];
