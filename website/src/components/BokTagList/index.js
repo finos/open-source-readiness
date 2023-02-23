@@ -16,10 +16,16 @@ function DocItem({doc}) {
   
 
 export default function BokTagList(props) {
-    const allTags = usePluginData('category-listing');
-    const oneTag = allTags[props.tag] ?? [];
-    const filter = props.filter ?? ''
 
+    function uniqueOnly(value, index, array) {
+        return array.map(o => o.permalink).indexOf(value.permalink) == index;
+    }
+    
+    const allTags = usePluginData('category-listing');
+    const oneTag = props.tag ? allTags[props.tag] : Object.values(allTags)
+        .flatMap(a => a)
+        .filter(uniqueOnly)
+    const filter = props.filter ?? ''
 
     return (
         <div class="bok-tag-list" key={props.tag}>   
