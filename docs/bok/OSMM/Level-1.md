@@ -22,5 +22,9 @@ At this level, an organization has ad hoc or informal practices for managing ope
 
 
 ## Level 1 Expected Activities
-
+1. Some knowledge and use of Open Source Software
+2. No formal training and/or certification in open source
+3. Organization does not have an open source/ inner source program effort
+4. Organizational policies do not include governance of open source
+5. Participation in maintaining and contributing to open source are informal at an individual level
 <BokTagList tag="Level 1 (OSMM)" filter="Activities" />
