@@ -1,11 +1,15 @@
 Title: Open source supervision 
-Description 
+# Description 
 This activity is about controlling the use of open source and ensuring open source software is proactively managed. This concerns several perspectives, be it to use OSS tools and business solutions, or to include OSS as components in own developments or modify a version of a soft ware adapting it to its own needs, etc. It is also about identifying areas where open source has become a (sometimes covert) de facto solution and assessing its suitability. 
-It may be necessary to clarify the following: 
-• Is the required functionality provided? 
-• Is there additional functionality provided that is not needed but is increasing complexity in the BUILD and RUN phases? 
-• What does the licence require, what are the legal constraints? 
-• How much does the decision make your organisation supplier-independent? • Does a support option, ready for your business needs, exist, and how much does it cost? • TCO (Total Cost of Ownership). 
+
+It may be necessary to clarify the following:
+
++ Is the required functionality provided?
++ Is there additional functionality provided that is not needed but is increasing complexity in the BUILD and RUN phases? 
++ What does the licence require, what are the legal constraints? 
++ How much does the decision make your organisation supplier-independent? 
++ Does a support option, ready for your business needs, exist, and how much does it cost? 
++ TCO (Total Cost of Ownership). 
 • Does the management know about open source’s advantages, e.g. beyond ”saving licence cost”? Being comfortable with open source helps get the maximum benefit from working with project communities and vendors. 
 • See if it makes sense to share development costs by giving one’s developments to the com munity and all its implications, like licence compliance. 
 • Check for availability of community support or professional support. 
