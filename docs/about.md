@@ -14,17 +14,14 @@ Be a trusted venue for our members and community in their open source journey an
 - To help our Members and Community attract the best talent by providing an environment where developers can work on open source projects in a safe and compliant manner where risk is controlled by adequate policies, processes, and tools.
 - Enable contribution to open source projects with legal and commercial consideration.
 
+## Meetings
+
+Please check out the [FINOS Calendar](https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York) for details of the OSR Meetings.  We currently run two each month.  Everyone is welcome, FINOS members and non-members alike.
+
 ## Leadership
 
-### OSR SIG Chair
+There are several people fulfilling leadership roles within OSR, listed below.  Their responsibilities are to:
 
-The following 4 persons are the current OSR SIG co-chairs:
-- Peter Smulovics / Morgan Stanley
-- Cara Delia / Red Hat
-- Elspeth Minty / RBC
-- Brittany Istenes / Fannie Mae
-
-Their role are the following:
 - Shape and guide OSR strategy and goals
 - Attend monthly meetings to plan and schedule speakers and topics, shape and guide the meeting format
 - Attend monthly workgroup meetings to work on the actual documents together with the OSR participants
@@ -34,7 +31,55 @@ Their role are the following:
 - Review and manage issues and pull requests on the SIG GitHub
 - Cultivate and grow OSR community, including being active on the mailing list, Slack channels, and other communication media
 
-### FINOS OSR Lead
+### OSR SIG Chairs
 
-The following person is the current FINOS OSR SIG Lead:
-- Rob Moffat / FINOS
+The following 4 persons are the current Open Source Readiness Special Interest Group (OSR SIG) co-chairs:
+
+<Bio name="Cara Delia" organisation="Red Hat" image="/img/people/cara-delia.jpeg">
+Insert bio here
+</Bio>
+
+<Bio name="Brittany Istenes" organisation="Fannie Mae" image="/img/people/brittany-istenes.jpeg">
+Insert bio here
+</Bio>
+
+<Bio name="Elspeth Minty" organisation="RBC" image="/img/people/elspeth-minty.jpeg">
+Insert bio here
+</Bio>
+
+<Bio name="Peter Smulovics" organisation="Morgan Stanley" image="/img/people/peter-smulovics.jpeg">
+Insert bio here
+</Bio>
+
+### Executive Sponsors
+
+In 2023, FINOS aims to productize Open Source Readiness with new trainings and certification.  The following are the FINOS board executive sponsors of this strategy:
+
+<Bio name="Rhyddian Olds" organisation="Citi" image="/img/people/no-headshot.png">
+Insert bio here
+</Bio>
+
+<Bio name="Chris Stevenson" organisation="UBS" image="/img/people/chris-stevenson.jpeg">
+Insert bio here
+</Bio>
+
+### FINOS OSR Team
+
+<Bio name="Rob Moffat" image="/img/people/rob-moffat.jpeg" organisation="FINOS">
+Rob Moffat is a seasoned IT professional living in the UK. Over the last twenty years, he has worked at many of the top-tier investment banks in London on regulatory and transformation IT projects. Rob is a staunch advocate of Open Source and works on many open source projects, including the FINOS "Spring Bot" project which he built and contributed whilst working at Deutsche Bank.  Rob holds a Computer Science degree and an MBA and is the author of <a href="https://www.amazon.co.uk/Risk-First-Software-Development-1-Menagerie/dp/1717491855">Risk-First Software Development</a>.
+</Bio>
+
+<Bio name="Jim StClair" image="/img/people/jim-stclair.jpeg" organisation="FINOS">
+insert bio here.
+</Bio>
+
+## Contributing Authors
+
+
+<Bio name="Vicky Brasseur" image="/img/people/vicky-brasseur.jpeg" organisation="Wipro">
+Vicky is a previous chair of the OSR SIG and has authored many articles on this site.   She is the author of <a href="https://fossforge.com">Forge Your Future with Open Source</a>
+</Bio>
+
+<Bio name="James McLeod" image="/img/people/james-mcleod.jpeg" organisation="FINOS">
+James is the Director of Community at FINOS and wholeheartedly believes the transformation of Financial Services can only be fulfilled if Open Source is embraced under the three pillars of Contribution, Consumption and Community.  He is a previous OSR Team Lead and has contributed to many articles and discussions on Open Source Readiness at FINOS.
+</Bio>
