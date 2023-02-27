@@ -77,7 +77,7 @@ insert bio here.
 
 
 <Bio name="Vicky Brasseur" image="/img/people/vicky-brasseur.jpeg" organisation="Wipro">
-Vicky is a previous chair of the OSR SIG and has authored many articles on this site.   She is the author of <a href="https://fossforge.com">Forge Your Future with Open Source</a>
+Vicky is a previous chair of the OSR SIG and has authored many articles on this site.   She is the author of <a href="https://fossforge.com">Forge Your Future with Open Source</a>.
 </Bio>
 
 <Bio name="James McLeod" image="/img/people/james-mcleod.jpeg" organisation="FINOS">
