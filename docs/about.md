@@ -33,7 +33,7 @@ There are several people fulfilling leadership roles within OSR, listed below.  
 
 ### OSR SIG Chairs
 
-The following 4 persons are the current Open Source Readiness Special Interest Group (OSR SIG) co-chairs:
+The Open Source Readiness Special Interest Group (OSR SIG) co-chairs are:
 
 <Bio name="Cara Delia" organisation="Red Hat" image="/img/people/cara-delia.jpeg">
 Insert bio here
