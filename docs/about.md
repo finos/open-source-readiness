@@ -70,7 +70,7 @@ Rob Moffat is a seasoned IT professional living in the UK. Over the last twenty 
 </Bio>
 
 <Bio name="Jim StClair" image="/img/people/jim-stclair.jpeg" organisation="FINOS">
-insert bio here.
+Jim St. Clair is a former Executive Director in the Linux Foundation and an expert in the field of global open-source software readiness. With over 25 years of experience in both the public and private sector, he has played a key role in the development and harmonization of global data standards across multiple industries, including healthcare, financial reporting, and identity use cases.
 </Bio>
 
 ## Contributing Authors
