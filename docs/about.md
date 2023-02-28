@@ -36,7 +36,7 @@ There are several people fulfilling leadership roles within OSR, listed below.  
 The Open Source Readiness Special Interest Group (OSR SIG) co-chairs are:
 
 <Bio name="Cara Delia" organisation="Red Hat" image="/img/people/cara-delia.jpeg">
-Insert bio here
+Cara Delia advocates open source principles and practices by contributing to external open source communities focused on Financial Services and Climate Sustainability at Red Hat. Community leadership includes: FINOS Open Source Readiness Co-Chair, FINOS Technical Steering Committee and Technical Lead and founding charter member for the CNCF Environmental Sustainability technical advisory group (TAG).
 </Bio>
 
 <Bio name="Brittany Istenes" organisation="Fannie Mae" image="/img/people/brittany-istenes.jpeg">
