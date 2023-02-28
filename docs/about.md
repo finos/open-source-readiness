@@ -48,7 +48,7 @@ Insert bio here
 </Bio>
 
 <Bio name="Peter Smulovics" organisation="Morgan Stanley" image="/img/people/peter-smulovics.jpeg">
-Insert bio here
+Peter Smulovics is an Executive Director of Enterprise Application Infrastructure focusing on Microsoft technologies at Morgan Stanley. He is a publicist for IDG and for Architecture Journal; author and co-author of several books and a returning presenter on TechEd, DevDays, Techready, Agile DevCon, TechNet. He is a founder member of AgileAlliance, Architecture Forum, Architect Academy and .NET forum, Technical Lead on several OSS projects like Novell/JBoss’ Hibernate, Apache Velocity and similar. He is Microsoft, Ariba, JBoss, and SiteCore certified and also a trainer on several technologies. Working in IT since 1995, has project experience in different fields (FMCG, public, financial, energy, telecom, pharmaceutical, mobile, music, security). He worked at Compaq as Oracle DBA, worked at Microsoft on C#, .NET, Dynamics, Visual Studio .NET, SQL Server, Office, ASP.NET, Entity Framework, and Azure, and is the main organizer for the FSI Autism Hackathon.
 </Bio>
 
 ### Executive Sponsors
