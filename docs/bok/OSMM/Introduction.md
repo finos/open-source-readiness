@@ -14,7 +14,7 @@ tags:
 - The model can also be used as a tool for benchmarking an organization's open source maturity against that of other organizations in the same industry or sector. 
 - The OSMM can provide guidance to organizations on how to improve their open source practices and to align these with their overall business objectives. 
 - The ultimate goal of an OSMM is to enable organizations to maximize the benefits of open source software while managing the associated risks and costs effectively.
-- Since there are lots of [Activities](../Activities/Introduction) in this body of knowledge, the maturity levels provide some guidance about the _order_ to tackle activities.  Organisastions beginning their open source journey are advised to start with activities categorized as [Level 1](Level-1) and proceed from there.
+- Since there are lots of [Activities](../Activities/Introduction) in this body of knowledge, the maturity levels provide some guidance about the _order_ to tackle activities.  Organisations beginning their open source journey are advised to start with activities categorized as [Level 1](Level-1) and proceed from there.
 
 ## Existing Maturity Models
 
@@ -40,7 +40,8 @@ Only by completing _all_ the activities at a given level and the levels below ca
 
 ## FINOS OSMM Survey
 
-The FINOS [OSMM Survey](https://survey.osmm.finos.org/551476) can be answered in different ways:  as an individual, a function or the whole organisation.  The survey aims to:
+The FINOS [OSMM Survey](https://survey.osmm.finos.org/551476) can be answered in different ways:  as an individual, a function or the whole 
+ation.  The survey aims to:
 
  - Establish which activities the respondent is performing.   
  - Provide a maturity _level_ corresponding to these activities.
