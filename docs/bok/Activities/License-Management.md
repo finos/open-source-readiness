@@ -35,7 +35,12 @@ It is expected that developers would set up these tools to run on the CI/CD pipe
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
-Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../Artifacts/SBOMs).  There are various tools you can use to identify licenses across an estate of projects such as [FOSSA](https://fossa.com), [Mend](https://www.mend.io) and [Snyk](https://snyk.io).
+Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../Artifacts/SBOMs).  There are various tools you can use to identify licenses across an estate of projects such as:
+
+- [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort).  An open source Linux Foundation project for automating many parts of open source project review.  
+- [FOSSA](https://fossa.com) is an open-source license compliance and vulnerability management platform.
+- [Mend](https://www.mend.io) is a security-focused open-source scanning tool that helps developers detect and remediate vulnerabilities in their code using machine learning.
+- [Snyk](https://snyk.io) is a cloud-based platform that helps developers and security teams manage open-source dependencies by identifying and fixing vulnerabilities in real-time
 
 ### License Identifiers
 
