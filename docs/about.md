@@ -40,7 +40,7 @@ Cara Delia advocates open source principles and practices by contributing to ext
 </Bio>
 
 <Bio name="Brittany Istenes" organisation="Fannie Mae" image="/img/people/brittany-istenes.jpeg">
-Insert bio here
+Brittany Istenes started off her career as an elementary school educator which then led to a path of technology. Brittany has led advisory councils, open source ambassador programs, open source contributions, InnerSource initiatives and all the gray areas in between at scale within large companies. Now at Fannie Mae, Brittany is hopeful to share these best practices for OSS and InnerSource with the teams at Fannie Mae. Her main goal is to create a frictionless developer/centric environment where not only are we creating the best products for our customers, but we are doing so in a way that is better, faster, secure and more innovative within the FinTech world.
 </Bio>
 
 <Bio name="Elspeth Minty" organisation="RBC" image="/img/people/elspeth-minty.jpeg">
