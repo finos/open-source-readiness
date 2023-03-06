@@ -46,7 +46,9 @@ Instead, you need tools that will scan open source projects wherever they come f
 
 ### License Identifiers
 
-The license for an open source project is usually held in a file called LICENSE in the repository, (for example, FDC3's license here: https://github.com/finos/FDC3/blob/master/LICENSE).  Although that allows for practically infinite variation in license terms and conditions, most open source software uses one of just a few common licenses.  For this reason, SPDX introduces _license identifiers_ (for example, "Apache-2.0") which are defined here: https://spdx.org/licenses/
+As described in the [License](../Artifacts/License) article, most open source software is licensed under one of a limited number of common licenses, such as the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0), [MIT License](https://mit-license.org) and [BSD License](https://opensource.org/license/bsd-2-clause/).
+
+Each of these de-facto standard licenses has an associated [SPDX Identifier](https://spdx.org/licenses/). For example, the SPDX identifier "Apache-2.0" refers to the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0).
 
 ## 2. License Compatibility
 
@@ -54,7 +56,7 @@ Determining the compatibility of licenses involves evaluating the terms and cond
 
 There are several factors to consider when determining the compatibility of licenses, including:
 
-1. **License conditions:** Some licenses have conditions, such as copyleft or patent retaliation clauses, that must be followed in order for the license to be considered compatible.
+1. **License conditions:** Some licenses have conditions, such as [copyleft](../Artifacts/License#3--copyleft-licenses) or patent retaliation clauses, that must be followed in order for the license to be considered compatible.
 2. **License compatibility:** Some licenses are designed to be compatible with each other, while others are not. For example, the GPL license is considered to be incompatible with many other licenses, while the Apache license is considered to be more compatible.
 3. **Corporate open-source policy:** Your organization may have its own open-source policy that specifies which licenses are acceptable for use in your software.
 4. **Legal considerations:** Some licenses may have legal implications for your organization, such as the potential for patent infringement or the requirement to provide source code.
@@ -63,19 +65,7 @@ By evaluating these factors, you can determine the compatibility of the licenses
 
 ## 3. License Obligations
 
-Open source licenses differ by the permissions they give, the limitations they reserve and the conditions on which they grant their usage.  
-
-### GitHub's Summary
-
-GitHub provides a useful summary for most of the popular licenses when you view the LICENSE file in the repository.  For example:
-
-![GitHub's License Summary Card 1](/img/bok/github-license-summary-affero.png)
-
-![GitHub's License Summary Card 2](/img/bok/github-license-summary-apache.png)
-
-Both of these licenses are open source, however the Apache License 2.0 is much more compatible with private/corporate software development as there is no condition that _derived works are also open source._ The important take-away here is that open source licenses can differ widely in what they require and legal counsel will need to be sought to define which are acceptable.
-
-Note that different usage situations will also determine which licenses are acceptable.  For example, use _behind the firewall_ may allow a wider selection of licenses than usage to customers over the public network.
+Please review the [License](../Artifacts/License) article in particular the section on [License Obligations](../Artifacts/License#license-obligations).
 
 ## 4. Legal Review / License Policy
 
