@@ -64,6 +64,10 @@ The DCO was created by [the Linux Foundation](https://linuxfoundation.org), as a
  
  - [Git's Sign-off Feature](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff). Allows developers to sign their commits.
 
+## Related Activities
+
+<BokTagList tag="CLAs-And-DCOs (Artifact)" filter="Activities" />
+
 ## Further Reading
 
 - [CLA vs DCO - What's The Difference?](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)

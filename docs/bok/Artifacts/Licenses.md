@@ -113,10 +113,6 @@ Note that different usage situations will also determine which licenses are acce
 
 <BokTagList tag="License (Artifact)" filter="Activities" />
 
-## Related Risks
-
-<BokTagList tag="License (Artifact)" filter="Risks" />
-
 ## Further Reading
 
 1.  [CopyLeft](https://en.wikipedia.org/wiki/Copyleft) article on Wikipedia.
