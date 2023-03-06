@@ -61,8 +61,22 @@ The DCO was created by [the Linux Foundation](https://linuxfoundation.org), as a
  - [GitHub's DCO App](https://github.com/apps/dco). This app enforces the DCO on Pull Requests. It requires all commit messages to contain the `Signed-off-by` line with an email address that matches the commit author.
  
  - [Git's Sign-off Feature](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff). Allows developers to sign their commits.
+ 
+## CLA vs DCO
+
+CLAs are typically used by larger projects and organizations that have more complex legal needs, wheras DCO is a simpler and more lightweight alternative to a CLA. 
+
+The main difference between CLA and DCO is the level of legal formality involved:
+
+- CLAs are more formal and legally binding, while DCOs are more informal and rely on the community's trust and good faith. 
+- CLAs require contributors to _sign a legal agreement_, which can be a barrier to entry for some contributors. 
+- DCOs, on the other hand, require only a simple _sign-off_ line, which is easier for contributors to understand and comply with. 
+
+Ultimately, the choice between a CLA and a DCO depends on the needs of the project and its contributors. 
 
 ## Further Reading
+
+- [Should I Use a Developer’s Certificate of Origin or a Contributor Agreement?](https://www.linkedin.com/pulse/should-i-use-developers-certificate-origin-agreement-vershov-downing/)
 
 - [CLA vs DCO - What's The Difference?](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
 
