@@ -3,6 +3,8 @@ title: CLAs And DCOs
 tags: 
   - Developer (Role)
   - OSPO (Role)
+  - Legal (Role)
+  - Legal Risk
 sidebar_position: 2
 ---
 
@@ -40,7 +42,7 @@ Many open source projects on [GitHub](https://github.com) have built-in workflow
 
 - Where a contribution is coming from an _individual_ (such as a hobbyist developer) the CLA is considered as an Individual Contributor License Agreement (ICLA).  In this case, the _individual_ owns the copyright to their contribution and is able to sign the ICLA.
 
-- Where a contribution is made from a corporation (such as a developer working within a financial institution) the CLA needed is a Corporate Contributor License Agreement (CCLA).  In this case, the copyright is owned by the _corporation_ and the entity must assign a **CLA Manager** to sign off CCLAs on behalf of the corporation.  The CLA Manager will need to maintain the list of all the employees in the organisation covered by CCLAs, likely on a per-project basis.
+- Where a contribution is made from a corporation (such as a developer working within a financial institution) the CLA needed is a Corporate Contributor License Agreement (CCLA).  In this case, the copyright is owned by the _corporation_ and the entity must assign a **CLA Manager** to sign off CCLAs on behalf of the corporation.  The CLA Manager will need to maintain the list (a "Schedule A") of all the employees in the organisation covered by CCLAs, likely on a per-project basis.
 
 ### Issues Arising For CCLAs
 
@@ -72,6 +74,10 @@ The main difference between CLA and DCO is the level of legal formality involved
 - CLAs require contributors to _sign a legal agreement_, which can be a barrier to entry for some contributors. 
 - DCOs, on the other hand, require only a simple _sign-off_ line, which is easier for contributors to understand and comply with. 
 
+So, DCOs are "easier", but they are not without risk: if it turns out a developer in fact did not have permission to contribute (or may just didn't understand what they were signing), and then contributed something they should not have, there could be complex and expensive unwinding of the contribution that would need to occur, that could even lead to litigation. 
+
+Organizations using DCO may want to track which of their developers have made contributions via a DCO for compliance and audit reasons.
+
 Ultimately, the choice between a CLA and a DCO depends on the needs of the project and its contributors. 
 
 ## Further Reading
@@ -83,6 +89,8 @@ Ultimately, the choice between a CLA and a DCO depends on the needs of the proje
 - [Developer Certificate of Origin v1.1](https://developercertificate.org)
 
 - [Apache ICLA v2.2](https://www.apache.org/licenses/icla.pdf) - An example of an ICLA.
+
+- [Apache CCLA](https://www.apache.org/licenses/cla-corporate.txt)
 
 - [Shopify's CCLA](https://cla.shopify.com/corporate-cla) - An example of a CCLA.
 
