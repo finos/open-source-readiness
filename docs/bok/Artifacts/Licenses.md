@@ -4,6 +4,7 @@ tags:
   - Developer (Role)
   - OSPO (Role)
   - Legal (Role)
+sidebar_position: 1
 ---
 
 This article provides some basic framing around the purpose of licenses within open source:

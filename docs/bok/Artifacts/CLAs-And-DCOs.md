@@ -3,6 +3,7 @@ title: CLAs And DCOs
 tags: 
   - Developer (Role)
   - OSPO (Role)
+sidebar_position: 2
 ---
 
 This article explains the concept of the **Contributor License Agreement (CLA)** and **Developer Certificate of Origin (DCO)** and the practical implications of these for organisations consuming and contributing to open source.
