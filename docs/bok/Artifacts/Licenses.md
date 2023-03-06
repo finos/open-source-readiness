@@ -24,7 +24,7 @@ By default, in many jurisdictions (e.g. the US) the author of software holds the
 
 In order to allow other parties to use a piece of software, the copyright holder must issue them with a _license_.
 
-### 2. What Is A Software License?
+### 2. What Is A Software License?
 
 A software license describes what the end-user of a piece of software can do with it:
 
@@ -34,7 +34,7 @@ The concept of a license applies to _all_ software, whether it is free, open sou
 
 > The hallmark of proprietary software licenses is that the software publisher grants the use of one or more copies of software under the end-user license agreement (EULA), but ownership of those copies remains with the software publisher (hence use of the term "proprietary"). - [Proprietary Software, _Wikipedia_](https://en.wikipedia.org/wiki/Proprietary_software)
 
-### 3. Open Source Software
+### 3. Open Source Software
 
 The difference between proprietary software and _open source software_ is therefore in the license.   In general: 
 
@@ -42,7 +42,7 @@ The difference between proprietary software and _open source software_ is theref
 
 Conversely, for _proprietary_ software, source code is generally _not_ made available to the end user.  Where it is, there are usually strict non-disclosure agreements in place.  
 
-## Types of Open Source License
+## Types of Open Source License
 
 [Wikipedia](https://en.wikipedia.org/wiki/Software_license) describes three main types of open source licenses:
 
@@ -113,7 +113,7 @@ Note that different usage situations will also determine which licenses are acce
 
 <BokTagList tag="License (Artifact)" filter="Activities" />
 
-## Related Risks
+## Related Risks
 
 <BokTagList tag="License (Artifact)" filter="Risks" />
 
