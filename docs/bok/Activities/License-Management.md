@@ -6,20 +6,22 @@ tags:
   - Legal (Role)
   - Legal Risk
   - Level 2 (OSMM)
+  - License (Artifact)
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:
 
-1. License identification: The first step is to identify the open-source licenses used in your products and understand the terms and conditions associated with each license.
-2. License compatibility: It is important to ensure that the licenses of the open-source components used in your products are compatible with each other and with your own licenses.
-3. License obligations: Each open-source license has its own obligations, such as the requirement to distribute source code, include a copyright notice, or provide a copy of the license.
-4. Legal review: It is important to have a qualified legal professional review the open-source licenses and obligations to ensure compliance.
-5. Employee education: The enterprise should educate its employees on the importance of compliance with open-source licenses and the obligations associated with each license.
-6. License distribution: The enterprise should ensure that the open-source licenses and relevant notices are included in the distributions of their products.
+1. **License identification**: The first step is to identify the open-source licenses used in your products and understand the terms and conditions associated with each license.
+2. **License compatibility**: It is important to ensure that the licenses of the open-source components used in your products are compatible with each other and with your own licenses.
+3. **License obligations**: Each open-source license has its own obligations, such as the requirement to distribute source code, include a copyright notice, or provide a copy of the license.
+4. **Legal review**: It is important to have a qualified legal professional review the open-source licenses and obligations to ensure compliance.
+5. **Employee education**: The enterprise should educate its employees on the importance of compliance with open-source licenses and the obligations associated with each license.
 
-## License Identification
+_See Also: [Licenses](../Artifacts/Licenses) describes what software licenses are._
 
-### For Individual Software Projects
+## 1. License Identification
+
+### For Individual Software Projects [Developer](../Roles/Developer)
 
 Individual software projects often include direct and transitive dependencies on other pieces of open source software.  There are plenty of tools for cataloguing licenses being used:
 
@@ -31,7 +33,7 @@ Individual software projects often include direct and transitive dependencies on
 	
 It is expected that developers would set up these tools to run on the CI/CD pipeline of their projects and generate license reports every time a build is run.
 
-### Across an Estate
+### Across an Estate [OSPO](../Roles/OSPO)
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
@@ -41,7 +43,7 @@ Instead, you need tools that will scan open source projects wherever they come f
 
 The license for an open source project is usually held in a file called LICENSE in the repository, (for example, FDC3's license here: https://github.com/finos/FDC3/blob/master/LICENSE).  Although that allows for practically infinite variation in license terms and conditions, most open source software uses one of just a few common licenses.  For this reason, SPDX introduces _license identifiers_ (for example, "Apache-2.0") which are defined here: https://spdx.org/licenses/
 
-## License Compatibility
+## 2. License Compatibility
 
 Determining the compatibility of licenses involves evaluating the terms and conditions of the licenses used in your software to determine whether they are compatible with each other and with your organization's open-source policy.
 
@@ -54,17 +56,7 @@ There are several factors to consider when determining the compatibility of lice
 
 By evaluating these factors, you can determine the compatibility of the licenses used in your software and establish a policy for compatible and incompatible licenses. It's important to seek the advice of a legal expert if you are unsure about the compatibility of a particular license.
 
-### OSI Approved Licenses
-
-Many of the most popular licenses are [OSI Approved](https://opensource.org/licenses), that is:
-
-> they allow software to be freely used, modified, and shared. 
-
-The OSI describes the definition of open source here: https://opensource.org/osd and describes how various common open source licenses differ here: https://opensource.org/licenses/category
-
-The vast majority of open source software will be using an OSI-approved licenses.  However, only by completing the _license identification_ steps will you have a complete view on what is used throughout your organisation.
-
-## License Obligations
+## 3. License Obligations
 
 Open source licenses differ by the permissions they give, the limitations they reserve and the conditions on which they grant their usage.  
 
@@ -80,7 +72,7 @@ Both of these licenses are open source, however the Apache License 2.0 is much m
 
 Note that different usage situations will also determine which licenses are acceptable.  For example, use _behind the firewall_ may allow a wider selection of licenses than usage to customers over the public network.
 
-## Legal Review / License Policy
+## 4. Legal Review / License Policy
 
 Legally reviewing an open source license involves evaluating the terms and conditions of the license to determine its legal implications for your organization. 
 
@@ -88,20 +80,16 @@ Open source licenses may have legal implications for your organization, such as 
 
 It's important to document the findings of the legal review, including any recommendations for using or avoiding the software based on its license. This documentation can be used to inform decision-making and to ensure that your organization remains in compliance with open source licenses.
 
-## Employee Education
+### FINOS Categories
+
+FINOS provides a categorization around acceptable software licenses which may be useful as a starting point: <https://community.finos.org/docs/governance/Software-Projects/license-categories>
+
+## 5. Employee Education
 
 Using the correct licenses will form part of License Policy and it will be necessary to ensure developers in your organisation are aware of the limitations around the use of open source.  Although these limitations will vary from firm-to-firm, the Linux Foundation provides several training courses suitable for orienting developers on their responsibilities relating to open source licensing:
 
 1. [Introduction to Open Source License Compliance Management](../Training/LFC193-Introduction-to-OSS-License-Compliance-Management.md)
 2. [Implementing Open Source License Compliance Management](../Training/LFC194-Implementing-OSS-License-Compliance-Management.md)
-
-## License Distribution
-
-Organisations contributing open source projects will need to consider which license to use for the contribution.  This will likely require legal approval.
-
-### FINOS Categories
-
-FINOS provides a categorization around acceptable software licenses which may be useful as a starting point: <https://community.finos.org/docs/governance/Software-Projects/license-categories>
 
 ## Final Points to Consider
 

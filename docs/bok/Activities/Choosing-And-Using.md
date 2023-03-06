@@ -4,6 +4,7 @@ tags:
   - Developer (Role)
   - Data Leakage (Risk)
   - Placeholder
+  - License (Artifact)
 ---
 
 tbd.
