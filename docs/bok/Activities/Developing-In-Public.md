@@ -2,6 +2,7 @@
 title: Developing Open Source In A Public Repository
 tags: 
   - Developer (Role)
+draft: true
 ---
 
 something about using GitHub or GitLab.
