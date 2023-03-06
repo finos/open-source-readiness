@@ -44,7 +44,7 @@ Insert bio here
 </Bio>
 
 <Bio name="Elspeth Minty" organisation="RBC" image="/img/people/elspeth-minty.jpeg">
-Insert bio here
+Elspeth has worked in the Financial Industry for more than two decades. Her experience covers everything from developing core Java/C++ libraries to helping teams adopt cloud technologies. She has worked in a number of locations, including London, Shanghai and Montreal where she is now based. In her current role at RBC Capital Markets, Elspeth is helping to improve code re-use and consistent application design. She has been involved in FINOS for a number of years and is currently a member of its Technical Steering Committee, as well as a co-lead of the OpenSource Readiness SIG.  Elspeth has presented at conferences, including SpringOne, QCon in London and Shanghai, and InnerSource Commons Gathering.
 </Bio>
 
 <Bio name="Peter Smulovics" organisation="Morgan Stanley" image="/img/people/peter-smulovics.jpeg">
