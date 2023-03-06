@@ -14,9 +14,7 @@ It first explores why these are necessary as a means of transferring _rights_ to
 
 The article on [Licenses](Licenses) explains _copyright_ in the following way:
 
-> By default, in many jurisdictions (e.g. the US) the author of software holds the _copyright_ to it, granting them exclusive rights to the work. [Wikipedia](https://en.wikipedia.org/wiki/Copyright) describes copyright as follows:
-
-## Contributions to Open Source
+> By default, in many jurisdictions (e.g. the US) the author of software holds the _copyright_ to it, granting them exclusive rights to the work. [Wikipedia](https://en.wikipedia.org/wiki/Copyright)
 
 ![CLA and DCO vs Licenses](/img/bok/cla-dco.png)
 
@@ -28,7 +26,7 @@ Open source software is often the result of the combined efforts of many contrib
 
 > The purpose of a CLA is to ensure that the guardian of a project's outputs has the necessary ownership or grants of rights over all contributions to allow them to distribute under the chosen license, often by granting an irrevocable license to allow the project maintainer to use the contribution - [Contributor License Agreement, _Wikipedia_](https://en.wikipedia.org/wiki/Contributor_License_Agreement)
 
-## Popular CLA Management Tools
+## Popular CLA Management Tools
 
 Many open source projects on [GitHub](https://github.com) have built-in workflows to enforce CLA signing for new contributors, often using one of the following tools:
 
@@ -38,7 +36,7 @@ Many open source projects on [GitHub](https://github.com) have built-in workflow
 
 - [Gerrit](https://www.gerritcodereview.com): Gerrit is a popular code review tool that also includes CLA management features. 
 
-## Two Types of CLA
+## Two Types of CLA
 
 - Where a contribution is coming from an _individual_ (such as a hobbyist developer) the CLA is considered as an Individual Contributor License Agreement (ICLA).  In this case, the _individual_ owns the copyright to their contribution and is able to sign the ICLA.
 
@@ -52,7 +50,7 @@ Many open source projects on [GitHub](https://github.com) have built-in workflow
 
 3.  Because CCLAs are a legal document, the organisation's legal team will likely need to be involved in the sign off process.  As the terms in each CCLA might be different, this might place a burden on the legal team where multiple projects are involved.
 
-## Developer Certificate of Origin
+## Developer Certificate of Origin
 
 Developer Certificate of Origin (DCO) was invented as a way to give credit and ownership to developers for their contributions to open source projects while also clarifying the intellectual property rights and licensing of those contributions.
 
@@ -69,4 +67,8 @@ The DCO was created by [the Linux Foundation](https://linuxfoundation.org), as a
 - [CLA vs DCO - What's The Difference?](https://opensource.com/article/18/3/cla-vs-dco-whats-difference)
 
 - [Developer Certificate of Origin v1.1](https://developercertificate.org)
+
+- [Apache ICLA v2.2](https://www.apache.org/licenses/icla.pdf) - An example of an ICLA.
+
+- [Shopify's CCLA](https://cla.shopify.com/corporate-cla) - An example of a CCLA.
 
