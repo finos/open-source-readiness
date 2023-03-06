@@ -4,6 +4,7 @@ tags:
   - OSPO (Role)
   - Developer (Role)
   - Security Expert (Role)
+  - Placeholder
 ---
 
 Security testing is a broad term that encompasses various techniques for evaluating the security of software systems and applications. The main types of security testing include:

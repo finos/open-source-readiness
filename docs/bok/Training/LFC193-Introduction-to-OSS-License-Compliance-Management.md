@@ -7,8 +7,6 @@ tags:
   - OSPO (Role)
 ---
 
-## Synopsis
-
 This course is intended for developers, project managers and executive decision makers who already know the basics of what open source software is and how copyrights work and are ready to take the next step towards building a formal compliance program for their organization.
 
 ## Details
