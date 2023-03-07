@@ -4,6 +4,8 @@ tags:
   - Developer (Role)
   - Data Leakage (Risk)
   - Placeholder
+  - License (Artifact)
+  - Level 1 (OSMM)
 draft: true
 ---
 

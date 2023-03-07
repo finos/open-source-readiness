@@ -5,6 +5,9 @@ tags:
   - Data Leakage (Risk)
   - Placeholder
   - OSPO (Role)
+  - CLAs-And-DCOs (Artifact)
+  - Licenses (Artifact)
+  - Level 4 (OSMM)
 draft: true
 ---
 
