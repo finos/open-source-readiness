@@ -1,6 +1,6 @@
 ---
 title: Security Expert
-tag: 
+tags: 
   - CISO (role)
   - Security Expert (Role)
 ---
