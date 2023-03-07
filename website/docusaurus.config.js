@@ -32,7 +32,9 @@ module.exports={
       }
     ]
   ],
-  "plugins": [],
+  "plugins": [
+    './src/plugin/category-listing'
+  ],
   "themeConfig": {
     "navbar": {
       "title": "FINOS Open Source Readiness",
@@ -63,7 +65,7 @@ module.exports={
             },
             {
               "to": "https://survey.osmm.finos.org/551476",
-              "label": 'Open Source Maturity Model',
+              "label": 'Open Source Maturity Model Survey',
               "position": "left"
             }
           ]

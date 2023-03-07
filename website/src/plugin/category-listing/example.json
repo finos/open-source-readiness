@@ -1,0 +1,2270 @@
+[
+    {
+        "unversionedId": "about",
+        "id": "about",
+        "title": "About the OSR SIG",
+        "description": "Vision",
+        "source": "@site/../docs/about.md",
+        "sourceDirName": ".",
+        "slug": "/about",
+        "permalink": "/docs/about",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "about",
+            "title": "About the OSR SIG",
+            "sidebar_label": "About"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Meetings",
+            "permalink": "/docs/meetings"
+        },
+        "next": {
+            "title": "About",
+            "permalink": "/docs/bok/Body-Of-Knowledge"
+        }
+    },
+    {
+        "unversionedId": "bok/Activities/Developer-Training",
+        "id": "bok/Activities/Developer-Training",
+        "title": "Developer Training",
+        "description": "Details of Trainings",
+        "source": "@site/../docs/bok/Activities/Developer-Training.md",
+        "sourceDirName": "bok/Activities",
+        "slug": "/bok/Activities/Developer-Training",
+        "permalink": "/docs/bok/Activities/Developer-Training",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Data Leakage (Risk)",
+                "permalink": "/docs/tags/data-leakage-risk"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Developer Training",
+            "tags": [
+                "Developer (Role)",
+                "Data Leakage (Risk)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Activities/Introduction"
+        },
+        "next": {
+            "title": "License Compliance Management",
+            "permalink": "/docs/bok/Activities/License-Management"
+        }
+    },
+    {
+        "unversionedId": "bok/Activities/Introduction",
+        "id": "bok/Activities/Introduction",
+        "title": "Open Source Activities",
+        "description": "This section of the OSBOK describes common activities performed by staff involved in the consumption or contribution of open source software.  Where possible, the OSBOK identifies the role performing this activity.",
+        "source": "@site/../docs/bok/Activities/Introduction.md",
+        "sourceDirName": "bok/Activities",
+        "slug": "/bok/Activities/Introduction",
+        "permalink": "/docs/bok/Activities/Introduction",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Introduction",
+                "permalink": "/docs/tags/introduction"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 0,
+        "frontMatter": {
+            "title": "Open Source Activities",
+            "sidebar_label": "Introduction",
+            "sidebar_position": 0,
+            "tags": [
+                "Introduction"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "About",
+            "permalink": "/docs/bok/Body-Of-Knowledge"
+        },
+        "next": {
+            "title": "Developer Training",
+            "permalink": "/docs/bok/Activities/Developer-Training"
+        }
+    },
+    {
+        "unversionedId": "bok/Activities/License-Management",
+        "id": "bok/Activities/License-Management",
+        "title": "License Compliance Management",
+        "description": "There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:",
+        "source": "@site/../docs/bok/Activities/License-Management.md",
+        "sourceDirName": "bok/Activities",
+        "slug": "/bok/Activities/License-Management",
+        "permalink": "/docs/bok/Activities/License-Management",
+        "draft": false,
+        "tags": [
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            },
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Legal Risk",
+                "permalink": "/docs/tags/legal-risk"
+            },
+            {
+                "label": "Level 2 (OSMM)",
+                "permalink": "/docs/tags/level-2-osmm"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "License Compliance Management",
+            "tags": [
+                "OSPO (Role)",
+                "Developer (Role)",
+                "Legal Risk",
+                "Level 2 (OSMM)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Developer Training",
+            "permalink": "/docs/bok/Activities/Developer-Training"
+        },
+        "next": {
+            "title": "Security Testing",
+            "permalink": "/docs/bok/Activities/Security-Testing"
+        }
+    },
+    {
+        "unversionedId": "bok/Activities/Security-Testing",
+        "id": "bok/Activities/Security-Testing",
+        "title": "Security Testing",
+        "description": "Security testing is a broad term that encompasses various techniques for evaluating the security of software systems and applications. The main types of security testing include:",
+        "source": "@site/../docs/bok/Activities/Security-Testing.md",
+        "sourceDirName": "bok/Activities",
+        "slug": "/bok/Activities/Security-Testing",
+        "permalink": "/docs/bok/Activities/Security-Testing",
+        "draft": false,
+        "tags": [
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            },
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Security Expert (Role)",
+                "permalink": "/docs/tags/security-expert-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Security Testing",
+            "tags": [
+                "OSPO (Role)",
+                "Developer (Role)",
+                "Security Expert (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "License Compliance Management",
+            "permalink": "/docs/bok/Activities/License-Management"
+        },
+        "next": {
+            "title": "Inventory",
+            "permalink": "/docs/bok/Activities/Software-Inventory"
+        }
+    },
+    {
+        "unversionedId": "bok/Activities/Software-Inventory",
+        "id": "bok/Activities/Software-Inventory",
+        "title": "Inventory",
+        "description": "tbd",
+        "source": "@site/../docs/bok/Activities/Software-Inventory.md",
+        "sourceDirName": "bok/Activities",
+        "slug": "/bok/Activities/Software-Inventory",
+        "permalink": "/docs/bok/Activities/Software-Inventory",
+        "draft": false,
+        "tags": [
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            },
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Level 2 (OSMM)",
+                "permalink": "/docs/tags/level-2-osmm"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Inventory",
+            "tags": [
+                "OSPO (Role)",
+                "Developer (Role)",
+                "Level 2 (OSMM)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Security Testing",
+            "permalink": "/docs/bok/Activities/Security-Testing"
+        },
+        "next": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Artifacts/Introduction"
+        }
+    },
+    {
+        "unversionedId": "bok/Artifacts/Introduction",
+        "id": "bok/Artifacts/Introduction",
+        "title": "Open Source Artifacts",
+        "description": "This section of the OSBOK describes common artifacts either consumed or produced when managing open source software within the enterprise.  Artifacts may be machine- or process- generated (such as an SBOM) or the result of human effort (such as an Open Source Strategy).",
+        "source": "@site/../docs/bok/Artifacts/Introduction.md",
+        "sourceDirName": "bok/Artifacts",
+        "slug": "/bok/Artifacts/Introduction",
+        "permalink": "/docs/bok/Artifacts/Introduction",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Introduction",
+                "permalink": "/docs/tags/introduction"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 0,
+        "frontMatter": {
+            "title": "Open Source Artifacts",
+            "sidebar_label": "Introduction",
+            "sidebar_position": 0,
+            "tags": [
+                "Introduction"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Inventory",
+            "permalink": "/docs/bok/Activities/Software-Inventory"
+        },
+        "next": {
+            "title": "Policy",
+            "permalink": "/docs/bok/Artifacts/Policy"
+        }
+    },
+    {
+        "unversionedId": "bok/Artifacts/Policy",
+        "id": "bok/Artifacts/Policy",
+        "title": "Policy",
+        "description": "tbd",
+        "source": "@site/../docs/bok/Artifacts/Policy.md",
+        "sourceDirName": "bok/Artifacts",
+        "slug": "/bok/Artifacts/Policy",
+        "permalink": "/docs/bok/Artifacts/Policy",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {},
+        "sidebar": "docs",
+        "previous": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Artifacts/Introduction"
+        },
+        "next": {
+            "title": "Software Bill of Materials (SBOM)",
+            "permalink": "/docs/bok/Artifacts/SBOMs"
+        }
+    },
+    {
+        "unversionedId": "bok/Artifacts/SBOMs",
+        "id": "bok/Artifacts/SBOMs",
+        "title": "Software Bill of Materials (SBOM)",
+        "description": "An SBOM, or Software Bill of Materials, is a list of all the components, libraries, and dependencies used in a software project, along with their associated version numbers and license information. There are two different SBOM formats:",
+        "source": "@site/../docs/bok/Artifacts/SBOMs.md",
+        "sourceDirName": "bok/Artifacts",
+        "slug": "/bok/Artifacts/SBOMs",
+        "permalink": "/docs/bok/Artifacts/SBOMs",
+        "draft": false,
+        "tags": [
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            },
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Software Bill of Materials (SBOM)",
+            "tags": [
+                "OSPO (Role)",
+                "Developer (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Policy",
+            "permalink": "/docs/bok/Artifacts/Policy"
+        },
+        "next": {
+            "title": "Strategy",
+            "permalink": "/docs/bok/Artifacts/Strategy"
+        }
+    },
+    {
+        "unversionedId": "bok/Artifacts/Strategy",
+        "id": "bok/Artifacts/Strategy",
+        "title": "Strategy",
+        "description": "tbd",
+        "source": "@site/../docs/bok/Artifacts/Strategy.md",
+        "sourceDirName": "bok/Artifacts",
+        "slug": "/bok/Artifacts/Strategy",
+        "permalink": "/docs/bok/Artifacts/Strategy",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {},
+        "sidebar": "docs",
+        "previous": {
+            "title": "Software Bill of Materials (SBOM)",
+            "permalink": "/docs/bok/Artifacts/SBOMs"
+        },
+        "next": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/OSMM/Introduction"
+        }
+    },
+    {
+        "unversionedId": "bok/Body-Of-Knowledge",
+        "id": "bok/Body-Of-Knowledge",
+        "title": "Introduction",
+        "description": "The Open Source Body of Knowledge (OSBOK) is a collaborative project aimed at developing a comprehensive body of knowledge on open source software and its ecosystem. It is a community-driven initiative that brings together individuals, organizations, and experts from different fields to contribute their knowledge and experience. The OSBOK project is based on the principle of openness and transparency, with all the content and contributions being made available under open licenses.",
+        "source": "@site/../docs/bok/Body-Of-Knowledge.md",
+        "sourceDirName": "bok",
+        "slug": "/bok/Body-Of-Knowledge",
+        "permalink": "/docs/bok/Body-Of-Knowledge",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 0,
+        "frontMatter": {
+            "title": "Introduction",
+            "sidebar_position": 0,
+            "sidebar_label": "About",
+            "show_label": "Introduction"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "About",
+            "permalink": "/docs/about"
+        },
+        "next": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Activities/Introduction"
+        }
+    },
+    {
+        "unversionedId": "bok/OSMM/Introduction",
+        "id": "bok/OSMM/Introduction",
+        "title": "The Open Source Maturity Model",
+        "description": "The Open Source Maturity Model (OSMM) is a framework that helps organizations assess and improve their use of open source software. The primary purpose of the OSMM is to provide a structured way for organizations to evaluate their open source practices and identify areas for improvement. The model consists of a set of maturity levels, each with a defined set of characteristics and activities that an organization must achieve to move to the next level.",
+        "source": "@site/../docs/bok/OSMM/Introduction.md",
+        "sourceDirName": "bok/OSMM",
+        "slug": "/bok/OSMM/Introduction",
+        "permalink": "/docs/bok/OSMM/Introduction",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Introduction",
+                "permalink": "/docs/tags/introduction"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 0,
+        "frontMatter": {
+            "title": "The Open Source Maturity Model",
+            "sidebar_label": "Introduction",
+            "sidebar_position": 0,
+            "tags": [
+                "Introduction"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Strategy",
+            "permalink": "/docs/bok/Artifacts/Strategy"
+        },
+        "next": {
+            "title": "Level 1",
+            "permalink": "/docs/bok/OSMM/Level-1"
+        }
+    },
+    {
+        "unversionedId": "bok/OSMM/Level-1",
+        "id": "bok/OSMM/Level-1",
+        "title": "Level 1: Ad-Hoc Usage",
+        "description": "At this level, an organization has ad hoc or informal practices for managing open source software. There is no formal policy or process in place for managing open source software, and its use is left up to individual developers. The organization has limited visibility into open source use and does not keep track of the software used.",
+        "source": "@site/../docs/bok/OSMM/Level-1.md",
+        "sourceDirName": "bok/OSMM",
+        "slug": "/bok/OSMM/Level-1",
+        "permalink": "/docs/bok/OSMM/Level-1",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Level 1 (OSMM)",
+                "permalink": "/docs/tags/level-1-osmm"
+            },
+            {
+                "label": "OSMM",
+                "permalink": "/docs/tags/osmm"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 1,
+        "frontMatter": {
+            "title": "Level 1: Ad-Hoc Usage",
+            "sidebar_label": "Level 1",
+            "sidebar_position": 1,
+            "tags": [
+                "Level 1 (OSMM)",
+                "OSMM"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/OSMM/Introduction"
+        },
+        "next": {
+            "title": "Level 2",
+            "permalink": "/docs/bok/OSMM/Level-2"
+        }
+    },
+    {
+        "unversionedId": "bok/OSMM/Level-2",
+        "id": "bok/OSMM/Level-2",
+        "title": "Level 2: Compliance",
+        "description": "At this level, an organization has established some practices for managing open source software.  The organization has some visibility into open source use and there are limited controls in place to manage open source software and to ensure compliance with licenses.",
+        "source": "@site/../docs/bok/OSMM/Level-2.md",
+        "sourceDirName": "bok/OSMM",
+        "slug": "/bok/OSMM/Level-2",
+        "permalink": "/docs/bok/OSMM/Level-2",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Level 2 (OSMM)",
+                "permalink": "/docs/tags/level-2-osmm"
+            },
+            {
+                "label": "OSMM",
+                "permalink": "/docs/tags/osmm"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 2,
+        "frontMatter": {
+            "title": "Level 2: Compliance",
+            "sidebar_label": "Level 2",
+            "sidebar_position": 2,
+            "tags": [
+                "Level 2 (OSMM)",
+                "OSMM"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Level 1",
+            "permalink": "/docs/bok/OSMM/Level-1"
+        },
+        "next": {
+            "title": "Level 3",
+            "permalink": "/docs/bok/OSMM/Level-3"
+        }
+    },
+    {
+        "unversionedId": "bok/OSMM/Level-3",
+        "id": "bok/OSMM/Level-3",
+        "title": "Level 3: Culture & Ecosystem",
+        "description": "At this level, an organization has established proactive practices for managing open source software. The organization has a comprehensive policy in place for managing open source software, and it is consistently applied across the organization. The organization has a comprehensive inventory of open source software in use and manages it effectively.   The organisation will begin to contribute to existing open source projects that it finds strategically useful.  That is, becoming part of the open source community.",
+        "source": "@site/../docs/bok/OSMM/Level-3.md",
+        "sourceDirName": "bok/OSMM",
+        "slug": "/bok/OSMM/Level-3",
+        "permalink": "/docs/bok/OSMM/Level-3",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Level 3 (OSMM)",
+                "permalink": "/docs/tags/level-3-osmm"
+            },
+            {
+                "label": "OSMM",
+                "permalink": "/docs/tags/osmm"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 3,
+        "frontMatter": {
+            "title": "Level 3: Culture & Ecosystem",
+            "sidebar_label": "Level 3",
+            "sidebar_position": 3,
+            "tags": [
+                "Level 3 (OSMM)",
+                "OSMM"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Level 2",
+            "permalink": "/docs/bok/OSMM/Level-2"
+        },
+        "next": {
+            "title": "Level 4",
+            "permalink": "/docs/bok/OSMM/Level-4"
+        }
+    },
+    {
+        "unversionedId": "bok/OSMM/Level-4",
+        "id": "bok/OSMM/Level-4",
+        "title": "Level 4: Engagement & Hosting",
+        "description": "At this level, an organization has a well-managed process for open source software.  Open source is culturally embedded in the organisation and its value is understood.  At this level the organisation itself is contributing to open source software.",
+        "source": "@site/../docs/bok/OSMM/Level-4.md",
+        "sourceDirName": "bok/OSMM",
+        "slug": "/bok/OSMM/Level-4",
+        "permalink": "/docs/bok/OSMM/Level-4",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Level 4 (OSMM)",
+                "permalink": "/docs/tags/level-4-osmm"
+            },
+            {
+                "label": "OSMM",
+                "permalink": "/docs/tags/osmm"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 4,
+        "frontMatter": {
+            "title": "Level 4: Engagement & Hosting",
+            "sidebar_label": "Level 4",
+            "sidebar_position": 4,
+            "tags": [
+                "Level 4 (OSMM)",
+                "OSMM"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Level 3",
+            "permalink": "/docs/bok/OSMM/Level-3"
+        },
+        "next": {
+            "title": "Level 5",
+            "permalink": "/docs/bok/OSMM/Level-5"
+        }
+    },
+    {
+        "unversionedId": "bok/OSMM/Level-5",
+        "id": "bok/OSMM/Level-5",
+        "title": "Level 5: Leadership & Strategy",
+        "description": "At this level, an organization has an optimized process for managing open source software. The organization has a continuous improvement process in place for open source software management, and it is well integrated with the overall software development process.   The organization also has a strategy for consuming open source, contributing to open source software projects and engaging with the open source community.",
+        "source": "@site/../docs/bok/OSMM/Level-5.md",
+        "sourceDirName": "bok/OSMM",
+        "slug": "/bok/OSMM/Level-5",
+        "permalink": "/docs/bok/OSMM/Level-5",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Level 5 (OSMM)",
+                "permalink": "/docs/tags/level-5-osmm"
+            },
+            {
+                "label": "OSMM",
+                "permalink": "/docs/tags/osmm"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 5,
+        "frontMatter": {
+            "title": "Level 5: Leadership & Strategy",
+            "sidebar_label": "Level 5",
+            "sidebar_position": 5,
+            "tags": [
+                "Level 5 (OSMM)",
+                "OSMM"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Level 4",
+            "permalink": "/docs/bok/OSMM/Level-4"
+        },
+        "next": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Risks/Introduction"
+        }
+    },
+    {
+        "unversionedId": "bok/Risks/Codebase-Risk",
+        "id": "bok/Risks/Codebase-Risk",
+        "title": "Codebase Risk",
+        "description": "Codebase Risk is",
+        "source": "@site/../docs/bok/Risks/Codebase-Risk.md",
+        "sourceDirName": "bok/Risks",
+        "slug": "/bok/Risks/Codebase-Risk",
+        "permalink": "/docs/bok/Risks/Codebase-Risk",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "CIO/CTO (Role)",
+                "permalink": "/docs/tags/cio-cto-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Codebase Risk",
+            "tags": [
+                "Developer (Role)",
+                "CIO/CTO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Risks/Introduction"
+        },
+        "next": {
+            "title": "Data Leakage Risk",
+            "permalink": "/docs/bok/Risks/Data-Leakage-Risk"
+        }
+    },
+    {
+        "unversionedId": "bok/Risks/Data-Leakage-Risk",
+        "id": "bok/Risks/Data-Leakage-Risk",
+        "title": "Data Leakage Risk",
+        "description": "- Financial firms are technology organisations, and all such organisations need to worry about Intellectual Property Risk.  IP Leakage can happen anywhere.",
+        "source": "@site/../docs/bok/Risks/Data-Leakage-Risk.md",
+        "sourceDirName": "bok/Risks",
+        "slug": "/bok/Risks/Data-Leakage-Risk",
+        "permalink": "/docs/bok/Risks/Data-Leakage-Risk",
+        "draft": false,
+        "tags": [
+            {
+                "label": "CIO/CTO (Role)",
+                "permalink": "/docs/tags/cio-cto-role"
+            },
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Data Leakage Risk",
+                "permalink": "/docs/tags/data-leakage-risk"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Data Leakage Risk",
+            "tags": [
+                "CIO/CTO (Role)",
+                "Developer (Role)",
+                "Data Leakage Risk"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Codebase Risk",
+            "permalink": "/docs/bok/Risks/Codebase-Risk"
+        },
+        "next": {
+            "title": "Dependency Risk",
+            "permalink": "/docs/bok/Risks/Dependency-Risk"
+        }
+    },
+    {
+        "unversionedId": "bok/Risks/Dependency-Risk",
+        "id": "bok/Risks/Dependency-Risk",
+        "title": "Dependency Risk",
+        "description": "Software Dependency Risks",
+        "source": "@site/../docs/bok/Risks/Dependency-Risk.md",
+        "sourceDirName": "bok/Risks",
+        "slug": "/bok/Risks/Dependency-Risk",
+        "permalink": "/docs/bok/Risks/Dependency-Risk",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Dependency Risk",
+                "permalink": "/docs/tags/dependency-risk"
+            },
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Dependency Risk",
+            "tags": [
+                "Dependency Risk",
+                "Developer (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Data Leakage Risk",
+            "permalink": "/docs/bok/Risks/Data-Leakage-Risk"
+        },
+        "next": {
+            "title": "Financial Risk",
+            "permalink": "/docs/bok/Risks/Financial-Risk"
+        }
+    },
+    {
+        "unversionedId": "bok/Risks/Financial-Risk",
+        "id": "bok/Risks/Financial-Risk",
+        "title": "Financial Risk",
+        "description": "Accountancy Regulations",
+        "source": "@site/../docs/bok/Risks/Financial-Risk.md",
+        "sourceDirName": "bok/Risks",
+        "slug": "/bok/Risks/Financial-Risk",
+        "permalink": "/docs/bok/Risks/Financial-Risk",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Financial Risk",
+                "permalink": "/docs/tags/financial-risk"
+            },
+            {
+                "label": "Legal (Role)",
+                "permalink": "/docs/tags/legal-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Financial Risk",
+            "tags": [
+                "Financial Risk",
+                "Legal (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Dependency Risk",
+            "permalink": "/docs/bok/Risks/Dependency-Risk"
+        },
+        "next": {
+            "title": "Legal Risk",
+            "permalink": "/docs/bok/Risks/Legal-Risk"
+        }
+    },
+    {
+        "unversionedId": "bok/Risks/Introduction",
+        "id": "bok/Risks/Introduction",
+        "title": "Open Source Risks",
+        "description": "This section of the OSBOK breaks down the different types of risks that enterprises face by consuming or contributing to open source software.",
+        "source": "@site/../docs/bok/Risks/Introduction.md",
+        "sourceDirName": "bok/Risks",
+        "slug": "/bok/Risks/Introduction",
+        "permalink": "/docs/bok/Risks/Introduction",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Introduction",
+                "permalink": "/docs/tags/introduction"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 0,
+        "frontMatter": {
+            "title": "Open Source Risks",
+            "sidebar_label": "Introduction",
+            "sidebar_position": 0,
+            "tags": [
+                "Introduction"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Level 5",
+            "permalink": "/docs/bok/OSMM/Level-5"
+        },
+        "next": {
+            "title": "Codebase Risk",
+            "permalink": "/docs/bok/Risks/Codebase-Risk"
+        }
+    },
+    {
+        "unversionedId": "bok/Risks/Legal-Risk",
+        "id": "bok/Risks/Legal-Risk",
+        "title": "Legal Risk",
+        "description": "License Compliance",
+        "source": "@site/../docs/bok/Risks/Legal-Risk.md",
+        "sourceDirName": "bok/Risks",
+        "slug": "/bok/Risks/Legal-Risk",
+        "permalink": "/docs/bok/Risks/Legal-Risk",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Legal Risk",
+                "permalink": "/docs/tags/legal-risk"
+            },
+            {
+                "label": "Legal (Role)",
+                "permalink": "/docs/tags/legal-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Legal Risk",
+            "tags": [
+                "Legal Risk",
+                "Legal (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Financial Risk",
+            "permalink": "/docs/bok/Risks/Financial-Risk"
+        },
+        "next": {
+            "title": "Staff Risk",
+            "permalink": "/docs/bok/Risks/Staff-Risk"
+        }
+    },
+    {
+        "unversionedId": "bok/Risks/Staff-Risk",
+        "id": "bok/Risks/Staff-Risk",
+        "title": "Staff Risk",
+        "description": "Talent Retention",
+        "source": "@site/../docs/bok/Risks/Staff-Risk.md",
+        "sourceDirName": "bok/Risks",
+        "slug": "/bok/Risks/Staff-Risk",
+        "permalink": "/docs/bok/Risks/Staff-Risk",
+        "draft": false,
+        "tags": [
+            {
+                "label": "HR/Training (Role)",
+                "permalink": "/docs/tags/hr-training-role"
+            },
+            {
+                "label": "CIO/CTO (Role)",
+                "permalink": "/docs/tags/cio-cto-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Staff Risk",
+            "tags": [
+                "HR/Training (Role)",
+                "CIO/CTO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Legal Risk",
+            "permalink": "/docs/bok/Risks/Legal-Risk"
+        },
+        "next": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Roles/Introduction"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/CIO-CTO",
+        "id": "bok/Roles/CIO-CTO",
+        "title": "CTO/CIO",
+        "description": "The Chief Technology Officer (CTO) or Chief Information Officer (CIO) is responsible for the overall technology strategy and direction of an organization. They are responsible for ensuring that technology supports the business goals and objectives of the company. This includes managing the technology budget, selecting and implementing new technology, and ensuring the security and integrity of the company's data.",
+        "source": "@site/../docs/bok/Roles/CIO-CTO.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/CIO-CTO",
+        "permalink": "/docs/bok/Roles/CIO-CTO",
+        "draft": false,
+        "tags": [
+            {
+                "label": "CIO/CTO (Role)",
+                "permalink": "/docs/tags/cio-cto-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "CTO/CIO",
+            "tags": [
+                "CIO/CTO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Introduction",
+            "permalink": "/docs/bok/Roles/Introduction"
+        },
+        "next": {
+            "title": "Developer",
+            "permalink": "/docs/bok/Roles/Developer"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/Developer",
+        "id": "bok/Roles/Developer",
+        "title": "Developer",
+        "description": "Developers are responsible for designing, coding, and testing software applications. They are responsible for writing and maintaining code, troubleshooting and debugging software, and working with other developers to create and implement software solutions.",
+        "source": "@site/../docs/bok/Roles/Developer.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/Developer",
+        "permalink": "/docs/bok/Roles/Developer",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "tags": [
+                "Developer (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "CTO/CIO",
+            "permalink": "/docs/bok/Roles/CIO-CTO"
+        },
+        "next": {
+            "title": "Human Resources and Training",
+            "permalink": "/docs/bok/Roles/HR-Training"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/HR-Training",
+        "id": "bok/Roles/HR-Training",
+        "title": "Human Resources and Training",
+        "description": "Human Resources (HR) and training departments are responsible for the overall management of a company's human resources, including recruiting and hiring employees, managing employee benefits and compensation, and providing training and development opportunities.",
+        "source": "@site/../docs/bok/Roles/HR-Training.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/HR-Training",
+        "permalink": "/docs/bok/Roles/HR-Training",
+        "draft": false,
+        "tags": [
+            {
+                "label": "HR/Training (Role)",
+                "permalink": "/docs/tags/hr-training-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Human Resources and Training",
+            "tags": [
+                "HR/Training (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Developer",
+            "permalink": "/docs/bok/Roles/Developer"
+        },
+        "next": {
+            "title": "Legal Team",
+            "permalink": "/docs/bok/Roles/Legal"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/Introduction",
+        "id": "bok/Roles/Introduction",
+        "title": "Open Source Roles",
+        "description": "Different roles within a firm have varying responsibilities towards the effective management of open source software.",
+        "source": "@site/../docs/bok/Roles/Introduction.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/Introduction",
+        "permalink": "/docs/bok/Roles/Introduction",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Introduction",
+                "permalink": "/docs/tags/introduction"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "sidebarPosition": 0,
+        "frontMatter": {
+            "title": "Open Source Roles",
+            "sidebar_label": "Introduction",
+            "sidebar_position": 0,
+            "tags": [
+                "Introduction"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Staff Risk",
+            "permalink": "/docs/bok/Risks/Staff-Risk"
+        },
+        "next": {
+            "title": "CTO/CIO",
+            "permalink": "/docs/bok/Roles/CIO-CTO"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/Legal",
+        "id": "bok/Roles/Legal",
+        "title": "Legal Team",
+        "description": "The legal team is responsible for providing legal advice and support to the organization. They review and draft contracts, advise on legal compliance, and represent the company in legal matters.",
+        "source": "@site/../docs/bok/Roles/Legal.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/Legal",
+        "permalink": "/docs/bok/Roles/Legal",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Legal (Role)",
+                "permalink": "/docs/tags/legal-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Legal Team",
+            "tags": [
+                "Legal (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Human Resources and Training",
+            "permalink": "/docs/bok/Roles/HR-Training"
+        },
+        "next": {
+            "title": "OSPO",
+            "permalink": "/docs/bok/Roles/OSPO"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/OSPO",
+        "id": "bok/Roles/OSPO",
+        "title": "OSPO",
+        "description": "The Open Source Program Office (OSPO) is responsible for the overall management and direction of an organization's open source program. This includes managing the open source software inventory, identifying and managing legal and compliance risks, and ensuring that open source software is used in compliance with company policies and procedures.",
+        "source": "@site/../docs/bok/Roles/OSPO.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/OSPO",
+        "permalink": "/docs/bok/Roles/OSPO",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Codebase Risk",
+                "permalink": "/docs/tags/codebase-risk"
+            },
+            {
+                "label": "Data Leakage Risk",
+                "permalink": "/docs/tags/data-leakage-risk"
+            },
+            {
+                "label": "Dependency Risk",
+                "permalink": "/docs/tags/dependency-risk"
+            },
+            {
+                "label": "Staff Risk",
+                "permalink": "/docs/tags/staff-risk"
+            },
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "OSPO",
+            "tags": [
+                "Codebase Risk",
+                "Data Leakage Risk",
+                "Dependency Risk",
+                "Staff Risk",
+                "OSPO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Legal Team",
+            "permalink": "/docs/bok/Roles/Legal"
+        },
+        "next": {
+            "title": "Product Manager",
+            "permalink": "/docs/bok/Roles/Product-Manager"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/Product-Manager",
+        "id": "bok/Roles/Product-Manager",
+        "title": "Product Manager",
+        "description": "placeholder",
+        "source": "@site/../docs/bok/Roles/Product-Manager.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/Product-Manager",
+        "permalink": "/docs/bok/Roles/Product-Manager",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Product Manager (Role)",
+                "permalink": "/docs/tags/product-manager-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Product Manager",
+            "tags": [
+                "Product Manager (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "OSPO",
+            "permalink": "/docs/bok/Roles/OSPO"
+        },
+        "next": {
+            "title": "Risk Officer",
+            "permalink": "/docs/bok/Roles/Risk-Officer"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/Risk-Officer",
+        "id": "bok/Roles/Risk-Officer",
+        "title": "Risk Officer",
+        "description": "A risk officer is responsible for identifying, assessing, and mitigating risks to an organization. They assess the potential impact of risks and develop and implement risk management strategies to minimize the potential impact of those risks.",
+        "source": "@site/../docs/bok/Roles/Risk-Officer.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/Risk-Officer",
+        "permalink": "/docs/bok/Roles/Risk-Officer",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Codebase Risk",
+                "permalink": "/docs/tags/codebase-risk"
+            },
+            {
+                "label": "Data Leakage Risk",
+                "permalink": "/docs/tags/data-leakage-risk"
+            },
+            {
+                "label": "Dependency Risk",
+                "permalink": "/docs/tags/dependency-risk"
+            },
+            {
+                "label": "Staff Risk",
+                "permalink": "/docs/tags/staff-risk"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Risk Officer",
+            "tags": [
+                "Codebase Risk",
+                "Data Leakage Risk",
+                "Dependency Risk",
+                "Staff Risk"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Product Manager",
+            "permalink": "/docs/bok/Roles/Product-Manager"
+        },
+        "next": {
+            "title": "Security Expert",
+            "permalink": "/docs/bok/Roles/Security-Expert"
+        }
+    },
+    {
+        "unversionedId": "bok/Roles/Security-Expert",
+        "id": "bok/Roles/Security-Expert",
+        "title": "Security Expert",
+        "description": "A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.",
+        "source": "@site/../docs/bok/Roles/Security-Expert.md",
+        "sourceDirName": "bok/Roles",
+        "slug": "/bok/Roles/Security-Expert",
+        "permalink": "/docs/bok/Roles/Security-Expert",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Security Expert",
+            "tag": [
+                "Security Expert (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Risk Officer",
+            "permalink": "/docs/bok/Roles/Risk-Officer"
+        },
+        "next": {
+            "title": "The Evolution of the Open Source Program Office (OSPO)",
+            "permalink": "/docs/bok/Training/Evolution-OSPO"
+        }
+    },
+    {
+        "unversionedId": "bok/Training/Evolution-OSPO",
+        "id": "bok/Training/Evolution-OSPO",
+        "title": "The Evolution of the Open Source Program Office (OSPO)",
+        "description": "An OSPO maturity model featuring case studies from Bloomberg, Comcast, and Porsche.",
+        "source": "@site/../docs/bok/Training/Evolution-OSPO.md",
+        "sourceDirName": "bok/Training",
+        "slug": "/bok/Training/Evolution-OSPO",
+        "permalink": "/docs/bok/Training/Evolution-OSPO",
+        "draft": false,
+        "tags": [
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "The Evolution of the Open Source Program Office (OSPO)",
+            "tags": [
+                "OSPO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Security Expert",
+            "permalink": "/docs/bok/Roles/Security-Expert"
+        },
+        "next": {
+            "title": "Ethics for Open Source Development",
+            "permalink": "/docs/bok/Training/LFC104-Ethics"
+        }
+    },
+    {
+        "unversionedId": "bok/Training/LFC104-Ethics",
+        "id": "bok/Training/LFC104-Ethics",
+        "title": "Ethics for Open Source Development",
+        "description": "This course is designed primarily for product managers who want to learn how to effectively incorporate ethics-by-design techniques into their workflows, and developers wanting to apply ethics through critical thinking techniques and proven mental frameworks.",
+        "source": "@site/../docs/bok/Training/LFC104-Ethics.md",
+        "sourceDirName": "bok/Training",
+        "slug": "/bok/Training/LFC104-Ethics",
+        "permalink": "/docs/bok/Training/LFC104-Ethics",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            },
+            {
+                "label": "Product Manager (Role)",
+                "permalink": "/docs/tags/product-manager-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Ethics for Open Source Development",
+            "tags": [
+                "Developer (Role)",
+                "OSPO (Role)",
+                "Product Manager (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "The Evolution of the Open Source Program Office (OSPO)",
+            "permalink": "/docs/bok/Training/Evolution-OSPO"
+        },
+        "next": {
+            "title": "Antitrust Laws and Open Source Software Project Management and Participation",
+            "permalink": "/docs/bok/Training/LFC105-Antitrust-Law"
+        }
+    },
+    {
+        "unversionedId": "bok/Training/LFC105-Antitrust-Law",
+        "id": "bok/Training/LFC105-Antitrust-Law",
+        "title": "Antitrust Laws and Open Source Software Project Management and Participation",
+        "description": "This course is intended for all individuals that participate in open source projects at any level - contributors, maintainers, Steering Committee members and Governing Board members.",
+        "source": "@site/../docs/bok/Training/LFC105-Antitrust-Law.md",
+        "sourceDirName": "bok/Training",
+        "slug": "/bok/Training/LFC105-Antitrust-Law",
+        "permalink": "/docs/bok/Training/LFC105-Antitrust-Law",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "CIO/CTO (Role)",
+                "permalink": "/docs/tags/cio-cto-role"
+            },
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Antitrust Laws and Open Source Software Project Management and Participation",
+            "tags": [
+                "Developer (Role)",
+                "CIO/CTO (Role)",
+                "OSPO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Ethics for Open Source Development",
+            "permalink": "/docs/bok/Training/LFC104-Ethics"
+        },
+        "next": {
+            "title": "Generating A Software Bill-Of-Materials",
+            "permalink": "/docs/bok/Training/LFC192-SBOM"
+        }
+    },
+    {
+        "unversionedId": "bok/Training/LFC192-SBOM",
+        "id": "bok/Training/LFC192-SBOM",
+        "title": "Generating A Software Bill-Of-Materials",
+        "description": "This is an introductory course designed for directors, product managers, open source program office staff, security professionals, and developers.",
+        "source": "@site/../docs/bok/Training/LFC192-SBOM.md",
+        "sourceDirName": "bok/Training",
+        "slug": "/bok/Training/LFC192-SBOM",
+        "permalink": "/docs/bok/Training/LFC192-SBOM",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Security Expert (Role)",
+                "permalink": "/docs/tags/security-expert-role"
+            },
+            {
+                "label": "Dependency Risk",
+                "permalink": "/docs/tags/dependency-risk"
+            },
+            {
+                "label": "Developer Training",
+                "permalink": "/docs/tags/developer-training"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Generating A Software Bill-Of-Materials",
+            "tags": [
+                "Developer (Role)",
+                "Security Expert (Role)",
+                "Dependency Risk",
+                "Developer Training"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Antitrust Laws and Open Source Software Project Management and Participation",
+            "permalink": "/docs/bok/Training/LFC105-Antitrust-Law"
+        },
+        "next": {
+            "title": "Introduction to Open Source License Compliance Management",
+            "permalink": "/docs/bok/Training/LFC193-Introduction-to-OSS-License-Compliance-Management"
+        }
+    },
+    {
+        "unversionedId": "bok/Training/LFC193-Introduction-to-OSS-License-Compliance-Management",
+        "id": "bok/Training/LFC193-Introduction-to-OSS-License-Compliance-Management",
+        "title": "Introduction to Open Source License Compliance Management",
+        "description": "This course is intended for developers, project managers and executive decision makers who already know the basics of what open source software is and how copyrights work and are ready to take the next step towards building a formal compliance program for their organization.",
+        "source": "@site/../docs/bok/Training/LFC193-Introduction-to-OSS-License-Compliance-Management.md",
+        "sourceDirName": "bok/Training",
+        "slug": "/bok/Training/LFC193-Introduction-to-OSS-License-Compliance-Management",
+        "permalink": "/docs/bok/Training/LFC193-Introduction-to-OSS-License-Compliance-Management",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Legal (Role)",
+                "permalink": "/docs/tags/legal-role"
+            },
+            {
+                "label": "CIO/CTO (Role)",
+                "permalink": "/docs/tags/cio-cto-role"
+            },
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Introduction to Open Source License Compliance Management",
+            "tags": [
+                "Developer (Role)",
+                "Legal (Role)",
+                "CIO/CTO (Role)",
+                "OSPO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Generating A Software Bill-Of-Materials",
+            "permalink": "/docs/bok/Training/LFC192-SBOM"
+        },
+        "next": {
+            "title": "Implementing Open Source License Compliance Management",
+            "permalink": "/docs/bok/Training/LFC194-Implementing-OSS-License-Compliance-Management"
+        }
+    },
+    {
+        "unversionedId": "bok/Training/LFC194-Implementing-OSS-License-Compliance-Management",
+        "id": "bok/Training/LFC194-Implementing-OSS-License-Compliance-Management",
+        "title": "Implementing Open Source License Compliance Management",
+        "description": "This course is intended for software developers, project managers, legal associates, and executive decision makers who already know the basics of what open source software is and how copyrights work, and are ready to take the next step towards building a formal compliance program for their organization.",
+        "source": "@site/../docs/bok/Training/LFC194-Implementing-OSS-License-Compliance-Management.md",
+        "sourceDirName": "bok/Training",
+        "slug": "/bok/Training/LFC194-Implementing-OSS-License-Compliance-Management",
+        "permalink": "/docs/bok/Training/LFC194-Implementing-OSS-License-Compliance-Management",
+        "draft": false,
+        "tags": [
+            {
+                "label": "Developer (Role)",
+                "permalink": "/docs/tags/developer-role"
+            },
+            {
+                "label": "Legal (Role)",
+                "permalink": "/docs/tags/legal-role"
+            },
+            {
+                "label": "CIO/CTO (Role)",
+                "permalink": "/docs/tags/cio-cto-role"
+            },
+            {
+                "label": "OSPO (Role)",
+                "permalink": "/docs/tags/ospo-role"
+            }
+        ],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Implementing Open Source License Compliance Management",
+            "tags": [
+                "Developer (Role)",
+                "Legal (Role)",
+                "CIO/CTO (Role)",
+                "OSPO (Role)"
+            ]
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Introduction to Open Source License Compliance Management",
+            "permalink": "/docs/bok/Training/LFC193-Introduction-to-OSS-License-Compliance-Management"
+        },
+        "next": {
+            "title": "Defining Corporate Objectives",
+            "permalink": "/docs/goals-objectives/resources"
+        }
+    },
+    {
+        "unversionedId": "community-ecosystem/resources",
+        "id": "community-ecosystem/resources",
+        "title": "What is a Community Ecosystem?",
+        "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/52",
+        "source": "@site/../docs/community-ecosystem/resources.md",
+        "sourceDirName": "community-ecosystem",
+        "slug": "/community-ecosystem/resources",
+        "permalink": "/docs/community-ecosystem/resources",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "resources",
+            "title": "What is a Community Ecosystem?",
+            "sidebar_label": "What is a Community Ecosystem?"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Aligning Your Firm",
+            "permalink": "/docs/corporate-alignment/resources"
+        },
+        "next": {
+            "title": "The Role of Operations",
+            "permalink": "/docs/operations/resources"
+        }
+    },
+    {
+        "unversionedId": "corporate-alignment/resources",
+        "id": "corporate-alignment/resources",
+        "title": "How to align your firm",
+        "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/53",
+        "source": "@site/../docs/corporate-alignment/resources.md",
+        "sourceDirName": "corporate-alignment",
+        "slug": "/corporate-alignment/resources",
+        "permalink": "/docs/corporate-alignment/resources",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "resources",
+            "title": "How to align your firm",
+            "sidebar_label": "Aligning Your Firm"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Defining Corporate Objectives",
+            "permalink": "/docs/goals-objectives/resources"
+        },
+        "next": {
+            "title": "What is a Community Ecosystem?",
+            "permalink": "/docs/community-ecosystem/resources"
+        }
+    },
+    {
+        "unversionedId": "culture/resources",
+        "id": "culture/resources",
+        "title": "How to create a positive community",
+        "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/54",
+        "source": "@site/../docs/culture/resources.md",
+        "sourceDirName": "culture",
+        "slug": "/culture/resources",
+        "permalink": "/docs/culture/resources",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "resources",
+            "title": "How to create a positive community",
+            "sidebar_label": "Creating Positive Communities"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Record Management Policies",
+            "permalink": "/docs/operations/records-management"
+        },
+        "next": {
+            "title": "OSR Resources",
+            "permalink": "/docs/osr-resources/"
+        }
+    },
+    {
+        "unversionedId": "goals-objectives/resources",
+        "id": "goals-objectives/resources",
+        "title": "Defining Corporate Objectives",
+        "description": "Placeholder for OSR GitHub issue https://github.com/finos/open-source-readiness/issues/55",
+        "source": "@site/../docs/goals-objectives/resources.md",
+        "sourceDirName": "goals-objectives",
+        "slug": "/goals-objectives/resources",
+        "permalink": "/docs/goals-objectives/resources",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "resources",
+            "title": "Defining Corporate Objectives",
+            "sidebar_label": "Defining Corporate Objectives"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Implementing Open Source License Compliance Management",
+            "permalink": "/docs/bok/Training/LFC194-Implementing-OSS-License-Compliance-Management"
+        },
+        "next": {
+            "title": "Aligning Your Firm",
+            "permalink": "/docs/corporate-alignment/resources"
+        }
+    },
+    {
+        "unversionedId": "meetings",
+        "id": "meetings",
+        "title": "OSR Meetings",
+        "description": "Meetings of the OSR SIG are held on the first Wednesday of each month at 10am US/Eastern, and are open to anyone who would like to participate. Meetings include group discussions of open source best practices, guest presentations from open source experts, and collaborative sessions to produce resources for the industry.",
+        "source": "@site/../docs/meetings.md",
+        "sourceDirName": ".",
+        "slug": "/meetings",
+        "permalink": "/docs/meetings",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "meetings",
+            "title": "OSR Meetings",
+            "sidebar_label": "Meetings"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Welcome to Open Source Readiness!",
+            "permalink": "/docs/welcome"
+        },
+        "next": {
+            "title": "About",
+            "permalink": "/docs/about"
+        }
+    },
+    {
+        "unversionedId": "operations/compliance-checklist",
+        "id": "operations/compliance-checklist",
+        "title": "Checklist: establishing an open source compliance program",
+        "description": "Strategy",
+        "source": "@site/../docs/operations/compliance-checklist.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/compliance-checklist",
+        "permalink": "/docs/operations/compliance-checklist",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "compliance-checklist",
+            "title": "Checklist: establishing an open source compliance program",
+            "sidebar_label": "Compliance Checklist"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "The Role of Operations",
+            "permalink": "/docs/operations/resources"
+        },
+        "next": {
+            "title": "Compliance Workflows",
+            "permalink": "/docs/operations/compliance-workflows"
+        }
+    },
+    {
+        "unversionedId": "operations/compliance-workflows",
+        "id": "operations/compliance-workflows",
+        "title": "Open Source Compliance Workflows",
+        "description": "Below are some high-level workflows for common open source compliance processes. To provide a point of reference for the various steps, the workflows refer to the functional components of an open source compliance toolchain in the diagram below, produced by the Open Source Tooling group of the OpenChain Project.",
+        "source": "@site/../docs/operations/compliance-workflows.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/compliance-workflows",
+        "permalink": "/docs/operations/compliance-workflows",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "compliance-workflows",
+            "title": "Open Source Compliance Workflows",
+            "sidebar_label": "Compliance Workflows"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Compliance Checklist",
+            "permalink": "/docs/operations/compliance-checklist"
+        },
+        "next": {
+            "title": "FOSS Policy Reference",
+            "permalink": "/docs/operations/foss-policy"
+        }
+    },
+    {
+        "unversionedId": "operations/electronic-communications",
+        "id": "operations/electronic-communications",
+        "title": "Considerations and Guidance for Electronic Communications Policies and Open Source",
+        "description": "<!--",
+        "source": "@site/../docs/operations/electronic-communications.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/electronic-communications",
+        "permalink": "/docs/operations/electronic-communications",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "electronic-communications",
+            "title": "Considerations and Guidance for Electronic Communications Policies and Open Source",
+            "sidebar_label": "Electronic Communications Policies"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "OSLC Handbook",
+            "permalink": "/docs/operations/oslc"
+        },
+        "next": {
+            "title": "DLP and Open Source",
+            "permalink": "/docs/operations/project-access"
+        }
+    },
+    {
+        "unversionedId": "operations/foss-policy",
+        "id": "operations/foss-policy",
+        "title": "FOSS Policy Reference",
+        "description": "This is a template for a comprehensive free and open source software (FOSS) policy for a financial services institution, including sample provisions governing the acquisition and use of FOSS, and contribution to FOSS projects.",
+        "source": "@site/../docs/operations/foss-policy.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/foss-policy",
+        "permalink": "/docs/operations/foss-policy",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "foss-policy",
+            "title": "FOSS Policy Reference",
+            "sidebar_label": "FOSS Policy Reference"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Compliance Workflows",
+            "permalink": "/docs/operations/compliance-workflows"
+        },
+        "next": {
+            "title": "OSLC Handbook",
+            "permalink": "/docs/operations/oslc"
+        }
+    },
+    {
+        "unversionedId": "operations/oslc",
+        "id": "operations/oslc",
+        "title": "OSLC Handbook",
+        "description": "This handbook provides information on how to comply with some common open source licenses under a specific set of use-cases. The goal here is to provide developers and engineers with some \"self-serve\" information to facilitate the end goal of open source license compliance, particularly for the easy-to-comply with conditions in open source licenses. This handbook also aims to help identify some of the more complex open source license compliance conditions for which consultation with open source counsel may be needed.",
+        "source": "@site/../docs/operations/oslc.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/oslc",
+        "permalink": "/docs/operations/oslc",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "oslc",
+            "title": "OSLC Handbook",
+            "sidebar_label": "OSLC Handbook"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "FOSS Policy Reference",
+            "permalink": "/docs/operations/foss-policy"
+        },
+        "next": {
+            "title": "Electronic Communications Policies",
+            "permalink": "/docs/operations/electronic-communications"
+        }
+    },
+    {
+        "unversionedId": "operations/project-access",
+        "id": "operations/project-access",
+        "title": "Working with DLP Limitations to Open Source Access",
+        "description": "Companies in financial services and other highly regulated industries often face difficulties accessing and contributing to open source projects. The websites or online services that host these projects may be entirely disallowed by the firm's Data Loss Prevention (DLP) software, which runs counter to consuming and contributing to projects hosted on public websites such as GitHub and GitLab.",
+        "source": "@site/../docs/operations/project-access.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/project-access",
+        "permalink": "/docs/operations/project-access",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "project-access",
+            "title": "Working with DLP Limitations to Open Source Access",
+            "sidebar_label": "DLP and Open Source"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Electronic Communications Policies",
+            "permalink": "/docs/operations/electronic-communications"
+        },
+        "next": {
+            "title": "Record Management Policies",
+            "permalink": "/docs/operations/records-management"
+        }
+    },
+    {
+        "unversionedId": "operations/records-management",
+        "id": "operations/records-management",
+        "title": "Considerations and Guidance for Records Management regards Open Source",
+        "description": "Financial companies do define their retention policies when comes to record management, like how email communication, internal source code, internal chat systems (all involving possible counter parties) are applied to all firm business; some of these even surveiled in real time. However, such policies only apply to what is considered firm business. As by definiton the Open Source work is not considered a firm-related business, only the firm wide communication policies that would be applied to the incoming email notifications from GitHub, would be applicable here.",
+        "source": "@site/../docs/operations/records-management.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/records-management",
+        "permalink": "/docs/operations/records-management",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "records-management",
+            "title": "Considerations and Guidance for Records Management regards Open Source",
+            "sidebar_label": "Record Management Policies"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "DLP and Open Source",
+            "permalink": "/docs/operations/project-access"
+        },
+        "next": {
+            "title": "Creating Positive Communities",
+            "permalink": "/docs/culture/resources"
+        }
+    },
+    {
+        "unversionedId": "operations/resources",
+        "id": "operations/resources",
+        "title": "The Role of Operations",
+        "description": "- Compliance Checklist",
+        "source": "@site/../docs/operations/resources.md",
+        "sourceDirName": "operations",
+        "slug": "/operations/resources",
+        "permalink": "/docs/operations/resources",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "resources",
+            "title": "The Role of Operations",
+            "sidebar_label": "The Role of Operations"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "What is a Community Ecosystem?",
+            "permalink": "/docs/community-ecosystem/resources"
+        },
+        "next": {
+            "title": "Compliance Checklist",
+            "permalink": "/docs/operations/compliance-checklist"
+        }
+    },
+    {
+        "unversionedId": "osr-resources/external-resources",
+        "id": "osr-resources/external-resources",
+        "title": "External Resources",
+        "description": "Similar Efforts",
+        "source": "@site/../docs/osr-resources/external-resources.md",
+        "sourceDirName": "osr-resources",
+        "slug": "/osr-resources/external-resources",
+        "permalink": "/docs/osr-resources/external-resources",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "external-resources",
+            "title": "External Resources",
+            "sidebar_label": "External Resources"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "OSR Resources",
+            "permalink": "/docs/osr-resources/"
+        },
+        "next": {
+            "title": "Trainings",
+            "permalink": "/docs/osr-resources/trainings"
+        }
+    },
+    {
+        "unversionedId": "osr-resources/oslc-licenses",
+        "id": "osr-resources/oslc-licenses",
+        "title": "OSLC Handbook Licenses",
+        "description": "BSD Zero Clause License",
+        "source": "@site/../docs/osr-resources/oslc-licenses.md",
+        "sourceDirName": "osr-resources",
+        "slug": "/osr-resources/oslc-licenses",
+        "permalink": "/docs/osr-resources/oslc-licenses",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "oslc-licenses",
+            "title": "OSLC Handbook Licenses",
+            "sidebar_label": "Licenses"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Trainings",
+            "permalink": "/docs/osr-resources/trainings"
+        },
+        "next": {
+            "title": "WhitePaper",
+            "permalink": "/docs/osr-resources/whitepaper"
+        }
+    },
+    {
+        "unversionedId": "osr-resources/osr-resources",
+        "id": "osr-resources/osr-resources",
+        "title": "OSR Resources",
+        "description": "Open Source Maturity Model (OSMM)",
+        "source": "@site/../docs/osr-resources/osr-resources.md",
+        "sourceDirName": "osr-resources",
+        "slug": "/osr-resources/",
+        "permalink": "/docs/osr-resources/",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "osr-resources",
+            "title": "OSR Resources",
+            "sidebar_label": "OSR Resources"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Creating Positive Communities",
+            "permalink": "/docs/culture/resources"
+        },
+        "next": {
+            "title": "External Resources",
+            "permalink": "/docs/osr-resources/external-resources"
+        }
+    },
+    {
+        "unversionedId": "osr-resources/trainings",
+        "id": "osr-resources/trainings",
+        "title": "Trainings",
+        "description": "Open Source Best Practices Trainings",
+        "source": "@site/../docs/osr-resources/trainings.md",
+        "sourceDirName": "osr-resources",
+        "slug": "/osr-resources/trainings",
+        "permalink": "/docs/osr-resources/trainings",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "trainings",
+            "title": "Trainings",
+            "sidebar_label": "Trainings"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "External Resources",
+            "permalink": "/docs/osr-resources/external-resources"
+        },
+        "next": {
+            "title": "Licenses",
+            "permalink": "/docs/osr-resources/oslc-licenses"
+        }
+    },
+    {
+        "unversionedId": "osr-resources/whitepaper",
+        "id": "osr-resources/whitepaper",
+        "title": "Whitepaper: Business Value of Open Source in Financial Services",
+        "description": "This white paper outlines the benefits and value of open source for financial services across varying degrees of open source engagement including consumption, contribution to existing projects and open sourcing proprietary software. It also looks at the real and perceived risks and challenges to open source participation and ways to address these.",
+        "source": "@site/../docs/osr-resources/whitepaper.md",
+        "sourceDirName": "osr-resources",
+        "slug": "/osr-resources/whitepaper",
+        "permalink": "/docs/osr-resources/whitepaper",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "whitepaper",
+            "title": "Whitepaper: Business Value of Open Source in Financial Services",
+            "sidebar_label": "WhitePaper"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Licenses",
+            "permalink": "/docs/osr-resources/oslc-licenses"
+        },
+        "next": {
+            "title": "OSR Common Problems",
+            "permalink": "/docs/playbook/common-problems"
+        }
+    },
+    {
+        "unversionedId": "playbook/code-duplication",
+        "id": "playbook/code-duplication",
+        "title": "Code Duplication",
+        "description": "This article will cover:",
+        "source": "@site/../docs/playbook/code-duplication.md",
+        "sourceDirName": "playbook",
+        "slug": "/playbook/code-duplication",
+        "permalink": "/docs/playbook/code-duplication",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Code Duplication"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "OSR Common Problems",
+            "permalink": "/docs/playbook/common-problems"
+        },
+        "next": {
+            "title": "Risk-Based View",
+            "permalink": "/docs/playbook/risk-based-view"
+        }
+    },
+    {
+        "unversionedId": "playbook/common-problems",
+        "id": "playbook/common-problems",
+        "title": "OSR Common Problems",
+        "description": "This article contains some ideas for solving common problems when starting an OSPO.  It's divided into sections according to the type of problem you are trying to solve.",
+        "source": "@site/../docs/playbook/common-problems.md",
+        "sourceDirName": "playbook",
+        "slug": "/playbook/common-problems",
+        "permalink": "/docs/playbook/common-problems",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "OSR Common Problems"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "WhitePaper",
+            "permalink": "/docs/osr-resources/whitepaper"
+        },
+        "next": {
+            "title": "Code Duplication",
+            "permalink": "/docs/playbook/code-duplication"
+        }
+    },
+    {
+        "unversionedId": "playbook/risk-based-view",
+        "id": "playbook/risk-based-view",
+        "title": "Risk-Based View",
+        "description": "Organisational change can be very hard to achieve since organisations are naturally protective of themselves and the status quo.  Setting up an OSPO and beginning an open source journey will seem like a risky and dangerous proposition for many parts of an organisation.",
+        "source": "@site/../docs/playbook/risk-based-view.md",
+        "sourceDirName": "playbook",
+        "slug": "/playbook/risk-based-view",
+        "permalink": "/docs/playbook/risk-based-view",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Risk-Based View"
+        },
+        "sidebar": "docs",
+        "previous": {
+            "title": "Code Duplication",
+            "permalink": "/docs/playbook/code-duplication"
+        }
+    },
+    {
+        "unversionedId": "projects",
+        "id": "projects",
+        "title": "OSR Projects",
+        "description": "The Open Source Readiness SIG maintains several projects to support financial services firms' open source efforts.",
+        "source": "@site/../docs/projects.md",
+        "sourceDirName": ".",
+        "slug": "/projects",
+        "permalink": "/docs/projects",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "id": "projects",
+            "title": "OSR Projects",
+            "sidebar_label": "Projects"
+        }
+    },
+    {
+        "unversionedId": "welcome",
+        "id": "welcome",
+        "title": "Welcome to Open Source Readiness!",
+        "description": "The Open Source Readiness Special Interest Group (OSR SIG) is dedicated to helping financial services firms advance their open source programs. Here's what we have to offer:",
+        "source": "@site/../docs/welcome.md",
+        "sourceDirName": ".",
+        "slug": "/welcome",
+        "permalink": "/docs/welcome",
+        "draft": false,
+        "tags": [],
+        "version": "current",
+        "lastUpdatedBy": "Author",
+        "lastUpdatedAt": 1539502055,
+        "formattedLastUpdatedAt": "Oct 14, 2018",
+        "frontMatter": {
+            "title": "Welcome to Open Source Readiness!"
+        },
+        "sidebar": "docs",
+        "next": {
+            "title": "Meetings",
+            "permalink": "/docs/meetings"
+        }
+    }
+]
