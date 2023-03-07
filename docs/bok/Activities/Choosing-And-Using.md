@@ -23,3 +23,14 @@ Have own profile and develop in personal repos.
 Experimenting more with OSS outside of work.
 
 
+
+
+
+## Ways Of Using Open Source 
+
+(from the mind map)
+
+- standalone tool
+- snippets or files (from GitHub say)
+- libraries and packages
+- forking

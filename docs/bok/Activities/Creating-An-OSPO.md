@@ -8,6 +8,11 @@ tags:
 draft: true
 ---
 
+1. Making the Case for an OSPO
+
+2.  Staffing the OSPO / Structures / Sizing
+
+- link to lots of TODO docs here.
 
 
 
