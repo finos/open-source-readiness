@@ -2,6 +2,8 @@
 title: Developing Open Source In A Public Repository
 tags: 
   - Developer (Role)
+  - Level 3 (OSMM)
+  - Placeholder
 draft: true
 ---
 
