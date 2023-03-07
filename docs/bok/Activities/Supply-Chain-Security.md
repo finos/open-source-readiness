@@ -11,6 +11,11 @@ draft: true
 
 tbd: break into _incoming_ and _outgoing_
 
+include:
+ - Vulnerability Testing
+ - keeping dependencies up-to-date https://openssf.org/resources/guides/
+
+
 Security testing is a broad term that encompasses various techniques for evaluating the security of software systems and applications. The main types of security testing include:
 
 1. Software Composition Analysis (SCA) or Vulnerability Scanning: Vulnerability scanning involves automatically searching for known security weaknesses in software systems and applications. This type of testing can help identify potential security risks, but does not guarantee that all vulnerabilities have been found.
