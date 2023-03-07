@@ -17,6 +17,7 @@ tbd
 
 
 - new employee training
+- Ensure contractors (outsourced developement) follow the organization's open source policies and processes
  
 - checklists for product teams
 

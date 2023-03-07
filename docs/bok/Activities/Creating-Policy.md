@@ -4,7 +4,7 @@ tags:
   - Developer (Role)
   - Data Leakage (Risk)
   - Placeholder
-  - Level 3 (OSMM)
+  - Level 2 (OSMM)
 draft: true
 ---
 
