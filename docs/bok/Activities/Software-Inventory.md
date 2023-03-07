@@ -1,5 +1,5 @@
 ---
-title: Inventory
+title: Software Inventory
 tags: 
   - OSPO (Role)
   - Developer (Role)

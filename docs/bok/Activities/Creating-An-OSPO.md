@@ -8,7 +8,9 @@ tags:
 draft: true
 ---
 
-1. Making the Case for an OSPO
+
+
+1. Making the Case for an OSPO ( already written in the OSR Common Problems)
 
 2.  Staffing the OSPO / Structures / Sizing
 

@@ -5,6 +5,7 @@ tags:
   - Security Expert (Role)
   - Dependency Risk
   - Developer Training
+  - SBOMs (Artifacts)
 ---
 
 This is an introductory course designed for directors, product managers, open source program office staff, security professionals, and developers.
