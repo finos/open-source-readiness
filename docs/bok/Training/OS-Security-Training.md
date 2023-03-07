@@ -4,7 +4,7 @@ tags:
   - Developer (Role)
   - OSPO (Role)
   - Product Manager (Role)
-- Security Expert (role)
+  - Security Expert (Role)
 ---
 ## Background
 The Open Source Security Foundation (OpenSSF) {https://openssf.org}, in conjuction with Lf Training and Certification, has developed a comprehensive training program for organizations to securely develop and use open source software.
