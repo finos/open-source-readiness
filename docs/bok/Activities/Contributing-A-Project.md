@@ -13,6 +13,7 @@ draft: true
 ---
 
 
+
 Lifecycle (from FINOS, Apache)
 
 - Inception

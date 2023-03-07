@@ -8,7 +8,7 @@ This article contains some ideas for solving common problems when starting an OS
 
 _How to make the case for funding an OSPO within an organisation._
 
-- [Licenses](inbound-licenses): sometimes, OSPOs are started from a position of legal necessity.  Are you using code with appropriate licenses?  Does someone have to adjudicate which licenses are allowed and which aren't?
+- [Licenses](bok/Artifacts/Licenses): sometimes, OSPOs are started from a position of legal necessity.  Are you using code with appropriate licenses?  Does someone have to adjudicate which licenses are allowed and which aren't?
 
 - [Maintenance Costs](code-duplication): a lot of times, people need changes to an open-source project.  If you don't allow them to contribute to the original project then they're going to fork the project internally.  If you are a large organisation, you may end up with several different, incompatible forks of some open source project.  This has to be maintained.
 

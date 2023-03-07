@@ -1,5 +1,5 @@
 ---
-title: Inner Source Program Office (ISPO)
+title: "Inner Source Program Office (ISPO)"
 tags:
   - Codebase Risk
   - Data Leakage Risk
@@ -9,10 +9,8 @@ tags:
   - Placeholder
 ---
 
-tbd
-
-
+Details of what role the ISPO performs in the organisation
 
 ## Expected Activities
 
-<BokTagList tag="ISPO (Role)" filter="Activities" />
+none yet

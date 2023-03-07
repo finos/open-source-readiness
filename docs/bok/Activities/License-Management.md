@@ -97,8 +97,7 @@ It's important to document the findings of the legal review, including any recom
 
 Using the correct licenses will form part of License Policy and it will be necessary to ensure developers in your organisation are aware of the limitations around the use of open source.  Although these limitations will vary from firm-to-firm, the Linux Foundation provides several training courses suitable for orienting developers on their responsibilities relating to open source licensing:
 
-1. [Introduction to Open Source License Compliance Management](../Training/LFC193-Introduction-to-OSS-License-Compliance-Management.md)
-2. [Implementing Open Source License Compliance Management](../Training/LFC194-Implementing-OSS-License-Compliance-Management.md)
+<BokTagList tag="License Compliance Management (Activity)" filter="Training" />
 
 ## License Distribution
 
@@ -111,7 +110,7 @@ FINOS provides a categorization around acceptable software licenses which may be
 ## Final Points to Consider
 
 * The enterprise should have a _process_ in place for tracking open-source components, monitoring license changes, and ensuring compliance with all license obligations.  That is, it is important that license management is performed continually:  dependencies can change license, projects can take on new dependencies, risk appetite can change. 
-* Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](Security-Testing.md#software-composition-analysis-sca) and so license usage should be considered part of this analysis.
+* Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](Supply-Chain-Security#software-composition-analysis) and so license usage should be considered part of this analysis.
 
 ## Further Reading
 
@@ -125,7 +124,4 @@ FINOS provides a categorization around acceptable software licenses which may be
 
 - **[A Developer's Guide To Open Source Licenses](https://www.toptal.com/open-source/developers-guide-to-open-source-licenses)**.  Delves into the details of what developers need to know about licenses.
 
-## Training Materials
-
-<BokTagList tag="License Compliance Management (Activity)" filter="Training" />
 

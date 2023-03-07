@@ -14,3 +14,4 @@ draft: true
 
 - check against mind map: policy on contribution during personal time/work time
 
+- relationship with IP policy
