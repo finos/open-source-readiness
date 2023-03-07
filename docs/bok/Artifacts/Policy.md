@@ -2,6 +2,9 @@
 title: Open Source Policy
 tags:
   - Placeholder
+  - Legal (Role)
+  - OSPO (Role)
+  - Developer (Role)
 draft: true
 ---
 
@@ -10,3 +13,4 @@ draft: true
 - peter writing this
 
 - check against mind map: policy on contribution during personal time/work time
+

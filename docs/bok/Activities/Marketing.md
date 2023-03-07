@@ -21,3 +21,8 @@ Community Events
 Obligation Fulfilment? (ask Thomas)
 
 OPen Source Principles of the Organisation
+company logo
+
+- External website 
+- Policy for speaking externally
+- Social Media (inc. github)
