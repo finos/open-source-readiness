@@ -24,7 +24,7 @@ Open source software is often the result of the combined efforts of many contrib
 
 - A [software license](Licenses) is issued by the **maintainer** of some software, granting an **end user** some rights over a piece of software (such as allowing them to use it).
 
-- Similarly, the CLA or DCO is issued by the **contributor** of some code, granting the **maintainer** the right to license this code as part of the main software project.
+- Similarly, the CLA or DCO is issued by the **contributor** of some code, granting the **maintainer** the right to license the contribution as part of the main project.
 
 > The purpose of a CLA is to ensure that the guardian of a project's outputs has the necessary ownership or grants of rights over all contributions to allow them to distribute under the chosen license, often by granting an irrevocable license to allow the project maintainer to use the contribution - [Contributor License Agreement, _Wikipedia_](https://en.wikipedia.org/wiki/Contributor_License_Agreement)
 
@@ -40,17 +40,23 @@ Many open source projects on [GitHub](https://github.com) have built-in workflow
 
 ## Two Types of CLA
 
-- Where a contribution is coming from an _individual_ (such as a hobbyist developer) the CLA is considered as an Individual Contributor License Agreement (ICLA).  In this case, the _individual_ owns the copyright to their contribution and is able to sign the ICLA.
+- Where a contribution is coming from an _individual_ (such as a hobbyist developer) the CLA is considered as an _Individual_ Contributor License Agreement (ICLA).  In this case, the _individual_ owns the copyright to their contribution and is able to sign the ICLA.
 
-- Where a contribution is made from a corporation (such as a developer working within a financial institution) the CLA needed is a Corporate Contributor License Agreement (CCLA).  In this case, the copyright is owned by the _corporation_ and the entity must assign a **CLA Manager** to sign off CCLAs on behalf of the corporation.  The CLA Manager will need to maintain the list (a "Schedule A") of all the employees in the organisation covered by CCLAs, likely on a per-project basis.
+- Where a contribution is made from a corporation (such as a developer working within a financial institution) a _Corporate_ Contributor License Agreement (CCLA) is often required.  In this case, the copyright is owned by the _corporation_ and the entity must assign a **CLA Manager** to sign off CCLAs on behalf of the corporation.  The CLA Manager will need to maintain the list (a "Schedule A") of all the employees in the organisation covered by CCLAs, likely on a per-project basis.
 
-### Issues Arising For CCLAs
+### Issues For CLAs
 
-1.  Since individuals join and leave organisations, it becomes necessary for either the project or the CLA tool to keep track of who is or isn't under a CLA at the time of contributing.  For example, if an individual makes a _corporate_ contribution (with signed CCLA) one day, then leaves the organisation and makes an _individual_ contribution the next day, the CCLA will no longer be in force for this contribution and technically the individual may be able to assert copyright over the latter contribution.  It is therefore important that the CLA Manager is kept up-to-date with employees leaving the organisation.
+1.  Depending on the wording of the CLA and the license, the CLA usually may grant the project irrevocable copyright to use the contribution.  This has caused controversy with open source projects in the past:
+
+> When a CLA requires a contributor to assign unrestricted republishing rights to the project, contributed code can be relicensed at the discretion of the project, even when the CLA does not assign copyright to the project. Prominent open source advocates regard CLAs as dangerous to open source rights ... In 2019 MongoDB used these rights granted by its CLA to achieve a move to a non-open-source license.  [Contributor License Agreement, _Wikipedia_](https://en.wikipedia.org/wiki/Contributor_License_Agreement#Relicensing_controversy)  
 
 2.  Individuals may make contributions on behalf of their corporate employers or on their own behalf.  It might not be clear which.   Some organisations deal with this issue by asking their employees to have separate GitHub accounts for their different activities.
 
-3.  Because CCLAs are a legal document, the organisation's legal team will likely need to be involved in the sign off process.  As the terms in each CCLA might be different, this might place a burden on the legal team where multiple projects are involved.
+3.  Since individuals join and leave organisations, it becomes necessary for either the project or the CLA tool to keep track of who is or isn't under a CLA at the time of contributing.  For example, if an individual makes a _corporate_ contribution (with signed CCLA) one day, then leaves the organisation and makes an _individual_ contribution the next day, the CCLA will no longer be in force for this contribution and technically the individual may be able to assert copyright over the latter contribution.  It is therefore important that the CLA Manager is kept up-to-date with employees leaving the organisation.  For this reason, many organisations (such as [Apache Software Foundation](https://www.apache.org)) demand an ICLA for every contributor.  As far as Apache are concerned, the CCLA is for the contributor's own protection.  This may mean contributors have to process both an ICLA and CCLA:
+
+> The CCLA is a backup document that the committer/ICLA signer may use to eliminate all of the ambiguity between conflicting laws, contracts, policies and job assignments. We've never required it. Many committers are confident of their individual representations under the ICLA, many other committers find it reassuring that their company has backed up their own ICLA with this umbrella document.  It is the ICLA signatory's call if it is required, but it isn't exactly an easy call for many committers employed in the IT/Software industry. [Apache CLA FAQ](https://www.apache.org/licenses/cla-faq.html)
+
+4.  Because CCLAs are a legal document, the organisation's legal team will likely need to be involved in the sign off process.  As the terms in each CCLA might be different, this might place a burden on the legal team where multiple projects are involved.
 
 ## Developer Certificate of Origin
 
@@ -66,7 +72,7 @@ The DCO was created by [the Linux Foundation](https://linuxfoundation.org), as a
  
 ## CLA vs DCO
 
-CLAs are typically used by larger projects and organizations that have more complex legal needs, wheras DCO is a simpler and more lightweight alternative to a CLA. 
+CLAs are typically used by larger projects and organizations that have more complex legal needs, whereas DCO is a simpler and more lightweight alternative to a CLA. 
 
 The main difference between CLA and DCO is the level of legal formality involved:
 
