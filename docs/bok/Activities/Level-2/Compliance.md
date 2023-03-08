@@ -7,6 +7,7 @@ tags:
   - CIO/CTO (Role)
   - Legal Risk
 draft: true
+sidebar_position: 6
 ---
 
 Compliance and contribution tooling [DLP](DLP)

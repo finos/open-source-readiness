@@ -7,6 +7,7 @@ tags:
   - Placeholder
   - Level 2 (OSMM) 
 draft: true
+sidebar_position: 4
 ---
 
 tbd: break into _incoming_ and _outgoing_

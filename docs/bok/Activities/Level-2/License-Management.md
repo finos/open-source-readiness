@@ -6,6 +6,7 @@ tags:
   - Legal (Role)
   - Legal Risk
   - Level 2 (OSMM)
+sidebar_position: 2
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:

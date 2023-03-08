@@ -6,7 +6,10 @@ tags:
   - Placeholder
   - Level 3 (OSMM)
 draft: true
+sidebar_position: 5
 ---
+
+OPtional activity?
 
 - trying to change the internal culture of the company to be more like Open Source.
 

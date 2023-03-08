@@ -8,6 +8,7 @@ tags:
   - CEO (Role)
   - Staff Risk
 draft: true
+sidebar_position: 4
 --- 
  
 Train new and coach existing open source leaders 

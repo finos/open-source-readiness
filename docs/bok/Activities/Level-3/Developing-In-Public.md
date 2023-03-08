@@ -5,6 +5,7 @@ tags:
   - Level 3 (OSMM)
   - Placeholder
 draft: true
+sidebar_position: 2
 ---
 
 something about using GitHub or GitLab.

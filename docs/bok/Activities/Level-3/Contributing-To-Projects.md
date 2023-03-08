@@ -9,7 +9,13 @@ tags:
   - Licenses (Artifact)
   - Level 3 (OSMM)
 draft: true
+sidebar_position: 1
 ---
+
+Making the case for contribution
+
+(Elspeth working on this)
+
 
 Infrastructure:
 

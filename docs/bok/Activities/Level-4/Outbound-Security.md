@@ -1,5 +1,5 @@
 ---
-title: Disclosing Vulnerabilities
+title: Outbound Security
 tags: 
   - Placeholder
   - Level 4 (OSMM)
@@ -10,3 +10,7 @@ draft: true
 how and why.
 
 
+-  Disclosing Vulnerabilities
+
+
+https://roadmap.sh/cyber-security
