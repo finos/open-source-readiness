@@ -28,6 +28,20 @@ Open source software is often the result of the combined efforts of many contrib
 
 > The purpose of a CLA is to ensure that the guardian of a project's outputs has the necessary ownership or grants of rights over all contributions to allow them to distribute under the chosen license, often by granting an irrevocable license to allow the project maintainer to use the contribution - [Contributor License Agreement, _Wikipedia_](https://en.wikipedia.org/wiki/Contributor_License_Agreement)
 
+## CLA Rationale
+
+CLAs were introduced as a way to manage the legal issues that arise when software projects accept contributions from external contributors.
+
+Before the widespread use of CLAs, contributors often granted _implicit_ copyright licenses to project maintainers when they submitted their code. This created uncertainty about the ownership and licensing of the code, and made it difficult to incorporate contributions into the project.
+
+By using a CLA, project maintainers can establish clear rules about how contributions will be licensed and can ensure that they have the necessary permissions to use and distribute the code. This can help prevent legal disputes and make it easier for projects to grow and evolve over time.   For example, after signing the [Apache CLA](https://www.apache.org/licenses/icla.pdf) for a project with a matching [Apache License](https://www.apache.org/licenses/LICENSE-2.0) the contributor agrees:
+
+> Unless [the maintainers] explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by [the maintainers] to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. - [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 
+
+Additionally, CLAs can also provide some legal protection to project maintainers by requiring contributors to certify that their contributions do not infringe on anyone else's intellectual property rights. This can help shield the project from liability if a contributor's code turns out to be infringing.  For example, the CLA might have a clause saying: 
+
+> You represent that each of Your Contributions is Your original creation ... include[ing] complete details of any third-party license or other restriction ... of which you are personally aware - [Apache ICLA](https://www.apache.org/licenses/icla.pdf)
+
 ## Popular CLA Management Tools
 
 Many open source projects on [GitHub](https://github.com) have built-in workflows to enforce CLA signing for new contributors, often using one of the following tools:
