@@ -28,7 +28,6 @@ tbd.
 Approved to leverage open source and pulling in dependency in their projects.
 
 
-
 ## Infrastructure
 
  - Firewalls, getting access to open source.

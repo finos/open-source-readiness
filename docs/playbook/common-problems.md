@@ -8,7 +8,7 @@ This article contains some ideas for solving common problems when starting an OS
 
 _How to make the case for funding an OSPO within an organisation._
 
-- [Licenses](bok/Artifacts/Licenses): sometimes, OSPOs are started from a position of legal necessity.  Are you using code with appropriate licenses?  Does someone have to adjudicate which licenses are allowed and which aren't?
+- [Licenses](../bok/Artifacts/Licenses): sometimes, OSPOs are started from a position of legal necessity.  Are you using code with appropriate licenses?  Does someone have to adjudicate which licenses are allowed and which aren't?
 
 - [Maintenance Costs](code-duplication): a lot of times, people need changes to an open-source project.  If you don't allow them to contribute to the original project then they're going to fork the project internally.  If you are a large organisation, you may end up with several different, incompatible forks of some open source project.  This has to be maintained.
 
@@ -16,7 +16,7 @@ _How to make the case for funding an OSPO within an organisation._
 
 - **Many Eyes / Fewer Bugs**: Linus Torvalds makes the case for Linux that because the OS is so popular, more bugs get found (and fixed) more quickly.   Increasing the user base of any system should surface rough edges faster.
 
-- **Direction**: Banks are technology companies which rely on software.  Estimates suggest that upwards of 95% of this is open source.  Thry are completely beholden to other organisations and individuals for providing it but without an open source presence have no voice in the direction the software takes.  If an organisation's modernisation strategy is predicated on the use of open source, then there is risk in basing that strategy on something you have no control over.
+- **Direction**: Banks are technology companies which rely on software.  Estimates suggest that upwards of 95% of this is open source.  They are completely beholden to other organisations and individuals for providing it but without an open source presence have no voice in the direction the software takes.  If an organisation's modernisation strategy is predicated on the use of open source, then there is risk in basing that strategy on something you have no control over.
 
 - [Risk](risk-based-view): OSPOs have been set up by arguing from a position of _more favourable risk_.  That is, the risks of _having_ an OSPO and open source presence are more favourable than _not having one_. 
 
@@ -26,7 +26,7 @@ _Who do you need in the OSPO?_
 
 - **Guild Model**:  ideally, you need representatives interacting with the OSPO from all the areas of business: finance, HR, Legal etc.   Several firms operate their OSPO on a "Guild Model", with staff being present in the OSPO and their line function.
 - **IP Council**:  You may need someone who is expert on software licensing if this is part of the remit of your OSPO.
-- [IP Policy](ip-policy): The organisation's IP Policy has a bearing on whether employees can contribute to open source.  
+- IP Policy: The organisation's IP Policy has a bearing on whether employees can contribute to open source.  
 
 ## Remit
 

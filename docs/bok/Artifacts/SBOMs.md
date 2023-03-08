@@ -11,7 +11,7 @@ An SBOM, or Software Bill of Materials, is a list of all the components, librari
 
 2. CycloneDX: CycloneDX is an open standard for creating SBOMs that is focused on security-sensitive industries such as automotive, aerospace, and medical devices. It is optimized for use with open source components and provides a compact, XML-based format for SBOMs. Advantages of CycloneDX include its focus on security, which makes it a good choice for projects that need to ensure the security of their dependencies.
 
-SBOMs are typically produced as an artifact from the activity of [Software Composition Analysis](../Activities/Supply-Chain-Security#software-composition-analysis-sca)
+SBOMs are typically produced as an artifact from the activity of [Software Composition Analysis](../Activities/Level-2/Supply-Chain-Security#Software-Composition-Analysis)
 
 ## SPDX
 

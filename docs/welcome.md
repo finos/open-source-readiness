@@ -21,5 +21,5 @@ Interested in the SIG? Join us! Here are a few ways to get involved:
 
 - Subscribe to our **[mailing list](https://groups.google.com/a/finos.org/forum/#!forum/osr)** by sending an email to **[mailto:osr+subscribe@finos.org](mailto:osr+subscribe@finos.org)** and get updates on upcoming meetings and other activity.
 
-- Contribute to our **[resources](osr-resources/osr-resources)** for open source programs. Most OSR resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers. If you have a project to propose, **[open a GitHub issue](https://github.com/finos/open-source-readiness/issues)** and share your vision!
+- Contribute to our **[resources](osr-resources)** for open source programs. Most OSR resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers. If you have a project to propose, **[open a GitHub issue](https://github.com/finos/open-source-readiness/issues)** and share your vision!
     

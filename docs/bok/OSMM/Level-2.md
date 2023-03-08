@@ -7,7 +7,7 @@ tags:
   - OSMM
 ---
 
-At this level, an organization has established some practices for managing open source software.  The organization has some [visibility into open source use](../Activities/Software-Inventory) and there are limited controls in place to manage open source software and to [ensure compliance with licenses](../Activities/License-Management).
+At this level, an organization has established some practices for managing open source software.  The organization has some [visibility into open source use](../Activities/Level-2/Software-Inventory) and there are limited controls in place to manage open source software and to [ensure compliance with licenses](../Activities/Level-2/License-Management).
 
 ## The Open Source Program Office (OSPO)
 

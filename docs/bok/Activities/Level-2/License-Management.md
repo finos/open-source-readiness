@@ -35,7 +35,7 @@ It is expected that developers would set up these tools to run on the CI/CD pipe
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
-Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../Artifacts/SBOMs).  There are various tools you can use to identify licenses across an estate of projects such as:
+Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../../Artifacts/SBOMs).  There are various tools you can use to identify licenses across an estate of projects such as:
 
 - [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort).  An open source Linux Foundation project for automating many parts of open source project review.  
 - [FOSSA](https://fossa.com) is an open-source license compliance and vulnerability management platform.
@@ -110,7 +110,7 @@ FINOS provides a categorization around acceptable software licenses which may be
 ## Final Points to Consider
 
 * The enterprise should have a _process_ in place for tracking open-source components, monitoring license changes, and ensuring compliance with all license obligations.  That is, it is important that license management is performed continually:  dependencies can change license, projects can take on new dependencies, risk appetite can change. 
-* Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](Supply-Chain-Security#software-composition-analysis) and so license usage should be considered part of this analysis.
+* Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](./Supply-Chain-Security#Software-Composition-Analysis) and so license usage should be considered part of this analysis.
 
 ## Further Reading
 
