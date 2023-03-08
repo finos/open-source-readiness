@@ -28,7 +28,7 @@ Open source software is often the result of the combined efforts of many contrib
 
 > The purpose of a CLA is to ensure that the guardian of a project's outputs has the necessary ownership or grants of rights over all contributions to allow them to distribute under the chosen license, often by granting an irrevocable license to allow the project maintainer to use the contribution - [Contributor License Agreement, _Wikipedia_](https://en.wikipedia.org/wiki/Contributor_License_Agreement)
 
-## CLA Rationale
+## CLA Rationale
 
 CLAs were introduced as a way to manage the legal issues that arise when software projects accept contributions from external contributors.
 
@@ -40,7 +40,7 @@ By using a CLA, project maintainers can establish clear rules about how contribu
 
 Additionally, CLAs can also provide some legal protection to project maintainers by requiring contributors to certify that their contributions do not infringe on anyone else's intellectual property rights. This can help shield the project from liability if a contributor's code turns out to be infringing.  For example, the CLA might have a clause saying: 
 
-> You represent that each of Your Contributions is Your original creation ... include[ing] complete details of any third-party license or other restriction ... of which you are personally aware - [Apache ICLA](https://www.apache.org/licenses/icla.pdf)
+> You represent that each of Your Contributions is Your original creation ... include[ing] complete details of any third-party license or other restriction ... of which you are personally aware - [Apache CLA](https://www.apache.org/licenses/icla.pdf)
 
 ## Popular CLA Management Tools
 
@@ -58,7 +58,7 @@ Many open source projects on [GitHub](https://github.com) have built-in workflow
 
 - Where a contribution is made from a corporation (such as a developer working within a financial institution) a _Corporate_ Contributor License Agreement (CCLA) is often required.  In this case, the copyright is owned by the _corporation_ and the entity must assign a **CLA Manager** to sign off CCLAs on behalf of the corporation.  The CLA Manager will need to maintain the list (a "Schedule A") of all the employees in the organisation covered by CCLAs, likely on a per-project basis.
 
-### Issues For CLAs
+## Issues For CLAs
 
 1.  Depending on the wording of the CLA and the license, the CLA usually may grant the project irrevocable copyright to use the contribution.  This has caused controversy with open source projects in the past:
 
@@ -84,7 +84,7 @@ The DCO was created by [the Linux Foundation](https://linuxfoundation.org), as a
  
  - [Git's Sign-off Feature](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff). Allows developers to sign their commits.
  
-## CLA vs DCO
+## CLA vs DCO
 
 CLAs are typically used by larger projects and organizations that have more complex legal needs, whereas DCO is a simpler and more lightweight alternative to a CLA. 
 
