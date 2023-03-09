@@ -1,5 +1,5 @@
 ---
-title: Creating an Inner Source Program Office (ISPO)
+title: Building an Open Source Culture
 tags: 
   - Developer (Role)
   - ISPO (Role)
@@ -8,6 +8,10 @@ tags:
 draft: true
 sidebar_position: 5
 ---
+
+tbd
+
+## Starting an ISPO
 
 OPtional activity?
 

@@ -17,5 +17,5 @@ Create programs to incentivize contributions of organization's members
 Drive an internal open source ambassadors program
 Making it easy to contribute
  
- 
+ Talent: Open Source career paths, incentivising, ambassadors, recognition
  

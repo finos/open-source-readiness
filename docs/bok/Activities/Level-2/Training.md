@@ -9,6 +9,37 @@ draft: true
 sidebar_position: 3
 ---
 
+## Media
+
+OKR on better contribution of OSS.
+
+- Training Curriculum. 
+	 - What's in the training curriculum?  
+	 - Are there any LF trainings recommended?
+	 - Legal / Compliance Collaboration  *** Really Important ***
+	 - How to develop training to satisfy these stakeholders
+	 - Workflow (describe that)
+- Internal deep dives / sessions.  
+	 - What purpose does this serve?
+	 - Who's the audience?
+	 - Examples
+	 - e.g. FINOS, to talk about foundations, and what the purpose of those was
+	 - Interal open source teams - panel discussion. bringing to light the OSPO and what it does.  And the fact that there is OSS being done internally.
+	 - Open Source spotlight on contributors. 
+- Bringing in external experts (e.g. security experts)
+	 - Leveraging foundation memberships to bring in experts.
+	 - How to engage with working groups.
+	 - How to engage with standards (Fi?)
+	 
+
+- Documentation - open source documentation page
+	- 101 on how to contribute at ***
+	- Participation guidelines as an extension to Compliance
+	- YOu want to write a blog?  Hackathon?  
+	- 
+
+- Blog articles: bringing awareness to open source.
+
 
 
 
