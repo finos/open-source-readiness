@@ -14,3 +14,5 @@ Compliance and contribution tooling [DLP](DLP)
 
 other compliance details tbd.
 
+Make sure to cover things in the [checklist](/docs/operations/compliance-checklist) - perhaps subsume that into Artifacts.
+

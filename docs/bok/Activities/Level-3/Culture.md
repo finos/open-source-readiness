@@ -11,6 +11,10 @@ sidebar_position: 5
 
 tbd
 
+
+- Aligning your firm to OSS activities
+
+
 ## Starting an ISPO
 
 OPtional activity?
