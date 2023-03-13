@@ -1,5 +1,5 @@
 ---
-title: Managing Open Source-based Projects
+title: Managing Open Source-based
 tags: 
   - Product Manager (Role)
   - CIO-CTO (Role)
@@ -8,6 +8,11 @@ tags:
   - Level 1 (OSMM)
 draft: true
 ---
+
+- projects
+- infrastructure
+- outsourcing support / managed services
+- e.g. kubernetes 
 
 Some activities taken from the [GGI](../../Training/Good-Governance-Initiative):
 
