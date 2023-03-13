@@ -5,7 +5,7 @@ tags:
   - Data Leakage (Risk)
   - Placeholder
   - OSPO (Role)
-  - Level 4 (OSMM)
+  - Level 3 (OSMM)
 draft: true
 sidebar_position: 4
 ---
@@ -41,4 +41,16 @@ Speaking
 
 Ambassadors
 
+
+Maybe move sponsorship here.
+
+
+
+
+## Sponsoring
+
+Sponsoring third-party projects or individuals
+Sponsoring own organization's open source projects or individual members
+Sponsoring open source organizations
+Sponsoring events
 

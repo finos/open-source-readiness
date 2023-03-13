@@ -6,13 +6,16 @@ tags:
   - Placeholder
   - Level 3 (OSMM)
 draft: true
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 tbd
 
 
 - Aligning your firm to OSS activities
+- promote best practices
+- clear paths to contribution
+- HR understands OSS skills (GGI)
 
 
 ## Starting an ISPO

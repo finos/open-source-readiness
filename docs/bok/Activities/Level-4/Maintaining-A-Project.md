@@ -6,9 +6,17 @@ tags:
   - Placeholder
   - Level 4 (OSMM)
 draft: true
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 Main responsibilities of being an OSS maintainer (lots of pre-existing materials on the internet - refer to these)
 
+
+- choosing maintainers
+- teams
 tbd
+
+- project governance, contributing to.
+- making sure you have points of contact and clear ownership of OSS projects.
+- commerical support for the OSS projects within the organisation
+- Publically supporting your OSS - are the logos on the websites (in both directions)

@@ -35,3 +35,5 @@ tbd
 
 
 - shutting down projects.
+
+- whether to contribute the project to a foundation

@@ -8,7 +8,7 @@ tags:
   - CEO (Role)
   - Staff Risk
 draft: true
-sidebar_position: 4
+sidebar_position: 5
 --- 
  
 Train new and coach existing open source leaders 
@@ -18,4 +18,7 @@ Drive an internal open source ambassadors program
 Making it easy to contribute
  
  Talent: Open Source career paths, incentivising, ambassadors, recognition
+ 
+ 
+ 
  

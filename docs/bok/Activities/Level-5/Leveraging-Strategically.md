@@ -18,10 +18,6 @@ Provide open source guidance to people whether managers, contributors, open sour
 Advise on which open source technologies to adopt, hold or avoid
 
 
-
-## Sponsoring
-
-Sponsoring third-party projects or individuals
-Sponsoring own organization's open source projects or individual members
-Sponsoring open source organizations
-Sponsoring events
+- OSS Roadmap
+- C-Level engagement
+- OSS Governance charter (is this different to a policy?  Might be more public)

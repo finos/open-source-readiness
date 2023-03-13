@@ -15,6 +15,11 @@ tbd: break into _incoming_ and _outgoing_
 include:
  - Vulnerability Testing
  - keeping dependencies up-to-date https://openssf.org/resources/guides/
+ 
+
+- KPIs around dependencies?
+
+- code reviews (GGI)
 
 
 Security testing is a broad term that encompasses various techniques for evaluating the security of software systems and applications. The main types of security testing include:

@@ -18,11 +18,11 @@ There are several key points that a large enterprise should consider to ensure c
 4. **Legal review**: It is important to have a qualified legal professional review the open-source licenses and obligations to ensure compliance.
 5. **Employee education**: The enterprise should educate its employees on the importance of compliance with open-source licenses and the obligations associated with each license.
 
-_See Also: [Licenses](../Artifacts/Licenses) describes what software licenses are._
+_See Also: [Licenses](../../Artifacts/Licenses) describes what software licenses are._
 
 ## 1. License Identification
 
-### For Individual Software Projects [Developer](../Roles/Developer)
+### For Individual Software Projects [Developer](../../Roles/Developer)
 
 Individual software projects often include direct and transitive dependencies on other pieces of open source software.  There are plenty of tools for cataloguing licenses being used:
 
@@ -34,7 +34,7 @@ Individual software projects often include direct and transitive dependencies on
 	
 It is expected that developers would set up these tools to run on the CI/CD pipeline of their projects and generate license reports every time a build is run.
 
-### Across an Estate [OSPO](../Roles/OSPO)
+### Across an Estate [OSPO](../../Roles/OSPO)
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
@@ -47,7 +47,7 @@ Instead, you need tools that will scan open source projects wherever they come f
 
 ### License Identifiers
 
-As described in the [License](../Artifacts/License) article, most open source software is licensed under one of a limited number of common licenses, such as the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0), [MIT License](https://mit-license.org) and [BSD License](https://opensource.org/license/bsd-2-clause/).
+As described in the [License](../../Artifacts/Licenses) article, most open source software is licensed under one of a limited number of common licenses, such as the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0), [MIT License](https://mit-license.org) and [BSD License](https://opensource.org/license/bsd-2-clause/).
 
 Each of these de-facto standard licenses has an associated [SPDX Identifier](https://spdx.org/licenses/). For example, the SPDX identifier "Apache-2.0" refers to the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0).
 
@@ -57,7 +57,7 @@ Determining the compatibility of licenses involves evaluating the terms and cond
 
 There are several factors to consider when determining the compatibility of licenses, including:
 
-1. **License conditions:** Some licenses have conditions, such as [copyleft](../Artifacts/License#3--copyleft-licenses) or patent retaliation clauses, that must be followed in order for the license to be considered compatible.
+1. **License conditions:** Some licenses have conditions, such as [copyleft](../../Artifacts/Licenses#3--copyleft-licenses) or patent retaliation clauses, that must be followed in order for the license to be considered compatible.
 2. **License compatibility:** Some licenses are designed to be compatible with each other, while others are not. For example, the GPL license is considered to be incompatible with many other licenses, while the Apache license is considered to be more compatible.
 3. **Corporate open-source policy:** Your organization may have its own open-source policy that specifies which licenses are acceptable for use in your software.
 4. **Legal considerations:** Some licenses may have legal implications for your organization, such as the potential for patent infringement or the requirement to provide source code.
@@ -66,7 +66,7 @@ By evaluating these factors, you can determine the compatibility of the licenses
 
 ## 3. License Obligations
 
-Please review the [License](../Artifacts/License) article in particular the section on [License Obligations](../Artifacts/License#license-obligations).
+Please review the [License](../../Artifacts/Licenses) article in particular the section on [License Obligations](../../Artifacts/Licenses#license-obligations).
 
 ## 4. Legal Review / License Policy
 
