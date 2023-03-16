@@ -14,7 +14,22 @@ Community Engagement/ Public Speaking/Content (Blogs, etc)
 
 Ecosystems
 
-# Marketing
+# Community Engagement
+
+- Clear communication
+- Inclusivity:
+- Documentation
+- Code quality
+
+
+
+## Futher Reading
+
+- https://opensource.com/article/22/12/open-source-community-management
+- https://www.redhat.com/en/blog/best-practices-community-practice-open-source-way-journey
+
+
+
 
 ## internal 
 
