@@ -22,11 +22,11 @@ Make sure to cover things in the [checklist](/docs/operations/compliance-checkli
 
 The three lines of defence is a risk management model commonly used in the banking industry to establish an effective and efficient risk management framework. The three lines are:
 
-- **First Line of Defence:** This line of defence consists of the business units or front-line operations responsible for managing risks on a day-to-day basis. This includes the employees who execute operational tasks and processes, such as loan officers or traders. The first line of defence is responsible for identifying, assessing, and managing risks in their respective areas.
+- **First Line of Defence:** This line of defence consists of the business units or front-line operations responsible for managing risks on a day-to-day basis. This includes the employees who execute operational tasks and processes, such as loan officers or traders. The first line of defence is responsible for identifying, assessing, and managing risks in their respective areas, adhering to internal controls, and communicating changes is operational risk or control deficiency. 
 
-- **Second Line of Defence:** This line of defence consists of risk management functions that are responsible for providing oversight and guidance to the first line of defence. This includes the risk management, compliance, and internal audit functions. The second line of defence monitors the effectiveness of the first line's risk management activities and provides guidance and support as needed.
+- **Second Line of Defence:** This line of defence consists of risk management functions that are responsible for providing oversight and guidance to the first line of defence. This includes the risk management, compliance, and internal audit functions. The second line of defence monitors the effectiveness of the first line's risk management activities and provides guidance and support as needed. This includes periodic reviews, audits, or use of automated tools to monitor risk and control activities. 
 
-- **Third Line of Defence:** This line of defence consists of independent assurance functions that provide an objective assessment of the effectiveness of the first and second lines of defence. This includes external auditors, regulatory auditors, and other assurance providers. The third line of defence provides independent assurance on the effectiveness of the overall risk management framework and ensures that any deficiencies or gaps are addressed.
+- **Third Line of Defence:** This line of defence consists of independent assurance functions that provide an objective assessment of the effectiveness of the first and second lines of defence. This includes external auditors, regulatory auditors, and other assurance providers. The third line of defence provides independent assurance on the effectiveness of the overall risk management framework and ensures that any deficiencies or gaps are addressed. This includes periodic audits, required disclosures and annual financial reporting. 
 
 
 ## What is Compliance?
@@ -36,6 +36,16 @@ The compliance department in a bank is responsible for ensuring that the bank op
 ## Intersection with Open Source Consumption
 
 There are several banking compliance policies that intersect with the use of software generally within an organization, which apply equally to open source software:
+
+### Sarbanes-Oxley Act (SOX)
+The Sarbanes–Oxley Act of 2002 is a United States federal law that mandates certain practices in financial record keeping and reporting for corporations. It codified the system of "Internal Controls over Financial Reporting" that requires publicly-traded corporations to define operational risk and control activities, notably IT General Controls, that includes the Software Development Lifecycle.
+
+While not all financial institutions are public companies, the concept of IT controls has been incorporated into FDIC examinations and auditing requirements for internal and external auditors. 
+
+### Bank Secrecy Act of 1970
+The Bank Secrecy Act of 1970 (BSA), also known as the Currency and Foreign Transactions Reporting Act, is a U.S. law requiring financial institutions in the United States to assist U.S. government agencies in detecting and preventing money laundering.The BSA is sometimes referred to as an anti-money laundering law (AML) or jointly as BSA/AML.
+
+A significant software industry has developed around providing software to analyze transactions in an attempt to identify transactions or patterns of transactions that may indicate AML. This implies that open source software in certain uses may have to comply with collecting transaction information, as well as potentially developing new open source software solutions that may support BSA reporting. 
 
 ### Intellectual Property and Licensing Policies
 
@@ -53,6 +63,30 @@ The use of open source software may present data protection and security risks, 
 
 Compliance with data protection and security policies is essential to ensure that the organization's data is protected and secure.  Many pieces of software "phone home" and this can present an opportunity for data leakage for the bank.
 
+#### Gramm-Leach-Bliley Act
+The Gramm-Leach-Bliley Act (GLBA)  also known as the Financial Services Modernization Act of 1999, is a federal law enacted in the United States to control the ways financial institutions deal with the private information of individuals. 
+The Act consists of three sections: The Financial Privacy Rule, which regulates the collection and disclosure of private financial information; the Safeguards Rule, which stipulates that financial institutions must implement security programs to protect such information; and the Pretexting provisions, which prohibit the practice of pretexting or accessing private information using false pretenses. 
+The Act also requires financial institutions to give customers written privacy policy notices that explain their information-sharing practices.
+
+##### What Does the GLBA Require? 
+The GLBA requires companies that qualify as “financial institutions” to take several affirmative steps in order to prevent the unauthorized collection, use, and disclosure of "Non-public Personal Information" or NPI. 
+It imposes these obligations under two “Rules”: (i) the Privacy Rule, and (ii) the Safeguards Rule.
+
+##### The GLBA Privacy Rule
+The Privacy Rule establishes financial institutions’ obligations with regard to consumer and customer NPI. 
+The GLBA treats “consumers” and “customers” differently, with “consumers” referring to a much larger population of individuals. 
+A “consumer” is anyone who obtains financial products or services from a financial institution, while a “customer” is a consumer who establishes a continuing relationship with a financial institution. 
+
+Under the Privacy Rule, financial institutions must provide privacy notices to consumers. They must provide this notice at the time the consumer relationship is established and on an annual basis going forward. In order to comply with the GLBA, a consumer privacy notice must explain what NPI the financial institution collects, how that NPI gets used and shared, and how it gets protected. 
+Crucially, the consumer privacy notice must also provide instructions for how consumers can opt out of having their NPI shared with unaffiliated third parties. 
+While there are exceptions to the Privacy Rule’s notice requirements, financial institutions must be very cautious about not providing privacy notices to consumers. 
+If a financial institution seeks not to provide notice, it must ensure that it can clearly document its qualification for one of the Privacy Rule’s exceptions. 
+
+##### The GLBA Safeguards Rule
+The Safeguards Rule has two main components. It requires financial institutions to implement security protocols (both logical and physical), and it requires financial institutions to provide breach notifications when customers’ NPI becomes compromised. 
+While all financial institutions that collect NPI (which encompasses virtually all financial institutions) must comply with the Safeguards Rule, individual institutions’ obligations will differ depending on their resources, the volume of NPI they collect, and the manners in which they use and store NPI. 
+The FTC has provided recommendations for Safeguards Rule compliance; however, it also makes clear that, “[c]ompanies should implement safeguards appropriate to their own circumstances . . . and address any unique risks raised by their business operations — such as the risks raised when employees access customer data from their homes or other off-site locations, or when customer data is transmitted electronically outside the company network.”
+
 #### GDPR
 
 Any software (including open source) used by an organisation operating within the EU needs to be [General Data Protection Regulation (GDPR) compliant:
@@ -64,6 +98,10 @@ Any software (including open source) used by an organisation operating within th
 - other data protection stuff
 - security examples
 - phishing?
+
+### Software Development Policies
+As noted in the BOK activities addressing security, incorporating secure development into the Software Development Lifecycle (SDLC)..... 
+
 
 ### Communication Policies
 
@@ -79,11 +117,11 @@ See also:
  
 ### Anti-Money Laundering (AML)
 
-The use of open source software may present risks related to anti-money laundering and sanctions compliance, particularly if the software is used to facilitate financial transactions. 
+As noted in the discussion of the BSA, The use of open source software may present risks related to anti-money laundering and sanctions compliance, particularly if the software is used to facilitate financial transactions. 
 
 Compliance with these policies is essential to ensure that the organization does not inadvertently facilitate illegal activities or violate sanctions regimes.
 
-- e.g. crypto currency?
+There is also consideration for open source decentralized projects and cryptocurrency. "Crypto" has recevied tremendous scrutiny though significant effort is being made in the development of Central Bank Digital Currencies (CDBCs)
 
 ### Risk Management
 
