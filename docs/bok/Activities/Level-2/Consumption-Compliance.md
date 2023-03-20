@@ -155,7 +155,7 @@ tbd
 
 ### Sanctions Policies
  
-#### Sanctions Regimes 
+#### Sanctions Regimes 
  
 Banks typically decide which sanctions regimes to follow based on a number of factors, including their legal and regulatory obligations, the countries they operate in, and the risks associated with their business activities.
 
