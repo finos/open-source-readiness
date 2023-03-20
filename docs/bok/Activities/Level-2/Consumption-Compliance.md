@@ -135,6 +135,8 @@ A significant software industry has developed around providing software to analy
 
 The use of open source software may present risks related to operational, financial, or reputational risks. Compliance with risk management and internal controls policies is essential to ensure that these risks are identified, assessed, and managed effectively.
 
+#### Operational Risks
+
 **Example:** In 2017, credit reporting agency [Equifax suffered a massive data breach] that exposed the personal information of approximately 143 million Americans. The breach included names, birthdates, social security numbers, and other sensitive information. The breach led to a drop in the company's stock price and widespread public outrage.  This was caused by an open source vulnerability:
 
 > A key security patch for [Apache Struts](https://en.wikipedia.org/wiki/2017_Equifax_data_breach) was released on March 7, 2017 after a security exploit was found and all users of the framework were urged to update immediately.  Security experts found an unknown hacking group trying to find websites that had failed to update Struts as early as March 10, 2017 as to find a system to exploit. - [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
@@ -142,6 +144,14 @@ The use of open source software may present risks related to operational, financ
 **Example:** In 2014, [JPMorgan Chase suffered a data breach](https://en.wikipedia.org/wiki/2014_JPMorgan_Chase_data_breach) that compromised the personal information of approximately 76 million households and 7 million small businesses. The breach exposed names, addresses, phone numbers, email addresses, and internal JPMorgan Chase information. The incident led to negative press coverage and public scrutiny of the bank's security practices.
 
 > The attack—disclosed in September 2014—was discovered by the bank's security team in late July 2014, but not completely halted until the middle of August.  The bank declared that login information associated with the accounts (such as social security numbers or passwords) was not compromised but names, email and postal addresses, and phone numbers of account holders were obtained by hackers, raising concerns of potential phishing attacks. - [2014 JPMorgan Chase data breach, _Wikipedia_](https://en.wikipedia.org/wiki/2014_JPMorgan_Chase_data_breach)
+
+#### Financial Risks
+
+tbd
+
+#### Communications / Reputational Risk 
+
+tbd
 
 ### Sanctions Policies
  
@@ -169,6 +179,9 @@ See Also:
  - [Deutsche Bank Moving Russian IT Staff to New Hub in Germany](https://www.bloomberg.com/news/articles/2022-06-07/deutsche-bank-moving-russian-it-staff-to-new-hub-in-germany)
 
 
+Management
+
+
 #### PCI DSS 4.0
 
 Payment Card Industry Data Security Standards
@@ -180,6 +193,8 @@ Coming soon
 - Graph of linkages around who developed it, where it can be used etc.
 
 - e.g. Solar Winds Hack.  
+
+PCI DSS, HIPAA, CCPA
 
 
 ## Further Topics
