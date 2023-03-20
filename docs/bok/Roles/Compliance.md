@@ -18,6 +18,8 @@ The compliance function in a bank has several key duties and responsibilities, i
 - **Monitoring and reporting:** The compliance function is responsible for monitoring the bank's compliance with laws and regulations and reporting any non-compliance to senior management and the board of directors. This includes conducting internal audits, testing controls, and reporting on the effectiveness of the bank's compliance program.
 
 Overall, the compliance function plays a critical role in ensuring that the bank operates in a compliant manner and manages its compliance risks effectively.
+
+
 ## Expected Activities
 
 <BokTagList tag="Compliance (Role)" filter="Activities" />
