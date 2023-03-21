@@ -2,7 +2,7 @@
 title: Creating an Open Source Policy
 tags: 
   - Developer (Role)
-  - Data Leakage (Risk)
+  - Data Loss (Risk)
   - Placeholder
   - Level 2 (OSMM)
 draft: true

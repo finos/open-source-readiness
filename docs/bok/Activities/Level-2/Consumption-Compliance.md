@@ -66,7 +66,7 @@ Compliance with data protection and security policies is essential to ensure tha
 
 As noted in the BOK activities [addressing supply chain security](Supply-Chain-Security), incorporating secure development into the Software Development Lifecycle is likely to be a compliance issue and therefore a legal requirement (see below). 
 
-Tools like [Google Docs](https://docs.google.com), [Twitter](https://twitter.com), [StackOverflow](https://stackoverflow.org) and [GitHub](https://github.com) may be rendered inaccessible from within a financial organisation to comply with Data Protection and Security policies, since each presents a venue where client data might be deliberately or accidentally exfiltrated.  (See main article on [Firewalls](../../Artifacts/Firewalls) for further details.)
+Tools like [Google Docs](https://docs.google.com), [Twitter](https://twitter.com), [StackOverflow](https://stackoverflow.org) and [GitHub](https://github.com) may be rendered inaccessible from within a financial organisation to comply with Data Protection and Security policies, since each presents a venue where client data might be deliberately or accidentally exfiltrated.  (See main article on [DLP](../../Artifacts/DLP-Software) for further details.)
 
 #### GLBA
 
@@ -102,7 +102,7 @@ In order to prevent insider dealing and market manipulation, under the [European
 
 See also: 
 
-- [Data Leakage Prevention](../Level-3/DLP).
+- [Data Loss Prevention](../Level-3/DLP).
 
 #### SOX
 
