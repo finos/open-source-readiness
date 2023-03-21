@@ -2,7 +2,6 @@
 title: CEO
 tags: 
   - CEO (Role)
-  - Placeholder
 ---
 
 <BoxOut title="Chief Executive Officer" image="/img/bok/roles/ceo.png">
