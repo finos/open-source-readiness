@@ -116,6 +116,9 @@ Note that different usage situations will also determine which licenses are acce
 ## Further Reading
 
 1.  [CopyLeft](https://en.wikipedia.org/wiki/Copyleft) article on Wikipedia.
+
 2.  [A guide to the GPL v3](https://www.gnu.org/licenses/quick-guide-gplv3.html) explaining the philosophy behind the Copyleft GPL License.
 
+3.  [GitHub's ChooseALicense Site](https://choosealicense.com). A simple site that helps you navigate the choice of license for new software projects.
 
+4.  [Open Source Initiative's License Browser](https://opensource.org/license/).  Try choosing "Popular/Strong Community" for the most commonly used licenses.

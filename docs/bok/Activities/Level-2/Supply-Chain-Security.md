@@ -1,12 +1,26 @@
 ---
-title: Security Testing
+title: Open Source Supply Chain Security Testing
 tags: 
   - OSPO (Role)
   - Developer (Role)
   - Security Expert (Role)
   - Placeholder
+  - Level 2 (OSMM) 
 draft: true
+sidebar_position: 4
 ---
+
+tbd: break into _incoming_ and _outgoing_
+
+include:
+ - Vulnerability Testing
+ - keeping dependencies up-to-date https://openssf.org/resources/guides/
+ 
+
+- KPIs around dependencies?
+
+- code reviews (GGI)
+
 
 Security testing is a broad term that encompasses various techniques for evaluating the security of software systems and applications. The main types of security testing include:
 
@@ -18,7 +32,7 @@ Security testing is a broad term that encompasses various techniques for evaluat
 6. Infrastructure Security Testing: Infrastructure security testing involves evaluating the security of the underlying infrastructure that supports a software system or application, such as networks, servers, and databases.
 7. Mobile Application Security Testing: Mobile application security testing focuses on identifying security vulnerabilities in mobile applications, such as those running on iOS or Android platforms.
 
-## Software Composition Analysis (SCA)
+## Software Composition Analysis
 
 According to https://en.wikipedia.org/wiki/Software_Composition_Analysis:
 
@@ -26,7 +40,7 @@ According to https://en.wikipedia.org/wiki/Software_Composition_Analysis:
 
 Many SCA tools produce SBOMs which can then be checked for vulnerabilities.   A long list is provided here: https://todogroup.org/guides/management-tools/#tools-for-managing-source-code
 
-## Static Application Security Testing (SAST)
+## Static Application Security Testing
 
 See: https://snyk.io/learn/application-security/static-application-security-testing/
 
@@ -40,7 +54,7 @@ SAST, or Static Application Security Testing, is a type of software security tes
 
 tbd.
 
-## Dynamic Application Security Testing (DAST)
+## Dynamic Application Security Testing 
 
 
 tbd.

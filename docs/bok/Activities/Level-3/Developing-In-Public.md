@@ -1,8 +1,11 @@
 ---
-title: Developing Open Source In A Public Repository
+title: Open Source Development In A Public Repository
 tags: 
   - Developer (Role)
+  - Level 3 (OSMM)
+  - Placeholder
 draft: true
+sidebar_position: 1
 ---
 
 something about using GitHub or GitLab.

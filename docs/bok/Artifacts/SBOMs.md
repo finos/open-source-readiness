@@ -11,7 +11,7 @@ An SBOM, or Software Bill of Materials, is a list of all the components, librari
 
 2. CycloneDX: CycloneDX is an open standard for creating SBOMs that is focused on security-sensitive industries such as automotive, aerospace, and medical devices. It is optimized for use with open source components and provides a compact, XML-based format for SBOMs. Advantages of CycloneDX include its focus on security, which makes it a good choice for projects that need to ensure the security of their dependencies.
 
-SBOMs are typically produced as an artifact from the activity of [Software Composition Analysis](../Activities/Security-Testing.md#software-composition-analysis-sca)
+SBOMs are typically produced as an artifact from the activity of [Software Composition Analysis](../Activities/Level-2/Supply-Chain-Security#Software-Composition-Analysis)
 
 ## SPDX
 
@@ -43,4 +43,8 @@ Java libraries are distributed as files with the .jar suffix.  This file <https
 * I can see that it also includes several _files,_ such as a "README.md", "settings.gradle" and a java source file called "InsufficientKarmaException.java".
 * I can also see that it relies on several other Java packages which are _dependencies_. That is, the main library will pull in other required libraries when it runs.  These include "commons-lang3-3.4.jar" - a common Apache library, also licensed under "Apache-2.0" license.
 * Further, the project also has _test dependencies:_ that is, libraries it requires when the CI/CD pipeline's suite of automated tests is run.  For example junit-4.12.jar, which is provided under the "EPL-1.0" license, which corresponds to "[Eclipse Public License 1.0](https://spdx.org/licenses/EPL-1.0.html)".  Test dependencies are important since when "App-BOM-ination" is built in your organisation, this external code will be in use and therefore represents a potential threat vector.
+
+## Training Materials
+
+<BokTagList tag="SBOMs (Artifacts)" filter="Training" />
 

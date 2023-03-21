@@ -7,6 +7,7 @@ tags:
   - Legal Risk
   - Level 2 (OSMM)
   - License (Artifact)
+sidebar_position: 2
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:
@@ -17,11 +18,11 @@ There are several key points that a large enterprise should consider to ensure c
 4. **Legal review**: It is important to have a qualified legal professional review the open-source licenses and obligations to ensure compliance.
 5. **Employee education**: The enterprise should educate its employees on the importance of compliance with open-source licenses and the obligations associated with each license.
 
-_See Also: [Licenses](../Artifacts/Licenses) describes what software licenses are._
+_See Also: [Licenses](../../Artifacts/Licenses) describes what software licenses are._
 
 ## 1. License Identification
 
-### For Individual Software Projects [Developer](../Roles/Developer)
+### For Individual Software Projects [Developer](../../Roles/Developer)
 
 Individual software projects often include direct and transitive dependencies on other pieces of open source software.  There are plenty of tools for cataloguing licenses being used:
 
@@ -33,11 +34,11 @@ Individual software projects often include direct and transitive dependencies on
 	
 It is expected that developers would set up these tools to run on the CI/CD pipeline of their projects and generate license reports every time a build is run.
 
-### Across an Estate [OSPO](../Roles/OSPO)
+### Across an Estate [OSPO](../../Roles/OSPO)
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
-Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../Artifacts/SBOMs).  There are various tools you can use to identify licenses across an estate of projects such as:
+Instead, you need tools that will scan open source projects wherever they come from and produce a report in a standard format.  This is called a [Software Bill of Materials (SBOM)](../../Artifacts/SBOMs).  There are various tools you can use to identify licenses across an estate of projects such as:
 
 - [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort).  An open source Linux Foundation project for automating many parts of open source project review.  
 - [FOSSA](https://fossa.com) is an open-source license compliance and vulnerability management platform.
@@ -46,7 +47,7 @@ Instead, you need tools that will scan open source projects wherever they come f
 
 ### License Identifiers
 
-As described in the [License](../Artifacts/License) article, most open source software is licensed under one of a limited number of common licenses, such as the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0), [MIT License](https://mit-license.org) and [BSD License](https://opensource.org/license/bsd-2-clause/).
+As described in the [License](../../Artifacts/Licenses) article, most open source software is licensed under one of a limited number of common licenses, such as the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0), [MIT License](https://mit-license.org) and [BSD License](https://opensource.org/license/bsd-2-clause/).
 
 Each of these de-facto standard licenses has an associated [SPDX Identifier](https://spdx.org/licenses/). For example, the SPDX identifier "Apache-2.0" refers to the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0).
 
@@ -56,7 +57,7 @@ Determining the compatibility of licenses involves evaluating the terms and cond
 
 There are several factors to consider when determining the compatibility of licenses, including:
 
-1. **License conditions:** Some licenses have conditions, such as [copyleft](../Artifacts/License#3--copyleft-licenses) or patent retaliation clauses, that must be followed in order for the license to be considered compatible.
+1. **License conditions:** Some licenses have conditions, such as [copyleft](../../Artifacts/Licenses#3--copyleft-licenses) or patent retaliation clauses, that must be followed in order for the license to be considered compatible.
 2. **License compatibility:** Some licenses are designed to be compatible with each other, while others are not. For example, the GPL license is considered to be incompatible with many other licenses, while the Apache license is considered to be more compatible.
 3. **Corporate open-source policy:** Your organization may have its own open-source policy that specifies which licenses are acceptable for use in your software.
 4. **Legal considerations:** Some licenses may have legal implications for your organization, such as the potential for patent infringement or the requirement to provide source code.
@@ -65,7 +66,7 @@ By evaluating these factors, you can determine the compatibility of the licenses
 
 ## 3. License Obligations
 
-Please review the [License](../Artifacts/License) article in particular the section on [License Obligations](../Artifacts/License#license-obligations).
+Please review the [License](../../Artifacts/Licenses) article in particular the section on [License Obligations](../../Artifacts/Licenses#license-obligations).
 
 ## 4. Legal Review / License Policy
 
@@ -83,13 +84,12 @@ FINOS provides a categorization around acceptable software licenses which may be
 
 Using the correct licenses will form part of License Policy and it will be necessary to ensure developers in your organisation are aware of the limitations around the use of open source.  Although these limitations will vary from firm-to-firm, the Linux Foundation provides several training courses suitable for orienting developers on their responsibilities relating to open source licensing:
 
-1. [Introduction to Open Source License Compliance Management](../Training/LFC193-Introduction-to-OSS-License-Compliance-Management.md)
-2. [Implementing Open Source License Compliance Management](../Training/LFC194-Implementing-OSS-License-Compliance-Management.md)
+<BokTagList tag="License Compliance Management (Activity)" filter="Training" />
 
 ## Final Points to Consider
 
 * The enterprise should have a _process_ in place for tracking open-source components, monitoring license changes, and ensuring compliance with all license obligations.  That is, it is important that license management is performed continually:  dependencies can change license, projects can take on new dependencies, risk appetite can change. 
-* Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](Security-Testing.md#software-composition-analysis-sca) and so license usage should be considered part of this analysis.
+* Cataloguing the usage of third-party open source software should be done as part of [Software Composition Analysis](./Supply-Chain-Security#Software-Composition-Analysis) and so license usage should be considered part of this analysis.
 
 ## Further Reading
 
@@ -102,3 +102,5 @@ Using the correct licenses will form part of License Policy and it will be neces
 - **[Open Source Software: A Legal Guide](https://www.legal.io/articles/5170736/Open-Source-Software-a-legal-guide)**. Documentation aimed at legal teams to explain their responsibilities towards open source.
 
 - **[A Developer's Guide To Open Source Licenses](https://www.toptal.com/open-source/developers-guide-to-open-source-licenses)**.  Delves into the details of what developers need to know about licenses.
+
+

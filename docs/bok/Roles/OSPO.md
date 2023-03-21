@@ -1,5 +1,5 @@
 ---
-title: OSPO
+title: Open Source Program Office (OSPO)
 tags:
   - Codebase Risk
   - Data Leakage Risk
