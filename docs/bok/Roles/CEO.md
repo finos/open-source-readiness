@@ -24,7 +24,13 @@ Provide vision and guidance as well as to help manage relationships with key sta
 
 A CEO should understand why the organisation is pursuing an OSS strategy in first place (e.g. whether to attract talent, as a product development strategy or to improve developer experience).
 
-### Calls To Action
+### Internal Stakeholders
+
+Works closely with the entire C-Suite especially the Chief Operating Officer, and reports to the Board.
+
+</BoxOut>
+
+## Calls To Action
 
 1. Read the Survey Report ["The State of Open Source in Financial Institutions"](https://www.finos.org/state-of-open-source-in-financial-services-2022)
 
@@ -32,9 +38,12 @@ A CEO should understand why the organisation is pursuing an OSS strategy in firs
 
 3. Attend the [FINOS Member Meetings and OSFF events](https://www.finos.org/hosted-events)
 
-</BoxOut>
-
-
 ## Expected Activities
 
 <BokTagList tag="CEO (Role)" filter="Activities" />
+
+## Further Reading
+
+ - [Measuring the Economic Value of Open Source](https://project.linuxfoundation.org/hubfs/LF%20Research/Measuring%20the%20Economic%20Value%20of%20Open%20Source%20-%20Report.pdf?hsLang=en)
+ - [Citi and Deutsche Bank open source data projects to Finos](https://www.finextra.com/newsarticle/36044/citi-and-deutsche-bank-open-source-data-projects-to-finos)
+- [Morgan Stanley, Microsft and Regnosys Break New Ground In RegTech with FINOS](https://www.finos.org/blog/morgan-stanley-microsoft-and-regnosys-break-new-ground-in-regtech-with-finos)
