@@ -22,8 +22,7 @@ _See Also: [Licenses](../../Artifacts/Licenses) describes what software licenses
 
 ## 1. License Identification
 
-### For Individual Software Projects [Developer](../../Roles/Developer)
-
+<BoxOut image="/img/bok/roles/developer.png" link="../../Roles/Developer" title="For Individual Software Projects">
 Individual software projects often include direct and transitive dependencies on other pieces of open source software.  There are plenty of tools for cataloguing licenses being used:
 
 1. [Scancode](https://github.com/nexB/scancode-toolkit), recommended here: https://softwarerecs.stackexchange.com/questions/40068/tools-to-scan-code-for-open-source-licenses-and-copyrights
@@ -33,8 +32,9 @@ Individual software projects often include direct and transitive dependencies on
 3. [FINOS' Security Scanning](https://github.com/finos/security-scanning#License-reporting-and-scanning) project provides GitHub Actions which will report licenses on Java (Maven), Node and Python projects via the use of [license-maven-plugin](https://www.mojohaus.org/license-maven-plugin/), [node-license-validator](https://www.npmjs.com/package/node-license-validator) and [pip-licenses](https://pypi.org/project/pip-licenses/) respectively.
 	
 It is expected that developers would set up these tools to run on the CI/CD pipeline of their projects and generate license reports every time a build is run.
+</BoxOut>
 
-### Across an Estate [OSPO](../../Roles/OSPO)
+<BoxOut image="/img/bok/roles/ospo.png" title="Across an Estate" link="../../Roles/OSPO">
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
@@ -44,6 +44,8 @@ Instead, you need tools that will scan open source projects wherever they come f
 - [FOSSA](https://fossa.com) is an open-source license compliance and vulnerability management platform.
 - [Mend](https://www.mend.io) is a security-focused open-source scanning tool that helps developers detect and remediate vulnerabilities in their code using machine learning.
 - [Snyk](https://snyk.io) is a cloud-based platform that helps developers and security teams manage open-source dependencies by identifying and fixing vulnerabilities in real-time
+
+</BoxOut>
 
 ### License Identifiers
 

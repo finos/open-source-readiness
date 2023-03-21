@@ -1,0 +1,45 @@
+.boxout {
+	border: 1px solid lightgray;
+	border-radius: 1rem;
+	margin: 2rem 0rem;
+}
+
+.header {
+    display: flex;
+    padding-bottom: 1rem;
+    align-items: center;
+    margin: 0;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.header h3 {
+	padding: 0;
+	padding-left: 2rem;
+	margin: 0;
+}
+
+.contents {
+	padding: 1rem 2rem;
+}
+
+
+.footer {
+    padding: 1rem;
+}
+
+.icon {
+    width: 5rem;
+    border-radius: 50%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.footer p {
+	text-align: right;
+}
+
+.link {
+    color: lightgray;
+    text-decoration: underline;
+}
+
