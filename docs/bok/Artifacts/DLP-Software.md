@@ -19,6 +19,8 @@ There are three basic types of DLP software, which are worth covering here:
 
 - **Cloud**: Modern enterprises are increasingly turning to the cloud for data storage (_data at rest_) and processing (_data in use_).  This presents another venue for data loss to occur.  
 
+This article focuses on Network DLP, since this often interferes with open source consumption and contribution.
+
 ## Firewalls for Network DLP
 
 > In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. A firewall typically establishes a barrier between a trusted network and an untrusted network, such as the Internet.  - [Firewall, _Wikipedia_](https://en.wikipedia.org/wiki/Firewall_(computing))
@@ -53,17 +55,40 @@ Sites like [GitHub](https://github.com) are often included in deny-lists, since 
 
 Sites like [StackOverflow](https://stackoverflow.com) (a question-and-answer site for developers) are also often included in deny lists, because they too can have data posted to them, and have a strong social component.  Being unable to access sites like this is a serious impediment to the effective use of open source software.
 
-A workaround for this is that some organisations can use [Deep Packet Inspection Firewalls](https://en.wikipedia.org/wiki/Deep_packet_inspection) to allow GitHub to be viewed either without login, or by denying `POST`ed data on the site (see above).  In many cases, developers have to request access to GitHub (i.e. be added to the _allow list_ for the site) in order to be able to view it at all.
+DLP software is effective against casual or accidental exfiltration.  However, anyone _maliciously_ exfiltrating data can send it to _an almost unlimited number_ of destinations on the internet and can employ encryption techniques to hide the data payload.  Dealing with this risk requires controls on data access rather than at the firewall level.  
 
-However, anyone _maliciously_ exfiltrating data can send it to _an almost unlimited number_ of destinations on the internet.  This means that tools based on simple allow- and deny- lists are broken:
+### Pattern Matching
 
-> Security analysts get fed up with having to manually chase large numbers of false positive incidents that require deep and time-consuming investigations. - [Mediocre DLP Solutions Fall Short on Data Detection, _Palo Alto Networks_](https://www.paloaltonetworks.com/blog/network-security/mediocre-dlp_solutions-fall-short-on-data-detection/)
+A workaround for this is that some organisations can use [Deep Packet Inspection Firewalls](https://en.wikipedia.org/wiki/Deep_packet_inspection) to create much more complex rules around the contents of data.  
+
+For example:
+
+ - With complex templates, you can allow GitHub to be viewed by certain subsets of people.   In many organisations, developers have to request access to GitHub (i.e. be added to the _allow list_ patterns for the site) in order to be able to view it at all.
+ 
+ - Some organisations craft rules to allow staff to _view_ content but not _post_ to [StackOverflow](https://stackoverflow.com).
+
+Tools supporting pattern matching include:
+
+- [Blue Coat](https://docs.broadcom.com/doc/bc-dlp-en)
+
+- [Cisco ASA Firewalls](https://www.cisco.com/c/en/us/products/security/adaptive-security-appliance-asa-software/index.html)
 
 ### Machine Learning
+
+Tools based on simple allow- and deny- lists are broken, and more complex pattern matching can become very cumbersome:
+
+> Security analysts get fed up with having to manually chase large numbers of false positive incidents that require deep and time-consuming investigations. - [Mediocre DLP Solutions Fall Short on Data Detection, _Palo Alto Networks_](https://www.paloaltonetworks.com/blog/network-security/mediocre-dlp_solutions-fall-short-on-data-detection/)
 
 To combat this situation, advanced machine learning is being used for Deep-Packet Inspection in newer tools:
 
 > ... to combat this situation, advanced machine learning is the present and the future of data protection because it makes data identification more accurate and simplifies detection.  [Mediocre DLP Solutions Fall Short on Data Detection, _Palo Alto Networks_](https://www.paloaltonetworks.com/blog/network-security/mediocre-dlp_solutions-fall-short-on-data-detection/)
+
+Tools Include:
+
+- [Fortinet Next Generation Firewall](https://www.fortinet.com/products/next-generation-firewall)
+
+- [Palo Alto Networks DLP](https://www.paloaltonetworks.com/network-security/enterprise-data-loss-prevention)
+
 
 ### Data Fingerprinting
 
@@ -73,9 +98,10 @@ A second technique is to _fingerprint_ the private data within the organisation 
 
 Here are some tools that support data fingerprinting:
 
-- [Palo Alto Networks]
+- [Palo Alto Networks DLP]https://www.paloaltonetworks.com/network-security/enterprise-data-loss-prevention
 
 - [Forcepoint DLP](https://www.forcepoint.com/product/dlp-data-loss-prevention)
+
 
 ## Summary
 
