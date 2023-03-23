@@ -82,7 +82,7 @@ Some examples:
 
 - Middle Managers:  (Level 3) they might need to understand that their staff will be contributing to open source projects, this might not be aligned directly to a business goal.  Making OSS contribution part of the OKRs.
 
-- HR: 
+- HR: recruitment, visits to campus.  HR will need to understand how OSS attracts talent, and be able to hire for these skills.
 
 - Process / Policy: Removing blockers in process.  Getting the policy approved by legal so that you don't need to recourse to them every time you want to do something.  For this you will need an [Open Source Policy](Creating-Policy) 
 
@@ -100,13 +100,32 @@ It's important to make sure that you publicise your wins.  This means engaging w
 
 
 
-Sustain Acceleration
-Institute Change
+### 7. Sustain Acceleration
+
+> One key aspect of this step is to encourage employees to identify and address any issues that arise and to continuously seek out ways to improve the change initiative - [Kotters 8 Step Change Model](https://www.mtdtraining.com/blog/kotters-8-step-change-model.htm)
+
+- Maintain the momentum from previous steps
+- Make **communication** key to keep change on the top of everyone’s minds
+- **Reward** those for endorsing change
+- Improving process via feedback from participants
+- Benchmarking against peers
+- Metrics
+
+### 8. Institute (Permanent) Change
+
+_Changing from a Guild to being part of the organisational structure._
+
+Making sure your OSPO is business critical:
+
+- Compliance:   can you demonstrate compliance wins, that have made a material difference?
+- License Management:
+- Software Inventory: are there cost implications to understanding the open source inventory, and replacing proprietary software with open source.  
+- Recruitment:  can you show improved talent retention?  
+- Risk Reduction: _not_ having internal forks of OSS projects as this is a security risk.
+- Supply Chain Security:  can you point to vulnerabilities that have been managed.
 
 
-2.  Staffing the OSPO / Structures / Sizing
 
-- link to lots of TODO docs here.
 
 
 
