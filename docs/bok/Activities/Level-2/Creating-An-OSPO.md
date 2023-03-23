@@ -5,7 +5,6 @@ tags:
   - OSPO (Role)
   - Placeholder
   - Level 2 (OSMM)
-draft: true
 sidebar_position: 7
 ---
 
