@@ -46,6 +46,8 @@ In the first instance, your OSPO should be composed of a "willing coalition".  Y
 
 (leave this part to Rob to fill in)
 
+- regular meetings and communications
+
 #### OSPO Structures
 
 - To start with, the OSPO will probably start as a minimum-viable "guild" structure. tbd.  Reference TODOGROUP OSPO Structures here.  
