@@ -8,11 +8,56 @@ tags:
 sidebar_position: 7
 ---
 
+- Lots of the level 2 activities are probably being performed piecemeal by the organisation.
+- Creating an OSPO allows you to centralise and structure all the level 2 activities and allow you to start working on Level 3.
+
+
+Creating an OSPO is _organisational change_.  Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
+
+
+### 1.  Create a Sense of Urgency
+
+There are few ways to create a sense of urgency around the need for an OSPO.  For example:
+
+- [License Compliance Management](License-Management): it's possible that your organisation isn't doing license management in a comprehensive way.  An OSPO might be a single point of contact for that function.
+
+- [Software Inventory](Software-Inventory) and [Supply Chain Security](Supply-Chain-Security):  events like the [Log4Shell]() vulnerability are often a catalyst for firms to focus on understanding what open source software they are using and to start looking more carefully at their open source supply chains.
+
+
 
 
 1. Making the Case for an OSPO ( already written in the OSR Common Problems)
 
+## OSPO Structures
+
+
+
+
+### 2. Build a Guiding Coalition
+### 3, Form a Strategic Vision and Initiatives
+### 4. Enlist a Volunteer Army
+### 5. Enable Action by Removing Barriers
+### 6. Generate Short-Term Wins
+
+Examples:
+
+- Performing a baseline [Software Inventory]() on a subset of the application estate.  For example, looking at a single  customer-facing application/web property.
+
+- Helping to remediate some vulnerabilities in one of those applications.
+
+
+
+
+
+Sustain Acceleration
+Institute Change
+
+
 2.  Staffing the OSPO / Structures / Sizing
 
 - link to lots of TODO docs here.
+
+
+
+
 
