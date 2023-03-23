@@ -62,7 +62,30 @@ What is the OSPO focusing on.  For example:
 _tbd. other things we could reference here from the todo group_
 
 ### 4. Enlist a Volunteer Army
+
+> To effectively enlist an army you must first identify potential allies and build relationships with them. This can be done through open communication and by involving them in the change process from the beginning. Additionally, another method of enlisting and growing an army is to reward individuals for their contributions and support. This will build morale and motivation, and will organically encourage others to get involved. - [Kotters 8 Step Change Model](https://www.mtdtraining.com/blog/kotters-8-step-change-model.htm)
+
+(tbd.  leave to fill in concrete examples of this)
+
+Who should be the volunteers?  - list these.
+
+- You need to _reward_ people if you want them to volunteer:
+   - Improving the CV
+   - Rewarding teams for engaging with open source practices.
+   - 
+
 ### 5. Enable Action by Removing Barriers
+
+Some examples:
+
+- Procurement:  they might need some help to understand that procuring OSS is very different.  They cannot get an SLA from an open source project.  They _will_ need to understand [SBOMs](../../Artifacts/SBOMs).
+
+- Middle Managers:  (Level 3) they might need to understand that their staff will be contributing to open source projects, this might not be aligned directly to a business goal.  Making OSS contribution part of the OKRs.
+
+- HR: 
+
+- Process / Policy: Removing blockers in process.  Getting the policy approved by legal so that you don't need to recourse to them every time you want to do something.  For this you will need an [Open Source Policy](Creating-Policy) 
+
 ### 6. Generate Short-Term Wins
 
 Examples:
@@ -70,6 +93,8 @@ Examples:
 - Performing a baseline [Software Inventory]() on a subset of the application estate.  For example, looking at a single  customer-facing application/web property.
 
 - Helping to remediate some vulnerabilities in one of those applications.
+
+- (Level 3). Making small contributions back to open source projects.
 
 It's important to make sure that you publicise your wins.  This means engaging with and communicating to the stakeholders (identified above).
 
