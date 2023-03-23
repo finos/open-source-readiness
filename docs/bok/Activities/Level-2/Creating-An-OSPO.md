@@ -23,18 +23,44 @@ There are few ways to create a sense of urgency around the need for an OSPO.  Fo
 
 - [Software Inventory](Software-Inventory) and [Supply Chain Security](Supply-Chain-Security):  events like the [Log4Shell]() vulnerability are often a catalyst for firms to focus on understanding what open source software they are using and to start looking more carefully at their open source supply chains.
 
-
-
+- tbd. ... add more examples here.
 
 1. Making the Case for an OSPO ( already written in the OSR Common Problems)
 
-## OSPO Structures
-
-
-
-
 ### 2. Build a Guiding Coalition
-### 3, Form a Strategic Vision and Initiatives
+
+In the first instance, your OSPO should be composed of a "willing coalition".  You will need to communicate with each of these people (using the sense of urgency points above).
+
+- CEO	(optional)
+- CTO	_and / or_ CIO / CISO - someone to do with information security.
+- Risk Officer/Compliance	
+- Legal	
+- Human Resources/Training	
+- Line of Business (LOB) Leader	
+- Product Manager	
+- SRE / Cloud Operator	
+- Corporate Communications	
+- Internal Audit	
+- Regulators / External Audit
+- Developers / Developer Relations
+
+(leave this part to Rob to fill in)
+
+#### OSPO Structures
+
+- To start with, the OSPO will probably start as a minimum-viable "guild" structure. tbd.  Reference TODOGROUP OSPO Structures here.  
+- You will need to figure out who the OSPO "reports to", i.e an owning function, e.g. with the CTO, COO.  This will highly depend on your organisational structure.    
+
+### 3. Form a Strategic Vision and Initiatives
+
+What is the OSPO focusing on.  For example:  
+
+1.  Open Source Learning.  
+2.  Contributing at Scale.
+3.  Manage OS Compliance.
+
+_tbd. other things we could reference here from the todo group_
+
 ### 4. Enlist a Volunteer Army
 ### 5. Enable Action by Removing Barriers
 ### 6. Generate Short-Term Wins
@@ -45,7 +71,7 @@ Examples:
 
 - Helping to remediate some vulnerabilities in one of those applications.
 
-
+It's important to make sure that you publicise your wins.  This means engaging with and communicating to the stakeholders (identified above).
 
 
 
