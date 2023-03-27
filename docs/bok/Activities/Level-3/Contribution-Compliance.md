@@ -7,6 +7,7 @@ tags:
   - Security Expert (Role)
   - Level 3 (OSMM)
   - CIO/CTO (Role)
+  - Legal (Role)
   - Legal Risk
 draft: true
 sidebar_position: 2.5

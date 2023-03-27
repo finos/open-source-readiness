@@ -1,5 +1,5 @@
 ---
-title: Open Source Program Office (OSPO)
+title: Open Source Program Office
 sidebar_label: OSPO
 tags:
   - Codebase Risk

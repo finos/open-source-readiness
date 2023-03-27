@@ -1,27 +1,20 @@
 ---
-title: Regulators and External Audit
-sidebar_label: IT
+title: External Regulators and External Audit
+sidebar_label: Regulators
 tags: 
-  - Developer (Role)
+  - Regulator (Role)
 ---
 
-<BoxOut title="IT Department / Developers" image="/img/bok/roles/developer.png">
+<BoxOut title="Regulators / External Audit" image="/img/bok/roles/regulator.png">
 
+In the BoK we are using this term interchangeably for these two actually distinct bodies:
 
-### Objectives
+- _Regulators_ are government agencies or authorities responsible for creating, implementing, and enforcing laws and regulations/ industry standards.  They aim to protect markets, consumers, investors and prevent fraud, financial crimes, and other misconduct. 
 
-### Challenges
-
-### Open Source Engagement
-
-### Internal Stakeholders
+- _External auditors_ are independent professionals or firms engaged by a company to examine its financial statements, internal controls, and accounting practices.
 
 </BoxOut>
 
-## Calls To Action
-
 ## Expected Activities
 
-<BokTagList tag="Developer (Role)" filter="Activities" />
-
-## Further Reading
+<BokTagList tag="Regulator (Role)" filter="Activities" />

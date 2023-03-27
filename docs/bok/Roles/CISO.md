@@ -1,12 +1,11 @@
 ---
 title: Security Expert
 sidebar_label: CISO
-tag:
+tags:
   - Security Expert (Role)
-  - Placeholder
 ---
 
-<BoxOut title="Security Expert" image="/img/bok/roles/ciso.png">
+<BoxOut title="Security Expert / CISO" image="/img/bok/roles/ciso.png">
 
 Security Experts, headed by the Chief Information Security Officer (CISO) in a bank play a crucial role in maintaining security around the institution's sensitive data, IT systems, and digital assets.
 
@@ -33,3 +32,7 @@ By collaborating with the IT department and other business units, the CISO ensur
 ## Expected Activities
 
 <BokTagList tag="Security Expert (Role)" filter="Activities" />
+
+## Further Reading
+
+tbd

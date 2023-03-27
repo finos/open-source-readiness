@@ -4,6 +4,7 @@ tags:
   - CIO (Role)
   - Developer (Role)
   - Compliance (Role)
+  - Legal (Role)
   - Legal Risk
   - Level 2 (OSMM)
   - License (Artifact)

@@ -2,7 +2,6 @@
 title: Product Manager
 tags:
   - Product Manager (Role)
-  - Placeholder
 ---  
 
 <BoxOut title="IT Department / Developers" image="/img/bok/roles/developer.png">
