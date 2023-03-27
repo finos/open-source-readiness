@@ -41,7 +41,7 @@ In many institutions (e.g. Finance), merging code to a public open source projec
 
 This presents a problem for developers behind the firewall if they wish to **Fix A Bug** or **Contribute Missing Functionality**.  They can either:
 
- - **Contribute to the project in their own time, from outside of the organisation**.  If they are committed enough and not restricted by [IP Policy](ip-policy) then perhaps they can take action outside of their company.  However, this is difficult, since they wont be able to try out their fixes without access to the organisations' systems.  
+ - **Contribute to the project in their own time, from outside of the organisation**.  If they are committed enough and not restricted by IP Policy then perhaps they can take action outside of their company.  However, this is difficult, since they wont be able to try out their fixes without access to the organisations' systems.  
  
  - **Find A New Approach**.  In many cases, there are alternatives to a piece of open source software.  Potentially, a developer could swap a dependency that doesn't work for one that does.  In most cases this is not a trivial task and so the developer is forced to...
  

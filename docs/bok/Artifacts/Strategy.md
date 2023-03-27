@@ -1,6 +1,10 @@
 ---
+title: Open Source Strategy
 tags:
   - Placeholder
+  - CEO (Role)
+  - CTO/CIO (Role)
+draft: true
 ---
 
 # Creating an Open Source Strategy
