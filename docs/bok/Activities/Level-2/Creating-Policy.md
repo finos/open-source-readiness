@@ -3,7 +3,6 @@ title: Creating an Open Source Policy
 tags: 
   - CTO (Role)
   - CIO (Role)
-  - OSPO (Role)
   - Data Loss (Risk)
   - Placeholder
   - Level 2 (OSMM)

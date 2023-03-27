@@ -2,7 +2,6 @@
 title: Consuming Open Source Software
 tags: 
   - Developer (Role)
-  - OSPO (Role)
   - Data Leakage (Risk)
   - Placeholder
   - License (Artifact)

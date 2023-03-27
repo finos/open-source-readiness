@@ -1,7 +1,6 @@
 ---
 title: Software Inventory
 tags: 
-  - OSPO (Role)
   - CIO (Role)
   - CTO (Role)
   - Developer (Role)

@@ -1,10 +1,9 @@
 ---
 title: License Compliance Management
 tags: 
-  - OSPO (Role)
   - CIO (Role)
   - Developer (Role)
-  - Legal (Role)
+  - Compliance (Role)
   - Legal Risk
   - Level 2 (OSMM)
   - License (Artifact)
