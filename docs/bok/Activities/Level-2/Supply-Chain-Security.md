@@ -5,6 +5,7 @@ tags:
   - Developer (Role)
   - Risk-Compliance (Role)
   - Security Expert (Role)
+  - CIO (Role)
   - Placeholder
   - Level 2 (OSMM) 
 draft: true

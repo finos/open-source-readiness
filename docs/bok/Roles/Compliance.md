@@ -1,5 +1,6 @@
 ---
 title: Risk Officer / Compliance
+sidebar_label: Risk/Compliance
 tags: 
   - Risk/Compliance (Role)
   - Placeholder
@@ -36,7 +37,7 @@ Although Risk and Compliance are separate roles within the bank, for the purpose
 
 - See activities below.
 
-### Internal Stakeholders
+### Stakeholders
 
  - [CEO](CEO) and other executive leadership
  - [IT Department](Developer)
@@ -48,7 +49,7 @@ Although Risk and Compliance are separate roles within the bank, for the purpose
  
 </BoxOut>
 
-## Calls To Action
+## Calls To Action
 
 1. Read the Survey Report ["The State of Open Source in Financial Institutions"](https://www.finos.org/state-of-open-source-in-financial-services-2022)
 

@@ -2,6 +2,7 @@
 title: License Compliance Management
 tags: 
   - OSPO (Role)
+  - CIO (Role)
   - Developer (Role)
   - Legal (Role)
   - Legal Risk
