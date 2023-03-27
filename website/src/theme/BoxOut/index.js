@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css'
 
 
-export default ({children, image, link, title}) => {
+export default ({children, image, link, linkText, title}) => {
     return <div className={styles.boxout}>
     	<div className={styles.header}>
 	        <img className={styles.icon} src={image} alt={title} />
@@ -13,7 +13,7 @@ export default ({children, image, link, title}) => {
         </div>
         <div className={styles.footer}> 
         { 
-        	(link) ? <p><a href={link} className={styles.link}>Role Details</a></p> : ""
+        	(link) ? <p><a href={link} className={styles.link}>{linkText}</a></p> : ""
         }
         </div>
         

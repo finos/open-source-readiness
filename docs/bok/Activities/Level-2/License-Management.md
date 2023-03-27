@@ -22,7 +22,7 @@ _See Also: [Licenses](../../Artifacts/Licenses) describes what software licenses
 
 ## 1. License Identification
 
-<BoxOut image="/img/bok/roles/developer.png" link="../../Roles/Developer" title="For Individual Software Projects">
+<BoxOut image="/img/bok/roles/developer.png" link="../../Roles/Developer" title="For Individual Software Projects" linkText="Developer Role Details">
 Individual software projects often include direct and transitive dependencies on other pieces of open source software.  There are plenty of tools for cataloguing licenses being used:
 
 1. [Scancode](https://github.com/nexB/scancode-toolkit), recommended here: https://softwarerecs.stackexchange.com/questions/40068/tools-to-scan-code-for-open-source-licenses-and-copyrights
@@ -34,7 +34,7 @@ Individual software projects often include direct and transitive dependencies on
 It is expected that developers would set up these tools to run on the CI/CD pipeline of their projects and generate license reports every time a build is run.
 </BoxOut>
 
-<BoxOut image="/img/bok/roles/ospo.png" title="Across an Estate" link="../../Roles/OSPO">
+<BoxOut image="/img/bok/roles/ospo.png" title="Across an Estate" link="../../Roles/OSPO" linkText="OSPO Role Details">
 
 Where an organisation is running and managing many projects at once, setting up license scanning on a per-project basis isn't really effective.  Part of the problem is that all the tools listed above have their own output formats.  
 
