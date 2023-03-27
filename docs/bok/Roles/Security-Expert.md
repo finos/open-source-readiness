@@ -1,14 +1,34 @@
 ---
 title: Security Expert
+sidebar_label: CISO
 tag:
   - Security Expert (Role)
   - Placeholder
 ---
-A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.
 
-A security expert interacts with open source software by evaluating open source software for security vulnerabilities and working with the development team to address any identified issues. They also work to ensure compliance with industry standards and regulations related to open source software security.
+<BoxOut title="Security Expert" image="/img/bok/roles/ciso.png">
 
-Define specific examples of role here.
+Security Experts, headed by the Chief Information Security Officer (CISO) in a bank play a crucial role in maintaining security around the institution's sensitive data, IT systems, and digital assets.
+
+The CISO is responsible for managing and mitigating risks associated with cybersecurity and ensuring compliance with relevant regulations and industry standards.
+
+### Objectives
+
+### Challenges
+
+### Open Source Engagement
+
+By collaborating with the IT department and other business units, the CISO ensures that OSS usage aligns with the bank's information security policies and industry regulations. They assess potential security vulnerabilities and risks associated with OSS, implement necessary security controls, and monitor ongoing updates and patches to maintain a secure environment. 
+
+### Internal Stakeholders
+
+- [CEO](CEO) and other executive leadership
+- [IT Department](Developer)
+- [Line of Business](Line-Of-Business)
+- [Risk Management and Compliance](Compliance)
+- [Legal](Legal)
+
+</BoxOut>
 
 ## Expected Activities
 

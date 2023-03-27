@@ -4,6 +4,7 @@ tags:
   - OSPO (Role)
   - Placeholder
   - Risk-Compliance (Role)
+  - Security Expert (Role)
   - Level 3 (OSMM)
   - CIO/CTO (Role)
   - Legal Risk
