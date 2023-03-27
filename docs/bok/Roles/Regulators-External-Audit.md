@@ -7,7 +7,7 @@ tags:
 
 <BoxOut title="Regulators / External Audit" image="/img/bok/roles/regulator.png">
 
-In the BoK we are using this term interchangeably for these two actually distinct bodies:
+In the Regulators and External Audit are two distinct bodies external to the organisation:
 
 - _Regulators_ are government agencies or authorities responsible for creating, implementing, and enforcing laws and regulations/ industry standards.  They aim to protect markets, consumers, investors and prevent fraud, financial crimes, and other misconduct. 
 
