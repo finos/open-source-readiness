@@ -1,12 +1,10 @@
 ---
 title: Developing Secure Software 
-
-
 tags:
   - Developer (Role)
   - OSPO (Role)
   - Product Manager (Role)
-- Security Expert (role)
+  - Security Expert (role)
 ---
 
 
@@ -25,3 +23,9 @@ Learn the security basics to develop software that is hardened against attacks, 
 - Certification: Digital
 - Cost: 0
 - Link: https://training.linuxfoundation.org/training/developing-secure-software-lfd121/
+
+## Consists Of
+
+- [Secure Software Development: Requirements, Design, and Reuse](LFD104x-Secure-Dev-Requirements-Design-Reuse)
+- [Secure Software Development: Implementation](LFD105x-Secure-Dev-Implementation)
+- [Secure Software Development Verification and More Specialized Topics](LFD106x-Secure-Dev-Verification)

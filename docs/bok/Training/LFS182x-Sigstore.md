@@ -1,12 +1,10 @@
 ---
 title: Securing Your Software Supply Chain with Sigstore 
-
-
 tags:
   - Developer (Role)
   - OSPO (Role)
   - Product Manager (Role)
-- Security Expert (role)
+  - Security Expert (Role)
 ---
 
 

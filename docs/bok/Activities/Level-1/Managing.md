@@ -31,3 +31,11 @@ The Good Governance Initiative also suggests to:
 - Create an inventory of OSS usage in the software development chain as well as in the software products and components used in production. 
 
 - Identify open source technologies (solutions, frameworks, innovative features) that could fit your needs and help improve your process. 
+
+## Open Source Supervision
+
+Once open source software has been chosen for consumption, it will need to be deployed to production and managed.  This might involve organising support arrangements with third parties or employing expert staff.  The Good Governance Initiative calls this "Open Source Supervision":
+
+> This activity is about controlling the use of open source and ensuring open source software is proactively managed. This concerns several perspectives, be it to use OSS tools and business solutions, or to include OSS as components in own developments or modify a version of a soft- ware adapting it to its own needs, etc. It is also about identifying areas where open source has become a (sometimes covert) de facto solution and assessing its suitability. - [OW2 Good Governance Initiative](../../Training/Good-Governance-Initiative)
+
+At this stage it may be necessary to evaluate the software's [Total Cost of Ownership](../../Measurements/TCO)
