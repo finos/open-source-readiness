@@ -24,20 +24,17 @@ SREs interact extensively with cloud APIs, whether on-prem or public cloud.
 
 ## Internal Stakeholders
 
- - [Developers and Engineering Teams](Developer)
+ - [Developers and Engineering Teams in IT](Developer)
  - Operations teams
- - [CEO](CEO) and other executive leadership
- - [Line Of Business](Line-of-Business) Managers
  - Project & [Product Managers](Product-Manager)
+ - [Line Of Business](Line-of-Business) Managers
  - [Security Staff](Security-Expert)
- - [Risk and Compliance Teams](Compliance)
- - Customers
 
 ### Open Source Engagement
 
-A developer interacts with open source software by using open source libraries, frameworks, and tools as building blocks for their software. They also contribute to open-source projects, fixing bugs, adding features, and submitting pull requests.
+The SRE is very likely to use lots of open source software in their day-to-day work. 
 
-IT Departments are likely to be managing their estate atop large deployments of open source software.  
+They may contribute to open source projects, share expertise and be part of the wider SRE and DevOps communities. 
 
 </BoxOut>
 
@@ -47,7 +44,7 @@ tbd.
 
 ## Expected Activities
 
-
+tbd.
 
 ## Further Reading
 
