@@ -1,5 +1,5 @@
 ---
-title: IT / Developers
+title: Developer
 sidebar_label: IT
 tags: 
   - Developer (Role)
@@ -7,7 +7,9 @@ tags:
 
 <BoxOut title="IT Department / Developers" image="/img/bok/roles/developer.png">
 
-Development staff within the firms Information Technology (IT) departments are responsible for designing, coding, and testing software applications. They are responsible for writing and maintaining code, troubleshooting and debugging software, and working with other developers to create and implement software solutions.
+Development staff within the firms Information Technology (IT) departments are responsible for designing, coding, and testing software applications. 
+
+They are responsible for writing and maintaining code, troubleshooting and debugging software, and working with other developers to create and implement software solutions.
 
 ### Objectives
 

@@ -11,7 +11,9 @@ tags:
 
 <BoxOut title="OSPO" image="/img/bok/roles/ospo.png">
 
-The Open Source Program Office (OSPO) is responsible for the overall management and direction of an organization's open source program. This includes managing the open source software inventory, identifying and managing legal and compliance risks, and ensuring that open source software is used in compliance with company policies and procedures.
+The Open Source Program Office (OSPO) is responsible for the overall management and direction of an organization's open source program. 
+
+This includes managing the open source software inventory, identifying and managing legal and compliance risks, and ensuring that open source software is used in compliance with company policies and procedures.
 
 ### Objectives
 

@@ -7,7 +7,9 @@ tags:
 
 <BoxOut title="Chief Technology Officer" image="/img/bok/roles/cto.png">
 
-The Chief Technology Officer CTO is primarily responsible for driving the development and implementation of new technologies, products, and services. They focus on the organization's technical vision and strategy, ensuring that the company remains at the forefront of technological advancements and innovation. The CTO works closely with product development teams, researchers, and engineers to create cutting-edge solutions that give the organization a competitive advantage in the marketplace.
+The Chief Technology Officer CTO is primarily responsible for driving the development and implementation of new technologies, products, and services. 
+
+They focus on the organization's technical vision and strategy, ensuring that the company remains at the forefront of technological advancements and innovation. The CTO works closely with product development teams, researchers, and engineers to create cutting-edge solutions that give the organization a competitive advantage in the marketplace.
 
 ### Objectives
 

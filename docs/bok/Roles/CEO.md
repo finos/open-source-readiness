@@ -7,7 +7,9 @@ tags:
 
 <BoxOut title="Chief Executive Officer" image="/img/bok/roles/ceo.png">
 
-The CEO, or Chief Executive Officer, is the highest-ranking executive in a company and is responsible for leading and overseeing its overall direction and operations. The CEO's primary role is to provide strategic vision, set goals, and make decisions that ensure the company's long-term success. They also have the crucial responsibility of building and maintaining relationships with stakeholders, including shareholders, customers, employees, and partners.
+The CEO, or Chief Executive Officer, is the highest-ranking executive in a company and is responsible for leading and overseeing its overall direction and operations. 
+
+The CEO's primary role is to provide strategic vision, set goals, and make decisions that ensure the company's long-term success. They also have the crucial responsibility of building and maintaining relationships with stakeholders, including shareholders, customers, employees, and partners.
 
 ### Objectives
 
