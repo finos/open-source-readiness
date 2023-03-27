@@ -3,6 +3,7 @@ title: Ensuring Open Source Compliance For Contribution
 tags: 
   - OSPO (Role)
   - Placeholder
+  - Risk-Compliance (Role)
   - Level 3 (OSMM)
   - CIO/CTO (Role)
   - Legal Risk

@@ -1,5 +1,6 @@
 ---
-title: CEO
+title: Chief Executive Officer
+sidebar_label: CEO
 tags: 
   - CEO (Role)
 ---

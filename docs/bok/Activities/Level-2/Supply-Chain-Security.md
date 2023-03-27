@@ -3,6 +3,7 @@ title: Open Source Supply Chain Security Testing
 tags: 
   - OSPO (Role)
   - Developer (Role)
+  - Risk-Compliance (Role)
   - Security Expert (Role)
   - Placeholder
   - Level 2 (OSMM) 
