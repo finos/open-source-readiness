@@ -22,6 +22,8 @@ There are few ways to create a sense of urgency (i.e. fear) around the need for 
 
 - [Software Inventory](Software-Inventory) and [Supply Chain Security](Supply-Chain-Security):  events like the [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) vulnerability are often a catalyst for firms to focus on understanding what open source software they are using and to start looking more carefully at their open source supply chains.
 
+- [Talent](../Level-3/Talent): reportedly, recruitment and retention both become easier when you engage with open source.  
+
 See Also: 
 
 - [Making the Case for an OSPO](../Level-3/Contributing-To-Projects)#making-the-case-for-contribution ( already written in the OSR Common Problems)
