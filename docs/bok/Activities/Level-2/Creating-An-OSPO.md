@@ -87,7 +87,7 @@ Who should be the volunteers?  - list these.
 - You need to _reward_ people if you want them to volunteer:
    - Improving the CV
    - Rewarding teams for engaging with open source practices.
-   - 
+
 
 ### 5. Enable Action by Removing Barriers
 
@@ -119,8 +119,6 @@ Examples:
 
 It's important to make sure that you publicise your wins.  This means engaging with and communicating to the stakeholders (identified above).
 
-
-
 ### 7. Sustain Acceleration
 
 > One key aspect of this step is to encourage employees to identify and address any issues that arise and to continuously seek out ways to improve the change initiative - [Kotters 8 Step Change Model](https://www.mtdtraining.com/blog/kotters-8-step-change-model.htm)
@@ -144,6 +142,12 @@ Making sure your OSPO is business critical:
 - Recruitment:  can you show improved talent retention?  
 - Risk Reduction: _not_ having internal forks of OSS projects as this is a security risk.
 - Supply Chain Security:  can you point to vulnerabilities that have been managed.
+
+Owning Improved Processes:
+
+- Releases:  can you institute some kind of checklist of controls around open source releases?  _How can you encourage open source without putting people off with process?_
+- Training: can you point to the number of people trained in open source consumption / contribution across your organisation?
+- Is there a support function for the OSPO? Can you demonstrate a service level?
 
 #### OSPO Staff
 
