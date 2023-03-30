@@ -1,8 +1,7 @@
 ---
 title: Fostering Community Engagement
 tags: 
-  - Developer (Role)
-  - Data Leakage (Risk)
+  - Data Loss (Risk)
   - Placeholder
   - OSPO (Role)
   - Level 3 (OSMM)

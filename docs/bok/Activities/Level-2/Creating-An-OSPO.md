@@ -1,7 +1,6 @@
 ---
 title: Creating an Open Source Program Office (OSPO)
 tags: 
-  - Developer (Role)
   - OSPO (Role)
   - Placeholder
   - Level 2 (OSMM)
@@ -125,6 +124,9 @@ Making sure your OSPO is business critical:
 - Recruitment:  can you show improved talent retention?  
 - Risk Reduction: _not_ having internal forks of OSS projects as this is a security risk.
 - Supply Chain Security:  can you point to vulnerabilities that have been managed.
+
+
+
 
 
 
