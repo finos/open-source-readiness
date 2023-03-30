@@ -24,28 +24,29 @@ There are few ways to create a sense of urgency around the need for an OSPO.  Fo
 
 - tbd. ... add more examples here.
 
-1. Making the Case for an OSPO ( already written in the OSR Common Problems)
+See Also: 
+
+- [Making the Case for an OSPO](../Level-3/Contributing-To-Projects)#making-the-case-for-contribution ( already written in the OSR Common Problems)
 
 ### 2. Build a Guiding Coalition
 
-In the first instance, your OSPO should be composed of a "willing coalition".  You will need to communicate with each of these people (using the sense of urgency points above).
+In the first instance, your OSPO should be composed of a "willing coalition".  Please review the [Roles](../../Roles/Introduction) for a list of OSPO-adjacent business roles you will need to engage with.  Different parts of a large organisation will have different priorities, backgrounds and ways of talking and working.  You will need to reach across these gaps.  Here are some tips on how to do this:
 
-- CEO	(optional)
-- CTO	_and / or_ CIO / CISO - someone to do with information security.
-- Risk Officer/Compliance	
-- Legal	
-- Human Resources/Training	
-- Line of Business (LOB) Leader	
-- Product Manager	
-- SRE / Cloud Operator	
-- Corporate Communications	
-- Internal Audit	
-- Regulators / External Audit
-- Developers / Developer Relations
+- **Understand their priorities**: Research the roles within the company (use the [Roles](../../Roles/Introduction) material here to help start). Familiarize yourself with their key concerns.  If you can learn their KPIs, all the better.  Your OSPO will need to help towards these in order to get their buy-in.
 
-(leave this part to Rob to fill in)
+- **Focus on value**: Present the OSPO in terms of the value it can deliver to the organization. Emphasize objectives such as improving efficiency, reducing costs, or enhancing security.
 
-- regular meetings and communications
+- **Address their pain points**: Listen to what they say and show empathy and understanding for the problems they encounter in their role.
+
+- **Be a strategic partner**: Position the OSPO as a strategic partner. This is especially useful when engaging with security concerns.
+
+- **Provide insights and thought leadership**: OSPOs are a _trend_ in IT.  Share views and research with them to make the case (see the [further reading](#further-reading) section below for examples.
+
+Build trust and credibility: Establish trust by being transparent, reliable, and professional in all interactions. Showcase your track record of success, customer testimonials, and industry recognition to build credibility.
+
+- **Follow up and stay connected**: Maintain regular communication with these stakeholders and keep them informed of relevant developments.
+
+- **Be patient and persistent**: Building any relationship takes time.   
 
 #### OSPO Structures
 
@@ -61,6 +62,19 @@ What is the OSPO focusing on.  For example:
 3.  Manage OS Compliance.
 
 _tbd. other things we could reference here from the todo group_
+
+#### Aligning To KPIs
+
+OSPOs demonstrate their value where they align to the KPIs of other teams.  For example:
+
+- **Security Around Use**:  Can the OSPO help the security team do their job?  There is a big overlap between "Open Source Software in the Organisation" and "Ensuring Security of all software used in the organisation".   The security team might need guidance on understanding [vulnerability response](Supply-Chain-Security) and helping prioritise issues with [software inventory](Software-Inventory). 
+
+> "Security is part of our OSPO's mission - we want to secure our use of open source... but we're a different part of the organisation to security.  We have a partnership approach with them and we are aligned on wanting the same things.  Our [OSPO Lead] understands the OKRs of the security team." - Zack Keppert, Github OSPO Lead  
+
+- **Outgoing Security**:  The OSPO can help by ensuring that the organisation doesn't [Leak IP via open source](../Level-3/DLP). This might be by helping the security team improve their policies, which may not be well-developed around _outgoing_ security risks via open source projects. 
+
+- **Recruiting Talent**:  Becoming [active contributors](../Level-3/Community-Engagement) and demonstrating engineering excellence attracts talent.  See [Recruiting Developers](https://todogroup.org/guides/recruiting-developers/).  Open source can be a ["Shift Left"](https://devopedia.org/shift-left) approach to hiring, where you are improving your organisations' awareness at the top of the funnel due to open source activity.  Microsoft open-sourcing Typescript and VSCode has helped them hire top talent in other areas because of brand awareness.  
+
 
 ### 4. Enlist a Volunteer Army
 
@@ -89,6 +103,12 @@ Some examples:
 
 ### 6. Generate Short-Term Wins
 
+OSPOs are usually a small part of the organisation, so you'll have to ruthlessly prioritise.   In order to do this, you could either _teach_ other teams, or, if you are going to take action yourself, you could look at:
+
+ - What is deployed
+ - What is commonly used (dependencies)
+ - What has the greatest business impact
+ 
 Examples:
 
 - Performing a baseline [Software Inventory](Software-Inventory) on a subset of the application estate.  For example, looking at a single  customer-facing application/web property.
@@ -125,9 +145,18 @@ Making sure your OSPO is business critical:
 - Risk Reduction: _not_ having internal forks of OSS projects as this is a security risk.
 - Supply Chain Security:  can you point to vulnerabilities that have been managed.
 
+#### OSPO Staff
+
+At some point, you may be in the position to hire permanent staff for the OSPO, and move beyond the guild model:
+
+- **Most OSPOs have a developer component** - that is, developers who can help build and deploy tooling.  If you are hiring for this role you will need to find staff who are comfortable with both development and customer-facing work.   
+- **Hire for communications** - your OPSO will need to interface with [Internal Audit](../../Roles/Internal-Audit) or [Compliance](../../Roles/Compliance) so it might be worth hiring people who have had experience working in these areas.
 
 
+## Further Reading
 
+- [The Business Value of the OSPO](https://www.linuxfoundation.org/research/business-value-of-ospo).  Useful article by the TODO Group
+- [Recruiting Open Source Developers](https://todogroup.org/guides/recruiting-developers/). 
 
 
 

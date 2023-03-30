@@ -10,6 +10,7 @@ draft: true
 sidebar_position: 5
 ---
 
+
 Refer to [Policy](../Artifacts/Policy) as the _output_ from this activity.
 
 
@@ -33,3 +34,8 @@ When drafting open source policies, among the many topics that need to be discus
 - Rules that help determine when code should be released as open source or kept as intellectual property
 
 </Excerpt>
+
+
+### The Policy
+
+It can take a long time to get policy approved - you need people on-side to help build this from the policy team (expand). (1 year as an example)

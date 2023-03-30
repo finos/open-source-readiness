@@ -1,5 +1,5 @@
 ---
-title: Contributing To An Open Source Project
+title: Contributing To Open Source Projects
 tags: 
   - Developer (Role)
   - Data Loss (Risk)
@@ -12,7 +12,7 @@ draft: true
 sidebar_position: 2
 ---
 
-Making the case for contribution
+## Making The Case for Contribution
 
 (Elspeth working on this)
 
