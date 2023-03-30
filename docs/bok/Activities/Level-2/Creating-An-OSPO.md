@@ -16,13 +16,11 @@ Creating an OSPO is _organisational change_.  Therefore, in this article, we are
 
 ### 1.  Create a Sense of Urgency
 
-There are few ways to create a sense of urgency around the need for an OSPO.  For example:
+There are few ways to create a sense of urgency (i.e. fear) around the need for an OSPO.  For example:
 
 - [License Compliance Management](License-Management): it's possible that your organisation isn't doing license management in a comprehensive way.  An OSPO might be a single point of contact for that function.
 
 - [Software Inventory](Software-Inventory) and [Supply Chain Security](Supply-Chain-Security):  events like the [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) vulnerability are often a catalyst for firms to focus on understanding what open source software they are using and to start looking more carefully at their open source supply chains.
-
-- tbd. ... add more examples here.
 
 See Also: 
 
