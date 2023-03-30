@@ -1,7 +1,6 @@
 ---
 title: Fostering Community Engagement
 tags: 
-  - Developer (Role)
   - Data Loss (Risk)
   - Placeholder
   - OSPO (Role)

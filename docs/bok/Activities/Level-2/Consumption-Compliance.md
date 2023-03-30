@@ -1,10 +1,9 @@
 ---
 title: Ensuring Open Source Compliance For Consumption
 tags: 
-  - OSPO (Role)
   - Placeholder
   - Level 2 (OSMM)
-  - Compliance (Role)
+  - Risk-Compliance (Role)
   - Legal Risk
 sidebar_position: 6
 ---

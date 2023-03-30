@@ -1,7 +1,8 @@
 ---
 title: Creating an Open Source Policy
 tags: 
-  - Developer (Role)
+  - CTO (Role)
+  - CIO (Role)
   - Data Loss (Risk)
   - Placeholder
   - Level 2 (OSMM)
