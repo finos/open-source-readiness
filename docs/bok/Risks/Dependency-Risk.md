@@ -6,7 +6,7 @@ tags:
   - Placeholder
 ---
 
-<BoxOut title="Softeware Dependency Risk" image="/img/bok/risks/dependency-risk.png">
+<BoxOut title="Software Dependency Risk" image="/img/bok/risks/dependency-risk.png">
 
 Software dependency risk refers to the potential negative consequences of relying on external software components that can compromise the security, performance, or functionality of an organization's software systems.
 

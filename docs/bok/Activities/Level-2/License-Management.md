@@ -81,6 +81,8 @@ It's important to document the findings of the legal review, including any recom
 
 ### FINOS Categories
 
+tbd. What consitutes an acceptable license depends on the software, the license and the context it is used in.  
+
 FINOS provides a categorization around acceptable software licenses which may be useful as a starting point: <https://community.finos.org/docs/governance/Software-Projects/license-categories>
 
 ## 5. Employee Education

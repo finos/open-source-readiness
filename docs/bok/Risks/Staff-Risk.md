@@ -6,17 +6,16 @@ tags:
   - Placeholder
 ---
 
+<BoxOut title="Staff Risk" image="/img/bok/risks/staff-risk.png">
 
- - Finance organisations are great at _attracting_ talent by simply paying very high wages.  The problem is attrition.  
- - It's important to understand that lots of open source is developed for _non-financial rewards_.   
- - If you hire a key engineer who is a top contributor to an open source project then you are preventing them from contributing anymore.  They will leave.
- - Even if you allow them to continue contributing, but the workflow is onerous (e.g. MD-level reviews of their code) they will also get fed up and leave.
- - To _retain_ these high-performing staff, you have to give them the right tools to carry on contributing effectively.
- - GitHub is _becoming a CV_.
- 
- 
- 
- 
+Staff risk refers to the potential for negative consequences as a result of the actions or decisions of employees, such as fraud, data breaches, or compliance violations.  
+
+The risk of staff _leaving_ is often considered to be a type of staff risk or a human resource risk, as it can have a significant impact on the operations and success of an organization. This is often referred to as Key Person Risk:
+
+> Key Person Risk indicates the Risk generated when significant organizational knowledge, visibility, status or performance rely to a significant degree on a single individual. - [Key Person Risk, _Open Risk Manual_](https://www.openriskmanual.org/wiki/Key_Person_Risk)
+
+</BoxOut>
+
 ## Risk Management Activities
 
 <BokTagList tag="Staff Risk" filter="Activities" />
