@@ -55,13 +55,13 @@ Build trust and credibility: Establish trust by being transparent, reliable, and
 
 ### 3. Form a Strategic Vision and Initiatives
 
-What is the OSPO focusing on.  For example:  
+Every OSPO is different. Having a clear view on why you need an OSPO will help you define the vision and areas of focus. This in turn helps with communication with other stakeholders to further secure support and buy-in to create and OSPO. Some examples of OSPO initiatives are:  
 
 1.  Open Source Learning.  
-2.  Contributing at Scale.
-3.  Manage OS Compliance.
+2.  Open Source Compliance
+3.  External collaboration
 
-_tbd. other things we could reference here from the todo group_
+You can visit the [TODO page](https://todogroup.org/guides/create-program/) for more examples of OSPO roles.
 
 #### Aligning To KPIs
 
