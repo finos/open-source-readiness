@@ -40,7 +40,7 @@ There are several banking compliance policies that intersect with the use of sof
 
 ### Communication Policies
 
-#### MAR
+<BoxOut title="Market Abuse Regulation" image="/img/bok/risks/legal-risk.png" link="../../Risks/Legal-Risk" linkText="Legal Risk">
 
 In order to prevent insider dealing and market manipulation, under the [European Union's Market Abuse Regulation (MAR)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0596&from=EN), firms must maintain effective systems and controls to detect, prevent, and report market abuse, and to keep records of all communications that are capable of leading to a transaction.
 
@@ -52,7 +52,9 @@ See also:
 
 - [Data Loss Prevention](../Level-3/DLP).
 
-#### SOX
+</BoxOut>
+
+<BoxOut title="Sarbanes Oxley" image="/img/bok/risks/legal-risk.png"  link="../../Risks/Legal-Risk" linkText="Legal Risk">
 
 The Sarbanes–Oxley Act (SOX) of 2002 is a United States federal law that mandates certain practices in financial record keeping and reporting for corporations. It codified the system of "Internal Controls over Financial Reporting" that requires publicly-traded corporations to define operational risk and control activities, notably IT General Controls, that includes the Software Development Lifecycle.
 
@@ -61,7 +63,10 @@ SOX was enacted in response to accounting scandals involving companies such as [
 While not all financial institutions are public companies, the concept of IT controls has been incorporated into FDIC examinations and auditing requirements for internal and external auditors. 
 
 **Example:** In 2013, [JPMorgan Chase was fined $200 million](https://www.sec.gov/news/press/2013/2013-187.htm) by regulatory authorities for its failure to maintain effective internal controls over financial reporting. The bank had made several risky trades that resulted in significant losses, which highlighted weaknesses in its internal control processes.
- 
+
+</BoxOut>
+
+
 ### Anti-Money Laundering (AML)
 
 As noted in the discussion of the BSA, The use of open source software may present risks related to anti-money laundering and sanctions compliance, particularly if the software is used to facilitate financial transactions. 
@@ -70,13 +75,15 @@ Compliance with these policies is essential to ensure that the organization does
 
 There is also consideration for open source decentralized projects and cryptocurrency. "Crypto" has recevied tremendous scrutiny though significant effort is being made in the development of Central Bank Digital Currencies (CDBCs)
 
-#### Bank Secrecy Act of 1970
+<BoxOut title="Bank Secrecy Act of 1970" image="/img/bok/risks/legal-risk.png"  link="../../Risks/Legal-Risk" linkText="Legal Risk">
 
 The Bank Secrecy Act of 1970 (BSA), also known as the Currency and Foreign Transactions Reporting Act, is a U.S. law requiring financial institutions in the United States to assist U.S. government agencies in detecting and preventing money laundering. The BSA is sometimes referred to as an anti-money laundering law (AML) or jointly as BSA/AML.
 
 A significant software industry has developed around providing software to analyze transactions in an attempt to identify transactions or patterns of transactions that may indicate AML. This implies that open source software in certain uses may have to comply with collecting transaction information, as well as potentially developing new open source software solutions that may support BSA reporting. 
 
 **Example:** In 2012, HSBC was charged with willfully failing to maintain an effective anti-money laundering program and willfully facilitating financial transactions for customers in countries under U.S. sanctions, including Iran, Sudan, and Libya.  HSBC ultimately [agreed to pay a $1.3 billion settlement](https://www.ice.gov/news/releases/hsbc-admits-anti-money-laundering-and-sanctions-violations-following-hsi-el-dorado) to resolve the charges, which represented the largest penalty ever imposed under the Bank Secrecy Act at the time.
+
+</BoxOut>
 
 ### Risk Management
 

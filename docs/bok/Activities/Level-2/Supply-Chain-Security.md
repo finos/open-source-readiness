@@ -8,6 +8,7 @@ tags:
   - Placeholder
   - Codebase Risk
   - Dependency Risk
+  - Operational Risk
   - Level 2 (OSMM) 
 draft: true
 sidebar_position: 4
