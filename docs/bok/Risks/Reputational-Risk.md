@@ -13,5 +13,14 @@ Reputational risk refers to the potential harm to an organization's reputation a
 
 </BoxOut>
 
+## Examples
+
 ### Wells Fargo
 
+Wells Fargo, a large US bank, was involved in a scandal in 2016 in which it was found to have opened millions of unauthorized bank and credit card accounts in order to meet sales targets. The scandal resulted in significant fines for the bank and significant reputational damage, as well as a loss of customer trust.
+
+See: [Wells Fargo Cross-Selling Scandal](https://en.wikipedia.org/wiki/Wells_Fargo_cross-selling_scandal)
+
+## Risk Management Activities
+
+<BokTagList tag="Reputational Risk" filter="Activities" />

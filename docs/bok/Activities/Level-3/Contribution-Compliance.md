@@ -9,6 +9,7 @@ tags:
   - CIO/CTO (Role)
   - Legal (Role)
   - Legal Risk
+  - Reputational Risk
 draft: true
 sidebar_position: 2.5
 ---
