@@ -3,7 +3,6 @@ title: Dependency Risk
 tags:
   - Dependency Risk
   - Developer (Role)
-  - Placeholder
 ---
 
 <BoxOut title="Software Dependency Risk" image="/img/bok/risks/dependency-risk.png">
