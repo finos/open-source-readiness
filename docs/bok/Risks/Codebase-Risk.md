@@ -3,19 +3,24 @@ title: Codebase Risk
 tags: 
   - Developer (Role)
   - CIO/CTO (Role)
-  - Placeholder
 ---
 
-Codebase Risk is 
+<BoxOut title="Codebase Risk" image="/img/bok/risks/codebase-risk.png">
 
-## Reducing Code Duplication
+Large amounts of code in a project slow down development and reduce developer effectiveness because complexity has to be _managed_.  The larger a codebase, the more bugs and vulnerabilities it will contain.
 
- - The [Code Duplication](../../playbook/code-duplication) article already describes the maintainance costs associated with internal forks of projects, and in passing discusses how this also presents a security risk.
- - It is hard but perhaps not impossible to get a view of how big a problem this is in your organsisation by looking at the internal repository (e.g. Artifactory) and looking for versions of open source libraries that are _not_ coming from the original external source.
- - An argument _for_ internal forks is that actually this mitigates the cyber risk of trojan code from an external environment.  However this is specious since 99% of the code running in the organisation is open source anyway: bad actors can exist both inside and outside the bank and this is no substitute for scanning tools.
- - For example, consider a  _bad actor_ performing a [Solar Winds Trojan](https://www.cisecurity.org/solarwinds)-style attack.  This is a consumption risk that _already exists_.  Allowing developers to contribute to open source doesn't worsen or improve this situation.   
- 
- 
+> “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates
+
+Using open source software can often reduce Codebase Risk since it hands off the maintainance of portions of the codebase to third parties.   However, this doesn't mean that using open source code is risk-free.  Codebase Risk in the form of vulnerabities and functional mismatch still exist. 
+
+> Codebase Risk is a risk caused by having a large, complex codebase to manage.  - [Complexity Risk, _Risk First_](https://riskfirst.org/risks/Complexity-Risk#codebase-risk)
+
+</BoxOut>
+
+## Examples 
+
+Tbd
+
 ## Risk Management Activities
 
 <BokTagList tag="Codebase Risk" filter="Activities" />

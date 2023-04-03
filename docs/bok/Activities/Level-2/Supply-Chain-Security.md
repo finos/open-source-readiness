@@ -6,6 +6,8 @@ tags:
   - Security Expert (Role)
   - CIO (Role)
   - Placeholder
+  - Codebase Risk
+  - Dependency Risk
   - Level 2 (OSMM) 
 draft: true
 sidebar_position: 4
