@@ -9,6 +9,13 @@ tags:
 
 Software dependency risk refers to the potential negative consequences of relying on external software components that can compromise the security, performance, or functionality of an organization's software systems.
 
+## Sustainability
+
+Open source _sustainability_ refers to the long-term viability and health of open-source software projects.  Key issues in sustainability include [Key Person Risk](Staff-Risk) (including burn-out from key maintainers) and lack of funding.
+
+## Vulnerability
+
+
 
 </BoxOut>
 

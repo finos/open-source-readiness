@@ -1,5 +1,5 @@
 ---
-title: Ensuring Open Source Compliance For Consumption
+title: Compliant Open Source Consumption
 tags: 
   - Placeholder
   - Level 2 (OSMM)
@@ -8,11 +8,46 @@ tags:
 sidebar_position: 6
 ---
 
+Using open source within regulated organisations must be done in accordance with the policies and procedures in place to control risks and adhere to regulation.  In this article we will look at:
+
+- Understanding the risk and control framework within regulated organisations
+- Which policies and laws affect open source consumption
+- How the open source consumption policy works in a typical regulated organisation
+
+## Risk And Control
+
+All organisations should have some way of controlling for risks.  However, in regulated industries this framework is a significant part of the whole organisation, with multiple departments (e.g. Risk, Compliance, Internal Audit) participating in control processes.
+
+![Risk and Control Framework](/img/bok/risk-and-control.png)
+
+The above diagram breaks down the process of risk and control.   In 2021, the [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) incident occurred which forced many organisations to re-assess their stance towards open source consumption.  
+
+> Log4Shell ([CVE-2021-44228](https://www.cvedetails.com/cve/CVE-2021-44228)) was a zero-day vulnerability in Log4j, a popular Java logging framework, involving arbitrary code execution. The vulnerability had existed unnoticed since 2013 and was privately disclosed to the Apache Software Foundation, of which Log4j is a project, by Chen Zhaojun of Alibaba Cloud's security team on 24 November 2021. - [Log4Shell, _Wikipedia_](https://en.wikipedia.org/wiki/Log4Shell)
+
+Let's apply the above model to the response to [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell):
+
+1.  **Identify**:
+
+
+
+2.  **Assess**:
+
+3.  **Response**:
+
+4.  **Control**:
+
+5.  **Monitor**:
+
+6.  **Governance**:
+
+
+
+
 other compliance details tbd.
 
 Make sure to cover things in the [checklist](/docs/operations/compliance-checklist) - perhaps subsume that into Artifacts.
 
-## Three Lines of Defence Model
+### Three Lines of Defence Model
 
 The three lines of defence is a risk management model commonly used in the banking industry to establish an effective and efficient risk management framework. The three lines are:
 
