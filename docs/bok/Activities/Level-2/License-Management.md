@@ -87,8 +87,12 @@ Open source licenses may have legal implications for your organization, such as 
 
 ### Context
 
-**Note:** what consitutes an acceptable license depends on the software, the license and the context it is used in.  You might need to set up different categories for use in different places.  e.g. public websites might have a different set of acceptable liceses to internal software systems.
+**Note:** what consitutes an acceptable license depends on the software, the license and the context it is used in.  You might need to set up different categories for use in different places.  For example:
 
+ - Allowed for internal development
+ - Allowed for distribution within proprietary products (e.g. public websites)
+ - Allowed for internal publication 
+ - Allowed for external publication
 
 ### FINOS Categories
 
