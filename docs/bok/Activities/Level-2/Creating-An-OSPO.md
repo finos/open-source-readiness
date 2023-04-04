@@ -84,10 +84,13 @@ OSPOs demonstrate their value where they align to the KPIs of other teams.  For 
 
 Who should be the volunteers?  - list these.
 
-- You need to _reward_ people if you want them to volunteer:
+- You need to _reward_ people if you want them to volunteer. For example:
    - Improving the CV
    - Rewarding teams for engaging with open source practices.
-
+   - Public recognition by senior leadership team 
+   - Oportunity to involve in shaping organisation's OS strategy
+   
+Identifying the right [motivational drivers](https://growthoughtful.com/motivational-drivers-with-examples/) for your volunteers will help you define an engagement strategy that encourages the desired behaviour from them
 
 ### 5. Enable Action by Removing Barriers
 
