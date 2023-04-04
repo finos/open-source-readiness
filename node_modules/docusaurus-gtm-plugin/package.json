@@ -1,0 +1,24 @@
+{
+  "name": "docusaurus-gtm-plugin",
+  "version": "0.0.2",
+  "description": "Plugin to add a Google Tag Manager (GTM) script and noscript html tag to your docusaurus v2 site.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasGentele/docusaurus-gtm-plugin.git"
+  },
+  "keywords": [
+    "docusaurus",
+    "gtm",
+    "google",
+    "tag",
+    "manager",
+    "plugin"
+  ],
+  "author": "Lukas Gentele",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LukasGentele/docusaurus-gtm-plugin/issues"
+  },
+  "homepage": "https://github.com/LukasGentele/docusaurus-gtm-plugin"
+}
