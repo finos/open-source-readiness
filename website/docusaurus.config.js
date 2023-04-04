@@ -37,6 +37,11 @@ module.exports={
     './src/plugin/category-listing'
   ],
   "themeConfig": {
+    "algolia": {
+      "appId": "LOYCC7X3U6",
+      "apiKey": "6c5f31d598c9c07f260a57681281cf85",
+      "indexName": "osr-finos",
+    },
     "navbar": {
       "title": "FINOS Open Source Readiness",
       "logo": {
