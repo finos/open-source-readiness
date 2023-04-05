@@ -29,7 +29,13 @@ module.exports={
         "blog": {},
         "theme": {
           "customCss": "src/css/customTheme.css"
-        }
+        },
+        "sitemap": {
+          "changefreq": "daily",
+          "priority": 0.5,
+          "ignorePatterns": ["/tags/**"],
+          "filename": "sitemap.xml",
+        },
       }
     ]
   ],

@@ -11,9 +11,9 @@
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus"
   },
-  "devDependencies": {},
   "dependencies": {
     "@docusaurus/core": "2.3.0",
+    "@docusaurus/plugin-sitemap": "^2.4.0",
     "@docusaurus/preset-classic": "2.3.0",
     "clsx": "^1.1.1",
     "react": "^17.0.2",
