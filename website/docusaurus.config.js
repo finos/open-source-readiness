@@ -38,7 +38,7 @@ module.exports={
   "themeConfig": {
     "algolia": {
       "appId": "LOYCC7X3U6",
-      "apiKey": process.env.ALGOLIA_API_KEY,
+      "apiKey": process.env.ALGOLIA_API_KEY ? process.env.ALGOLIA_API_KEY : "none",
       "indexName": "osr-finos",
     },
     "navbar": {
