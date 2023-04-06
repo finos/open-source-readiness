@@ -5,7 +5,6 @@ module.exports={
   "baseUrl": "/",
   "organizationName": "FINOS",
   "projectName": "open-source-readiness",
-  "noIndex": true,
   "scripts": [
     "https://buttons.github.io/buttons.js"
   ],
@@ -29,13 +28,7 @@ module.exports={
         "blog": {},
         "theme": {
           "customCss": "src/css/customTheme.css"
-        },
-        "sitemap": {
-          "changefreq": "daily",
-          "priority": 0.5,
-          "ignorePatterns": ["/tags/**"],
-          "filename": "sitemap.xml",
-        },
+        }
       }
     ]
   ],
