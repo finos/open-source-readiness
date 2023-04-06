@@ -9,6 +9,7 @@ tags:
   - Level 2 (OSMM)
   - License (Artifact)
 sidebar_position: 2
+sidebar_label: License Management
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:

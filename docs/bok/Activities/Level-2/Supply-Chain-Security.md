@@ -12,6 +12,7 @@ tags:
   - Level 2 (OSMM) 
 draft: true
 sidebar_position: 4
+sidebar_label: Security
 ---
 
 tbd: break into _incoming_ and _outgoing_
