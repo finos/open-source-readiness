@@ -101,7 +101,7 @@ Some examples:
 
 - Middle Managers:  (Level 3) they might need to understand that their staff will be contributing to open source projects, this might not be aligned directly to a business goal.  Making OSS contribution part of the OKRs.
 
-- HR: recruitment, visits to campus.  HR will need to understand how OSS attracts talent, and be able to hire for these skills.
+- HR: They will need to understand how open source can attract talents (https://enterprisersproject.com/article/2021/1/open-source-6-surprising-advantages-enterprises), and leverage open source activities to drive recruitment (e.g. campus events)
 
 - Process / Policy: Removing blockers in process.  Getting the policy approved by legal so that you don't need to recourse to them every time you want to do something.  For this you will need an [Open Source Policy](Creating-Policy) 
 
