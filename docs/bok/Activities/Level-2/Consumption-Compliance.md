@@ -5,7 +5,7 @@ tags:
   - Level 2 (OSMM)
   - Risk-Compliance (Role)
   - Legal Risk
-sidebar_position: 6
+sidebar_position: 0
 ---
 
 other compliance details tbd.
