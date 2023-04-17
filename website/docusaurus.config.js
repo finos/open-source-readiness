@@ -1,7 +1,6 @@
 module.exports={
   "title": "FINOS Open Source Readiness",
   "tagline": "OVERCOMING OBSTACLES TO OPEN SOURCE",
-  "url": "https://open-source-readiness.netlify.app/",
   "baseUrl": "/",
   "organizationName": "FINOS",
   "projectName": "open-source-readiness",
