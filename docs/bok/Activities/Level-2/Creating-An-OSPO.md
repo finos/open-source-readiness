@@ -75,6 +75,7 @@ OSPOs demonstrate their value where they align to the KPIs of other teams.  For 
 
 - **Recruiting Talent**:  Becoming [active contributors](../Level-3/Community-Engagement) and demonstrating engineering excellence attracts talent.  See [Recruiting Developers](https://todogroup.org/guides/recruiting-developers/).  Open source can be a ["Shift Left"](https://devopedia.org/shift-left) approach to hiring, where you are improving your organisations' awareness at the top of the funnel due to open source activity.  Microsoft open-sourcing Typescript and VSCode has helped them hire top talent in other areas because of brand awareness.  
 
+- **Procurement**:  OSPO can help avoid undesirable software or license entering the organisation through equipping the procurement team with relevant open source knowledge so they can be more effective in evaluating potential vendors.
 
 ### 4. Enlist a Volunteer Army
 
@@ -139,7 +140,7 @@ _Changing from a Guild to being part of the organisational structure._
 
 Making sure your OSPO is business critical:
 
-- Compliance:   can you demonstrate compliance wins, that have made a material difference?
+- Compliance: Can you demonstrate compliance wins, that have made a material difference?
 - License Management:
 - Software Inventory: are there cost implications to understanding the open source inventory, and replacing proprietary software with open source.  
 - Recruitment:  can you show improved talent retention?  
