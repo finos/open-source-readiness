@@ -101,13 +101,13 @@ Some examples:
 
 - Middle Managers:  (Level 3) they might need to understand that their staff will be contributing to open source projects, this might not be aligned directly to a business goal.  Making OSS contribution part of the OKRs.
 
-- HR: They will need to understand how open source can attract talents (https://enterprisersproject.com/article/2021/1/open-source-6-surprising-advantages-enterprises), and leverage open source activities to drive recruitment (e.g. campus events)
+- HR: they might need to understand how open source can attract talents (https://enterprisersproject.com/article/2021/1/open-source-6-surprising-advantages-enterprises), and leverage open source activities to drive recruitment (e.g. campus events)
 
 - Process / Policy: Removing blockers in process.  Getting the policy approved by legal so that you don't need to recourse to them every time you want to do something.  For this you will need an [Open Source Policy](Creating-Policy) 
 
 ### 6. Generate Short-Term Wins
 
-OSPOs are usually a small part of the organisation, so you'll have to ruthlessly prioritise.   In order to do this, you could either _teach_ other teams, or, if you are going to take action yourself, you could look at:
+OSPOs are usually a small part of the organisation, so you'll have to ruthlessly prioritise. In order to do this, you could either _teach_ other teams, or, if you are going to take action yourself, you could look at:
 
  - What is deployed
  - What is commonly used (dependencies)
@@ -117,11 +117,11 @@ Examples:
 
 - Performing a baseline [Software Inventory](Software-Inventory) on a subset of the application estate.  For example, looking at a single  customer-facing application/web property.
 
-- Helping to remediate some vulnerabilities in one of those applications.
+- Helping to remediate some vulnerabilities or license compliance issue in one of those applications.
 
 - (Level 3). Making small contributions back to open source projects.
 
-It's important to make sure that you publicise your wins.  This means engaging with and communicating to the stakeholders (identified above).
+It's important to make sure that you publicise your wins. This means engaging with and communicating to the stakeholders (identified above).
 
 ### 7. Sustain Acceleration
 
@@ -140,7 +140,7 @@ _Changing from a Guild to being part of the organisational structure._
 
 Making sure your OSPO is business critical:
 
-- Compliance: Can you demonstrate compliance wins, that have made a material difference?
+- Compliance: Can you demonstrate compliance wins, that have made a material difference? 
 - License Management:
 - Software Inventory: are there cost implications to understanding the open source inventory, and replacing proprietary software with open source.  
 - Recruitment:  can you show improved talent retention?  
@@ -150,7 +150,7 @@ Making sure your OSPO is business critical:
 Owning Improved Processes:
 
 - Releases:  can you institute some kind of checklist of controls around open source releases?  _How can you encourage open source without putting people off with process?_
-- Training: can you point to the number of people trained in open source consumption / contribution across your organisation?
+- Training: can you point to the number of people trained in open source consumption / contribution across your organisation? how can you demonstrate application of these trainings?
 - Is there a support function for the OSPO? Can you demonstrate a service level?
 
 #### OSPO Staff
