@@ -10,8 +10,7 @@ sidebar_position: 7
 - Lots of the level 2 activities are probably being performed piecemeal by the organisation.
 - Creating an OSPO allows you to centralise and structure all the level 2 activities and allow you to start working on Level 3.
 
-
-Creating an OSPO is _organisational change_.  Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
+An OSPO is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group.](https://github.com/todogroup/ospodefinition.org). Creating an OSPO is _organisational change_. Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
 
 
 ### 1.  Create a Sense of Urgency
@@ -55,7 +54,7 @@ Build trust and credibility: Establish trust by being transparent, reliable, and
 
 ### 3. Form a Strategic Vision and Initiatives
 
-Every OSPO is different. Having a clear view on why you need an OSPO will help you define the vision and areas of focus. This in turn helps with communication with other stakeholders to further secure support and buy-in to create and OSPO. Some examples of OSPO initiatives are:  
+Every OSPO is different. Having a clear view on [why you need an OSPO](https://www.redhat.com/en/resources/open-source-program-office-brief) will help you define the vision and areas of focus. This in turn helps with communication with other stakeholders to further secure support and buy-in to create and OSPO. Some examples of OSPO initiatives are:  
 
 1.  Open Source Learning.  
 2.  Open Source Compliance
