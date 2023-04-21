@@ -15,6 +15,12 @@ sidebar_position: 4
 sidebar_label: Security
 ---
 
+
+- EU Cyber Resilience Act
+- https://www.congress.gov/bill/117th-congress/senate-bill/4913
+- https://openssf.org/blog/2022/09/27/the-united-states-securing-open-source-software-act-what-you-need-to-know/ (govt sector)
+- find the UK act that also does this.
+
 tbd: break into _incoming_ and _outgoing_
 
 include:
