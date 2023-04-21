@@ -17,6 +17,10 @@ Reputational risk refers to the potential harm to an organization's reputation a
 
 See: [Wells Fargo Cross-Selling Scandal](https://en.wikipedia.org/wiki/Wells_Fargo_cross-selling_scandal)
 
+**Example**: In 2012, Barclays was fined $453 million by US and UK authorities for [manipulating global benchmark interest rates. The scandal led to the resignation of CEO Bob Diamond and a significant loss of customer trust.
+
+See: [Understanding the LIBOR Scandal](https://www.cfr.org/backgrounder/understanding-libor-scandal)
+
 ## Risk Management Activities
 
 <BokTagList tag="Reputational Risk" filter="Activities" />
