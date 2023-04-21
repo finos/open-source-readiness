@@ -134,7 +134,7 @@ The vast majority of open source software will be using an OSI-approved licenses
 
 ### "Source Available" Licenses / Dual Licenses
 
-A recent trend (2021) in software appears to be to move away from approved OSI licenses and towards [Dual Licensing](https://en.wikipedia.org/wiki/Multi-licensing) with [a copyleft license](#3-copyleft-license) _and_ a commercial license.  This occurred as a reaction to cloud providers such as [AWS](https://aws.amazon.com) providing commercial products (and paid support) on their platforms, under-cutting the Freemium business models of the software developers.
+A recent trend (2021) in software appears to be to move away from approved OSI licenses and towards [Dual Licensing](https://en.wikipedia.org/wiki/Multi-licensing) with [a copyleft license](#3-copyleft-licenses) _and_ a commercial license.  This occurred as a reaction to cloud providers such as [AWS](https://aws.amazon.com) providing commercial products (and paid support) on their platforms, under-cutting the Freemium business models of the software developers.
 
 > In dual-licensing, a vendor releases software under a FOSS license with obligations that are difficult for some businesses to meet and also offers that same software under a commercial license. Both models use open source for exponential growth. The developer that grabs the free and open product today is (or works for) tomorrow’s paying customer. - [What’s up with these new not-open source licenses? - Justin Colannino, _Github_](https://github.blog/2021-03-18-whats-up-with-these-new-not-open-source-licenses/)
 
