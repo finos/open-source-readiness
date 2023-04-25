@@ -132,6 +132,10 @@ The OSI describes the definition of open source here: https://opensource.org/osd
 
 The vast majority of open source software will be using an OSI-approved licenses, but organisations will need to [track their usage](../Activities/Level-2/Software-Inventory).
 
+### Changing Licenses
+
+Sometimes, software can change license between versions and it is easy to be caught out not complying to the new license.  **Example**: [XCeed Property Grid](https://github.com/xceedsoftware/wpftoolkit/wiki/PropertyGrid) changed license between 3.8.0 (MSPL License) and 4.0.0 (their own license).  The newer license was _non commercial only_.  Proper [License Management Software](../Activities/Level-2/License-Management) is required to guard against this.
+
 ### "Source Available" Licenses / Dual Licenses
 
 A recent trend (2021) in software appears to be to move away from approved OSI licenses and towards [Dual Licensing](https://en.wikipedia.org/wiki/Multi-licensing) with [a copyleft license](#3-copyleft-licenses) _and_ a commercial license.  This occurred as a reaction to cloud providers such as [AWS](https://aws.amazon.com) providing commercial products (and paid support) on their platforms, under-cutting the Freemium business models of the software developers.
