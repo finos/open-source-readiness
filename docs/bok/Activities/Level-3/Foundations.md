@@ -7,6 +7,7 @@ tags:
   - Developer (Role)
 draft: true
 sidebar_position: 7
+sidebar_label: Foundations
 ---
 
 - Reasons

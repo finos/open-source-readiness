@@ -12,6 +12,7 @@ tags:
   - Reputational Risk
 draft: true
 sidebar_position: 2.5
+sidebar_label: Compliance
 ---
 
 

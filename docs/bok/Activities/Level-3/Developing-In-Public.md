@@ -6,6 +6,7 @@ tags:
   - Placeholder
 draft: true
 sidebar_position: 1
+sidebar_label: Public Dev
 ---
 
 something about using GitHub or GitLab.

@@ -1,5 +1,5 @@
 ---
-title: Open Source Policy
+title: Open Source Contribution Policy
 tags:
   - Placeholder
   - Legal (Role)

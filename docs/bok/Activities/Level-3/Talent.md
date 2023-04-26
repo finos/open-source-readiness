@@ -9,6 +9,7 @@ tags:
   - Staff Risk
 draft: true
 sidebar_position: 5
+sidebar_label: Talent
 --- 
  
 Train new and coach existing open source leaders 

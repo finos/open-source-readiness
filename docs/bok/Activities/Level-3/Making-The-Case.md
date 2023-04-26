@@ -7,6 +7,7 @@ tags:
   - Level 3 (OSMM)
 draft: true
 sidebar_position: 1.5
+sidebar_label: Making The Case
 ---
 
 Organisational change can be very hard to achieve since organisations are naturally protective of themselves and the status quo.  Setting up an OSPO and beginning an open source journey will seem like a risky and dangerous proposition for many parts of an organisation.  

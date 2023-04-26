@@ -7,6 +7,7 @@ tags:
   - Level 3 (OSMM)
 draft: true
 sidebar_position: 4
+sidebar_label: Engagement
 ---
 
 Community Engagement/ Public Speaking/Content (Blogs, etc)

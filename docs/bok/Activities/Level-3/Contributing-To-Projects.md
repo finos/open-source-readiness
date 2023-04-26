@@ -10,6 +10,7 @@ tags:
   - Level 3 (OSMM)
 draft: true
 sidebar_position: 2
+sidebar_label: Contribution
 ---
 
 Making the case for contribution
