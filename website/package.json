@@ -11,7 +11,6 @@
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus"
   },
-  "devDependencies": {},
   "dependencies": {
     "@docusaurus/core": "2.3.0",
     "@docusaurus/preset-classic": "2.3.0",
