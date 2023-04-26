@@ -7,6 +7,7 @@ tags:
   - OSPO (Role)
 draft: true
 sidebar_position: 3
+sidebar_label: Training
 ---
 
 ## Media
