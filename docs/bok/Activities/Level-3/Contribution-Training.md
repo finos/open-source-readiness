@@ -141,6 +141,17 @@ Your training course will therefore likely need to touch on:
 
 tbd.
 
+## Remediation
+
+In the event of an issue with an open source engagement (e.g.  an accidental data leak) what is the process?
+
+ - Stop the activity
+ - Make a record of what has happened
+ - Discuss with OSPO / Project Administrators or other Risk Controllers. 
+ 
+
+ 
+
 
 
  
