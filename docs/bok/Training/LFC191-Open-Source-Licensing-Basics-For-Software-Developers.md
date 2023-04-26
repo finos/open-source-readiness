@@ -4,6 +4,8 @@ tags:
   - Developer (Role)
   - OSPO (Role)
   - Consuming (Activity)
+  - Training
+  - LF-Training
 ---
 
 This course is addressed to software developers seeking to understand the ‘rules of the road’ of creating open source software, either as a newbie or as someone with experience primarily in creating proprietary code.

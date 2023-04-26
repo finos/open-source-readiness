@@ -4,6 +4,8 @@ tags:
   - Developer (Role)
   - CIO/CTO (Role)
   - OSPO (Role)
+  - Training
+  - LF-Training
 ---
 
 This course is intended for all individuals that participate in open source projects at any level - contributors, maintainers, Steering Committee members and Governing Board members.

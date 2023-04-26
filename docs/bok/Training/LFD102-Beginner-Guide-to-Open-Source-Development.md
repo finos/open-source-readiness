@@ -4,6 +4,8 @@ tags:
   - Developer (Role)
   - Consuming (Activity)
   - License Compliance Management (Activity)
+  - Training
+  - LF-Training
 ---
 
 This course is designed for developers who utilize open source code.

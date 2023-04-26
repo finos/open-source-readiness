@@ -29,17 +29,3 @@ Some details on how to contribute to external open source projects.
 
 - RAising Issues, Bug Reports, Tech Stack Basics (GitHub, Markdown etc), 
 - Non-code contributions
-
-
-Ways Of Contributing (from OSPO Mind Map)
-
-- Develop new features
-- Fix bugs
-- Improve docs
-- Triage / reproduce issues
-- Project Management
-- Perform tests, write tests
-- Improve UI
-- Graphics 
-- Marketing
-- Localisation

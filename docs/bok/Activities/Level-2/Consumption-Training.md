@@ -53,7 +53,11 @@ There might be one, all or none of the items listed above that the OSPO inherits
 
 ## Internal vs External Training
 
-There are free trainings such as [Open Source Licensing Basics for Software Developers](../../Training/LFC191-Open-Source-Licensing-Basics-For-Software-Developers) provided by the Linux Foundation that can be shared internally, providing training that is readily available. Firms can certainly rely on free courses like the ones mentioned in place of creating a training course themselves.
+There is free training such as [Open Source Licensing Basics for Software Developers](../../Training/LFC191-Open-Source-Licensing-Basics-For-Software-Developers) provided by the Linux Foundation that can be shared internally, providing training that is readily available. 
+
+**Note:** Each of the activities in the body of knowledge links to relevant training courses, which are also listed in the left-hand navigator under the "Training" category.
+
+Firms can certainly rely on free courses like the ones mentioned in place of creating a training course themselves.
 
 There are a few advantages to creating an internal training course:
 
@@ -151,3 +155,4 @@ Example: How to contribute at the firm to cater to the masses vs how to open sou
 _Will the content need to be updated more frequently?_
 
 Example: External links can change from time to time. Using external resources on the training course will reduce the risk of having broken links and having to update the course.
+
