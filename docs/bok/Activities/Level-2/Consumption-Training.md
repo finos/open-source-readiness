@@ -5,8 +5,8 @@ tags:
   - Placeholder
   - Level 2 (OSMM)
   - OSPO (Role)
-draft: true
 sidebar_position: 8
+sidebar_label: Training
 ---
 
 This guide is intended to help OSPOs of all maturity levels build an open source training course that is created with purpose to deliver impact. Whether your OSPO recently launched or is looking into re-doing the firms open source training, this guide will provide ideas and content that can be implemented to a comprehensive open source training course. 
