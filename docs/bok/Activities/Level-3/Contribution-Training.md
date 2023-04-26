@@ -47,8 +47,8 @@ Your [Contribution Compliance Policy](Contribution-Compliance) will outline the 
 
 ## Code Review 
 
-[Code review](https://en.wikipedia.org/wiki/Code_review) is a common quality assurance technique in software development and part of the [pull request](Developing-In-Public#pull-request) process.  However, within a firm the review should go further as there are more risks to consider.
+[Code review](https://en.wikipedia.org/wiki/Code_review) is a common quality assurance technique in software development and part of the [pull request](Developing-In-Public#pull-request) process.  However, within a firm the review should go further as there are more risks to consider.  A code review in this scenario should consider:
 
-
+- **General Code Quality**. As with a regular code review.  Howev
 
 
