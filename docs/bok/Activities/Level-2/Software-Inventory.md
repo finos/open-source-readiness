@@ -6,6 +6,8 @@ tags:
   - Developer (Role)
   - Level 2 (OSMM)
   - Placeholder
+  - Codebase Risk
+  - Dependency Risk
 draft: true
 sidebar_position: 1
 ---

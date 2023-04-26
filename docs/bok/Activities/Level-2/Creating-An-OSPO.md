@@ -6,6 +6,7 @@ tags:
   - Level 2 (OSMM)
 draft: true
 sidebar_position: 7
+sidebar_label: OSPO
 ---
 
 

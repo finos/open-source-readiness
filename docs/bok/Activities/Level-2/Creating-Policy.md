@@ -8,6 +8,7 @@ tags:
   - Level 2 (OSMM)
 draft: true
 sidebar_position: 5
+sidebar_label: Policy
 ---
 
 Refer to [Policy](../Artifacts/Policy) as the _output_ from this activity.

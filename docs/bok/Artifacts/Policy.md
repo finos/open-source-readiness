@@ -24,3 +24,28 @@ draft: true
 - check against mind map: policy on contribution during personal time/work time
 
 - relationship with IP policy
+
+
+## Things to Include in an Open Source Policy
+
+- Differentiation between licenses.
+- Which licenses are acceptable, and where (external and internal facing software has different restrictions)
+- Communication Policy: e.g. use of social tools when communicating with foundations like FINOS, working on GitHub.  Exemptions to the broader communication policy to allow open source consumption/contribution.
+
+## PR Policy
+
+- Branches vs Forks: which style is allowed.  
+- Archival (for communication retention purposs).
+- Approach to forks:  are we contributing or maintaining an internal fork?
+- Pre-ambles to PRs / Commits / Files
+
+## Internal Open Source
+
+ - Review Boards.  
+ - Avoiding PIR leakage.
+ - What are criteria for open sourcing code?
+ - Under what conditions should the code be held by the bank's own organisation, vs. contributed to a foundation?
+ 
+ 
+ 
+

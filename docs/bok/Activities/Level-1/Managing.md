@@ -1,5 +1,5 @@
 ---
-title: Managing Open Source-based
+title: Managing Open Source Based Projects
 tags: 
   - Product Manager (Role)
   - CIO (Role)
