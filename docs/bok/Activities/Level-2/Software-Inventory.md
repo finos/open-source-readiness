@@ -35,6 +35,7 @@ It's not necessarily the case that you should pick a single place for inventory 
 4.  3rd party proprietary code might not have source available, or might not be in the Artifact Repository at all. 
 5.  The deploy processes that move code between different environments might introduce differences in the code in UAT vs Production.
 6.  Sometimes servers are [Monkey Patched](https://en.wikipedia.org/wiki/Monkey_patch) with new code in emergencies, skipping all the intermediate steps on the pipeline to put software into production.
+7.  Compiled vs Source code licenses could be different.  For example, Microsoft's [VSCode](https://code.visualstudio.com) licenses for [source](https://github.com/microsoft/vscode) and [binaries](https://code.visualstudio.com/license) are different.
 
 An advanced approach to software inventory would be "joined up" across multiple points in the pipeline.
 
