@@ -2,11 +2,11 @@
 title: Interacting with Foundations
 tags: 
   - Placeholder
-  - Level 3 (OSMM)
+  - Level 4 (OSMM)
   - OSPO (Role)
   - Developer (Role)
 draft: true
-sidebar_position: 7
+sidebar_position: 4
 sidebar_label: Foundations
 ---
 

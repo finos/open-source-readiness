@@ -9,7 +9,7 @@ tags:
   - Licenses (Artifact)
   - Level 3 (OSMM)
 draft: true
-sidebar_position: 2
+sidebar_position: 5
 sidebar_label: Contribution
 ---
 

@@ -5,8 +5,7 @@ tags:
   - Placeholder
   - OSPO (Role)
   - Level 3 (OSMM)
-draft: true
-sidebar_position: 1.5
+sidebar_position: 2
 sidebar_label: Making The Case
 ---
 

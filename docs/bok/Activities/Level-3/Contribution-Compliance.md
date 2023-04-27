@@ -10,8 +10,7 @@ tags:
   - Legal (Role)
   - Legal Risk
   - Reputational Risk
-draft: true
-sidebar_position: 2.5
+sidebar_position: 3
 sidebar_label: Compliance
 ---
 

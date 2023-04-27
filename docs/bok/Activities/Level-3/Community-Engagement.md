@@ -6,7 +6,7 @@ tags:
   - OSPO (Role)
   - Level 3 (OSMM)
 draft: true
-sidebar_position: 4
+sidebar_position: 7
 sidebar_label: Engagement
 ---
 

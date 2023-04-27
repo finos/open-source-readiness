@@ -6,7 +6,7 @@ tags:
   - OSPO (Role)
   - Data Leakage Risk
   - Reputational Risk
-sidebar_position: 8
+sidebar_position: 4
 sidebar_label: Training
 ---
 
