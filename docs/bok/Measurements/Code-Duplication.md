@@ -1,5 +1,10 @@
 ---
 title: Code Duplication
+tags: 
+  - OSPO (Role)
+  - Placeholder
+  - Operational Risk
+  - Codebase Risk
 ---
 
 This article will cover:
@@ -8,6 +13,7 @@ This article will cover:
  - Why it doesn't occur much on public open source projects
  - Why organisational firewalls make the problem of code duplication worse.
  - Specific risks arising within the organisation due to code duplication
+ - How this can be _measured_ and its cost _estimated_.
 
 ## Making The Case For Avoiding Code Duplication
 
@@ -51,12 +57,20 @@ This presents a problem for developers behind the firewall if they wish to **Fix
 
 _Internal Forking_ might be a band-aid solution for developers, but comes with its own risks:
 
+
+<BoxOut title="Codebase Risk" image="/img/bok/risks/codebase-risk.png" link="../../Risks/Codebase-Risk" linkText="Codebase Risk Details">
+
 - **Increased Maintenance Overhead**.   As already described, owning software has a cost.  Note that within an organisation _the same piece of software could get forked multiple times_, each fork taking its toll on a different development team.
+
+</BoxOut>
+
+<BoxOut title="Operational Risk" image="/img/bok/risks/operational-risk.png" link="../../Risks/Operational-Risk" linkText="Operational Risk Details">
 
 - **Increased Security Risk**.  Vulnerability analysis is unlikely to work effectively against proprietary versions of a library.
 
 - **Software Audit Issues**.  It becomes hard to know _where_ an organisation is using a particular piece of software if they are using an unofficial fork of it. 
 
+</BoxOut>
 
 ## Conclusion
 

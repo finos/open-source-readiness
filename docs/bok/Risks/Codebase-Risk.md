@@ -20,10 +20,12 @@ Using open source software can often reduce Codebase Risk since it hands off the
 
 **Example:** [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) refers to the cost of maintaining and updating existing code over time.
 
+**Example:** The risk of owning too much code is commonly referred to as [Codebase Bloat](https://en.wikipedia.org/wiki/Code_bloat). This occurs when a codebase becomes large and unwieldy, making it difficult to maintain, modify, or scale. 
+
 **See Also:** 
 
  - [Dependency Risk](Dependency-Risk)
-
+ - [Code Duplication](../Measurements/Code-Duplication)
 
 ## Risk Management Activities
 

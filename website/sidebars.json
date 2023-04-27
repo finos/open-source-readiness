@@ -62,15 +62,7 @@
       "osr-resources/osr-checklist"
     ],
     "OSR Common Problems" : [
-       "playbook/common-problems",
-       {
-        "type": "category",
-        "label": "Funding",
-        "items": [
-          "playbook/code-duplication",
-          "playbook/risk-based-view"
-        ]
-      }
+       "playbook/common-problems"
     ]
   }
 }

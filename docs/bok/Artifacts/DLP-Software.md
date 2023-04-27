@@ -19,13 +19,15 @@ This article looks at Data Loss Prevention (DLP) software commonly used in finan
 
 ## Types of DLP Software
 
-There are three basic types of DLP software, which are worth covering here:
+There are four basic types of DLP software, which are worth covering here:
 
 - **Endpoint**: _data in use_ DLP solutions are installed on an end-user machine (say a laptop or PC) or a server.  This works by monitoring and controlling the flow of data on individual endpoints. The solution scans files and data in real-time, looking for sensitive information (e.g. social security numbers, credit card numbers, or confidential business data).  If it identifies sensitive data, it can either block the data from being transferred, encrypt it, or apply other protective measures, based on the policies and rules defined by the organization. 
 
 - **Cloud**: Modern enterprises are increasingly turning to the cloud for data storage (_data at rest_) and processing (_data in use_).  This presents another venue for data loss to occur.  Cloud-based DLP (such as [Google Cloud DLP](https://cloud.google.com/dlp)) allow you to configure which data is sensitive in your data stores and then mask that data when it is used in queries.   
 
 - **Network**: _data in motion_ DLP solutions usually involve Firewalls set up at egress points at the perimeter of the network (see below).  
+
+- **Bespoke**: some DLP tools focus specifically on  a single piece of software. Here, we look at tools that intercept the source control contribution process in order to add DLP capabilities (see below). 
 
 This article focuses on Network DLP, since this often interferes with open source consumption and contribution.
 
@@ -109,6 +111,15 @@ Here are some tools that support data fingerprinting:
 - [Palo Alto Networks DLP]https://www.paloaltonetworks.com/network-security/enterprise-data-loss-prevention
 
 - [Forcepoint DLP](https://www.forcepoint.com/product/dlp-data-loss-prevention)
+
+## Bespoke DLP for GitHub / GitLab
+
+Tools can be used to apply a DLP workflow to the source control process.  This can introduce extra friction on contributing open source. 
+
+**See:**
+
+ - [GitProxy](https://github.com/finos)
+ - [GitHub Enterprise](https://github.com/enterprise)
 
 ## Summary
 
