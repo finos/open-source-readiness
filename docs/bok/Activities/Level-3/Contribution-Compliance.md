@@ -15,8 +15,16 @@ sidebar_position: 2.5
 sidebar_label: Compliance
 ---
 
+Contributing to an open source project from within a regulated firm is likely to contravene one or more _policies_.   Staff who contribute to open source as part of their jobs are likely to be in breach of their terms of employment or likely to get disciplined.   For this reason, in order to enable open source contribution, new policy needs to be written which creates space within the compliance landscape.
 
-## Intersection with Open Source Contribution
+The open source contribution policy won't be able to _contradict_ any pre-existing policy.  After all, most of the pre-existing policies (such as bank communications policy) will be in place to comply with law).  Nevertheless, many organisations have found ways to accommodate 
+
+
+
+
+
+
+
 
 Compliance with data protection and security policies is essential to ensure that the organization's data is protected and secure.  See [Data Leakage Prevention](DLP).
 

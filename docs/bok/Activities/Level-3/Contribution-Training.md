@@ -2,8 +2,10 @@
 title: Open Source Contribution Training
 tags:
   - Placeholder
-  - Level 2 (OSMM)
+  - Level 3 (OSMM)
   - OSPO (Role)
+  - Data Leakage Risk
+  - Reputational Risk
 sidebar_position: 8
 sidebar_label: Training
 ---
@@ -126,6 +128,15 @@ It's worth pointing out that tooling exists to _help_ with code review, although
 
 Since it is hard to differentiate between benign test data and company secret data a **blanket ban** on contributing data might be an effective way to go.
 Alternatively, consider the use of [DLP Tools](../../Artifacts/DLP-Software).   
+
+</BoxOut>
+
+
+<BoxOut title="Sanctions Compliance" image="/img/bok/risks/legal-risk.png" link="../../Laws/Sanctions" linkText="Sanctions Details">
+
+### Non-Standard Cryptography
+
+- Since this is disallowed by US Sanctions law, a code review should ensure requirement is met.
 
 </BoxOut>
 
