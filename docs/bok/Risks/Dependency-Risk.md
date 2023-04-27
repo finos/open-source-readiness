@@ -27,10 +27,11 @@ A software vulnerability is a flaw or weakness in a software program's design, i
 
 **Example: **In 2016, a popular JavaScript library called "left-pad" was removed from the [npm repository](https://en.wikipedia.org/wiki/Npm_(software)), causing widespread disruption for developers and organizations that relied on this library. The incident highlighted the risks of relying on external dependencies, as well as the importance of having contingency plans in place to manage dependency risks.
 
+**See Also:**
+
+- [Dependency Hell](https://en.wikipedia.org/wiki/Dependency_hell)- Wikipedia article explaining a variation of dependency risk.
+- [Top 10 Open Source Software Risks](https://www.endorlabs.com/blog/introducing-the-top-10-open-source-software-oss-risks) Endor Labs Station 9 research team report.
+
 ## Risk Management Activities
 
 <BokTagList tag="Dependency Risk" filter="Activities" />
-
-## Further Reading
-
-- [Top 10 Open Source Software Risks](https://www.endorlabs.com/blog/introducing-the-top-10-open-source-software-oss-risks) Endor Labs Station 9 research team report.

@@ -5,6 +5,7 @@ tags:
   - CIO/CTO (Role)
   - Legal Risk
   - Placeholder
+  - Data Leakage Risk
 ---
 
 <BoxOut title="Personal Information Law" image="/img/bok/regs/pi.png">

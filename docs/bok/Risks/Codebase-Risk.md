@@ -18,9 +18,12 @@ Using open source software can often reduce Codebase Risk since it hands off the
 
 </BoxOut>
 
-## Examples 
+**Example:** [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) refers to the cost of maintaining and updating existing code over time.
 
-Tbd
+**See Also:** 
+
+ - [Dependency Risk](Dependency-Risk)
+
 
 ## Risk Management Activities
 

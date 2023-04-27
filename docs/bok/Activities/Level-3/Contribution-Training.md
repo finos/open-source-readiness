@@ -148,10 +148,6 @@ This has a large impact on the shape of the resulting policy and therefore also 
 
 **See Also**: [Contribution Compliance](Contribution-Compliance) for more information on the related policies.
 
-Your training course will therefore likely need to touch on:
-
-tbd.
-
 ## Remediation
 
 In the event of an issue with an open source engagement (e.g.  an accidental data leak) what is the process?

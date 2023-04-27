@@ -2,9 +2,9 @@
 title: Leveraging Open Source as a Strategy
 tags: 
   - Developer (Role)
-  - Data Leakage (Risk)
   - Placeholder
   - Level 5 (OSMM)
+  - Strategic Risk
 draft: true
 ---
 
