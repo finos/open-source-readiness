@@ -27,9 +27,9 @@ There are four basic types of DLP software, which are worth covering here:
 
 - **Network**: _data in motion_ DLP solutions usually involve Firewalls set up at egress points at the perimeter of the network (see below).  
 
-- **Bespoke**: some DLP tools focus specifically on  a single piece of software. Here, we look at tools that intercept the source control contribution process in order to add DLP capabilities (see below). 
+- **Source Control DLP**: some DLP tools focus specifically on open source contribution DLP (see below). 
 
-This article focuses on Network DLP, since this often interferes with open source consumption and contribution.
+This article focuses on Network DLP and Source Control DLP, since this often interferes with open source consumption and contribution.
 
 ## Firewalls for Network DLP
 
@@ -112,9 +112,9 @@ Here are some tools that support data fingerprinting:
 
 - [Forcepoint DLP](https://www.forcepoint.com/product/dlp-data-loss-prevention)
 
-## Bespoke DLP for GitHub / GitLab
+## Source Control DLP
 
-Tools can be used to apply a DLP workflow to the source control process.  This can introduce extra friction on contributing open source. 
+Tools can be used to apply a DLP workflow to the GitHub / GitLab source control processes.  This can introduce extra friction on contributing open source. 
 
 **See:**
 
