@@ -5,8 +5,9 @@ tags:
   - Placeholder
   - Level 5 (OSMM)
   - Strategic Risk
-draft: true
 ---
+
+-- placeholder --
 
 Refer to [Strategy](../Artifacts/Strategy) as the _output_ from this activity.
 
