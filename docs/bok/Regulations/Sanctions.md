@@ -4,16 +4,16 @@ tags:
   - Legal (Role)
   - CIO/CTO (Role)
   - Legal Risk
+  - Placeholder
 ---
  
 <BoxOut title="Sanctions" image="/img/bok/regs/sanctions.png">
  
- 
 Many countries are prevented from selling into certain territories (US into Iran for example).
 
 </BoxOut>
-  
-## Sanctions Regimes 
+
+## Sanctions Regimes
  
 Banks typically decide which sanctions regimes to follow based on a number of factors, including their legal and regulatory obligations, the countries they operate in, and the risks associated with their business activities.
 
@@ -29,7 +29,7 @@ Banks typically decide which sanctions regimes to follow based on a number of fa
 
 The United States regulates the export of non-standard cryptography under the Export Administration Regulations (EAR), which classifies cryptographic items as "dual-use" commodities, software, or technology that have both civilian and military applications, and require an export license depending on the encryption strength, end-use, or destination country.
 
-See Also:
+**See Also:**
 
  - [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States) - Wikipedia Article.
 
@@ -39,7 +39,7 @@ See Also:
 - using russian open source software?
 - core-js
 
-See Also:
+**See Also:**
 
  - [Deutsche Bank seeks options as sanctions threaten Russian dev unit](https://www.theregister.com/2022/03/04/deutsche_bank_russia_dev_unit/)
  - [Deutsche Bank Moving Russian IT Staff to New Hub in Germany](https://www.bloomberg.com/news/articles/2022-06-07/deutsche-bank-moving-russian-it-staff-to-new-hub-in-germany)

@@ -14,6 +14,10 @@ Legal risk refers to the potential for an organization to face legal consequence
 
 </BoxOut>
 
-## Laws
+## Regulations
 
-<BokTagList filter="Laws" />
+<BokTagList filter="Regulations" />
+
+## Risk Management Activities
+
+<BokTagList tag="Legal Risk" filter="Activities" />

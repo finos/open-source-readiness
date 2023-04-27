@@ -18,7 +18,7 @@ There is also consideration for open source decentralized projects and cryptocur
 
 </BoxOut>
 
-#### Bank Secrecy Act 1970
+## Bank Secrecy Act 1970
 
 The Bank Secrecy Act of 1970 (BSA), also known as the Currency and Foreign Transactions Reporting Act, is a U.S. law requiring financial institutions in the United States to assist U.S. government agencies in detecting and preventing money laundering. The BSA is sometimes referred to as an anti-money laundering law (AML) or jointly as BSA/AML.
 

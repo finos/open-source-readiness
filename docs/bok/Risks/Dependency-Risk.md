@@ -33,4 +33,4 @@ A software vulnerability is a flaw or weakness in a software program's design, i
 
 ## Further Reading
 
-- [Top 10 Open SOurce Software Risks](https://www.endorlabs.com/blog/introducing-the-top-10-open-source-software-oss-risks) Endor Labs Station 9 research team report.
+- [Top 10 Open Source Software Risks](https://www.endorlabs.com/blog/introducing-the-top-10-open-source-software-oss-risks) Endor Labs Station 9 research team report.

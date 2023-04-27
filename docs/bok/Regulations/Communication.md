@@ -19,7 +19,7 @@ Keep in mind these broad principles about communication in regulated firms:
  
 </BoxOut>
 
-#### Market Abuse Regulation (MAR)
+## Market Abuse Regulation (MAR)
 
 In order to prevent insider dealing and market manipulation, under the [European Union's Market Abuse Regulation (MAR)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0596&from=EN), firms must maintain effective systems and controls to detect, prevent, and report market abuse, and to keep records of all communications that are capable of leading to a transaction.
 

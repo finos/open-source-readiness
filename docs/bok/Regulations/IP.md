@@ -4,6 +4,8 @@ tags:
   - Legal (Role)
   - CIO/CTO (Role)
   - Legal Risk
+  - Placeholder
+  - Data Leakage Risk
 ---
 
 <BoxOut title="Intellectual Property" image="/img/bok/regs/ip.png">
@@ -17,11 +19,13 @@ Open source software is typically distributed under specific [licensing terms](.
 
 _Open source development on top of prioprietary codebase_
  
-**See also: **
+
+</BoxOut>
+
+## Further Reading
 
  - [Patents](../../Artifacts/Patents) 
  - [Trademarks](../../Artfacts/Trademarks)
  - [License Compliance Management](../Activities/Level-2/License-Management.md)
  - [Training](../../Activities/Level-2/Training)
  
-</BoxOut>
