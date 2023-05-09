@@ -1,12 +1,12 @@
 ---
 title: Creating an Open Source Program Office (OSPO)
 tags: 
-  - Developer (Role)
   - OSPO (Role)
   - Placeholder
   - Level 2 (OSMM)
 draft: true
 sidebar_position: 7
+sidebar_label: OSPO
 ---
 
 
@@ -16,6 +16,9 @@ sidebar_position: 7
 2.  Staffing the OSPO / Structures / Sizing
 
 - link to lots of TODO docs here.
+
+
+
 
 
 

@@ -2,6 +2,7 @@
 title: Building an Open Source Culture
 tags: 
   - Developer (Role)
+  - Business (Role)
   - ISPO (Role)
   - Placeholder
   - Level 3 (OSMM)

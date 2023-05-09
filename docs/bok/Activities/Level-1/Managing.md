@@ -1,8 +1,9 @@
 ---
-title: Managing Open Source-based
+title: Managing Open Source Based Projects
 tags: 
   - Product Manager (Role)
-  - CIO-CTO (Role)
+  - CIO (Role)
+  - CTO (Role)
   - HR-Training (Role)
   - Placeholder
   - Level 1 (OSMM)

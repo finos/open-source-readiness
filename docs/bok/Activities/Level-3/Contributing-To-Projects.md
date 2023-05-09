@@ -2,7 +2,7 @@
 title: Contributing To An Open Source Project
 tags: 
   - Developer (Role)
-  - Data Leakage (Risk)
+  - Data Loss (Risk)
   - Placeholder
   - OSPO (Role)
   - CLAs-And-DCOs (Artifact)

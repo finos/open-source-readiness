@@ -26,7 +26,7 @@ This is a blanket license with no conditions.
 </thead>
 <tbody>
 <tr className="odd">
-<td><p>This license places no conditions whatsoever on using, copyring, modifying or distributing the software for any purpose.</p></td>
+<td><p>This license places no conditions whatsoever on using, copying, modifying or distributing the software for any purpose.</p></td>
 </tr>
 </tbody>
 </table>
