@@ -14,3 +14,13 @@ sidebar_position: 7
 - List of main foundations (links)
 
 
+
+
+
+
+## Sponsoring
+
+Sponsoring third-party projects or individuals
+Sponsoring own organization's open source projects or individual members
+Sponsoring open source organizations
+Sponsoring events
