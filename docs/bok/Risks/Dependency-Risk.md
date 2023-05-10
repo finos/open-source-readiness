@@ -13,6 +13,10 @@ Software dependency risk refers to the potential negative consequences of relyin
 
 Open source _sustainability_ refers to the long-term viability and health of open-source software projects.  Key issues in sustainability include [Key Person Risk](Staff-Risk) (including burn-out from key maintainers) and lack of funding.
 
+### Are Open Source Projects More Sustainable Than Internal Ones?
+
+Open Source projects by definition have a wider pool of users and contributors to draw from than internal projects.   [Deutsche Bank Open Sourced the Spring-Bot project](https://springbot.finos.org) and donated it to FINOS as this was seen to be more likely to result in the long-term viability of the project than maintaining it in-house.
+
 ## Vulnerability
 
 A software vulnerability is a flaw or weakness in a software program's design, implementation, or operation that, if exploited, can compromise the security, functionality, or data integrity of a system.  This can result in [Data Leakage](Data-Leakage-Risk) or [Legal Action](Legal-Risk).

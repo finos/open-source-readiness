@@ -60,9 +60,6 @@
       "osr-resources/oslc-licenses",
       "osr-resources/whitepaper",
       "osr-resources/osr-checklist"
-    ],
-    "OSR Common Problems" : [
-       "playbook/common-problems"
     ]
   }
 }
