@@ -1,7 +1,13 @@
 ---
 title: Making The Case For Contribution
 tags: 
-  - Data Loss (Risk)
+  - Data Leakage Risk
+  - Strategic Risk
+  - Dependency Risk
+  - Staff Risk
+  - Reputational Risk
+  - Operational Risk
+  - Codebase Risk
   - Placeholder
   - OSPO (Role)
   - Level 3 (OSMM)
