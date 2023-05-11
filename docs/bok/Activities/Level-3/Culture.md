@@ -57,11 +57,16 @@ _Finance is not a domain traditionally comfortable with the values of Open-Sourc
 - **Guilds** / **Centres of Excellence** so that like developers can work together.  E.g. having a JavaScript community within the organisation and devolving to them to set up events, handle training etc.
 - **Bringing in External Community Managers**: to create communities and guilds where there wasn't one before.
 - **Gamification** Points / Rewards / Badges for the right behaviour such as doing talks, etc.
+  - Make allowances for open source work as part of the day job. (Google's 20% time?!)
+  - Manager approval for working on specific projects. 
+  - Recognition of star contributors
 - **Encouraging External Interaction**: e.g. covering the expenses of developers going to conferences, getting them to do talks at those conferences, asking people to attend meetups, asking people to engage with external open-source projects, giving people time to work on Open-Source.
 - **Remove The Fear**:  you have to keep messaging that contributing to Open Source is OK.  In lots of institutions, drawing attention to your work has been considered harmful.  In some institutions code exfiltration has been a sackable offence.
 - **Shift-Left of Licensing**: can you identify which OSS licenses are being used by your projects at build time, rather than once the projects are released?  (see also: SBOMs)
 - **Hackathons**
 - **External Speakers**: getting high-profile maintainers from OSS projects used in the firm to come and talk.
+- **Top-Down Buy-In**: get senior managers to telegraph their approval of OSS 
+- **Newsletters**
 
 ## Changing Behaviour
 
@@ -71,10 +76,20 @@ _Many developers lead a double life: their corporate selves and their external, 
 - **Education**: sometimes, managers need to be educated as to why their staff should be allowed to contribute to open source - what do they get out of it?  How can they be educated to value the long-term benefits?
 - **Create a Hub**:  build a site where people can find the resources they need.  Tutorials, training, documentation, etc.  
 - **Golden Paths**:  is there a "golden path" to doing something right?  e.g. starting a new application, open-sourcing a project?  Can you make this path as simple as possible?
+  - Publicising the process clearly.
+  - Templates  
+  - Decision to open source should be part of the project initiation process
 - **DEVX (Developer Experience)**:  can you reduce the number of disparate sources of information (JIRA, Email, GitHub, vulnerabilities) for the developer, to reduce their cognitive load?  
+  - Platforms - can the OSPO improve the state of tooling within the orgranisation by working with the platform teams?  (License compliance, vulnerabilities, sustainability)
+  - A lot of infratstucture in platforms is built on open source. Can you prioritise improvements to these projects?
 - **Networking**:  how can you put like developers together within the organisation?  Can you find out which tools+libraries developers are using, and share with them details of who else uses it, and training resources?
 - **Scorecards**: Discover are looking at building project scorecards using the data-graph from Backstage.  Can you rate the quality of the project based on documentation, licensing, observability, test coverage?  
 - **Recommendation Algorithm**: Once you have a graph of projects-technologies-developers, can you build recommendations of blog articles, training courses and technologies for developers based on what other, similar developers/projects are doing?
+- **Critical Dependencies**:  What are the critical strategic open source dependencies of the organisation?  It should be easier to get approval to work on those.
+- **Recruitment**: (see [Talent](Talent)). 
+  - Positioning bank as an engineering organisation due to its open source credentials.
+  - Open source visibility makes the bank a more attractive place to work.
+- **Sustaintability**: creating open source projects may be more sustainable than internal ones.  Can we get people to think about this for their own projects?  Is it better for the bank if my project is open source?  
 
 ## Inner Source
 
@@ -103,3 +118,4 @@ _Some tools which help OSPOs do their work._
 - [SBOM](https://en.wikipedia.org/wiki/Software_supply_chain)s: A way of describing the provenance and contents of a software library or package.
 - **LFX**: _tbd._
 - **cauldron.io**: _tbd._
+- Good tooling helps people see the value of the OSPO.  If the OSPO provides good tooling around (say) License compliance management, this is of real value to the organisation.
