@@ -8,7 +8,6 @@ tags:
   - Reputational Risk
   - Operational Risk
   - Codebase Risk
-  - Placeholder
   - OSPO (Role)
   - Level 3 (OSMM)
 sidebar_position: 2

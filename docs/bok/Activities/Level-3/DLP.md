@@ -5,7 +5,7 @@ tags:
   - Placeholder
   - OSPO (Role)
   - Level 3 (OSMM)
-sidebar_position: 6
+sidebar_position: 5
 sidebar_label: DLP
 ---
 
