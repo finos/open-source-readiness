@@ -146,6 +146,8 @@ As [Contribution Compliance](Contribution-Compliance) describes, open source dev
 
 This has a large impact on the shape of the resulting policy and therefore also likely the behaviours of the staff adhering to that policy.
 
+**Therefore**: Staff training needs to reflect the firm's open source policy, especially around things like Social Media, Speaking at Public Events or Conflicts of Interest.
+
 **See Also**: [Contribution Compliance](Contribution-Compliance) for more information on the related policies.
 
 ## Remediation

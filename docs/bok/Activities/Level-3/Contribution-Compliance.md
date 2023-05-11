@@ -59,6 +59,7 @@ The open source contribution policy won't be able to _contradict_ any pre-existi
  - They normally apply to tools like Zoom, Slack, Symphony, Email etc. and cover retention periods, supervision etc.
  - Clearly, an open source contribution needs to adhere to these rules, even if it is not really the subject of them.
  - At the moment, this is an area of active investigation.  Tools like [GitHub Enterprise](https://github.com/enterprise) may help,  or something like [island.io](https://island.io).
+ - Social Media
 
 </BoxOut>
 
