@@ -112,19 +112,6 @@ Here are some tools that support data fingerprinting:
 
 - [Forcepoint DLP](https://www.forcepoint.com/product/dlp-data-loss-prevention)
 
-## Source Control DLP
-
-Tools can be used to apply a DLP workflow to the GitHub / GitLab source control processes.  This can introduce extra friction on contributing open source. 
-
-**See:**
-
- - [GitProxy](https://github.com/finos)
- - [GitHub Enterprise](https://github.com/enterprise)
- 
-## Ephemeral Desktops
-
-
-
 ## Summary
 
 This article describes how DLP software works in the enterprise, focusing on firewalls, and how this can be a barrier to contributing to open source.   

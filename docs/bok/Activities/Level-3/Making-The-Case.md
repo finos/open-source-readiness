@@ -51,9 +51,26 @@ There is a strong component of _education_ here:  once you have performed this r
 
 Since the risk profile changes for various different departments, senior leaders will need convincing since the departments will have to accept a new way of working and a new approach to the risks involved.
 
-## Proving It
+## Proving It (Starting Small/Low Risk)
 
 Open source contribution is something that firms can adopt in a piecemeal, pilot way.  _This is also a risk reduction strategy_.   By starting out with a limited amount of contribution on certain key projects, you get to discover what _hidden risks_ were not covered in the risk analysis.   
+
+**Consider:**
+
+ - Can you divide the estate into different levels of risk? For example, **key production systems** might be high-risk, whereas a website with UI guidelines on it might be much lower risk.  Can you get agreement to work in an open source way at the lower end of the risk spectrum?
+ 
+ - Can you consider open source for _new, experimental projects_ which are small scale and won't cause large amounts of escalation if there are problems?
+ 
+ - Can you look at the impact of a [vulnerability](../../Risks/Dependency-Risk): in what systems would this be a low-risk problem?
+ 
+ - From a [reputational risk](../../Risks/Reputational-Risk)perspective, does [pushing code to foundations](../Level-4/Foundations) make more sense?
+ 
+ - Can you consider projects which have a low-level of firm-specific IP?
+ 
+ - Can you make sure the projects being considered are widely separated from core firm business?
+ 
+ - Can you pick parts of the business with [low compliance overhead](Contribution-Compliance)?
+
   
 ## Improved Risk Position
 
