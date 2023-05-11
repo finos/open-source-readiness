@@ -11,6 +11,9 @@ sidebar_position: 8
 sidebar_label: Culture
 ---
 
+Your OSPO
+
+
 tbd
 
 
@@ -19,13 +22,20 @@ tbd
 - clear paths to contribution
 - HR understands OSS skills (GGI)
 
+## Sustainability
 
-## Starting an ISPO
 
-OPtional activity?
 
-- trying to change the internal culture of the company to be more like Open Source.
+## Inner Source
 
+_Is inner source just a function of the OSPO_
+_Trying to change the internal culture of the company to be more like Open Source._
+- Is Inner Source an easier "sell"?  Can you get inner source projects off the ground easier?  If projects are started as Inner Source, you are at least starting to use the tools and practices of open source in your organisation.
+- Inner Source code is more "sustainable".
+- I.S. at least gets people working on more projects.
+- I.S. vs Open Source Personal Development.
+
+IS/OS as a "continuum" (of licenses.
 
 Improve collaboration across the organization
 Establish communication channels across the organization
@@ -36,21 +46,6 @@ Remove organizational silos and identify talent across the organization
 - need to include details of internal licenses, slas.
 
 
-
-## Staffing
-
-_Who do you need in the OSPO?_
-
-- **Guild Model**:  ideally, you need representatives interacting with the OSPO from all the areas of business: finance, HR, Legal etc.   Several firms operate their OSPO on a "Guild Model", with staff being present in the OSPO and their line function.
-- **IP Council**:  You may need someone who is expert on software licensing if this is part of the remit of your OSPO.
-- IP Policy: The organisation's IP Policy has a bearing on whether employees can contribute to open source.  
-
-## Remit
-
-_What concerns are inside the OSPO?  What should you not focus on?_
-
-- **A Software Catalogue**: sometimes, an OSPO is about mandating certain types of technologies.  Are you trying to establish standards for the estate?   
-- **Vulnerabilities**:  who is dealing with reported vulnerabilities on used projects?  Is there reporting and a process around closing these?   Should the OSPO be tracking that?   In order to establish this, you will need to know what software is being consumed within the organisation.
 
 ## Culture
 
