@@ -8,7 +8,7 @@ tags:
   - Data Leakage Risk
 ---
 
-<BoxOut title="Personal Information Law" image="/img/bok/regs/pi.png">
+<BoxOut title="Personal Information" image="/img/bok/regs/pi.png">
 
 Leakage of personal information has a knock-on to [Reputational Risk](Reputational-Risk) and [Legal Risk](Legal-Risk), as explored in the section below.  As noted in the BOK activities [addressing supply chain security](Supply-Chain-Security), incorporating secure development into the Software Development Lifecycle is therefore also a compliance issue. 
 
@@ -43,4 +43,6 @@ Any software (including open source) used by an organisation operating within th
 
 The [Payment Card Industry Data Security Standard (PCI DSS)](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard) is a set of security requirements designed to protect cardholder data and ensure the secure processing, storage, and transmission of payment card information. Established by major credit card companies, the standard applies to all entities involved in payment card processing, including merchants, processors, and service providers. Compliance with PCI DSS helps minimize the risk of data breaches and safeguard sensitive payment card information from theft and fraud.
 
- 
+## Related Activities
+
+<BokTagList tag="PI Regulation" filter="Activities" />

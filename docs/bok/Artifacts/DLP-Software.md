@@ -108,7 +108,7 @@ A second technique is to _fingerprint_ the private data within the organisation 
 
 Here are some tools that support data fingerprinting:
 
-- [Palo Alto Networks DLP]https://www.paloaltonetworks.com/network-security/enterprise-data-loss-prevention
+- [Palo Alto Networks DLP](https://www.paloaltonetworks.com/network-security/enterprise-data-loss-prevention)
 
 - [Forcepoint DLP](https://www.forcepoint.com/product/dlp-data-loss-prevention)
 
@@ -120,6 +120,10 @@ Tools can be used to apply a DLP workflow to the GitHub / GitLab source control 
 
  - [GitProxy](https://github.com/finos)
  - [GitHub Enterprise](https://github.com/enterprise)
+ 
+## Ephemeral Desktops
+
+
 
 ## Summary
 

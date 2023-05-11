@@ -10,9 +10,7 @@ tags:
 
 <BoxOut title="Accountancy Regulations" image="/img/bok/regs/accounting.png">
 
-Anything that developers write has a _cost_ associated with it, which is charged to a cost center within an organisation.  Under accountancy laws these costs are amortised with respect to the assets they create.  
-
-_Giving away software_ as open source breaks this model and needs to be accounted for correctly.
+Anything that developers write has a _cost_ associated with it, which is charged to a cost center within an organisation.  Under accountancy laws these costs are amortised with respect to the assets they create.  _Giving away software_ as open source breaks this model and needs to be accounted for correctly.
 
 </BoxOut>
 
@@ -26,4 +24,7 @@ While not all financial institutions are public companies, the concept of IT con
 
 **Example:** In 2013, [JPMorgan Chase was fined $200 million](https://www.sec.gov/news/press/2013/2013-187.htm) by regulatory authorities for its failure to maintain effective internal controls over financial reporting. The bank had made several risky trades that resulted in significant losses, which highlighted weaknesses in its internal control processes.
  
+## Related Activities
+
+<BokTagList tag="Accounting Regulation" filter="Activities" />
  

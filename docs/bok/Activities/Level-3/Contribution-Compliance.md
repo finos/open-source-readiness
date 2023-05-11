@@ -2,14 +2,18 @@
 title: Ensuring Open Source Compliance For Contribution
 tags: 
   - OSPO (Role)
-  - Placeholder
-  - Risk-Compliance (Role)
-  - Security Expert (Role)
   - Level 3 (OSMM)
   - CIO/CTO (Role)
-  - Legal (Role)
-  - Legal Risk
-  - Reputational Risk
+  - Compliance (Role)
+  - AML Regulation
+  - Accounting Regulation
+  - Communication Regulation
+  - Counter-Terrorism Regulation
+  - Cross-Border Regulation
+  - IP Regulation
+  - PI Regulation
+  - Sanctions Regulation
+  - Export Regulation
 sidebar_position: 3
 sidebar_label: Compliance
 ---
@@ -18,53 +22,136 @@ Contributing to an open source project from within a regulated firm is likely to
 
 The open source contribution policy won't be able to _contradict_ any pre-existing policy.  After all, most of the pre-existing policies (such as bank communications policy) will be in place to comply with law).  Nevertheless, many organisations have found ways to accommodate open source contribution within their existing compliance framework.  
 
-## Balance Of Risks
-
-The [Making The Case for Contribution](Making-The-Case) article argues for allowing open source contribution as _controlling for 
+**Note:** The [Making The Case for Contribution](Making-The-Case) article argues for allowing open source contribution as _controlling the risk profile_ of the organisation.   In this article we are focusing on how **policy** for open source contribution can be made to dovetail with existing banking policies enshrined in law.
 
 
-<BoxOut title="Accountancy Regulations" image="/img/bok/regs/accounting.png">
+<BoxOut title="Accountancy" image="/img/bok/regs/accounting.png" link="../../Regulations/Accounting" linkText="Accounting Regulations">
+
+### Overview
+
+<DocExcerpt src="/Regulations/Accounting" />
+
+### Controls
+
+ - Product Owners will need to accept the accounting write-down on the value of their software if they want to distribute it for free as open source.  
+
+</BoxOut>
+
+<BoxOut title="Anti-Money Laundering" image="/img/bok/regs/aml.png" link="../../Regulations/AML" linkText="AML Regulations">
+
+### Overview
+
+<DocExcerpt src="/Regulations/AML" />
+
+### Controls
+
+</BoxOut>
+
+<BoxOut title="Communications" image="/img/bok/regs/communications.png" link="../../Regulations/Communication" linkText="Communication Regulations">
+
+### Overview
+
+<DocExcerpt src="/Regulations/Communication" />
+
+### Controls
+
+ - Banking regulations around electronic communications are mainly aimed at broker-dealer relationships, preventing collusion and enforcing "chinese walls" to prevent conflicts-of-interest.  
+ - They normally apply to tools like Zoom, Slack, Symphony, Email etc. and cover retention periods, supervision etc.
+ - Clearly, an open source contribution needs to adhere to these rules, even if it is not really the subject of them.
+ - At the moment, this is an area of active investigation.  Tools like [GitHub Enterprise](https://github.com/enterprise) may help,  or something like [island.io](https://island.io).
+
+</BoxOut>
+
+<BoxOut title="Counter-Terrorism" image="/img/bok/regs/counter-terrorism.png" link="../../Regulations/Counter-Terrorism" linkText="Counter-Terrorism Regulations">
+
+### Overview
+
+<DocExcerpt src="/Regulations/Counter-Terrorism" />
+
+### Controls
+
+</BoxOut>
+
+<BoxOut title="Cross-Border Obligations" image="/img/bok/regs/cross-border.png" link="../../Regulations/Cross-Border" linkText="Cross-Border Regulations">
+
+### Overview
+
+<DocExcerpt src="/Regulations/Cross-Border" />
+
+### Controls
+
+- **Cross Border Data Clearance (CBDC)**:  Only really applies to data. Not source code.   Public source doesn't apply.  Working groups don't apply.  Use of data classified as public.  Not banning data, but asking "is this public?".  
+
+- In GitProxy, this might be: does this contain data?    If so, a second level review might be required.
+
+- Screen out (via [DLP](../../Artifacts/DLP-Software)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only.
+
+- This is another example of why preventing contributions with "test data" in them may be good policy.
+
+</BoxOut>
+
+<BoxOut title="Intellectual Property" image="/img/bok/regs/ip.png" link="../../Regulations/IP" linkText="IP Regulations">
+
+### Overview
+
+<DocExcerpt src="/Regulations/IP" />
+
+### Controls
+
+  - All data and documentation within a bank must be given a classification.  E.g. public, confidential, etc.  
+  - Part of the DLP process should be to make sure that only _public_ information is allowed to be contributed.
+
+</BoxOut>
+
+<BoxOut title="Personal Information" image="/img/bok/regs/pi.png" link="../../Regulations/PI" linkText="PI Regulations">
+
+### Overview
+
+<DocExcerpt src="/Regulations/PI" />
+
+### Controls
+
+ - Financial firms are _technology organisations_. All such organisations need to worry about Intellectual Property Risk.  IP Leakage can happen anywhere.  
+ - Arguably, risks are _greater_ in finance because of the penalties that regulators may apply.
+ - Historically, use of social media / sharing sites has been prohibited by many firms to mitigate data leakage.   
+ - But you have to balance the data leakage risk against the benefits (outlined above).  Therefore:   can employees use a site like GitHub (where uploading data is commonplace) but have controls in place to mitigate the data-leakage aspect?
+ - Tools such as [GitProxy](http://github.com/finos/Git-Proxy), personal machines, ephemeral desktops etc. help to mitigate this.  
+ - _Training_ of open source developers within the organisation is an important step.  Do developers understand the rules?  Can you be explicit about what is and isn't included in a commit?  For example:  _non-code contributions_ such as test data might be outside the policy.  It's easier to have a blanket policy that this isn't allowed, since it could be hard to tell the difference between fake and real data.  Test data therefore needs to be generated by the tests as they run instead.
+ - A _governance process_ needs to be in place for supervising contributions and observing what leaves the organisation.
+ - Tools like [GitHub Enterprise](https://github.com/enterprise) also aim to help with Data Leakage Prevention.
+ - _Evidence_ (in the form of records) may need to be provided that data hasn't been leaked (according to regulations).
 
 
 </BoxOut>
 
-<BoxOut title="Anti-Money Laundering" image="/img/bok/regs/aml.png">
+
+<BoxOut title="Sanctions" image="/img/bok/regs/sanctions.png" link="../../Regulations/Sanctions" linkText="Sanctions Regulations">
+
+
+### Overview
+
+<DocExcerpt src="/Regulations/Sanctions" />
+
+### Controls
+
+ - Is open source contribution encompassed in "selling"?  
+- using russian open source software?
+- core-js
 
 </BoxOut>
 
-<BoxOut title="Communications Laws" image="/img/bok/regs/communications.png">
+<BoxOut title="Export" image="/img/bok/regs/export.png" link="../../Regulations/Export" linkText="Export Regulations">
+
+### Overview 
+
+<DocExcerpt src="/Regulations/Export" />
+
+### Controls
+
+ - Your policy will have to make a clear distiction between "exporting" and "contributing into an open source repository".
 
 
 </BoxOut>
-
-<BoxOut title="Counter-Terrorism Laws" image="/img/bok/regs/counter-terrorism.png">
-
-
-</BoxOut>
-
-<BoxOut title="Cross-Border Obligations" image="/img/bok/regs/cross-border.png">
-
-
-</BoxOut>
-
-<BoxOut title="Intellectual Property" image="/img/bok/regs/ip.png">
-
-
-</BoxOut>
-
-
-<BoxOut title="Personal Information" image="/img/bok/regs/ip.png">
-
-
-</BoxOut>
-
-
-<BoxOut title="Sanctions" image="/img/bok/regs/ip.png">
-
-
-</BoxOut>
-
-
 
 
 
@@ -86,38 +173,6 @@ Compliance with data protection and security policies is essential to ensure tha
  - personal machines - (working outside the firewall)
  - ephemeral desktops etc - like personal machines, but a vm within your desktop that can access _nothing inside the firewall_.
  - GitHub Enterprise / Cloud 
- 
- 
-<BoxOut title="Data Leakage Risk" image="/img/bok/risks/data-leakage-risk.png">
-
- - Financial firms are _technology organisations_. All such organisations need to worry about Intellectual Property Risk.  IP Leakage can happen anywhere.  
- - Arguably, risks are _greater_ in finance because of the penalties that regulators may apply.
- - Historically, use of social media / sharing sites has been prohibited by many firms to mitigate data leakage.   
- - But you have to balance the data leakage risk against the benefits (outlined above).  Therefore:   can employees use a site like GitHub (where uploading data is commonplace) but have controls in place to mitigate the data-leakage aspect?
- - Tools such as [GitProxy](http://github.com/finos/Git-Proxy), personal machines, ephemeral desktops etc. help to mitigate this.  
- - _Training_ of open source developers within the organisation is an important step.  Do developers understand the rules?  Can you be explicit about what is and isn't included in a commit?  For example:  _non-code contributions_ such as test data might be outside the policy.  It's easier to have a blanket policy that this isn't allowed, since it could be hard to tell the difference between fake and real data.  Test data therefore needs to be generated by the tests as they run instead.
- - A _governance process_ needs to be in place for supervising contributions and observing what leaves the organisation.
- - Tools like [GitHub Enterprise](https://github.com/enterprise) also aim to help with Data Leakage Prevention.
- - _Evidence_ (in the form of records) may need to be provided that data hasn't been leaked (according to regulations).
-
-</BoxOut>
-
-
-## Reducing Code Duplication
-
- - The [Code Duplication](../../playbook/code-duplication) article already describes the maintainance costs associated with internal forks of projects, and in passing discusses how this also presents a security risk.
- - It is hard but perhaps not impossible to get a view of how big a problem this is in your organsisation by looking at the internal repository (e.g. Artifactory) and looking for versions of open source libraries that are _not_ coming from the original external source.
- - An argument _for_ internal forks is that actually this mitigates the cyber risk of trojan code from an external environment.  However this is specious since 99% of the code running in the organisation is open source anyway: bad actors can exist both inside and outside the bank and this is no substitute for scanning tools.
- - For example, consider a  _bad actor_ performing a [Solar Winds Trojan](https://www.cisecurity.org/solarwinds)-style attack.  This is a consumption risk that _already exists_.  Allowing developers to contribute to open source doesn't worsen or improve this situation.   
-   
- 
- License Choice
- 
- 
- Risk Management
- 
- - Review everything in [Risk BAsed View](https://osr.finos.org/docs/playbook/risk-based-view)
- 
  
  
 ## Working With Compliance
@@ -154,33 +209,6 @@ PatH:
  
  
  
-
-
- 5. Information Classification
-
-  - All data and documentation within a bank must be given a classification.  E.g. public, confidential, etc.
-  - Part of the DLP process should be to make sure that only _public_ information is allowed to be contributed.
-
-
-
-6. Cross-Border Obligations
-
- - Many organisations are bound by what is allowed to cross their borders.  For example:  in Swiss banks, there are strong controls in place to make sure no data leaves Switzerland.  
- - This is a consideration for code too, as code _contributed to GitHub_ is data leaving the organisation and there may be requirements around these obligations.
- - This is another example of why preventing contributions with "test data" in them may be good policy.
-
-7. Export Regulations
-
- - In a similar vein, many countries are prevented from selling into certain territories.  US/Iran for example.
- - There are rules in the US about exporting "non-standard crypto" (which might include obfuscated code).
- - Is open source contribution encompassed in "selling"?  
-
-8. Electronic Communications
-
- - Banking regulations around electronic communications are mainly aimed at broker-dealer relationships, preventing collusion and enforcing "chinese walls" to prevent conflicts-of-interest.  
- - They normally apply to tools like Zoom, Slack, Symphony, Email etc. and cover retention periods, supervision etc.
- - Clearly, an open source contribution needs to adhere to these rules, even if it is not really the subject of them.
- - At the moment, this is an area of active investigation.  Tools like [GitHub Enterprise](https://github.com/enterprise) may help,  or something like [island.io](https://island.io).
 
 
 

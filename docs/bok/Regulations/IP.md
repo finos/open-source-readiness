@@ -29,3 +29,7 @@ _Open source development on top of prioprietary codebase_
  - [License Compliance Management](../Activities/Level-2/License-Management.md)
  - [Training](../../Activities/Level-2/Training)
  
+## Related Activities
+
+<BokTagList tag="IP Regulation" filter="Activities" />
+ 

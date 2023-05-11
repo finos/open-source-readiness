@@ -18,3 +18,6 @@ USA PATRIOT Act: This U.S. law enhances the BSA by imposing additional AML and C
 
 > The first subtitle deals primarily with strengthening banking rules against money laundering, especially on the international stage. The second subtitle attempts to improve communication between law enforcement agencies and financial institutions, as well as expanding recordkeeping and reporting requirements. The third subtitle deals with currency smuggling and counterfeiting, including quadrupling the maximum penalty for counterfeiting foreign currency. - [Patriot Act, _Wikipedia_](https://en.wikipedia.org/wiki/Patriot_Act#Title_III:_Anti-money-laundering_to_prevent_terrorism)
  
+## Related Activities
+
+<BokTagList tag="Counter-Terrorism Regulation" filter="Activities" />

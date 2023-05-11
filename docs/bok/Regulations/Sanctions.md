@@ -1,5 +1,5 @@
 ---
-title: Sanctions Law
+title: Sanctions
 tags: 
   - Legal (Role)
   - CIO/CTO (Role)
@@ -33,13 +33,12 @@ The United States regulates the export of non-standard cryptography under the Ex
 
  - [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States) - Wikipedia Article.
 
-## Sanctions Compliance with Open Source Software
-
- - Is open source contribution encompassed in "selling"?  
-- using russian open source software?
-- core-js
-
 **See Also:**
 
  - [Deutsche Bank seeks options as sanctions threaten Russian dev unit](https://www.theregister.com/2022/03/04/deutsche_bank_russia_dev_unit/)
  - [Deutsche Bank Moving Russian IT Staff to New Hub in Germany](https://www.bloomberg.com/news/articles/2022-06-07/deutsche-bank-moving-russian-it-staff-to-new-hub-in-germany)
+ 
+## Related Activities
+
+<BokTagList tag="Sanctions Regulation" filter="Activities" />
+

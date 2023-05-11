@@ -1,5 +1,5 @@
 ---
-title: Communication Laws
+title: Communications
 tags: 
   - Legal (Role)
   - CIO/CTO (Role)
@@ -7,9 +7,9 @@ tags:
   - Legal Risk
 ---
 
-<BoxOut title="Communications Laws" image="/img/bok/regs/communications.png">
+<BoxOut title="Communications" image="/img/bok/regs/communications.png">
 
-Keep in mind these broad principles about communication in regulated firms:
+Regulated industries need to track communications internally and externally.  Keep in mind these broad principles about communication in regulated firms:
 
  - They are required to **maintain complete and accurate records of all communication**, including telephone conversations, emails, and instant messages, with customers and other parties.
  - These records must be **kept for a specified period of time**, typically at least five years, and should be easily accessible and retrievable for regulatory and legal purposes.
@@ -30,3 +30,7 @@ In order to prevent insider dealing and market manipulation, under the [European
 See also: 
 
 - [Data Loss Prevention](../Level-3/DLP).
+
+## Related Activities
+
+<BokTagList tag="Communication Regulation" filter="Activities" />
