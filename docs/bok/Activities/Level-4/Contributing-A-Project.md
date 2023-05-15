@@ -66,5 +66,5 @@ company logo
 - Policy for speaking externally
 - Social Media (inc. github)
 
-
+- what licenses to use (chamindra).
 

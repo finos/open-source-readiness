@@ -24,6 +24,14 @@ The open source contribution policy won't be able to _contradict_ any pre-existi
 
 **Note:** The [Making The Case for Contribution](Making-The-Case) article argues for allowing open source contribution as _controlling the risk profile_ of the organisation.   In this article we are focusing on how **policy** for open source contribution can be made to dovetail with existing banking policies enshrined in law.
 
+### Warning
+
+Creating new policy is likely to take a long time since it involves significant cross-business agreement.
+
+If you are embarking on building a contribution policy, consider the advice in [Creating-An-OSPO](../Level-2/Creating-An-OSPO) around building a "coalition of the willing".   You can go one step beyond this and rotate people from out of the compliance team to work with you on setting up the policy.  People familiar with the existing policies and ways of working will be an advantage to making progress.
+
+
+## By Regulation
 
 <BoxOut title="Accountancy" image="/img/bok/regs/accounting.png" link="../../Regulations/Accounting" linkText="Accounting Regulations">
 
@@ -45,6 +53,9 @@ The open source contribution policy won't be able to _contradict_ any pre-existi
 
 ### Controls
 
+- [Training](Contribution-Training)
+- [Contribution Review](Review)
+
 </BoxOut>
 
 <BoxOut title="Communications" image="/img/bok/regs/communications.png" link="../../Regulations/Communication" linkText="Communication Regulations">
@@ -55,11 +66,19 @@ The open source contribution policy won't be able to _contradict_ any pre-existi
 
 ### Controls
 
- - Banking regulations around electronic communications are mainly aimed at broker-dealer relationships, preventing collusion and enforcing "chinese walls" to prevent conflicts-of-interest.  
- - They normally apply to tools like Zoom, Slack, Symphony, Email etc. and cover retention periods, supervision etc.
- - Clearly, an open source contribution needs to adhere to these rules, even if it is not really the subject of them.
- - At the moment, this is an area of active investigation.  Tools like [GitHub Enterprise](https://github.com/enterprise) may help,  or something like [island.io](https://island.io).
- - Social Media
+#### Blocked Software Tools
+
+Banking regulations around electronic communications are mainly aimed at broker-dealer relationships, preventing collusion and enforcing "chinese walls" to prevent conflicts-of-interest.  
+ 
+They normally apply to tools like Zoom, Slack, Symphony, Email etc. and cover retention periods, supervision etc.
+
+Clearly, an open source contribution needs to adhere to these rules, even if it is not really the subject of them.
+
+- At the moment, this is an area of active investigation.  Tools like [GitHub Enterprise](https://github.com/enterprise) may help,  or something like [island.io](https://island.io). 
+
+#### Social Media
+
+- [Social Media Training](Contribution-Training#social-media) 
 
 </BoxOut>
 
@@ -83,7 +102,9 @@ The open source contribution policy won't be able to _contradict_ any pre-existi
 
 - **Cross Border Data Clearance (CBDC)**:  Only really applies to data. Not source code.   Public source doesn't apply.  Working groups don't apply.  Use of data classified as public.  Not banning data, but asking "is this public?".  
 
-- Screen out (via [DLP](../../Artifacts/DLP-Software)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only. This is another example of why preventing contributions with "test data" in them may be good policy.
+- Screen out (via [Code Review](Review)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only. This is another example of why preventing contributions with "test data" in them may be good policy.
+
+- [Code Review Training](Contribution-Training#code-review) 
 
 </BoxOut>
 
@@ -96,7 +117,7 @@ The open source contribution policy won't be able to _contradict_ any pre-existi
 ### Controls
 
   - All data and documentation within a bank must be given a classification.  E.g. public, confidential, etc.  
-  - Part of the [DLP process](../../Artifacts/DLP-Software) should be to make sure that only _public_ information is allowed to be contributed.
+  - Part of the [Code Review process](Review) should be to make sure that only _public_ information is allowed to be contributed.
 
 </BoxOut>
 
@@ -120,11 +141,13 @@ The open source contribution policy won't be able to _contradict_ any pre-existi
 
 <DocExcerpt src="/Regulations/Sanctions" />
 
-### Controls
-
  - Is open source contribution encompassed in "selling"?  
 - using russian open source software?
 - core-js
+
+### Controls
+
+- **See:** [Training](Contribution-Training)
 
 </BoxOut>
 

@@ -33,6 +33,8 @@ Suggested areas of concentration for training but not limited to:
  - Contribution best practices
  - Contribution models (link to CLA/DCO documentation)
  - Internal process (internal tooling, workflow, teams/people that own processes and guidelines - might not be all owned by the OSPO)
+ 
+ - **See:** [Contribution Training](../Level-3/Contribution-Training) 
 
 ### Participation  
  - Benefits and ways of participating in the open source community

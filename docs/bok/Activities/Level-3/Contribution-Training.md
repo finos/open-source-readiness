@@ -44,13 +44,13 @@ Additionally your policy might make a distinction between _code_ and _data_:
 
 ## Project Categorization
 
-Depending on your [policy](Contribution-Compliance), projects might be categorized in some manner.  It is important that contributors understand the categorization of the projects where this has an impact on their behaviour.  For example:
+Depending on your [policy](Contribution-Compliance), projects might be [categorized](Making-The-Case#project-categorization) in some manner.  It is important that contributors understand the categorization of the projects where this has an impact on their behaviour.  For example:
 
-### Firm-Strategic Projects
+### 1. Firm-Strategic Projects
 
 For projects where the firm has deemed that there is [strategic value](../../Level-5/Leveraging-Strategically) in sponsoring the development of a given project, there might be rules in place around 
  
-### Personal Projects
+### 2. Personal Projects
 
 Many staff in the firm are likely already involved in open source development.  It might be advisable that the policy identifies this fact and the training course:
 
@@ -58,7 +58,7 @@ Many staff in the firm are likely already involved in open source development.  
  - Explains how the firm expects staff to behave on personal projects.
  - Clears up any grey areas around [IP Ownership](../../Artifacts/CLAs-And-DCOs#Two-Types-of-CLA) of personal projects.
 
-### Firm-Interest Projects
+### 3. Firm-Interest Projects
 
 Between the two categories above may lie other categories where the firm is an active consumer of the project, has an interest in sponsoring the development of a project or is the lead maintainer of the project.   
 
@@ -127,12 +127,12 @@ It's worth pointing out that tooling exists to _help_ with code review, although
 ### Tooling
 
 Since it is hard to differentiate between benign test data and company secret data a **blanket ban** on contributing data might be an effective way to go.
+
 Alternatively, consider the use of [DLP Tools](../../Artifacts/DLP-Software).   
 
 </BoxOut>
 
-
-<BoxOut title="Sanctions Compliance" image="/img/bok/risks/legal-risk.png" link="../../Laws/Sanctions" linkText="Sanctions Details">
+<BoxOut title="Sanctions Compliance" image="/img/bok/regs/sanctions.png" link="../../Regulations/Sanctions" linkText="Sanctions Details">
 
 ### Non-Standard Cryptography
 
@@ -146,7 +146,7 @@ As [Contribution Compliance](Contribution-Compliance) describes, open source dev
 
 This has a large impact on the shape of the resulting policy and therefore also likely the behaviours of the staff adhering to that policy.
 
-**Therefore**: Staff training needs to reflect the firm's open source policy, especially around things like Social Media, Speaking at Public Events or Conflicts of Interest.
+**Therefore**: Staff training needs to reflect the firm's open source policy, especially around things like **Social Media, Speaking at Public Events or Conflicts of Interest**.
 
 **See Also**: [Contribution Compliance](Contribution-Compliance) for more information on the related policies.
 
@@ -158,11 +158,25 @@ In the event of an issue with an open source engagement (e.g.  an accidental dat
  - Make a record of what has happened
  - Discuss with OSPO / Project Administrators or other Risk Controllers. 
  
+## Etiquette / Ethics
 
- 
+Some training courses around how to behave correctly in an open source project:
+
+<BokTagList tag="Ethics-Training" filter="Training" />
+
+## Social Media 
+
+tbd: discussion around what this entails.  currently missing in LF training and firms don't have a clear view. should it be about whether there is bank business being discussed?  How does it affect things that people are on social media _anyway_?
+
+- what about tracking social media interaction?  (via bots/tools)
+
+### Talking About Firm Open Source Projects on Social Media
 
 
+- Whitelist of folks
+- senior staff.
+- on demand for when a conference comes up, they do social media training?
 
- 
+## Talking at Conferences
 
-
+tbd.

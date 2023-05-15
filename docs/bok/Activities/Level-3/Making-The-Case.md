@@ -62,15 +62,28 @@ Open source contribution is something that firms can adopt in a piecemeal, pilot
  
  - Can you look at the impact of a [vulnerability](../../Risks/Dependency-Risk): in what systems would this be a low-risk problem?
  
- - From a [reputational risk](../../Risks/Reputational-Risk)perspective, does [pushing code to foundations](../Level-4/Foundations) make more sense?
+ - From a [reputational risk](../../Risks/Reputational-Risk) perspective, does [pushing code to foundations](../Level-4/Foundations) make more sense?
  
  - Can you consider projects which have a low-level of firm-specific IP?
  
  - Can you make sure the projects being considered are widely separated from core firm business?
  
  - Can you pick parts of the business with [low compliance overhead](Contribution-Compliance)?
+ 
+ - Can you create a [minimum viable policy](../../Artifacts/Policy) to get started?   Setting a policy for the _whole firm_ is probably harder than a single business unit.
+ 
+## Project Categorization
 
-  
+With the above in mind, you can consider the universe of _all software projects_ to break down into some key categories:
+
+|Firm posture               | Internal         | Managed by Firm (e.g. own GitHub Org)                | Managed in Public                         |
+|---------------------------|------------------|------------------------------------------------------|-------------------------------------------|
+| Critical / Differentiator | In-House         | **Self Moderated** OSS Project                       | **Major Interest**: Get involved; sponsor |
+| Commodity                 | Consider for OSS | **Self Moderated** - Consider donating to Foundation | **Minor Interest**: Fix Bugs                        |
+| No Involvement            | n/a              | n/a                                                  | **Staff Personal Projects**                     |
+
+By allowing open source as _one particular sourcing option_ you are able to strategically think about _which software projects it makes sense to own_.  In a way, this is very similar to the "Do what you do best and outsource the rest" business advice of [Peter Drucker](https://en.wikipedia.org/wiki/Outsourcing) from the 1990's.
+
 ## Improved Risk Position
 
 This section outlines the main ways in which contributing to open source helps mitigate existing risks within the organisation.
@@ -181,7 +194,9 @@ Contributing to open source can _improve_ or _worsen_ the reputation of an organ
 
 ## Worsened Risk Position
 
-This section addresses the _actual_ and _perceived_ risks of contributing to open source.
+This section addresses the _actual_ and _perceived_ risks of contributing to open source.  
+
+**Note:** Where the risks to the business are greater than before, you will need to introduce **controls** and **monitoring** to satisfy risk owners.
 
 <BoxOut title="Data Leakage Risk" image="/img/bok/risks/data-leakage-risk.png"  link="../../Risks/Data-Leakage-Risk" linkText="Data Leakage Risk Details">
 
@@ -199,6 +214,8 @@ Historically, use of social media / sharing sites has been prohibited by many fi
  - A [governance process](Contribution-Compliance) needs to be in place for supervising contributions and observing what leaves the organisation.
  - Tools like [GitHub Enterprise](https://github.com/enterprise) also aim to help with Data Leakage Prevention.
  - _Evidence_ may need to be provided that data hasn't been leaked (according to regulations).
+ 
+**See:**  [Main Data Leakage Prevention Article](DLP).
 
 </BoxOut>
 

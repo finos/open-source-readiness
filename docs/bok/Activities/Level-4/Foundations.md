@@ -14,7 +14,7 @@ sidebar_label: Foundations
 
 - List of main foundations (links)
 
-
+- Foundations as a way to help manage reputational risk.
 
 
 

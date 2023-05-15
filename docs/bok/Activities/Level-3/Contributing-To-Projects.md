@@ -30,3 +30,8 @@ Some details on how to contribute to external open source projects.
 
 - RAising Issues, Bug Reports, Tech Stack Basics (GitHub, Markdown etc), 
 - Non-code contributions
+
+
+- Some companies open source something THEN worry about the compliance process (actually, that's the normal way).  Others do it the other way round.
+- Talk about "tester projects".
+- Sometimes, compliance has to bend to the way the business works (but not the law!)
