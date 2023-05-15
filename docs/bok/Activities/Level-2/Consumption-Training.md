@@ -21,6 +21,7 @@ Suggested areas of concentration for training but not limited to:
   
 ### Open Source 101
  - What is open source?
+ - What is the difference between [open source and proprietary code](../../Artifacts/Licenses)?
  - Different ways to participate in open source
  - Benefits to participating and contributing to the open source community (employee, firm, and open source community)
 

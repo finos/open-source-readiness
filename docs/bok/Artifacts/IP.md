@@ -1,5 +1,5 @@
 ---
-title: Open Source and Trademarks
+title: Intellectual Property
 tags: 
   - Introduction
   - Developer (Role)
@@ -7,4 +7,8 @@ tags:
 draft: true
 ---
 
-tbd
+### Trademarks
+
+### Copyright
+
+### Patents

@@ -28,7 +28,7 @@ Your [Contribution Compliance Policy](Contribution-Compliance) will explain exac
 
 **Tip**: Include a link to the [Contribution Policy](../../Artifacts/Policy) for trainees to refer to.
 
-See: [Making the Case for Contribution](Making-The-Case).
+**See:** [Making the Case for Contribution](Making-The-Case).
 
 ## Types of Contribution
 
@@ -108,16 +108,6 @@ It's worth pointing out that tooling exists to _help_ with code review, although
 
 <BoxOut title="Data Leakage Risk" image="/img/bok/risks/data-leakage-risk.png" link="../../Risks/Data-Leakage-Risk" linkText="Data Leakage Risk Details">
 
-### Intellectual Property
-
- - Does the code contain [Intellectual Property] from the firm in question?  
-
- - Are the _algorithms_ being published _non-specific to the firm's business_?
- 
- - Does the code contain _passwords_, _machine / network names_, _private keys_ or any other business-specific data?
- 
-**Tip**: Many open source policies forbid publication of any type  
-
 ### Personal Information
 
  - Would the pull request leak any _personal or client data_, or _identiying information_? 
@@ -140,15 +130,38 @@ Alternatively, consider the use of [DLP Tools](../../Artifacts/DLP-Software).
 
 </BoxOut>
 
+<BoxOut title="Intellectual Property" image="/img/bok/regs/ip.png" link="../../Regulations/Sanctions" linkText="Sanctions Details">
+
+### IP Leakage 
+
+ - Does the code contain [Intellectual Property](../../Artifacts/IP) from the firm in question?  
+
+ - Are the _algorithms_ being published _non-specific to the firm's business_?
+ 
+ - Does the code contain _passwords_, _machine / network names_, _private keys_ or any other business-specific data?
+ 
+**Tip**: Many open source policies forbid publication of any type of _data_. 
+
+</BoxOut>
+
+
 ## Policy Intersection
 
 As [Contribution Compliance](Contribution-Compliance) describes, open source development must work within the jurisdictional legal framework and therefore the policies the firm has put in place to control for this.   
 
 This has a large impact on the shape of the resulting policy and therefore also likely the behaviours of the staff adhering to that policy.
 
-**Therefore**: Staff training needs to reflect the firm's open source policy, especially around things like **Social Media, Speaking at Public Events or Conflicts of Interest**.
-
 **See Also**: [Contribution Compliance](Contribution-Compliance) for more information on the related policies.
+
+<BoxOut title="Operational Risk" image="/img/bok/risks/operational-risk.png"  link="../../Risks/Operational-Risk" linkText="Operational Risk Details">
+
+## Conflict of Interest
+
+ - Certain types of open source contribution might represent a conflict of interest. 
+ 
+  tbd, traing requirement around this.  
+
+</BoxOut>
 
 ## Remediation
 
@@ -178,5 +191,9 @@ tbd: discussion around what this entails.  currently missing in LF training and 
 - on demand for when a conference comes up, they do social media training?
 
 ## Talking at Conferences
+
+tbd.
+
+## Gifts / Entertainment / Swag
 
 tbd.
