@@ -6,23 +6,24 @@ tags:
   - OSPO (Role)
   - Data Leakage Risk
   - Reputational Risk
+  - Operational Risk
 sidebar_position: 4
 sidebar_label: Training
 ---
 
 It is generally preferable if an [Open Source Contribution Policy](Contribution-Compliance) can be enforced via tooling (so called _policy as code_).  However, often policy will refer to behaviours and expectations of staff which cannot be controlled through systems.  In these cases, training courses will be needed to help promote desired behaviours.
 
-This article focuses on the training required at [Level 3 Maturity](../../OSMM/Level-3) and makes the assumption that the training for the previous levels [has been taken care of already](../Level-2/Consumption-Training).  i.e. your training course may want to lay the ground work and explain some of the general details of open source, or alternatively you might fall back on the [Linux Foundation Training Courses](../../training/Introduction) or other internal training courses around the safe, compliant consumption of open source.
+This article focuses on the training required at [Level 3 Maturity](../../OSMM/Level-3) and makes the assumption that the training for the previous levels [has been taken care of already](../Level-2/Consumption-Training).  So your training course may want to lay the ground work and explain some of the general details of open source, or alternatively you might fall back on the [Linux Foundation Training Courses](../../training/Introduction) or other internal training courses around the safe, compliant consumption of open source.
 
 This article covers the main requirements of _contribution_ training:
 
 1. **Understanding how the firm handles open source activity**.  The reasons for allowing contribution, types of contribution, how projects are categorised and the different roles staff play in the contribution process.
 
-2. **Process Controls around Publication**. How the process of publishing open source code works and what is expected from staff in the review procedure.
+2. **Process Controls around Publication**. How the process of publishing open source code works and what is expected from staff in the review process.
 
 3. **Contribution Policy**.  As well as understanding their part in the process, employees are likely to need a thorough understanding of the [Contribution Policy](Contribution-Compliance) and how it intersects with other banking policies that they receive training on, such as conflicts of interest and what to do in the event of a breach of some kind.  They will need to be aware of the [Key Risks](Making-The-Case) involved in open source contribution.
 
-4. **Community Involvement**.  It is necessary to make sure staff understand that they _represent their firm_ in open source activities and should behave appropriately.  They should be trained on how to follow the correct controls around social media, participating at events and whether or not to accept community gifts (e.g. "swag", food etc.) at those events.
+4. **Community Involvement**.  It is necessary to make sure staff understand that they _represent their firm_ in open source activities and should behave appropriately.  They should be trained on how to follow the correct controls around social media, participating at events and whether or not to accept community gifts (e.g. "swag", entertainment etc.) at those events.
 
 ## 1. Firm Categorization of Open Source Activity
 
