@@ -154,6 +154,8 @@ This has a large impact on the shape of the resulting policy and therefore also 
  - Certain types of open source contribution might represent a conflict of interest. 
  
   tbd, traing requirement around this.  
+  
+ - Contributing to open source _in personal time_ might also need to be declared as an Outside Business Interest (OBI).
 
 </BoxOut>
 
