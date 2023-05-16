@@ -75,6 +75,51 @@ Jim St. Clair is a former Executive Director in the Linux Foundation and an expe
 
 ## Contributing Authors
 
+<Bio name="Andrew Aitken" organisation="Wipro" image="/img/people/no-headshot.png">
+TBC.  
+</Bio>
+
+<Bio name="Padmalav Sahoo" organisation="Wipro" image="/img/people/no-headshot.png">
+An open source advocate and enthusiast. His major focus areas include Open Source Maturity Model and strategic engagements using open source. Worked extensively in the areas of enterprise application development and digital transformation projects.
+</Bio>
+
+<Bio name="Vicki Chung" organisation="Goldman Sachs" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Kay Xiong Pachay" organisation="Goldman Sachs" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Zack Koppert" organisation="Github" image="/img/people/no-headshot.png">
+Zack is a Senior Software Engineer at GitHub on the OSPO team, with a focus on Open Source and InnerSource software development. He has a passion for collaborative coding and solving complex technical problems with teams. Zack is also an active member of the Innersource Commons community, where he shares his knowledge and experiences with other like-minded developers.
+</Bio>
+
+<Bio name="Phil Holleran" organisation="Github" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Sally Ellard" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Mark Hoare" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Pooi Cheong" organisation="Lloyds Bank" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Aronya Roy" organisation="Lloyds Bank" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="William Rothwell" organisation="UBS" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+
 
 <Bio name="Vicky Brasseur" image="/img/people/vicky-brasseur.jpeg" organisation="Wipro">
 Vicky is a previous chair of the OSR SIG and has authored many articles on this site.   She is the author of <a href="https://fossforge.com">Forge Your Future with Open Source</a>.
