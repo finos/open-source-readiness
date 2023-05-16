@@ -10,19 +10,24 @@ sidebar_position: 4
 sidebar_label: Training
 ---
 
-It is generally preferable if an [Open Source Contribution Policy](Contribution-Compliance) can be enforced via tooling (so called _policy as code_).  However, often policy will refer to behaviours and expectations of staff which cannot be controlled through systems.  In these cases, training courses will be needed to help promote desired behaviours.  
+It is generally preferable if an [Open Source Contribution Policy](Contribution-Compliance) can be enforced via tooling (so called _policy as code_).  However, often policy will refer to behaviours and expectations of staff which cannot be controlled through systems.  In these cases, training courses will be needed to help promote desired behaviours.
 
-Here, we provide an outline syllabus of a training course that covers the major areas of compliance, in a risk-by-risk way.
+This article focuses on the training required at [Level 3 Maturity](../../OSMM/Level-3) and makes the assumption that the training for the previous levels [has been taken care of already](../Level-2/Consumption-Training).  i.e. your training course may want to lay the ground work and explain some of the general details of open source, or alternatively you might fall back on the [Linux Foundation Training Courses](../../training/Introduction) or other internal training courses around the safe, compliant consumption of open source.
 
-## General Information About Open Source
+This article covers the main requirements of _contribution_ training:
 
-This article focuses on the training required at [Level 3 Maturity](../../OSMM/Level-3) and makes the assumption that the training for the previous levels has been taken care of already.
+1. **Understanding how the firm handles open source activity**.  The reasons for allowing contribution, types of contribution, how projects are categorised and the different roles staff play in the contribution process.
 
-**See Also**: [Consumption Training](../Level-2/Consumption-Training)
+2. **Process Controls around Publication**. How the process of publishing open source code works and what is expected from staff in the review procedure.
 
-Your training course may want to lay the ground work and explain some of the general details of open source, or alternatively you might fall back on the [Linux Foundation Training Courses](../../training/Introduction) or other internal training courses around the safe, compliant consumption of open source.
+3. **Contribution Policy**.  As well as understanding their part in the process, employees are likely to need a thorough understanding of the [Contribution Policy](Contribution-Compliance) and how it intersects with other banking policies that they receive training on, such as conflicts of interest and what to do in the event of a breach of some kind.  They will need to be aware of the [Key Risks](Making-The-Case) involved in open source contribution.
 
-## Reasons To Allow Contribution
+4. **Community Involvement**.  It is necessary to make sure staff understand that they _represent their firm_ in open source activities and should behave appropriately.  They should be trained on how to follow the correct controls around social media, participating at events and whether or not to accept community gifts (e.g. "swag", food etc.) at those events.
+
+## 1. Firm Categorization of Open Source Activity
+
+
+### Reasons To Allow Contribution
 
 Your [Contribution Compliance Policy](Contribution-Compliance) will explain exactly why the firm is engaging in open source.  This should form part of the training course, making it clear to employees.  This is important since they will need to use their judgement to understand _when_ it is appropriate to make code or other materials public.
 
@@ -30,7 +35,7 @@ Your [Contribution Compliance Policy](Contribution-Compliance) will explain exac
 
 **See:** [Making the Case for Contribution](Making-The-Case).
 
-## Types of Contribution
+### Types of Contribution
 
 It might be helpful to explain exactly what _contribution_ means in an open source context,  if these different types of contribution are handled differently in the policy:
 
@@ -42,45 +47,24 @@ Additionally your policy might make a distinction between _code_ and _data_:
 - **Code**: e.g. source code, algorithms, web pages etc. written in a programming language.  
 - **Data**: e.g. training data, test data (used in test cases), client data, personal data, secrets etc.
 
-## Project Categorization
+### Project Categorization
 
-Depending on your [policy](Contribution-Compliance), projects might be [categorized](Making-The-Case#project-categorization) in some manner.  It is important that contributors understand the categorization of the projects where this has an impact on their behaviour.  For example:
+Depending on your [policy](Contribution-Compliance), projects might be [categorized](Making-The-Case#project-categorization) in some manner.  It is important that contributors understand the categorization of the projects where this has an impact on their behaviour.  
 
-### 1. Firm-Strategic Projects
+In the [Making The Case](Making-The-Case#project-categorization) article, projects were categorized as **Firm-Moderated Projects**, **Firm Major/Minor Interest Projects** or **Staff Personal Projects**.  It might be advisable that the training course explains this and:
 
-For projects where the firm has deemed that there is [strategic value](../Level-5/Leveraging-Strategically) in sponsoring the development of a given project, there might be rules in place around 
- 
-### 2. Personal Projects
+   - Clarifies the firm's rules around categorizing projects as personal.
+   - Explains how the firm expects staff to behave on personal projects.
+   - Clear up any grey areas around [IP Ownership](../../Artifacts/CLAs-And-DCOs#Two-Types-of-CLA) of personal projects.
 
-Many staff in the firm are likely already involved in open source development.  It might be advisable that the policy identifies this fact and the training course:
 
- - Clarifies the firm's rules around categorizing projects as personal.
- - Explains how the firm expects staff to behave on personal projects.
- - Clears up any grey areas around [IP Ownership](../../Artifacts/CLAs-And-DCOs#Two-Types-of-CLA) of personal projects.
+### Organisational Roles
 
-### 3. Firm-Interest Projects
+Your [Contribution Compliance Policy](Contribution-Compliance#organisational-roles) likely defines the key roles and responsibilities of staff with respect to open source contribution and these will need to be explained in the accompanying training course.
 
-Between the two categories above may lie other categories where the firm is an active consumer of the project, has an interest in sponsoring the development of a project or is the lead maintainer of the project.   
+## 2. Process Controls Around Publication
 
-## Organisational Roles
-
-Your [Contribution Compliance Policy](Contribution-Compliance) will outline the organisational structure set up to risk-manage open source contribution.  [Developers](../../Roles/Developer) or other staff engaged in open source will need to understand and operate within this structure, so it's important to train them on it.  Roles they might need to be aware of include:
-
-- **Open Source Program Office**: See [OSPO](../../Roles/OSPO) and [Creating-An-OSPO](../Level-2/Creating-An-OSPO).
-
-- **Foundation Points-of-Contact (POC)**:  staff within the organisation responsible for handling [Foundation Membership](../Level-4/Foundations).  This might be important for project creation or administration, [CLA administration](../../Artifacts/CLAs-And-DCOs) or attending events.
-
-- **Open Source Project Administrators**: where the organisation is [Contributing its own Projects](../Level-4/Contributing-A-Project) or otherwise acting in a leadership role on a project, there will be someone in the firm in this role.   
-
-- **Open Source Project Sponsors**:  in the majority of cases, the firm will have a business need to engage in an open source project.  Therefore, contributions of time or money will need to be _sponsored_ by some part of the business.  It's important that contributors are aware of who is sponsoring their contribution.
-
-- **Contributors**: people _contributing_ code, documentation to open source projects. 
-
-- **Reviewers**: are people who check the contributions to make sure they meet quality requirements and don't expose the firm to unnecessary risks (see below). 
-
-- **Maintainers**: these are **contributors** on open source projects who have an elevated level of control and can gate-keep which contributions are accepted.
-
-## Publication Review
+### Publication Review
 
 **See:** Main article on [Publication Process](Publication).
 
@@ -116,7 +100,7 @@ It's worth pointing out that tooling exists to _help_ with code review, although
  
  - Does the pull request contain _data_, and is therefore not allowed?
 
-### Tooling
+### Controls Around PI Leakage
 
 Since it is hard to differentiate between benign test data and company secret data a **blanket ban** on contributing data might be an effective way to go.
 
@@ -134,7 +118,7 @@ Alternatively, consider the use of [DLP Tools](../../Artifacts/DLP-Software).
 
 <BoxOut title="Intellectual Property" image="/img/bok/regs/ip.png" link="../../Regulations/Sanctions" linkText="Sanctions Details">
 
-### IP Leakage 
+### Intellectual Property
 
  - Does the code contain [Intellectual Property](../../Artifacts/IP) from the firm in question?  
 
@@ -144,22 +128,27 @@ Alternatively, consider the use of [DLP Tools](../../Artifacts/DLP-Software).
  
  - If data is being published, is it classified as **public**?
 
+### Controls Around IP Leakage
+
 **Tip**: Many open source policies forbid publication of any type of _data_ (separating it from code).  This obviates the data classification question.  
 
 </BoxOut>
 
 
-## Policy Intersection
+## 3. Contribution Policy Intersection
 
 As [Contribution Compliance](Contribution-Compliance) describes, open source development must work within the jurisdictional legal framework and therefore the policies the firm has put in place to control for this.   
 
 This has a large impact on the shape of the resulting policy and therefore also likely the behaviours of the staff adhering to that policy.
 
-**See Also**: [Contribution Compliance](Contribution-Compliance) for more information on the related policies.
+**See Also**: 
+
+ - [Contribution Compliance](Contribution-Compliance) for more information on the related regulation.
+ - [Making the Case](Making-The-Case) for a discussion of the key risks related to open source contribution.
 
 <BoxOut title="Operational Risk" image="/img/bok/risks/operational-risk.png"  link="../../Risks/Operational-Risk" linkText="Operational Risk Details">
 
-## Conflict of Interest
+### Conflict of Interest
 
  - Certain types of open source contribution might represent a conflict of interest. 
  
@@ -167,7 +156,7 @@ This has a large impact on the shape of the resulting policy and therefore also 
 
 </BoxOut>
 
-## Remediation
+### Remediation
 
 In the event of an issue with an open source engagement (e.g.  an accidental data leak) what is the process?
 
@@ -175,13 +164,21 @@ In the event of an issue with an open source engagement (e.g.  an accidental dat
  - Make a record of what has happened
  - Discuss with OSPO / Project Administrators or other Risk Controllers. 
  
-## Etiquette / Ethics
+## 4. Community Involvement
+
+### Etiquette / Ethics
+
+<BoxOut title="Reputational Risk" image="/img/bok/risks/reputational-risk.png"  link="../../Risks/Reputational-Risk" linkText="Reputational Risk Details">
+
+As described in [Making The Case](Making-The-Case#Reputation), contributing to open source can _improve_ or _worsen_ the reputation of an organisation depending on the quality of its contributions and the attitude it takes towards the open source community.  
+
+</BoxOut>
 
 Some training courses around how to behave correctly in an open source project:
 
 <BokTagList tag="Ethics-Training" filter="Training" />
 
-## Social Media 
+### Approval for Social Media 
 
 tbd: discussion around what this entails.  currently missing in LF training and firms don't have a clear view. should it be about whether there is bank business being discussed?  How does it affect things that people are on social media _anyway_?
 
@@ -194,10 +191,12 @@ tbd: discussion around what this entails.  currently missing in LF training and 
 - senior staff.
 - on demand for when a conference comes up, they do social media training?
 
-## Talking at Conferences
 
-tbd.
+### Talking at Conferences
 
-## Gifts / Entertainment / Swag
+Describe procedures for approvals on this.
 
-tbd.
+### Gifts / Entertainment / Swag
+
+Describe company policy on this.
+

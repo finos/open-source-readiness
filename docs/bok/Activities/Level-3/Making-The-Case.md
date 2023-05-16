@@ -78,11 +78,17 @@ With the above in mind, you can consider the universe of _all software projects_
 
 |Firm posture               | Internal         | Managed by Firm (e.g. own GitHub Org)                | Managed in Public                         |
 |---------------------------|------------------|------------------------------------------------------|-------------------------------------------|
-| Critical / Differentiator | In-House         | **Self Moderated** OSS Project                       | **Major Interest**: Get involved; sponsor |
-| Commodity                 | Consider for OSS | **Self Moderated** - Consider donating to Foundation | **Minor Interest**: Fix Bugs                        |
+| Critical / Differentiator | In-House         | **Firm Moderated** OSS Project                       | **Major Interest**: Get involved; sponsor |
+| Commodity                 | Consider for OSS | **Firm Moderated** - Consider donating to Foundation | **Minor Interest**: Fix Bugs                        |
 | No Involvement            | n/a              | n/a                                                  | **Staff Personal Projects**                     |
 
-By allowing open source as _one particular sourcing option_ you are able to strategically think about _which software projects it makes sense to own_.  In a way, this is very similar to the "Do what you do best and outsource the rest" business advice of [Peter Drucker](https://en.wikipedia.org/wiki/Outsourcing) from the 1990's.
+By allowing open source as _one particular sourcing option_ you are able to strategically think about _which software projects it makes sense to own_.  In a way, this is very similar to the "Do what you do best and outsource the rest" business advice of [Peter Drucker](https://en.wikipedia.org/wiki/Outsourcing) from the 1990's:
+
+1. **Firm-Moderated Projects**: For projects where the firm has deemed that there is [strategic value](../Level-5/Leveraging-Strategically) in sponsoring the development of a given project. 
+ 
+2. **Firm Major/Minor Interest Projects:** Between the two categories above may lie other categories where the firm is an active consumer of the project, has an interest in sponsoring the development of a project or is the lead maintainer of the project, but otherwise sees the project as _commodity_ in nature.  
+
+3. **Staff Personal Projects:** Projects where the firm has no interest at all.  Many staff in the firm are likely already involved in open source development.  
 
 ## Improved Risk Position
 
