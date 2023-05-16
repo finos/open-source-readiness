@@ -55,7 +55,7 @@ Peter Smulovics is an Executive Director of Enterprise Application Infrastructur
 
 In 2023, FINOS aims to productize Open Source Readiness with new trainings and certification.  The following are the FINOS board executive sponsors of this strategy:
 
-<Bio name="Rhyddian Olds" organisation="Citi" image="/img/people/no-headshot.png">
+<Bio name="Rhyddian Olds" organisation="Citi" image="/img/people/Rhyddian-Photo-Circle.webp">
 Insert bio here
 </Bio>
 
@@ -75,11 +75,11 @@ Jim St. Clair is a former Executive Director in the Linux Foundation and an expe
 
 ## Contributing Authors
 
-<Bio name="Andrew Aitken" organisation="Wipro" image="/img/people/no-headshot.png">
+<Bio name="Andrew Aitken" organisation="Wipro" image="/img/people/Andrew-Aitken-Wipro.webp">
 Andrew Aitken is the GM and Global Open Source Practice Leader for Wipro Ltd., a premier global systems integrator, and a leading open source strategy consultant. In his 22 years of experience he launched the industry’s first open source strategy consulting firm, Olliance Group (acquired by Black Duck Software), launched the Open Source Think Tank held in Napa, CA and Paris, France - a highly regarded event regularly attended by over 100 top open source thought leaders for over 10 years. Andrew has advised organizations such as the White House Office of CIO, Microsoft and IBM, more than 20 startups and VC firms, and dozens of other enterprises on their open source strategies.
 </Bio>
 
-<Bio name="Padmalav Sahoo" organisation="Wipro" image="/img/people/no-headshot.png">
+<Bio name="Padmalav Sahoo" organisation="Wipro" image="/img/people/padmalav.jpg">
 An open source advocate and enthusiast. His major focus areas include Open Source Maturity Model and strategic engagements using open source. Worked extensively in the areas of enterprise application development and digital transformation projects.
 </Bio>
 
@@ -95,7 +95,7 @@ TBC
 Zack is a Senior Software Engineer at GitHub on the OSPO team, with a focus on Open Source and InnerSource software development. He has a passion for collaborative coding and solving complex technical problems with teams. Zack is also an active member of the Innersource Commons community, where he shares his knowledge and experiences with other like-minded developers.
 </Bio>
 
-<Bio name="Phil Holleran" organisation="Github" image="/img/people/no-headshot.png">
+<Bio name="Phil Holleran" organisation="Github" image="/img/people/phili-pholleran.png">
 Based in Minnesota, Phil serves as the Americas Field CTO for GitHub and is passionate about helping organizations improve their software velocity and adopt open source software and practices.
 When he's not working to help development teams he can usually be found in the kitchen, playing board games with his kids, or spending time skiing and biking small midwestern hills
 </Bio>
