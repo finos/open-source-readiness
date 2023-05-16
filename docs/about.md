@@ -76,7 +76,7 @@ Jim St. Clair is a former Executive Director in the Linux Foundation and an expe
 ## Contributing Authors
 
 <Bio name="Andrew Aitken" organisation="Wipro" image="/img/people/no-headshot.png">
-TBC.  
+Andrew Aitken is the GM and Global Open Source Practice Leader for Wipro Ltd., a premier global systems integrator, and a leading open source strategy consultant. In his 22 years of experience he launched the industry’s first open source strategy consulting firm, Olliance Group (acquired by Black Duck Software), launched the Open Source Think Tank held in Napa, CA and Paris, France - a highly regarded event regularly attended by over 100 top open source thought leaders for over 10 years. Andrew has advised organizations such as the White House Office of CIO, Microsoft and IBM, more than 20 startups and VC firms, and dozens of other enterprises on their open source strategies.
 </Bio>
 
 <Bio name="Padmalav Sahoo" organisation="Wipro" image="/img/people/no-headshot.png">
@@ -96,7 +96,8 @@ Zack is a Senior Software Engineer at GitHub on the OSPO team, with a focus on O
 </Bio>
 
 <Bio name="Phil Holleran" organisation="Github" image="/img/people/no-headshot.png">
-TBC  
+Based in Minnesota, Phil serves as the Americas Field CTO for GitHub and is passionate about helping organizations improve their software velocity and adopt open source software and practices.
+When he's not working to help development teams he can usually be found in the kitchen, playing board games with his kids, or spending time skiing and biking small midwestern hills
 </Bio>
 
 <Bio name="Sally Ellard" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
