@@ -95,7 +95,7 @@ TBC
 Zack is a Senior Software Engineer at GitHub on the OSPO team, with a focus on Open Source and InnerSource software development. He has a passion for collaborative coding and solving complex technical problems with teams. Zack is also an active member of the Innersource Commons community, where he shares his knowledge and experiences with other like-minded developers.
 </Bio>
 
-<Bio name="Phil Holleran" organisation="Github" image="/img/people/philip-holleran.png">
+<Bio name="Phil Holleran" organisation="Github" image="/img/people/philip-holleran.webp">
 Based in Minnesota, Phil serves as the Americas Field CTO for GitHub and is passionate about helping organizations improve their software velocity and adopt open source software and practices.
 When he's not working to help development teams he can usually be found in the kitchen, playing board games with his kids, or spending time skiing and biking small midwestern hills
 </Bio>
