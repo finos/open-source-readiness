@@ -134,6 +134,7 @@ Clearly, an open source contribution needs to adhere to these rules, even if it 
 ##### Social Media
 
 - [Social Media Training](Contribution-Training#social-media) 
+- Tools such as [Proof Point](https://www.proofpoint.com/uk/solutions/social-media-protection-and-compliance) allow monitoring, hack prevention, [DLP](../../Artifacts/DLP-Software) for social media.  
 
 </BoxOut>
 
