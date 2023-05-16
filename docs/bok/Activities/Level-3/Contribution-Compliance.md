@@ -54,7 +54,7 @@ If you are embarking on building a contribution policy, consider the advice in [
 ### Controls
 
 - [Training](Contribution-Training)
-- [Contribution Review](Review)
+- [Publication Process](Publication)
 
 </BoxOut>
 
@@ -102,9 +102,9 @@ Clearly, an open source contribution needs to adhere to these rules, even if it 
 
 - **Cross Border Data Clearance (CBDC)**:  Only really applies to data. Not source code.   Public source doesn't apply.  Working groups don't apply.  Use of data classified as public.  Not banning data, but asking "is this public?".  
 
-- Screen out (via [Code Review](Review)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only. This is another example of why preventing contributions with "test data" in them may be good policy.
+- Screen out (via [Code Review](Publication)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only. This is another example of why preventing contributions with "test data" in them may be good policy.
 
-- [Code Review Training](Contribution-Training#code-review) 
+- [Publication Code Review Training](Contribution-Training#publication-review) 
 
 </BoxOut>
 
@@ -117,7 +117,7 @@ Clearly, an open source contribution needs to adhere to these rules, even if it 
 ### Controls
 
   - All data and documentation within a bank must be given a classification.  E.g. public, confidential, etc.  
-  - Part of the [Code Review process](Review) should be to make sure that only _public_ information is allowed to be contributed.
+  - Part of the [Publication process](Publication) should be to make sure that only _public_ information is allowed to be contributed.
 
 </BoxOut>
 
@@ -129,7 +129,8 @@ Clearly, an open source contribution needs to adhere to these rules, even if it 
 
 ### Controls
 
-- **See:** [DLP Activity](DLP).
+- **See:** [Publication Activity](Publication).
+- **See:** [Training](Contribution-Training)
 
 </BoxOut>
 

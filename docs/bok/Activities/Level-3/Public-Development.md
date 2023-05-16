@@ -4,10 +4,12 @@ tags:
   - Developer (Role)
   - Level 3 (OSMM)
   - Placeholder
-draft: true
 sidebar_position: 1
 sidebar_label: Public Development
 ---
+
+**THIS IS A PLACEHOLDER**
+
 
 something about using GitHub or GitLab.
 

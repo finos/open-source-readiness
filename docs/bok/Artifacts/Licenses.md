@@ -91,8 +91,8 @@ Sometimes, the license is not provided on a piece of software, or, a license is 
 
 [GenesisIT](https://www.genesisit.co.uk/blog/the-risks-of-using-unlicensed-software/) summarises the following risks around this:
 
-- [Legal Risk](../../Risks/Legal-Risk) - since the author of the software could litigate if they discover the infringement of their copyright.
-- [Operational Risk](../../Risks/Operational-Risks) - if the software doesn't work or introduces security issues.
+- [Legal Risk](../Risks/Legal-Risk) - since the author of the software could litigate if they discover the infringement of their copyright.
+- [Operational Risk](../Risks/Operational-Risk) - if the software doesn't work or introduces security issues.
 
 ## Identifying The License
 

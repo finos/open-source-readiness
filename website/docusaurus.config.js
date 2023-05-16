@@ -61,10 +61,6 @@ module.exports={
               "to": "docs/osr-resources"
             },
             {
-              "label": "OSR Common Problems",
-              "to": "docs/playbook/common-problems"
-            },
-            {
               "label": "Body of Knowledge",
               "to": "docs/bok/Body-of-Knowledge"
             },

@@ -10,9 +10,13 @@ tags:
 
 <BoxOut title="Personal Information" image="/img/bok/regs/pi.png">
 
-Leakage of personal information has a knock-on to [Reputational Risk](Reputational-Risk) and [Legal Risk](Legal-Risk), as explored in the section below.  As noted in the BOK activities [addressing supply chain security](Supply-Chain-Security), incorporating secure development into the Software Development Lifecycle is therefore also a compliance issue. 
+Leakage of personal information has a knock-on to [Reputational Risk](../Risks/Reputational-Risk) and [Legal Risk](../Risks/Legal-Risk), as explored in the section below.  As noted in the BOK activities [addressing supply chain security](../Activities/Level-2/Supply-Chain-Security), incorporating secure development into the Software Development Lifecycle is therefore also a compliance issue. 
 
-Tools like [Google Docs](https://docs.google.com), [Twitter](https://twitter.com), [StackOverflow](https://stackoverflow.org) and [GitHub](https://github.com) may be rendered inaccessible from within a financial organisation to comply with Data Protection and Security policies, since each presents a venue where client data might be deliberately or accidentally exfiltrated.  (See main article on [DLP](../../Artifacts/DLP-Software) for further details.)
+Tools like [Google Docs](https://docs.google.com), [Twitter](https://twitter.com), [StackOverflow](https://stackoverflow.org) and [GitHub](https://github.com) may be rendered inaccessible from within a financial organisation to comply with Data Protection and Security policies, since each presents a venue where client data might be deliberately or accidentally exfiltrated.  
+
+**See:** 
+  - Main article on [Publication Activity](../Activities/Level-3/Publication) 
+  - [DLP Software](../artifacts/DLP-Software)
 
 </BoxOut>
 

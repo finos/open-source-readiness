@@ -59,7 +59,7 @@ The aim of the firewall is to filter packets as they pass through, only allowing
 
 ### DLP and Open Source
 
-Internal firewalls have been used as a control for [Data Leakage Prevention (DLP)](../Activities/Level-3/Data-Leakage-Prevention).  By removing access to sites such as [Google Docs](https://docs.google.com), or popular social networking sites, compliance teams are able to remove a certain vector of (mainly accidental) data exfiltration.  
+Internal firewalls have been used as a control for [Data Leakage Prevention (DLP)](../risks/Data-Leakage-Risk).  By removing access to sites such as [Google Docs](https://docs.google.com), or popular social networking sites, compliance teams are able to remove a certain vector of (mainly accidental) data exfiltration.  
 
 Sites like [GitHub](https://github.com) are often included in deny-lists, since data can be posted to them.  This prevents developers from viewing a large amount of open source software.  
 
@@ -116,7 +116,7 @@ Here are some tools that support data fingerprinting:
 
 This article describes how DLP software works in the enterprise, focusing on firewalls, and how this can be a barrier to contributing to open source.   
 
-For more details on how to effectively contribute to open source given these constraints, please see the article about [contribution and DLP](../Activities/Level-3/DLP)
+For more details on how to effectively contribute to open source given these constraints, please see the article about [Publication](../Activities/Level-3/Publication)
 
 ## Further Reading
 

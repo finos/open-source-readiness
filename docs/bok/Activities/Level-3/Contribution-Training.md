@@ -18,9 +18,9 @@ Here, we provide an outline syllabus of a training course that covers the major 
 
 This article focuses on the training required at [Level 3 Maturity](../../OSMM/Level-3) and makes the assumption that the training for the previous levels has been taken care of already.
 
-**See Also**: [Consumption Training](../Level-2/Training)
+**See Also**: [Consumption Training](../Level-2/Consumption-Training)
 
-Your training course may want to lay the ground work and explain some of the general details of open source, or alternatively you might fall back on the [Linux Foundation Training Courses](../../tags/LF-Training) or other internal training courses around the safe, compliant consumption of open source.
+Your training course may want to lay the ground work and explain some of the general details of open source, or alternatively you might fall back on the [Linux Foundation Training Courses](../../training/Introduction) or other internal training courses around the safe, compliant consumption of open source.
 
 ## Reasons To Allow Contribution
 
@@ -48,7 +48,7 @@ Depending on your [policy](Contribution-Compliance), projects might be [categori
 
 ### 1. Firm-Strategic Projects
 
-For projects where the firm has deemed that there is [strategic value](../../Level-5/Leveraging-Strategically) in sponsoring the development of a given project, there might be rules in place around 
+For projects where the firm has deemed that there is [strategic value](../Level-5/Leveraging-Strategically) in sponsoring the development of a given project, there might be rules in place around 
  
 ### 2. Personal Projects
 
@@ -66,11 +66,11 @@ Between the two categories above may lie other categories where the firm is an a
 
 Your [Contribution Compliance Policy](Contribution-Compliance) will outline the organisational structure set up to risk-manage open source contribution.  [Developers](../../Roles/Developer) or other staff engaged in open source will need to understand and operate within this structure, so it's important to train them on it.  Roles they might need to be aware of include:
 
-- **Open Source Program Office**: See [OSPO](../..Roles/OSPO) and [Creating-An-OSPO](../Level-2/Creating-An-OSPO).
+- **Open Source Program Office**: See [OSPO](../../Roles/OSPO) and [Creating-An-OSPO](../Level-2/Creating-An-OSPO).
 
-- **Foundation Points-of-Contact (POC)**:  staff within the organisation responsible for handling [Foundation Membership](Foundations).  This might be important for project creation or administration, [CLA administration](../../Artifacts/CLAs-And-DCOs) or attending events.
+- **Foundation Points-of-Contact (POC)**:  staff within the organisation responsible for handling [Foundation Membership](../Level-4/Foundations).  This might be important for project creation or administration, [CLA administration](../../Artifacts/CLAs-And-DCOs) or attending events.
 
-- **Open Source Project Administrators**: where the organisation is [Contributing its own Projects](Contributing-A-Project) or otherwise acting in a leadership role on a project, there will be someone in the firm in this role.   
+- **Open Source Project Administrators**: where the organisation is [Contributing its own Projects](../Level-4/Contributing-A-Project) or otherwise acting in a leadership role on a project, there will be someone in the firm in this role.   
 
 - **Open Source Project Sponsors**:  in the majority of cases, the firm will have a business need to engage in an open source project.  Therefore, contributions of time or money will need to be _sponsored_ by some part of the business.  It's important that contributors are aware of who is sponsoring their contribution.
 
@@ -80,13 +80,15 @@ Your [Contribution Compliance Policy](Contribution-Compliance) will outline the 
 
 - **Maintainers**: these are **contributors** on open source projects who have an elevated level of control and can gate-keep which contributions are accepted.
 
-## Code Review 
+## Publication Review
 
-[Code review](https://en.wikipedia.org/wiki/Code_review) is a common quality assurance technique in software development and part of the [pull request](Developing-In-Public#pull-request) process.  
+**See:** Main article on [Publication Process](Publication).
+
+[Code review](https://en.wikipedia.org/wiki/Code_review) is a common quality assurance technique in software development and part of the [pull request](Public-Development#pull-requests) process.  
 
 In a regular code review a reviewer is checking that the code is _readable_, _maintainable_, _idiomatic_ etc.  (See: [Code Review Checklist](https://www.codementor.io/blog/code-review-checklist-76q7ovkaqj) for further details.)
 
-However, within a firm the review should go further as there are more risks to consider.  A code review in this scenario should consider:
+However, within a firm the review should go further as there are more risks to consider.  A code review in this scenario should consider the following.
 
 <BoxOut title="Reputational Risk" image="/img/bok/risks/reputational-risk.png" link="../../Risks/Reputational-Risk" linkText="Reputational Risk Details">
 
@@ -140,7 +142,9 @@ Alternatively, consider the use of [DLP Tools](../../Artifacts/DLP-Software).
  
  - Does the code contain _passwords_, _machine / network names_, _private keys_ or any other business-specific data?
  
-**Tip**: Many open source policies forbid publication of any type of _data_. 
+ - If data is being published, is it classified as **public**?
+
+**Tip**: Many open source policies forbid publication of any type of _data_ (separating it from code).  This obviates the data classification question.  
 
 </BoxOut>
 

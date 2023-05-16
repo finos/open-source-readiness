@@ -5,7 +5,6 @@ authors:
 title: "Reference OSS Policy"
 tags:
   - Legal (Role)
-draft: true
 ---
 
 

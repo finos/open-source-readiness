@@ -40,7 +40,7 @@ Although Risk and Compliance are separate roles within the bank, for the purpose
  - Project & [Product Managers](Product-Manager)
  - [Legal](Legal)
  - [Internal Audit](Internal-Audit)
- - [External Regulators / External Audit](External-Regulators-And-Audit)
+ - [External Regulators / External Audit](Regulators-External-Audit)
  
 </BoxOut>
 

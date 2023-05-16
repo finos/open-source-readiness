@@ -43,7 +43,7 @@ Because of the above reasons, forking for the purposes of maintaining an entirel
 
 ## Behind The Firewall
 
-In many institutions (e.g. Finance), merging code to a public open source project requires code to cross the organisational firewall and is an opportunity for data leakage (see [project access](../operations/project-access).  While code can come _in_ to the organisation, [merging](https://en.wikipedia.org/wiki/Merge_(version_control)) _out_ is prohibited.
+In many institutions (e.g. Finance), merging code to a public open source project requires code to cross the organisational firewall and is an opportunity for [data leakage](../Risks/Data-Leakage-Risk).  While code can come _in_ to the organisation, [merging](https://en.wikipedia.org/wiki/Merge_(version_control)) _out_ is prohibited.
 
 This presents a problem for developers behind the firewall if they wish to **Fix A Bug** or **Contribute Missing Functionality**.  They can either:
 
@@ -61,6 +61,8 @@ _Internal Forking_ might be a band-aid solution for developers, but comes with i
 <BoxOut title="Codebase Risk" image="/img/bok/risks/codebase-risk.png" link="../../Risks/Codebase-Risk" linkText="Codebase Risk Details">
 
 - **Increased Maintenance Overhead**.   As already described, owning software has a cost.  Note that within an organisation _the same piece of software could get forked multiple times_, each fork taking its toll on a different development team.
+
+- **Tip:** some organisations have made efforts to measure the amount of code duplication (and therefore developer cost) in order to justify [open source contribution](../Activities/Level-3/Making-The-Case).
 
 </BoxOut>
 

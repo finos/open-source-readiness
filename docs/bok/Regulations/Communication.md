@@ -29,7 +29,7 @@ In order to prevent insider dealing and market manipulation, under the [European
 
 See also: 
 
-- [Data Loss Prevention](../Level-3/DLP).
+- [Data Leakage Risk](../Risks/Data-Leakage-Risk).
 
 ## Related Activities
 

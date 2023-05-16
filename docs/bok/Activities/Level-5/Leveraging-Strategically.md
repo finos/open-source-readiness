@@ -7,9 +7,9 @@ tags:
   - Strategic Risk
 ---
 
--- placeholder --
+**THIS IS A PLACEHOLDER**
 
-Refer to [Strategy](../Artifacts/Strategy) as the _output_ from this activity.
+Refer to [Strategy](../../Artifacts/Strategy) as the _output_ from this activity.
 
 Shaping the organization's software strategy and processes and role of open source within the organization's software ecosystem
 Bring the outside inside the organization

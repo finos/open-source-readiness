@@ -32,7 +32,7 @@ HR interact with open source software by ensuring that new employees are trained
 
 Works closely with:
 
-- [Business Unit Managers](Business-Unit)
+- [Business Unit Managers](Line-Of-Business)
 - [Product Managers](Product-Manager)
 - Reports to the [Chief Technology Officer](CTO).  -- is this right?
 - Employees

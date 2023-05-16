@@ -1,11 +1,11 @@
 ---
-title: Outgoing Code Review
+title: Publication Process
 tags: 
   - Data Leakage Risk
   - OSPO (Role)
   - Level 3 (OSMM)
 sidebar_position: 5
-sidebar_label: Code Review
+sidebar_label: Publication
 ---
 
 <BoxOut title="Data Leakage Risk" image="/img/bok/risks/data-leakage-risk.png" image="/img/bok/risks/data-leakage-risk.png"  link="../../Risks/Data-Leakage-Risk" linkText="Data Leakage Risk Details">
@@ -26,6 +26,16 @@ Historically, use of social media / sharing sites has been [prohibited by many f
 
 ## Approaches
 
+<BoxOut image="/img/bok/roles/developer.png" link="../../Roles/Developer" title="Publishing the Right Way" linkText="Developer Role Details">
+
+There is a right way and a wrong way to publish code to the Internet from within a regulated firm.  
+
+Specifically, publication must observe the controls that have been set up to guard against accidental leakage of of intellectual property or secrets. 
+
+**Warning:** Publishing open source by simply pasting it online or emailing it is likely to result in disciplinary procedure.
+
+</BoxOut>  
+
 ### 1. Outgoing Control Process
 
 _Developers work inside the firm and contribute Git pull requests via a controlled, monitored process._
@@ -42,7 +52,7 @@ It is very easy to accidentally leak data via Git commits because of Git's appen
  
 #### Controlling Access
 
-Risk owners are likely to want to know that the [OSPO](../Level-2/OSPO) has a control around which developers are able to contribute to which projects, and historical evidence to show what has been contributed. 
+Risk owners are likely to want to know that the [OSPO](../../Roles/OSPO) has a control around which developers are able to contribute to which projects, and historical evidence to show what has been contributed. 
  
 **See:**
 

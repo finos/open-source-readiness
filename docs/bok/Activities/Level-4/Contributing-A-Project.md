@@ -9,9 +9,10 @@ tags:
   - CLAs-And-DCOs (Artifact)
   - Licenses (Artifact)
   - Level 4 (OSMM)
-draft: true
 sidebar_position: 1
 ---
+
+**THIS IS A PLACEHOLDER**
 
 - making the business case for this.
 
