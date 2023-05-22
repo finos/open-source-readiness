@@ -1,7 +1,6 @@
 ---
 title: Intellectual Property
 tags: 
-  - Introduction
   - Developer (Role)
   - OSPO (Role)
 ---

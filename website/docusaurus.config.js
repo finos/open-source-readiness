@@ -22,7 +22,6 @@ module.exports={
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": false,
           "path": "../docs",
-          "sidebarPath": "sidebars.json",
           "editUrl": "https://github.com/finos/open-source-readiness/edit/main/docs"
         },
         "blog": {},

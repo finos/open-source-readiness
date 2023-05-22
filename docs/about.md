@@ -1,5 +1,6 @@
 ---
 id: about
+sidebar_position: 1
 title: About the OSR SIG
 sidebar_label: About
 ---

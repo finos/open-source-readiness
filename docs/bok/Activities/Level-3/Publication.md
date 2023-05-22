@@ -60,6 +60,18 @@ Risk owners are likely to want to know that the [OSPO](../../Roles/OSPO) has a c
  - [GitHub Enterprise](https://github.com/enterprise)
  - Many firms have internal proprietary solutions to this.
  
+
+#### Advantages
+
+- The integrity of the firewall is preserved - developers are not pushing externally on their own.
+- It is easy for the OSPO to track which projects are being worked on and contributed to.
+
+#### Disadvantages
+
+- The usual PR / Review process only shows the _latest_ versions of files.  It's possible to include some confidential data in one commit, delete it in a later commit and for the DLP reviewer (and the developers) to not have sight of this as it is reviewed.  Nevertheless, the data is _still_ exfiltrated to the external repository and available on the Internet.
+- The process is slowed down by the need to have a DLP review.  The DLP reviewer takes a lot of responsibility and doesn't really see much benefit for their work.  In fact, they are usually slowing down the progress of the project.
+- Organising this process involves work to set up scripts and rules to allow incoming and outgoing synchronization (partially ameliorated by tools like GitProxy described below)
+ 
 ### 2. Personal Machines
 
 Contribution from _outside the firewall_ using personal machines might make sense since the user may not be exposed to confidential information on their personal machines.  
@@ -68,11 +80,48 @@ This approach could prevent _accidental_ leakage of IP.  However, from a risk pe
 
 **Note:** In some senses, this is a "default" approach, since some staff working at the firm are almost certainly contributing to open source in this way during their own time.
 
+#### Advantages
+
+- Depending upon the situation, the only solution to the open source access problem may be to use a personal laptop or computer to access the necessary projects. 
+- Since the employee's personal laptop doesn't contain firm-confidential information, there should be nearly zero chance of an accidental data-loss event.
+
+#### Disadvantages
+
+- It may be hard to track the productivity of employees working on external projects in this manner.  
+- Although it is unlikely that client data is leaked inadvertently, it is possible that _operational specifics_ are exposed in open-source projects this way.  For example, if the institution had a particular process for dealing with a certain business situation and this process was codified in an open-source project, it would essentially be made public.   Tight boundaries around what is industry-public vs. firm-private need to be drawn.
+- Coding in this manner might be in voilation of an employee's contract.  Make sure approvals are obtained to avoid this scenario.
+- Developers are required to have their own devices (since COVID, this is almost a given)
+
 ### 3. Ephemeral Desktops
 
 Like personal machines, but a vm within your desktop that can access _nothing inside the firewall_.  
 
-tbd.  give advantages and disadvantages.
+- Developers work on the firm's hardware as with developing internal software
+- However, when working on Open-Source code, they are able to construct an [Ephemeral Environment](https://ephemeralenvironments.io) in a virtual machine.  
+- They develop the code in the environment, destroying it again when they are finished.
+- Changes to open-source code and releases are made _in public_
+- Changes / releases to the open-source software are then brought into the institution to use in the institution's software via the usual open-source channels (e.g. Artifactory)
+
+#### Advantages
+
+- Developers are still working on the institutions' hardware.
+- It should be possible for the institutions to control and monitor ephemeral environments.
+- Developers don't need to worry about accidental data exfiltration - the ephemeral environment contains no data from the institution itself.
+- Often, ephemeral environments can be congfigured with the tools the developer needs, reducing set-up time.
+
+#### Disadvantages
+
+- This is an area undergoing significant evolution right now and therefore tools are in their infancy.
+- It is still possible for developers to _deliberately_ exfiltrate data this way.  
+- Depending on the tool and the way it interacts with the user's PC, copy-paste accidental exfiltration might also still be possible.
+
+#### Some Example Tools
+
+- Try pressing the `.` key when viewing a GitHub repo.  You'll be taken into an online VS-Code instance where you can edit all of the project's files.  This is a simple example of a GitHub ephemeral environment - they support a more involved paid-model version which might be appropriate for your organisation.
+- See also: [GitPod](https://www.gitpod.io) and [CodeAnywhere](https://codeanywhere.com)
+- For Java developers, [EclipseChe](https://www.eclipse.org/che/)
+- [Microsoft DevBox](https://azure.microsoft.com/en-us/services/dev-box/)
+
 
 ## GitHub IDs
 

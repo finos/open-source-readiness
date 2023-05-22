@@ -4,6 +4,8 @@ title: OSLC Handbook Licenses
 sidebar_label: Licenses
 ---
 
+_Please review [OSLC Documentation](../operations/oslc) for a primer on this._
+
 BSD Zero Clause License
 -----------------------
 
