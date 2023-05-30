@@ -5,6 +5,13 @@ tags:
   - OSPO (Role)
   - Product Manager (Role)
   - Security Expert (Role)
+course:
+  publisher: Linux Foundation
+  code: LFS182x
+  length: 8 hours
+  certification: Digital
+  cost: 0
+  link: https://training.linuxfoundation.org/training/securing-your-software-supply-chain-with-sigstore-lfs182x/
 ---
 
 
@@ -16,10 +23,5 @@ Building and distributing software that is secure throughout its entire lifecycl
 
 ## Details
 
+<CourseDetails course={frontMatter.course}/>
 
-- Publisher: Linux Foundation
-- Code: LFS182x
-- Length: 8 hours
-- Certification: Digital
-- Cost: 0
-- Link: https://training.linuxfoundation.org/training/securing-your-software-supply-chain-with-sigstore-lfs182x/

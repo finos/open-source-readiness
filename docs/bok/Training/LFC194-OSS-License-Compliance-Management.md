@@ -5,6 +5,14 @@ tags:
   - Legal (Role)
   - CIO/CTO (Role)
   - OSPO (Role)
+course:
+  publisher: Linux Foundation
+  code: LFC194
+  length: 1 hours
+  certification: Digital
+  cost: 0
+  link: https://training.linuxfoundation.org/training/implementing-open-source-license-compliance-management-lfc194/
+
 ---
 
 ## Synopsis
@@ -13,9 +21,4 @@ This course is intended for software developers, project managers, legal associa
 
 ## Details
 
-- Publisher: Linux Foundation
-- Code: LFC194
-- Length: 1 hours
-- Certification: Digital
-- Cost: 0
-- Link: https://training.linuxfoundation.org/training/implementing-open-source-license-compliance-management-lfc194/
+<CourseDetails course={frontMatter.course}/>

@@ -12,6 +12,10 @@ tags:
 
 This section of the body of knowledge looks at the available training on open source.
 
-## Contents
+## Linux Foundation Training
 
-<BokTagList filter="Training" />
+<CourseList filter="Training" tag="LF-Training" />
+
+## Other Materials
+
+<CourseList filter="Training" tag="Other-Training" />

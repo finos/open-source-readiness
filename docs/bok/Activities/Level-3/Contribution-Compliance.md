@@ -161,7 +161,7 @@ Clearly, an open source contribution needs to adhere to these rules, even if it 
 
 ##### Blocked Tools
 
-Tools like [Slack](https://slack.com) don't support monitoring - should these therefore _not_ be allowed for open source?  Doesn't this hinge on whether open source is "bank business"?
+Tools like [Slack](https://slack.comro) don't support monitoring - should these therefore _not_ be allowed for open source?  Doesn't this hinge on whether open source is "bank business"?
 
 </BoxOut>
 
