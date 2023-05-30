@@ -14,6 +14,9 @@ tags:
   - PI Regulation
   - Sanctions Regulation
   - Export Regulation
+  - Anti-Trust Regulation
+  - Cyber-Security Regulation
+  - Labour Regulation
 sidebar_position: 3
 sidebar_label: Compliance
 ---
@@ -113,6 +116,20 @@ In this section we look at some regulations that an open source policy will need
 
 </BoxOut>
 
+<BoxOut title="Anti-Trust" image="/img/bok/regs/anti-trust.png" link="../../Regulations/Anti-Trust" linkText="Anti-Trust Regulations">
+
+### Anti-Trust
+
+Open source projects themselves need to be cautious about actions that could be seen as anti-competitive. For instance, the leadership of a project cannot exclude potential contributors without a valid reason, as that could potentially be seen as an anti-competitive practice.
+
+When open source software becomes ubiquitous there may be implications related to monopoly power. If a particular piece of software becomes a de facto standard, it's possible that the organization or individuals controlling that software could exert undue influence over the market.
+
+#### Controls
+
+tbd.
+
+</BoxOut>
+
 <BoxOut title="Communications" image="/img/bok/regs/communications.png" link="../../Regulations/Communication" linkText="Communication Regulations">
 
 ### Communications
@@ -121,11 +138,17 @@ In this section we look at some regulations that an open source policy will need
 
 #### Controls
 
-##### Blocked Software Tools
+Financial companies do define their retention policies when comes to record management, like how email communication, internal source code, internal chat systems (all involving possible counter parties) are applied to all firm business; some of these even surveiled in real time. However, such policies only apply to what is considered _firm business_. 
 
-Banking regulations around electronic communications are mainly aimed at broker-dealer relationships, preventing collusion and enforcing "chinese walls" to prevent conflicts-of-interest.  
+As by definition the [Open Source work is not considered a firm-related business](electronic-communications.md), only the firm wide communication policies that would be applied to the incoming email notifications from GitHub, would be applicable here.
+
+Taking into consideration the above, the OSR group would still strongly advise people to audit and confirm with their compliance team the policies applicable.
+
+##### Software Tools
+
+Banking regulations around electronic communications are mainly aimed at broker-dealer relationships, preventing collusion and enforcing "information barriers" to prevent conflicts-of-interest.  
  
-They normally apply to tools like Zoom, Slack, Symphony, Email etc. and cover retention periods, supervision etc.
+They normally apply to tools like Zoom, Symphony, Email etc. and cover retention periods, supervision etc.
 
 Clearly, an open source contribution needs to adhere to these rules, even if it is not really the subject of them.
 
@@ -135,6 +158,10 @@ Clearly, an open source contribution needs to adhere to these rules, even if it 
 
 - [Social Media Training](Contribution-Training#social-media) 
 - Tools such as [Proof Point](https://www.proofpoint.com/uk/solutions/social-media-protection-and-compliance) allow monitoring, hack prevention, [DLP](../../Artifacts/DLP-Software) for social media.  
+
+##### Blocked Tools
+
+Tools like [Slack](https://slack.com) don't support monitoring - should these therefore _not_ be allowed for open source?  Doesn't this hinge on whether open source is "bank business"?
 
 </BoxOut>
 
@@ -215,6 +242,20 @@ When you contribute to an existing open source project, you need to be _in compl
 - **See:** [Training](Contribution-Training)
 
 </BoxOut>
+
+<BoxOut title="Cyber Security" image="/img/bok/regs/security.png" link="../../Regulations/Cyber-Security" linkText="Cyber-Security Regulations">
+
+
+### Cyber Security
+
+<DocExcerpt src="/Regulations/Cyber-Security" />
+
+#### Controls
+
+- Arguably, the controls for contribution should not be any different for ingestion.  However, it's important to point out that firms need to be vigilant even when _consuming their own open source software_ and apply the same level of care as they do for third party code.
+
+</BoxOut>
+
 
 <BoxOut title="Export" image="/img/bok/regs/export.png" link="../../Regulations/Export" linkText="Export Regulations">
 
