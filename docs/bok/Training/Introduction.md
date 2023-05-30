@@ -18,4 +18,4 @@ This section of the body of knowledge looks at the available training on open so
 
 ## Other Materials
 
-<CourseList filter="Training" tag="Other-Training" />
+<BokTagList filter="Training" tag="Other-Training" />
