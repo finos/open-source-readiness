@@ -1,13 +1,15 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-:root {
-  --docusaurus-tag-list-border: var(--ifm-color-emphasis-300);
+.pester-data-table.left {
+  text-align: left;
 }
+
+.pester-data-table.right {
+  text-align: right;
+}
+
+.pester-data-table, .pester-data-table.center {
+  text-align: center;
+}
+
 
 .tag {
   border: 1px solid var(--docusaurus-tag-list-border);
@@ -25,4 +27,3 @@
   padding: 0.2rem 0.5rem 0.3rem;
   font-size: 90%;
 }
-
