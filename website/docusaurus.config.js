@@ -61,7 +61,7 @@ module.exports={
             },
             {
               "label": "Body of Knowledge",
-              "to": "docs/bok/Body-of-Knowledge"
+              "to": "docs/bok/Introduction"
             },
             {
               "to": "https://survey.osmm.finos.org/551476",
