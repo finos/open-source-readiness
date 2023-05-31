@@ -118,6 +118,17 @@ Banks are technology companies which rely on software.  Estimates suggest that u
 
 <BoxOut title="Dependency Risk" image="/img/bok/risks/dependency-risk.png" link="../../Risks/Dependency-Risk" linkText="Dependency Risk Details">
 
+### Vendor Lock-In
+
+It is quite well established that open standards and open source generally are a way to avoid _vendor lock-in_:
+
+> In economics, vendor lock-in, also known as proprietary lock-in or customer lock-in, makes a customer dependent on a vendor for products, unable to use another vendor without substantial switching costs. - [Vendor Lock-In, _Wikipedia_](https://en.wikipedia.org/wiki/Vendor_lock-in)
+
+**Note:** Companies can use open source as a way to create [competitive advantage](https://en.wikipedia.org/wiki/Vendor_lock-in#Google) and lock customers into a whole "ecosystem".
+
+**See:** 
+ - [Should we really be worried about vendor lock-in in 2020?](https://www.protocol.com/manuals/new-enterprise/vendor-lockin-cloud-saas) from Protocol.com which talks about vendor lock-in by _cloud providers_.
+
 ### For External Projects
 
 There are examples of open source tools (e.g. Prometheus) that are widely used but not optimised for the finance industry.  Therefore, having engineers working on improving these tools to work better for finance makes a lot more sense than going down the route of using vendor solutions that you have little control over.
