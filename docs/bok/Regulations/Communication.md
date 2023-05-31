@@ -5,6 +5,8 @@ tags:
   - CIO/CTO (Role)
   - OSPO (Role)
   - Legal Risk
+  - Contribution 
+  - Policy
 ---
 
 <BoxOut title="Communications" image="/img/bok/regs/communications.png">
@@ -30,6 +32,15 @@ In order to prevent insider dealing and market manipulation, under the [European
 See also: 
 
 - [Data Leakage Risk](../Risks/Data-Leakage-Risk).
+
+## From Policy (tbd)
+
+- Communication Policy: e.g. use of social tools when communicating with foundations like FINOS, working on GitHub.  Exemptions to the broader communication policy to allow open source consumption/contribution.
+- Branches vs Forks: which style is allowed.  
+- Archival (for communication retention purposs).
+- Approach to forks:  are we contributing or maintaining an internal fork?
+- Pre-ambles to PRs / Commits / Files
+
 
 ## Related Activities
 

@@ -5,6 +5,8 @@ tags:
   - CIO/CTO (Role)
   - OSPO (Role)
   - Legal Risk
+  - Contribution
+  - Policy
 ---
 
 <BoxOut title="Labour Laws" image="/img/bok/regs/labour.png">

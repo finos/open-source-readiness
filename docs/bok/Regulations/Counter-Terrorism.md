@@ -4,6 +4,8 @@ tags:
   - Legal (Role)
   - CIO/CTO (Role)
   - Legal Risk
+  - Contribution
+  - Policy
 ---
 
 <BoxOut title="Counter-Terrorism Laws" image="/img/bok/regs/counter-terrorism.png">

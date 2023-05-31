@@ -6,6 +6,8 @@ tags:
   - CIO/CTO (Role)
   - OSPO (Role)
   - Legal Risk
+  - Policy
+  - Contribution
 ---
 
 <BoxOut title="Anti-Money Laundering" image="/img/bok/regs/aml.png">

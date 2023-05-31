@@ -5,6 +5,8 @@ tags:
   - CIO/CTO (Role)
   - Legal Risk
   - Placeholder
+  - Contribution
+  - Policy
 ---
 
 <BoxOut title="Cross Border Obligations" image="/img/bok/regs/cross-border.png">

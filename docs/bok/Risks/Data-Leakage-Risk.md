@@ -5,6 +5,7 @@ tags:
   - Developer (Role)
   - Data Leakage Risk
   - Placeholder
+  - Policy
 ---
 
 <BoxOut title="Data Leakage Risk" image="/img/bok/risks/data-leakage-risk.png">

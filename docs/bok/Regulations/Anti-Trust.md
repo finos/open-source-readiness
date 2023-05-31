@@ -5,6 +5,8 @@ tags:
   - CIO/CTO (Role)
   - OSPO (Role)
   - Legal Risk
+  - Contribution
+  - Policy
 ---
 
 <BoxOut title="Anti-Trust" image="/img/bok/regs/anti-trust.png">

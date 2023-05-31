@@ -6,6 +6,8 @@ tags:
   - Legal Risk
   - Placeholder
   - Data Leakage Risk
+  - Contribution
+  - Policy
 ---
 
 <BoxOut title="Personal Information" image="/img/bok/regs/pi.png">

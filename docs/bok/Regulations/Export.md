@@ -5,6 +5,8 @@ tags:
   - CIO/CTO (Role)
   - Legal Risk
   - Placeholder
+  - Contribution
+  - Policy
 ---
 
 <BoxOut title="Export Controls" image="/img/bok/regs/export.png">

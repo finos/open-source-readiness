@@ -3,11 +3,18 @@ title: Dependency Risk
 tags:
   - Dependency Risk
   - Developer (Role)
+  - Policy
 ---
 
 <BoxOut title="Software Dependency Risk" image="/img/bok/risks/dependency-risk.png">
 
-Software dependency risk refers to the potential negative consequences of relying on external software components that can compromise the security, performance, or functionality of an organization's software systems.
+Software dependency risk refers to the potential negative consequences of relying on external software components that can compromise the security, performance, quality or functionality of an organization's software systems.
+
+Open source software may depend on a small number of volunteers who may lose interest, motivation, or resources over time. Users and contributors need to ensure that the projects they rely on or contribute to have a healthy and active community, or be prepared to step in and provide alternatives if a project is losing momentum.
+
+## Quality
+
+Open source software may vary in quality, reliability, and performance depending on the skills and experience of the contributors. Users and contributors need to evaluate the quality of the code, documentation, testing, and reviews before using or contributing to a project. There are vendor tooling and suggested self administered maturity surveys to develop the scoring methods.
 
 ## Sustainability
 

@@ -6,6 +6,8 @@ tags:
   - OSPO (Role)
   - Legal Risk
   - Placeholder
+  - Policy
+  - Contribution
 ---
 
 <BoxOut title="Accountancy Regulations" image="/img/bok/regs/accounting.png">

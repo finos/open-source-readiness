@@ -27,3 +27,5 @@ Sponsoring third-party projects or individuals
 Sponsoring own organization's open source projects or individual members
 Sponsoring open source organizations
 Sponsoring events
+
+ - Under what conditions should the code be held by the bank's own organisation, vs. contributed to a foundation?

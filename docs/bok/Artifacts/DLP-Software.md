@@ -5,6 +5,7 @@ tags:
   - OSPO (Role)
   - Legal (Role)
   - CIO/CTO (Role)
+sidebar_label: DLP Software
 ---
 
 This article looks at Data Loss Prevention (DLP) software commonly used in financial organisations and how these impact open source consumption and contribution.  It is not a complete reference for the subject of DLP generally, but should act as a starting point for understanding the issues involved. 

@@ -6,6 +6,8 @@ tags:
   - OSPO (Role)
   - Legal Risk
   - Placeholder
+  - Consumption
+  - Policy
 ---
 
 <BoxOut title="Cyber-Security" image="/img/bok/regs/security.png">

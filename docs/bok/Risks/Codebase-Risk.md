@@ -4,9 +4,12 @@ tags:
   - Developer (Role)
   - CIO/CTO (Role)
   - Placeholder
+  - Policy
 ---
 
 <BoxOut title="Codebase Risk" image="/img/bok/risks/codebase-risk.png">
+
+Open source software may have hidden costs, such as maintenance, support, security, and compliance. Users and contributors need to be aware of the total cost of ownership and the implications of using different licenses.
 
 Large amounts of code in a project slow down development and reduce developer effectiveness because complexity has to be _managed_.  The larger a codebase, the more bugs and vulnerabilities it will contain.
 

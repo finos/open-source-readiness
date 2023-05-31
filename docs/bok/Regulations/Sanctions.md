@@ -5,6 +5,8 @@ tags:
   - CIO/CTO (Role)
   - Legal Risk
   - Placeholder
+  - Contribution
+  - Policy
 ---
  
 <BoxOut title="Sanctions" image="/img/bok/regs/sanctions.png">

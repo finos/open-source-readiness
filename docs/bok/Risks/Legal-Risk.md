@@ -4,6 +4,7 @@ tags:
   - Legal Risk
   - Legal (Role)
   - Placeholder
+  - Policy
 ---
 
 <BoxOut title="Legal Risk" image="/img/bok/risks/legal-risk.png">

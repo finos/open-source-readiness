@@ -3,6 +3,7 @@ title: Reputational Risk
 tags:
   - Reputational Risk
   - Compliance (Role)
+  - Policy
 ---
 
 <BoxOut title="Reputational Risk" image="/img/bok/risks/reputational-risk.png">

@@ -3,6 +3,7 @@ title: Legal Team
 sidebar_label: Legal
 tags:
   - Legal (Role)
+  - Policy
 ---
 
 <BoxOut title="Legal" image="/img/bok/roles/legal.png">
