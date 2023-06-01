@@ -13,7 +13,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/open-source-licensing-basics-for-software-developers/
-
+sidebar_label: LFD102
 ---
 
 This course is designed for developers who utilize open source code.

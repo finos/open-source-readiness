@@ -12,6 +12,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/securing-your-software-supply-chain-with-sigstore-lfs182x/
+sidebar_label: LFS182x
 ---
 
 

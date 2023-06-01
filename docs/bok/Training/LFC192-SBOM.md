@@ -15,7 +15,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/generating-a-software-bill-of-materials-sbom-lfc192/
-
+sidebar_label: LFC192
 ---
 
 

@@ -14,7 +14,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/
-
+sidebar_label: LFD106x
 ---
 
 ## Synopsis

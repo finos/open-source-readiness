@@ -12,6 +12,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/developing-secure-software-lfd121/
+sidebar_label: LFS142x
 ---
 
 ## Synopsis

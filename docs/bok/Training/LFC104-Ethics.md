@@ -12,7 +12,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/ethics-for-open-source-development-lfc104/
-
+sidebar_label: LFC104
 ---
 
 This course is designed primarily for product managers who want to learn how to effectively incorporate ethics-by-design techniques into their workflows, and developers wanting to apply ethics through critical thinking techniques and proven mental frameworks.

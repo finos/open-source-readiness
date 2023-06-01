@@ -14,6 +14,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/
+sidebar_label: LFD104x
 ---
 
 

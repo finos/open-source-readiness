@@ -14,7 +14,7 @@ course:
   certification: Digital
   cost: 0
   link: https://training.linuxfoundation.org/training/antitrust-laws-and-open-source-software-project-management-and-participation-lfc105/
-
+sidebar_label: LFC105
 ---
 
 This course is intended for all individuals that participate in open source projects at any level - contributors, maintainers, Steering Committee members and Governing Board members.
