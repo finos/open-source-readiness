@@ -7,12 +7,9 @@ tags:
   - Placeholder
 ---
 
-**THIS IS A PLACEHOLDER**
-
-
 This section of the body of knowledge looks at the available training on open source.
 
-## Linux Foundation Training
+## Linux Foundation Training Courses
 
 <CourseList filter="Training" tag="LF-Training" />
 
