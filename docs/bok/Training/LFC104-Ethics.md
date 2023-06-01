@@ -1,8 +1,6 @@
 ---
 title: Ethics for Open Source Development
 tags: 
-  - Developer (Role)
-  - OSPO (Role)
   - Product Manager (Role)
   - Training
   - LF-Training

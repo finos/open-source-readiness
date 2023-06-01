@@ -5,6 +5,8 @@ tags:
   - OSPO (Role)
   - Product Manager (Role)
   - Security Expert (role)
+  - LF-Training
+  - Training
 course:
   publisher: Linux Foundation
   code: LFD121

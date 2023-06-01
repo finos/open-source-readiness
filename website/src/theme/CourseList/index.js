@@ -44,14 +44,19 @@ export default function CourseList(props) {
 	  {
 	    Header: "Code",
 	    accessor: "frontMatter.course.code",
-	    className: "pester-data-table left",	  
+	    className: "pester-data-table left",
+	    Cell: ({ cell: { value }, row: { original } }) => (
+	      <a href={`${original.frontMatter.course.link}`} target="blank" rel="noreferrer noopener">
+	        {value}
+	      </a>
+	    ),	  
 	  },
 	  {
 	    Header: "Title",
 	    accessor: "title",
 	    className: "pester-data-table left",
 	    Cell: ({ cell: { value }, row: { original } }) => (
-	      <a href={`${original.frontMatter.course.link}`} target="blank" rel="noreferrer noopener">
+	      <a href={`${original.permalink}`} target="blank" rel="noreferrer noopener">
 	        {value}
 	      </a>
 	    ),

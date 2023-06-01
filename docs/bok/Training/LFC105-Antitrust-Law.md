@@ -6,6 +6,7 @@ tags:
   - OSPO (Role)
   - Training
   - LF-Training
+  - Anti-Trust Regulation
 course:
   publisher: Linux Foundation
   code: LFC105

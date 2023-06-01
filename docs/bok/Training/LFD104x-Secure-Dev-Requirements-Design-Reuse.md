@@ -5,6 +5,8 @@ tags:
   - OSPO (Role)
   - Product Manager (Role)
   - Security Expert (Role)
+  - LF-Training
+  - Training
 course:
   publisher: Linux Foundation
   code: LFD104x
