@@ -151,7 +151,7 @@ Popular examples include:
  
 **See:**
 
- - [Elastic License 2.0 and the Evolution of Open Source Licensing](https://www.coss.community/cossc/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3)
+ - [Elastic License 2.0 and the Evolution of Open Source Licensing](https://www.coss.community/cossc/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3).  A good read explaining the history and forces behind this movement.
 
 ## License Obligations
 
