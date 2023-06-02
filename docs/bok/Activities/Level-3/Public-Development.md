@@ -23,7 +23,7 @@ Submitting a PR/fixing a bug in an OSS project.
 
 QA as a process.
 
-## Ways Of Contributing 
+## Ways Of Contributing 
 
 (from OSPO Mind Map)
 

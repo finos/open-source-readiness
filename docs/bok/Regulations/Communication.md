@@ -31,7 +31,8 @@ Regulated industries need to track communications internally and externally.  Ke
 
 ### Controls
 
-- [Publication & Surveillance](../Activities/Level-3/Publication)
+- [Publication](../Activities/Level-3/Publication)
+- [Surveillance](../Activities/Level-3/Surveillance)
 
 ## Relevant Regulations
 

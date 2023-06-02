@@ -19,7 +19,7 @@ Labour laws apply to all sectors, including banking. While they don't specifical
 
 ## Intersection With Open Source
 
-- If employees are contributing to open source in personal time this may contravene labour regulations.
+- If employees are contributing to open source in personal time this may contravene labour regulations. 
 
 ### Controls
 

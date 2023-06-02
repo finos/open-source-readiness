@@ -1,30 +1,26 @@
 ---
-title: Publication & Surveillance Processes
+title: Publication Processes
 tags: 
   - Data Leakage Risk
   - OSPO (Role)
   - Level 3 (OSMM)
 sidebar_position: 5
-sidebar_label: Publication / Surveillance
+sidebar_label: Publication
 ---
+
+This article looks at the best practices around publication (of code) to enable open source contribution.
 
 <BoxOut title="Data Leakage Risk" image="/img/bok/risks/data-leakage-risk.png" image="/img/bok/risks/data-leakage-risk.png"  link="../../Risks/Data-Leakage-Risk" linkText="Data Leakage Risk Details">
 
 This article discusses controls that can be put in place to mitigate [Data Leakage Risks](../../Risks/Data-Leakage-Risk), which are almost certainly required for an effective [Open Source Contribution Policy](Contribution-Compliance).
 
-### Considerations
-
 Financial firms are _technology organisations_. All such organisations need to worry about [Intellectual Property Risk](../../Risks/Data-Leakage-Risk).  IP Leakage can happen anywhere.   Arguably, risks are _greater_ in finance because of the penalties that regulators may apply.
-
-Historically, use of social media / sharing sites has been [prohibited by many firms](../../Artifacts/DLP-Software) to mitigate data leakage.   But you have to balance the data leakage risk against the benefits (outlined above).  Therefore:   can employees use a site like GitHub (where uploading data is commonplace) but have controls in place to mitigate the data-leakage aspect?
-
-### Existing DLP Software
 
 **See:** [DLP Software](../../Artifacts/DLP-Software) for a discussion on the common ways in which regulated firms use DLP _software_, and how this isn't appropriate for open source contributions.
 
 </BoxOut>
 
-## Approaches To Publication
+## Publishing Code
 
 <BoxOut image="/img/bok/roles/developer.png" link="../../Roles/Developer" title="Publishing the Right Way" linkText="Developer Role Details">
 
@@ -121,73 +117,3 @@ Like personal machines, but a vm within your desktop that can access _nothing in
 - See also: [GitPod](https://www.gitpod.io) and [CodeAnywhere](https://codeanywhere.com)
 - For Java developers, [EclipseChe](https://www.eclipse.org/che/)
 - [Microsoft DevBox](https://azure.microsoft.com/en-us/services/dev-box/)
-
-## Surveillance
-
-Electronic surveillance (ECOM) conducted by banks involves the monitoring and analysis of their employees' electronic communications, including emails, chat messages, and social media interactions, to ensure compliance with regulatory obligations, protect sensitive information, and mitigate potential legal, operational, and reputational risks.
-
-**See:** 
-
- - [Communication Regulations](../../Regulations/Communication)
-
-### GitHub IDs
-
-Opinion varies on the best way to approach this:
-
-### 1. Firm-specific & Personal GitHub IDs
-
-This is where the user has a separate GitHub Id for their own contributions vs. firm ones.  The user's firm email address is associated with one id, whereas their personal address is associated with another.  
-
- - This allows the firm to perform fine-grained access control on the user, and remove the user from firm-related repos.  It is questionable whether for an open source project the firm should be doing this.  The part of the point of open source is that people can continue contributing despite not working for the firm.
- 
- - Arguably, this allows them to perform better tracking of the firm's users across GitHub.
-
-### 2. Single GitHub ID
-
-The user associates their personal _and_ firm email addresses with the same GitHub ID.  
-
- - From some points of view, _any_ contribution by the user whilst employed at the firm is firm business (see: [ownership of IP](../../Artifacts/CLAs-And-DCOs#Understanding-Copyright)), so there is no point in having a separate ID.  _All contributions should be monitored_.
-
-### 
-
-
-#### What is "A Contribution"?
-
-- Committing Code
-- Raising / Processing Pull Requests
-- Raising / Commenting on Issues
-- "Star"ing a GitHub repo 
-
-_Is Open Source Development Firm Business?_
-
-- As by definition the [Open Source work is not considered a firm-related business](../../operations/electronic-communications.md), only the firm-wide communication policies that would be applied to the incoming email notifications from GitHub, would be applicable here.
-
-- Taking into consideration the above, the OSR group would still strongly advise people to audit and confirm with their compliance team the policies applicable.
-
-
-
-## From Policy (tbd)
-
-- Communication Policy: e.g. use of social tools when communicating with foundations like FINOS, working on GitHub.  Exemptions to the broader communication policy to allow open source consumption/contribution.
-- Branches vs Forks: which style is allowed.  
-- Archival (for communication retention purposs).
-- Approach to forks:  are we contributing or maintaining an internal fork?
-- Pre-ambles to PRs / Commits / Files
-
-
-##### Software Tools
-
-
-- At the moment, this is an area of active investigation.  Tools like [GitHub Enterprise](https://github.com/enterprise) may help,  or something like [island.io](https://island.io). 
-
-##### Social Media
-
-- [Social Media Training](Contribution-Training#social-media) 
-- Tools such as [Proof Point](https://www.proofpoint.com/uk/solutions/social-media-protection-and-compliance) allow monitoring, hack prevention, [DLP](../../Artifacts/DLP-Software) for social media.  
-
-##### Blocking Tools
-
-Tools like [Slack](https://slack.comro) don't support monitoring - should these therefore _not_ be allowed for open source?  Doesn't this hinge on whether open source is "bank business"?
- 
- 
- 
