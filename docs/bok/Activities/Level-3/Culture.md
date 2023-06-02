@@ -6,10 +6,16 @@ tags:
   - ISPO (Role)
   - Placeholder
   - Level 3 (OSMM)
-draft: true
 sidebar_position: 8
 sidebar_label: Culture
 ---
+
+Historically, employees in banks have faced challenges contributing to open source due to factors such as stringent regulatory environments, the sensitive nature of financial data, concerns over intellectual property rights, lack of internal policies or guidelines related to open source contributions, and a traditional banking culture that may not fully embrace the open, collaborative ethos of open source development.
+
+Building a culture around open source is crucial to encourage contributions in the rapidly evolving financial technology landscape.
+
+**THIS IS A PLACEHOLDER**
+
 
 tbd
 

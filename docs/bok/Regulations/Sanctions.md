@@ -1,5 +1,5 @@
 ---
-title: Sanctions
+title: Sanctions and Export Restriction
 tags: 
   - Legal (Role)
   - CIO/CTO (Role)
@@ -15,6 +15,20 @@ Many countries are prevented from selling into certain territories (US into Iran
 
 </BoxOut>
 
+## Intersection With Open Source
+
+- Sanctions laws can impact open source software development by restricting the export, re-export, or direct product of certain software to sanctioned countries, entities, or individuals. 
+
+- Therefore, open source developers must exercise caution to ensure they're not inadvertently enabling prohibited entities to access or utilize their software in a way that violates these laws, even though the very nature of open source software encourages worldwide collaboration and unrestricted access.
+
+- Is open source contribution encompassed in "selling"?  
+- using russian open source software?
+- core-js
+
+### Controls
+
+- [Training](Contribution-Training)
+
 ## Sanctions Regimes
  
 Banks typically decide which sanctions regimes to follow based on a number of factors, including their legal and regulatory obligations, the countries they operate in, and the risks associated with their business activities.
@@ -27,20 +41,8 @@ Banks typically decide which sanctions regimes to follow based on a number of fa
 
 **Example:** In 2014, [BNP Paribas pleaded guilty to violating US sanctions](https://www.justice.gov/opa/pr/bnp-paribas-agrees-plead-guilty-and-pay-89-billion-illegally-processing-financial) against Sudan, Cuba, and Iran and agreed to pay a fine of $8.9 billion. The bank was accused of processing transactions in US dollars for clients in those countries in violation of US sanctions.
 
-## Cryptography
-
-The United States regulates the export of non-standard cryptography under the Export Administration Regulations (EAR), which classifies cryptographic items as "dual-use" commodities, software, or technology that have both civilian and military applications, and require an export license depending on the encryption strength, end-use, or destination country.
-
-**See Also:**
-
- - [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States) - Wikipedia Article.
-
 **See Also:**
 
  - [Deutsche Bank seeks options as sanctions threaten Russian dev unit](https://www.theregister.com/2022/03/04/deutsche_bank_russia_dev_unit/)
  - [Deutsche Bank Moving Russian IT Staff to New Hub in Germany](https://www.bloomberg.com/news/articles/2022-06-07/deutsche-bank-moving-russian-it-staff-to-new-hub-in-germany)
  
-## Related Activities
-
-<BokTagList tag="Sanctions Regulation" filter="Activities" />
-

@@ -1,5 +1,5 @@
 ---
-title: Personal Information Law
+title: Personal Information
 tags: 
   - Legal (Role)
   - CIO/CTO (Role)
@@ -14,16 +14,23 @@ tags:
 
 Leakage of personal information has a knock-on to [Reputational Risk](../Risks/Reputational-Risk) and [Legal Risk](../Risks/Legal-Risk), as explored in the section below.  As noted in the BOK activities [addressing supply chain security](../Activities/Level-2/Supply-Chain-Security), incorporating secure development into the Software Development Lifecycle is therefore also a compliance issue. 
 
-Tools like [Google Docs](https://docs.google.com), [Twitter](https://twitter.com), [StackOverflow](https://stackoverflow.org) and [GitHub](https://github.com) may be rendered inaccessible from within a financial organisation to comply with Data Protection and Security policies, since each presents a venue where client data might be deliberately or accidentally exfiltrated.  
-
-**See:** 
-  - Main article on [Publication Activity](../Activities/Level-3/Publication) 
-  - [DLP Software](../artifacts/DLP-Software)
-
 </BoxOut>
 
+## Intersection With Open Source
 
-## GLBA
+- Tools like [Google Docs](https://docs.google.com), [Twitter](https://twitter.com), [StackOverflow](https://stackoverflow.org) and [GitHub](https://github.com) may be rendered inaccessible from within a financial organisation to comply with Data Protection and Security policies, since each presents a venue where client data might be deliberately or accidentally exfiltrated.  
+
+**See:** 
+  - [DLP Software](../artifacts/DLP-Software)
+
+### Controls
+
+- [Publication Activity](Publication).  Specifically: don't allow publication of _data_ in open source contributions.
+- [Training](Contribution-Training)
+
+## Relevant Regulations
+
+### GLBA
 
 The [Gramm-Leach-Bliley Act (GLBA)](https://www.ftc.gov/business-guidance/privacy-security/gramm-leach-bliley-act) also known as the Financial Services Modernization Act of 1999, is a federal law enacted in the United States to control the ways financial institutions deal with the private information of individuals.   The Act consists of three provisions: 
 
@@ -37,7 +44,7 @@ The [Gramm-Leach-Bliley Act (GLBA)](https://www.ftc.gov/business-guidance/privac
 
 **Example:** [In 2019, Equifax, Inc. agreed to pay at least $575 million](https://www.ftc.gov/legal-library/browse/cases-proceedings/172-3203-equifax-inc), and potentially up to $700 million, as part of a global settlement with the Federal Trade Commission, the Consumer Financial Protection Bureau (CFPB), and 50 U.S. states and territories to settle allegations that the credit reporting company's failed to take reasonable steps to secure its network.  
  
-## GDPR
+### GDPR
 
 Any software (including open source) used by an organisation operating within the EU needs to be [General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliant:
 
@@ -45,10 +52,7 @@ Any software (including open source) used by an organisation operating within th
 
 **Example: ** During the pandemic in 2020, many banks started using [Zoom](https://zoom.us) for video conferencing, but this [ran afoul of the GDPR regulations (German language)](https://datenschutz-hamburg.de/pressemitteilungen/2021/08/2021-08-16-senatskanzlei-zoom).  More recent versions of the software [aim to remedy this](https://explore.zoom.us/en/gdpr/).
 
-## PCI DSS
+### PCI DSS
 
 The [Payment Card Industry Data Security Standard (PCI DSS)](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard) is a set of security requirements designed to protect cardholder data and ensure the secure processing, storage, and transmission of payment card information. Established by major credit card companies, the standard applies to all entities involved in payment card processing, including merchants, processors, and service providers. Compliance with PCI DSS helps minimize the risk of data breaches and safeguard sensitive payment card information from theft and fraud.
 
-## Related Activities
-
-<BokTagList tag="PI Regulation" filter="Activities" />

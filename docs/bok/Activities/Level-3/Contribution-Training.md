@@ -27,7 +27,6 @@ This article covers the main requirements of _contribution_ training:
 
 ## 1. Firm Categorization of Open Source Activity
 
-
 ### Reasons To Allow Contribution
 
 Your [Contribution Compliance Policy](Contribution-Compliance) will explain exactly why the firm is engaging in open source.  This should form part of the training course, making it clear to employees.  This is important since they will need to use their judgement to understand _when_ it is appropriate to make code or other materials public.
@@ -47,6 +46,10 @@ Additionally your policy might make a distinction between _code_ and _data_:
 
 - **Code**: e.g. source code, algorithms, web pages etc. written in a programming language.  
 - **Data**: e.g. training data, test data (used in test cases), client data, personal data, secrets etc.
+
+_Information classification_ within a bank involves categorizing data based on its sensitivity and the level of security required to protect it, typically divided into categories such as **public**, **internal use only**, **confidential**, and **highly confidential**, to ensure appropriate handling, access control, and safeguarding measures.
+
+Clearly, contribution should only be allowed for code that is considered **public** classification (if indeed code is classified as information).
 
 ### Project Categorization
 

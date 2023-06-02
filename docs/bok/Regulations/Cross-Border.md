@@ -15,10 +15,16 @@ Many organisations are bound by what is allowed to cross their borders.  For exa
   
 </BoxOut>
 
+## Intersection With Open Source
+
+- **Cross Border Data Clearance (CBDC)**:  Only really applies to data. Not source code.   Public source doesn't apply.  Working groups don't apply.  Use of data classified as public.  Not banning data, but asking "is this public?".  
+
+### Controls
+
+- Screen out (via [Code Review](Publication)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only. This is another example of why preventing contributions with "test data" in them may be good policy.
+
+- [Publication Code Review Training](Contribution-Training#publication-review) 
+
 ## Further Reading
 
 - [Digital Cross-Border Compliance: The Definitive Guide](https://www.apiax.com/resources/guides/digital-cross-border-compliance/) - Written by Apiax.
-
-## Related Activities
-
-<BokTagList tag="Cross-Border Regulation" filter="Activities" />

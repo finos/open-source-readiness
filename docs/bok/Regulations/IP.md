@@ -1,5 +1,5 @@
 ---
-title: Intellectual Property Law
+title: Intellectual Property
 tags: 
   - Legal (Role)
   - CIO/CTO (Role)
@@ -20,8 +20,20 @@ Open source software is typically distributed under specific [licensing terms](.
 
 _Open source development on top of prioprietary codebase_
  
-
 </BoxOut>
+
+## Intersection With Open Source
+
+- When you contribute to an existing open source project, you need to be _in compliance [with the license](../../Artifacts/Licenses) of that project_.  This creates a further area for legal involvement, since at [Level 2 of the OSMM](../Level-2/License-Management) we only considered licenses from the point of view of consumption. 
+
+**Note:** Some unusual open source licenses have expectations around warranty and liability or even providing on-going support for the work contributed.
+
+### Controls
+
+  - All data and documentation within a bank must be given an information classification.  E.g. public, confidential, etc.  
+  - Part of the [Publication process](Publication) should be to make sure that only _public_ information is allowed to be contributed.
+  - Integrate firm Identity and Access Management (IAM) with the [Publication process](Publication).
+  - Ensure the [Publication process](Publication) only allows contribution to firm-approved repositories.
 
 ## Further Reading
 
@@ -29,7 +41,4 @@ _Open source development on top of prioprietary codebase_
  - [License Compliance Management](../Activities/Level-2/License-Management.md)
  - [Training](../Activities/Level-3/Contribution-Training)
  
-## Related Activities
-
-<BokTagList tag="IP Regulation" filter="Activities" />
  

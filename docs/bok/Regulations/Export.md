@@ -17,11 +17,20 @@ These controls often require exporters to secure a license before shipping certa
 
 **Examples:**
 
- - Many countries are prevented from selling into certain territories.  US/Iran for example.
- - There are rules in the US about exporting "non-standard crypto" (which might include obfuscated code).
+ - In 2017, [ZTE was penalized by the U.S. Department of Commerce](https://www.nytimes.com/2017/03/07/technology/zte-china-fine.html) for violating U.S. export controls by shipping U.S.-origin items to Iran. This resulted in a penalty of $1.19 billion in 2017, one of the largest penalties ever imposed in an export control case.
+ 
+ - In 2007, [ITT Corporation pleaded guilty to charges of exporting classified or controlled night-vision technology](https://www.justice.gov/archive/opa/pr/2007/March/07_nsd_192.html) to China and other countries and was fined $100 million.
   
 </BoxOut>
 
-## Related Activities
+## Intersection With Open Source
 
-<BokTagList tag="Export Regulation" filter="Activities" />
+- The United States regulates the export of non-standard cryptography under the Export Administration Regulations (EAR), which classifies cryptographic items as "dual-use" commodities, software, or technology that have both civilian and military applications, and require an export license depending on the encryption strength, end-use, or destination country.
+
+**See Also:**
+
+ - [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States) - Wikipedia Article.
+
+### Controls
+
+ - Your policy will have to make a clear distinction between "exporting" and "contributing into an open source repository".

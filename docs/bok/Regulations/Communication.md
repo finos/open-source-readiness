@@ -21,7 +21,21 @@ Regulated industries need to track communications internally and externally.  Ke
  
 </BoxOut>
 
-## Market Abuse Regulation (MAR)
+## Intersection With Open Source
+
+- Financial companies do define their retention policies when comes to record management, like how email communication, internal source code, internal chat systems (all involving possible counter parties) are applied to all firm business; some of these even surveiled in real time. However, such policies only apply to what is considered _firm business_. 
+
+- Banking regulations around electronic communications are mainly aimed at broker-dealer relationships, preventing collusion and enforcing "information barriers" to prevent conflicts-of-interest.  They normally apply to tools like Zoom, Symphony, Email etc. and cover retention periods, supervision etc.
+
+- Clearly, an open source contribution needs to adhere to these rules, even if it is not really the subject of them.
+
+### Controls
+
+- [Publication & Surveillance](../Activities/Level-3/Publication)
+
+## Relevant Regulations
+
+### Market Abuse Regulation (MAR)
 
 In order to prevent insider dealing and market manipulation, under the [European Union's Market Abuse Regulation (MAR)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0596&from=EN), firms must maintain effective systems and controls to detect, prevent, and report market abuse, and to keep records of all communications that are capable of leading to a transaction.
 
@@ -32,16 +46,3 @@ In order to prevent insider dealing and market manipulation, under the [European
 See also: 
 
 - [Data Leakage Risk](../Risks/Data-Leakage-Risk).
-
-## From Policy (tbd)
-
-- Communication Policy: e.g. use of social tools when communicating with foundations like FINOS, working on GitHub.  Exemptions to the broader communication policy to allow open source consumption/contribution.
-- Branches vs Forks: which style is allowed.  
-- Archival (for communication retention purposs).
-- Approach to forks:  are we contributing or maintaining an internal fork?
-- Pre-ambles to PRs / Commits / Files
-
-
-## Related Activities
-
-<BokTagList tag="Communication Regulation" filter="Activities" />
