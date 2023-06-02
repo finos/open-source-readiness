@@ -9,6 +9,7 @@ tags:
   - Level 2 (OSMM)
   - License (Artifact)
 sidebar_position: 2
+sidebar_label: License Management
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:
@@ -73,15 +74,48 @@ Please review the [License](../../Artifacts/Licenses) article in particular the 
 
 ## 4. Legal Review / License Policy
 
+Having established which licenses are used by your organisation and the obligations of those licenses, you need to _categorize_ these licenses to account for when and where (if at all) they should be used.
+
+It's important to document the findings of the legal review, including any recommendations for using or avoiding the software based on its license. This documentation can be used to inform decision-making and to ensure that your organization remains in compliance with open source licenses.
+
+<BoxOut title="Categorizing Licenses" image="/img/bok/roles/legal.png">
+
 Legally reviewing an open source license involves evaluating the terms and conditions of the license to determine its legal implications for your organization. 
 
 Open source licenses may have legal implications for your organization, such as potential liability for patent infringement, the requirement to make source code available, or the potential for intellectual property disputes. During the review process, it's important to consider any legal implications of the license and to seek the advice of a legal expert if necessary.
 
-It's important to document the findings of the legal review, including any recommendations for using or avoiding the software based on its license. This documentation can be used to inform decision-making and to ensure that your organization remains in compliance with open source licenses.
+</BoxOut>
+
+### Context
+
+**Note:** what consitutes an acceptable license depends on the software, the license and the context it is used in.  You might need to set up different categories for use in different places.  For example:
+
+ - Allowed for internal development
+ - Allowed for distribution within proprietary products (e.g. public websites)
+ - Allowed for internal publication 
+ - Allowed for external publication
 
 ### FINOS Categories
 
-FINOS provides a categorization around acceptable software licenses which may be useful as a starting point: <https://community.finos.org/docs/governance/Software-Projects/license-categories>
+As an example of the license categorization exercise, the FINOS Foundation creates [3 categories of license](https://community.finos.org/docs/governance/software-projects/license-categories/):
+
+#### **Category A**:  _Public Domain Licenses_
+
+> "Code licensed under the following licenses (and public domain dedications) may be included in Foundation contributions. If the license requires attribution or other notices, these should be included in the project's NOTICE file."
+
+This category contains many of the common permissive open source licenses, such as [MIT](https://opensource.org/license/mit/), [Apache 2.0](https://opensource.org/license/apache-2-0/) and [BSD](https://opensource.org/license/bsd-3-clause/).
+ 
+#### **Category B**: _Allowed, but Restrictive_
+
+> "Third-party code licensed under the following licenses may be included in Foundation projects. However, because these licenses contain certain restrictions on downstream users (such as a reciprocal licensing requirement), a notice must be included in the project's CONTRIBUTING file if the third-party code appears directly in the project's repository."
+
+This category is more nuanced and contains things like [Mozilla Public License](https://opensource.org/license/mpl-2-0/) and [Eclipse Public License](https://opensource.org/license/epl-2-0/).
+
+#### **Category X**: _Excluded_
+
+> "Category X dependencies are excluded either because their licenses would not permit the Foundation project to be licensed under the Apache License, or because they contain other problematic terms. Category X licenses include any proprietary license or EULA, as well as many free and open source software licenses with reciprocal licensing requirements and other restrictions."
+
+This includes [CopyLeft](../../Artifacts/Licenses#3-copyleft-licenses) licenses like [GPL](https://opensource.org/license/gpl-3-0/) and [AGPL](https://opensource.org/license/agpl-v3/).
 
 ## 5. Employee Education
 
@@ -96,6 +130,8 @@ Using the correct licenses will form part of License Policy and it will be neces
 
 ## Further Reading
 
+- **[Open Source Initiative License Browser](https://opensource.org/licenses)**
+
 - **[Why Open Source License Management Matters (Mend)](https://www.mend.io/resources/blog/why-open-source-license-management-matters/)**. Vendor article on why enterprises should resource license management. Duplicated [here](https://www.linkedin.com/pulse/why-open-source-license-management-matters-mend-io).
 
 - **[The 8 Best Free and Open Source License Management Software](https://www.goodfirms.co/license-management-software/blog/best-free-open-source-license-management-software)**. Opinionated discussion of what to look for in license management tooling.
@@ -106,4 +142,5 @@ Using the correct licenses will form part of License Policy and it will be neces
 
 - **[A Developer's Guide To Open Source Licenses](https://www.toptal.com/open-source/developers-guide-to-open-source-licenses)**.  Delves into the details of what developers need to know about licenses.
 
+- **[FINOS License Categories](https://community.finos.org/docs/governance/Software-Projects/license-categories)**.  How licenses are categorized for the FINOS Foundation.
 
