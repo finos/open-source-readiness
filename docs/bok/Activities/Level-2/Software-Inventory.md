@@ -58,19 +58,14 @@ GitHub's OSPO uses [Dependabot](https://github.com/dependabot) to review code in
 
 <BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository">
 
-#### Artifactory / Nexus
-
-[Sonatype's Nexus Repository](https://www.sonatype.com/products/nexus-repository) and [JFrog's Artifactory](https://jfrog.com/artifactory/) are universal artifact repository managers that supports multiple package formats and repositories, including Maven, npm, and Docker. 
-
-#### JFrog XRay / Nexus Lifecycle
-
-[JFrog Xray](https://jfrog.com/solution-sheet/jfrog-xray/) and [Sonatype's Nexus Lifecycle](https://www.sonatype.com/products/open-source-security-dependency-management) are tools for software inventory scanning, especially for managing open source software. They scan your repositories to identify all the artifacts and dependencies in your software packages, including open source software. 
-
-They can then identify [security vulnerabilities](Supply-Chain-Security#software-composition-analysis), [license compliance issues](License-Management) and produce [SBOMs](../Artifacts/SBOMs). 
-
-#### Black Duck
-
-#### Mend
+| Tool                        | Key Features                                                                                                   |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------|
+| [JFrog Artifactory](https://jfrog.com/artifactory/)                 | Binary repository management, build integration, Xray integration, replication support, access control         |
+| [Sonatype Nexus](https://www.sonatype.com/products/nexus-repository)                      | Binary repository management, component intelligence, build integration, role-based access control             |
+| [JFrog Xray](https://jfrog.com/solution-sheet/jfrog-xray/)                        | Security vulnerability detection, license compliance, continuous monitoring, integration with Artifactory      |
+| [Nexus Lifecycle](https://www.sonatype.com/products/open-source-security-dependency-management)             | Security vulnerability detection, policy enforcement, continuous monitoring, integration with Nexus Repository |
+| [Synopsis' BlackDuck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html)                   | Open source risk management, security vulnerability detection, license compliance, operational risk insights   |
+| [Mend](https://mend.io) (formerly WhiteSource) | Open source security and license compliance, continuous monitoring, inventory reports, policy enforcement      |
 
 </BoxOut>
 
