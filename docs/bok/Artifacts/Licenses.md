@@ -148,6 +148,10 @@ Popular examples include:
  - [CockroachDB](https://www.cockroachlabs.com/blog/oss-relicensing-cockroachdb/)
  - [Redis](https://redislabs.com/blog/redis-labs-modules-license-changes/)
  - [Confluent](https://www.confluent.io/confluent-community-license/).
+ 
+**See:**
+
+ - [Elastic License 2.0 and the Evolution of Open Source Licensing](https://www.coss.community/cossc/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3)
 
 ## License Obligations
 
