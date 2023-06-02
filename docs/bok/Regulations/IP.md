@@ -24,16 +24,16 @@ _Open source development on top of prioprietary codebase_
 
 ## Intersection With Open Source
 
-- When you contribute to an existing open source project, you need to be _in compliance [with the license](../../Artifacts/Licenses) of that project_.  This creates a further area for legal involvement, since at [Level 2 of the OSMM](../Level-2/License-Management) we only considered licenses from the point of view of consumption. 
+- When you contribute to an existing open source project, you need to be _in compliance [with the license](../Artifacts/Licenses) of that project_.  This creates a further area for legal involvement, since at [Level 2 of the OSMM](../Activities/Level-2/License-Management) we only considered licenses from the point of view of consumption. 
 
 **Note:** Some unusual open source licenses have expectations around warranty and liability or even providing on-going support for the work contributed.
 
 ### Controls
 
   - All data and documentation within a bank must be given an information classification.  E.g. public, confidential, etc.  
-  - Part of the [Publication process](Publication) should be to make sure that only _public_ information is allowed to be contributed.
-  - Integrate firm Identity and Access Management (IAM) with the [Publication process](Publication).
-  - Ensure the [Publication process](Publication) only allows contribution to firm-approved repositories.
+  - Part of the [Publication process](../Activities/Level-3/Publication) should be to make sure that only _public_ information is allowed to be contributed.
+  - Integrate firm Identity and Access Management (IAM) with the [Publication process](../Activities/Level-3/Publication).
+  - Ensure the [Publication process](../Activities/Level-3/Publication) only allows contribution to firm-approved repositories.
 
 ## Further Reading
 

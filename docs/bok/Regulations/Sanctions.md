@@ -27,7 +27,7 @@ Many countries are prevented from selling into certain territories (US into Iran
 
 ### Controls
 
-- [Training](Contribution-Training)
+- [Training](../Activities/Level-3/Contribution-Training)
 
 ## Sanctions Regimes
  

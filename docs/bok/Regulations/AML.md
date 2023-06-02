@@ -26,8 +26,8 @@ Anti-money laundering (AML) regulations are a set of procedures, laws, and regul
 
 ### Controls
 
-- [Training](../../Activities/Level-3/Contribution-Training) (and recording participation)
-- [Publication Process](../../Activities/Level-3/Publication)
+- [Training](../Activities/Level-3/Contribution-Training) (and recording participation)
+- [Publication Process](../Activities/Level-3/Publication)
 
 ## Relevant Regulations
 

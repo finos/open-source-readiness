@@ -23,6 +23,8 @@ These regulations, often enacted by regulatory bodies such as the Financial Acco
 
  - Anything that developers write has a _cost_ associated with it, which is charged to a cost center within an organisation.  Under accountancy laws these costs are amortised with respect to the assets they create.  _Giving away software_ as open source breaks this model and needs to be accounted for correctly.
 
+- Open source, while free still has an IP value and therefore in some jurisdictions will be taxed.  If open source code is being _contributed_ by a parent organisation and then _consumed_ by a subsidiary, this might cause tax issues.   By donating code [to a non-profit foundation like the Linux Foundation](../Activities/Level-4/Foundations) you can fix this tax issue since a neutral 3rd party has governance.  This is then viewed as charitable donation.
+
 ### Controls 
  - Product Owners will need to accept the accounting write-down on the value of their software if they want to distribute it for free as open source.  
 

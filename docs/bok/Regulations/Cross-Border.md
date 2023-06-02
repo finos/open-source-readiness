@@ -21,9 +21,9 @@ Many organisations are bound by what is allowed to cross their borders.  For exa
 
 ### Controls
 
-- Screen out (via [Code Review](Publication)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only. This is another example of why preventing contributions with "test data" in them may be good policy.
+- Screen out (via [Code Review](../Activities/Level-3/Publication)) contributions containing _data_ (including what might be regarded as "test data") and only allow code-only. This is another example of why preventing contributions with "test data" in them may be good policy.
 
-- [Publication Code Review Training](Contribution-Training#publication-review) 
+- [Publication Code Review Training](../Activities/Level-3/Contribution-Training#publication-review) 
 
 ## Further Reading
 

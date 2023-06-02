@@ -25,8 +25,9 @@ Leakage of personal information has a knock-on to [Reputational Risk](../Risks/R
 
 ### Controls
 
-- [Publication Activity](Publication).  Specifically: don't allow publication of _data_ in open source contributions.
-- [Training](Contribution-Training)
+- [Publication Activity](../Activities/Level-3/Publication).  Specifically: don't allow publication of _data_ in open source contributions.
+- [Surveillance Activity](../Activities/Level-3/Surveillance).
+- [Training](../Activities/Level-3/Contribution-Training)
 
 ## Relevant Regulations
 

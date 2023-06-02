@@ -42,7 +42,7 @@ Therefore, staff engaging in open source development will need direct access to 
 
 **DISCUSS AT SIG: THIS IS PRE-EXISTING TEXT BUT IS WRONG I THINK**
 
-- As by definition the [Open Source work is not considered a firm-related business](../../operations/electronic-communications.md), only the firm-wide communication policies that would be applied to the incoming email notifications from GitHub, would be applicable here.
+- As by definition the [Open Source work is not considered a firm-related business](../../../operations/electronic-communications), only the firm-wide communication policies that would be applied to the incoming email notifications from GitHub, would be applicable here.
 
 - Taking into consideration the above, the OSR group would still strongly advise people to audit and confirm with their compliance team the policies applicable.
  

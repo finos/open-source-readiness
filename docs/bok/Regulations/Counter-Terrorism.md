@@ -26,7 +26,7 @@ These laws require financial institutions to implement measures that prevent, de
 
 ### Controls
 
-- [Publication Code Review Training](Contribution-Training#publication-review) 
+- [Publication Code Review Training](../Activities/Level-3/Contribution-Training#publication-review) 
 
 ## Relevant Regulation
 
