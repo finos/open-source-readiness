@@ -55,10 +55,16 @@ Let's work from left to right in the pipeline and examine what tools are availab
 
 GitHub's OSPO uses [Dependabot](https://github.com/dependabot) to review code in the many organisations and repos within their estate.  It has sufficient understanding of the different build tools for each programming language to analyse the source code and build the Software Bill of Materials in order that it can then perform [Software Composition Analysis](Supply-Chain-Security#software-composition-analysis).
 
+#### FINOS Security Scanning
+
+[FINOS Security Scanning](https://github.com/finos/security-scanning) contains GitHub actions and recipes for best practices around performing CI-based scanning of projects for vulnerabilities and license violations.  It recommends best-of-breed tools such as [AuditJS for NodeJS](https://www.npmjs.com/package/auditjs), [Safety for Python](https://pyup.io/safety/) and [OWASP Dependency Checking](https://github.com/jeremylong/DependencyCheck)
+
 </BoxOut>
 
 
 <BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository">
+
+Here are some tools popular with teams involved in the body of knowledge for inventorying activities:
 
 | Tool                        | Key Features                                                                                                   |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -73,6 +79,7 @@ GitHub's OSPO uses [Dependabot](https://github.com/dependabot) to review code in
 
 <BoxOut image="/img/bok/destinations/runtime.png" title="Runtime Environments">
 
-### JFrog Connect
+tbd.
+
 
 </BoxOut>
