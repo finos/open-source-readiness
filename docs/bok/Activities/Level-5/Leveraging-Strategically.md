@@ -5,7 +5,6 @@ tags:
   - Data Leakage (Risk)
   - Placeholder
   - Level 5 (OSMM)
-draft: true
 ---
 
 #Level 5 is about [Strategy](../Artifacts/Strategy)
