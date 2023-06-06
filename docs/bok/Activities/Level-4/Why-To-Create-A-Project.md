@@ -1,6 +1,16 @@
+---
+title: Open-Sourcing Internal Projects
+tags: 
+  - Level 4 (OSMM)
+  - OSPO (Role)
+  - CIO/CTO (Role)
+sidebar_position: 1
+sidebar_label: Level 4
+---
+
 # "Why to create an Open Source project?"
 
-Contributing whole projects to open source can have many reasons. When it comes to a financial institution deciding to open source, it is not different, but the reasoning behind might be different. The reasons why would do a financial company create a new open source project:
+Contributing whole projects to open-source can have many reasons. When it comes to a financial institution deciding to open-source, it is not different, but the reasoning behind might be different. The reasons why would do a financial company create a new open source project:
 
  * There is a marketing value to talk about by the corporate communications teams
  * There is a hiring value to talk about by the human resources teams
@@ -8,9 +18,11 @@ Contributing whole projects to open source can have many reasons. When it comes 
 
 Next to the obvious marketing and hiring values, as you target higher level activities on the OSR activities list, more crucial benefits become visible too.
 
-However, how would you know that it would be used by others beforehand? Is it worth putting the effort into open sourcing if you do not know the answer for this question beforehand? Tha answer is about the foundational architectural aspirations of a pluggable platform.
+When the new project is released, the immediate need for it to be used by others is not necessarely visible. This raises the question, does it worth putting the effort into open-sourcing if the usage cannot be guessed beforehand. The answer for this should be aligned with pluggable platforms.
 
-## Foundational architectural aspiration of a pluggable platform
+## Pluggable platform
+
+When you start your open-sourcing effort, you hope for an ecosystem to be enacted, part of the [Foundations](../Level-3/Foundations).
 
  * When you start, you do not know if it would be used – is this important? They might use another OSS offer or their proprietary one
  * There is no reason for a company to own every line of code – or even to find something that tries to meet all your needs
