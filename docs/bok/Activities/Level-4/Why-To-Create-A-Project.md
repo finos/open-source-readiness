@@ -1,12 +1,12 @@
-# "Why Going Open Source?"
+# "Why to create an Open Source project?"
 
-Many reasonings can be defined why would someone start contributing to open source. When it comes to a financial company, it's not different, but might be a different reasoning behind. So, why would do a financial company go and contribute to open source:
+Contributing whole projects to open source can have many reasons. When it comes to a financial institution deciding to open source, it is not different, but the reasoning behind might be different. The reasons why would do a financial company create a new open source project:
 
  * There is a marketing value to talk about by the corporate communications teams
  * There is a hiring value to talk about by the human resources teams
  * There is the value that the contribution would be used by others
 
-Next to the obvious marketing and hiring values, as you arrive to a higher level of understanding of open source, the more crucial benefits become visible too.
+Next to the obvious marketing and hiring values, as you target higher level activities on the OSR activities list, more crucial benefits become visible too.
 
 However, how would you know that it would be used by others beforehand? Is it worth putting the effort into open sourcing if you do not know the answer for this question beforehand? Tha answer is about the foundational architectural aspirations of a pluggable platform.
 
