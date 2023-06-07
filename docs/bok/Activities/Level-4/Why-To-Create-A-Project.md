@@ -7,7 +7,7 @@ tags:
 sidebar_position: 1
 ---
 
-Just as there are many reasons to [contribute to open source projects(../Level-3/Contributing-To-Projects), it is the same when it comes to a financial institution deciding to open-source.  However, the reasoning behind might be different. 
+Just as there are many reasons to [contribute to open source projects](../Level-3/Contributing-To-Projects), it is the same when it comes to a financial institution deciding to open-source.  However, the reasoning behind might be different. We are not trying to cover all reasonings for engaging in open source, see [Making the Case](../Level-3/Making-The-Case) for more basis for that. 
 
 The reasons why a financial company would start an open source project are:
 
@@ -17,7 +17,7 @@ The reasons why a financial company would start an open source project are:
 
 Next to the obvious marketing and hiring values, as you target [higher level activities](../Introduction) on the OSR activities list, more crucial benefits become visible too.
 
-Often, when a new project is released, initial uptake is low. This raises the question: was it worth putting the effort into open-sourcing if the usage cannot be guessed beforehand? The answer for this should be aligned with _pluggable platforms_.
+Often, when a new project is released, initial uptake is low. This raises the question: was it worth putting the effort into open-sourcing if the usage, and the type of usage cannot be guessed beforehand? In case of the latter, we have to synthetize the 'call-to-action' for the particular project as part of its inception and open-sourcing efforts - for which the arguments below can give some reasonings. In case of the former, the answer for this should be aligned with _pluggable platforms_.
 
 ## Pluggable Platforms
 
