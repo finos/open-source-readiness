@@ -1,5 +1,5 @@
 ---
-title:  Why Open-Source an Firm Project?
+title:  Why Open-Source a Firm Project?
 tags: 
   - Level 4 (OSMM)
   - OSPO (Role)
