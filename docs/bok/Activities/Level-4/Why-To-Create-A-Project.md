@@ -5,16 +5,15 @@ tags:
   - OSPO (Role)
   - CIO/CTO (Role)
 sidebar_position: 1
-sidebar_label: Level 4
 ---
 
-# "Why to create an Open Source project?"
+# Why to create an Open Source project?
 
 Contributing whole projects to open-source can have many reasons. When it comes to a financial institution deciding to open-source, it is not different, but the reasoning behind might be different. The reasons why would do a financial company create a new open source project:
 
  * There is a marketing value to talk about by the corporate communications teams
  * There is a hiring value to talk about by the human resources teams
- * There is the value that the contribution would be used by others
+ * There is the value that the contribution would be used by others, and through this, influence communities of strategic importance to the organization
 
 Next to the obvious marketing and hiring values, as you target higher level activities on the OSR activities list, more crucial benefits become visible too.
 
@@ -22,13 +21,17 @@ When the new project is released, the immediate need for it to be used by others
 
 ## Pluggable platform
 
-When you start your open-sourcing effort, you hope for an ecosystem to be enacted, part of the [Foundations](../Level-3/Foundations).
+When you start your open-sourcing effort, you hope for an ecosystem to be enacted, part of the [Foundations](../Level-3/Foundations). At the start, you do not yet know the upcoming usage, those targeted might be using another open source offer or using their proprietary one.
 
- * When you start, you do not know if it would be used – is this important? They might use another OSS offer or their proprietary one
- * There is no reason for a company to own every line of code – or even to find something that tries to meet all your needs
- * If your architecture pluggable, it makes it possible to selectively choose components from OSS and if needed, from commercial vendors that make sense given your requirements
+However, there should not be a reason for a company to own every line of code - most likely already using open source, and the same way, the code owned might be co-owned as part of an open source.
 
-## The reasons why open sourcing is a good idea
+As a result, if your architecture is pluggable enough, avoding monolith patterns, it makes it possible to selectively choose components from open source and if needed, from commercial vendors that make sense given your requirements.
+
+# Arguments for open-sourcing your project
+
+Here are 4 different arguments that can be used effectively to change trajectory.
+
+## Vendor cooperation enablement
 
  * It enables a vendor, who is eager to get their product used, to show how their libraries, solutions are working together with your infrastructure pieces beforehand, and able to bring a more personalized demo
  * Using open source contributions can and do accelerate and highly simplifies these partnerships
@@ -72,5 +75,10 @@ An actual example of how this process went an elevated the discussion:
  * If you using open source, likely this would mean that you use standard open source tooling too (for compiling, linting, code coverage, security checks and more)
  * This will help you to keep free of unnecessary bindings to internal tooling, processes and implementation
  * By using off the shelf open source build infrastructure, the capabilities could be swiftly adopted internally as well and can leverage industry leading DevOps tooling
+
+### An example
+
+ * Good examples for this are FDC3, Legend, Morphir, Plexus and as the best example, CDM
+ * Teams working with these technologies and contributing to it and picking up the methods of involving it are more likely to use standardized methods in their own development practices too
 
 
