@@ -28,7 +28,7 @@ Open source development is inherently a social activity.  It isn't just code bei
 - Committing Code
 - Raising / Processing Pull Requests
 - Raising / Commenting on Issues
-- "Star"ing a GitHub repo 
+- "Star"ing a GitHub/GitLab repo 
 - Code Reviews
 
 **Therefore:** staff engaging in open source development will need direct access to GitHub / GitLab.  Can employees use a site like GitHub but have controls in place to meet electronic communications requirements?
@@ -64,7 +64,7 @@ However, the question then becomes - why is the firm publishing intellectual pro
 
 Employees would need to get permission (via an [Outside Business Interest (OBI) declaration](https://www.lawinsider.com/dictionary/outside-business-interests)) to engage with the project.  This is quite an overhead for employees merely playing around with tools like GitHub, but can be made to work.
 
-In this case, **surveillance of GitHub activity is required** (see below).
+In this case, **surveillance of GitHub / GitLab activity is required** (see below).
 
 ### 3.  Firm Business Decided on a Per-Project Basis
 
@@ -72,23 +72,23 @@ A third stance is to evaluate each project in turn for whether or not it is "fir
 
 **Tip:** One approach to keeping track of "firm business" projects is to maintain a GitHub fork of the project inside the firm's [GitHub Organisation](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#organization-accounts)
 
-In this case, **surveillance of GitHub activity is required** (see below).
+In this case, **surveillance of GitHub / GitLab activity is required** (see below).
  
 ## Approaches to Surveillance
 
 Broadly, surveillance needs to work like this:
 
-1.  Build a list of all employee's GitHub IDs (see below).
-2.  Use GitHub APIs (or tools that make use of them) to track all contributions (as described above). 
+1.  Build a list of all employee's GitHub/GitLab IDs (see below).
+2.  Use GitHub/GitLab APIs (or tools that make use of them) to track all contributions (as described above). 
 3.  Then either record **in full**, or **per-project** based on the firm-business rules as with other [Regulated Communications](../../Regulations/Communication)
  
-## GitHub IDs
+## GitHub/GitLab IDs
 
 Opinion varies on the best way to approach this:
 
-### 1. Firm-specific & Personal GitHub IDs
+### 1. Firm-specific & Personal GitHub/GitLab IDs
 
-This is where the user has separate GitHub IDs for their own contributions and firm ones.  The user's firm email address is associated with one ID, whereas their personal address is associated with another.  
+This is where the user has separate IDs for their own contributions and firm ones.  The user's firm email address is associated with one ID, whereas their personal address is associated with another.  
 
 _In theory_ this allows the firm to segregate firm and non-firm business.  However there are several problems with this approach:
 
@@ -98,17 +98,17 @@ _In theory_ this allows the firm to segregate firm and non-firm business.  Howev
 
  > "One person or legal entity may maintain no more than one free Account (if you choose to control a machine account as well, that's fine, but it can only be used for running a machine)." - [Terms of Service, _GitHub_](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)
  
-3. GitHub IDs are property of the employee, not the firm.  Since the employee knows the password for their GitHub account, they will be able to continue to use it in other contexts irrespective of the firm's wishes.
+3. IDs are property of the employee, not the firm.  Since the employee knows the password for their account, they will be able to continue to use it in other contexts irrespective of the firm's wishes.
 
-### 2. Single GitHub ID
+### 2. Single GitHub/GitLab ID
 
-The user associates their personal _and_ firm email addresses with the same GitHub ID.  
+The user associates their personal _and_ firm email addresses with the same ID.  
 
 As mentioned above, from some points of view, _any_ contribution by the user whilst employed at the firm is firm business (see: [ownership of IP](../../Artifacts/CLAs-And-DCOs#Understanding-Copyright)), so there is no point in having a separate ID.  _All contributions should be surveilled anyway_.
 
-### 3. Different Email Addresses, same GitHub ID
+### 3. Different Email Addresses, same ID
 
-Although _commits_ can be signed with a given email address to denote where the work is being done (e.g. using the firm email address whilst conducting firm business) other GitHub activity such as **commenting on issues, raising PRs** etc. are not tied to a given email address but to a GitHub ID.  
+Although _commits_ can be signed with a given email address to denote where the work is being done (e.g. using the firm email address whilst conducting firm business) other GitHub activity such as **commenting on issues, raising PRs** etc. are not tied to a given email address but to a GitHub/GitLab ID.  
 
 This essentially makes it impossible to disambiguate firm- and non-firm-related activity by email address so we recommend recording this on a per-project basis. 
 
