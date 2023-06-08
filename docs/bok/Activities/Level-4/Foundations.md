@@ -5,7 +5,7 @@ tags:
   - Level 4 (OSMM)
   - OSPO (Role)
   - Developer (Role)
-sidebar_position: 4
+sidebar_position: 5
 sidebar_label: Foundations
 ---
 

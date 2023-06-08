@@ -9,7 +9,7 @@ tags:
   - CLAs-And-DCOs (Artifact)
   - Licenses (Artifact)
   - Level 4 (OSMM)
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 **THIS IS A PLACEHOLDER**
