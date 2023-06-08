@@ -10,6 +10,7 @@ tags:
   - Licenses (Artifact)
   - Level 4 (OSMM)
 sidebar_position: 2
+sidebar_label: How
 ---
 
 **THIS IS A PLACEHOLDER**
