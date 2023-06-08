@@ -10,7 +10,7 @@ tags:
   - Licenses (Artifact)
   - Level 4 (OSMM)
 draft: true
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 - making the business case for this.
