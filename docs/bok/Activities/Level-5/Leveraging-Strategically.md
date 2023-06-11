@@ -7,7 +7,7 @@ tags:
   - Level 5 (OSMM)
 ---
 
-#Level 5 is about [Strategy](../Artifacts/Strategy)
+# Level 5 is about [Strategy](../Artifacts/Strategy)
 
 Most companies measure their OSPO's success via the achievements made at earlier OSMM maturity levels. You've addressed a compliance concern, saved money, made engineers more productive, improved the image of your company which enabled hiring tech talent, talent who could be productive quickly since they are already familiar with your tech stack. Levels 1-4 took the organization from ad-hoc usage of open source through stages of maturity. Initially the organization focused on abating and addressing potential issues by employing basic compliance techniques. Eventually the organization established behaviors that foster engineering successes. As the organization matured, it employed generative techniques to create possibilities, such as launching a new open source project and fostering an active community. Level 5 is about [Strategy](../Artifacts/Strategy). At this level, you seek to make decisions that shape the landscape in your favor so that you can create new possibilities that were previously unavailable to you.
 
