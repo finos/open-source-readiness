@@ -19,7 +19,7 @@ Consider the work you invested in being an effective consumer of open source pro
 
 Creating an effective Open Source Program Office does not make you a chess master. But it does give you and your organization capabilities that you will need to leverage. It gives you visibility into the code base that make your core products and services operate. For many, there's an overwhelming amount of code to manage. Visibility can help you track what you have and what you need to do with your code. That's at the level of source code. But for many organizations, their purpose is achieved via financial outcomes. Your OSPO must somehow help your organization save money, and in fact may help it make money. The biggest challenge with saving money is how to measure the savings. The biggest problem with making money is that the credit will go to the team you enabled. Thus, your program will likely get the most assessments at OSMM Level 4. At Level 5, you are operating at the level of trust and opportunity.
 
-##Technology Strategy Informed by Open Source Options
+## Technology Strategy Informed by Open Source Options
 
 Every technology organization faces the dreaded "buy vs. build" debate. Often the decisions are made based on a view of what the organization cannot do, not what they wish they could do. The view may be realistic or biased by risk aversion. But an organization with open source capabilities has a greater set of capabilities. Their engineering teams are more collaborative. They can engage in more partnerships. 
 
