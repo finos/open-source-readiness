@@ -18,4 +18,9 @@ If you prefer, the same lesson content is available on edX as part of the [Secur
 
 To propose changes to the course content and/or reuse the material, [see the course content repository on GitHub](https://github.com/ossf/secure-sw-dev-fundamentals).
 
-[Begin "Developing Secure Software" course (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/)
+
+
+## Further Reading
+ 
+- [Begin "Developing Secure Software" course (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/)
+- [Body of Knowledge Training Index](../bok/Training/Introduction)

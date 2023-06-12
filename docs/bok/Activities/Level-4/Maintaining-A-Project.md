@@ -5,7 +5,10 @@ tags:
   - Data Leakage (Risk)
   - Placeholder
   - Level 4 (OSMM)
-sidebar_position: 2
+authors: 
+  - name: Brittany Istenes
+sidebar_position: 3
+sidebar_label: Maintaining
 ---
 
 We currently live in a world where OSS is everywhere, consumable, helpful and can make a positive or negative outcome on the programs we rely on.  Strong open source projects can lessen technical debt, increase reusability and discoverability.  For the purpose of this guide, we will cover some key principles and practices for managing your open source project effectively.

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 0
 title: Welcome to Open Source Readiness!
 ---
 

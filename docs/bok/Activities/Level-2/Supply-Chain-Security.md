@@ -10,11 +10,10 @@ tags:
   - Dependency Risk
   - Operational Risk
   - Level 2 (OSMM) 
-draft: true
 sidebar_position: 4
 sidebar_label: Security
 ---
-
+**THIS IS A PLACEHOLDER**
 
 - EU Cyber Resilience Act
 - https://www.congress.gov/bill/117th-congress/senate-bill/4913

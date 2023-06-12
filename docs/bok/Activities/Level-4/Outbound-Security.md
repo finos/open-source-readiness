@@ -5,7 +5,7 @@ tags:
   - Level 4 (OSMM)
   - OSPO (Role)
 draft: true
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 how and why.

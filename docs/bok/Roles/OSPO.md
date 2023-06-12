@@ -35,7 +35,7 @@ The OSPO interacts with open source software by evaluating open source projects 
 
 ### Internal Stakeholders
 
- - Works closely with [Business Unit](Business-Unit) leaders and [Product Managers](Product-Manager).
+ - Works closely with [Business Unit](Line-Of-Business) leaders and [Product Managers](Product-Manager).
  - Reports to the [Chief Technology Officer](CTO).
 
 </BoxOut>

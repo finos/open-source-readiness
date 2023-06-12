@@ -5,8 +5,10 @@ tags:
   - Placeholder
   - OSPO (Role)
   - Level 3 (OSMM)
-sidebar_position: 4
-author: Brittany Istenes
+sidebar_position: 7
+sidebar_label: Engagement
+authors:
+  - name: "Brittany Istenes"
 ---
 
 Within the Open Source Ecosystem, millions of projects exist and some of the projects are duplicate efforts.  The open source community is vast and sometimes very hard to reach.  
@@ -23,6 +25,8 @@ Before starting out in the initial project creation phase, here are some questio
 - Do you have the ability to support it? 
 
 If you answered yes to many of the questions listed above, you can follow the guide below to see how you can make your project a success. 
+
+## Tips
 
 **Build and nurture relationships with your community members:**
 - The success of your project starts with the community manager 
@@ -82,7 +86,7 @@ If you answered yes to many of the questions listed above, you can follow the gu
 
 
 
-## Futher Reading
+## Further Reading
 
 - https://opensource.com/article/22/12/open-source-community-management
 - https://www.redhat.com/en/blog/best-practices-community-practice-open-source-way-journey

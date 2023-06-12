@@ -4,6 +4,7 @@ tags:
   - OSPO (Role)
   - CEO (Role)
   - Placeholder
+  - Other-Training
 ---
 
 Open Source Business Models 

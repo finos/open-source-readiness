@@ -7,9 +7,13 @@ tags:
   - CIO/CTO (Role)
   - CEO (Role)
   - Staff Risk
-draft: true
-sidebar_position: 5
+sidebar_position: 9
+sidebar_label: Talent
 --- 
+
+Managing talent in financial institutions is crucial because the quality, motivation, and expertise of their workforce directly influence the institutions' ability to innovate, maintain a competitive edge, comply with regulatory requirements, and ultimately drive financial performance and growth.
+
+**THIS IS A PLACEHOLDER**
  
 Train new and coach existing open source leaders 
 Recognize contributions of organization's members

@@ -3,6 +3,7 @@ title: Chief Technology Officer
 sidebar_label: CTO
 tags: 
   - CTO (Role)
+  - Policy
 ---
 
 <BoxOut title="Chief Technology Officer" image="/img/bok/roles/cto.png">

@@ -11,7 +11,13 @@ sidebar_position: 8
 sidebar_label: Culture
 ---
 
-Your OSPO
+
+# Your OSPO
+
+Historically, employees in banks have faced challenges contributing to open source due to factors such as stringent regulatory environments, the sensitive nature of financial data, concerns over intellectual property rights, lack of internal policies or guidelines related to open source contributions, and a traditional banking culture that may not fully embrace the open, collaborative ethos of open source development.
+
+Building a culture around open source is crucial to encourage contributions in the rapidly evolving financial technology landscape.
+
 
 
 tbd
@@ -46,6 +52,22 @@ Remove organizational silos and identify talent across the organization
 - need to include details of internal licenses, slas.
 
 
+
+
+## Staffing
+
+_Who do you need in the OSPO?_
+
+- **Guild Model**:  ideally, you need representatives interacting with the OSPO from all the areas of business: finance, HR, Legal etc.   Several firms operate their OSPO on a "Guild Model", with staff being present in the OSPO and their line function.
+- **IP Council**:  You may need someone who is expert on software licensing if this is part of the remit of your OSPO.
+- IP Policy: The organisation's IP Policy has a bearing on whether employees can contribute to open source.  
+
+## Remit
+
+_What concerns are inside the OSPO?  What should you not focus on?_
+
+- **A Software Catalogue**: sometimes, an OSPO is about mandating certain types of technologies.  Are you trying to establish standards for the estate?   
+- **Vulnerabilities**:  who is dealing with reported vulnerabilities on used projects?  Is there reporting and a process around closing these?   Should the OSPO be tracking that?   In order to establish this, you will need to know what software is being consumed within the organisation.
 
 ## Culture
 
