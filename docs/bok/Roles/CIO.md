@@ -3,6 +3,7 @@ title: Chief Information Officer
 sidebar_label: CIO
 tags: 
   - CIO (Role)
+  - Policy
 ---
 
 <BoxOut title="Chief Information Officer" image="/img/bok/roles/cio.png">

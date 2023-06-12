@@ -6,7 +6,18 @@ tags:
   - Dependency Risk
   - Developer Training
   - SBOMs (Artifacts)
+  - Training
+  - LF-Training
+course:
+  publisher: Linux Foundation
+  code: LFC192
+  length: 2 hours
+  certification: Digital
+  cost: 0
+  link: https://training.linuxfoundation.org/training/generating-a-software-bill-of-materials-sbom-lfc192/
+sidebar_label: LFC192
 ---
+
 
 This is an introductory course designed for directors, product managers, open source program office staff, security professionals, and developers.
 
@@ -16,9 +27,4 @@ This course has been reported as being outdated.
 
 ## Details
 
-- Publisher: Linux Foundation
-- Code: LFC192
-- Length: 2 hours
-- Certification: Digital
-- Cost: 0
-- Link: https://training.linuxfoundation.org/training/generating-a-software-bill-of-materials-sbom-lfc192/
+<CourseDetails course={frontMatter.course}/>

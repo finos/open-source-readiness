@@ -5,6 +5,16 @@ tags:
   - OSPO (Role)
   - Product Manager (Role)
   - Security Expert (Role)
+  - LF-Training
+  - Training
+course:
+  publisher: Linux Foundation
+  code: LFD104x
+  length: 4.5 hours
+  certification: Digital
+  cost: 0
+  link: https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/
+sidebar_label: LFD104x
 ---
 
 
@@ -16,10 +26,4 @@ This course is designed to give you an overview of security basics, including sy
 
 ## Details
 
-
-- Publisher: Linux Foundation
-- Code: LFD104x
-- Length: 4.5 hours
-- Certification: Digital
-- Cost: 0
-- Link: https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/
+<CourseDetails course={frontMatter.course}/>

@@ -2,13 +2,14 @@
 title: Leveraging Open Source as a Strategy
 tags: 
   - Developer (Role)
-  - Data Leakage (Risk)
   - Placeholder
   - Level 5 (OSMM)
-draft: true
+  - Strategic Risk
 ---
 
-Refer to [Strategy](../Artifacts/Strategy) as the _output_ from this activity.
+**THIS IS A PLACEHOLDER**
+
+Refer to [Strategy](../../Artifacts/Strategy) as the _output_ from this activity.
 
 Shaping the organization's software strategy and processes and role of open source within the organization's software ecosystem
 Bring the outside inside the organization

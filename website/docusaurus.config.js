@@ -22,7 +22,6 @@ module.exports={
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": false,
           "path": "../docs",
-          "sidebarPath": "sidebars.json",
           "editUrl": "https://github.com/finos/open-source-readiness/edit/main/docs"
         },
         "blog": {},
@@ -61,12 +60,8 @@ module.exports={
               "to": "docs/osr-resources"
             },
             {
-              "label": "OSR Common Problems",
-              "to": "docs/playbook/common-problems"
-            },
-            {
               "label": "Body of Knowledge",
-              "to": "docs/bok/Body-of-Knowledge"
+              "to": "docs/bok/Introduction"
             },
             {
               "to": "https://survey.osmm.finos.org/551476",

@@ -2,21 +2,7 @@ import React from 'react';
 import {usePluginData} from '@docusaurus/useGlobalData'
 import Link from '@docusaurus/Link';
 import {useLocation} from '@docusaurus/router';
-import clsx from 'clsx';
-import styles from './styles.module.css'
 
-function Tag({permalink, label}) {
-  return (
-    <Link
-      href={permalink}
-      className={clsx(
-        styles.tag,
-        styles.tagRegular,
-      )}>
-      {label}
-    </Link>
-  );
-}
 
 function DocItem({doc}) {
     return (
@@ -25,7 +11,6 @@ function DocItem({doc}) {
           <h3>{doc.title}</h3>
         </Link>
         {doc.description && <p>{doc.description}</p>}
-        {doc.tags.map(t => <Tag permalink={t.permalink} label={t.label} />)}
       </article>
     );
   }

@@ -93,7 +93,7 @@ A firm would need to adopt a model like this into its security organisation whic
  
  - _Response_: the organisation would have a process in place for dealing with the vulnerability (applying patches, communicating with stakeholders, implementing workarounds etc.)
 
-These new controls will be described within [Policy Documents](../../Artifacts/Policy) that the compliance department will help to write.  Setting up controls like these might involve significant [training](Training) of staff.
+These new controls will be described within [Policy Documents](../../Artifacts/Policy) that the compliance department will help to write.  Setting up controls like these might involve significant [training](Consumption-Training) of staff.
 
 #### Example Control:  Approval Process for Using A New Software Library
 
@@ -103,7 +103,7 @@ Consideration might be given to the venue in which the software is running.  _In
 
 #### Example Control: Security Training
 
-At this point, the organisation might consider [Training](Training) around security topics for open source.
+At this point, the organisation might consider [Training](Consumption-Training) around security topics for open source.
 
 ### 5. Monitor
 

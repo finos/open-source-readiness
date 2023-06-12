@@ -9,9 +9,11 @@ tags:
   - CLAs-And-DCOs (Artifact)
   - Licenses (Artifact)
   - Level 4 (OSMM)
-draft: true
 sidebar_position: 2
+sidebar_label: How
 ---
+
+**THIS IS A PLACEHOLDER**
 
 - making the business case for this.
 
@@ -66,5 +68,5 @@ company logo
 - Policy for speaking externally
 - Social Media (inc. github)
 
-
+- what licenses to use (chamindra).
 

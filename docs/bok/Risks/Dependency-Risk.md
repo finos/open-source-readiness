@@ -3,15 +3,26 @@ title: Dependency Risk
 tags:
   - Dependency Risk
   - Developer (Role)
+  - Policy
 ---
 
 <BoxOut title="Software Dependency Risk" image="/img/bok/risks/dependency-risk.png">
 
-Software dependency risk refers to the potential negative consequences of relying on external software components that can compromise the security, performance, or functionality of an organization's software systems.
+Software dependency risk refers to the potential negative consequences of relying on external software components that can compromise the security, performance, quality or functionality of an organization's software systems.
+
+Open source software may depend on a small number of volunteers who may lose interest, motivation, or resources over time. Users and contributors need to ensure that the projects they rely on or contribute to have a healthy and active community, or be prepared to step in and provide alternatives if a project is losing momentum.
+
+## Quality
+
+Open source software may vary in quality, reliability, and performance depending on the skills and experience of the contributors. Users and contributors need to evaluate the quality of the code, documentation, testing, and reviews before using or contributing to a project. There are vendor tooling and suggested self administered maturity surveys to develop the scoring methods.
 
 ## Sustainability
 
 Open source _sustainability_ refers to the long-term viability and health of open-source software projects.  Key issues in sustainability include [Key Person Risk](Staff-Risk) (including burn-out from key maintainers) and lack of funding.
+
+### Are Open Source Projects More Sustainable Than Internal Ones?
+
+Open Source projects by definition have a wider pool of users and contributors to draw from than internal projects.   [Deutsche Bank Open Sourced the Spring-Bot project](https://springbot.finos.org) and donated it to FINOS as this was seen to be more likely to result in the long-term viability of the project than maintaining it in-house.
 
 ## Vulnerability
 
@@ -27,10 +38,11 @@ A software vulnerability is a flaw or weakness in a software program's design, i
 
 **Example: **In 2016, a popular JavaScript library called "left-pad" was removed from the [npm repository](https://en.wikipedia.org/wiki/Npm_(software)), causing widespread disruption for developers and organizations that relied on this library. The incident highlighted the risks of relying on external dependencies, as well as the importance of having contingency plans in place to manage dependency risks.
 
+**See Also:**
+
+- [Dependency Hell](https://en.wikipedia.org/wiki/Dependency_hell)- Wikipedia article explaining a variation of dependency risk.
+- [Top 10 Open Source Software Risks](https://www.endorlabs.com/blog/introducing-the-top-10-open-source-software-oss-risks) Endor Labs Station 9 research team report.
+
 ## Risk Management Activities
 
 <BokTagList tag="Dependency Risk" filter="Activities" />
-
-## Further Reading
-
-- [Top 10 Open SOurce Software Risks](https://www.endorlabs.com/blog/introducing-the-top-10-open-source-software-oss-risks) Endor Labs Station 9 research team report.

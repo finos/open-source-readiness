@@ -2,10 +2,10 @@
 authors:
   - name: Aaron Williamson
   - url: https://github.com/copiesofcopies
-title: "Reference OSS Policy"
+title: "Reference FOSS Policy"
 tags:
   - Legal (Role)
-draft: true
+sidebar_label: Policy (Reference)
 ---
 
 
