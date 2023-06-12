@@ -5,6 +5,16 @@ tags:
   - OSPO (Role)
   - Product Manager (Role)
   - Security Expert (Role)
+  - Training
+  - LF-Training
+course:
+  publisher: Linux Foundation
+  code: LFD106x
+  length: 5-6 hours
+  certification: Digital
+  cost: 0
+  link: https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/
+sidebar_label: LFD106x
 ---
 
 ## Synopsis
@@ -13,10 +23,4 @@ This course is designed to show you how to verify software for security, and giv
 
 ## Details
 
-
-- Publisher: Linux Foundation
-- Code: LFD106x
-- Length: 5-6 hours
-- Certification: Digital
-- Cost: 0
-- Link: https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/
+<CourseDetails course={frontMatter.course}/>

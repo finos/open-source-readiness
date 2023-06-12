@@ -57,9 +57,11 @@ Many open source projects on [GitHub](https://github.com) have built-in workflow
 
 <BoxOut title="Copyright In Corporate Environments" image="/img/bok/roles/developer.png" >
 
-In general, when developers create software or other original works as part of their job duties, the copyright ownership typically belongs to the employer rather than the individual developer. 
+In general, when developers create software or other original works as part of their job duties, _in many jurisdictions_ the copyright ownership typically belongs to the employer rather than the individual developer. 
 
 This means that it is the _employer_ that has the right to use, modify, distribute, and profit from the work, not the developer. 
+
+**Note:** this is not true in every jurisdiction.
 
 </BoxOut>
 

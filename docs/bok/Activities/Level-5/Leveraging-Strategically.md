@@ -2,7 +2,6 @@
 title: Leveraging Open Source as a Strategy
 tags: 
   - Developer (Role)
-  - Data Leakage (Risk)
   - Placeholder
   - Level 5 (OSMM)
 ---
@@ -22,9 +21,6 @@ Creating an effective Open Source Program Office does not make you a chess maste
 ## Technology Strategy Informed by Open Source Options
 
 Every technology organization faces the dreaded "buy vs. build" debate. Often the decisions are made based on a view of what the organization cannot do, not what they wish they could do. The view may be realistic or biased by risk aversion. But an organization with open source capabilities has a greater set of capabilities. Their engineering teams are more collaborative. They can engage in more partnerships. 
-
-
-**---Stuff that was here**
 
 Shaping the organization's software strategy and processes and role of open source within the organization's software ecosystem Bring the outside inside the organization Help to understand and navigate project politics Evaluate OSS projects whether technical, health or compliance assessment Provide open source guidance to people whether managers, contributors, open source project leaders/project maintainers with their issues Advise on which open source technologies to adopt, hold or avoid
 

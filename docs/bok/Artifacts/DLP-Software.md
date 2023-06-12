@@ -5,6 +5,7 @@ tags:
   - OSPO (Role)
   - Legal (Role)
   - CIO/CTO (Role)
+sidebar_label: DLP Software
 ---
 
 This article looks at Data Loss Prevention (DLP) software commonly used in financial organisations and how these impact open source consumption and contribution.  It is not a complete reference for the subject of DLP generally, but should act as a starting point for understanding the issues involved. 
@@ -19,7 +20,7 @@ This article looks at Data Loss Prevention (DLP) software commonly used in finan
 
 ## Types of DLP Software
 
-There are three basic types of DLP software, which are worth covering here:
+There are four basic types of DLP software, which are worth covering here:
 
 - **Endpoint**: _data in use_ DLP solutions are installed on an end-user machine (say a laptop or PC) or a server.  This works by monitoring and controlling the flow of data on individual endpoints. The solution scans files and data in real-time, looking for sensitive information (e.g. social security numbers, credit card numbers, or confidential business data).  If it identifies sensitive data, it can either block the data from being transferred, encrypt it, or apply other protective measures, based on the policies and rules defined by the organization. 
 
@@ -27,7 +28,9 @@ There are three basic types of DLP software, which are worth covering here:
 
 - **Network**: _data in motion_ DLP solutions usually involve Firewalls set up at egress points at the perimeter of the network (see below).  
 
-This article focuses on Network DLP, since this often interferes with open source consumption and contribution.
+- **Source Control DLP**: some DLP tools focus specifically on open source contribution DLP (see below). 
+
+This article focuses on Network DLP and Source Control DLP, since this often interferes with open source consumption and contribution.
 
 ## Firewalls for Network DLP
 
@@ -57,7 +60,7 @@ The aim of the firewall is to filter packets as they pass through, only allowing
 
 ### DLP and Open Source
 
-Internal firewalls have been used as a control for [Data Leakage Prevention (DLP)](../Activities/Level-3/Data-Leakage-Prevention).  By removing access to sites such as [Google Docs](https://docs.google.com), or popular social networking sites, compliance teams are able to remove a certain vector of (mainly accidental) data exfiltration.  
+Internal firewalls have been used as a control for [Data Leakage Prevention (DLP)](../risks/Data-Leakage-Risk).  By removing access to sites such as [Google Docs](https://docs.google.com), or popular social networking sites, compliance teams are able to remove a certain vector of (mainly accidental) data exfiltration.  
 
 Sites like [GitHub](https://github.com) are often included in deny-lists, since data can be posted to them.  This prevents developers from viewing a large amount of open source software.  
 
@@ -106,7 +109,7 @@ A second technique is to _fingerprint_ the private data within the organisation 
 
 Here are some tools that support data fingerprinting:
 
-- [Palo Alto Networks DLP]https://www.paloaltonetworks.com/network-security/enterprise-data-loss-prevention
+- [Palo Alto Networks DLP](https://www.paloaltonetworks.com/network-security/enterprise-data-loss-prevention)
 
 - [Forcepoint DLP](https://www.forcepoint.com/product/dlp-data-loss-prevention)
 
@@ -114,7 +117,7 @@ Here are some tools that support data fingerprinting:
 
 This article describes how DLP software works in the enterprise, focusing on firewalls, and how this can be a barrier to contributing to open source.   
 
-For more details on how to effectively contribute to open source given these constraints, please see the article about [contribution and DLP](../Activities/Level-3/DLP)
+For more details on how to effectively contribute to open source given these constraints, please see the article about [Publication](../Activities/Level-3/Publication)
 
 ## Further Reading
 

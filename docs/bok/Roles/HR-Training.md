@@ -3,6 +3,7 @@ title: Human Resources and Training
 sidebar_label: HR
 tags:
   - HR/Training (Role)
+  - Policy
 ---
 
 <BoxOut title="Human Resources / Training" image="/img/bok/roles/hr.png">
@@ -32,7 +33,7 @@ HR interact with open source software by ensuring that new employees are trained
 
 Works closely with:
 
-- [Business Unit Managers](Business-Unit)
+- [Business Unit Managers](Line-Of-Business)
 - [Product Managers](Product-Manager)
 - Reports to the [Chief Technology Officer](CTO).  -- is this right?
 - Employees

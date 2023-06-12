@@ -1,7 +1,7 @@
 ---
 id: whitepaper
-title: "Whitepaper: Business Value of Open Source in Financial Services"
-sidebar_label: WhitePaper
+title: "White Paper: Business Value of Open Source in Financial Services"
+sidebar_label: White Paper
 ---
 
 This white paper outlines the benefits and value of open source for financial services across varying degrees of open source engagement including consumption, contribution to existing projects and open sourcing proprietary software. It also looks at the real and perceived risks and challenges to open source participation and ways to address these.

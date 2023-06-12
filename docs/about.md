@@ -1,5 +1,6 @@
 ---
 id: about
+sidebar_position: 1
 title: About the OSR SIG
 sidebar_label: About
 ---
@@ -63,7 +64,7 @@ Insert bio here
 Insert bio here
 </Bio>
 
-### FINOS OSR Team
+## Contributing Authors
 
 <Bio name="Rob Moffat" image="/img/people/rob-moffat.jpeg" organisation="FINOS">
 Rob Moffat is a seasoned IT professional living in the UK. Over the last twenty years, he has worked at many of the top-tier investment banks in London on regulatory and transformation IT projects. Rob is a staunch advocate of Open Source and works on many open source projects, including the FINOS "Spring Bot" project which he built and contributed whilst working at Deutsche Bank.  Rob holds a Computer Science degree and an MBA and is the author of <a href="https://www.amazon.co.uk/Risk-First-Software-Development-1-Menagerie/dp/1717491855">Risk-First Software Development</a>.
@@ -72,8 +73,6 @@ Rob Moffat is a seasoned IT professional living in the UK. Over the last twenty 
 <Bio name="Jim StClair" image="/img/people/jim-stclair.jpeg" organisation="FINOS">
 Jim St. Clair is a former Executive Director in the Linux Foundation and an expert in the field of global open-source software readiness. With over 25 years of experience in both the public and private sector, he has played a key role in the development and harmonization of global data standards across multiple industries, including healthcare, financial reporting, and identity use cases.
 </Bio>
-
-## Contributing Authors
 
 <Bio name="Andrew Aitken" organisation="Wipro" image="/img/people/Andrew-Aitken-Wipro.webp">
 Andrew Aitken is the GM and Global Open Source Practice Leader for Wipro Ltd., a premier global systems integrator, and a leading open source strategy consultant. In his 22 years of experience he launched the industry’s first open source strategy consulting firm, Olliance Group (acquired by Black Duck Software), launched the Open Source Think Tank held in Napa, CA and Paris, France - a highly regarded event regularly attended by over 100 top open source thought leaders for over 10 years. Andrew has advised organizations such as the White House Office of CIO, Microsoft and IBM, more than 20 startups and VC firms, and dozens of other enterprises on their open source strategies.
@@ -120,7 +119,25 @@ TBC
 TBC  
 </Bio>
 
+<Bio name="Gil Yehuda" organisation="U.S. Bank" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
 
+<Bio name="Rob Underwood" organisation="tbd" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Thomas Steenbergen" organisation="EPAM" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Andy Smith" organisation="DFS" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Vincent Edwards" organisation="DFS" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
 
 <Bio name="Vicky Brasseur" image="/img/people/vicky-brasseur.jpeg" organisation="Wipro">
 Vicky is a previous chair of the OSR SIG and has authored many articles on this site.   She is the author of <a href="https://fossforge.com">Forge Your Future with Open Source</a>.

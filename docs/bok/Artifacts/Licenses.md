@@ -91,8 +91,8 @@ Sometimes, the license is not provided on a piece of software, or, a license is 
 
 [GenesisIT](https://www.genesisit.co.uk/blog/the-risks-of-using-unlicensed-software/) summarises the following risks around this:
 
-- [Legal Risk](../../Risks/Legal-Risk) - since the author of the software could litigate if they discover the infringement of their copyright.
-- [Operational Risk](../../Risks/Operational-Risks) - if the software doesn't work or introduces security issues.
+- [Legal Risk](../Risks/Legal-Risk) - since the author of the software could litigate if they discover the infringement of their copyright.
+- [Operational Risk](../Risks/Operational-Risk) - if the software doesn't work or introduces security issues.
 
 ## Identifying The License
 
@@ -148,6 +148,10 @@ Popular examples include:
  - [CockroachDB](https://www.cockroachlabs.com/blog/oss-relicensing-cockroachdb/)
  - [Redis](https://redislabs.com/blog/redis-labs-modules-license-changes/)
  - [Confluent](https://www.confluent.io/confluent-community-license/).
+ 
+**See:**
+
+ - [Elastic License 2.0 and the Evolution of Open Source Licensing](https://www.coss.community/cossc/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3).  A good read explaining the history and forces behind this movement.
 
 ## License Obligations
 
