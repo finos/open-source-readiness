@@ -6,12 +6,16 @@ tags:
   - Data Loss (Risk)
   - Placeholder
   - Level 2 (OSMM)
-draft: true
 sidebar_position: 5
+sidebar_label: Policy
 ---
 
+<<<<<<< HEAD
 
 Refer to [Policy](../Artifacts/Policy) as the _output_ from this activity.
+=======
+Refer to [Policy](../../Artifacts/Policy) as the _output_ from this activity.
+>>>>>>> main
 
 
 - should we split this into inbound and outbound?  They might be two separate things.  But I think you need to start the policy here.

@@ -29,7 +29,7 @@ Product managers can encourage their teams to contribute to open source projects
 ### Stakeholders
 
 - [CEO](CEO) and other executive leadership
-- [Business Units/Lines of Business](Business)
+- [Business Units/Lines of Business](Line-Of-Business)
 - Marketing, Sales, Communications
 - Vendors, external partners
 - [Compliance & Risk](Compliance)

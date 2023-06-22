@@ -3,6 +3,7 @@ title: Risk Officer / Compliance
 sidebar_label: Risk/Compliance
 tags: 
   - Risk/Compliance (Role)
+  - Policy
 ---
 
 <BoxOut title="Risk Officer / Compliance" image="/img/bok/roles/risk.png">
@@ -40,7 +41,7 @@ Although Risk and Compliance are separate roles within the bank, for the purpose
  - Project & [Product Managers](Product-Manager)
  - [Legal](Legal)
  - [Internal Audit](Internal-Audit)
- - [External Regulators / External Audit](External-Regulators-And-Audit)
+ - [External Regulators / External Audit](Regulators-External-Audit)
  
 </BoxOut>
 

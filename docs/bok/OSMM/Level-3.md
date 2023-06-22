@@ -1,5 +1,5 @@
 ---
-title: "Level 3: Culture & Ecosystem"
+title: "Level 3: Contribution"
 sidebar_label: Level 3
 sidebar_position: 3
 tags:

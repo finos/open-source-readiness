@@ -1,236 +1,188 @@
 ---
-title: Ensuring Open Source Compliance For Consumption
+title: Compliant Open Source Consumption
 tags: 
   - Placeholder
   - Level 2 (OSMM)
   - Risk-Compliance (Role)
   - Legal Risk
-sidebar_position: 6
+sidebar_position: 0
+sidebar_label: Compliance
 ---
 
-other compliance details tbd.
+Using open source within regulated organisations must be done in accordance with the policies and procedures in place to control risks and adhere to regulation.  In this article we will look at:
 
-Make sure to cover things in the [checklist](/docs/operations/compliance-checklist) - perhaps subsume that into Artifacts.
+- The three lines of defence model.
+- The purpose of the compliance department.
+- Understanding the risk and control framework within regulated organisations.
+- Which policies and laws affect open source consumption.
+- How the open source consumption policy works in a typical regulated organisation.
 
-## Three Lines of Defence Model
+### Three Lines of Defence (3LOD) Model
 
 The three lines of defence is a risk management model commonly used in the banking industry to establish an effective and efficient risk management framework. The three lines are:
 
-- **First Line of Defence:** This line of defence consists of the business units or front-line operations responsible for managing risks on a day-to-day basis. This includes the employees who execute operational tasks and processes, such as loan officers or traders. The first line of defence is responsible for identifying, assessing, and managing risks in their respective areas, adhering to internal controls, and communicating changes is operational risk or control deficiency. 
+- **1LOD: Risk Owners.** This line of defence consists of the **business units or front-line operations** responsible for managing risks on a day-to-day basis. This includes the employees who execute operational tasks and processes, such as loan officers or traders. 
 
-- **Second Line of Defence:** This line of defence consists of risk management functions that are responsible for providing oversight and guidance to the first line of defence. This includes the risk management and compliance functions. The second line of defence monitors the effectiveness of the first line's risk management activities and provides guidance and support as needed. This includes periodic reviews, audits, or use of automated tools to monitor risk and control activities. 
+- **2LOD: Oversight** This line of defence consists of risk management functions that are responsible for providing oversight and guidance to the first line of defence. This includes the **risk management** and **compliance** functions. The second line of defence monitors the effectiveness of the first line's risk management activities and provides guidance and support as needed. This includes periodic reviews, audits, or use of automated tools to monitor risk and control activities. 
 
-- **Third Line of Defence:** This line of defence consists of independent assurance functions that provide an objective assessment of the effectiveness of the first and second lines of defence. This includes internal auditors.  The third line of defence provides independent assurance on the effectiveness of the overall risk management framework and ensures that any deficiencies or gaps are addressed. This includes periodic audits, required disclosures and annual financial reporting. 
+- **3LOD: Independent Assurance:** This includes **internal auditors** .  The third line of defence provides independent assurance on the effectiveness of the overall risk management framework and ensures that any deficiencies or gaps are addressed. This includes periodic audits, required disclosures and annual financial reporting. 
 
-- **External auditors/regulators:**  External auditors can play an important role through their considerations of the governance and control structure where this is relevant to financial reporting.  For regulated entities,  governance and risk management requirements (see below for examples) are often set by regulators.
+Within regulated industries, the **3LOD**risk also reports upwards to:
+
+- **External auditors/regulators:**  **External auditors** can play an important role through their considerations of the governance and control structure where this is relevant to financial reporting.  For regulated entities,  governance and risk management requirements (see below for examples) are often set by **regulators**.
 
 Further Reading:
 
- - [Updated 3 Lines of Defence Model](https://www.bdo.co.uk/en-gb/insights/advisory/risk-and-advisory-services/the-three-lines-of-defence-model-has-been-updated-what-does-this-mean-for-heads-of-internal) 
  - [Three Lines of Defence Model Explained](https://managingrisktogether.orx.org/insights-resources/three-lines-defence-3lod-model-explained)
-
-## What is Compliance?
-
-The compliance department in a bank is responsible for ensuring that the bank operates in compliance with laws and regulations. This includes developing and implementing policies and procedures to manage compliance risks, conducting risk assessments, providing training and education to employees, monitoring the bank's compliance with laws and regulations, and reporting any non-compliance to senior management and the board of directors. The compliance department plays a critical role in maintaining the bank's reputation and avoiding financial and legal penalties that may result from non-compliance.
-
-## Intersection with Open Source Consumption
-
-There are several banking compliance policies that intersect with the use of software generally within an organization, which apply equally to open source software:
-
-### Intellectual Property and Licensing Policies
-
-Open source software is typically distributed under specific [licensing terms](../../Artifacts/Licenses) and conditions that may affect how the software can be used, modified, and distributed. Compliance with these licensing requirements is essential to ensure that the organization does not infringe on the intellectual property rights of the software developers or violate the terms of the license.
-
-
-
-- Deployment has an impact on the choice of licenses.  e.g. free-for-use machine learning packages, running on specific Nvidia chips.  Nvidia license says you shouldn't develop on the software unless you run on Nvidia hardware.  
-
-- SGX Confidential Computing Consortium (more a hardware issue)
-
-_Open source development on top of prioprietary codebase_
+ - [Updated 3 Lines of Defence Model](https://www.bdo.co.uk/en-gb/insights/advisory/risk-and-advisory-services/the-three-lines-of-defence-model-has-been-updated-what-does-this-mean-for-heads-of-internal) 
  
-See also: 
+## The Compliance Function
 
- - [Patents](../../Artifacts/Patents) 
- 
- - [Trademarks](../../Artfacts/Trademarks)
- 
- - [Training](Training)
- 
-### Data protection & Security Policy
+The compliance department in a bank is responsible for ensuring that the bank operates in compliance with laws and regulations. This includes developing and implementing policies and procedures to manage compliance risks, conducting risk assessments, providing training and education to employees, monitoring the bank's compliance with laws and regulations, and reporting any non-compliance to senior management and the board of directors. 
 
-The use of open source software may present data protection and security risks, particularly if the software has not been thoroughly reviewed or [tested for security vulnerabilities](Supply-Chain-Security). 
+The compliance department plays a critical role in maintaining the bank's [reputation](../../Risks/Reputational-Risk) and avoiding financial and [legal](../../Risks/Legal-Risk) penalties that may result from non-compliance.
 
-Compliance with data protection and security policies is essential to ensure that the organization's data is protected and secure.  Many pieces of software "phone home" and this can present an opportunity for data leakage for the bank.
+## Risk And Control:  A Case-Study
 
-As noted in the BOK activities [addressing supply chain security](Supply-Chain-Security), incorporating secure development into the Software Development Lifecycle is likely to be a compliance issue and therefore a legal requirement (see below). 
+All organisations should have some framework for controlling for risks.  However, in regulated industries this framework is a significant part of the whole organisation, with multiple departments (e.g. Risk, Compliance, Internal Audit) participating in control processes.
 
-Tools like [Google Docs](https://docs.google.com), [Twitter](https://twitter.com), [StackOverflow](https://stackoverflow.org) and [GitHub](https://github.com) may be rendered inaccessible from within a financial organisation to comply with Data Protection and Security policies, since each presents a venue where client data might be deliberately or accidentally exfiltrated.  (See main article on [DLP](../../Artifacts/DLP-Software) for further details.)
+In this section we are going to present a generic _Risk and Control Framework_ and apply this to the example of [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell), a recent security vulnerability, to see how organisations might respond to new risks and incorporate them into their processes.  
 
-#### GLBA
+![Risk and Control Framework](/img/bok/risk-and-control.png)
 
-The [Gramm-Leach-Bliley Act (GLBA)](https://www.ftc.gov/business-guidance/privacy-security/gramm-leach-bliley-act) also known as the Financial Services Modernization Act of 1999, is a federal law enacted in the United States to control the ways financial institutions deal with the private information of individuals.   The Act consists of three provisions: 
+The above diagram breaks down the process of risk and control and is a simplification (for explanatory purposes) of various pre-existing frameworks that an organisation could use, all incorporating the idea of _feedback_.  
 
- - The **Financial Privacy Rule**, which regulates the collection and disclosure of private financial information.  Under the Privacy Rule, financial institutions must provide privacy notices to consumers. They must provide this notice at the time the consumer relationship is established and on an annual basis going forward.
+For further details, see:
+
+ - [COSO's Enterprise Risk Management Framework](https://www.accaglobal.com/gb/en/student/exam-support-resources/professional-exams-study-resources/strategic-business-leader/technical-articles/coso-enterprise-risk-management-framework.html)
+ - [NIST's Cybersecurity Framework](https://www.nist.gov/cyberframework)
+ - [RMF](https://www.selecthub.com/risk-management/risk-management-framework/)
+ - [Deming's Plan Do Check Adjust](https://en.wikipedia.org/wiki/PDCA)   
+ - [8-Step Process for Facility Security Risk Assessment](https://totalsecurityadvisor.blr.com/facility-security/8-step-process-facility-security-risk-assessment/)
+
+In 2021, the [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) incident occurred which forced many organisations to re-assess their stance towards open source consumption.  
+
+### 1.Identify
+
+The Log4Shell vulnerability was reported in November 2021 and received significant media attention:
+
+> Log4Shell ([CVE-2021-44228](https://www.cvedetails.com/cve/CVE-2021-44228)) was a zero-day vulnerability in [Log4j](https://logging.apache.org/log4j/2.x/), a popular Java logging framework, involving arbitrary code execution. The vulnerability had existed unnoticed since 2013 and was privately disclosed to the Apache Software Foundation, of which Log4j is a project, by Chen Zhaojun of Alibaba Cloud's security team on 24 November 2021. - [Log4Shell, _Wikipedia_](https://en.wikipedia.org/wiki/Log4Shell)
+
+### 2. Assess
+
+[CVE-2021-44228](https://www.cvedetails.com/cve/CVE-2021-44228) assigned the [CVSS score](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System) (10) which meant that the issue was widespread, easy to exploit and could have severe consequences.  For some organisations (including governments) the attention around this vulnerability led to a realisation that open source supply chains were a new type of risk that would need closer attention.  
+
+From a compliance perspective, this vulnerability posed a significant [Data Leakage Risk](../../Risks/Data-Leakage-Risk), which potentially violates [several laws](../../Risks/Data-Leakage-Risk#personal-information). 
+
+### 3. Response / Remediation
+
+ - For firms, an immediate effort was required to patch all Java systems using affected versions of Log4j that were facing the public internet. 
+ - For unprepared organisations, a new focus on [open source Supply Chain Security](Supply-Chain-Security).
   
- - The **Safeguards Rule**, which stipulates that financial institutions must implement security programs to protect such information.   It requires financial institutions to implement security protocols (both logical and physical), and it requires financial institutions to provide breach notifications when customers’ Non-Public Information (NPI) becomes compromised. 
+### 4. Control
+
+An good template for software consumption controls is the [NIST Cybersecurity Framework (NIST CSF)](https://en.wikipedia.org/wiki/NIST_Cybersecurity_Framework):
+
+> NIST Cybersecurity Framework is a set of guidelines for mitigating organizational cybersecurity risks, published by the US [National Institute of Standards and Technology (NIST)](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology) based on existing standards, guidelines, and practices. The framework "provides a high level taxonomy of cybersecurity outcomes and a methodology to assess and manage those outcomes" - [NIST Cybersecurity Framework, _Wikipedia_](https://en.wikipedia.org/wiki/NIST_Cybersecurity_Framework)
+
+A firm would need to adopt a model like this into its security organisation which would codify how to deal with situations like Log4Shell.  This might help in the following ways:
+
+ - _Identifying affected software_: Rather than having to check every system to see if it is vulnerable, a [Software Inventory](Software-Inventory) would have given exact details of which systems were affected.  (See also [SBOMs](../../Artifacts/SBOMs).)
  
- - and the **Pretexting provisions**, which prohibit the practice of pretexting, or accessing private information using false pretenses:
+ - _Detection processes_: Could be used to determine whether attacks are taking place.
  
-> Pretexting (sometimes referred to as "social engineering") occurs when someone tries to gain access to personal nonpublic information without proper authority to do so. This may entail requesting private information while impersonating the account holder, by telephone, by mail, by e-mail, or even by "phishing" (i.e., using a phony website or email to collect data). GLBA encourages the organizations covered by GLBA to implement safeguards against pretexting. - [Gramm-Leach-Bliley Act, _Wikipedia_](https://en.wikipedia.org/wiki/Gramm–Leach–Bliley_Act#Pretexting_protection) 
+ - _Response_: the organisation would have a process in place for dealing with the vulnerability (applying patches, communicating with stakeholders, implementing workarounds etc.)
 
-**Example:** [In 2019, Equifax, Inc. agreed to pay at least $575 million](https://www.ftc.gov/legal-library/browse/cases-proceedings/172-3203-equifax-inc), and potentially up to $700 million, as part of a global settlement with the Federal Trade Commission, the Consumer Financial Protection Bureau (CFPB), and 50 U.S. states and territories to settle allegations that the credit reporting company's failed to take reasonable steps to secure its network. 
+These new controls will be described within [Policy Documents](../../Artifacts/Policy) that the compliance department will help to write.  Setting up controls like these might involve significant [training](Consumption-Training) of staff.
 
-#### GDPR
+#### Example Control:  Approval Process for Using A New Software Library
 
-Any software (including open source) used by an organisation operating within the EU needs to be [General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliant:
-
-> The regulation applies if the data controller (an organisation that collects data from EU residents), or processor (an organisation that processes data on behalf of a data controller like cloud service providers), or the data subject (person) is based in the EU. Under certain circumstances,[3] the regulation also applies to organisations based outside the EU if they collect or process personal data of individuals located inside the EU. The regulation does not apply to the processing of data by a person for a "purely personal or household activity and thus with no connection to a professional or commercial activity." - [GDPR, _Wikipedia_](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
-
-**Example: ** During the pandemic in 2020, many banks started using [Zoom](https://zoom.us) for video conferencing, but this [ran afoul of the GDPR regulations (German language)](https://datenschutz-hamburg.de/pressemitteilungen/2021/08/2021-08-16-senatskanzlei-zoom).  More recent versions of the software [aim to remedy this](https://explore.zoom.us/en/gdpr/).
-
-### Communication Policies
-
-#### MAR
-
-In order to prevent insider dealing and market manipulation, under the [European Union's Market Abuse Regulation (MAR)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0596&from=EN), firms must maintain effective systems and controls to detect, prevent, and report market abuse, and to keep records of all communications that are capable of leading to a transaction.
-
-**Example:** The US has a similar regulation, [Securities and Exchange Commission's (SEC) Regulation Fair Disclosure (Reg FD)](https://en.wikipedia.org/wiki/Regulation_Fair_Disclosure).  In 2022 several major firms were fined under this regulation for using WhatsApp messenger, an un-monitored and unauthorized communications platform:
-
-> The Securities and Exchange Commission announced $1.1 billion in fines and the Commodity Futures Trading Commission disclosed $710 million in penalties in separate statements Tuesday. Those levies -- against firms including Bank of America Corp., Citigroup Inc. and Goldman Sachs Group Inc. -- combined with JPMorgan Chase & Co.’s $200 million in fines from December, bring the total to $2.01 billion, making them the biggest penalties ever against US banks for record-keeping lapses. - [Wall Street Hit With $2 Billion of Fines in WhatsApp Probe, _Bloomberg_](https://www.bloomberg.com/news/articles/2022-09-27/wall-street-whatsapp-probe-poised-to-result-in-historic-fine)
-
-See also: 
-
-- [Data Loss Prevention](../Level-3/DLP).
-
-#### SOX
-
-The Sarbanes–Oxley Act (SOX) of 2002 is a United States federal law that mandates certain practices in financial record keeping and reporting for corporations. It codified the system of "Internal Controls over Financial Reporting" that requires publicly-traded corporations to define operational risk and control activities, notably IT General Controls, that includes the Software Development Lifecycle.
-
-SOX was enacted in response to accounting scandals involving companies such as [Enron, WorldCom, and Tyco](https://en.wikipedia.org/wiki/Sarbanes–Oxley_Act#History_and_context). The act established new or expanded requirements for public companies and accounting firms, with the goal of improving corporate governance, financial reporting, and accountability.
-
-While not all financial institutions are public companies, the concept of IT controls has been incorporated into FDIC examinations and auditing requirements for internal and external auditors. 
-
-**Example:** In 2013, [JPMorgan Chase was fined $200 million](https://www.sec.gov/news/press/2013/2013-187.htm) by regulatory authorities for its failure to maintain effective internal controls over financial reporting. The bank had made several risky trades that resulted in significant losses, which highlighted weaknesses in its internal control processes.
+Organisations might introduce an approval process for the use of new software libraries.  When a new (to the firm) library is required a request would be submitted and require review from [Legal](../../Roles/Legal) (for licensing checks), [CIO](../../Roles/CIO) (for considering data implications), [CISO/Security](../../Roles/CISO) teams (for security considerations).  
  
-### Anti-Money Laundering (AML)
+Consideration might be given to the venue in which the software is running.  _Internal Cloud_ will have different licensing requirements to _external cloud_.  _Hybrid cloud_ environments might require stricter rules around data security.
 
-As noted in the discussion of the BSA, The use of open source software may present risks related to anti-money laundering and sanctions compliance, particularly if the software is used to facilitate financial transactions. 
+#### Example Control: Security Training
 
-Compliance with these policies is essential to ensure that the organization does not inadvertently facilitate illegal activities or violate sanctions regimes.
+At this point, the organisation might consider [Training](Consumption-Training) around security topics for open source.
 
-There is also consideration for open source decentralized projects and cryptocurrency. "Crypto" has recevied tremendous scrutiny though significant effort is being made in the development of Central Bank Digital Currencies (CDBCs)
+### 5. Monitor
 
-#### Bank Secrecy Act of 1970
+**Evidencing** refers to the process of collecting, maintaining, and presenting documentation, records, or other forms of proof that demonstrate an organization's adherence to applicable laws, regulations, and industry standards. 
 
-The Bank Secrecy Act of 1970 (BSA), also known as the Currency and Foreign Transactions Reporting Act, is a U.S. law requiring financial institutions in the United States to assist U.S. government agencies in detecting and preventing money laundering. The BSA is sometimes referred to as an anti-money laundering law (AML) or jointly as BSA/AML.
+Evidencing is a crucial aspect of compliance management, as it enables organizations to show that they are fulfilling their compliance obligations, both internally and externally.
 
-A significant software industry has developed around providing software to analyze transactions in an attempt to identify transactions or patterns of transactions that may indicate AML. This implies that open source software in certain uses may have to comply with collecting transaction information, as well as potentially developing new open source software solutions that may support BSA reporting. 
+Within the Log4Shell case study, the internal auditors might require a quarterly report detailing who is dealing with vulnerabilities, evidence of identification, assessment and control.  Can the security function demonstrate that they have managed the risk effectively? 
 
-**Example:** In 2012, HSBC was charged with willfully failing to maintain an effective anti-money laundering program and willfully facilitating financial transactions for customers in countries under U.S. sanctions, including Iran, Sudan, and Libya.  HSBC ultimately [agreed to pay a $1.3 billion settlement](https://www.ice.gov/news/releases/hsbc-admits-anti-money-laundering-and-sanctions-violations-following-hsi-el-dorado) to resolve the charges, which represented the largest penalty ever imposed under the Bank Secrecy Act at the time.
+For the above controls mentioned above, it might require evidencing of _mandatory training_ or a log of activity in the _approval process_
 
-### Risk Management
+### 6.  Report
 
-The use of open source software may present risks related to operational, financial, or reputational risks. Compliance with risk management and internal controls policies is essential to ensure that these risks are identified, assessed, and managed effectively.
+The board, external auditors and regulators will want to know that the firm is complying with its duty to the shareholders, financial standards and laws respectively.  
 
-#### Operational Risks
+For a high-severity incident like Log4Shell, reporting is likely to begin early with the 1LOD and 2LOD detailing their plans for remediation to the board, with follow-ups as the incident unfolds.   Regulators might also request oversight into the remediation activities.  
 
-**Example:** In 2017, credit reporting agency [Equifax suffered a massive data breach] that exposed the personal information of approximately 143 million Americans. The breach included names, birthdates, social security numbers, and other sensitive information. The breach led to a drop in the company's stock price and widespread public outrage.  This was caused by an open source vulnerability:
+### 7. Feedback / Continuous Improvement
 
-> A key security patch for [Apache Struts](https://en.wikipedia.org/wiki/2017_Equifax_data_breach) was released on March 7, 2017 after a security exploit was found and all users of the framework were urged to update immediately.  Security experts found an unknown hacking group trying to find websites that had failed to update Struts as early as March 10, 2017 as to find a system to exploit. - [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
+As the [Data Leakage](../../Risks/Data-Leakage-Risk) article shows, there are significant existing laws around data leakage which would cover the situation where the Log4Shell vulnerability was exploited and data was leaked.  
 
-**Example:** In 2014, [JPMorgan Chase suffered a data breach](https://en.wikipedia.org/wiki/2014_JPMorgan_Chase_data_breach) that compromised the personal information of approximately 76 million households and 7 million small businesses. The breach exposed names, addresses, phone numbers, email addresses, and internal JPMorgan Chase information. The incident led to negative press coverage and public scrutiny of the bank's security practices.
-
-> The attack—disclosed in September 2014—was discovered by the bank's security team in late July 2014, but not completely halted until the middle of August.  The bank declared that login information associated with the accounts (such as social security numbers or passwords) was not compromised but names, email and postal addresses, and phone numbers of account holders were obtained by hackers, raising concerns of potential phishing attacks. - [2014 JPMorgan Chase data breach, _Wikipedia_](https://en.wikipedia.org/wiki/2014_JPMorgan_Chase_data_breach)
-
-#### Financial Risks
-
-tbd
-
-#### Communications / Reputational Risk 
-
-tbd
-
-### Sanctions Policies
- 
-#### Sanctions Regimes 
- 
-Banks typically decide which sanctions regimes to follow based on a number of factors, including their legal and regulatory obligations, the countries they operate in, and the risks associated with their business activities.
-
-First and foremost, banks must comply with the sanctions regimes imposed by their own country's government. For example, a bank based in the United States must comply with the sanctions regimes imposed by the US government, such as those administered by the [Office of Foreign Assets Control (OFAC)](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-informatioun).
-
-In addition to complying with their own country's sanctions regimes, banks must also comply with international sanctions regimes, such as those imposed by the [United Nations](https://www.un.org/securitycouncil/content/un-sc-consolidated-list) or the [European Union](https://www.eeas.europa.eu/eeas/european-union-sanctions_en). Banks that operate in multiple countries may also need to comply with the sanctions regimes imposed by the countries in which they do business.
-
-Banks must also take into account the risks associated with their business activities, such as the countries they operate in, the industries they serve, and the types of transactions they process. For example, a bank that does business with high-risk countries or industries may need to implement additional sanctions screening and monitoring measures to mitigate the risk of potential sanctions violations.
-
-**Example:** In 2014, [BNP Paribas pleaded guilty to violating US sanctions](https://www.justice.gov/opa/pr/bnp-paribas-agrees-plead-guilty-and-pay-89-billion-illegally-processing-financial) against Sudan, Cuba, and Iran and agreed to pay a fine of $8.9 billion. The bank was accused of processing transactions in US dollars for clients in those countries in violation of US sanctions.
-
-#### Sanctions Compliance with Open Source Software
-
-
-- using russian open source software?
-- core-js
+Nevertheless, as a result of Log4Shell (and other high-profile incidents), governments have been under increased pressure to draft new laws around cybersecurity.  As these become law, they will re-enter the risk-and-control framework and organisations will need to update their controls and policies to meet them.
 
 See Also:
 
- - [Deutsche Bank seeks options as sanctions threaten Russian dev unit](https://www.theregister.com/2022/03/04/deutsche_bank_russia_dev_unit/)
- - [Deutsche Bank Moving Russian IT Staff to New Hub in Germany](https://www.bloomberg.com/news/articles/2022-06-07/deutsche-bank-moving-russian-it-staff-to-new-hub-in-germany)
+ - [EU Cyber Resilience Act 2022](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act) 
+ - [US Securing Open Source Software Act 2022](https://www.congress.gov/bill/117th-congress/senate-bill/4913) /  [OpenSSF Response](https://openssf.org/blog/2022/09/27/the-united-states-securing-open-source-software-act-what-you-need-to-know/)
+
+## Intersection with Open Source Consumption
+
+The case study above shows how the realisation of a new threat (Log4Shell) can lead to the creation of new policy within an organisation to manage the risk.  
+
+So, we can see that compliance policy exists to _deal with risk_.  There are several banking compliance policies that intersect with the use of software generally within an organization, which apply equally to open source software:
+
+#### Data Leakage Risk
+
+- [Laws around data leakage of personal information](../../Risks/Data-Leakage-Risk).
+
+#### Legal Risks
+
+- [Accountancy regulations](../../Risks/Legal-Risk#accountancy-regulations).
+- [Laws around electronic communication in financial markets](../../Risks/Legal-Risk#communication-policies).
+- [Cross-border obligations](../../Risks/Legal-Risk#cross-border-obligations-and-sanctions).
+- [Anti-Money Laundering (AML)](../../Risks/Legal-Risk#anti-money-laundering).
+- [Intellectual Property and Licensing Policies](../../Risks/Legal-Risk#intellectual-property-and-licensing-policies).
+- [Sanctions](../../Risks/Legal-Risk#sanctions).
+- [Counter-Terrorism Laws](../../Risks/Legal-Risk#counter-terrorism).
+
+#### Operational Risk
+
+- [Operational Risk](../../Risks/Operational-Risk)
+
+#### Dependency Risk
+
+- [Dependency Risk](../../Risks/Dependency-Risk)
+
+#### Reputational Risk
+
+- [Reputational Risk](../../Risks/Reputational-Risk)
+
+## Consumption Controls
+
+The consumption policy for open source will usually be arranged around _meeting controls for the above risks_. 
+
+#### CI/CD Pipelines
+
+The security team may mandate the use of certain checks within the CI/CD pipeline for checking for vulnerabilities. tbd
 
 
-Management
+See Also:
 
+ - [Creating Policy](Creating-Policy)
+ - [FINOS Reference FOSS Policy](../../Artifacts/Reference-FOSS-Policy)
+ - [Policy (Artifact)](../../Artifacts/Policy)
 
-#### PCI DSS 4.0
+## Further Reading
 
-Payment Card Industry Data Security Standards
-
-Coming soon
-
-- [SBOMs](../../Artifacts/SBOMs)
-- What cloud providers does it run on?
-- Graph of linkages around who developed it, where it can be used etc.
-
-- e.g. Solar Winds Hack.  
-
-PCI DSS, HIPAA, CCPA
-
-
-## Further Topics
-
-- CFI
-
-
-## Working With Compliance
-
-
-1.
-
-- Controls/tools built around protection (PCI/PPI/proprietary code).  
-- All these controls written from this perspective.
-
-2.  What does "production" mean?
-
-- Putting something into an environment accessible to a customer.
-- Not the same for OSS:
-
-   -What happens with vulns?
-   -What does the licence mean WRT liability/brand damage.
-   
-3.  Avoiding leaking proprietary code.
-
-- architecture, code review, business review
-
-controls need to vary with proximity to core banking.  e.g. backstage, react.
-
-Don't want to apply a heavyweight review process to every area of code.
-
-PatH:
-
-- Start small with a small contribution outside of the main core activities. No one cares about this small stuff.
-- Collaborating across industry with competitors much harder.
-- INternal code -> Open SOurce, much harder.
-
-@andybs
+- [Compliant Financial Infrastructure](https://github.com/finos/compliant-financial-infrastructure).  A project that exists to accelerate the development, deployment and adoption of services provided for infrastructure in a way that meets common regulatory and internal security controls.
+- [SBOMs](../../Artifacts/SBOMs). _Software Bill of Materials_. 
 
 
 

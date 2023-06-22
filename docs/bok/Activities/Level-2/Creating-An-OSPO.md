@@ -5,14 +5,15 @@ tags:
   - Placeholder
   - Level 2 (OSMM)
 sidebar_position: 7
+sidebar_label: OSPO
 ---
+**THIS IS A PLACEHOLDER**
 
 - Lots of the level 2 activities are probably being performed piecemeal by the organisation.
 - Creating an OSPO allows you to centralise and structure all the level 2 activities and allow you to start working on Level 3.
 
 
 Creating an OSPO is _organisational change_.  Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
-
 
 ### 1.  Create a Sense of Urgency
 
@@ -74,7 +75,6 @@ OSPOs demonstrate their value where they align to the KPIs of other teams.  For 
 - **Outgoing Security**:  The OSPO can help by ensuring that the organisation doesn't [Leak IP via open source](../Level-3/DLP). This might be by helping the security team improve their policies, which may not be well-developed around _outgoing_ security risks via open source projects. 
 
 - **Recruiting Talent**:  Becoming [active contributors](../Level-3/Community-Engagement) and demonstrating engineering excellence attracts talent.  See [Recruiting Developers](https://todogroup.org/guides/recruiting-developers/).  Open source can be a ["Shift Left"](https://devopedia.org/shift-left) approach to hiring, where you are improving your organisations' awareness at the top of the funnel due to open source activity.  Microsoft open-sourcing Typescript and VSCode has helped them hire top talent in other areas because of brand awareness.  
-
 
 ### 4. Enlist a Volunteer Army
 
@@ -166,4 +166,9 @@ At some point, you may be in the position to hire permanent staff for the OSPO, 
  - [What does an open source program office do?](https://www.redhat.com/en/blog/what-does-open-source-program-office-do) - RedHat
  - [Why have an open source program office?](https://www.redhat.com/en/blog/what-does-open-source-program-office-do) - RedHat
 
+## Other Notes
+
+- Can the OSPO change the procurement process for software? OSS doesn't have an SLA, support agreements etc.  This requires a significant change in approach.
+
+- Is the OSPO able to make recommendations around which open source libraries and projects to invest in?  If so, can they create metrics around how much this simplifies the technology landscape?   
 

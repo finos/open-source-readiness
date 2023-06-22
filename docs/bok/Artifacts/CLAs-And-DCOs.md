@@ -54,6 +54,17 @@ Many open source projects on [GitHub](https://github.com) have built-in workflow
 
 ## Two Types of CLA
 
+
+<BoxOut title="Copyright In Corporate Environments" image="/img/bok/roles/developer.png" >
+
+In general, when developers create software or other original works as part of their job duties, _in many jurisdictions_ the copyright ownership typically belongs to the employer rather than the individual developer. 
+
+This means that it is the _employer_ that has the right to use, modify, distribute, and profit from the work, not the developer. 
+
+**Note:** this is not true in every jurisdiction.
+
+</BoxOut>
+
 - Where a contribution is coming from an _individual_ (such as a hobbyist developer) the CLA is considered as an _Individual_ Contributor License Agreement (ICLA).  In this case, the _individual_ owns the copyright to their contribution and is able to sign the ICLA.
 
 - Where a contribution is made from a corporation (such as a developer working within a financial institution) a _Corporate_ Contributor License Agreement (CCLA) is often required.  In this case, the copyright is owned by the _corporation_ and the entity must assign a **CLA Manager** to sign off CCLAs on behalf of the corporation.  The CLA Manager will need to maintain the list (a "Schedule A") of all the employees in the organisation covered by CCLAs, likely on a per-project basis.

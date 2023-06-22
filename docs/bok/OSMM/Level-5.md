@@ -1,5 +1,5 @@
 ---
-title: "Level 5: Leadership & Strategy"
+title: "Level 5: Leadership & Strategic Advantage"
 sidebar_label: Level 5
 sidebar_position: 5
 tags:
