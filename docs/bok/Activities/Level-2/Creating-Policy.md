@@ -9,6 +9,7 @@ tags:
 sidebar_position: 5
 sidebar_label: Policy
 ---
+**THIS IS A PLACEHOLDER**
 
 Refer to [Policy](../../Artifacts/Policy) as the _output_ from this activity.
 

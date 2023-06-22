@@ -2,20 +2,18 @@
 title: Creating an Open Source Program Office (OSPO)
 tags: 
   - OSPO (Role)
-  - Placeholder
   - Level 2 (OSMM)
 sidebar_position: 7
 sidebar_label: OSPO
 ---
-**THIS IS A PLACEHOLDER**
+
+An OSPO is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group.](https://github.com/todogroup/ospodefinition.org). Creating an OSPO is _organisational change_. Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
 
 - Lots of the level 2 activities are probably being performed piecemeal by the organisation.
 - Creating an OSPO allows you to centralise and structure all the level 2 activities and allow you to start working on Level 3.
 
-An OSPO is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group.](https://github.com/todogroup/ospodefinition.org). Creating an OSPO is _organisational change_. Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
+Creating an OSPO is _organisational change_.  Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
 
-
-<<<<<<< HEAD
 ### 1.  Create a Sense of Urgency
 
 There are few ways to create a sense of urgency (i.e. fear) around the need for an OSPO.  For example:
@@ -77,8 +75,11 @@ OSPOs demonstrate their value where they align to the KPIs of other teams.  For 
 
 - **Recruiting Talent**:  Becoming [active contributors](../Level-3/Community-Engagement) and demonstrating engineering excellence attracts talent.  See [Recruiting Developers](https://todogroup.org/guides/recruiting-developers/).  Open source can be a ["Shift Left"](https://devopedia.org/shift-left) approach to hiring, where you are improving your organisations' awareness at the top of the funnel due to open source activity.  Microsoft open-sourcing Typescript and VSCode has helped them hire top talent in other areas because of brand awareness.  
 
+<<<<<<< HEAD
 - **Procurement**:  OSPO can help avoid undesirable software or license entering the organisation through equipping the procurement team with relevant open source knowledge so they can be more effective in evaluating potential vendors.
 
+=======
+>>>>>>> CreatingAnOSPOLocal
 ### 4. Enlist a Volunteer Army
 
 > To effectively enlist an army you must first identify potential allies and build relationships with them. This can be done through open communication and by involving them in the change process from the beginning. Additionally, another method of enlisting and growing an army is to reward individuals for their contributions and support. This will build morale and motivation, and will organically encourage others to get involved. - [Kotters 8 Step Change Model](https://www.mtdtraining.com/blog/kotters-8-step-change-model.htm)
@@ -184,4 +185,9 @@ At some point, you may be in the position to hire permanent staff for the OSPO, 
  - [What does an open source program office do?](https://www.redhat.com/en/blog/what-does-open-source-program-office-do) - RedHat
  - [Why have an open source program office?](https://www.redhat.com/en/blog/what-does-open-source-program-office-do) - RedHat
 
+## Other Notes
+
+- Can the OSPO change the procurement process for software? OSS doesn't have an SLA, support agreements etc.  This requires a significant change in approach.
+
+- Is the OSPO able to make recommendations around which open source libraries and projects to invest in?  If so, can they create metrics around how much this simplifies the technology landscape?   
 

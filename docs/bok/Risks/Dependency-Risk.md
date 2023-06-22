@@ -13,6 +13,7 @@ Software dependency risk refers to the potential negative consequences of relyin
 Open source software may depend on a small number of volunteers who may lose interest, motivation, or resources over time. Users and contributors need to ensure that the projects they rely on or contribute to have a healthy and active community, or be prepared to step in and provide alternatives if a project is losing momentum.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - imported libraries.
 - https://www.linkedin.com/posts/resilientcyber_software-supplychain-infosec-activity-7037427310441988096-7z_X?utm_source=share&utm_medium=member_ios
 
@@ -21,6 +22,8 @@ OSS is only as strong as the team building it.  Core-JS, Nebraska problem.
 
 https://github.com/FasterXML/jackson/graphs/contributors
 =======
+=======
+>>>>>>> CreatingAnOSPOLocal
 ## Quality
 
 Open source software may vary in quality, reliability, and performance depending on the skills and experience of the contributors. Users and contributors need to evaluate the quality of the code, documentation, testing, and reviews before using or contributing to a project. There are vendor tooling and suggested self administered maturity surveys to develop the scoring methods.
@@ -55,4 +58,13 @@ A software vulnerability is a flaw or weakness in a software program's design, i
 ## Risk Management Activities
 
 <BokTagList tag="Dependency Risk" filter="Activities" />
+<<<<<<< HEAD
 >>>>>>> main
+=======
+
+## Further Reading
+
+- [Resilient Software Supply Chain](https://www.linkedin.com/posts/resilientcyber_software-supplychain-infosec-activity-7037427310441988096-7z_X?utm_source=share&utm_medium=member_ios)
+
+- [CoreJS Maintainer Complains Open Source is Broken](https://www.theregister.com/2023/02/15/corejs_russia_open_source/)
+>>>>>>> CreatingAnOSPOLocal
