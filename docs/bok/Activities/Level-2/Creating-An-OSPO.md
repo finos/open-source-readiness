@@ -5,7 +5,9 @@ tags:
   - Placeholder
   - Level 2 (OSMM)
 sidebar_position: 7
+sidebar_label: OSPO
 ---
+**THIS IS A PLACEHOLDER**
 
 - Lots of the level 2 activities are probably being performed piecemeal by the organisation.
 - Creating an OSPO allows you to centralise and structure all the level 2 activities and allow you to start working on Level 3.
@@ -13,6 +15,7 @@ sidebar_position: 7
 An OSPO is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group.](https://github.com/todogroup/ospodefinition.org). Creating an OSPO is _organisational change_. Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
 
 
+<<<<<<< HEAD
 ### 1.  Create a Sense of Urgency
 
 There are few ways to create a sense of urgency (i.e. fear) around the need for an OSPO.  For example:
@@ -158,6 +161,18 @@ At some point, you may be in the position to hire permanent staff for the OSPO, 
 
 - **Most OSPOs have a developer component** - that is, developers who can help build and deploy tooling.  If you are hiring for this role you will need to find staff who are comfortable with both development and customer-facing work.   
 - **Hire for communications** - your OPSO will need to interface with [Internal Audit](../../Roles/Internal-Audit) or [Compliance](../../Roles/Compliance) so it might be worth hiring people who have had experience working in these areas.
+=======
+1. Making the Case for an OSPO ( already written in the OSR Common Problems)
+
+2.  Staffing the OSPO / Structures / Sizing
+
+- link to lots of TODO docs here.
+
+- Can the OSPO change the procurement process for software? OSS doesn't have an SLA, support agreements etc.  This requires a significant change in approach.
+
+
+- Is the OSPO able to make recommendations around which open source libraries and projects to invest in?  If so, can they create metrics around how much this simplifies the technology landscape?   
+>>>>>>> main
 
 
 ## Further Reading

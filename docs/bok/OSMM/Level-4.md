@@ -7,7 +7,7 @@ tags:
   - OSMM
 ---
 
-At this level, an organization has a well-managed process for open source software.  Open source is culturally embedded in the organisation and its value is understood.  At this level _the organisation itself_ is contributing to open source software. 
+At this level, an organization has a well-managed process for open source software.  Open source is culturally embedded in the organisation and its value is understood.  At this level _the organisation itself_ is _hosting and maintaining_ software projects that they have open-sourced. 
 
 ## Hosting Open Source Projects
 

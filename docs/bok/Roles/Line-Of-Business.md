@@ -35,7 +35,7 @@ In addition, LOBs can contribute to open source projects, fostering a culture of
  - [IT Departments](Developer)
  - Project & [Product Managers](Product-Manager)
  - [Risk and Compliance Teams](Compliance)
- - [Human Resources](HR)
+ - [Human Resources](HR-Training)
  - Marketing and Sales / Communications
 
 </BoxOut>

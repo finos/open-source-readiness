@@ -1,11 +1,10 @@
 module.exports={
   "title": "FINOS Open Source Readiness",
   "tagline": "OVERCOMING OBSTACLES TO OPEN SOURCE",
-  "url": "https://open-source-readiness.netlify.app/",
+  "url": "https://osr.finos.org/",
   "baseUrl": "/",
   "organizationName": "FINOS",
   "projectName": "open-source-readiness",
-  "noIndex": true,
   "scripts": [
     "https://buttons.github.io/buttons.js"
   ],
@@ -23,7 +22,7 @@ module.exports={
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": false,
           "path": "../docs",
-          "sidebarPath": "sidebars.json",
+          "editUrl": "https://github.com/finos/open-source-readiness/edit/main/docs"
         },
         "blog": {},
         "theme": {
@@ -36,6 +35,11 @@ module.exports={
     './src/plugin/category-listing'
   ],
   "themeConfig": {
+    "algolia": {
+      "appId": "LOYCC7X3U6",
+      "apiKey": process.env.ALGOLIA_API_KEY ? process.env.ALGOLIA_API_KEY : "none",
+      "indexName": "osr-finos",
+    },
     "navbar": {
       "title": "FINOS Open Source Readiness",
       "logo": {
@@ -56,12 +60,8 @@ module.exports={
               "to": "docs/osr-resources"
             },
             {
-              "label": "OSR Common Problems",
-              "to": "docs/playbook/common-problems"
-            },
-            {
               "label": "Body of Knowledge",
-              "to": "docs/bok/Body-of-Knowledge"
+              "to": "docs/bok/Introduction"
             },
             {
               "to": "https://survey.osmm.finos.org/551476",

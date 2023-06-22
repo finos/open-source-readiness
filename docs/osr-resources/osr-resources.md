@@ -38,7 +38,7 @@ The following resources demonstrate how to edit `markdown` and contribute to pro
 
 ## FINOS OSR Resources
 
-The OSR SIG has produced several resources to help financial services firms along their open source journey. Most of these are also [open source projects](docs/projects) that you can contribute to on GitHub.
+The OSR SIG has produced several resources to help financial services firms along their open source journey. Most of these are also open source projects that you can contribute to on [GitHub](https://github.com/finos).
 
 ### Open Source License Compliance Handbook
 
@@ -51,8 +51,7 @@ A guide for complying with a wide range of open source licenses in common use ca
 
 A comprehensive model corporate policy for consuming, contributing to, and publishing open source software. It's a great starting point for firms adopting their first open source policy or revising an existing one.
 
-- [Download](https://github.com/finos/reference-foss-policy/blob/master/bin/docx/FINOS%20Reference%20FOSS%20Policy%20v0.2.3.docx?raw=true) the policy as a Word doc
-- [Check out](https://github.com/finos/reference-foss-policy) the project on GitHub
+- [View](docs/bok/Artifacts/Reference-FOSS-Policy) the policy
 
 ### Whitepaper: Business Value of Open Source for Financial Services Firms
 
@@ -64,4 +63,4 @@ A whitepaper laying out the business case for open source engagement. A helpful 
 
 We built some high-level workflows for common open source compliance processes, along with a checklist that helps establishing an open source compliance program within your firm.
 
-- [Check out](https://github.com/finos/osr-checklists) the project on GitHub
+- [View](osr-checklist) the checklist

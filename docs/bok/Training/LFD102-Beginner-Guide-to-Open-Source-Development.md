@@ -4,15 +4,20 @@ tags:
   - Developer (Role)
   - Consuming (Activity)
   - License Compliance Management (Activity)
+  - Training
+  - LF-Training
+course:
+  publisher: Linux Foundation
+  code: LFC102
+  length: 2 hours
+  certification: Digital
+  cost: 0
+  link: https://training.linuxfoundation.org/training/open-source-licensing-basics-for-software-developers/
+sidebar_label: LFD102
 ---
 
 This course is designed for developers who utilize open source code.
 
 ## Details
 
-- Publisher: Linux Foundation
-- Code: LFC102
-- Length: 2 hours
-- Certification: Digital
-- Cost: 0
-- Link: https://training.linuxfoundation.org/training/open-source-licensing-basics-for-software-developers/
+<CourseDetails course={frontMatter.course}/>

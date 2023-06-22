@@ -34,19 +34,19 @@ The concept of a license applies to _all_ software, whether it is free, open sou
 
 > The hallmark of proprietary software licenses is that the software publisher grants the use of one or more copies of software under the end-user license agreement (EULA), but ownership of those copies remains with the software publisher (hence use of the term "proprietary"). - [Proprietary Software, _Wikipedia_](https://en.wikipedia.org/wiki/Proprietary_software)
 
-### 3. Open Source Software
+## Types of Software License
 
-The difference between proprietary software and _open source software_ is therefore in the license.   In general: 
+The difference between proprietary software and _open source software_ is therefore in the license.   
+
+In this section, we'll break down software licenses into _open source_, _proprietary_, _other types_ and _unlicensed_.
+
+### Open Source Licenses
 
 > Open-source software (OSS) is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose. - [Open-source software, _Wikipedia_](https://en.wikipedia.org/wiki/Open-source_software)
 
-Conversely, for _proprietary_ software, source code is generally _not_ made available to the end user.  Where it is, there are usually strict non-disclosure agreements in place.  
-
-## Types of Open Source License
-
 [Wikipedia](https://en.wikipedia.org/wiki/Software_license) describes three main types of open source licenses:
 
-### 1. Public Domain Licenses
+#### 1. Public Domain Licenses
 
 This where the work has been deliberately donated to the [Public Domain](https://en.wikipedia.org/wiki/Public_domain), or copyright on it has expired:
 
@@ -54,7 +54,7 @@ This where the work has been deliberately donated to the [Public Domain](https:/
 
 An example of a public domain license is [CCO](https://creativecommons.org/share-your-work/public-domain/cc0/), which is a license with "no rights reserved". 
 
-### 2. Permissive Licenses
+#### 2. Permissive Licenses
 
 [Permissive licenses](https://en.wikipedia.org/wiki/Permissive_software_license) are software licenses where the end user has many rights over what they can do with the software, including re-distribute it with their own license.  This allows people to make proprietary software _based on_ existing open source software:
 
@@ -62,7 +62,7 @@ An example of a public domain license is [CCO](https://creativecommons.org/share
 
 Examples of this type of license include the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0), [MIT License](https://mit-license.org) and [BSD License](https://opensource.org/license/bsd-2-clause/).
 
-### 3. Copyleft Licenses
+#### 3. Copyleft Licenses
 
 [Copyleft licenses](https://en.wikipedia.org/wiki/Copyleft) are more restrictive licenses which ask the end user to further license their derivative works under a similar copyleft agreement (called _reciprocity_):
 
@@ -70,16 +70,59 @@ Examples of this type of license include the [Apache 2.0 License](https://apache
 
 Copyleft licenses can present a problem for many organisations as they are fundamentally incompatible with either proprietary licenses or permissive licenses.  An example of this type of license is the [GNU Public License](https://www.gnu.org/licenses/quick-guide-gplv3.html).
 
+### Proprietary Licenses
+
+For _proprietary_ software, source code is generally _not_ made available to the end user.  Where it is, there are usually strict non-disclosure agreements in place:  
+
+> Proprietary software is software that is deemed within the free and open-source software community to be non-free because its creator ... exercises a legal monopoly by modern copyright and intellectual property law to exclude the recipient from freely sharing the software or modifying it ... thereby restricting their freedoms ... It is also known as non-free software or closed-source software - [Proprietary Software, _Wikipedia_](https://en.wikipedia.org/wiki/Proprietary_software)
+
+
+### Other Types Of License
+
+Often there is an overlap between genuine open source licenses other models:
+
+ - [Freeware](https://en.wikipedia.org/wiki/Freeware) is software, most often proprietary, that is distributed at no monetary cost to the end user.   Source code is often available but this is not a requirement.
+ - [Shareware](https://en.wikipedia.org/wiki/Shareware) - a type of proprietary software that is initially shared by the owner for trial use at little or no cost.  Again, source not generally available.
+ - [Freemium](https://en.wikipedia.org/wiki/Freemium) - a portmanteau of the words "free" and "premium", is a pricing strategy by which a basic product or service is provided free of charge, but money (a premium) is charged for additional features, services, or virtual (online) or physical (offline) goods that expand the functionality of the free version of the software.
+ 
+### Unlicensed Software
+
+Sometimes, the license is not provided on a piece of software, or, a license is _named_ but no associated legal definition exists for it, or the software could be [pirated](https://en.wikipedia.org/wiki/Copyright_infringement) either deliberately or accidentally by staff.  
+
+[GenesisIT](https://www.genesisit.co.uk/blog/the-risks-of-using-unlicensed-software/) summarises the following risks around this:
+
+- [Legal Risk](../Risks/Legal-Risk) - since the author of the software could litigate if they discover the infringement of their copyright.
+- [Operational Risk](../Risks/Operational-Risk) - if the software doesn't work or introduces security issues.
+
 ## Identifying The License
 
-The license for an open source project is usually held in a file called LICENSE in the repository or library, (for example, FDC3's license here: https://github.com/finos/FDC3/blob/master/LICENSE).  
+The license for an open source project is usually held in a file called `LICENSE` in the repository or library. (For example, FDC3's license is here: https://github.com/finos/FDC3/blob/master/LICENSE)
 
 Although this file allows for practically infinite variation in license terms and conditions, most open source software uses one of just a few common licenses.  For this reason, [SPDX](https://spdx.org/licenses/
 ) introduces _license identifiers_.  For example, the SPDX identifier "Apache-2.0" refers to the [Apache 2.0 License](https://apache.org/licenses/LICENSE-2.0)
 
-### Open Source Initiative (OSI) Approved Licenses
+### Open Source Initiative (OSI) Open Source Definition
+
 
 The [Open Source Initiative (OSI)](https://opensource.org) is an organisation keeping track of the different open source licenses in common use.  
+
+The previous section of this article gave an overview of what that meant and compared open source licenses to other types.  However, OSI goes further than this and publishes an [Open Source Definition](https://opensource.org/osd/) explaining in simple terms what they regard open source to mean exactly.  This includes:
+
+ - Free Distribution
+ - Source Code and license are available
+ - Must allow "derived works", that is:
+   - allowing code to be changed or patched 
+   - allowing building on top of the original work
+ - No limits on:
+   - who can use it
+   - what it can be used with
+   - which products it can be used in
+   - the technologies it can be used with
+   - the other software it can be used with
+   
+See: [Open Source Definition](https://opensource.org/osd/)
+
+### Open Source Initiative (OSI) Approved Licenses
 
 Many of the most popular licenses are [OSI Approved](https://opensource.org/licenses), that is:
 
@@ -87,7 +130,28 @@ Many of the most popular licenses are [OSI Approved](https://opensource.org/lice
 
 The OSI describes the definition of open source here: https://opensource.org/osd and describes how various common open source licenses differ here: https://opensource.org/licenses/category
 
-The vast majority of open source software will be using an OSI-approved licenses. 
+The vast majority of open source software will be using an OSI-approved licenses, but organisations will need to [track their usage](../Activities/Level-2/Software-Inventory).
+
+### Changing Licenses
+
+Sometimes, software can change license between versions and it is easy to be caught out not complying to the new license.  **Example**: [XCeed Property Grid](https://github.com/xceedsoftware/wpftoolkit/wiki/PropertyGrid) changed license between 3.8.0 (MSPL License) and 4.0.0 (their own license).  The newer license was _non commercial only_.  Proper [License Management Software](../Activities/Level-2/License-Management) is required to guard against this.
+
+### "Source Available" Licenses / Dual Licenses
+
+A recent trend (2021) in software appears to be to move away from approved OSI licenses and towards [Dual Licensing](https://en.wikipedia.org/wiki/Multi-licensing) with [a copyleft license](#3-copyleft-licenses) _and_ a commercial license.  This occurred as a reaction to cloud providers such as [AWS](https://aws.amazon.com) providing commercial products (and paid support) on their platforms, under-cutting the Freemium business models of the software developers.
+
+> In dual-licensing, a vendor releases software under a FOSS license with obligations that are difficult for some businesses to meet and also offers that same software under a commercial license. Both models use open source for exponential growth. The developer that grabs the free and open product today is (or works for) tomorrow’s paying customer. - [What’s up with these new not-open source licenses? - Justin Colannino, _Github_](https://github.blog/2021-03-18-whats-up-with-these-new-not-open-source-licenses/)
+
+Popular examples include:
+
+ - [MongoDB](https://www.mongodb.com/blog/post/mongodb-now-released-under-the-server-side-public-license)
+ - [CockroachDB](https://www.cockroachlabs.com/blog/oss-relicensing-cockroachdb/)
+ - [Redis](https://redislabs.com/blog/redis-labs-modules-license-changes/)
+ - [Confluent](https://www.confluent.io/confluent-community-license/).
+ 
+**See:**
+
+ - [Elastic License 2.0 and the Evolution of Open Source Licensing](https://www.coss.community/cossc/elastic-license-2-0-and-the-evolution-of-open-source-licensing-3jb3).  A good read explaining the history and forces behind this movement.
 
 ## License Obligations
 
@@ -122,3 +186,5 @@ Note that different usage situations will also determine which licenses are acce
 3.  [GitHub's ChooseALicense Site](https://choosealicense.com). A simple site that helps you navigate the choice of license for new software projects.
 
 4.  [Open Source Initiative's License Browser](https://opensource.org/license/).  Try choosing "Popular/Strong Community" for the most commonly used licenses.
+
+5,  [Wikipedia's Softeware License Page](https://en.wikipedia.org/wiki/Software_license) contains two excellent tables summarising "Rights Granted" vs different types of software license.

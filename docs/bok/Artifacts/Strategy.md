@@ -4,7 +4,8 @@ tags:
   - Placeholder
   - CEO (Role)
   - CTO/CIO (Role)
-draft: true
 ---
+
+**THIS IS A PLACEHOLDER**
 
 https://www.linuxfoundation.org/resources/open-source-guides/setting-an-open-source-strategy

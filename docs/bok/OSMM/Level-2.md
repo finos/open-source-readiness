@@ -1,5 +1,5 @@
 ---
-title: "Level 2: Compliance"
+title: "Level 2: Compliant Usage"
 sidebar_label: Level 2
 sidebar_position: 2
 tags:
