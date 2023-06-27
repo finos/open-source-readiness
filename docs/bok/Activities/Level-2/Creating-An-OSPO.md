@@ -154,6 +154,8 @@ Owning Improved Processes:
 - [Training](Consumption-Training): can you point to the number of people trained in open source consumption / contribution across your organisation? how can you demonstrate application of these trainings?
 - [Service Level](../../Measurements/Tickets): Is there a support function for the OSPO?  Can you demonstrate how successful it is?
 
+
+
 ### OSPO Staff
 
 At some point, you may be in the position to hire permanent staff for the OSPO, and move beyond the guild model:
@@ -169,6 +171,7 @@ At some point, you may be in the position to hire permanent staff for the OSPO, 
 - [Google blew it with open source layoffs](https://www.infoworld.com/article/3686511/google-blew-it-with-open-source-layoffs.html) - InfoWorld article about Google OSPO layoffs.
  - [What does an open source program office do?](https://www.redhat.com/en/blog/what-does-open-source-program-office-do) - RedHat
  - [Why have an open source program office?](https://www.redhat.com/en/blog/what-does-open-source-program-office-do) - RedHat
+ - [Why PMOs Fail](https://www.reddit.com/r/projectmanagement/comments/14jm72v/why_the_majority_of_pmos_fail/?utm_source=share&utm_medium=ios_app&utm_name=iossmf&utm_content=1&utm_term=22) - Reddit Discussion
 
 ## Other Notes
 

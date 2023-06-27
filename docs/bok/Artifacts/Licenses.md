@@ -4,11 +4,12 @@ tags:
   - Developer (Role)
   - OSPO (Role)
   - Legal (Role)
+  - License (Artifact)
 sidebar_position: 1
 sidebar_label: Licenses
 ---
 
-This article provides some basic framing around the purpose of licenses within open source:
+This article provides some basic framing around the purpose of licenses within open source.
 
 - It introduces common _terms_ used to describe software: _copyright_, _software licenses_ and _open source_.
 - It describes the three types of open source licenses, and why an organisation needs to track the licenses it uses.

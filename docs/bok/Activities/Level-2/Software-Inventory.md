@@ -8,6 +8,7 @@ tags:
   - Placeholder
   - Codebase Risk
   - Dependency Risk
+  - CVE (Artifact)
 sidebar_position: 1
 ---
 
