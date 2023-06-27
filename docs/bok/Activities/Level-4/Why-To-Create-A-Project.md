@@ -8,7 +8,7 @@ sidebar_position: 1
 sidebar_label: Why
 ---
 
-Just as there are many reasons to [contribute to open source projects](../Level-3/Contributing-To-Projects), it is the same when it comes to a financial institution deciding to open-source.  However, the reasoning behind might be different. 
+Just as there are many reasons to [contribute to open source projects](../Level-3/Making-The-Case), it is the same when it comes to a financial institution deciding to open-source.  However, the reasoning behind might be different. 
 
 **Note:** In this article, we are not trying to cover all reasons for engaging in open source, see [Making the Case](../Level-3/Making-The-Case) for more basis for that. 
 

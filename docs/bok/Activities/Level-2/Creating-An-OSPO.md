@@ -14,7 +14,7 @@ An [Open Source Program Office (OSPO)](../../Artifacts/OSPO) is designed to be t
 
 Creating an OSPO is _organisational change_.  Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
 
-### 1.  Create a Sense of Urgency
+## 1.  Create a Sense of Urgency
 
 There are few ways to create a sense of urgency (i.e. fear) around the need for an OSPO.  For example:
 
@@ -26,9 +26,9 @@ There are few ways to create a sense of urgency (i.e. fear) around the need for 
 
 See Also: 
 
-- [Making the Case for an OSPO](../Level-3/Contributing-To-Projects#making-the-case-for-contribution) ( already written in the OSR Common Problems)
+- [Making the Case for an OSPO](../Level-3/Making-The-Case)
 
-### 2. Build a Guiding Coalition
+## 2. Build a Guiding Coalition
 
 In the first instance, your OSPO should be composed of a "willing coalition".  Please review the [Roles](../../Roles/Introduction) for a list of OSPO-adjacent business roles you will need to engage with.  Different parts of a large organisation will have different priorities, backgrounds and ways of talking and working.  You will need to reach across these gaps.  Here are some tips on how to do this:
 
@@ -48,12 +48,12 @@ Build trust and credibility: Establish trust by being transparent, reliable, and
 
 - **Be patient and persistent**: Building any relationship takes time.   
 
-#### OSPO Structures
+### OSPO Structures
 
 - To start with, the OSPO will probably start as a minimum-viable "guild" structure. tbd.  Reference TODOGROUP OSPO Structures here.  
 - You will need to figure out who the OSPO "reports to", i.e an owning function, e.g. with the CTO, COO.  This will highly depend on your organisational structure.    
 
-### 3. Form a Strategic Vision and Initiatives
+## 3. Form a Strategic Vision and Initiatives
 
 Every OSPO is different. Having a clear view on [why you need an OSPO](https://www.redhat.com/en/resources/open-source-program-office-brief) will help you define the vision and areas of focus. This in turn helps with communication with other stakeholders to further secure support and buy-in to create and OSPO. Some examples of OSPO initiatives are:  
 
@@ -63,7 +63,7 @@ Every OSPO is different. Having a clear view on [why you need an OSPO](https://w
 
 You can visit the [TODO page](https://todogroup.org/guides/create-program/) for more examples of OSPO roles.
 
-#### Aligning To KPIs
+### Aligning To KPIs
 
 OSPOs demonstrate their value where they align to the KPIs of other teams.  For example:
 
@@ -78,7 +78,7 @@ OSPOs demonstrate their value where they align to the KPIs of other teams.  For 
 - **Procurement**:  OSPO can help avoid undesirable software or license entering the organisation through equipping the procurement team with relevant open source knowledge so they can be more effective in evaluating potential vendors.
 
 
-### 4. Enlist a Volunteer Army
+## 4. Enlist a Volunteer Army
 
 > To effectively enlist an army you must first identify potential allies and build relationships with them. This can be done through open communication and by involving them in the change process from the beginning. Additionally, another method of enlisting and growing an army is to reward individuals for their contributions and support. This will build morale and motivation, and will organically encourage others to get involved. - [Kotters 8 Step Change Model](https://www.mtdtraining.com/blog/kotters-8-step-change-model.htm)
 
@@ -94,7 +94,7 @@ Who should be the volunteers?  - list these.
    
 Identifying the right [motivational drivers](https://growthoughtful.com/motivational-drivers-with-examples/) for your volunteers will help you define an engagement strategy that encourages the desired behaviour from them
 
-### 5. Enable Action by Removing Barriers
+## 5. Enable Action by Removing Barriers
 
 Some examples:
 
@@ -106,7 +106,7 @@ Some examples:
 
 - **Process / Policy**: Removing blockers in process.  Getting the policy approved by legal so that you don't need to recourse to them every time you want to do something.  For this you will need an [Open Source Policy](Creating-Policy) 
 
-### 6. Generate Short-Term Wins
+## 6. Generate Short-Term Wins
 
 OSPOs are usually a small part of the organisation, so you'll have to ruthlessly prioritise. In order to do this, you could either _teach_ other teams, or, if you are going to take action yourself, you could look at:
 
@@ -124,37 +124,37 @@ Examples:
 
 It's important to make sure that you publicise your wins. This means engaging with and communicating to the stakeholders (identified above).
 
-### 7. Sustain Acceleration
+## 7. Sustain Acceleration
 
 > One key aspect of this step is to encourage employees to identify and address any issues that arise and to continuously seek out ways to improve the change initiative - [Kotters 8 Step Change Model](https://www.mtdtraining.com/blog/kotters-8-step-change-model.htm)
 
 - Maintain the momentum from previous steps
-- Make **communication** key to keep change on the top of everyone’s minds
-- **Reward** those for endorsing change
+- [Make **communication** key to keep change on the top of everyone’s minds](../Level-3/Community-Engagement)
+- [**Reward** those for endorsing change](../Level-3/Culture)
+- [**Metrics** to measure success](../../Measurements)
 - Improving process via feedback from participants
 - Benchmarking against peers
-- Metrics
 
-### 8. Institute (Permanent) Change
+## 8. Institute (Permanent) Change
 
 _Changing from a Guild to being part of the organisational structure._
 
 Making sure your OSPO is business critical:
 
-- Compliance: Can you demonstrate compliance wins, that have made a material difference? 
-- License Management:
-- Software Inventory: are there cost implications to understanding the open source inventory, and replacing proprietary software with open source.  
-- Recruitment:  can you show improved talent retention?  
-- Risk Reduction: _not_ having internal forks of OSS projects as this is a security risk.
-- Supply Chain Security:  can you point to vulnerabilities that have been managed.
+- [Compliance](Consumption-Compliance): Can you demonstrate compliance wins, that have made a material difference? 
+- [License Management](License-Management): Is your OSPO doing its part to ensure open source license compliance?
+- [Software Inventory](Software-Inventory): are there cost implications to understanding the open source inventory, and replacing proprietary software with open source.  
+- [Recruitment](../Level-4/Talent):  can you show improved talent retention?  
+- [Risk Reduction](../../Risks/Introduction): _not_ having [internal forks](../../Measurements/Code-Duplication) of OSS projects as this is a security risk.
+- [Supply Chain Security](Supply-Chain-Security):  can you point to vulnerabilities that have been managed?
 
 Owning Improved Processes:
 
-- Releases:  can you institute some kind of checklist of controls around open source releases?  _How can you encourage open source without putting people off with process?
-- Training: can you point to the number of people trained in open source consumption / contribution across your organisation? how can you demonstrate application of these trainings?
-- Is there a support function for the OSPO? Can you demonstrate a service level?
+- [Releases](../../Measurements/Release-Cadence):  can you institute some kind of checklist of controls around open source releases?  How can you encourage open source without putting people off with process?
+- [Training](Consumption-Training): can you point to the number of people trained in open source consumption / contribution across your organisation? how can you demonstrate application of these trainings?
+- [Service Level](../../Measurements/Tickets): Is there a support function for the OSPO?  Can you demonstrate how successful it is?
 
-#### OSPO Staff
+### OSPO Staff
 
 At some point, you may be in the position to hire permanent staff for the OSPO, and move beyond the guild model:
 
