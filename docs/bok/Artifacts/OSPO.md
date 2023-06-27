@@ -36,6 +36,8 @@ _What concerns are inside the OSPO?  What should you not focus on?_
 - **Vulnerabilities**:  who is dealing with reported vulnerabilities on used projects?  Is there reporting and a process around closing these?   Should the OSPO be tracking that?   In order to establish this, you will need to know what software is being consumed within the organisation.
 - **Procurement**: OSPOs might recommend open source software to invest in strategically, or try to help the procurement team break out of the vendor/proprietary software relationships and use more open source solutions.
 
+**See:** [TODO Group's OSPO Mind Map](https://ospomindmap.todogroup.org/)
+
 ## Tools
 
 _Some tools which help OSPOs do their work._
