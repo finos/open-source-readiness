@@ -3,7 +3,7 @@ title: Building an Open Source Culture
 tags: 
   - Developer (Role)
   - Business (Role)
-  - ISPO (Role)
+  - OSPO (Role)
   - Placeholder
   - Level 3 (OSMM)
 sidebar_position: 8
@@ -14,51 +14,9 @@ Historically, employees in banks have faced challenges contributing to open sour
 
 Building a culture around open source is crucial to encourage contributions in the rapidly evolving financial technology landscape.
 
-**THIS IS A PLACEHOLDER**
+This article gives some ideas about how to take that forward.
 
-
-tbd
-
-
-- Aligning your firm to OSS activities
-- promote best practices
-- clear paths to contribution
-- HR understands OSS skills (GGI)
-
-
-## Starting an ISPO
-
-OPtional activity?
-
-- trying to change the internal culture of the company to be more like Open Source.
-
-
-Improve collaboration across the organization
-Establish communication channels across the organization
-Increase productivity, quality, code re-use, transparency and trust
-Remove organizational silos and identify talent across the organization
-
-
-- need to include details of internal licenses, slas.
-
-
-
-## Staffing
-
-_Who do you need in the OSPO?_
-
-- **Guild Model**:  ideally, you need representatives interacting with the OSPO from all the areas of business: finance, HR, Legal etc.   Several firms operate their OSPO on a "Guild Model", with staff being present in the OSPO and their line function.
-- **IP Council**:  You may need someone who is expert on software licensing if this is part of the remit of your OSPO.
-- IP Policy: The organisation's IP Policy has a bearing on whether employees can contribute to open source.  
-
-## Remit
-
-_What concerns are inside the OSPO?  What should you not focus on?_
-
-- **A Software Catalogue**: sometimes, an OSPO is about mandating certain types of technologies.  Are you trying to establish standards for the estate?   
-- **Vulnerabilities**:  who is dealing with reported vulnerabilities on used projects?  Is there reporting and a process around closing these?   Should the OSPO be tracking that?   In order to establish this, you will need to know what software is being consumed within the organisation.
-
-## Culture
+## Changing Culture
 
 _Finance is not a domain traditionally comfortable with the values of Open-Source, such as working in public and sharing code and ideas.  How to overcome this?_
 
@@ -78,21 +36,35 @@ _Finance is not a domain traditionally comfortable with the values of Open-Sourc
 _Many developers lead a double life: their corporate selves and their external, open-source persona.  How do you merge these?_
 
 - **Mentoring**:  work with developers to build their open-source profiles.  Allow the leaders to train those inexperienced in Open-Source contribution.
-- **Education**: sometimes, managers need to be educated as to why their staff should be allowed to contribute to open source - what do they get out of it?  How can they be educated to value the long-term benefits?
+- **Education**: sometimes, managers need to be educated as to why their staff should be allowed to contribute to open source - what do they get out of it?  How can they be educated to value the long-term benefits? 
 - **Create a Hub**:  build a site where people can find the resources they need.  Tutorials, training, documentation, etc.  
-- **Golden Paths**:  is there a "golden path" to doing something right?  e.g. starting a new application, open-sourcing a project?  Can you make this path as simple as possible?
+- **Publish Golden Paths / Best Practices**:  is there a "golden path" to doing something right?  e.g. starting a new application, open-sourcing a project?  Contributing a bug-fix? Can you make this path as simple as possible?
 - **DEVX (Developer Experience)**:  can you reduce the number of disparate sources of information (JIRA, Email, GitHub, vulnerabilities) for the developer, to reduce their cognitive load?  
 - **Networking**:  how can you put like developers together within the organisation?  Can you find out which tools+libraries developers are using, and share with them details of who else uses it, and training resources?
 - **Scorecards**: Discover are looking at building project scorecards using the data-graph from Backstage.  Can you rate the quality of the project based on documentation, licensing, observability, test coverage?  
 - **Recommendation Algorithm**: Once you have a graph of projects-technologies-developers, can you build recommendations of blog articles, training courses and technologies for developers based on what other, similar developers/projects are doing?
+- **Cross-Department Collaboration**: Understand the value of [Training](Contribution-Training) to shift culture.  Make sure other departments such as [HR](../../Roles/HR-Training) are aware of the value of open source skills.   
 
 ## Inner Source
 
 _Many firms see Inner Source as a good way of sharing work internally, as well as building the right mindset and tool familiarity for external open-source contribution._
 
-- **Bring External Tools In**: e.g. stand up GitHub enterprise, allow everyone to contribute to that.
+- **Bring External Tools In**: e.g. stand up [GitHub enterprise](https://github.com/enterprise) or [GitLab Enterprise](https://about.gitlab.com/enterprise/), allow everyone to contribute to that.  Consider [Stack Overflow for Teams](https://stackoverflow.co/teams/) 
 - **Advertise Inner Source Projects**: InnerSource stands or falls by the amount of internal adoption it receives.  Make sure there is regular communication about the most important InnerSource projects.
+- **Encourage Cross-Project Pull Requests**: Rather than one team requesting functionality from another, can they be encouraged to raise PRs for the functionality they need?
 
+### Aims
+
+The goal of InnerSource is to try to change the internal culture of the company to be more like Open Source.  That is:
+
+ - Improving collaboration across the organization
+ - Establish communication channels across the organization via Open-Source style tools (such as PRs, Issues and Comments)
+ - Increase productivity, quality, code re-use, transparency and trust via publishing source code
+ - Breaking organizational silos and spotlighting talent across the organization.
+ 
+Additionally, many see Inner Source as being _a stepping stone_ to Open Source and an easier sell to [Product Managers](../../Roles/Product-Manager) who don't want their staff distracted by committing to open source projects.
+
+**See Also:**: [InnerSource Commons Website](https://innersourcecommons.org)
 
 ## Process
 
@@ -102,14 +74,5 @@ _Even where contributing to Open-Source is allowed, the amount of process involv
 - **Audit**:  Does each new Open-Source project need an audit process?  Can't this be standardized?
 - **Approval**: who approves a new open source project?  How about contribution to existing (external) projects? Is the process streamlined?
 - **Lifecycle**: who is in charge of the creation/removal of Open-Source projects for the organisation?
-- Estate Management: does anyone keep track of the external estate of Open-Source projects (or Inner Source ones).
-- Vulnerabilities: do you have appropriate controls around checking for vulnerabilities in your projects?
-
-## Tools
-
-_Some tools which help OSPOs do their work._
-
-- **Backstage**:  Builds a graph of the tech landscape by consuming other golden-sources of data, such as GitHub, Artifactory, Jenkins, JIRA, etc.   This gives you a really good high-level view of the whole landscape.   More and more sources are getting backstage plugins to allow them to connect their data.  
-- [SBOM](https://en.wikipedia.org/wiki/Software_supply_chain)s: A way of describing the provenance and contents of a software library or package.
-- **LFX**: _tbd._
-- **cauldron.io**: _tbd._
+- **Estate Management**: does anyone keep track of the external estate of Open-Source projects (or Inner Source ones).
+- **Vulnerabilities**: do you have appropriate controls around [checking for vulnerabilities](../Level-2/Supply-Chain-Security) in your projects?

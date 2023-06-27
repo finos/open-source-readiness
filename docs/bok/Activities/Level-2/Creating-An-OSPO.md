@@ -7,7 +7,7 @@ sidebar_position: 7
 sidebar_label: OSPO
 ---
 
-An OSPO is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group.](https://github.com/todogroup/ospodefinition.org). Creating an OSPO is _organisational change_. Therefore, in this article, we are going to use the formalism of [Kotter's 8-Step Process for Leading Change](https://en.wikipedia.org/wiki/Change_management#Change_models) to structure this article, however, you can approach this any way you want.
+An [Open Source Program Office (OSPO)](../../Artifacts/OSPO) is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group](https://github.com/todogroup/ospodefinition.org). 
 
 - Lots of the level 2 activities are probably being performed piecemeal by the organisation.
 - Creating an OSPO allows you to centralise and structure all the level 2 activities and allow you to start working on Level 3.
@@ -26,7 +26,7 @@ There are few ways to create a sense of urgency (i.e. fear) around the need for 
 
 See Also: 
 
-- [Making the Case for an OSPO](../Level-3/Contributing-To-Projects)#making-the-case-for-contribution ( already written in the OSR Common Problems)
+- [Making the Case for an OSPO](../Level-3/Contributing-To-Projects#making-the-case-for-contribution) ( already written in the OSR Common Problems)
 
 ### 2. Build a Guiding Coalition
 
@@ -71,15 +71,13 @@ OSPOs demonstrate their value where they align to the KPIs of other teams.  For 
 
 > "Security is part of our OSPO's mission - we want to secure our use of open source... but we're a different part of the organisation to security.  We have a partnership approach with them and we are aligned on wanting the same things.  Our [OSPO Lead] understands the OKRs of the security team." - Zack Keppert, Github OSPO Lead  
 
-- **Outgoing Security**:  The OSPO can help by ensuring that the organisation doesn't [Leak IP via open source](../Level-3/DLP). This might be by helping the security team improve their policies, which may not be well-developed around _outgoing_ security risks via open source projects. 
+- **Outgoing Security**:  The OSPO can help by ensuring that the organisation doesn't [Leak IP via open source](../Level-3/Publication). This might be by helping the security team improve their policies, which may not be well-developed around _outgoing_ security risks via open source projects. 
 
 - **Recruiting Talent**:  Becoming [active contributors](../Level-3/Community-Engagement) and demonstrating engineering excellence attracts talent.  See [Recruiting Developers](https://todogroup.org/guides/recruiting-developers/).  Open source can be a ["Shift Left"](https://devopedia.org/shift-left) approach to hiring, where you are improving your organisations' awareness at the top of the funnel due to open source activity.  Microsoft open-sourcing Typescript and VSCode has helped them hire top talent in other areas because of brand awareness.  
 
-<<<<<<< HEAD
 - **Procurement**:  OSPO can help avoid undesirable software or license entering the organisation through equipping the procurement team with relevant open source knowledge so they can be more effective in evaluating potential vendors.
 
-=======
->>>>>>> CreatingAnOSPOLocal
+
 ### 4. Enlist a Volunteer Army
 
 > To effectively enlist an army you must first identify potential allies and build relationships with them. This can be done through open communication and by involving them in the change process from the beginning. Additionally, another method of enlisting and growing an army is to reward individuals for their contributions and support. This will build morale and motivation, and will organically encourage others to get involved. - [Kotters 8 Step Change Model](https://www.mtdtraining.com/blog/kotters-8-step-change-model.htm)
@@ -100,13 +98,13 @@ Identifying the right [motivational drivers](https://growthoughtful.com/motivati
 
 Some examples:
 
-- Procurement:  they might need some help to understand that procuring OSS is very different.  They cannot get an SLA from an open source project.  They _will_ need to understand [SBOMs](../../Artifacts/SBOMs).
+- **Procurement**:  they might need some help to understand that procuring OSS is very different.  They cannot get an SLA from an open source project.  They _will_ need to understand [SBOMs](../../Artifacts/SBOMs).
 
-- Middle Managers:  (Level 3) they might need to understand that their staff will be contributing to open source projects, this might not be aligned directly to a business goal.  Making OSS contribution part of the OKRs.
+- **Middle Managers**:  (Level 3) they might need to understand that their staff will be contributing to open source projects, this might not be aligned directly to a business goal.  Making OSS contribution part of the OKRs.
 
-- HR: they might need to understand how open source can attract talents (https://enterprisersproject.com/article/2021/1/open-source-6-surprising-advantages-enterprises), and leverage open source activities to drive recruitment (e.g. campus events)
+- **HR**: they might need to understand how open source can attract talents (https://enterprisersproject.com/article/2021/1/open-source-6-surprising-advantages-enterprises), and leverage open source activities to drive recruitment (e.g. campus events)
 
-- Process / Policy: Removing blockers in process.  Getting the policy approved by legal so that you don't need to recourse to them every time you want to do something.  For this you will need an [Open Source Policy](Creating-Policy) 
+- **Process / Policy**: Removing blockers in process.  Getting the policy approved by legal so that you don't need to recourse to them every time you want to do something.  For this you will need an [Open Source Policy](Creating-Policy) 
 
 ### 6. Generate Short-Term Wins
 
@@ -122,7 +120,7 @@ Examples:
 
 - Helping to remediate some vulnerabilities or license compliance issue in one of those applications.
 
-- (Level 3). Making small contributions back to open source projects.
+- Making small contributions back to open source projects.
 
 It's important to make sure that you publicise your wins. This means engaging with and communicating to the stakeholders (identified above).
 
@@ -152,7 +150,7 @@ Making sure your OSPO is business critical:
 
 Owning Improved Processes:
 
-- Releases:  can you institute some kind of checklist of controls around open source releases?  _How can you encourage open source without putting people off with process?_
+- Releases:  can you institute some kind of checklist of controls around open source releases?  _How can you encourage open source without putting people off with process?
 - Training: can you point to the number of people trained in open source consumption / contribution across your organisation? how can you demonstrate application of these trainings?
 - Is there a support function for the OSPO? Can you demonstrate a service level?
 
@@ -162,19 +160,6 @@ At some point, you may be in the position to hire permanent staff for the OSPO, 
 
 - **Most OSPOs have a developer component** - that is, developers who can help build and deploy tooling.  If you are hiring for this role you will need to find staff who are comfortable with both development and customer-facing work.   
 - **Hire for communications** - your OPSO will need to interface with [Internal Audit](../../Roles/Internal-Audit) or [Compliance](../../Roles/Compliance) so it might be worth hiring people who have had experience working in these areas.
-=======
-1. Making the Case for an OSPO ( already written in the OSR Common Problems)
-
-2.  Staffing the OSPO / Structures / Sizing
-
-- link to lots of TODO docs here.
-
-- Can the OSPO change the procurement process for software? OSS doesn't have an SLA, support agreements etc.  This requires a significant change in approach.
-
-
-- Is the OSPO able to make recommendations around which open source libraries and projects to invest in?  If so, can they create metrics around how much this simplifies the technology landscape?   
->>>>>>> main
-
 
 ## Further Reading
 

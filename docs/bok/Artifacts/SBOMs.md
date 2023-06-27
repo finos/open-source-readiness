@@ -3,6 +3,7 @@ title: Software Bill of Materials (SBOM)
 tags: 
   - OSPO (Role)
   - Developer (Role)
+sidebar_label: SBOM
 ---
 
 An SBOM, or Software Bill of Materials, is a list of all the components, libraries, and dependencies used in a software project, along with their associated version numbers and license information. There are two different SBOM formats:

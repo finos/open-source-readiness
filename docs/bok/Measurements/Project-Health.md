@@ -5,11 +5,24 @@ tags:
   - CTO/CIO (Role)
   - Developer
   - Placeholder
-draft: true
+  - Project-Measurement
 ---
 
-ways of measuring the health of oss projects (FINOS has several)
+For a given open source project, here are some ways of measuring the health of the project, thereby determining [Dependency Risk](../Risks/Dependency-Risk)
+
+**THIS IS A PLACEHOLDER**
+
+## What To Measure
+
+- Number of individual committers (within a given recency).
+- Diversity of committer organisations
+- Number of stars (GitHub)
+- Open Issues 
+- Issue close rate (e.g. number of issues closed within a given time period)
+
+## Tool Support
+
+tbd.
 
 - software you can use for this (backstage, github)
-
 - dashboards

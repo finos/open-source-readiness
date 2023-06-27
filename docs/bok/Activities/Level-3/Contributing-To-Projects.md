@@ -8,9 +8,10 @@ tags:
   - CLAs-And-DCOs (Artifact)
   - Licenses (Artifact)
   - Level 3 (OSMM)
-draft: true
 sidebar_position: 2
 ---
+
+**THIS IS A PLACEHOLDER**
 
 ## Making The Case for Contribution
 
@@ -20,7 +21,7 @@ sidebar_position: 2
 Infrastructure:
 
 
- - Compliance and contribution tooling [DLP](DLP)
+ - Compliance and contribution tooling
  - In-house GitHub?  / GitLab  
  - other tools.
  - process improvement

@@ -5,6 +5,7 @@ tags:
   - OSPO (Role)
   - Legal (Role)
 sidebar_position: 1
+sidebar_label: Licenses
 ---
 
 This article provides some basic framing around the purpose of licenses within open source:

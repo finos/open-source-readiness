@@ -7,7 +7,7 @@ tags:
   - Placeholder
 ---
 
-This section of the OSBOK describes common measurments you might make... tbd.
+This section of the Body of Knowledge describes common measurements you might make within an organisation to judge the health either of individual projects or the organisation's maturity of open source as a whole.
 
 ## The Measurements
 

@@ -14,16 +14,22 @@ sidebar_label: Talent
 Managing talent in financial institutions is crucial because the quality, motivation, and expertise of their workforce directly influence the institutions' ability to innovate, maintain a competitive edge, comply with regulatory requirements, and ultimately drive financial performance and growth.
 
 **THIS IS A PLACEHOLDER**
- 
-Train new and coach existing open source leaders 
-Recognize contributions of organization's members
-Create programs to incentivize contributions of organization's members
-Drive an internal open source ambassadors program
-Making it easy to contribute
- 
- Talent: Open Source career paths, incentivising, ambassadors, recognition
 
-2.  Talent Retention
+## Attracting Talent
+
+ - Sponsoring Events
+ - Visibility in the open source space by contributing projects or engineering muscle
+
+## Nurturing Talent
+ 
+ - Train new and coach existing open source leaders 
+ - Recognize contributions of organization's members
+ - Create programs to incentivize contributions of organization's members
+ - Drive an internal open source ambassadors program
+ - Making it easy to contribute
+ - Set up open source career paths
+
+## Retaining Talent
 
  - Finance organisations are great at _attracting_ talent by simply paying very high wages.  The problem is attrition.  
  - It's important to understand that lots of open source is developed for _non-financial rewards_.   
@@ -34,7 +40,7 @@ Making it easy to contribute
  - Ironically, hiring from a strategic open source project actually will reduce the value of that project if the employee isn't allowed to contribute back.  
  
  
-## Proprietary Platforms
+## Proprietary Platforms
 
 Developers don't want to work on your organisation's proprietary platform as their skills are not transferable and they are less productive (the ecosystem is smaller than with open source tools).   Using open source is a big attraction:
  

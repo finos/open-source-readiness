@@ -2,12 +2,20 @@
 title: Code Duplication
 tags: 
   - OSPO (Role)
-  - Placeholder
   - Operational Risk
   - Codebase Risk
+  - Organisational-Measurement
 ---
 
-This article will cover:
+Code duplication occurs when internal staff are forced to create copies of external (or other internal code) and modify it to suit their own purposes, thereby increasing the maintenance overhead.
+
+## What to Measure
+
+ - Number of internal forks of pre-existing open source projects
+ - Number of commits / releases to these forks
+ - Number of developers contributing to these forks
+ 
+Higher numbers here are _worse_.  This article explains:
 
  - Why code duplication is a bad idea.
  - Why it doesn't occur much on public open source projects
