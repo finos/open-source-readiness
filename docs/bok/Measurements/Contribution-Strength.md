@@ -16,5 +16,6 @@ For an organisation engaged in open source (or inner source), consider measuring
 - Number of pull-requests merged from internal staff (either on all projects or key strategic projects)
 - Number of inner source / open source projects being maintained.
 - How long it takes someone to have approval to contribute.
+- commits / lines of code changed in a period of time.
 
 **THIS IS A PLACEHOLDER**
