@@ -167,6 +167,7 @@ At some point, you may be in the position to hire permanent staff for the OSPO, 
 
 - [The Business Value of the OSPO](https://www.linuxfoundation.org/research/business-value-of-ospo).  Useful article by the TODO Group
 - [Recruiting Open Source Developers](https://todogroup.org/guides/recruiting-developers/). 
+- [OSPO Mind Map](https://ospomindmap.todogroup.org/). From TODO Group.
 - [GitHub-OSPO](https://github.com/github/github-ospo) - Helping OSPOs be successful on GitHub.
 - [Google blew it with open source layoffs](https://www.infoworld.com/article/3686511/google-blew-it-with-open-source-layoffs.html) - InfoWorld article about Google OSPO layoffs.
  - [What does an open source program office do?](https://www.redhat.com/en/blog/what-does-open-source-program-office-do) - RedHat

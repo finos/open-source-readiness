@@ -85,7 +85,9 @@ _Finance is not a domain traditionally comfortable with the values of Open-Sourc
 - **Encouraging External Interaction**: e.g. covering the expenses of developers going to conferences, getting them to do talks at those conferences, asking people to attend meetups, asking people to engage with external open-source projects, giving people time to work on Open-Source.
 - **Remove The Fear**:  you have to keep messaging that contributing to Open Source is OK.  In lots of institutions, drawing attention to your work has been considered harmful.  In some institutions code exfiltration has been a sackable offence.
 - **Shift-Left of Licensing**: can you identify which OSS licenses are being used by your projects at build time, rather than once the projects are released?  (see also: SBOMs)
-- **Hackathons**
+- **Hackathons**:  Hackathons can be an easy way to increase exposure to [open source contribution](Contribution-Training), the firm's [OSPO](../../Artifacts/OSPO) and highlight the wider open source community.  **See:**
+  - [FINOS BMO Hackathon Blog Post](https://www.finos.org/community-spotlight/community-spotlight-interoperability-regtech-hackathon-winners)
+  - [Global Accessibility Hackathon Blog Post](https://www.finos.org/community-spotlight/community-spotlight-gaad-hackathon-winners) 
 - **External Speakers**: getting high-profile maintainers from OSS projects used in the firm to come and talk.
 - **Top-Down Buy-In**: get senior managers to telegraph their approval of OSS 
 - **Newsletters**
