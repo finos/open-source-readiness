@@ -123,6 +123,7 @@ At the moment, this is an area of active investigation.
  - Tools like [GitHub Enterprise](https://github.com/enterprise) support auditing activity and GitHub itself has a [GraphQL Endpoint](https://docs.github.com/en/graphql) where detailed information about activity can be gathered.
  - [island.io](https://island.io) is a browser with built in enterprise tools for monitoring activity,
  - Tools such as [Proof Point](https://www.proofpoint.com/uk/solutions/social-media-protection-and-compliance) allow monitoring, hack prevention, [DLP](../../Artifacts/DLP-Software) for social media.  
+ - [Symphony](symphony.com) has a tool to allow staff to use WhatsApp while being surveilled.
 
 ### Blocking Tools
 

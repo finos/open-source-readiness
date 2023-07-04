@@ -183,6 +183,7 @@ See Also:
 
 - [Compliant Financial Infrastructure](https://github.com/finos/compliant-financial-infrastructure).  A project that exists to accelerate the development, deployment and adoption of services provided for infrastructure in a way that meets common regulatory and internal security controls.
 - [SBOMs](../../Artifacts/SBOMs). _Software Bill of Materials_. 
+- [Open Source Compliance in the Enterprise](https://project.linuxfoundation.org/hubfs/Reports/OpenSourceComplianceHandbook_2018_2ndEdition_DigitalEdition.pdf?hsLang=en). Online book by Ibrahim Haddad, PHD.  Published by Linux Foundation.
 
 
 
