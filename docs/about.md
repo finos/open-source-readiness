@@ -66,6 +66,10 @@ Insert bio here
 
 ## Contributing Authors
 
+<Bio name="Amol Meshram" image="/img/people/no-headshot.png" organisation="LSEG">
+TBD.
+</Bio>
+
 <Bio name="Rob Moffat" image="/img/people/rob-moffat.jpeg" organisation="FINOS">
 Rob Moffat is a seasoned IT professional living in the UK. Over the last twenty years, he has worked at many of the top-tier investment banks in London on regulatory and transformation IT projects. Rob is a staunch advocate of Open Source and works on many open source projects, including the FINOS "Spring Bot" project which he built and contributed whilst working at Deutsche Bank.  Rob holds a Computer Science degree and an MBA and is the author of <a href="https://www.amazon.co.uk/Risk-First-Software-Development-1-Menagerie/dp/1717491855">Risk-First Software Development</a>.
 </Bio>
