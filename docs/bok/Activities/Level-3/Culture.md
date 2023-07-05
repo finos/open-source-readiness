@@ -31,29 +31,36 @@ tbd
 - clear paths to contribution
 - HR understands OSS skills (GGI)
 
-## Sustainability
+## Sustainability
 
 
 
-## Inner Source
+## InnerSource
 
-_Is inner source just a function of the OSPO_
 _Trying to change the internal culture of the company to be more like Open Source._
-- Is Inner Source an easier "sell"?  Can you get inner source projects off the ground easier?  If projects are started as Inner Source, you are at least starting to use the tools and practices of open source in your organisation.
-- Inner Source code is more "sustainable".
-- I.S. at least gets people working on more projects.
-- I.S. vs Open Source Personal Development.
 
-IS/OS as a "continuum" (of licenses.
+Sometimes, it's easier to get your company involved in InnerSource before making the full leap to open source contribution.  
 
-Improve collaboration across the organization
-Establish communication channels across the organization
-Increase productivity, quality, code re-use, transparency and trust
-Remove organizational silos and identify talent across the organization
+> "InnerSource is the use of open source software development best practices and the establishment of an open source-like culture within organizations for the development of its non-open-source and/or proprietary software. The term was coined by Tim O'Reilly in 2000" - [Inner Source, _Wikipedia_](https://en.wikipedia.org/wiki/Inner_source)
 
+In practice, this means opening up _internal_ projects to workflows such as issue tracking, pull requests etc.  If projects are started as InnerSource, you are at least starting to use the tools and practices of open source in your organisation.
 
-- need to include details of internal licenses, slas.
+Some reasons for considering this (from [Wikipedia](https://en.wikipedia.org/wiki/Inner_source)):
 
+- Improve collaboration across the organization
+- Establish communication channels across the organization
+- Increase productivity, quality, code re-use, transparency and trust
+- Remove organizational silos and identify talent across the organization
+- Improved sustainability of InnerSource'd projects, since other parts of the organisation can re-use or contribute to them
+
+**See Also:**
+
+ - [Using open source methods for internal software projects](https://www.oreilly.com/content/using-open-source-methods-for-internal-software-projects/) - Article by Jared Smith of O'Reilly.
+ - [InnerSource Commons](https://innersourcecommons.org): InnerSource Commons is the world's largest community of InnerSource practitioners. 
+ - [Wikipedia Page on InnerSource](https://en.wikipedia.org/wiki/Inner_source)
+ - Inner Source Licensing  tbd.
+ - Presentation on Inner Source Licensing. tbd.
+ 
 ## Staffing
 
 _Who do you need in the OSPO?_
