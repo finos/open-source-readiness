@@ -51,7 +51,9 @@ Some reasons for considering this (from [Wikipedia](https://en.wikipedia.org/wik
 - Establish communication channels across the organization
 - Increase productivity, quality, code re-use, transparency and trust
 - Remove organizational silos and identify talent across the organization
-- Improved sustainability of InnerSource'd projects, since other parts of the organisation can re-use or contribute to them
+- Improve sustainability of in-house projects (since other parts of the organisation can re-use or contribute to them)
+- Bridge the gap between open source and proprietary tooling.  Often, this _improves_ tooling internally whilst training staff in how to use open source tooling. 
+- Make recruiting and onboarding easier.
 
 **See Also:**
 
