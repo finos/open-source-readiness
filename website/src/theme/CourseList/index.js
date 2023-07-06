@@ -81,12 +81,7 @@ export default function CourseList(props) {
 	      	}
 	      </div>
 	    )
-	  },
-	  {
-	    Header: "Recommendation",
-	    accessor: "frontMatter.course.recommended",
-	    className: "pester-data-table left"
-	  }	  
+	  }
 	];
 	
 	return (
