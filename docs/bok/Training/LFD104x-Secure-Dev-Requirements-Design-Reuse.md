@@ -12,7 +12,7 @@ course:
   code: LFD104x
   length: 4.5 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/
 sidebar_label: LFD104x
 ---

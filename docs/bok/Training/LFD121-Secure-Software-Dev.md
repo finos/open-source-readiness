@@ -12,7 +12,7 @@ course:
   code: LFD121
   length: 14-18 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/developing-secure-software-lfd121/
 sidebar_label: LFD121
 ---

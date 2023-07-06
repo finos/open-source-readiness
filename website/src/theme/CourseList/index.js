@@ -81,6 +81,11 @@ export default function CourseList(props) {
 	      	}
 	      </div>
 	    )
+	  },
+	  {
+	    Header: "Price",
+	    accessor: "frontMatter.course.cost",
+	    className: "pester-data-table left"
 	  }
 	];
 	

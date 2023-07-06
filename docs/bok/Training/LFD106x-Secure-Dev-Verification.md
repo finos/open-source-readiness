@@ -12,7 +12,7 @@ course:
   code: LFD106x
   length: 5-6 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/
 sidebar_label: LFD106x
 ---

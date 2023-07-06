@@ -14,6 +14,7 @@ course:
   certification: Digital
   cost: $499
   link: https://training.linuxfoundation.org/training/open-source-management-and-strategy/
+sidebar_label: Management & Strategy
 ---
 
 
@@ -26,3 +27,7 @@ This 7-module course series builds on the accumulated wisdom of many previous tr
 
 <CourseDetails course={frontMatter.course}/>
 
+
+## Modules
+
+<CourseList filter="Training" tag="Management and Strategy (Training)" />

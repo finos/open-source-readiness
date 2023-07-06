@@ -11,7 +11,7 @@ course:
   code: LFC102
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/open-source-licensing-basics-for-software-developers/
 sidebar_label: LFD102
 ---

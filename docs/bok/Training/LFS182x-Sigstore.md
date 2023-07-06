@@ -10,7 +10,7 @@ course:
   code: LFS182x
   length: 8 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/securing-your-software-supply-chain-with-sigstore-lfs182x/
 sidebar_label: LFS182x
 ---

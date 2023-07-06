@@ -13,7 +13,7 @@ course:
   code: LFC192
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/generating-a-software-bill-of-materials-sbom-lfc192/
 sidebar_label: LFC192
 ---

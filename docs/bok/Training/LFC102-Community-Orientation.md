@@ -7,12 +7,13 @@ tags:
   - Training
   - LF-Training
   - Ethics-Training
+  - COSD (Certification)
 course:
   publisher: Linux Foundation
   code: LFC102
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/inclusive-open-source-community-orientation-lfc102/
 sidebar_label: LFC102
 ---

@@ -10,7 +10,7 @@ course:
   code: LFC104
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/ethics-for-open-source-development-lfc104/
 sidebar_label: LFC104
 ---

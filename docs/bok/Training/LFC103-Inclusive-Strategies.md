@@ -12,7 +12,7 @@ course:
   code: LFC103
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/inclusive-strategies-for-open-source-lfc103/
 sidebar_label: LFC103
 ---

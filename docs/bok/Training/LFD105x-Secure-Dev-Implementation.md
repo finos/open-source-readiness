@@ -12,7 +12,7 @@ course:
   code: LFD105x
   length: 5-7 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/
 sidebar_label: LFD105x
 ---

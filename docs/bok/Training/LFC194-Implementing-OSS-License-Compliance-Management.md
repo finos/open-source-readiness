@@ -13,7 +13,7 @@ course:
   code: LFC194
   length: 1 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/implementing-open-source-license-compliance-management-lfc194/
 sidebar_label: LFC194
 ---
