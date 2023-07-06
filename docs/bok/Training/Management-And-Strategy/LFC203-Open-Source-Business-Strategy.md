@@ -1,10 +1,6 @@
 ---
 title: Open Source Business Strategy
 tags: 
-  - Developer (Role)
-  - OSPO (Role)
-  - Product Manager (Role)
-  - CTO (Role)
   - Training
   - Management and Strategy (Training)
 course:

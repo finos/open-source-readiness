@@ -1,9 +1,6 @@
 ---
 title: Antitrust Laws and Open Source Software Project Management and Participation
 tags: 
-  - Developer (Role)
-  - CIO/CTO (Role)
-  - OSPO (Role)
   - Training
   - LF-Training
   - Anti-Trust Regulation

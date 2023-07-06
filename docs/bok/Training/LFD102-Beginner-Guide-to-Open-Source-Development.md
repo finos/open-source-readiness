@@ -1,7 +1,6 @@
 ---
 title: Open Source Licensing Basics for Software Developers
 tags: 
-  - Developer (Role)
   - Consuming (Activity)
   - License Compliance Management (Activity)
   - Training

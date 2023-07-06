@@ -1,8 +1,6 @@
 ---
 title: Effective Open Source Program Management
 tags: 
-  - OSPO (Role)
-  - Product Manager (Role)
   - Training
   - Management and Strategy (Training)
 course:

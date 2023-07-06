@@ -2,7 +2,6 @@
 title: Collaborating Effectively With Open Source Projects
 tags: 
   - Developer (Role)
-  - CTO (Role)
   - Training
   - COSD (Certification)
   - Management and Strategy (Training)

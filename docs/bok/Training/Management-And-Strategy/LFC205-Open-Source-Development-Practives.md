@@ -2,9 +2,6 @@
 title: Open Source Development Practices
 tags: 
   - Developer (Role)
-  - OSPO (Role)
-  - Product Manager (Role)
-  - CTO (Role)
   - Training
   - COSD (Certification)
   - Management and Strategy (Training)

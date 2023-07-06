@@ -1,10 +1,6 @@
 ---
 title: Open Source Management & Strategy
 tags:
-  - CTO (Role)
-  - CEO (Role)
-  - Developer (Role)
-  - OSPO (Role)
   - LF-Training
   - Training
 course:
@@ -17,11 +13,7 @@ course:
 sidebar_label: Management & Strategy
 ---
 
-
-## Synopsis
-
 This 7-module course series builds on the accumulated wisdom of many previous training modules on open source best practices, while adding fresh and updated content to explain all of the critical elements of working effectively with open source in your enterprise. The courses are designed to be self-paced, and reasonably high-level, but with enough detail to get new open source practitioners up and running quickly.
-
 
 ## Details
 

@@ -1,8 +1,6 @@
 --- 
 title: Generating A Software Bill-Of-Materials
 tags:
-  - Developer (Role)
-  - Security Expert (Role)
   - Dependency Risk
   - Developer Training
   - SBOMs (Artifacts)

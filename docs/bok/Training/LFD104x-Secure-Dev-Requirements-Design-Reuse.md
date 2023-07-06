@@ -1,10 +1,6 @@
 ---
 title: "Secure Software Development: Requirements, Design, and Reuse"
 tags:
-  - Developer (Role)
-  - OSPO (Role)
-  - Product Manager (Role)
-  - Security Expert (Role)
   - LF-Training
   - Training
 course:
@@ -16,10 +12,6 @@ course:
   link: https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/
 sidebar_label: LFD104x
 ---
-
-
-## Synopsis
-
 
 This course is designed to give you an overview of security basics, including system security requirements, secure design principles and best practices, and how to securely select and reuse software for your systems.
 

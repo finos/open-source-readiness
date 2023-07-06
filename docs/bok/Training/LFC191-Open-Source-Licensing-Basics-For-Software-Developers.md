@@ -1,8 +1,6 @@
 ---
 title: A Beginner's Guide to Open Source Software Development
 tags: 
-  - Developer (Role)
-  - OSPO (Role)
   - Consuming (Activity)
   - Training
   - LF-Training

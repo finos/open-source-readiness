@@ -1,9 +1,6 @@
 ---
 title: Inclusive Strategies For Open Source
 tags: 
-  - Developer (Role)
-  - OSPO (Role)
-  - Product Manager (Role)
   - Training
   - LF-Training
   - Ethics-Training
