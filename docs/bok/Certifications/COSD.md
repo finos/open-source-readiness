@@ -1,5 +1,5 @@
 ---
-title: FINOS / TODO Financial Services Certified Open Source Developer
+title: FINOS / TODO Financial Services Certified Open Source Developer (COSD)
 tags: 
   - Developer (Role)
   - Training
