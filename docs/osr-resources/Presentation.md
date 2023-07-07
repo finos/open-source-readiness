@@ -1,6 +1,6 @@
 --- 
 title: Introduction to Open Source Readiness 
-sidebar_label: Presentation
+sidebar_label: OSR Presentation
 author: Rob Moffat
 ---
 
