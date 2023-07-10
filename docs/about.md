@@ -139,6 +139,10 @@ TBC
 TBC  
 </Bio>
 
+<Bio name="Chamindra de Silva" organisation="Citi" image="/img/people/chamindra-de-silva.jpeg">
+TBC  
+</Bio>
+
 <Bio name="Vicky Brasseur" image="/img/people/vicky-brasseur.jpeg" organisation="Wipro">
 Vicky is a previous chair of the OSR SIG and has authored many articles on this site.   She is the author of <a href="https://fossforge.com">Forge Your Future with Open Source</a>.
 </Bio>
