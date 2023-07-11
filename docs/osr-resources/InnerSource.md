@@ -17,24 +17,25 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 1" />
     </div>
     <div class="slide-notes">
-      <p>Hello everyone, my name is Chamindra and I am a InnerSource
+      <p>Hello everyone, my name is Chamindra and I am an InnerSource
         Product Owner and Solution Architect at Citi. I am also a
-        co-lead of the FinOS InnerSource Special Interest Group.</p>
-      <p>For those who are not aware InnerSource is the application
+        co-lead of the FINOS InnerSource Special Interest Group.</p>
+      <p>For those who are not aware InnerSource, it is the application
         of Open Source principles and working culture within the
         boundary of an enterprise. Large enterprises in particular
-        suffer from many organizational knowledge silos and Open Source
-        can provide a lot of benefit to improve quality and
-        reduce cost.</p>
-      <p>Before joining Citi I led two open source projects in
-        humanitarian response and education and was a committer to Apache
-        Web Services, so I had some exposure to open source and the Apache
-        Way going into Citi.</p>
+        suffer from many organizational knowledge silos and Open Source culture
+        can provide a lot of benefit to improve engineering quality and
+        reduce cost through reuse, though those product might never venture 
+        outside the boundaries of that institution.</p>
+      <p>Before joining Citi I led two Open Source projects in
+        humanitarian response and education sector and was a committer to Apache
+        Web Services, so I had some exposure to Open Source and the Apache
+        Way going into the Banking Industry.</p>
       <p>But I understood that there are nuances in InnerSource
-        that make it different from open source and it needs to be
+        that make it different from Open Source and it needs to be
         considered in its own right. In fact, I have been exposed to IP
-        violation due to a lack of clarify between InnerSource and open
-        source</p>
+        violation due to a lack of clarify between InnerSource and Open
+        Source</p>
     </div>
   </div>
   <div class="slide slide--bordered">
@@ -43,9 +44,9 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 2" />
     </div>
     <div class="slide-notes">
-      <p>My agenda for today is to explain why we need common
+      <p>My agenda for today is to explain why we need common set of
         InnerSource licenses and give you a demo of a tool we have
-        created that can provide you with a InnerSource license</p>
+        created that can provide you with an appropriate InnerSource license</p>
     </div>
   </div>
   <div class="slide slide--bordered">
@@ -59,10 +60,12 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         InnerSource project in your Financial institution. There many
         projects in finance that will always remain behind closed
         doors but that does not mean they cannot benefit from the
-        open source way of doing things. The SIG is a place you can
+        Open Source way of doing things. The SIG is a place you can
         learn from others in the finance domain on how they run
-        things. It is also closely tied to the InnerSource commons
-        organization</p>
+        such project and come up with a set of common standards 
+        and best practices. It is also closely tied to the 
+        InnerSource Commons which is a major custodian of the 
+        InnerSource practices</p>
     </div>
   </div>
   <div class="slide slide--bordered">
@@ -72,12 +75,12 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
     </div>
     <div class="slide-notes">
       <p>Open source would not exist today if not for the strong
-        licensing leadership by the Free Software Foundation and
-        Open Source Initiative, encoded and supported by
+        licensing leadership by the Free Software Foundation (FSF) and
+        Open Source Initiative (OSI), encoded and supported by
         copyright law. Both used copyright law as
         the basis of open source licensing and though they were different in
         philosophy they were very similar in practice. This does
-        not exist in the same way for InnerSource projects</p>
+        not exist in the same way for InnerSource programs</p>
     </div>
   </div>
   <div class="slide slide--bordered">
@@ -86,7 +89,7 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 5" />
     </div>
     <div class="slide-notes">
-      <p>Whilst advocating for open source in Sri Lanka and Asia in the
+      <p>Whilst advocating for Open Source in Sri Lanka and Asia in the
         2000s, there was a plethora of licenses developers had to
         understand and we had to educate developers on the
         may varieties of commercial and open source licenses to help them
@@ -101,7 +104,7 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 6" />
     </div>
     <div class="slide-notes">
-      <p>Eventually, it helped that open source consolidated into a
+      <p>Eventually, it helped that Open Source consolidated into a
         few key licenses such as GPL, MIT, Apache, BSD, LGPL. It reduced
         the effort required to explain to developers what they could and could
         not do with software and eventually the
@@ -114,7 +117,7 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 7" />
     </div>
     <div class="slide-notes">
-      <p>The advantage of popular open source licenses is that they
+      <p>The advantage of popular Open Source licenses is that they
         often have a case history in court that can be called up to
         defend a product. There are groups such as the Software Freedom
         Conservancy that deal with violations so there is a form of
@@ -122,8 +125,8 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
       <p>Popularly breeds familiarity and developers need to spend
         less time trying to decipher licenses and trying to understand what is
         permissible when using of the software. In a corporate context it means
-        less legal cost.  Especially compared with
-        developing your own license.</p>
+        less legal cost with regard to protection and liability. 
+        Especially compared with developing and enforcing your own license.</p>
     </div>
   </div>
   <div class="slide slide--bordered">
@@ -135,13 +138,13 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
       <p>Unfortunately there is no similar set of licenses for
         InnerSource for companies to easily adopt.</p>
       <p>They need to spend money to define an unproven license for
-        their inner source products, and it might be a struggle to defend their
+        their InnerSource products, and it might be a struggle to defend their
         IP in the first court case.</p>
       <p>There is confusion between employees and vendors on the
-        difference between InnerSource and open source and what is
+        difference between InnerSource and Open Source and what is
         permissive use due to lack of popular licenses.</p>
       <p>This ambiguity can result in breaches if people mistake
-        InnerSource for open source in financial institutions</p>
+        InnerSource for Open Source in financial institutions</p>
     </div>
   </div>
   <div class="slide slide--bordered">
