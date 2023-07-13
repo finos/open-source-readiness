@@ -55,7 +55,7 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 3" />
     </div>
     <div class="slide-notes">
-      <p>The InnerSource special interest group (SIG) in FINOS seeks to
+      <p>The InnerSource Special Interest Group (SIG) in FINOS seeks to
         setup a safe space for talking about running an
         InnerSource project in your Financial institution. There many
         projects in finance that will always remain behind closed
