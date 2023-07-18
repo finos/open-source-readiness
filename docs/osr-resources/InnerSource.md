@@ -74,7 +74,7 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 4" />
     </div>
     <div class="slide-notes">
-      <p>open source would not exist today if not for the strong
+      <p>Open source would not exist today if not for the strong
         licensing leadership by the Free Software Foundation (FSF) and
         Open Source Initiative (OSI), encoded and supported by
         copyright law. Both used copyright law as
