@@ -144,7 +144,7 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         difference between InnerSource and open source and what is
         permissive use due to lack of popular licenses.</p>
       <p>This ambiguity can result in breaches if people mistake
-        InnerSource for Open Source in financial institutions</p>
+        InnerSource for open source in financial institutions</p>
     </div>
   </div>
   <div class="slide slide--bordered">
