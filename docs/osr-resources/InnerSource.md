@@ -44,7 +44,7 @@ Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
         alt="Image of slide number 2" />
     </div>
     <div class="slide-notes">
-      <p>My agenda for today is to explain why we need common set of
+      <p>My agenda for today is to explain why we a need common set of
         InnerSource licenses and to give you a demo of a tool we have
         created that can provide you with an appropriate InnerSource license for you needs</p>
     </div>
