@@ -1,3 +1,13 @@
+---
+title: Incubating With An Open Source Foundation
+tags: 
+  - Level 4 (OSMM)
+  - OSPO (Role)
+  - Developer (Role)
+sidebar_position: 6
+sidebar_label: Incubation
+---
+
 ### Getting your project incubated into an Open Source Foundation
 
 Incubation of an open source within a foundation offers numerous benefits which includes increased visibility, community support, and access to resources that can propel your project to new heights. Through following these steps, you will learn how to navigate the process effectively, from defining your project goals to formalizing the incubation process. Whether you're a developer looking to make a meaningful impact or an existing project seeking further growth, this guide will provide you with the knowledge and strategies to successfully leverage a foundation for the incubation of your open-source project. 
