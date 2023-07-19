@@ -3,6 +3,7 @@ title: Developing Secure Software
 tags:
   - LF-Training
   - Training
+  - COSD (Certification)
 course:
   publisher: Linux Foundation
   code: LFD121
