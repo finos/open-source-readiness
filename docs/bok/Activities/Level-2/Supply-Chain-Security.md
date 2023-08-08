@@ -20,6 +20,23 @@ sidebar_label: Security
 - https://openssf.org/blog/2022/09/27/the-united-states-securing-open-source-software-act-what-you-need-to-know/ (govt sector)
 - find the UK act that also does this.
 
+
+Regarding threat models: I think this is something we could review as a group.
+
+There are some here: https://cloud.google.com/software-supply-chain-security/docs/attack-vectors
+Some on page 6 of this: https://github.com/ossf/s2c2f/blob/main/specification/Secure_Supply_Chain_Consumption_Framework_(S2C2F).pdf
+And some in The Mitre Att&ck Model
+Probably more in FS-ISAC (although as a non-member I can't read it)
+Also, a talk I attended by Eclipse Foundation detailed a few others that seem novel.
+Is there a definitively maintained list anywhere?
+
+Also useful:
+
+SLSA
+Supply Chain Best Practices
+
+OpenSSF
+
 tbd: break into _incoming_ and _outgoing_
 
 include:
@@ -81,4 +98,50 @@ tbd.
 
 - **[Financial Services Information Sharing and Analysis Center (FS-ISAC)](https://www.fsisac.com)**:  a non-profit organization dedicated to reducing cyber-risk in the global financial system. It enables members to share threat and vulnerability information, collaborate on incident response and mitigation, conduct synchronized response, and provides tools for better protection against physical and cyber threats.
 
- 
+## OSPO Alliance Talk
+
+Mikael Barbero (Eclipse)
+Florent Zara
+Stefano Pampaloni - said hi
+
+Attendees (About 15) - Orange, OmniCloud, Amadeus
+
+Attending State Of Open Con!
+
+Talk on Open Source Security:
+
+- Exponential increase in attacks
+- Solar WInds - 95% of the Fortune 500.
+- Approaches:
+    - Dodgy Commits introducing use-after-free
+    - Impersonation
+    - Maintainer change to someone less scrupulous
+    - Dodgy build servers/git hosts
+    - Repo-jacking (github actions, changing usernames on GitHub
+    - Dependencies (log4shell)
+    - typosquatting (e.g. electorn)
+    - dependency confusion - internal/external dependencies with wrong versions
+    - leaked credentials (codecov)
+    - Star Jacking (django-filer) - link the wrong github repo and have their stars/readme (npm issue)
+    - "Joke" Deps - not considered a supply-chain security issue
+- Provenance Attestation - checking the signature of the dep
+- Code signing, 2fa
+- Removing inactive accounts
+- Legislation (coming, EU and US) - enforcing developer responsibility. somewhat threatening the OSS community.
+
+### SLSA: Supply Chain for Software Artifacts
+
+Signed provenance, security controls on host.  this looks pretty cool
+Generated SBOMs
+
+### Open SSF
+
+[github.com/ossf/scorecard](http://github.com/ossf/scorecard)
+[github.com/ossf/allstar](http://github.com/ossf/allstar)
+
+Our tools!
+
+### FINOS Supply Chain Security 20 Jun 2023
+
+- https://www.fsisac.com
+- https://github.com/ossf/s2c2f
