@@ -81,7 +81,15 @@ Here are some tools popular with teams involved in the body of knowledge for inv
 
 <BoxOut image="/img/bok/destinations/runtime.png" title="Runtime Environments">
 
-tbd.
+Here are some tools marketed as handling runtime software inventory.  We are interested to get feedback on whether these are useful:
+
+| Tool Name   | Key Features |
+|:------------|:-------------|
+| Tanium      | Tanium provides a unified endpoint management and security platform for IT operations and security teams. Key features include real-time data collection and remediation, flexible endpoint management, vulnerability assessment, threat detection, incident response, and compliance support. |
+| AutoCloud.io | AutoCloud.io is a cloud-based configuration management database tool that provides real-time visibility into your IT landscape. It offers automated discovery of your entire IT environment, relationship mapping, risk assessment, change tracking, and integration with IT service management tools. |
+| Nexpose (Rapid7) | Nexpose is a vulnerability management tool that provides live monitoring of changes in the environment, adapts to new threats with fresh data, and remediates vulnerabilities faster. Key features include live dashboards and reports, remediation workflows, risk scoring, and integrations with incident response and automation tools. |
+| Qualys Cloud Platform | The Qualys Cloud Platform is a cloud-based tool for IT, security, and compliance. Key features include asset discovery, network security, threat protection, web application security, security configuration assessment, and end-of-life tracking for all your global IT assets. |
+| Tenable.io | Tenable.io is a vulnerability management tool that provides actionable insight into your security risks. Key features include a unified view of your assets and vulnerabilities, automated network scanning, web application scanning, container security, and integrations with IT operations and DevOps tools. |
 
 
 </BoxOut>

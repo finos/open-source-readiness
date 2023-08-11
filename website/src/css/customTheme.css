@@ -21,11 +21,16 @@ html[data-theme='light'] {
   --ifm-footer-title-color: #ffffff;
   --ifm-footer-link-hover-color: #eeeeee;
   --ifm-footer-link-color: #dddddd;
+  --ifm-color-emphasis-600: #eeeeee;
 }  
 
 html[data-theme='light'] .footer-strap {
   font-weight: bold;
   color:  #ffffff;
+}
+
+html[data-theme='light'] .navbar-sidebar__item {
+	background-color: white;
 }
 
 html[data-theme='light'] .footer-copyright {

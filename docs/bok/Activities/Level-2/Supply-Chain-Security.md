@@ -70,3 +70,17 @@ tbd.
 
 
 tbd.
+
+## Initiatives
+
+- **[SLSA](https://slsa.dev/spec/v1.0/threats-overview)**: "Supply chain Levels for Software Artifacts".  This is a framework designed for creating repeatable builds with provenance of their components.
+
+- **[OpenChain]( https://www.openchainproject.org/)**:  an ISO standard for open source license compliance, developed and hosted by the Linux Foundation. It provides a set of requirements to create effective open source management systems, helping companies to minimize legal risks related to open source software use and improve efficiency and trust in the software supply chain.
+
+- **[Renovate Bot](https://docs.renovatebot.com)**: Renovate Bot is an open-source tool that helps to automate the process of updating dependencies in software projects. It scans your project for dependencies, automatically opens pull requests to update outdated ones, and provides change logs and compatibility information to assist in validation and troubleshooting.
+
+- **[Secure Supply Chain Consumption Framework (S23C2F)](https://github.com/ossf/s2c2f)**: The S2C2F SIG is a group working within the OpenSSF's Supply Chain Integrity Working Group formed to further develop and continuously improve the [S2C2F guide](https://github.com/ossf/s2c2f/blob/main/specification/Secure_Supply_Chain_Consumption_Framework_(S2C2F).pdf) which outlines and defines how to securely consume Open Source Software (OSS) dependencies into the developer’s workflow.
+
+- **[Financial Services Information Sharing and Analysis Center (FS-ISAC)](https://www.fsisac.com)**:  a non-profit organization dedicated to reducing cyber-risk in the global financial system. It enables members to share threat and vulnerability information, collaborate on incident response and mitigation, conduct synchronized response, and provides tools for better protection against physical and cyber threats.
+
+ 
