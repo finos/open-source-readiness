@@ -6,7 +6,6 @@ tags:
   - OSPO (Role)
   - Placeholder
   - Level 3 (OSMM)
-draft: true
 sidebar_position: 8
 sidebar_label: Culture
 authors:
