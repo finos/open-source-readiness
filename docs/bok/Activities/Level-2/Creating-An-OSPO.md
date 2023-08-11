@@ -5,6 +5,8 @@ tags:
   - Level 2 (OSMM)
 sidebar_position: 7
 sidebar_label: OSPO
+authors:
+  name: Pooi Cheong
 ---
 
 An [Open Source Program Office (OSPO)](../../Artifacts/OSPO) is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group](https://github.com/todogroup/ospodefinition.org). 

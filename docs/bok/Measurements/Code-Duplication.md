@@ -11,17 +11,23 @@ Code duplication occurs when internal staff are forced to create copies of exter
 
 ## What to Measure
 
- - Number of internal forks of pre-existing open source projects
- - Number of commits / releases to these forks
- - Number of developers contributing to these forks
- 
-Higher numbers here are _worse_.  This article explains:
+<BoxOut title="Internal Forks" image="/img/bok/metric.png">
 
- - Why code duplication is a bad idea.
- - Why it doesn't occur much on public open source projects
- - Why organisational firewalls make the problem of code duplication worse.
- - Specific risks arising within the organisation due to code duplication
- - How this can be _measured_ and its cost _estimated_.
+Ideally, you want to know how much _developer time_ is being spent maintaining internal forks.  However this might be hard to come by without asking people.
+
+Useful proxies for this which you could discover programmatically might be:
+
+ - **Number of internal forks of pre-existing open source projects** which should show up as repositories in your internal source code repository system (GitHub Enterprise, Bitbucket etc.).
+ 
+ - **Number of commits to these forks by staff** as a proxy of the variation from the open source version
+ 
+ - **releases to these forks** which also acts as a proxy to the work required to maintain them
+ 
+ - **Number of developers contributing to these forks** which gives you some scale of the size of the problem.
+ 
+Higher numbers here are _worse_. 
+ 
+</BoxOut>
 
 ## Making The Case For Avoiding Code Duplication
 

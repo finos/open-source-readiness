@@ -1,5 +1,5 @@
 ---
-title: Open Source Supply Chain Security Testing
+title: Open Source Supply Chain Security
 tags: 
   - Developer (Role)
   - Risk-Compliance (Role)
