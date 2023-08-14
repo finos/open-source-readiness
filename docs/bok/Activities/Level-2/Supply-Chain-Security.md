@@ -145,3 +145,8 @@ Our tools!
 
 - https://www.fsisac.com
 - https://github.com/ossf/s2c2f
+
+## From Mark
+
+ - https://www.gartner.com/reviews/market/security-threat-intelligence-services
+ - https://www.crunchbase.com/organization/digital-shadows
