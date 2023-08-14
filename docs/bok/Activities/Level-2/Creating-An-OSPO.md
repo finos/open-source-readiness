@@ -24,11 +24,13 @@ There are few ways to create a sense of urgency (i.e. fear) around the need for 
 
 - [Software Inventory](Software-Inventory) and [Supply Chain Security](Supply-Chain-Security):  events like the [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) vulnerability are often a catalyst for firms to focus on understanding what open source software they are using and to start looking more carefully at their open source supply chains.
 
-- [Talent](../Level-3/Talent): reportedly, recruitment and retention both become easier when you engage with open source.  
+- [Talent](../Level-3/Talent): reportedly, recruitment and retention both become easier when you engage with open source.
+
+- [Reputation](../../Risks/Reputational-Risk): _other_ organisations already have OSPOs and are operating at a higher level than our organisation. 
 
 See Also: 
 
-- [Making the Case for an OSPO](../Level-3/Making-The-Case)
+- [Making the Case for Contribution](../Level-3/Making-The-Case)
 
 ## 2. Build a Guiding Coalition
 
@@ -52,8 +54,8 @@ Build trust and credibility: Establish trust by being transparent, reliable, and
 
 ### OSPO Structures
 
-- To start with, the OSPO will probably start as a minimum-viable "guild" structure. tbd.  Reference TODOGROUP OSPO Structures here.  
-- You will need to figure out who the OSPO "reports to", i.e an owning function, e.g. with the CTO, COO.  This will highly depend on your organisational structure.    
+- To start with, the OSPO will probably start as a minimum-viable ["guild" structure](../../Artifacts/OSPO#Staffing). 
+- You will need to figure out who the OSPO "reports to", i.e an owning function, e.g. with the [CTO](../../Roles/CTO), [CISO](../../Roles/CISO) etc.  This will highly depend on your organisational structure.  You may want to think about how this influences the focus of the OSPO.   Being part of the [CISO](../../Roles/CISO) may mean your OSPO is limited to helping control security issues.  
 
 ## 3. Form a Strategic Vision and Initiatives
 
