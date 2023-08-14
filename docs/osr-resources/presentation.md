@@ -2,6 +2,7 @@
 title: Introduction to Open Source Readiness 
 sidebar_label: OSR Presentation
 author: Rob Moffat
+sidebar_position: 1
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>

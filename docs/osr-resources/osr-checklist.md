@@ -3,6 +3,7 @@ authors:
   - name: Aaron Williamson
   - url: https://github.com/copiesofcopies
 title: "OSR Checklist"
+sidebar_position: 6
 ---
 
 <BoxOut title="Warning: Possibly out-of-date" image="/img/bok/roles/ospo.png">
