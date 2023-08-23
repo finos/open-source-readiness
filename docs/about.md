@@ -86,8 +86,8 @@ Andrew Aitken is the GM and Global Open Source Practice Leader for Wipro Ltd., a
 An open source advocate and enthusiast. His major focus areas include Open Source Maturity Model and strategic engagements using open source. Worked extensively in the areas of enterprise application development and digital transformation projects.
 </Bio>
 
-<Bio name="Vicki Chung" organisation="Goldman Sachs" image="/img/people/no-headshot.png">
-TBC  
+<Bio name="Vicki Chung" organisation="Goldman Sachs" image="/img/people/vicki.jpeg">
+Vicki is a product manager of Goldman Sachs’ Core Engineering, where she delivers software to improve developer productivity and to provide exceptional customer experiences. Prior to her current role, Vicki was the OSPO program manager and an instrumental part of building out the firm’s open source program. Before joining Goldman Sachs in 2021, Vicki was in the e-commerce and software consulting spaces in Japan and Taiwan.
 </Bio>
 
 <Bio name="Kay Xiong Pachay" organisation="Goldman Sachs" image="/img/people/no-headshot.png">
