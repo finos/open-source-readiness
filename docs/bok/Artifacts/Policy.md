@@ -27,7 +27,7 @@ Open source software has become an integral part of modern software development.
 
  - **[Contributing to Open Source Software:](../Activities/Level-3/Contribution-Compliance)**  An open source policy should also define the process for contributing to open source software. For example, the policy should outline the procedures for submitting contributions, such as code changes or bug fixes, to the open source community. The policy should also provide guidance on how to engage with the community, such as participating in forums, providing feedback, and collaborating with other contributors.
 
- - **[Contributing Open Source Projects:](../Activities/Level-4/Contributing-A-Project)**  An open source policy should provide guidelines for creating new open source software projects. For example, the policy should define the licensing terms, the requirements for documenting the software, and the process for releasing it to the open source community. The policy should also outline the procedures for managing the software's development, such as defining the roles and responsibilities of contributors, and establishing quality control measures.
+ - **[Open-Sourcing New/Internal Projects:](../Activities/Level-4/Open-Sourcing-A-Project)**  An open source policy should provide guidelines for creating new open source software projects. For example, the policy should define the licensing terms, the requirements for documenting the software, and the process for releasing it to the open source community. The policy should also outline the procedures for managing the software's development, such as defining the roles and responsibilities of contributors, and establishing quality control measures.
 
 ## How is an Open Source Policy Created?
 

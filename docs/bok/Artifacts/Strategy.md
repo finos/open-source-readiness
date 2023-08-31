@@ -4,6 +4,7 @@ tags:
   - Placeholder
   - CEO (Role)
   - CTO/CIO (Role)
+sidebar_label: Strategy
 ---
 
 **THIS IS A PLACEHOLDER**

@@ -1,5 +1,5 @@
 ---
-title: Open Source Supply Chain Security Testing
+title: Open Source Supply Chain Security
 tags: 
   - Developer (Role)
   - Risk-Compliance (Role)
@@ -10,9 +10,11 @@ tags:
   - Dependency Risk
   - Operational Risk
   - Level 2 (OSMM) 
+  - CVE (Artifact)
 sidebar_position: 4
 sidebar_label: Security
 ---
+
 **THIS IS A PLACEHOLDER**
 
 - EU Cyber Resilience Act

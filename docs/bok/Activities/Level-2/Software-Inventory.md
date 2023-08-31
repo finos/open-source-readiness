@@ -8,10 +8,13 @@ tags:
   - Placeholder
   - Codebase Risk
   - Dependency Risk
+  - CVE (Artifact)
 sidebar_position: 1
 ---
 
 Software inventory is a precondition to most of the activities involved in OSMM level 2.  The first step to licence compliance or supply chain security is _to understand what software is in your estate_.
+
+> "Any open source dependency should have the same kind of scrutiny as in-house code, from a security standpoint." - GitHub OSPO.
 
 ## Conceptual Model:  Pipeline
 
@@ -42,7 +45,7 @@ An advanced approach to software inventory would be "joined up" across multiple 
 
 ## Hierarchy of Dependencies
 
-It is important to understand that modern software is composed of smaller units (which themselves can be composed of other units and so on).   This means that the inventory of a single _project_ or _executable_ could potentially be a list of hundreds of dependencies.   Recently, this "hierarchy of dependencies" has become known as a ["Software Bill of Materials", or SBOM](../Artifacts/SBOMs)
+It is important to understand that modern software is composed of smaller units (which themselves can be composed of other units and so on).   This means that the inventory of a single _project_ or _executable_ could potentially be a list of hundreds of dependencies.   Recently, this "hierarchy of dependencies" has become known as a ["Software Bill of Materials", or SBOM](../../Artifacts/SBOMs)
 
 ## Tools
 
