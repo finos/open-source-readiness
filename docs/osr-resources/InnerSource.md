@@ -2,6 +2,7 @@
 title: InnerSource Licensing 
 sidebar_label: InnerSource Presentation 
 author: Chamindra de Silva
+sidebar_position: 2
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>
