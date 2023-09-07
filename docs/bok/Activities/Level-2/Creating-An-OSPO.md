@@ -3,6 +3,7 @@ title: Creating an Open Source Program Office (OSPO)
 tags: 
   - OSPO (Role)
   - Level 2 (OSMM)
+  - CVE (Artifact)
 sidebar_position: 7
 sidebar_label: OSPO
 authors:

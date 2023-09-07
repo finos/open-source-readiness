@@ -184,7 +184,7 @@ Linus Torvalds (the inventor of Linux operating system) makes the case that for 
 
 An argument _for_ keeping internal forks is that this mitigates the cyber risk of trojan code from an external environment.  However this is specious since 99% of the code running in the organisation is open source anyway: bad actors can exist both inside and outside the bank and this is no substitute for scanning tools.
 
-**Example:** consider a  _bad actor_ performing a [Solar Winds Trojan](https://www.cisecurity.org/solarwinds)-style attack.  This is a consumption risk that _already exists_.  Allowing developers to contribute to open source doesn't worsen or improve this situation.   
+**Example:** consider a  _bad actor_ performing a [Solar Winds Trojan](../Level-2/Supply-Chain-Security#example-solar-winds)-style attack.  This is a consumption risk that _already exists_.  Allowing developers to contribute to open source doesn't worsen or improve this situation.   
 
 </BoxOut>
 
