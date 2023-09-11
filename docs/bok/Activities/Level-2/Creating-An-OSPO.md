@@ -136,7 +136,7 @@ It's important to make sure that you publicise your wins. This means engaging wi
 - Maintain the momentum from previous steps
 - [Make **communication** key to keep change on the top of everyone’s minds](../Level-3/Community-Engagement)
 - [**Reward** those for endorsing change](../Level-3/Culture)
-- [**Metrics** to measure success](../../Measurements)
+- [**Metrics** to measure success](../../Measurements/Introduction)
 - Improving process via feedback from participants
 - Benchmarking against peers
 
@@ -149,15 +149,15 @@ Making sure your OSPO is business critical:
 - [Compliance](Consumption-Compliance): Can you demonstrate compliance wins, that have made a material difference? 
 - [License Management](License-Management): Is your OSPO doing its part to ensure open source license compliance?
 - [Software Inventory](Software-Inventory): are there cost implications to understanding the open source inventory, and replacing proprietary software with open source.  
-- [Recruitment](../Level-4/Talent):  can you show improved talent retention?  
+- [Recruitment](../Level-3/Talent):  can you show improved talent retention?  
 - [Risk Reduction](../../Risks/Introduction): _not_ having [internal forks](../../Measurements/Code-Duplication) of OSS projects as this is a security risk.
 - [Supply Chain Security](Supply-Chain-Security):  can you point to vulnerabilities that have been managed?
 
 Owning Improved Processes:
 
-- [Releases](../../Measurements/Release-Cadence):  can you institute some kind of checklist of controls around open source releases?  How can you encourage open source without putting people off with process?
+- [Releases](../../Measurements/Project):  can you institute some kind of checklist of controls around open source releases?  How can you encourage open source without putting people off with process?
 - [Training](Consumption-Training): can you point to the number of people trained in open source consumption / contribution across your organisation? how can you demonstrate application of these trainings?
-- [Service Level](../../Measurements/Tickets): Is there a support function for the OSPO?  Can you demonstrate how successful it is?
+- [Service Level](../../Measurements/Support): Is there a support function for the OSPO?  Can you demonstrate how successful it is?
 
 
 

@@ -58,7 +58,7 @@ Open source software often involves numerous contributors, some anonymous, and c
 
 - **[left-pad (2016)](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/)**: While SolarWinds is a high-profile, deliberate attack, the supply chain is at risk from accidental damage too. [left-pad](https://www.npmjs.com/package/left-pad) was a popular but small JavaScript library that was removed from the [npm](https://www.npmjs.com) repository, unexpectedly breaking numerous dependent projects and highlighting vulnerabilities in modern software dependencies.
 
-### A Growing Problem
+### A Growing Problem
 
 As the volume of open source software grows, the number of open source developers increases, the cost of compute reduces and the cost of _initiating_ a supply chain attack reduces, the importance of securing the open source supply chain grows more important:
 
@@ -87,9 +87,33 @@ Attacks can occur at any point in the open source supply chain, so let's look at
 
 Each of these is an opportunity for an attack.  
 
-## Examples of Common Attacks
+## Exploits. Vulnerabilities & Attacks
 
+- **Exploits** (or "hacks") are methods that leverage a vulnerability to bypass security and gain unauthorized access, privileges, or capabilities within a system.
 
+  > "An exploit (from the English verb to exploit, meaning "to use something to one’s own advantage") is a piece of software, a chunk of data, or a sequence of commands that takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior to occur on computer software, hardware, or something electronic (usually computerized)." - [Exploit, _Wikipedia_](https://en.wikipedia.org/wiki/Exploit_(computer_security))
+
+- **Vulnerabilities** are accidentally introduced by maintainers, and may be low impact or not possible for an attacker to actually exploit. 
+
+  > "Vulnerabilities are flaws in a computer system that weaken the overall security of the device/system. Vulnerabilities can be weaknesses in either the hardware itself, or the software that runs on the hardware. Vulnerabilities can be exploited by a threat actor, such as an attacker, to cross privilege boundaries (i.e. perform unauthorized actions) within a computer system." - [Vulnerability, _Wikipedia_](https://en.wikipedia.org/wiki/Vulnerability_(computing))
+
+  Even if you have vulnerabilities in production, you have some time to address them; they may not be discovered or exploited before you update to a fixed version.  
+  
+  **See**:
+  
+   - Vulnerabilities in software are [catalogued as CVEs](../../Artifacts/CVE).
+
+- **Supply Chain Attacks** (or exploit) involve malware that is intentionally introduced into a package by an attacker. 
+
+  > "A supply chain attack can happen in software or hardware. Cybercriminals typically tamper with the manufacturing or distribution of a product by installing malware or hardware-based spying components." - [Supply Chain Attack, _Wikipedia_](https://en.wikipedia.org/wiki/Supply_chain_attack)
+
+  You don't have a few days or weeks to mitigate the issue. You need to catch it before you install it on your own laptop or on a production server.
+
+  **See:**
+
+    - [The MITRE ATT&CK](https://attack.mitre.org) aims to be a knowledge base of all the tactics used in such supply chain attacks. 
+
+### Examples of Common Supply Chain Attacks
 
 | Attack Name                                                                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                    | Example                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -102,149 +126,114 @@ Each of these is an opportunity for an attack.
 | [Trojan Package](https://jfrog.com/blog/five-examples-of-infection-methods-attackers-use-to-spread-malicious-packages/#Trojan-Package)                         | In the trojan package infection method, the attacker publishes a fully functional library but hides malicious code in it.                                                                                                                                                                                                                                      | `lemaaa`                                                                                             |
 | [TypoSquatting](https://jfrog.com/blog/five-examples-of-infection-methods-attackers-use-to-spread-malicious-packages/#Typosquatting)                           | Typosquatting is the practice of obtaining (or squatting) a famous name with a slight typographical error.                                                                                                                                                                                                                                                     | "Amzon.com"                                                                                                  |
 
-
 Once a package, even a legitimate one, becomes dependent on a malicious package, it might unknowingly propagate the malicious behavior when others use it.
 
+## Best Practices
 
-## 3.   Attacks & Vulnerabilities
+As mentioned at the start of the article, this is a fast-evolving area.   In this section, we'll outline a few important concepts that you should be aware of.
 
-- [Vulnerabilities](../Artifacts/CVE) are accidentally introduced by maintainers, and may be low impact or not possible for an attacker to actually exploit. Even if you have vulnerabilities in production, you have some time to address them; they may not be discovered or exploited before you update to a fixed version.
-
-- **Supply chain attacks** involve malware that is intentionally introduced into a package by an attacker. You don't have a few days or weeks to mitigate the issue. You need to catch it before you install it on your own laptop or on a production server.
-
-Examples, MITRE Attack framework.
-
-
-## 4.  Best Practices
-
-### Consumption
-
-- Checking the package... is that even possible?
-
-- Change Control, 2FA, Versioning, Good Testing, minimizing dependencies, SCA, SAST (See below), signing, SBOMs
-
-- mOre here: https://linuxsecurity.com/features/open-source-software-supply-chain-security
-
-### Production
-
-- Attestations, signatures.
-
-
-
-
-## 5.  Initiatives / Industry Bodies
-
-Vulnerability Database
-
-[Common Vulnerabilities and Exposures](https://www.cve.org) (CVE) program and the [National Vulnerability Database](https://nvd.nist.gov/vuln) (NVD) program.16
-
-OSV - synthesises CVes fom the databases for a given commit hash   https://osv.dev  (using https://ossf.github.io/osv-schema/)
-
-OpenSSF
-
-  -Guac  GUAC: Graph for Understanding Artifact Composition  https://github.com/guacsec/guac
-  - Best Practices Working group  https://www.bestpractices.dev/en/criteria/0  https://www.bestpractices.dev/en
-  - Digital Identity Attestation  https://www.sigstore.dev
-  - SLSA Framework
-  - AllStar https://openssf.org/blog/2021/08/11/introducing-the-allstar-github-app/  [heuristics](https://github.com/ossf/scorecard/blob/main/docs/checks.md#check-documentation)
-  
-- On [GitHub](https://github.com/ossf)
-  
-
-Mitre ATT*CK framework
-
-
-## 6. Legislation
-
-
-https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/
-
-- SBOM All the things
-- also, no vulnerabilities
-
-
-- EU Cyber Resilience Act
-- https://www.congress.gov/bill/117th-congress/senate-bill/4913
-- https://openssf.org/blog/2022/09/27/the-united-states-securing-open-source-software-act-what-you-need-to-know/ (govt sector)
-- find the UK act that also does this.
-
-Software
-
-https://github.com/apps/socket-security
-Dependabot
-
-
-
-
-7.  Further Reading
-
-- [State of the Software Supply Chain](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf) - SonaType's 2021 Report
-
-- [Open Source Software Supply Chain Security](https://project.linuxfoundation.org/hubfs/Reports/oss_supply_chain_security.pdf?hsLang=en) Report from 2020 by the Linux Foundation.
-
-- [Do your part to secure the open source supply chain](https://github.com/readme/guides/dependency-risk) article by GitHub ReadME.
-
-- [Keynote - OSS Supply CHain Security](https://www.youtube.com/watch?v=vAfk03yDIc8) talk by Google's Bob Calloway at All Things Open 2022.
-
-- [Protect your open source project from supply chain attacks](https://opensource.googleblog.com/2021/10/protect-your-open-source-project-from-supply-chain-attacks.html) - 2021 blog article adapted from talk at All Things Open 2021, in the form of a Supply Chain Security quiz.
-
-
-
-
-**THIS IS A PLACEHOLDER**
-
-
-
-tbd: break into _incoming_ and _outgoing_
-
-include:
- - Vulnerability Testing
- - keeping dependencies up-to-date https://openssf.org/resources/guides/
+**See:** 
  
+ - [OpenSSF Best Practice Guides](https://openssf.org/resources/guides) are a useful first stop.
+ - [Linux Security Blog Article](https://linuxsecurity.com/features/open-source-software-supply-chain-security) on best practices.
 
-- KPIs around dependencies?
-
-- code reviews (GGI)
-
-
-Security testing is a broad term that encompasses various techniques for evaluating the security of software systems and applications. The main types of security testing include:
-
-1. Software Composition Analysis (SCA) or Vulnerability Scanning: Vulnerability scanning involves automatically searching for known security weaknesses in software systems and applications. This type of testing can help identify potential security risks, but does not guarantee that all vulnerabilities have been found.
-2. Static Application Security Testing (SAST): SAST involves analyzing the source code of an application for potential security vulnerabilities without executing the code. This type of testing can help identify potential security risks early in the development process, before the code is deployed.
-3. Dynamic Application Security Testing (DAST): DAST involves executing the code of an application and examining its behavior for potential security vulnerabilities. This type of testing can help identify potential security risks that may not be apparent from examining the code alone.
-4. Penetration Testing: Penetration testing involves attempting to actively exploit vulnerabilities in a software system or application to determine its security weaknesses. This type of testing is usually conducted by security experts who use manual and automated techniques to simulate real-world attacks.
-5. Web Application Security Testing: Web application security testing focuses on identifying security vulnerabilities in web applications, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).
-6. Infrastructure Security Testing: Infrastructure security testing involves evaluating the security of the underlying infrastructure that supports a software system or application, such as networks, servers, and databases.
-7. Mobile Application Security Testing: Mobile application security testing focuses on identifying security vulnerabilities in mobile applications, such as those running on iOS or Android platforms.
-
-## Software Composition Analysis
+### Software Composition Analysis (SCA)
 
 According to https://en.wikipedia.org/wiki/Software_Composition_Analysis:
 
 > **Software Composition Analysis** (SCA) is a practice in the fields of [Information technology](https://en.wikipedia.org/wiki/Information_technology) and [software engineering](https://en.wikipedia.org/wiki/Software_engineering) for analyzing custom-built software applications to detect embedded open-source software and detect if they are up-to-date, contain security flaws, or have licensing requirements.
 
-Many SCA tools produce SBOMs which can then be checked for vulnerabilities.   A long list is provided here: https://todogroup.org/guides/management-tools/#tools-for-managing-source-code
+**See Also:**
 
-## Static Application Security Testing
-
-See: https://snyk.io/learn/application-security/static-application-security-testing/
-
-SAST, or Static Application Security Testing, is a type of software security testing that analyzes the source code of an application for potential security vulnerabilities without executing the code. The leading SAST tools are:
-
-1. Checkmarx: Checkmarx is a commercial SAST tool that provides a comprehensive solution for finding security vulnerabilities in source code. It supports a wide range of programming languages and provides detailed analysis of potential security issues.
-2. Veracode: Veracode is a commercial SAST tool that provides a cloud-based solution for finding security vulnerabilities in source code. It integrates with a variety of development tools and provides a range of reporting and remediation options.
-3. SonarQube: SonarQube is an open source platform for continuous inspection of code quality and security. It provides a range of tools for code analysis, including SAST capabilities, and supports a wide range of programming languages.
-4. Fortify: Fortify is a commercial SAST tool that provides a comprehensive solution for finding security vulnerabilities in source code. It supports a wide range of programming languages and provides detailed analysis of potential security issues.
-5. Coverity: Coverity is a commercial SAST tool that provides a comprehensive solution for finding security vulnerabilities in source code. It supports a wide range of programming languages and provides detailed analysis of potential security issues.
-
-tbd.
-
-## Dynamic Application Security Testing 
+- Many SCA tools produce [SBOMs](../../Artifacts/SBOMs) which can then be checked for vulnerabilities.   
+- A long list of SCA tools is provided here: https://todogroup.org/guides/management-tools/#tools-for-managing-source-code
+- [Dependabot](https://github.com/dependabot) on GitHub
 
 
-tbd.
+### Static Application Security Testing (SAST)
 
-## Initiatives
+SAST, or Static Application Security Testing, is a type of software security testing that analyzes the source code of an application for potential security vulnerabilities without executing the code. 
+
+> "SAST is a vulnerability scanning technique that focuses on source code, bytecode, or assembly code. The scanner can run early in your CI pipeline or even as an IDE plugin while coding. SAST tools monitor your code, ensuring protection from security issues such as saving a password in clear text or sending data over an unencrypted connection." - [Static Application Security Testing, _Snyk_](https://snyk.io/learn/application-security/static-application-security-testing/)
+
+Some leading SAST tools are [Checkmarx](https://checkmarx.com/cxsast-source-code-scanning/), [Veracode](https://www.veracode.com/products/binary-static-analysis-sast), [SonarQube](https://www.sonarsource.com/solutions/security/), [Fortify](https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer) and [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html).]
+
+**See Also:**
+
+ - [Socket Security](https://github.com/apps/socket-security) - a GitHub App for performing SAST
+ - [CodeQL](https://codeql.github.com) also built into GitHub's Action system. 
+
+### Dynamic Application Security Testing / Penetration Testing
+
+- **Dynamic Application Security Testing (DAST)**: DAST involves executing the code of an application and examining its behavior for potential security vulnerabilities. This type of testing can help identify potential security risks that may not be apparent from examining the code alone.
+
+- **Penetration Testing:** Penetration testing involves attempting to actively exploit vulnerabilities in a software system or application to determine its security weaknesses. This type of testing is usually conducted by security experts who use manual and automated techniques to simulate real-world attacks.
+
+Tools for these include [Zed Attack Proxy (ZAP)](https://www.zaproxy.org), [Fortify WebInspect](https://www.microfocus.com/en-us/cyberres/application-security/webinspect) and [Burp Suite](https://portswigger.net/burp/pro).
+
+**See:**
+
+ - [Penetration Testing Reviews and Ratings](https://www.gartner.com/reviews/market/penetration-testing) by Gartner.
+ - [DAST Tools](https://www.softwaretestinghelp.com/dynamic-application-security-testing-dast-software/). 
+ 
+### Infrastructure Security Testing
+
+Infrastructure security testing involves evaluating the security of the underlying infrastructure that supports a software system or application, such as networks, servers, and databases.
+
+Some leading tools include [Nessus](https://www.tenable.com/products/nessus), [Nmap](https://nmap.org) and [Qualys](https://www.qualys.com)
+
+### Attestation / Signing
+
+Via the use of [secure hashes](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms) and [digital signatures](https://en.wikipedia.org/wiki/Digital_signature), it's possible to prove that code was either authored by someone ("provenance attestation") or built by something ("build attestation").
+
+This is useful when producing or consuming open source software.
+
+### Developer Best Practces
+
+[Linux Security](https://linuxsecurity.com/features/open-source-software-supply-chain-security) suggests: 
+
+- Using multifactor authentication on developer accounts.
+- Having a formal change-tracking process.
+- Giving each release a unique identifier.
+- Testing for bugs and unexpected behavior throughout the development cycle.
+- Documenting and managing a project’s dependencies.
+- Cryptographically signing a project’s integrity (attestation, above).
+- Tracking and addressing vulnerabilities in open-source tools used in development.
+
+... many of which are contained in the [OpenSSF best practices](https://www.bestpractices.dev/en/criteria/0) (see below).
+
+### Endpoint Detection and Response (EDR)
+
+Endpoint Detection and Response (EDR) is a cybersecurity solution that continuously monitors and analyzes endpoint data to detect, investigate, and mitigate advanced threats across a network.
+
+https://en.wikipedia.org/wiki/Endpoint_detection_and_response
+
+### Web / Mobile Application Security Testing.
+
+- **Web Application Security Testing:** Web application security testing focuses on identifying security vulnerabilities in web applications, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).
+- **Mobile Application Security Testing:** Mobile application security testing focuses on identifying security vulnerabilities in mobile applications, such as those running on iOS or Android platforms.
+
+**See:**
+
+- Consider Gartner's [Application Security Testing](https://www.gartner.com/reviews/market/application-security-testing) summary page.  Lots of overlap in the tools between many of these categories.  
+
+## Initiatives / Industry Bodies
+
+- **[Vulnerabilities](../../Artifacts/CVE)**
+
+  - **[Common Vulnerabilities and Exposures](https://www.cve.org) (CVE)** program, to catalog vulnerabilities.  See also [CVE Article](../../Artifacts/CVE).
+  - **[National Vulnerability Database](https://nvd.nist.gov/vuln) (NVD)** program, another vulnerability catalog, run by [NIST](https://www.nist.gov).
+  - **[OSV](https://osv.dev)** - synthesises CVEs fom the databases for a given commit hash.
+
+- **[OpenSSF](https://openssf.org)**: A foundation (part of [LF](https://linuxfoundation.org)) devoted to the securing the open source ecosystem.  Most of its projects are hosted on [GitHub](https://github.com/ossf).  Projects of note include:
+ 
+  - **[GUAC](https://github.com/guacsec/guac)**: Graph for Understanding Artifact Composition  
+  - **[Best Practices Working group](https://www.bestpractices.dev/en)**: publishes best practices around hosting open source projects, issuing badges for meeting [their criteria](https://www.bestpractices.dev/en/criteria/0).
+  - **[Digital Identity Attestation](https://www.sigstore.dev)**: an initiative for allowing contributors to sign open source code.
+  - **[AllStar](https://openssf.org/blog/2021/08/11/introducing-the-allstar-github-app/)**: A GitHub App for [heuristically testing](https://github.com/ossf/scorecard/blob/main/docs/checks.md#check-documentation) best practices around open source governance.
+  - **[CVE Schema](https://ossf.github.io/osv-schema/)** Standard format for reporting of CVEs.
+
+- **[The MITRE ATT&CK](https://attack.mitre.org)** aims to be a knowledge base of all the tactics used in such supply chain attacks. 
 
 - **[SLSA](https://slsa.dev/spec/v1.0/threats-overview)**: "Supply chain Levels for Software Artifacts".  This is a framework designed for creating repeatable builds with provenance of their components.
 
@@ -256,4 +245,51 @@ tbd.
 
 - **[Financial Services Information Sharing and Analysis Center (FS-ISAC)](https://www.fsisac.com)**:  a non-profit organization dedicated to reducing cyber-risk in the global financial system. It enables members to share threat and vulnerability information, collaborate on incident response and mitigation, conduct synchronized response, and provides tools for better protection against physical and cyber threats.
 
+
+## Legislation
+
+### US
+
+Following [SolarWinds](#example-solar-winds) the US government became concerned with the issue of software supply chain security.   See the linked articles below for more information.   However, a very brief summary is as follows:
+
+- **Removing barriers to sharing threat information** between different government departments and the private sector.
+- **Adopting a zero-trust architecture**, deployment of MFA, encryption etc.
+- **Accelerate movement to secure cloud services**
+- **Enhance Software Supply Chain Security**, adopting the standards and best practices, [SBOMs](../../Artifacts/SBOMs) etc.
+- **Establish a standard "Playbook"** for responding to cyber incidentts.
+- **Improving detection of cybersecurity vulnerabilities and incidents** e.g. by deploying [EDR](#endpoint-detection-and-response-edr)
+
+**See:**
+
+ - [Bob Calloway](https://www.youtube.com/watch?v=vAfk03yDIc8) - "All Things Open Keynote, 2022 on Supply Chain Security.
+ - [OpenSSF's Blog Article](https://openssf.org/blog/2022/09/27/the-united-states-securing-open-source-software-act-what-you-need-to-know/) about this legislation.
+ - [Executive Order (2021)](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) on Improving the Nation’s Cybersecurity
+ - [Securing Open Source Software Act (2022)](https://www.congress.gov/bill/117th-congress/senate-bill/4913). This bill sets forth the duties of the Cybersecurity and Infrastructure Security Agency (CISA) regarding open source software security.
+ - [FACT SHEET](https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/): President Signs Executive Order Charting New Course to Improve the Nation’s Cybersecurity and Protect Federal Government Networks]
+
+### EU
  
+ - [EU Cybersecurity Strategy (2020)](https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy) aiming to bolster the digital supply chain's resilience and security. 
+ - [Digital Operational Resilience Act (2020)](https://www.digital-operational-resilience-act.com) ensure that all financial entities can withstand potential ICT threats, thus addressing the risks that ICT (including supply chain vulnerabilities) can pose to financial stability.
+ - [EU Cyber Resilience Act (2022)](https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act) regulation on cybersecurity requirements for products with digital elements.
+ 
+### UK
+
+ - [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk)
+ 
+## Further Reading
+
+- [State of the Software Supply Chain](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf) - SonaType's 2021 Report
+
+- [Open Source Software Supply Chain Security](https://project.linuxfoundation.org/hubfs/Reports/oss_supply_chain_security.pdf?hsLang=en) Report from 2020 by the Linux Foundation.
+
+- [Do your part to secure the open source supply chain](https://github.com/readme/guides/dependency-risk) article by GitHub ReadME.
+
+- [Keynote - OSS Supply CHain Security](https://www.youtube.com/watch?v=vAfk03yDIc8) talk by Google's Bob Calloway at All Things Open 2022.
+
+- [Protect your open source project from supply chain attacks](https://opensource.googleblog.com/2021/10/protect-your-open-source-project-from-supply-chain-attacks.html) - 2021 blog article adapted from talk at All Things Open 2021, in the form of a Supply Chain Security quiz.
+
+ - [CVEs](../../Artifacts/CVE) article from the BoK.
+ 
+ - [SBOMs](../../Artifacts/SBOMs)
+
