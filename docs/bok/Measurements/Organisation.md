@@ -20,7 +20,8 @@ Ideally, you want some measure of the pervasiveness of open source contribution 
 - Number of individual internal staff committing to open source / inner source projects
 - Number of pull-requests merged from internal staff (either on all projects or key strategic projects)
 - Number of inner source / open source projects being maintained.
-- Number of commits
+- Number of commits.
+- Number of CCLAs an organisation has executed/entered and maintains.
 
 </BoxOut>
 
