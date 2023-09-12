@@ -103,6 +103,10 @@ Based in Minnesota, Phil serves as the Americas Field CTO for GitHub and is pass
 When he's not working to help development teams he can usually be found in the kitchen, playing board games with his kids, or spending time skiing and biking small midwestern hills
 </Bio>
 
+<Bio name="Mimi Flynn" organisation="Morgan Stanley" image="/img/people/mimiflynn.jpg">
+Mimi Flynn is member of the OSPO team as a Vice President at Morgan Stanley. As a kid, she picked up BASIC via an Atari 800 leading her to a career in technology spanning the last two decades. In addition to her OSPO work, she gives back by teaching kids to code via Morgan Stanley’s Tech Philanthropy Tech Education programs. Outside of the office, she furthers her commitment to open source software with The Things Network New York, a non-profit that facilitates a community run IoT network, where she has served as a board member since 2018. Additionally, Mimi has been serving Secretary of Manhattan Community Board 1 where she has been a full board member since 2019 sitting on the Transportation and Quality of Life committees.
+</Bio>
+
 <Bio name="Sally Ellard" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
 TBC  
 </Bio>
