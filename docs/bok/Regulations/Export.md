@@ -30,7 +30,11 @@ These controls often require exporters to secure a license before shipping certa
 **See Also:**
 
  - [Export of cryptography from the United States](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States) - Wikipedia Article.
-
+ - [Encryption items NOT Subject to the EAR](https://www.bis.doc.gov/index.php/policy-guidance/encryption/1-encryption-items-not-subject-to-the-ear) - from US Government Export Controls guidance.
+ - [U.S. Export Controls and “Published” Encryption Source Code Explained](https://www.eff.org/fr/deeplinks/2019/08/us-export-controls-and-published-encryption-source-code-explained)
+ 
 ### Controls
 
  - Your policy will have to make a clear distinction between "exporting" and "contributing into an open source repository".
+
+ 
