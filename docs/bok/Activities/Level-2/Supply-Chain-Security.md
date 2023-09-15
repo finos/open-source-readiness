@@ -93,7 +93,7 @@ Each of these is an opportunity for an attack.
 
   > "An exploit (from the English verb to exploit, meaning "to use something to one’s own advantage") is a piece of software, a chunk of data, or a sequence of commands that takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior to occur on computer software, hardware, or something electronic (usually computerized)." - [Exploit, _Wikipedia_](https://en.wikipedia.org/wiki/Exploit_(computer_security))
 
-- **Vulnerabilities** are accidentally introduced by maintainers, and may be low impact or not possible for an attacker to actually exploit. 
+- **Vulnerabilities** can be accidentally introduced by maintainers, and they may range from low impact or not possible for an attacker to exploit, to high impact and easily exploitable. 
 
   > "Vulnerabilities are flaws in a computer system that weaken the overall security of the device/system. Vulnerabilities can be weaknesses in either the hardware itself, or the software that runs on the hardware. Vulnerabilities can be exploited by a threat actor, such as an attacker, to cross privilege boundaries (i.e. perform unauthorized actions) within a computer system." - [Vulnerability, _Wikipedia_](https://en.wikipedia.org/wiki/Vulnerability_(computing))
 
