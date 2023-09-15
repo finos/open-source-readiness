@@ -169,7 +169,7 @@ Some leading SAST tools are [Checkmarx](https://checkmarx.com/cxsast-source-code
 
 - **Penetration Testing:** Penetration testing involves attempting to actively exploit vulnerabilities in a software system or application to determine its security weaknesses. This type of testing is usually conducted by security experts who use manual and automated techniques to simulate real-world attacks.
 
-Tools for these include [Zed Attack Proxy (ZAP)](https://www.zaproxy.org), [Fortify WebInspect](https://www.microfocus.com/en-us/cyberres/application-security/webinspect) and [Burp Suite](https://portswigger.net/burp/pro).
+Tools for these include [Metasploit](https://www.metasploit.com), [Zed Attack Proxy (ZAP)](https://www.zaproxy.org), [Fortify WebInspect](https://www.microfocus.com/en-us/cyberres/application-security/webinspect) and [Burp Suite](https://portswigger.net/burp/pro).
 
 **See:**
 
