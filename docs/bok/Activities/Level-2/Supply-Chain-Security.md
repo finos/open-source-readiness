@@ -111,7 +111,7 @@ Each of these is an opportunity for an attack.
 
   **See:**
 
-    - [The MITRE ATT&CK](https://attack.mitre.org) aims to be a knowledge base of all the tactics used in such supply chain attacks. 
+    - [The MITRE ATT&CK](https://attack.mitre.org) aims to be a knowledge base of all the tactics, techniques, and procedures (TTPs) used by attackers in cyberattacks.
 
 ### Examples of Common Supply Chain Attacks
 
