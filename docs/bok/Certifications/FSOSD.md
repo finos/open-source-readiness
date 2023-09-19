@@ -1,13 +1,13 @@
 ---
-title: FINOS / TODO Financial Services Certified Open Source Developer (COSD)
+title: FINOS / TODO Financial Services Open Source Developer (FSOSD)
 tags: 
   - Developer (Role)
   - Training
   - Certification
-sidebar_label: COSD
+sidebar_label: FSOSD
 ---
 
-The FINOS / TODO Certified Open Source Developer exam is designed for developers contributing to open source projects whilst  working in financial institutions internationally. 
+The FINOS / TODO Financial Sercices Open Source Developer exam is designed for developers contributing to open source projects whilst  working in financial institutions internationally. 
 
 ## About This Certification
 
@@ -38,7 +38,7 @@ tbd. page from website
 
 To pass this training we recommend you take the following courses:
 
-<CourseList filter="Training" tag="COSD (Certification)" />
+<CourseList filter="Training" tag="FSOSD (Certification)" />
 
 .. and also a TBC course written by FINOS.
 

@@ -5,7 +5,7 @@ tags:
   - License Compliance Management (Activity)
   - Training
   - LF-Training
-  - COSD (Certification)
+  - FSOSD (Certification)
 course:
   publisher: Linux Foundation
   code: LFC193

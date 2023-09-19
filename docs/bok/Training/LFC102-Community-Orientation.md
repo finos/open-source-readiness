@@ -7,7 +7,7 @@ tags:
   - Training
   - LF-Training
   - Ethics-Training
-  - COSD (Certification)
+  - FSOSD (Certification)
 course:
   publisher: Linux Foundation
   code: LFC102
