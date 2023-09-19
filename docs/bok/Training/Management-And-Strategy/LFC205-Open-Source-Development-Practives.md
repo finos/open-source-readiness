@@ -3,7 +3,7 @@ title: Open Source Development Practices
 tags: 
   - Developer (Role)
   - Training
-  - COSD (Certification)
+  - FSOSD (Certification)
   - Management and Strategy (Training)
 course:
   publisher: Linux Foundation

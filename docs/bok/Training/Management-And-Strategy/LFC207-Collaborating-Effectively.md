@@ -3,7 +3,7 @@ title: Collaborating Effectively With Open Source Projects
 tags: 
   - Developer (Role)
   - Training
-  - COSD (Certification)
+  - FSOSD (Certification)
   - Management and Strategy (Training)
 course:
   publisher: Linux Foundation
