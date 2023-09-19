@@ -36,7 +36,7 @@ tbd. page from website
 
 ## Learning Path
 
-To pass this training we recommend you take the following courses:
+To pass this certification we recommend you take the following courses:
 
 <CourseList filter="Training" tag="FSOSD (Certification)" />
 
