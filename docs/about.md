@@ -86,6 +86,10 @@ Andrew Aitken is the GM and Global Open Source Practice Leader for Wipro Ltd., a
 An open source advocate and enthusiast. His major focus areas include Open Source Maturity Model and strategic engagements using open source. Worked extensively in the areas of enterprise application development and digital transformation projects.
 </Bio>
 
+<Bio name="Gilles Gravier" organisation="Wipro" image="/img/people/gilles.jpg">
+Gilles is an open source and inner source strategy advisor. He works with his clients to allow them to reap the maximum benefits from their open source and inner source activities by creating, or enhancing their open source or inner source strategy, and then driving its implementation over time. He has worked with multiple financial services organizations across the globe, as well as governmental organizations such as State Administration of Geneva, or Oman.
+</Bio>
+
 <Bio name="Vicki Chung" organisation="Goldman Sachs" image="/img/people/vicki.jpeg">
 Vicki is a product manager of Goldman Sachs’ Core Engineering, where she delivers software to improve developer productivity and to provide exceptional customer experiences. Prior to her current role, Vicki was the OSPO program manager and an instrumental part of building out the firm’s open source program. Before joining Goldman Sachs in 2021, Vicki was in the e-commerce and software consulting spaces in Japan and Taiwan.
 </Bio>
