@@ -107,6 +107,10 @@ When he's not working to help development teams he can usually be found in the k
 Mimi Flynn is member of the OSPO team as a Vice President at Morgan Stanley. As a kid, she picked up BASIC via an Atari 800 leading her to a career in technology spanning the last two decades. In addition to her OSPO work, she gives back by teaching kids to code via Morgan Stanley’s Tech Philanthropy Tech Education programs. Outside of the office, she furthers her commitment to open source software with The Things Network New York, a non-profit that facilitates a community run IoT network, where she has served as a board member since 2018. Additionally, Mimi has been serving Secretary of Manhattan Community Board 1 where she has been a full board member since 2019 sitting on the Transportation and Quality of Life committees.
 </Bio>
 
+<Bio name="Jamie Slome" organisation="Citi" image="/img/people/jamie-slome.jpeg">
+Based in London, Jamie Slome is the Operations Lead for Citi's Open Source Program Office (OSPO). He is responsible for implementing developer tooling that supports Citi's open source contribution initiatives and spearheads the expansion of the Open Source Program Office (OSPO). Prior to this, he co-founded and served as Chief Technology Officer at [huntr.dev](https://huntr.dev) ([acquired by ProtectAI](https://uk.finance.yahoo.com/news/protect-ai-acquires-huntr-launches-130300083.html)), a vulnerability management and responsible disclosure platform for world-renowned open source libraries include [vim](https://github.com/vim/vim), [draw.io](https://github.com/jgraph/drawio) and [Nuxt.js](https://github.com/nuxt). Additionally, Jamie is the lead maintainer of [Git Proxy](https://github.com/finos/git-proxy), a highly configurable framework allowing developers and organizations to enforce customized push protections and policies on top of Git.
+</Bio>
+
 <Bio name="Sally Ellard" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
 TBC  
 </Bio>
