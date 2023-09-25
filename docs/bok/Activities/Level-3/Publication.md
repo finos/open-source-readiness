@@ -26,7 +26,7 @@ Financial firms are _technology organisations_. All such organisations need to w
 
 There is a right way and a wrong way to publish code to the Internet from within a regulated firm.  
 
-Specifically, publication must observe the controls that have been set up to guard against accidental leakage of of intellectual property or secrets. 
+Specifically, publication must observe the controls that have been set up to guard against accidental leakage of of intellectual property or secrets.  That is, data published to an open source project should be [classified as public](../../Artifacts/IP).
 
 **Warning:** Publishing open source by simply pasting it online or emailing it is likely to result in disciplinary procedure.
 
