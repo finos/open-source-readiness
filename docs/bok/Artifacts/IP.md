@@ -33,9 +33,9 @@ Protects confidential business information that provides a competitive edge.
 Information such as intellectual property is normally classified in the following way:
 
 - **Public:** Open information that can be shared with anyone.
-- **Internal:** For use within the company and shouldn't be disclosed externally.
+- **Internal Use Only:** For use within the company and shouldn't be disclosed externally.
 - **Confidential:** Sensitive information that could be detrimental if shared outside a select group within the company.
-- **Strictly Confidential:** Extremely sensitive information, often related to core business assets or top-level decisions.
+- **Strictly Confidential / Secret:** Extremely sensitive information, often related to core business assets or top-level decisions.
 
 **See:** [ISO/IEC 27001](https://www.iso.org/cms/%20render/live/en/sites/isoorg/contents/data/standard/08/28/82875.html): This is an international standard for information security management. While it doesn't dictate specific classification levels, it advises organizations to classify information based on its value, requirements for legal and regulatory compliance, and criticality. 
 
