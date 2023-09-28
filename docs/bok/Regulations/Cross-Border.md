@@ -17,7 +17,7 @@ Many organisations are bound by what is allowed to cross their borders.  For exa
 
 ## Intersection With Open Source
 
-- **Cross Border Data Clearance (CBDC)**:  Only really applies to data. Not source code.   Public source doesn't apply.  Working groups don't apply.  Use of data classified as public.  Not banning data, but asking "is this public?".  
+- **Cross Border Data Clearance (CBDC)**:  Only really applies to data.  Not source code.   Public source doesn't apply.  Working groups don't apply.  Use of data classified as [public](../Artifacts/IP#information-classification).  Not banning data, but asking "is this public?".  
 
 ### Controls
 

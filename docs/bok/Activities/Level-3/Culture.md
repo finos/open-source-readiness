@@ -39,7 +39,7 @@ _[Policies and guidelines](../../Artifacts/Policy) help **provide clarity** to e
 
 - You need to supply **clear, golden paths** (or templates) for the correct behaviours on topics such as:
   - [Contribution](Contribution-Training)
-  - [Consumption](Consuption-Training)
+  - [Consumption](../Level-2/Consumption-Training)
   - [Open Sourcing A Project](../Level-4/Open-Sourcing-A-Project) 
   - and also _participation_ (discussed below).
  

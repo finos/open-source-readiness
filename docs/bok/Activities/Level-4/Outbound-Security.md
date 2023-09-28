@@ -4,6 +4,7 @@ tags:
   - Placeholder
   - Level 4 (OSMM)
   - OSPO (Role)
+  - CVE (Artifact)
 draft: true
 sidebar_position: 4
 ---

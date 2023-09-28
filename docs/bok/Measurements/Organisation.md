@@ -27,9 +27,9 @@ Ideally, you want some measure of the pervasiveness of open source contribution 
 
 <BoxOut title="License Compliance" image="/img/bok/metric.png">
 
-Assuming your [Legal Team](../Roles/Legal) have created a [license allow list](License-Management), consider scanning internal projects and producing metrics around the number of license violations. 
+Assuming your [Legal Team](../Roles/Legal) have created a [license allow list](../Activities/Level-2/License-Management), consider scanning internal projects and producing metrics around the number of license violations. 
 
-The [FINOS Security Scanning project](https://github.com/finos/security-scanning) shows how this can be done on a per-project basis but you are likely to want to run this across your organisation's estate.    Consider applying one of the tools from the [Software Inventory](Software-Inventory) article.
+The [FINOS Security Scanning project](https://github.com/finos/security-scanning) shows how this can be done on a per-project basis but you are likely to want to run this across your organisation's estate.    Consider applying one of the tools from the [Software Inventory](../Activities/Level-2/Software-Inventory) article.
 
 Consider measuring:
 

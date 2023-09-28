@@ -17,7 +17,7 @@ You can take the Open Source Maturity Model survey now at https://survey.osmm.fi
 Below you can find a list of useful links and resources; you can find more on [FINOS Knowledge Base page](https://www.finos.org/knowledge-base).
 
 - [External Resources](external-resources)
-- [Trainings](trainings)
+- [Trainings](../bok/Training/Introduction)
 
 ## Adding and Updating OSR SIG Documentation
 
