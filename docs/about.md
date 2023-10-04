@@ -17,11 +17,11 @@ Be a trusted venue for our members and community in their open source journey an
 
 ## Meetings
 
-Please check out the [FINOS Calendar](https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York) for details of the OSR Meetings.  We currently run two each month.  Everyone is welcome, FINOS members and non-members alike.
+Please check out the [FINOS Calendar](https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York) for details of the OSR Meetings. We currently run two each month. Everyone is welcome, FINOS members and non-members alike.
 
 ## Leadership
 
-There are several people fulfilling leadership roles within OSR, listed below.  Their responsibilities are to:
+There are several people fulfilling leadership roles within OSR, listed below. Their responsibilities are to:
 
 - Shape and guide OSR strategy and goals
 - Attend monthly meetings to plan and schedule speakers and topics, shape and guide the meeting format
@@ -54,7 +54,7 @@ Peter Smulovics is an Executive Director of Enterprise Application Infrastructur
 
 ### Executive Sponsors
 
-In 2023, FINOS aims to productize Open Source Readiness with new trainings and certification.  The following are the FINOS board executive sponsors of this strategy:
+In 2023, FINOS aims to productize Open Source Readiness with new trainings and certification. The following are the FINOS board executive sponsors of this strategy:
 
 <Bio name="Rhyddian Olds" organisation="Citi" image="/img/people/Rhyddian-Photo-Circle.webp">
 Insert bio here
@@ -91,7 +91,7 @@ Vicki is a product manager of Goldman Sachs’ Core Engineering, where she deliv
 </Bio>
 
 <Bio name="Kay Xiong Pachay" organisation="Goldman Sachs" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Zack Koppert" organisation="Github" image="/img/people/no-headshot.png">
@@ -104,55 +104,55 @@ When he's not working to help development teams he can usually be found in the k
 </Bio>
 
 <Bio name="Mimi Flynn" organisation="Morgan Stanley" image="/img/people/mimiflynn.jpg">
-Mimi Flynn is member of the OSPO team as a Vice President at Morgan Stanley. As a kid, she picked up BASIC via an Atari 800 leading her to a career in technology spanning the last two decades. In addition to her OSPO work, she gives back by teaching kids to code via Morgan Stanley’s Tech Philanthropy Tech Education programs. Outside of the office, she furthers her commitment to open source software with The Things Network New York, a non-profit that facilitates a community run IoT network, where she has served as a board member since 2018. Additionally, Mimi has been serving Secretary of Manhattan Community Board 1 where she has been a full board member since 2019 sitting on the Transportation and Quality of Life committees.
+Mimi Flynn is a member of the OSPO team as a Vice President at Morgan Stanley. As a kid, she picked up BASIC via an Atari 800 leading her to a career in technology spanning the last two decades. In addition to her OSPO work, she gives back by teaching kids to code via Morgan Stanley’s Tech Philanthropy Tech Education programs. Outside of the office, she furthers her commitment to open source software with The Things Network New York, a non-profit that facilitates a community run IoT network, where she has served as a board member since 2018. Additionally, Mimi has been serving Secretary of Manhattan Community Board 1 where she has been a full board member since 2019 sitting on the Transportation, Quality of Life, and Executive committees.
 </Bio>
 
 <Bio name="Jamie Slome" organisation="Citi" image="/img/people/jamie-slome.jpeg">
-Based in London, Jamie Slome is the Operations Lead for Citi's Open Source Program Office (OSPO). He is responsible for implementing developer tooling that supports Citi's open source contribution initiatives and spearheads the expansion of the Open Source Program Office (OSPO). Prior to this, he co-founded and served as Chief Technology Officer at [huntr.dev](https://huntr.dev) ([acquired by ProtectAI](https://uk.finance.yahoo.com/news/protect-ai-acquires-huntr-launches-130300083.html)), a vulnerability management and responsible disclosure platform for world-renowned open source libraries include [vim](https://github.com/vim/vim), [draw.io](https://github.com/jgraph/drawio) and [Nuxt.js](https://github.com/nuxt). Additionally, Jamie is the lead maintainer of [Git Proxy](https://github.com/finos/git-proxy), a highly configurable framework allowing developers and organizations to enforce customized push protections and policies on top of Git.
+Based in London, Jamie Slome is the Operations Lead for Citi's Open Source Program Office (OSPO). He is responsible for implementing developer tooling that supports Citi's open source contribution initiatives and spearheads the expansion of the Open Source Program Office (OSPO). Prior to this, he co-founded and served as Chief Technology Officer at <a href="https://huntr.dev">huntr.dev</a> (<a href="https://uk.finance.yahoo.com/news/protect-ai-acquires-huntr-launches-130300083.html">acquired by ProtectAI</a>), a vulnerability management and responsible disclosure platform for world-renowned open source libraries include <a href="https://github.com/vim/vim">vim</a>, <a href="https://github.com/jgraph/drawio">draw.io</a> and <a href="https://github.com/nuxt">Nuxt.js</a>. Additionally, Jamie is the lead maintainer of <a href="https://github.com/finos/git-proxy">Git Proxy</a>, a highly configurable framework allowing developers and organizations to enforce customized push protections and policies on top of Git.
 </Bio>
 
 <Bio name="Sally Ellard" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Mark Hoare" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Pooi Cheong" organisation="Lloyds Bank" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Aronya Roy" organisation="Lloyds Bank" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="William Rothwell" organisation="UBS" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Gil Yehuda" organisation="U.S. Bank" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Rob Underwood" organisation="tbd" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Thomas Steenbergen" organisation="EPAM" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Andy Smith" organisation="DFS" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Vincent Edwards" organisation="DFS" image="/img/people/no-headshot.png">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Chamindra de Silva" organisation="Citi" image="/img/people/chamindra-de-silva.jpeg">
-TBC  
+TBC
 </Bio>
 
 <Bio name="Vicky Brasseur" image="/img/people/vicky-brasseur.jpeg" organisation="Wipro">
