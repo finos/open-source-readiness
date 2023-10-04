@@ -17,7 +17,7 @@ Be a trusted venue for our members and community in their open source journey an
 
 ## Meetings
 
-Please check out the [FINOS Calendar](https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York) for details of the OSR Meetings. We currently run two each month. Everyone is welcome, FINOS members and non-members alike.
+Please check out the [FINOS Calendar](https://www.finos.org/calendar) for details of the OSR Meetings. We currently run two each month. Everyone is welcome, FINOS members and non-members alike.
 
 ## Leadership
 
