@@ -3,6 +3,7 @@ module.exports={
   "tagline": "OVERCOMING OBSTACLES TO OPEN SOURCE",
   "url": "https://osr.finos.org/",
   "baseUrl": "/",
+  "trailingSlash": false,
   "organizationName": "FINOS",
   "projectName": "open-source-readiness",
   "scripts": [
