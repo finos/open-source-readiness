@@ -131,8 +131,8 @@ TBC
 TBC
 </Bio>
 
-<Bio name="Gil Yehuda" organisation="U.S. Bank" image="/img/people/no-headshot.png">
-TBC
+<Bio name="Gil Yehuda" organisation="A bank in the U.S." image="/img/people/no-headshot.png">
+Gil is the Head of Open Source at a large U.S.-based bank where he leads the OSPO, runs the InnerSource initiative, as well as the Application Vulnerability Management strategy. Gil has been an active advocate for open source program offices, setting their strategy, managing their operations, and publishing guidance for other organizations to leverage. He created and led the OSPOs at Yahoo, Verizon Media, and U.S. Bank. He was an industry analyst at Forrester Research, an enterprise architect at Fidelity Investments, and the president of the Yahoo Employee Foundation. 
 </Bio>
 
 <Bio name="Rob Underwood" organisation="tbd" image="/img/people/no-headshot.png">
