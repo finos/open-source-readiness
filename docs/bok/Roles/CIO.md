@@ -24,12 +24,22 @@ The Chief Information Officer (CIO) is The CIO oversees IT governance, data mana
  - Data integrity and systems gaps
  - Finding the best technology solutions
  - Cost Control
+ - The profile of open source must be raised
+
+### Open Source Awareness
+
+- Recognise OSS as a reality
+- Determine what projects should/ should not be open source
+- Educate on the growth in reliance on OSS
+- Understand what peer organisations are doing
+- Understand that OSS is not a “last resort” approach, and may often be the best approach
+
 
 ### Open Source Engagement
 
-The CIO's interaction with OSS often involves evaluating its viability, security, and long-term support, as well as ensuring compliance with licensing and legal requirements. 
+The CIO's interaction with OSS often involves evaluating its viability, security, and long-term support, as well as ensuring compliance with licensing and legal requirements. What are the legal implications of usage: exposure / license violation conditions.It is important to understand where the code lives and the [risks](https://osr.finos.org/docs/bok/Risks/Introduction) associated with e.g. [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell)
  
-Furthermore, the CIO plays a critical role in guiding the organization's contributions to open source projects, which not only enhances the company's reputation but also cultivates valuable relationships with the broader OSS community.
+Furthermore, the CIO plays a critical role in guiding the organization's contributions to open source projects, which not only enhances the company's reputation but also cultivates valuable relationships with the broader OSS community. This includes understanding the extent of its use in their organisation.
 
 ### Internal Stakeholders
 
