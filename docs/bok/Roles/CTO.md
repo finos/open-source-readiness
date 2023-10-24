@@ -28,6 +28,13 @@ They focus on the organization's technical vision and strategy, ensuring that th
 - Data integrity and systems gaps
 - Skills gaps
 
+### Open Source Awareness
+
+- Make them aware of the OSPO
+- Use risks as a lever for action
+- Ensure awareness with FINOS and Linux Foundation
+
+
 ### Open Source Engagement
 
 The CTO is responsible for identifying and implementing innovative technologies.  They should therefore recognize the value of OSS in fostering collaboration, driving cost-efficiency, and promoting adaptability. 
@@ -53,6 +60,13 @@ Additionally, the CTO oversees the organization's contributions to open source p
 2. Watch recorded presentations from the [2022 FINOS Open Source Strategy Forum](https://resources.finos.org/znglist/osff-new-york-2022/?c=cG9zdDo5OTA5MTk=)
 
 3. Attend the [FINOS Member Meetings and OSFF events](https://www.finos.org/hosted-events)
+
+4. “Developing Secure Software” course in the LF Catalog
+
+5. Ask them to find OSS champions within the organisation
+
+6. Create an Open Source Council
+
 
 ## Expected Activities
 
