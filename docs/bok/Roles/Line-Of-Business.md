@@ -22,12 +22,22 @@ Using software and other technology to:
 - Competing priorities                  
 - Organizational silos
 - Skills gaps/lack of resources"
+- Automation of compliance processes
+
+### Open Source Awareness
+
+- Learning/training programs on how to use open source
+- Impact assessment of open source
+- Show how to find and contribute “easy code” - low hanging products
+- Produce case studies and metrics for open source success stories
+- Find internal champions
+- Explain the risks involved in not contributing
 
 ### Open Source Engagement
 
-LOBs can benefit from cost savings, rapid development, and access to a wide range of cutting-edge tools and technologies, thereby enabling them to respond more effectively to market changes, competition, and evolving customer expectations. 
+LOBs can benefit from cost savings, rapid development, and access to a wide range of cutting-edge tools and technologies, thereby enabling them to respond more effectively to market changes, competition, and evolving customer expectations. Having a clear policy for personal contributions is important to ensure contributors feel safe to contribute. Firm contributions are frustrated by risks/approvals so work to minimise this.
 
-In addition, LOBs can contribute to open source projects, fostering a culture of collaboration and innovation while demonstrating thought leadership and industry expertise.
+In addition, LOBs can contribute to open source projects, fostering a culture of collaboration and innovation while demonstrating thought leadership and industry expertise. Produce metrics such as mean time to remediation or a maturity score for contributions.
 
 ### Internal Stakeholders
 
@@ -37,6 +47,8 @@ In addition, LOBs can contribute to open source projects, fostering a culture of
  - [Risk and Compliance Teams](Compliance)
  - [Human Resources](HR-Training)
  - Marketing and Sales / Communications
+ - Persuasion can happen via the CIO/CTO or distinguished engineer community buy-in
+
 
 </BoxOut>
 
