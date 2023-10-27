@@ -42,7 +42,7 @@ An advanced approach to software inventory would be "joined up" across multiple 
 
 ## Hierarchy of Dependencies
 
-It is important to understand that modern software is composed of smaller units (which themselves can be composed of other units and so on).   This means that the inventory of a single _project_ or _executable_ could potentially be a list of hundreds of dependencies.   Recently, this "hierarchy of dependencies" has become known as a ["Software Bill of Materials", or SBOM](../Artifacts/SBOMs)
+It is important to understand that modern software is composed of smaller units (which themselves can be composed of other units and so on).   This means that the inventory of a single _project_ or _executable_ could potentially be a list of hundreds of dependencies.   Recently, this "hierarchy of dependencies" has become known as a ["Software Bill of Materials", or SBOM](../../Artifacts/SBOMs)
 
 ## Tools
 

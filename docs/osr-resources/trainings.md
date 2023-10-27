@@ -1,26 +1,27 @@
 ---
 id: trainings
-title: Trainings
-sidebar_label: Trainings
+title: Training and Certification
+sidebar_label: Training
 ---
 
-## Open Source Best Practices Trainings
+## OSR Published Training & Certification (2023)
 
-The Linux Foundation offers a range of [Open Source Best Practices trainings](https://training.linuxfoundation.org/full-catalog/?_sft_topic_area=open-source-best-practice&utm_campaign=Membership&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8sBd1hN8oeoN5u2mBjCQOaPgA6gi67geoN9Ispzk-ohq4uptc4rnyPyj0uV65LTerRJSWh).
+In November 2023 the OSR SIG team are proud to announce general availability of the following materials:
 
-## OpenSSF - Secure Software Development Fundamentals Courses
+### [Open Source Contribution in Finance (LFD137)](../bok/Training/LFD137-Contribution-In-Finance)
 
-The Open Source Security Foundation (OpenSSF) has developed **free courses** for software developers on how to develop secure software.
+![LFD137 Card](/img/bok/training/Training_LFD137_102034.png)
 
-The [“Developing Secure Software” (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) course is available on the Linux Foundation Training & Certification platform. Both the course and certificate of completion are free. It is entirely online, takes about 14-18 hours to complete, and you can go at your own pace. Those who complete the course and pass the final exam will earn a certificate of completion valid for two years.
+A comprehensive training enabling developers in financial services to safely participate in open source communities, drawing from the best practices of the world's top financial institutions. The training is free to enable organizations of all sizes and individuals in finance to take an active part in open source projects.
 
-If you prefer, the same lesson content is available on edX as part of the [Secure Software Development Fundamentals Professional Certificate](http://edx.org/professional-certificate/linuxfoundationx-secure-software-development-fundamentals?utm_medium=partner-marketing&utm_source=affiliate&utm_campaign=openssf&utm_content=openssforg-securedevelopmentpc) program. You can audit the course (to learn the material) for free. If you want to try to earn a certificate of completion on edX (to prove that you learned the material), there’s a fee. On edX the content is split into 3 courses: [Secure Software Development: Requirements, Design, and Reuse (LFD104x)](https://www.edx.org/course/secure-software-development-requirements-design-and-reuse?utm_medium=partner-marketing&utm_source=affiliate&utm_campaign=openssf&utm_content=openssforg-lfd104); [Secure Software Development: Implementation (LFD105x)](https://www.edx.org/course/secure-software-development-implementation?utm_medium=partner-marketing&utm_source=affiliate&utm_campaign=openssf&utm_content=openssforg-lfd105); and [Secure Software Development: Verification and More Specialized Topics (LFD106x)](https://www.edx.org/course/secure-software-development-verification-and-more-specialized-topics?utm_medium=partner-marketing&utm_source=affiliate&utm_campaign=openssf&utm_content=openssforg-lfd106).
+### [FINOS Financial Services Open Source Certification (FSOSD)](../bok/Certifications/FSOSD)
 
-To propose changes to the course content and/or reuse the material, [see the course content repository on GitHub](https://github.com/ossf/secure-sw-dev-fundamentals).
+![FSOSD Banner Image](/img/bok/training/Training_CertLaunch_FSOSD.png)
 
-
+A certification designed to ensure open source contributors in financial institutions, fintech and technology vendors and consultants operating in the financial industry contribute in line with the financial services industry's regulatory framework and compliance best practices.  _This page includes a detailed list of pre-requisite training materials that we recommend you complete in advance of taking the certification_.
 
 ## Further Reading
  
-- [Begin "Developing Secure Software" course (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/)
 - [Body of Knowledge Training Index](../bok/Training/Introduction)
+- [Body of Knowledge Certifications Index](../bok/Certifications/Introduction)
+
