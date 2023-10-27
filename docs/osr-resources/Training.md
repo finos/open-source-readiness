@@ -1,5 +1,4 @@
 ---
-id: trainings
 title: Training and Certification
 sidebar_label: Training
 ---

@@ -10,7 +10,7 @@ The Open Source Readiness Special Interest Group (OSR SIG) is dedicated to helpi
 - We produce and collect **[Resources](osr-resources)** to support FSI firms in developing robust open source programs, including:
    - A [Presentation on Open Source Readiness](osr-resources/Presentation) explaining why we need this project.
    - The [Open Source Body of Knowledge](bok/Introduction) is a collaborative project aimed at developing a comprehensive body of knowledge on open source best practices for the financial services industry.
-   - Comprehensive [Training and Certification](osr-resources/trainings) materials that firms can use to train and certify developers for open source contribution in a financial services setting. 
+   - Comprehensive [Training and Certification](osr-resources/Training) materials that firms can use to train and certify developers for open source contribution in a financial services setting. 
    - An [Open Source License Compliance Handbook](https://github.com/finos/OSLC-handbook) with information about complying with common open source licenses
    - An [executive whitepaper](https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us) on the business value of open source
    - A [reference open source policy](https://github.com/finos/reference-foss-policy) for FSI firms. 
