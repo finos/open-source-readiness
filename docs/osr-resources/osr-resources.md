@@ -12,13 +12,6 @@ The model is an open source project and is free to use, study, improve, and redi
 
 You can take the Open Source Maturity Model survey now at https://survey.osmm.finos.org/551476 and we welcome your open source contributions on the [OSMM GitHub Repository](https://github.com/finos-labs/osmm/).
 
-## Useful Links and Resources
-
-Below you can find a list of useful links and resources; you can find more on [FINOS Knowledge Base page](https://www.finos.org/knowledge-base).
-
-- [External Resources](external-resources)
-- [Trainings](../bok/Training/Introduction)
-
 ## Adding and Updating OSR SIG Documentation
 
 Open Source Readiness welcomes new contributions and updates to SIG documentation.
@@ -63,4 +56,4 @@ A whitepaper laying out the business case for open source engagement. A helpful 
 
 We built some high-level workflows for common open source compliance processes, along with a checklist that helps establishing an open source compliance program within your firm.
 
-- [View](osr-checklist) the checklist
+- [View](osr-resources/osr-checklist) the checklist
