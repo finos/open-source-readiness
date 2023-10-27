@@ -40,7 +40,7 @@ Your policy will outline the organisational structure set up to risk-manage open
 
 - **Foundation Points-of-Contact (POC)**:  staff within the organisation responsible for handling [Foundation Membership](../Level-4/Foundations).  This might be important for project creation or administration, [CLA administration](../../Artifacts/CLAs-And-DCOs) or attending events.
 
-- **Open Source Project Administrators**: where the organisation is [Contributing its own Projects](../Level-4/Contributing-A-Project) or otherwise acting in a leadership role on a project, there will be someone in the firm in this role.   
+- **Open Source Project Administrators**: where the organisation is [Contributing its own Projects](../Level-4/Open-Sourcing-A-Project) or otherwise acting in a leadership role on a project, there will be someone in the firm in this role.   
 
 - **Open Source Project Sponsors**:  in the majority of cases, the firm will have a business need to engage in an open source project.  Therefore, contributions of time or money will need to be _sponsored_ by some part of the business.  It's important that contributors are aware of who is sponsoring their contribution.
 

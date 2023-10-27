@@ -46,3 +46,9 @@ A software vulnerability is a flaw or weakness in a software program's design, i
 ## Risk Management Activities
 
 <BokTagList tag="Dependency Risk" filter="Activities" />
+
+## Further Reading
+
+- [Resilient Software Supply Chain](https://www.linkedin.com/posts/resilientcyber_software-supplychain-infosec-activity-7037427310441988096-7z_X?utm_source=share&utm_medium=member_ios)
+
+- [CoreJS Maintainer Complains Open Source is Broken](https://www.theregister.com/2023/02/15/corejs_russia_open_source/)

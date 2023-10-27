@@ -20,7 +20,7 @@ tbd.
    - Is it better to have a large _ecosystem_ rather than support (e.g. Java, Python, fungibility of developers/experts)
    - Commercial software license change (e.g. https://www.supportrevolution.com/oracle-support-price-rises/)
    
-## Understanding Repositories, Namespaces, Versions
+## Understanding Repositories, Namespaces, Versions
 
 
 
@@ -34,7 +34,7 @@ Approved to leverage open source and pulling in dependency in their projects.
  - Getting access to GitHub.
  - Explanation for why this is often blocked.
 
-## Choosing Healthy Dependencies
+## Choosing Healthy Dependencies
 
 Choosing [healthy open source dependencies](../Measurements/Project-Health)
 Risks of choosing defunct libraries.

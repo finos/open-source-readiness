@@ -72,6 +72,8 @@ Open source contribution is something that firms can adopt in a piecemeal, pilot
  
  - Can you create a [minimum viable policy](../../Artifacts/Policy) to get started?   Setting a policy for the _whole firm_ is probably harder than a single business unit.
  
+ - If all else fails, can you start with [InnerSource](Culture#InnerSource)?
+ 
 ## Project Categorization
 
 With the above in mind, you can consider the universe of _all software projects_ to break down into some key categories:

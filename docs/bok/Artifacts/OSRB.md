@@ -5,6 +5,7 @@ tags:
   - Dependency Risk
   - Staff Risk
   - OSRB (Role)
+sidebar_label: OSRB
 ---
 
 tbd.  what is one.

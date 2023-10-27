@@ -66,6 +66,10 @@ Insert bio here
 
 ## Contributing Authors
 
+<Bio name="Amol Meshram" image="/img/people/no-headshot.png" organisation="LSEG">
+TBD.
+</Bio>
+
 <Bio name="Rob Moffat" image="/img/people/rob-moffat.jpeg" organisation="FINOS">
 Rob Moffat is a seasoned IT professional living in the UK. Over the last twenty years, he has worked at many of the top-tier investment banks in London on regulatory and transformation IT projects. Rob is a staunch advocate of Open Source and works on many open source projects, including the FINOS "Spring Bot" project which he built and contributed whilst working at Deutsche Bank.  Rob holds a Computer Science degree and an MBA and is the author of <a href="https://www.amazon.co.uk/Risk-First-Software-Development-1-Menagerie/dp/1717491855">Risk-First Software Development</a>.
 </Bio>
@@ -82,8 +86,8 @@ Andrew Aitken is the GM and Global Open Source Practice Leader for Wipro Ltd., a
 An open source advocate and enthusiast. His major focus areas include Open Source Maturity Model and strategic engagements using open source. Worked extensively in the areas of enterprise application development and digital transformation projects.
 </Bio>
 
-<Bio name="Vicki Chung" organisation="Goldman Sachs" image="/img/people/no-headshot.png">
-TBC  
+<Bio name="Vicki Chung" organisation="Goldman Sachs" image="/img/people/vicki.jpeg">
+Vicki is a product manager of Goldman Sachs’ Core Engineering, where she delivers software to improve developer productivity and to provide exceptional customer experiences. Prior to her current role, Vicki was the OSPO program manager and an instrumental part of building out the firm’s open source program. Before joining Goldman Sachs in 2021, Vicki was in the e-commerce and software consulting spaces in Japan and Taiwan.
 </Bio>
 
 <Bio name="Kay Xiong Pachay" organisation="Goldman Sachs" image="/img/people/no-headshot.png">
@@ -136,6 +140,10 @@ TBC
 </Bio>
 
 <Bio name="Vincent Edwards" organisation="DFS" image="/img/people/no-headshot.png">
+TBC  
+</Bio>
+
+<Bio name="Chamindra de Silva" organisation="Citi" image="/img/people/chamindra-de-silva.jpeg">
 TBC  
 </Bio>
 

@@ -8,10 +8,13 @@ tags:
   - Placeholder
   - Codebase Risk
   - Dependency Risk
+  - CVE (Artifact)
 sidebar_position: 1
 ---
 
 Software inventory is a precondition to most of the activities involved in OSMM level 2.  The first step to licence compliance or supply chain security is _to understand what software is in your estate_.
+
+> "Any open source dependency should have the same kind of scrutiny as in-house code, from a security standpoint." - GitHub OSPO.
 
 ## Conceptual Model:  Pipeline
 

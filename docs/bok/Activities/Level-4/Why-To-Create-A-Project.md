@@ -8,7 +8,7 @@ sidebar_position: 1
 sidebar_label: Why
 ---
 
-Just as there are many reasons to [contribute to open source projects](../Level-3/Contributing-To-Projects), it is the same when it comes to a financial institution deciding to open-source.  However, the reasoning behind might be different. 
+Just as there are many reasons to [contribute to open source projects](../Level-3/Making-The-Case), it is the same when it comes to a financial institution deciding to open-source.  However, the reasoning behind might be different. 
 
 **Note:** In this article, we are not trying to cover all reasons for engaging in open source, see [Making the Case](../Level-3/Making-The-Case) for more basis for that. 
 
@@ -24,7 +24,7 @@ Often, when a new project is released, initial interest is low. This raises the 
 
 ## Pluggable Platforms
 
-When you start your open-sourcing effort, you hope for an ecosystem to form (see also: [Foundations](../Level-3/Foundations)). But ecosystems grow gradually on an exponential curve and you do not yet know the upcoming usage.  Potential users of your project might be using another open source offering or using their own proprietary one.   They may need to be persuaded to switch.  This can raise the question - _was there any point in us open sourcing this project at all?_
+When you start your open-sourcing effort, you hope for an ecosystem to form (see also: [Foundations](Foundations). But ecosystems grow gradually on an exponential curve and you do not yet know the upcoming usage.  Potential users of your project might be using another open source offering or using their own proprietary one.   They may need to be persuaded to switch.  This can raise the question - _was there any point in us open sourcing this project at all?_
 
 Conversely, there should not be a reason for a company to own every line of the code they write:  most likely already using plenty of open source.  So by this argument, the code in a new project owned might as well be part open source.
 
