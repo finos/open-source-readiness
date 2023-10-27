@@ -1,5 +1,5 @@
 ---
-title: FINOS / TODO Financial Services Open Source Developer (FSOSD)
+title: FINOS Financial Services Open Source Developer (FSOSD)
 tags: 
   - Developer (Role)
   - Training
