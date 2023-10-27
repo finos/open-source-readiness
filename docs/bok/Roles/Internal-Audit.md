@@ -1,7 +1,7 @@
 ---
 title: Internal Audit
 tags:
-  - Internal Audit
+  - Internal Audit (Role)
   - Policy
 ---
 An Internal Auditor is a professional who ensures organizations and companies have accurate accounting throughout the year. They ensure that other accounting teams follow proper procedures and that all accounts are updated and accurate.
