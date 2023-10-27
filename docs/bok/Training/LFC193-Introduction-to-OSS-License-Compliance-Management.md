@@ -2,18 +2,16 @@
 title: Introduction to Open Source License Compliance Management
 tags:
   - Developer (Role)
-  - Legal (Role)
-  - CIO/CTO (Role)
-  - OSPO (Role)
   - License Compliance Management (Activity)
   - Training
   - LF-Training
+  - FSOSD (Certification)
 course:
   publisher: Linux Foundation
   code: LFC193
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/introduction-to-open-source-license-compliance-management-lfc193/
 sidebar_label: LFC193
 ---

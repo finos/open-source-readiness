@@ -83,10 +83,10 @@ export default function CourseList(props) {
 	    )
 	  },
 	  {
-	    Header: "Recommendation",
-	    accessor: "frontMatter.course.recommended",
+	    Header: "Price",
+	    accessor: "frontMatter.course.cost",
 	    className: "pester-data-table left"
-	  }	  
+	  }
 	];
 	
 	return (

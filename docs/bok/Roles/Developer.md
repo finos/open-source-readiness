@@ -1,6 +1,5 @@
 ---
 title: Developer
-sidebar_label: IT
 tags: 
   - Developer (Role)
 ---
@@ -52,6 +51,11 @@ tbd.
 ## Expected Activities
 
 <BokTagList tag="Developer (Role)" filter="Activities" />
+
+## Recommended Training
+
+<BokTagList tag="Developer (Role)" filter="Training" />
+
 
 ## Further Reading
 

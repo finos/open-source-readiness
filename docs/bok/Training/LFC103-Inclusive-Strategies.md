@@ -1,9 +1,6 @@
 ---
 title: Inclusive Strategies For Open Source
 tags: 
-  - Developer (Role)
-  - OSPO (Role)
-  - Product Manager (Role)
   - Training
   - LF-Training
   - Ethics-Training
@@ -12,7 +9,7 @@ course:
   code: LFC103
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/inclusive-strategies-for-open-source-lfc103/
 sidebar_label: LFC103
 ---

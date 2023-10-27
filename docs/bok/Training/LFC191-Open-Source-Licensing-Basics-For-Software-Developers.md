@@ -1,8 +1,6 @@
 ---
 title: A Beginner's Guide to Open Source Software Development
 tags: 
-  - Developer (Role)
-  - OSPO (Role)
   - Consuming (Activity)
   - Training
   - LF-Training
@@ -11,7 +9,7 @@ course:
   code: LFD102
   length: 2 hours
   certification: Digital
-  cost: 0
+  cost: free
   link: https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/
 sidebar_label: LFC191
 ---
