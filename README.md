@@ -2,7 +2,7 @@
 
 <img align="right" width="40%" src="https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/open-source-readiness.svg">
 
-# FINOS Open Source Readiness Special Interest Group
+# Open Source Readiness Special Interest Group
 
 Welcome to the FINOS Open Source Readiness Special Interest Group (OSR). The purpose of the OSR SIG is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the SIG are to 1) advance the readiness of participants’ firms and 2) to provide guidance for the broader industry in the form of white papers, presentations, and blog posts.
 
