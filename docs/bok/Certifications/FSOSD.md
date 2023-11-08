@@ -43,6 +43,10 @@ To pass this certification we recommend you take the following courses:
 
 <CourseList filter="Training" tag="FSOSD (Certification)" />
 
+## Instructions
+
+Instructions for taking this exam can be found [here](../../osr-resources/CertificationInstructions).
+
 
 
 
