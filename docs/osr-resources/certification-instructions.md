@@ -1,5 +1,5 @@
 --- 
-title: FINOS Certified FDC3 Practitioner Exam Instructions
+title: FINOS Financial Services Open Source Developer (FSOSD) Exam Instructions
 sidebar_label: Certification
 id: CertificationInstructions
 ---
