@@ -44,6 +44,8 @@ Open source foundations play a vital role in securing resources and funding for 
 - **[Apache Software Foundation (ASF)](https://community.apache.org/)**: ASF oversees projects like [Apache HTTP Server](https://httpd.apache.org), [Hadoop](https://hadoop.apache.org), and [Kafka](https://kafka.apache.org), promoting open development and community-driven decision-making.
 - **[Open Source Initiative (OSI)](https://opensource.org/)**: OSI serves as a steward of the Open Source Definition and approves licenses as compliant with open source principles, promoting openness and collaboration.
 - **[Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)**: CNCF, under the Linux Foundation, sustains projects like [Kubernetes](https://kubernetes.io), [Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/), and [Envoy](https://www.cncf.io/projects/envoy/), fostering the cloud-native ecosystem.
+- **[Free Software Foundation](https://www.fsf.org)**: FSF  is a nonprofit with a worldwide mission to promote computer user freedom.
+- **[Software Freedom Conservancy](https://sfconservancy.org)**: SFC is a nonprofit organization centered around ethical technology.
 
 ## Choosing a Foundation
 
@@ -77,4 +79,11 @@ Sponsoring events
 ## Conclusion
 
 In conclusion, working with open source foundations is essential for the success and sustainability of open source projects. These foundations provide governance, legal support, and financial stability, enabling developers to focus on innovation and collaboration. By partnering with prominent open source foundations, developers can leverage the expertise, resources, and established communities to create impactful and enduring open source software.
+
+## Further Reading
+
+- [Awesome List by Cornelius Schumacher](https://github.com/cornelius/awesome-open-source#big-free-and-open-source-software-foundations) - Lists lots of the open source foundations.
+- [List of Free and Open Source Software Organisations](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_organizations) - From Wikipedia.
+- [Antitrust Laws and Open Source Software Project Management and Participation](docs/bok/training/lfc105-antitrust-law) - Linux Foundation course covering antitrust implications of open source software collaboration.
+- [The Rise and Evolution of the Open Source Software Foundation](https://www.jolts.world/index.php/jolts/article/view/64) - Scholarly paper by Paula Hunter, Stephen Walli (2013).
 
