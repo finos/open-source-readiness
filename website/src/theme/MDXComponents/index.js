@@ -6,6 +6,7 @@ import BoxOut from '../BoxOut'
 import DocExcerpt from '../DocExcerpt'
 import CourseList from '../CourseList'
 import CourseDetails from '../CourseDetails'
+import ArticleChecklist from '../ArticleChecklist'
 
 export default {
   ...MDXComponents,
@@ -14,5 +15,6 @@ export default {
   BoxOut,
   DocExcerpt,
   CourseList,
-  CourseDetails
+  CourseDetails,
+  ArticleChecklist
 };
