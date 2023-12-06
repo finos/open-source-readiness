@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '@theme/Layout';
 import {usePluginData} from '@docusaurus/useGlobalData'
 import styles from './styles.module.css'
 import { isChecked } from '../ArticleChecklist';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function matchesTag(tags, t) {
     return tags.filter(tag => tag.label == t).length > 0;
@@ -80,10 +80,7 @@ function DoDocList({tag, uri, name, icon, description}) {
     )
 }
 
-
-
-
-export default function Hello() {
+function ChecklistSummaryInner() {
     return (
         <div className={styles.checklistSummary}>
             <DoDocList tag="Level 5 (OSMM)" uri="/docs/bok/OSMM/Level-5" name="Level 5" description="Strategic Advantage" url="thing" icon="/img/bok/maturity/strategy.png"/>
@@ -92,5 +89,13 @@ export default function Hello() {
             <DoDocList tag="Level 2 (OSMM)" uri="/docs/bok/OSMM/Level-2" name="Level 2" description="Compliant Usage" url="thing" icon="/img/bok/maturity/compliance.png"/>
             <DoDocList tag="Level 1 (OSMM)" uri="/docs/bok/OSMM/Level-1" name="Level 1" description="Ad-Hoc Usage" url="thing" icon="/img/bok/maturity/using.png"/>
         </div>
+    )
+}
+
+
+
+export default function Hello() {
+    return (
+        <BrowserOnly>{() => <ChecklistSummaryInner />}</BrowserOnly>
     )
 }

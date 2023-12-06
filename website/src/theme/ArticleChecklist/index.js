@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css'
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 const expDays = 2000;
 
@@ -57,9 +58,8 @@ function Checkbox({ label, page, description }) {
     )
 }
 
-
-export default ({ checklist, title }) => {
-    return <div className={styles.boxout}>
+function ChecklistInner({checklist, title}) { 
+    return (<div className={styles.boxout}>
         <div className={styles.header}>
             <img className={styles.icon} src="/img/bok/maturity/checklist.png" alt="Maturity Checklist" />
             <h3> Maturity Checklist </h3>
@@ -72,4 +72,12 @@ export default ({ checklist, title }) => {
         <div className={styles.contents}>
         </div>
     </div>
+    )
+}
+
+export default ({ checklist, title }) => {
+    return (
+        <BrowserOnly>{() => <ChecklistInner checklist={checklist} title={title} />}</BrowserOnly>
+    )
+    
 }
