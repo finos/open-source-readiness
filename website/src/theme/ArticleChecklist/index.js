@@ -22,7 +22,7 @@ function getCookie(name) {
     return null;
   }
 
-function isChecked(id) {
+export function isChecked(id) {
     const v = getCookie(id);
     console.log("COokie: "+id+" "+v)
     return v == 'true';

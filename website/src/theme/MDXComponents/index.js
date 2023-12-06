@@ -7,6 +7,7 @@ import DocExcerpt from '../DocExcerpt'
 import CourseList from '../CourseList'
 import CourseDetails from '../CourseDetails'
 import ArticleChecklist from '../ArticleChecklist'
+import ChecklistSummary from '../ChecklistSummary'
 
 export default {
   ...MDXComponents,
@@ -16,5 +17,6 @@ export default {
   DocExcerpt,
   CourseList,
   CourseDetails,
-  ArticleChecklist
+  ArticleChecklist,
+  ChecklistSummary
 };
