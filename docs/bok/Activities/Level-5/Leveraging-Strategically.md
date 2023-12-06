@@ -5,6 +5,13 @@ tags:
   - CEO (Role)
   - CTO (Role)
   - Level 5 (OSMM)
+checklist: 
+  - title: Something
+    description: This is a very long guy on a line
+  - title: Something else
+    description: getting your guys to look at some stuff
+  - title: Education
+    description: Having a program to educate employees about licenses
 ---
 
 OSMM Level 5 is about [Strategy](../../Artifacts/Strategy). At this level, you seek to make decisions that shape the technology landscape in your favor to create new opportunities. 

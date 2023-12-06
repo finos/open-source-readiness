@@ -9,6 +9,13 @@ authors:
   - name: Brittany Istenes
 sidebar_position: 3
 sidebar_label: Maintaining
+checklist: 
+  - title: Something
+    description: This is a very long guy on a line
+  - title: Something else
+    description: getting your guys to look at some stuff
+  - title: Education
+    description: Having a program to educate employees about licenses
 ---
 
 We currently live in a world where OSS is everywhere, consumable, helpful and can make a positive or negative outcome on the programs we rely on.  Strong open source projects can lessen technical debt, increase reusability and discoverability.  For the purpose of this guide, we will cover some key principles and practices for managing your open source project effectively.

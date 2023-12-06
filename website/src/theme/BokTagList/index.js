@@ -6,11 +6,11 @@ import {useLocation} from '@docusaurus/router';
 
 function DocItem({doc}) {
     return (
-      <article className="margin-vert--lg">
-        <Link to={doc.permalink}>
+      <article className="margin-vert--lg" key={doc.id}>
+        <Link key="link" to={doc.permalink}>
           <h3>{doc.title}</h3>
         </Link>
-        {doc.description && <p>{doc.description}</p>}
+        {doc.description && <p key="p">{doc.description}</p>}
       </article>
     );
   }
@@ -32,7 +32,7 @@ export default function BokTagList(props) {
     oneTag.sort((a, b) => a.order - b.order);
 
     return (
-        <div class="bok-tag-list" key={props.tag}>   
+        <div className="bok-tag-list" key={props.tag}>   
             {
                oneTag
                 .filter(d => d.permalink.indexOf(filter) > -1) 
