@@ -83,11 +83,11 @@ function DoDocList({tag, uri, name, icon, description}) {
 function ChecklistSummaryInner() {
     return (
         <div className={styles.checklistSummary}>
-            <DoDocList tag="Level 5 (OSMM)" uri="/docs/bok/OSMM/Level-5" name="Level 5" description="Strategic Advantage" url="thing" icon="/img/bok/maturity/strategy.png"/>
-            <DoDocList tag="Level 4 (OSMM)" uri="/docs/bok/OSMM/Level-4" name="Level 4" description="Hosting" url="thing" icon="/img/bok/maturity/foundation.png"/>
-            <DoDocList tag="Level 3 (OSMM)" uri="/docs/bok/OSMM/Level-3" name="Level 3" description="Contribution" url="thing" icon="/img/bok/maturity/contributing.png"/>
-            <DoDocList tag="Level 2 (OSMM)" uri="/docs/bok/OSMM/Level-2" name="Level 2" description="Compliant Usage" url="thing" icon="/img/bok/maturity/compliance.png"/>
-            <DoDocList tag="Level 1 (OSMM)" uri="/docs/bok/OSMM/Level-1" name="Level 1" description="Ad-Hoc Usage" url="thing" icon="/img/bok/maturity/using.png"/>
+            <DoDocList tag="Level 5 (OSMM)" uri="/docs/bok/OSMM/Level-5" name="Level 5" description="Strategic Advantage"  icon="/img/bok/maturity/strategy.png"/>
+            <DoDocList tag="Level 4 (OSMM)" uri="/docs/bok/OSMM/Level-4" name="Level 4" description="Hosting" icon="/img/bok/maturity/foundation.png"/>
+            <DoDocList tag="Level 3 (OSMM)" uri="/docs/bok/OSMM/Level-3" name="Level 3" description="Contribution" icon="/img/bok/maturity/contributing.png"/>
+            <DoDocList tag="Level 2 (OSMM)" uri="/docs/bok/OSMM/Level-2" name="Level 2" description="Compliant Usage" icon="/img/bok/maturity/compliance.png"/>
+            <DoDocList tag="Level 1 (OSMM)" uri="/docs/bok/OSMM/Level-1" name="Level 1" description="Ad-Hoc Usage" icon="/img/bok/maturity/using.png"/>
         </div>
     )
 }
