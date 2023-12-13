@@ -67,14 +67,24 @@ Engage with the project's community by joining mailing lists, discussion forums,
 
 ## Sponsoring
 
-(this part to be completed)
+There are many different ways an enterprise or individual can sponsor a foundation.  Read on below to learn more.  
 
-Sponsoring third-party projects or individuals
-Sponsoring own organization's open source projects or individual members
-Sponsoring open source organizations
+**Sponsoring third-party projects or individuals**
+- Sponsoring a third-party project under a foundation can be a strategic decision for individuals or companies aiming to leverage the expertise and collaborative nature of established organizations. By supporting a specific project within a foundation, sponsors contribute to the growth and sustainability of that particular initiative, aligning their brand with a focused area of development or innovation. This targeted sponsorship not only allows for a more direct impact on the project but also fosters deeper connections with the community surrounding it.
+- Companies gain the advantage of associating themselves with advancements in a specific field, showcasing their commitment to progress and specialization. For individuals, such sponsorship provides a meaningful way to contribute to a cause they are passionate about, while both parties benefit from increased visibility, networking opportunities, and the potential for shared accomplishments. In essence, sponsoring a third-party project under a foundation offers a pathway to focused collaboration, driving advancements in specific areas of interest.
+
+
+**Sponsoring open source organizations from an Enterprise**
+- Sponsoring an open-source foundation is a strategic move for companies seeking to demonstrate their commitment to innovation, collaboration, and community support. Open source projects play a pivotal role in advancing technology by fostering a transparent and collaborative environment where developers from diverse backgrounds contribute to shared solutions.
+- By sponsoring such foundations, companies not only contribute to the growth of these projects but also align themselves with the values of openness, inclusivity, and knowledge sharing. This not only enhances their brand image but also provides tangible benefits such as increased visibility within the developer community, access to cutting-edge technologies, and the opportunity to recruit top talent. Moreover, supporting open source reflects a forward-thinking approach, acknowledging that the future of technology lies in collective efforts and the power of collaboration, ultimately leading to mutual growth and innovation.
 Sponsoring events
 
- - Under what conditions should the code be held by the bank's own organisation, vs. contributed to a foundation?
+
+## Determine why you would want to contribute your project 
+
+**Under what conditions should the code be held by the bank's own organisation, vs. contributed to a foundation?**
+- The decision on whether to hold code within a bank's own organization or contribute it to a foundation depends on various factors, including strategic goals, collaboration objectives, and the nature of the project. If a piece of code is considered a proprietary advantage critical to the bank's competitive edge, or if it involves sensitive business logic or security measures, it may be more appropriate to keep it within the organization.
+- On the other hand, if the code serves a broader industry purpose, encourages standardization, or supports open innovation, contributing it to a foundation can be advantageous. Foundations provide a collaborative space where multiple stakeholders can contribute, review, and improve code, fostering innovation and community engagement. Additionally, contributing to a foundation can enhance the bank's reputation, facilitate industry-wide adoption, and attract top talent. Striking the right balance between proprietary needs and the broader industry's interests is crucial in determining whether to keep code in-house or contribute it to a foundation.
  
 ## Conclusion
 
