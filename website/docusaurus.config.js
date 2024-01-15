@@ -171,7 +171,13 @@ module.exports={
           ]
         }
       ],
-      "copyright": "<span class=\"footer-copyright\">Copyright © 2023 Open Source Readiness - FINOS</span>"
+      "copyright": "<span class=\"footer-copyright\">Copyright © 2023 - FINOS</span>",
+      "logo": {
+        "src": "/img/finos_light.svg",
+        "srcDark": "/img/finos_dark.svg",
+        "alt": "FINOS Logo",
+        "width": 50
+      }
     }
   }
 }

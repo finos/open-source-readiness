@@ -80,10 +80,9 @@ html[data-theme='light'] .footer-copyright {
  */
 
 div.page-container {
-	padding-left: 3rem;
-	padding-right: 3rem;
-	max-width: 100rem;
+	max-width: var(--ifm-container-width-xl);
 	margin: auto;
+	padding: var(--ifm-spacing-horizontal);
 } 
  
 div.frontPageContent {
@@ -95,7 +94,12 @@ div.frontPageContent {
 .frontPageContent > div  {
 	flex-basis: 40rem;
 	flex-grow: 1;
-    
+}
+
+.page-header-image {
+	border-radius: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 /**
@@ -105,6 +109,28 @@ footer {
 	border-top: 1px solid #eee;
 }
 
+.footer-extra {
+	padding-bottom: 2rem;
+}
+
 /**
- * Change font to DIDOT.
+ * Interesting colour gradients for boxout
  */
+.boxout1 {
+	background: radial-gradient(circle, rgba(63,94,251,0.0984768907563025) 0%, rgba(70,252,192,0.13489145658263302) 100%);
+	border: 0px;
+}
+
+.boxout2 {
+	background: radial-gradient(circle, rgba(251,104,63,0.0984768907563025) 0%, rgba(247,70,252,0.13489145658263302) 100%);	
+}
+
+.boxout3 {
+	background: radial-gradient(circle, rgba(251,167,63,0.0984768907563025) 0%, rgba(252,247,70,0.13489145658263302) 100%);
+}
+
+
+.boxout4 {
+	background: radial-gradient(circle, rgba(251,86,63,0.0984768907563025) 0%, rgba(252,160,70,0.13489145658263302) 100%);
+}
+
