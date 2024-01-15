@@ -1,6 +1,7 @@
 ---
 sidebar_position: 0
 title: Welcome to Open Source Readiness!
+sidebar_label: Welcome
 ---
 
 The Open Source Readiness Special Interest Group (OSR SIG) is dedicated to helping financial services firms advance their open source programs. Here's what we have to offer:

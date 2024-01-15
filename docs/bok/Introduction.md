@@ -17,4 +17,4 @@ The OSBOK is designed as a collection of interconnecting documents and categorie
 
 Please see the following introductory articles on these areas:
 
-<BokTagList tag="Introduction" geff="sfda" />
+<BokTagList tag="Introduction"/>
