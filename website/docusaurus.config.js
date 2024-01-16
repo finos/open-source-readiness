@@ -1,5 +1,5 @@
 module.exports={
-  "title": "FINOS Open Source Readiness",
+  "title": "FINOS",
   "tagline": "OVERCOMING OBSTACLES TO OPEN SOURCE",
   "url": "https://osr.finos.org/",
   "baseUrl": "/",
@@ -42,7 +42,7 @@ module.exports={
       "indexName": "osr-finos",
     },
     "navbar": {
-      "title": "FINOS Open Source Readiness",
+      "title": "FINOS Knowledge",
       "logo": {
         "alt": "FINOS Logo",
         "src": "/img/finos_light.svg",
@@ -50,12 +50,7 @@ module.exports={
       },
       "items": [
 		  {
-			  "label": "Getting Started",
-			  "to": "/GettingStarted",
-			  "position": "right",
-		  },
-		  {
-			  "label": "Open Source Readiness",
+			  "label": "Open Source",
 			  "to": "/OpenSourceReadiness",
 			  "position": "right",
 		  },

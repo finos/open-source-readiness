@@ -47,10 +47,15 @@ html[data-theme='light'] .header {
 }
 
 .link {
-	background-color: #fdfdfd;
 	padding: 1rem;
 	border-radius: 1rem;
-    color: black;
     text-decoration: underline;
+    background-color:#1d1d1d;
+    
+}
+
+html[data-theme='light'] .link {
+	background-color: #fdfdfd;
+    color: black;	
 }
 

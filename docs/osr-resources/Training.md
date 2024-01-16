@@ -1,9 +1,10 @@
 ---
 title: Training and Certification
 sidebar_label: Training
+tags:
+ - Training
+ - FINOS-Training
 ---
-
-## OSR Published Training & Certification (2023)
 
 In November 2023 the OSR SIG team are proud to announce general availability of the following materials:
 

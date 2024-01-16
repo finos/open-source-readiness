@@ -9,7 +9,7 @@ export default ({children, image, link, linkText, title, className = ''}) => {
     	<div className={styles.header}>
 	        <img className={styles.icon} src={image} alt={title} />
 	        {
-				(link) ? <a href={link} className={styles.link}><h3 id={id}> {title} </h3></a> : <h3 id={id}> {title} </h3>
+				(link) ? <a href={link}><h3 id={id}> {title} </h3></a> : <h3 id={id}> {title} </h3>
 			}
     	</div>
         <div className={styles.contents}>

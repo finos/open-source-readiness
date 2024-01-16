@@ -9,6 +9,6 @@ This white paper outlines the benefits and value of open source for financial se
 
 ## Whitepaper: Business Value of Open Source in Financial Services
 
-<a href="https://github.com/finos/open-source-readiness/tree/master/docs/osr-resources/materials/FINOS-business-value-of-open-source.pdf"><img src="https://github.com/finos/open-source-readiness/blob/master/docs/osr-resources/images/finos-business-value-of-open-source.png?raw=true" width="40%" /></a>
+[![Business Value](/img/resources/finos-business-value-of-open-source.png)](/pdf/FINOS-business-value-of-open-source.pdf)
 
-<a href="https://github.com/finos/open-source-readiness/tree/master/docs/osr-resources/materials/FINOS-business-value-of-open-source.pdf">Download the whitepaper</a>
+[Download the whitepaper](/pdf/FINOS-business-value-of-open-source.pdf)

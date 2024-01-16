@@ -1,8 +1,9 @@
 ---
 title: InnerSource Licensing 
-sidebar_label: InnerSource Presentation 
+sidebar_label: InnerSource Licensing 
 author: Chamindra de Silva
-sidebar_position: 2
+sidebar_position: 3
+slug: /bok/osr-resources/InnerSource
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>

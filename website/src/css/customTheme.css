@@ -46,6 +46,11 @@
   --ifm-font-family-base: "Lexend";
   --ifm-font-weight-normal: 300;
   --ifm-font-size-base: 90%;
+  --ifm-menu-color: #bbb;
+  --ifm-scrollbar-track-background-color: #fafafa;
+  --ifm-scrollbar-thumb-background-color: #f0f0f0;
+  --ifm-scrollbar-thumb-hover-background-color: #7a7a7a;
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="rgba(0,0,0,0.2)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
 }
 
 html[data-theme='light'] {
@@ -89,6 +94,7 @@ div.frontPageContent {
 	display: flex;
     flex-wrap: wrap;
 	gap: 1rem;
+	align-items: flex-start;
 }
 
 .frontPageContent > div  {
@@ -105,12 +111,16 @@ div.frontPageContent {
 /**
  * Footer separation 
  */
-footer {
+#__docusaurus > footer {
 	border-top: 1px solid #eee;
 }
 
 .footer-extra {
 	padding-bottom: 2rem;
+}
+
+.footer__copyright {
+	padding-top: 5rem;
 }
 
 /**

@@ -1,11 +1,11 @@
 ---
-id: about
-sidebar_position: 1
-title: About the OSR SIG
-sidebar_label: About
+slug: /about
+title: Contributing
 ---
 
-## Vision
+The Open Source Readiness Special Interest Group (OSR SIG) is dedicated to helping financial services firms advance their open source programs. 
+
+## Open Source Readiness SIG Vision
 
 Be a trusted venue for our members and community in their open source journey and enable them to achieve the highest state of open source maturity.
 

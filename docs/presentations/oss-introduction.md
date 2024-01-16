@@ -1,8 +1,9 @@
 --- 
 title: Introduction to Open Source Software 
-sidebar_label: OSS Presentation
+sidebar_label: Open Source Software
 author: Rob Moffat
-sidebar_position: 3
+sidebar_position: 1
+slug: /osr-resources/oss-introduction
 ---
 <link href="/css/presentation/web.css" rel="stylesheet"></link>
 <Bio name="Rob Moffat" image="/img/people/rob-moffat.jpeg" organisation="FINOS">

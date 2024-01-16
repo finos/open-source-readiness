@@ -5,6 +5,7 @@ tags:
   - Business (Role)
   - OSPO (Role)
   - Placeholder
+  - InnerSource
   - Level 3 (OSMM)
 sidebar_position: 8
 sidebar_label: Culture
