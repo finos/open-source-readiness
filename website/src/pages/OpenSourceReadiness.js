@@ -61,7 +61,7 @@ export default function Hello() {
 					</ul>
 
 				</BoxOut>
-				<BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4'>
+				<BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4' link="/docs/about" linkText="Our Contributors">
 
 					<p>Interested in the SIG? Join us! Here are a few ways to get involved.</p>
 
@@ -98,8 +98,16 @@ export default function Hello() {
 
 			<h1>Introductory Articles</h1>
 
-			Here are some articles in the body of knowledge blah blah
-			<BokTagList tag="Introduction" />
+
+			<p>The OSBOK is designed as a collection of interconnecting documents and categories which can be browsed in any order. </p>
+			
+			<p>The following diagram summarizes the information architecture.</p>
+
+			<img src="/img/bok/information-architecture.png" alt="Information Architecture" />
+
+			<p>Please see the following introductory articles on these areas.</p>
+
+			<BokTagList tag="Introduction"/>
 		</Layout>
 	);
 }
