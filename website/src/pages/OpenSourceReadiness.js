@@ -11,7 +11,7 @@ export default function Hello() {
 			<p>
 			</p>
 			<div className="frontPageContent">
-				<BoxOut image="/img/bok/page-types/what.png" title="What is it?" className='boxout1' link="/docs/about" linkText="Click here for more details">
+				<BoxOut image="/img/bok/page-types/what.png" title="What is it?" className='boxout1' link="/docs/bok/Introduction" linkText="Introduction to OSR">
 
 					<p>The <strong>Open Source Readiness Special Interest Group (OSR SIG)</strong> is dedicated to helping financial services firms advance their open source programs.</p>
 
@@ -23,9 +23,6 @@ export default function Hello() {
 
 						<li>Comprehensive <a href="/Training">Training and Certification</a> materials that firms can use to train and certify developers for open source contribution in a financial services setting. </li>
 					</ul>
-				</BoxOut>
-				<BoxOut title="Training">
-				
 				</BoxOut>
 				
 				<BoxOut image="/img/bok/page-types/important.png" title="Why is it Important?" className='boxout2' link="/Strategy" linkText="More Information">
@@ -43,7 +40,7 @@ export default function Hello() {
 					
 					<p>The materials on this site are built by the consensus of financial services firms.  This means they reflect best practices and thinking for our industry.</p>
 				</BoxOut>
-				<BoxOut image="/img/bok/page-types/how.png" title="How Does it Work?" className='boxout3' link="/docs/bok/Introduction" linkText="Introduction to OSR">
+				<BoxOut image="/img/bok/page-types/how.png" title="How Does it Work?" className='boxout3'>
 
 					<h4>Navigating Open Source Readiness</h4>
 					
@@ -68,7 +65,7 @@ export default function Hello() {
 					</ul>
 
 				</BoxOut>
-				<BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4' link="/docs/about" linkText="Our Contributors">
+				<BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4'>
 
 					<h4>Meetings</h4>
 					
@@ -98,17 +95,32 @@ export default function Hello() {
 
 					<p><strong><a href="https://groups.google.com/a/finos.org/forum/#!forum/osr"> Subscribe to our mailing list</a></strong> by <a href="mailto:osr+subscribe@finos.org](mailto:osr+subscribe@finos.org">sending an email to join.</a> You will get updates on upcoming meetings and other activity.</p>
 
-
-					<h4>Contributions</h4>
 				
-					<p>Please contribute to the knowledge base or resources for open source programs. Most OSR resources are collaboratively 
+
+				</BoxOut>
+				
+				<BoxOut title="Training" link="/docs/osr-resources/Training" linkText="To The Training Page" image="/img/bok/page-types/training.png" className='boxout2'>
+					<p>In November 2023 the OSR SIG team are proud to announce general availability of two new Linux Foundation training products:</p>
+
+					<ul>
+						<li><strong><a href="/docs/bok/Training/LFD137-Contribution-In-Finance">Open Source Contribution in Finance (LFD137)</a> </strong> - a comprehensive training enabling developers in financial services to safely participate in open source communities, 
+						drawing from the best practices of the world's top financial institutions. </li>
+					
+						<li><strong><a href="/docs/bok/Certifications/FSOSD">FINOS Financial Services Open Source Certification (FSOSD)</a></strong> - designed to ensure open source contributors in financial institutions, fintech and 
+						technology vendors and consultants operating in the financial industry contribute in line with the financial services industry's regulatory framework and compliance best practices.</li>
+					</ul>
+					
+				</BoxOut>
+				
+				<BoxOut title="Contributing" image="/img/bok/page-types/contribution.png" className='boxout1' link="/docs/about" linkText="More on Contributing">
+					<p>Please help contribute to the knowledge base or help improve our resources for open source programs. Most OSR resources are collaboratively 
 					produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and 
 					best practices in a form that's useful to their peers. </p>
 					
 					<p>If you have a project to propose, <a href="https://github.com/finos/open-source-readiness/issues">open a GitHub issue</a> and share your vision!</p>
 					
 					<p>Alternatively, most pages have an "edit" button where you can propose changes to a page via the <a href="https://github.com/finos/open-source-readiness/pulls">GitHub Pull Request</a> process.</p>
-
+				
 				</BoxOut>
 			</div>
 
