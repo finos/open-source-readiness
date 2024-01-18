@@ -124,16 +124,15 @@ export default function Hello() {
 				</BoxOut>
 			</div>
 
-			<h1>Introductory Articles</h1>
+			<h1><a href="/docs/bok/Introduction">Our Materials</a></h1>
 
-
-			<p>The OSBOK is designed as a collection of interconnecting documents and categories which can be browsed in any order. </p>
+			<p>The materials contained in the Open Source Readiness site are designed as a collection of interconnecting documents and categories which can be browsed in any order. </p>
 			
 			<p>The following diagram summarizes the information architecture.</p>
 
 			<img src="/img/bok/information-architecture.png" alt="Information Architecture" />
 
-			<p>Please see the following introductory articles on these areas.</p>
+			<p>Please see the following introductory articles each on these areas:</p>
 
 			<BokTagList tag="Introduction"/>
 		</Layout>
