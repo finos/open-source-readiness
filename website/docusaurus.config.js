@@ -74,7 +74,7 @@ module.exports={
           "items": [
             {
               "label": "Open Source Readiness",
-              "to": "/OpenSourceReadiness"
+              "to": "/docs/bok/Introduction"
             },
             {
               "label": "Presentations",
@@ -86,7 +86,7 @@ module.exports={
             },
             {
               "label": "InnerSource",
-              "to": "/InnerSource"
+              "to": "/docs/InnerSource/Introduction"
             },            
           ]
         },
