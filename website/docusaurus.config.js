@@ -73,16 +73,16 @@ module.exports={
           "title": "RESOURCES",
           "items": [
             {
-              "label": "Getting Started",
-              "to": "/GettingStarted"
+              "label": "Open Source Readiness",
+              "to": "/OpenSourceReadiness"
             },
             {
               "label": "Presentations",
-              "to": "/Presentations"
+              "to": "/docs/presentations/Introduction"
             },
             {
               "label": "Training",
-              "to": "/Training"
+              "to": "/docs/osr-resources/Training"
             },
             {
               "label": "InnerSource",
@@ -102,7 +102,7 @@ module.exports={
               "to": "docs/bok/Activities/Introduction"
             },
             {
-              "to": "docs/bok/Matutity/Introduction",
+              "to": "docs/bok/OSMM/Introduction",
               "label": 'Maturity',
             },
             {
@@ -119,8 +119,12 @@ module.exports={
           "title": "EVENTS",
           "items": [
             {
-              "label": "Meetings",
-              "to": "docs/osr-resources"
+              "label": "OSR Meetings",
+              "to": "/OpenSourceReadiness#how-do-i-get-involved"
+            },
+            {
+              "label": "InnerSource Meetings",
+              "to": "/InnerSource"
             },
             {
               "label": "FINOS Events",
@@ -157,6 +161,10 @@ module.exports={
             {
               "label": "LinkedIn",
               "to": "https://www.linkedin.com/company/finosfoundation/"
+            },
+            {
+              "label": "OSR Mailing List",
+              "to": "/OpenSourceReadiness#how-do-i-get-involved"
             }
           ]
         }

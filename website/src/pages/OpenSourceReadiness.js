@@ -67,7 +67,7 @@ export default function Hello() {
 				</BoxOut>
 				<BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4'>
 
-					<h4>Meetings</h4>
+					<h4 id="meetings">Meetings</h4>
 					
 					<table>
 						<thead>
