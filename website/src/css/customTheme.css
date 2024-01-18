@@ -1,72 +1,71 @@
-
 /**
  * You can override the default Infima variables here.
  * Note: this is not a complete list of --ifm- variables.
  */
 @font-face {
-  font-family: 'Lexend';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 300;
-  src: url(/css/fonts/lexend/lexend-latin-300-normal.woff2) format('woff2');
+	font-family: 'Lexend';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 300;
+	src: url(/css/fonts/lexend/lexend-latin-300-normal.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'Lexend';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url(/css/fonts/lexend/lexend-latin-400-normal.woff2) format('woff2');
+	font-family: 'Lexend';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(/css/fonts/lexend/lexend-latin-400-normal.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'Lexend';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 600;
-  src: url(/css/fonts/lexend/lexend-latin-600-normal.woff2) format('woff2');
+	font-family: 'Lexend';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 600;
+	src: url(/css/fonts/lexend/lexend-latin-600-normal.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'Lexend';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url(/css/fonts/lexend/lexend-latin-700-normal.woff2) format('woff2');
+	font-family: 'Lexend';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 700;
+	src: url(/css/fonts/lexend/lexend-latin-700-normal.woff2) format('woff2');
 }
- 
+
 :root {
-  --ifm-color-primary: #4080d0;
-  --ifm-color-primary-dark: #3072c4;
-  --ifm-color-primary-darker: #2e6cba;
-  --ifm-color-primary-darkest: #265999;
-  --ifm-color-primary-light: #568fd5;
-  --ifm-color-primary-lighter: #6196d8;
-  --ifm-color-primary-lightest: #81ace0;
-  --ifm-font-family-base: "Lexend";
-  --ifm-font-weight-normal: 300;
-  --ifm-font-size-base: 90%;
-  --ifm-menu-color: #bbb;
-  --ifm-scrollbar-track-background-color: #fafafa;
-  --ifm-scrollbar-thumb-background-color: #f0f0f0;
-  --ifm-scrollbar-thumb-hover-background-color: #7a7a7a;
-  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="rgba(0,0,0,0.2)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
+	--ifm-color-primary: #4080d0;
+	--ifm-color-primary-dark: #3072c4;
+	--ifm-color-primary-darker: #2e6cba;
+	--ifm-color-primary-darkest: #265999;
+	--ifm-color-primary-light: #568fd5;
+	--ifm-color-primary-lighter: #6196d8;
+	--ifm-color-primary-lightest: #81ace0;
+	--ifm-font-family-base: "Lexend";
+	--ifm-font-weight-normal: 300;
+	--ifm-font-size-base: 90%;
+	--ifm-menu-color: #bbb;
+	--ifm-scrollbar-track-background-color: #fafafa;
+	--ifm-scrollbar-thumb-background-color: #f0f0f0;
+	--ifm-scrollbar-thumb-hover-background-color: #7a7a7a;
+	--ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="rgba(0,0,0,0.2)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
 }
 
 html[data-theme='light'] {
-  --ifm-color-primary: #d03860;
-  --ifm-color-primary-dark: #c02d54;
-  --ifm-color-primary-darker: #b62b4f;
-  --ifm-color-primary-darkest: #952341;
-  --ifm-color-primary-light: #d54d71;
-  --ifm-color-primary-lighter: #d8587a;
-  --ifm-color-primary-lightest: #d8587a;
-  --ifm-footer-background-color: #ffffff; 
-}  
+	--ifm-color-primary: #d03860;
+	--ifm-color-primary-dark: #c02d54;
+	--ifm-color-primary-darker: #b62b4f;
+	--ifm-color-primary-darkest: #952341;
+	--ifm-color-primary-light: #d54d71;
+	--ifm-color-primary-lighter: #d8587a;
+	--ifm-color-primary-lightest: #d8587a;
+	--ifm-footer-background-color: #ffffff;
+}
 
 html[data-theme='light'] .footer-strap {
-  font-weight: bold;
-  color:  #ffffff;
+	font-weight: bold;
+	color: #ffffff;
 }
 
 html[data-theme='light'] .navbar-sidebar__item {
@@ -74,8 +73,8 @@ html[data-theme='light'] .navbar-sidebar__item {
 }
 
 html[data-theme='light'] .footer-copyright {
-  color: #dddddd;
-  font-size: smaller;
+	color: #dddddd;
+	font-size: smaller;
 }
 
 
@@ -88,11 +87,11 @@ div.page-container {
 	max-width: var(--ifm-container-width-xl);
 	margin: auto;
 	padding: var(--ifm-spacing-horizontal);
-} 
- 
+}
+
 div.frontPageContent {
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	gap: 1rem;
 	align-items: flex-start;
 }
@@ -106,7 +105,7 @@ td.calendar img {
 	width: 5rem;
 }
 
-.frontPageContent > div  {
+.frontPageContent>div {
 	flex-basis: 40rem;
 	flex-grow: 1;
 }
@@ -120,7 +119,7 @@ td.calendar img {
 /**
  * Footer separation 
  */
-#__docusaurus > footer {
+#__docusaurus>footer {
 	border-top: 1px solid #eee;
 }
 
@@ -136,20 +135,19 @@ td.calendar img {
  * Interesting colour gradients for boxout
  */
 .boxout1 {
-	background: radial-gradient(circle, rgba(63,94,251,0.0984768907563025) 0%, rgba(70,252,192,0.13489145658263302) 100%);
+	background: radial-gradient(circle, rgba(63, 94, 251, 0.0984768907563025) 0%, rgba(70, 252, 192, 0.13489145658263302) 100%);
 	border: 0px;
 }
 
 .boxout2 {
-	background: radial-gradient(circle, rgba(251,104,63,0.0984768907563025) 0%, rgba(247,70,252,0.13489145658263302) 100%);	
+	background: radial-gradient(circle, rgba(251, 104, 63, 0.0984768907563025) 0%, rgba(247, 70, 252, 0.13489145658263302) 100%);
 }
 
 .boxout3 {
-	background: radial-gradient(circle, rgba(251,167,63,0.0984768907563025) 0%, rgba(252,247,70,0.13489145658263302) 100%);
+	background: radial-gradient(circle, rgba(251, 167, 63, 0.0984768907563025) 0%, rgba(252, 247, 70, 0.13489145658263302) 100%);
 }
 
 
 .boxout4 {
-	background: radial-gradient(circle, rgba(251,86,63,0.0984768907563025) 0%, rgba(252,160,70,0.13489145658263302) 100%);
+	background: radial-gradient(circle, rgba(251, 86, 63, 0.0984768907563025) 0%, rgba(252, 160, 70, 0.13489145658263302) 100%);
 }
-
