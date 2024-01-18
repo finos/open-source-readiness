@@ -4,13 +4,14 @@ sidebar_label: InnerSource Licensing
 author: Chamindra de Silva
 sidebar_position: 3
 slug: /bok/osr-resources/InnerSource
+tags:
+ - Presentation
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>
 
 <Bio name="Chamindra de Silva" image="/img/people/chamindra-de-silva.jpeg" organisation="Citi">
-Presentation by Chamindra de Silva to FINOS Members Meeting on June 15
-2023. </Bio>
+Presentation by Chamindra de Silva to FINOS Members Meeting on June 15 2023. </Bio>
 
 <div class="slides">
   <div class="slide slide--bordered">

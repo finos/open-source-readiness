@@ -2,6 +2,9 @@
 id: compliance-workflows
 title: Open Source Compliance Workflows
 sidebar_label: Compliance Workflows
+slug: /operations/compliance-workflows
+tags:
+ - Resources
 ---
 
 Below are some high-level workflows for common open source compliance processes. To provide a point of reference for the various steps, the workflows refer to the functional components of an open source compliance toolchain in the diagram below, produced by the Open Source Tooling group of the OpenChain Project.

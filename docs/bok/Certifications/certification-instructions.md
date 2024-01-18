@@ -1,7 +1,8 @@
 --- 
 title: FINOS Financial Services Open Source Developer (FSOSD) Exam Instructions
-sidebar_label: Certification
+sidebar_label: FSOSD Instructions
 id: CertificationInstructions
+slug: /osr-resources/CertificationInstructions
 ---
 
 

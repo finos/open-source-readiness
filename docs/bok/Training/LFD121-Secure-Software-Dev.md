@@ -4,6 +4,7 @@ tags:
   - LF-Training
   - Training
   - FSOSD (Certification)
+  - Developer (Role)
 course:
   publisher: Linux Foundation
   code: LFD121

@@ -1,7 +1,8 @@
 --- 
 title: Introduction to Open Source License Compliance Management
 tags:
-  - Developer (Role)
+  - Legal (Role)
+  - OSPO (Role)
   - License Compliance Management (Activity)
   - Training
   - LF-Training

@@ -60,11 +60,6 @@ module.exports={
 			  "position": "right",
 		  },
 		  {
-			  "label": "Training",
-			  "to": "/Training",
-			  "position": "right",
-		  },
-		  {
 			  "label": "Strategy",
 			  "to": "/Strategy",
 			  "position": "right",
@@ -83,7 +78,7 @@ module.exports={
             },
             {
               "label": "Presentations",
-              "to": "Presentations"
+              "to": "/Presentations"
             },
             {
               "label": "Training",

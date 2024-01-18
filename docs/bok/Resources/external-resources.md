@@ -2,6 +2,9 @@
 id: external-resources
 title: External Resources
 sidebar_label: External Resources
+slug: /osr-resources/external-resources
+tags:
+ - Resources
 ---
 
 ## Similar Efforts

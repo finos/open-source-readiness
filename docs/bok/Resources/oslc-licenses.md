@@ -3,6 +3,9 @@ id: oslc-licenses
 title: OSLC Handbook Licenses
 sidebar_label: Licenses
 sidebar_position: 5
+slug: /osr-resources/oslc-licenses
+tags:
+ - Resources
 ---
 
 _Please review [OSLC Documentation](../operations/oslc) for a primer on this, and the [Licenses](../bok/Artifacts/Licenses) article for more details on softwre licensing._

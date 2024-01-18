@@ -97,6 +97,15 @@ div.frontPageContent {
 	align-items: flex-start;
 }
 
+td.calendar {
+	text-align: center;
+	width: 50%;
+}
+
+td.calendar img {
+	width: 5rem;
+}
+
 .frontPageContent > div  {
 	flex-basis: 40rem;
 	flex-grow: 1;

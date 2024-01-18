@@ -5,6 +5,7 @@ tags:
   - Training
   - Certification
   - FSOSD (Certification)
+  - Resources
 sidebar_label: FSOSD
 ---
 

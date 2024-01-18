@@ -24,6 +24,10 @@ export default function Hello() {
 						<li>Comprehensive <a href="/Training">Training and Certification</a> materials that firms can use to train and certify developers for open source contribution in a financial services setting. </li>
 					</ul>
 				</BoxOut>
+				<BoxOut title="Training">
+				
+				</BoxOut>
+				
 				<BoxOut image="/img/bok/page-types/important.png" title="Why is it Important?" className='boxout2' link="/Strategy" linkText="More Information">
 
 					<p>Open Source <em>use</em> and <em>contribution</em> are increasingly important both for <a href="/Strategy">strategic competitive advantage</a> and to manage <a href="/docs/bok/Risks/Introduction">business risks</a>. </p>
@@ -34,7 +38,10 @@ export default function Hello() {
 						<li>A <a href="(osr-resources/Presentation">Presentation on Open Source Readiness</a> explaining why we need this project.</li>
 						<li>An <a href="(https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">executive whitepaper</a> on the business value of open source.</li>
 					</ul>
-
+					
+					<h4>Distilled Best Practices</h4>
+					
+					<p>The materials on this site are built by the consensus of financial services firms.  This means they reflect best practices and thinking for our industry.</p>
 				</BoxOut>
 				<BoxOut image="/img/bok/page-types/how.png" title="How Does it Work?" className='boxout3' link="/docs/bok/Introduction" linkText="Introduction to OSR">
 
@@ -63,24 +70,33 @@ export default function Hello() {
 				</BoxOut>
 				<BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4' link="/docs/about" linkText="Our Contributors">
 
-					<p>Interested in the SIG? Join us! Here are a few ways to get involved.</p>
-
 					<h4>Meetings</h4>
-
-					<p>Meetings of the OSR SIG are held on the first and third Wednesday of each month at 10am US/Eastern, and are open to anyone who would like to participate. Meetings include group discussions of open source best practices, guest presentations from open source experts, and collaborative sessions to produce resources for the industry.</p>
-
-					<ul>
-						<li><strong>First Wedndesday</strong> The first meeting of the month is a show-and-tell covering important topics in open source.  In 2024 we aim to have <a href="https://github.com/finos/open-source-readiness/issues/224">more guest speakers and monthly themes.</a>  Please suggest your own!</li>
-
-						<li><strong>Third Wednesday</strong> This meeting is more of a workshop session where we will try to work on articles for this site or organise further resources.  </li>
-
-						<li><strong>Previous Meeting Minutes and Agendas</strong> are held publicly on <a href="https://github.com/finos/open-source-readiness/issues?q=is%3Aissue++label%3Ameeting+">GitHub</a>.</li>
-
-					</ul>
 					
+					<table>
+						<thead>
+							<tr>
+								<th>First Thursday <br /> Every Month</th>
+								<th>Third Thursday <br /> Every Month</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td className="calendar"><a href="https://calendar.finos.org/4ceeknoiieiu0g9k6rmf4t3n44.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
+								<td className="calendar"><a href="https://calendar.finos.org/3oeu8ev0okjen2i8v5hstg5abt.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
+							</tr>
+							<tr>
+								<td>A show-and-tell covering important topics in open source.  In 2024 we aim to have <a href="https://github.com/finos/open-source-readiness/issues/224">more guest speakers and monthly themes.</a>  Please suggest your own!</td>
+								<td>This meeting is more of a workshop session where we will try to work on articles for this site or organise further resources.  </td>
+							</tr>
+						</tbody>					
+					
+					</table>
+
+					<p>Meetings are open to anyone who would like to participate. Previous Meeting Minutes and Agendas are available on <a href="https://github.com/finos/open-source-readiness/issues?q=is%3Aissue++label%3Ameeting+">GitHub</a>.</p>
+
 					<h4>Mailing List</h4>
 
-					<p><strong><a href="https://groups.google.com/a/finos.org/forum/#!forum/osr"> Subscribe to our mailing list</a></strong> by <a href="mailto:osr+subscribe@finos.org](mailto:osr+subscribe@finos.org">sending an email to join.</a> Ypou will get updates on upcoming meetings and other activity.</p>
+					<p><strong><a href="https://groups.google.com/a/finos.org/forum/#!forum/osr"> Subscribe to our mailing list</a></strong> by <a href="mailto:osr+subscribe@finos.org](mailto:osr+subscribe@finos.org">sending an email to join.</a> You will get updates on upcoming meetings and other activity.</p>
 
 
 					<h4>Contributions</h4>

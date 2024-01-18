@@ -4,6 +4,8 @@ sidebar_label: Open Source Readiness
 author: Rob Moffat
 sidebar_position: 2
 slug: /osr-resources/presentation
+tags:
+ - Presentation
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>

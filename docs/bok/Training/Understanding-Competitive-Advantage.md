@@ -7,6 +7,8 @@ tags:
   - Other-Training
 ---
 
-Open Source Business Models 
-OPen Source as Marketing
-How to build better products with open source
+**THIS IS A PLACEHOLDER**
+
+- Open Source Business Models 
+- OPen Source as Marketing
+- How to build better products with open source

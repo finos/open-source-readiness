@@ -1,13 +1,19 @@
 ---
 id: electronic-communications
 title: Considerations and Guidance for Electronic Communications Policies and Open Source
-sidebar_label: Electronic Communications Policies
+sidebar_label: ECOM Policies
+slug: /operations/electronic-communications
+tags:
+ - Resources
 ---
-<!-- 
-TODO:
+
+<BoxOut title="Work In Progress" image="/img/bok/warning.png">
+
 * List/link to example regulations
 * Provide example policy wording
--->
+
+</BoxOut>
+
 It's common for companies in the financial service industry to be subject to regulations requires retention of firm business-related electronic communications for a certain amount of time (that time varies by jurisdiction and type of communication). Frequently, firms struggle with how to manage open source interactions within the guidelines set both by the regulations and by their own company policies. This article covers how some member firms from our community have approached the matter.
 
 Remember that only communications related to firm business require retention. As electronic communications for open source use, support, and contribution aren't typically directly related to that business (related instead to the software that can _enable_ the business), these communications don't require retention under the regulations. For instance, there's no need to retain emails or copies of issue tracker comments for questions about how to use a feature of an open source project. That's a technical support question and doesn't relate to firm business. This is helpful, since the nature of some of the communication routes (Slack, for instance) cannot guarantee that the communications would be available for the required retention period and would otherwise require special accomodations to archive and retain.

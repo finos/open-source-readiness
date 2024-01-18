@@ -4,13 +4,16 @@ authors:
   - url: https://github.com/copiesofcopies
 title: "OSR Checklist"
 sidebar_position: 6
+slug: /osr-resources/osr-checklist
+tags:
+ - Resources
 ---
 
 <BoxOut title="Warning: Possibly out-of-date" image="/img/bok/roles/ospo.png">
 
 This is content originally from the [FINOS OSR Checklist Project](https://github.com/finos/osr-checklists/edit/master/checklists/oss-compliance-program.md) which has not been updated recently.  Feel free to suggest edits.
 
-Consider folding into the OSMM checklist.
+Consider folding into the [OSMM checklist.](https://github.com/finos/open-source-readiness/pull/223)
 
 </BoxOut>
 
