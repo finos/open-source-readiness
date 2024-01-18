@@ -18,7 +18,7 @@ tags:
 
 ## Existing Maturity Models
 
-There are two pre-existing published open source maturity models at the time of writing which are both fairly similar.  The OSBOK attempts to synthesize these into a single whole:
+There are two pre-existing published open source maturity models at the time of writing which are both fairly similar.  Here we attempt to synthesize these into a single whole:
 
 - In December 2021, [The OSPO Alliance](https://ospo.zone) published on the [OW2](https://www.ow2.org) site the "[OW2 Open Source Good Governance Initiative](https://www.ow2.org/view/OSS_Governance/) which is a 5-level maturity model 
 
