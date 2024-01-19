@@ -9,8 +9,8 @@
     padding-bottom: 1rem;
     align-items: center;
     margin: 0.3rem;
-    border-top-left-radius: .9rem;
-    border-top-right-radius: .9rem;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
     padding: 2rem;
     background-color:#1d1d1d;
 }
@@ -33,7 +33,7 @@ html[data-theme='light'] .header {
 
 .footer {
     padding-right: 1rem;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
 }
 
 .icon {
