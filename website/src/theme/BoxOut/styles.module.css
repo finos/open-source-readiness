@@ -5,14 +5,14 @@
 }
 
 .header {
-    display: flex;
-    padding-bottom: 1rem;
-    align-items: center;
-    margin: 0.3rem;
-    border-top-left-radius: 0.9rem;
-    border-top-right-radius: 0.9rem;
-    padding: 2rem;
-    background-color:#1d1d1d;
+	display: flex;
+	padding-bottom: 1rem;
+	align-items: center;
+	margin: 0.3rem;
+	border-top-left-radius: 0.9rem;
+	border-top-right-radius: 0.9rem;
+	padding: 2rem;
+	background-color: #1d1d1d;
 }
 
 
@@ -32,14 +32,14 @@ html[data-theme='light'] .header {
 
 
 .footer {
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
 }
 
 .icon {
-    width: 5rem;
-    padding: 0rem;
-    margin: 0rem;
+	width: 5rem;
+	padding: 0rem;
+	margin: 0rem;
 }
 
 .footer p {
@@ -49,13 +49,12 @@ html[data-theme='light'] .header {
 .link {
 	padding: 1rem;
 	border-radius: 1rem;
-    text-decoration: underline;
-    background-color:#1d1d1d;
-    
+	text-decoration: underline;
+	background-color: #1d1d1d;
+
 }
 
 html[data-theme='light'] .link {
 	background-color: #fdfdfd;
-    color: black;	
+	color: black;
 }
-
