@@ -5,6 +5,7 @@ tags:
   - Business (Role)
   - OSPO (Role)
   - Placeholder
+  - InnerSource
   - Level 3 (OSMM)
 sidebar_position: 8
 sidebar_label: Culture
@@ -193,7 +194,7 @@ Some reasons for considering this (from [Wikipedia](https://en.wikipedia.org/wik
  - [Using open source methods for internal software projects](https://www.oreilly.com/content/using-open-source-methods-for-internal-software-projects/) - Article by Jared Smith of O'Reilly.
  - [InnerSource Commons](https://innersourcecommons.org): InnerSource Commons is the world's largest community of InnerSource practitioners. 
  - [Wikipedia Page on InnerSource](https://en.wikipedia.org/wiki/Inner_source).
- - [Presentation on Inner Source Licensing](../../../osr-resources/InnerSource).
+ - [Presentation on Inner Source Licensing](/docs/bok/osr-resources/InnerSource).
  
 
 ## Conclusion

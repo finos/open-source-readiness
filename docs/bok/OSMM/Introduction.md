@@ -18,7 +18,7 @@ tags:
 
 ## Existing Maturity Models
 
-There are two pre-existing published open source maturity models at the time of writing which are both fairly similar.  The OSBOK attempts to synthesize these into a single whole:
+There are two pre-existing published open source maturity models at the time of writing which are both fairly similar.  Here we attempt to synthesize these into a single whole:
 
 - In December 2021, [The OSPO Alliance](https://ospo.zone) published on the [OW2](https://www.ow2.org) site the "[OW2 Open Source Good Governance Initiative](https://www.ow2.org/view/OSS_Governance/) which is a 5-level maturity model 
 
@@ -37,15 +37,3 @@ Each level of the Open Source Maturity Model corresponds to a different set of [
 This means it is possible for an organization to be making progress on _multiple levels at the same time_:  they might be performing _all_ of the activities at [Level 1](Level-1) and [Level 2](Level-2) and _some_ of the activities of each of levels 3 to 5.  
 
 Only by completing _all_ the activities at a given level and the levels below can an organization be regarded to be operating at that level.  (Unless there is some convincing reason for omitting to perform a given activity.)
-
-## FINOS OSMM Survey
-
-The FINOS [OSMM Survey](https://survey.osmm.finos.org/551476) can be answered in different ways:  as an individual, a function or the whole 
-ation.  The survey aims to:
-
- - Establish which activities the respondent is performing.   
- - Provide a maturity _level_ corresponding to these activities.
- - Give suggestions to the respondent about which activities need further work to move to a higher maturity level.
- 
-**NB:** The FINOS OSMM Survey is currently in beta.  Feedback on this would be [greatly appreciated](mailto:help@finos.org).  
-

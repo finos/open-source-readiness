@@ -1,5 +1,5 @@
 module.exports={
-  "title": "FINOS Open Source Readiness",
+  "title": "FINOS",
   "tagline": "OVERCOMING OBSTACLES TO OPEN SOURCE",
   "url": "https://osr.finos.org/",
   "baseUrl": "/",
@@ -42,37 +42,98 @@ module.exports={
       "indexName": "osr-finos",
     },
     "navbar": {
-      "title": "FINOS Open Source Readiness",
+      "title": "FINOS Knowledge",
       "logo": {
-        "alt": "Open Source Readiness Logo",
-        "src": "img/osr-icon-2019.png"
+        "alt": "FINOS Logo",
+        "src": "/img/finos_light.svg",
+        "srcDark": "/img/finos_dark.svg"
       },
       "items": [
+		  {
+			  "label": "Open Source",
+			  "to": "/OpenSourceReadiness",
+			  "position": "right",
+		  },
+		  {
+			  "label": "InnerSource",
+			  "to": "/InnerSource",
+			  "position": "right",
+		  },
+		  {
+			  "label": "Strategy",
+			  "to": "/Strategy",
+			  "position": "right",
+		  }
       ]
     },
     "image": "img/undraw_online.svg",
     "footer": {
       "links": [
         {
-          "title": "Docs",
+          "title": "RESOURCES",
           "items": [
             {
-              "label": "OSR Resources",
-              "to": "docs/osr-resources"
+              "label": "Open Source Readiness",
+              "to": "/docs/bok/Introduction"
             },
             {
-              "label": "Body of Knowledge",
-              "to": "docs/bok/Introduction"
+              "label": "Presentations",
+              "to": "/docs/presentations/Introduction"
             },
             {
-              "to": "https://survey.osmm.finos.org/551476",
-              "label": 'Open Source Maturity Model Survey',
-              "position": "left"
+              "label": "Training",
+              "to": "/docs/osr-resources/Training"
+            },
+            {
+              "label": "InnerSource",
+              "to": "/docs/InnerSource/Introduction"
+            },            
+          ]
+        },
+         {
+          "title": "DOCS",
+          "items": [
+            {
+              "label": "Artifacts",
+              "to": "/docs/bok/Artifacts/Introduction"
+            },
+            {
+              "label": "Activities",
+              "to": "docs/bok/Activities/Introduction"
+            },
+            {
+              "to": "docs/bok/OSMM/Introduction",
+              "label": 'Maturity',
+            },
+            {
+              "to": "docs/bok/Roles/Introduction",
+              "label": 'Roles',
+            },
+            {
+              "to": "docs/bok/Regulations/Introduction",
+              "label": 'Regulations',
+            }
+          ]
+        },
+         {
+          "title": "EVENTS",
+          "items": [
+            {
+              "label": "OSR Meetings",
+              "to": "/OpenSourceReadiness#how-do-i-get-involved"
+            },
+            {
+              "label": "InnerSource Meetings",
+              "to": "/InnerSource"
+            },
+            {
+              "label": "FINOS Events",
+              "to": "https://www.finos.org/hosted-events"
             }
           ]
         },
         {
-          "title": "FINOS",
+          "title": "COMMUNITY",
           "items" : [
             {
               "label": "FINOS Website",
@@ -89,7 +150,7 @@ module.exports={
           ]
         },
         {
-          "title": "More",
+          "title": "UPDATES",
           "items": [
             {
               "html": "<a href=\"https://github.com/finos/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/finos/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
@@ -100,13 +161,18 @@ module.exports={
             {
               "label": "LinkedIn",
               "to": "https://www.linkedin.com/company/finosfoundation/"
+            },
+            {
+              "label": "OSR Mailing List",
+              "to": "/OpenSourceReadiness#how-do-i-get-involved"
             }
           ]
         }
       ],
-      "copyright": "<span class=\"footer-strap\">Proud member of the Fintech Open Source Foundation</span><br/><br/><span class=\"footer-copyright\">Copyright © 2023 Open Source Readiness - FINOS</span>",
+      "copyright": "<span class=\"footer-copyright\">Copyright © 2023 - FINOS</span>",
       "logo": {
-        "src": "img/finos_wordmark.svg",
+        "src": "/img/finos_light.svg",
+        "srcDark": "/img/finos_dark.svg",
         "alt": "FINOS Logo",
         "width": 50
       }

@@ -5,11 +5,19 @@
 }
 
 .header {
-    display: flex;
-    padding-bottom: 1rem;
-    align-items: center;
-    margin: 0;
-    padding: 2rem 2rem 1rem 2rem;
+	display: flex;
+	padding-bottom: 1rem;
+	align-items: center;
+	margin: 0.3rem;
+	border-top-left-radius: 0.9rem;
+	border-top-right-radius: 0.9rem;
+	padding: 2rem;
+	background-color: #1d1d1d;
+}
+
+
+html[data-theme='light'] .header {
+	background-color: #fcfcfc;
 }
 
 .header h3 {
@@ -24,13 +32,14 @@
 
 
 .footer {
-    padding: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
 }
 
 .icon {
-    width: 5rem;
-    padding: 0rem;
-    margin: 0rem;
+	width: 5rem;
+	padding: 0rem;
+	margin: 0rem;
 }
 
 .footer p {
@@ -38,7 +47,14 @@
 }
 
 .link {
-    color: lightgray;
-    text-decoration: underline;
+	padding: 1rem;
+	border-radius: 1rem;
+	text-decoration: underline;
+	background-color: #1d1d1d;
+
 }
 
+html[data-theme='light'] .link {
+	background-color: #fdfdfd;
+	color: black;
+}
