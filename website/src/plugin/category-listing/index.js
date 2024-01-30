@@ -25,7 +25,7 @@ module.exports = async function myPlugin(context, options) {
                         description: doc.description,
                         order: doc.sidebarPosition ?? 0,
                         tags: doc.tags,
-                        frontMatter: doc.frontMatter
+                        frontMatter: doc.frontMatter,
                     }
 
                     collection.push(shortForm);

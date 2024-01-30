@@ -5,6 +5,7 @@ tags:
   - CIO/CTO (Role)
   - Placeholder
   - Policy
+image: /img/bok/risks/codebase-risk.png
 ---
 
 <BoxOut title="Codebase Risk" image="/img/bok/risks/codebase-risk.png">

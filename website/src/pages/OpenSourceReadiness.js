@@ -134,7 +134,7 @@ export default function Hello() {
 
 			<p>Please see the following introductory articles each on these areas:</p>
 
-			<BokTagList tag="Introduction"/>
+			<BokTagList tag="Introduction" images="true" />
 		</Layout>
 	);
 }
