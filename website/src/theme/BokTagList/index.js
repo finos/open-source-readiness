@@ -2,8 +2,27 @@ import React from 'react';
 import {usePluginData} from '@docusaurus/useGlobalData'
 import Link from '@docusaurus/Link';
 import {useLocation} from '@docusaurus/router';
+import styles from './styles.module.css'
 
 
+function DocItemImage({doc}) {
+    return (
+      <article className="margin-vert--lg">
+      	<div className={styles.columns}>
+	      	<div className={styles.left}>
+	        	<img src={doc.frontMatter.image} className={styles.articleImage} />
+	        </div>
+	      	<div className={styles.right}>
+		        <Link to={doc.permalink}>
+		          <h3>{doc.title}</h3>
+		        </Link>
+		        {doc.description && <p>{doc.description}</p>}
+		     </div>
+	     </div>
+      </article>
+    );
+  }
+  
 function DocItem({doc}) {
     return (
       <article className="margin-vert--lg">
@@ -28,6 +47,7 @@ export default function BokTagList(props) {
         .filter(uniqueOnly)
     const filter = props.filter ? '/'+props.filter+'/' : ''
     const location = useLocation().pathname;
+    const addImages = props.images;
 
     oneTag.sort((a, b) => a.order - b.order);
 
@@ -37,7 +57,7 @@ export default function BokTagList(props) {
                oneTag
                 .filter(d => d.permalink.indexOf(filter) > -1) 
                 .filter(d => d.permalink.indexOf(location) == -1)
-                .map(d => <DocItem key={d} doc={d} />)
+                .map(d => addImages ? <DocItemImage key={d} doc={d} /> : <DocItem key={d} doc={d} />)
             }
         </div>
     );
