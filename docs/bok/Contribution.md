@@ -20,8 +20,8 @@ Be a trusted venue for our members and community in their open source journey an
 <table>
 	<thead>
 		<tr>
-			<th>First Thursday <br /> Every Month</th>
-			<th>Third Thursday <br /> Every Month</th>
+			<th>First Wednesday <br /> Every Month</th>
+			<th>Third Wednesday <br /> Every Month</th>
 		</tr>
 	</thead>
 	<tbody>
