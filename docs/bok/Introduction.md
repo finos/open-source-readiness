@@ -5,7 +5,7 @@ Open Source Readiness is a collaborative project aimed at developing a comprehen
 
 The project aims to provide a reference point for individuals, organizations, and communities interested in open source software. It is designed to be a comprehensive resource for enterprises looking to use or contribute to open source software.  It covers the philosophy of open source, the different types of licenses, best practices for managing open source projects and the tools and technologies used in open source development. 
 
-The BOK is expected to facilitate the adoption and growth of open source software within the industry and promote a better understanding of the open source ecosystem.
+See the [Contribution Page](Contribution.md) for more details on how this is run and who is involved.
 
 ## Information Architecture
 
