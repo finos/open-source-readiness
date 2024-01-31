@@ -16,6 +16,7 @@ checklist:
     description: getting your guys to look at some stuff
   - title: Education
     description: Having a program to educate employees about licenses
+image: /img/bok/page-types/activity.png
 --- 
 
 Managing talent in financial institutions is crucial because the quality, motivation, and expertise of their workforce directly influence the institutions' ability to innovate, maintain a competitive edge, comply with regulatory requirements, and ultimately drive financial performance and growth.

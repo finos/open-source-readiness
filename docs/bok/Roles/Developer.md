@@ -2,6 +2,7 @@
 title: Developer
 tags: 
   - Developer (Role)
+image: /img/bok/roles/developer.png
 ---
 
 <BoxOut title="IT Department / Developers" image="/img/bok/roles/developer.png">

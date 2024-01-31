@@ -13,6 +13,7 @@ checklist:
     description: getting your guys to look at some stuff
   - title: Education
     description: Having a program to educate employees about licenses
+image: /img/bok/page-types/activity.png
 ---
 
 This article looks at the best practices around publication (of code) to enable open source contribution.

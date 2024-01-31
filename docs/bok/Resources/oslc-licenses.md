@@ -6,6 +6,7 @@ sidebar_position: 5
 slug: /osr-resources/oslc-licenses
 tags:
  - Resources
+image: /img/bok/page-types/resource.png
 ---
 
 _Please review [OSLC Documentation](../operations/oslc) for a primer on this, and the [Licenses](../bok/Artifacts/Licenses) article for more details on softwre licensing._

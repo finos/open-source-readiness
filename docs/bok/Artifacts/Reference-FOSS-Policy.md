@@ -6,6 +6,7 @@ title: "Reference FOSS Policy"
 tags:
   - Legal (Role)
 sidebar_label: Policy (Reference)
+image: /img/bok/page-types/artifact.png
 ---
 
 

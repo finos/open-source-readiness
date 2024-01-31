@@ -13,6 +13,7 @@ course:
   cost: free
   link: https://training.linuxfoundation.org/training/open-source-contribution-in-finance-lfd137/
 sidebar_label: LFD137
+image: /img/bok/page-types/training2.png
 ---
 
 This course is designed for developers looking to contribute to open source software in the financial industry.

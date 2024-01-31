@@ -12,4 +12,4 @@ Some roles involve evaluating the potential benefits and risks of using open sou
 
 ## The Roles
 
-<BokTagList filter="Roles" />
+<BokTagList filter="Roles" images="true"/>

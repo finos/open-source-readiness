@@ -16,9 +16,10 @@ checklist:
     description: getting your guys to look at some stuff
   - title: Education
     description: Having a program to educate employees about licenses
+image: /img/bok/page-types/activity.png
 ---
 
-tbd.
+THIS IS A PLACEHOLDER
 
 ## Open Source vs Proprietary (Commercial) Software
 
@@ -70,4 +71,4 @@ Share process of leveraging open source with others
 
 ## Training Materials
 
-<BokTagList tag="Consuming (Activity)" filter="Training" />
+<BokTagList tag="Consuming (Activity)" filter="Training" images="true"/>

@@ -2,9 +2,10 @@
 title: Product Manager
 tags:
   - Product Manager (Role)
+image: /img/bok/roles/product-manager.png
 ---  
 
-<BoxOut title="IT Department / Developers" image="/img/bok/roles/developer.png">
+<BoxOut title="IT Department / Developers" image="/img/bok/roles/product-manager.png">
 
 Product managers are responsible for understanding market trends, customer preferences, and competitive landscape to identify new product opportunities and enhance existing offerings. 
 

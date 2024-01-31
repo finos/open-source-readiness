@@ -3,6 +3,7 @@ title: The Evolution of the Open Source Program Office (OSPO)
 tags: 
   - OSPO (Role)
   - Other-Training
+image: /img/bok/page-types/training2.png
 ---
 
 An OSPO maturity model featuring case studies from Bloomberg, Comcast, and Porsche.

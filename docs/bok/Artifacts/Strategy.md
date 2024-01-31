@@ -5,6 +5,7 @@ tags:
   - CEO (Role)
   - CTO/CIO (Role)
 sidebar_label: Strategy
+image: /img/bok/page-types/artifact.png
 ---
 
 **THIS IS A PLACEHOLDER**
