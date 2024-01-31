@@ -147,6 +147,10 @@ Katrina has worked with organisations globally across different industries to st
 Based in London, Jamie Slome is the Operations Lead for Citi's Open Source Program Office (OSPO). He is responsible for implementing developer tooling that supports Citi's open source contribution initiatives and spearheads the expansion of the Open Source Program Office (OSPO). Prior to this, he co-founded and served as Chief Technology Officer at <a href="https://huntr.dev">huntr.dev</a> (<a href="https://uk.finance.yahoo.com/news/protect-ai-acquires-huntr-launches-130300083.html">acquired by ProtectAI</a>), a vulnerability management and responsible disclosure platform for world-renowned open source libraries include <a href="https://github.com/vim/vim">vim</a>, <a href="https://github.com/jgraph/drawio">draw.io</a> and <a href="https://github.com/nuxt">Nuxt.js</a>. Additionally, Jamie is the lead maintainer of <a href="https://github.com/finos/git-proxy">Git Proxy</a>, a highly configurable framework allowing developers and organizations to enforce customized push protections and policies on top of Git.
 </Bio>
 
+<Bio name="Gilles Gravier" organisation="Wipro" image="/img/people/no-headshot.png">
+ Gilles is an open source and inner source strategy advisor. He works with his clients to allow them to reap the maximum benefits from their open source and inner source activities by creating, or enhancing their open source or inner source strategy, and then driving its implementation over time. He has worked with multiple financial services organizations across the globe, as well as governmental organizations such as State Administration of Geneva, or Oman.
+ </Bio>
+
 <Bio name="Sally Ellard" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
 TBC
 </Bio>
