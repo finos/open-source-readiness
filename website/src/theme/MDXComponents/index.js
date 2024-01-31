@@ -8,6 +8,7 @@ import CourseList from '../CourseList'
 import CourseDetails from '../CourseDetails'
 import ArticleChecklist from '../ArticleChecklist'
 import ChecklistSummary from '../ChecklistSummary'
+import ImageBullet from '../ImageBullet';
 
 export default {
   ...MDXComponents,
@@ -18,5 +19,6 @@ export default {
   CourseList,
   CourseDetails,
   ArticleChecklist,
-  ChecklistSummary
+  ChecklistSummary,
+  ImageBullet
 };
