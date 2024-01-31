@@ -8,6 +8,13 @@ tags:
   - Placeholder
   - Level 1 (OSMM)
 draft: true
+checklist: 
+  - title: Something
+    description: This is a very long guy on a line
+  - title: Something else
+    description: getting your guys to look at some stuff
+  - title: Education
+    description: Having a program to educate employees about licenses
 ---
 
 - projects

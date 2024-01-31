@@ -33,7 +33,9 @@ module.exports={
     ]
   ],
   "plugins": [
-    './src/plugin/category-listing'
+    './src/plugin/category-listing',
+    './src/plugin/checklist-listing',
+    
   ],
   "themeConfig": {
     "algolia": {

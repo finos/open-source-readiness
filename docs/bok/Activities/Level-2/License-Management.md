@@ -10,6 +10,17 @@ tags:
   - License (Artifact)
 sidebar_position: 2
 sidebar_label: License Management
+checklist: 
+  - title: License Identification
+    description: This is a very long guy on a line
+  - title: Legal Review
+    description: getting your guys to look at some stuff
+  - title: Education
+    description: Having a program to educate employees about licenses
+  - title: Blah
+    description: sdfjhsdjfks djkshfsk fkjdshfjhdsjkf dskjhfsdkj hfkdsjh ksdjhfkjshfkjsdhfkj sdhf k
+  - title: Blah2
+    description: it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:
@@ -121,8 +132,6 @@ This includes [CopyLeft](../../Artifacts/Licenses#3-copyleft-licenses) licenses 
 
 Using the correct licenses will form part of License Policy and it will be necessary to ensure developers in your organisation are aware of the limitations around the use of open source.  Although these limitations will vary from firm-to-firm, the Linux Foundation provides several training courses suitable for orienting developers on their responsibilities relating to open source licensing:
 
-<BokTagList tag="License Compliance Management (Activity)" filter="Training" />
-
 ## Final Points to Consider
 
 * The enterprise should have a _process_ in place for tracking open-source components, monitoring license changes, and ensuring compliance with all license obligations.  That is, it is important that license management is performed continually:  dependencies can change license, projects can take on new dependencies, risk appetite can change. 
@@ -148,3 +157,6 @@ Using the correct licenses will form part of License Policy and it will be neces
 
 - **[FINOS License Categories](https://community.finos.org/docs/governance/Software-Projects/license-categories)**.  How licenses are categorized for the FINOS Foundation.
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

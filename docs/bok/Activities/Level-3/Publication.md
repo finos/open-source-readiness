@@ -6,6 +6,13 @@ tags:
   - Level 3 (OSMM)
 sidebar_position: 6
 sidebar_label: Publication
+checklist: 
+  - title: Something
+    description: This is a very long guy on a line
+  - title: Something else
+    description: getting your guys to look at some stuff
+  - title: Education
+    description: Having a program to educate employees about licenses
 ---
 
 This article looks at the best practices around publication (of code) to enable open source contribution.

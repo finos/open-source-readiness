@@ -9,6 +9,13 @@ tags:
   - Staff Risk
 sidebar_position: 9
 sidebar_label: Talent
+checklist: 
+  - title: Something
+    description: This is a very long guy on a line
+  - title: Something else
+    description: getting your guys to look at some stuff
+  - title: Education
+    description: Having a program to educate employees about licenses
 --- 
 
 Managing talent in financial institutions is crucial because the quality, motivation, and expertise of their workforce directly influence the institutions' ability to innovate, maintain a competitive edge, comply with regulatory requirements, and ultimately drive financial performance and growth.
