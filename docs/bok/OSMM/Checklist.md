@@ -2,7 +2,8 @@
 title: "Maturity Checklist"
 sidebar_label: Checklist
 tags:
-  - OSMM
+  - Checklist
+image: /img/bok/maturity/checklist.png
 ---
 
 Some details here.

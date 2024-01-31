@@ -7,6 +7,7 @@ tags:
   - Legal Risk
   - Contribution
   - Policy
+image: /img/bok/regs/labour.png 
 ---
 
 <BoxOut title="Labour Laws" image="/img/bok/regs/labour.png">

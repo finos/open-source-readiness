@@ -20,4 +20,4 @@ Failure to abide by regulation constitutes a [Legal Risk](../Risks/Legal-Risk)
 
 ## Contents
 
-<BokTagList filter="Regulations" />
+<BokTagList filter="Regulations" images="true"/>

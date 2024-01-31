@@ -5,6 +5,7 @@ sidebar_position: 5
 tags:
   - Level 5 (OSMM)
   - OSMM
+image: /img/bok/maturity/strategy.png
 ---
 
 At this level, an organization has an optimized process for managing open source software. The organization has a continuous improvement process in place for open source software management, and it is well integrated with the overall software development process.   The organization also has a _strategy_ for consuming open source, contributing to open source software projects and engaging with the open source community.

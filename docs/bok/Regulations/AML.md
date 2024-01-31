@@ -8,6 +8,7 @@ tags:
   - Legal Risk
   - Policy
   - Contribution
+image: /img/bok/regs/aml.png 
 ---
 
 <BoxOut title="Anti-Money Laundering" image="/img/bok/regs/aml.png">
