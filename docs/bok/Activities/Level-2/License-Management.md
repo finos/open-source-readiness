@@ -132,7 +132,7 @@ Using the correct licenses will form part of License Policy and it will be neces
 
 - **[TLDR Legal](https://www.tldrlegal.com)**:  a web resource that provides plain-English summaries of various software licenses, helping developers and project managers understand the legal terms without having to interpret dense legal language. 
 
-- **[OpenChain]( https://www.openchainproject.org/)**:  an ISO standard for open source license compliance, developed and hosted by the Linux Foundation. It provides a set of requirements to create effective open source management systems, helping companies to minimize legal risks related to open source software use and improve efficiency and trust in the software supply chain.
+- **[OpenChain License Compliance](../Artifacts/OpenChain-LicenseCompliance)**:  an ISO standard for open source license compliance, developed and hosted by the Linux Foundation. It provides a set of requirements to create effective open source management systems, helping companies to minimize legal risks related to open source software use and improve efficiency and trust in the software supply chain.
 
 - **[Open Source Initiative License Browser](https://opensource.org/licenses)**
 
