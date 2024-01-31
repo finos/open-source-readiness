@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 
 export default ({children, image, name, organisation}) => {
     return <div className={styles.bio}>
-    	<div class={styles.headshot}>
+    	<div className={styles.headshot}>
 	        <img src={image} alt={name} />    	
     	</div>
         <div className={styles.details}>
