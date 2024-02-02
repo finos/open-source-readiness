@@ -27,7 +27,7 @@ ISO/IEC 18974 is lightweight, easy to read and is supported by our global commun
 
 ## Further Reading
 
-- [The OpenChain ISO Standard](https://github.com/OpenChain-Project/Security-Assurance-Specification/blob/main/Security-Assurance-Specification/ISO-18974/en/ISO-18974.md) English version 2.1 in markdown.  Other languages / versions available.
+- [OpenChain ISO/IEC 18984:2023](https://github.com/OpenChain-Project/Security-Assurance-Specification/blob/main/Security-Assurance-Specification/ISO-18974/en/ISO-18974.md) English version 2.1 in markdown.  Other languages / versions available.
 
 - [An Online Self-Certification Checklist](https://www.openchainproject.org/checklist-iso-dis-18974) an interactive checklist, with option to self-certify publicly on the OpenChain website.
 
