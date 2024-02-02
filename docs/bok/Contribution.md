@@ -159,12 +159,8 @@ TBC
 Director, Open Source Lead
 </Bio>
 
-<Bio name="Pooi Cheong" organisation="Lloyds Bank" image="/img/people/pooi.jpeg">
+<Bio name="Pooi Ling Cheong" organisation="Lloyds Banking Group" image="/img/people/pooi.jpeg">
 Pooi is the Open Source Program Office lead at Lloyds Banking Group. She strongly believes that Open Source is the key to unlocking potential to transform the organisation, supporting the Bank’s purpose of Helping Britain Proper through bringing together different communities to deliver the solutions that provides the best experience for its customers.
-</Bio>
-
-<Bio name="Aronya Roy" organisation="Lloyds Bank" image="/img/people/no-headshot.png">
-TBC
 </Bio>
 
 <Bio name="William Rothwell" organisation="UBS" image="/img/people/no-headshot.png">
