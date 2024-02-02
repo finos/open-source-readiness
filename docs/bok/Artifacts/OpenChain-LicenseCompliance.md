@@ -27,7 +27,7 @@ The OpenChain ISO/IEC 5230:2020 is lightweight, easy to read and is supported by
 
 ## Further Reading
 
-- [The OpenChain ISO Standard](https://github.com/OpenChain-Project/License-Compliance-Specification/blob/master/Official/en/2.1/openchainspec-2.1.md) English version 2.1 in markdown.  Other languages / versions available.
+- [OpenChain ISO/IEC 5230:2020](https://github.com/OpenChain-Project/License-Compliance-Specification/blob/master/Official/en/ISO-5230-2020/ISO-5230-2020.md) English version 2.1 in markdown.  Other languages / versions available.
 
 - [An Online Self-Certification Checklist](https://www.openchainproject.org/checklist-iso-5230-2020) an interactive checklist, with option to self-certify publicly on the OpenChain website.
 
