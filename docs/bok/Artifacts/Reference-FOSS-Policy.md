@@ -15,690 +15,356 @@ This is content originally from the [FINOS Reference FOSS Policy Project](https:
 
 </BoxOut>
 
-This is a template for a comprehensive free and open source software
-(FOSS) policy for a financial services institution, including sample
-provisions governing the acquisition and use of FOSS, and contribution
-to FOSS projects. It is offered only as a reference, not as a complete
-policy or as legal advice. While this policy has been drafted to be
-generally applicable, it does not define every implementation detail.
-Every company’s policy should be customized to its particular needs,
-policy and technical environments, and risk tolerance.
-
-© 2017 Fintech Open Source Foundation. This document is licensed under
-the terms of the ([Creative Commons Attribution (CC By) License, version
-4.0](https://creativecommons.org/licenses/by/4.0/)). It is offered as-is
-and as-available, without representation or warranty of any kind,
-whether express, implied, statutory, or other. The original version of
-this document is available at
-<https://github.com/finos-osr/reference-foss-policy>. If you distribute
-this document or any derivative work to a third party, you must indicate
-any modifications and retain this notice and disclaimer.
-
-# Overview & Purpose
-
-It is the policy of \[Company Name\] (“Company”) to use, contribute to,
-and publish Free and Open Source Software (“FOSS”) when doing so
-furthers Company’s business purposes and does not present unacceptable
-risks. This Free and Open Source Software Policy (the “Policy”)
-describes the requirements that Company personnel must observe when
-incorporating FOSS into a Company software product, distributing FOSS to
-third parties, contributing code and other materials to third-party FOSS
-projects, publishing Company software products as FOSS, and otherwise
-interacting with the FOSS community.
-
-There are many potential benefits to using and contributing to FOSS.
-Effective participation in FOSS ecosystems can lower software
-development costs, increase the pace of software development, improve
-software quality and security, and promote developer recruitment and
-retention. As with any undertaking, engagement with FOSS raises
-questions about avoidable risks. These include inadvertently disclosing
-sensitive information, giving up exclusive rights to intellectual
-property, infringement of third party rights, introduction of security
-vulnerabilities to Company software products, and reputational harm.
-
-This policy is intended to minimize these risks, comport with the
-recommendations of the Federal Financial Institutions Examinations
-Council [1] , and to ensure that, in using and contributing to FOSS, the
-Company and its employees respect the rights of third parties, comply
-with applicable regulations, and engage productively with the FOSS
-community.
-
-# Authority
-
-To the extent this Policy implicates the exclusive authority of the
-Board of Directors to take certain actions, such as to authorize the
-licensing of Company intellectual property rights, that authority is
-expressly delegated to the \[Chief Technology Officer / Group CTO /
-CIO\], to be exercised consistent with the limitations set forth herein.
-
-# Scope
-
-## Applicability
-
-This Policy applies to all Company employees, contractors, and
-consultants, worldwide. It governs all use of FOSS, modified or
-unmodified, including when the FOSS is: installed or used on Company
-computers; incorporated into Company Software Products; distributed
-(alone or together with Software Products) to customers or other third
-parties; published by the Company; or contributed (as modifications or
-original software) to a third-party FOSS Project or organization.
-
-## Pre-Existing Use of FOSS
-
-The FOSS Review Board (FRB) shall establish a process for ensuring,
-within a reasonable period of time after this Policy is adopted, that
-all existing Company use of FOSS initiated before the adoption of this
-Policy complies with the requirements of this Policy.
-
-**Best Practice – Pre-Existing FOSS Compliance Procedures**
+The Company supports certain activities associated with the contribution and publication of Free and Open Source Software (FOSS), when doing so is a benefit to the Company and does not present unacceptable risk. Risks include inadvertently disclosing sensitive information, giving up exclusive rights to intellectual property, infringement of third-party rights, and reputational harm.
 
-1.  The FRB should produce an inventory of existing FOSS use by
-    surveying Product Owners, using automated scanning tools, and other
-    means. It should then review this inventory to identify any
-    inconsistencies with this Policy.
-
-2.  When a Product Team updates a preexisting FOSS component to a new
-    version, or makes modifications to a preexisting FOSS component, the
-    updated or modified component is subject to the policies and
-    procedures applicable to new uses or modifications of FOSS.
-
-# Roles and Responsibilities
-
-Company shall establish a **FOSS Review Board (“FRB”)** upon adoption of
-this Policy. At a minimum, the FRB shall include representatives from
-Legal, Security, and IT Architecture. The FRB shall meet or communicate
-as frequently as necessary to carry out its responsibilities
-expeditiously. The FRB shall have the following responsibilities:
-
-1.  Develop and communicate Company FOSS strategy in consultation with
-    Company’s technical and corporate leadership;
-
-2.  Establish implementing procedures for this Policy;
+These guidelines establish the minimum activities, approvals, restrictions, and evidence of compliance to be covered by the associated governance processes.
 
-3.  Review and make determinations on FOSS Requests; and
+## Governance
 
-4.  Periodically collect feedback about and review this Policy, then
-    make appropriate recommendations for revising it.
+<a id="ospo"></a>
 
-5.  Arrange to provide support, training, and documentary materials that
-    enable compliance with this policy.
+### Open Source Program Office (OSPO)
 
-**Compliance** shall work with the FRB as necessary to develop
-procedures to implement this Policy, to design and conduct any required
-training, and to resolve questions regarding the interpretation of this
-or other Company policies.
+The procedures and governance processes described in these guidelines are overseen by the Chair of the Open Source Program Office (OSPO).
 
-**Legal** shall participate in the FRB. It shall review all FOSS
-Licenses referenced in FOSS Requests and applicable to pre-existing FOSS
-and shall work with the FRB to develop and communicate compliance
-requirements for each.
+The Open Source Program Office (OSPO) is responsible for establishing, evolving, and executing Free and Open Source Software (FOSS) contribution strategy and governance at the Company under the direction of the guidelines owner.
 
-**Security** shall participate in the FRB. It shall establish any
-necessary procedures for identifying and addressing security
-vulnerabilities in FOSS components, and shall work with the FRB and
-Product Teams to notify affected parties of and remediate known security
-issues in FOSS components.
+<a id="fosscontributionrisk"></a>
 
-# Implementation
+### FOSS Contribution Risk
 
-The FRB shall be responsible for implementation of this Policy and shall
-have discretion to determine what procedures are necessary to implement
-it consistent with the Policy’s requirements.
+Contributing to FOSS projects presents several risks. Preventative and detective internal controls must be implemented to address risks which apply to FOSS contribution activities. In addition, risks which are specific to participation in a particular FOSS project must be identified and recorded, and preventative and detective internal controls implemented as defined in these guidelines.
 
-**Best Practice - Implementation Procedures**
+For guidance, the main risks are:
 
-1.  Supporting Materials. The FRB should produce (or obtain):
+1.  **Data Leakage** - this includes unauthorized disclosure of non-public information and client data, unauthorized disclosure of internal security procedures, internal information such as network structures, IP addresses, server names, key material, authentication data, etc.  
+    
+2.  **Financial Loss** - contributing software to FOSS projects under most acceptable FOSS licenses involves granting a perpetual, royalty free licenses to consumers of the FOSS project and therefore account must be made of any financial write down of the software asset.
 
-    1.  A FOSS License List (or database) identifying each FOSS License
-        reviewed by the FRB and recording:
+3.  **Intellectual Property (IP)** - Consideration must be made before contributing works to FOSS projects as to whether the Company should retain Intellectual Property rights over any parts of the works including whether Trademarks and/or Patents should be applied for **in advance**.
 
-        1.  the name and version of the license reviewed;
+4.  **Reputational Damage** - There are several risks that could reflect poorly on the Company's brand and reputation, ranging from the decision to collaborate in a project, the quality of code contributed, remarks, opinions and other representations attributed to the Company, employees, and projects being abandoned through lack of investment.
 
-        2.  a link or reference to the full text of the license;
+5.  **Conflict of Interest Risk** - Risk that the Company employees are engaged in business activities or interests outside the scope of their permitted FOSS contribution activities that interfere with or compromise, or appear to interfere with or compromise, their ability to act in the best interest of the Company and/or its clients.
 
-        3.  license compliance requirements, determined by the FRB,
-            including requirements specific to modification or
-            distribution of the FOSS;
+In addition, there are several consequential risks which must be considered that involve one more of the main risks:
 
-        4.  which types of use (e.g. consumption, modification,
-            distribution, or network connection) require additional
-            compliance considerations; and
+1.  **FOSS License Compliance** - Non-compliance with FOSS licenses can expose the Company to several risks including litigation, reputational damage, and financial loss.  
+    
+2.  **FOSS License Permissions, Warranty and Liability** - There are a myriad of open source licenses, each with differing permissions, restrictions and conditions which can protect or expose the Company to litigation or restrict our ability to claim patent or trademark rights.  
+    
+3.  **Non-Compliance with relevant Company Polices** - These are discussed in [Specific Alignment with Relevant Regulations](#regulationalignment) and include regulatory commitments such as Export and Trade Controls, and Cross Border Data Flows.
 
-        5.  which uses are subject to pre-approval, which require FRB
-            review, and which are prohibited under all circumstances.
+<br /> 
 
-    2.  A FOSS Training Program, and accompanying materials, that
-        employees must complete before being authorized to make new FOSS
-        Use or Contribution Requests. The training program should cover,
-        at a minimum, the following topics:
+<a id="standardrequirements"></a>
 
-        1.  Software intellectual property basics
+### Standard Requirements
 
-        2.  Common FOSS licenses and compliance requirements
+The Company supports contribution and publication of Free and Open Source Software (FOSS) within the limits of these guidelines.
 
-        3.  Risk factors related to FOSS use, modification, and
-            contribution
+<a id="terminology"></a>
 
-        4.  The requirements of this Policy and any associated
-            procedures
+#### Terminology
 
-        5.  Proper Source Control Management (SCM) system usage for use
-            of FOSS in Software Products
+FOSS terms can conflict with established definitions, for example: _Initiative_, _Program_, and _Project_ are well established Program and Project Management terms. For clarity, terms used in these guidelines shall refer to FOSS.
 
-        6.  FOSS community norms and best practices
+<a id="taxonomy"></a>
 
-        7.  Applicability of the Company’s employee code of conduct to
-            interactions with FOSS Projects and communities
+#### Taxonomy - Open Source Contribution
 
-2.  Pre-Approval of FOSS Requests.
+The Company has established a taxonomy to be used in conjunction with these guidelines and associated procedures.
 
-    1.  To ensure the timely processing of requests, the FRB should
-        define categories of pre-approved requests that do not require
-        individual review. Generally, the FRB should pre-approve
-        categories of FOSS Requests that are likely to present little or
-        no risk to the Company.
+<a id="fossprojectcategories"></a>
 
-    2.  Pre-approvals may be limited in scope as appropriate to limit
-        risk. A pre-approval’s scope may be limited to a particular time
-        period, FOSS component, Project Team, type of request, or any
-        other criteria or combination of criteria that the FRB deems
-        appropriate. Examples of scope-limited pre-approvals might
-        include:
+### FOSS Project Categories
+ 
+Contributions made to FOSS projects by Company employees must fall into one of four categories below and meet the corresponding requirements for the category.
 
-        1.  All contributions to third-party Project A, a non-business
-            critical library;
+| **Category** | **Description** |
+| --- | --- |
+| Company Moderated | Open-source projects initiated by the Company where the Company will act as the primary project moderator/maintainer. These can be complete software solutions, open standards proposals, or simple functions. | 
+| Company Interest (Major) | Open-source projects consumed in Company applications, moderated by a non-Company entity, where: <br /> 1.  The Company wishes to influence the direction of the FOSS project or, <br /> 2.  The Company wishes to contribute significant functionality that would benefit The Company and the project. <br /> <br /> These can be complete software solutions, open standards proposals, or simple functions. |
+| Company Interest (Minor) | Open-source projects consumed in Company applications, moderated by a non-Company entity, where: <br /> 1.  The Company does not wish to influence the direction of the project but, <br /> 2.  The Company benefits by allowing employees to contribute. <br /> <br /> Examples include small enhancements and bug fixes to FOSS commonly used within Company applications to avoid the need for internal forks to work around defects. |
+| Personal Contribution | An open-source work effort conducted by Company employees outside of their regular Company-contracted activities to FOSS projects that are not categorized as Company Moderated or Company Interest and for which there is no benefit to the company in contributing. |
 
-        2.  Bug fixes and security patches to any third-party project
-            with an approved FOSS License;
+*Table 1: Project Categories*
 
-        3.  Contributions by Project Team 1 to third-party Project B
-            related to Internal Project 1A; etc.
+<a id="companyinfrastructure"></a>
 
-# FOSS Training Policy
+## Company Infrastructure
 
-The FRB shall develop a FOSS Training Program to communicate the
-requirements of this Policy to employees to which it applies and shall
-work with Compliance to conduct trainings.
+1.  Company Moderated and Company Interest FOSS contribution activities may be performed within or outside of the Company's network.
+2.  Personal FOSS contributions must be performed outside the Company's network using non-Company managed hardware.
+3.  External infrastructure used to host Company Moderated projects must be approved by the OSPO.
 
-**Best Practice - FOSS Training Procedures**
+<a id="ospostandardtools"></a> 
 
-Beginning 90 days after adoption of this Policy, each Company employee
-must attest that they have read and understood the Policy before
-submitting any FOSS Request or being authorized to modify any internal
-software repository containing FOSS source code. Employees should also
-complete the FOSS Training Program before or as soon as practicable
-after submitting any FOSS Request or being authorized to modify any
-internal software repository containing FOSS source code.
+### OSPO Standard Tools
 
-# FOSS Use Policy
+1.  Preventative and detective internal controls must be implemented to address the risks described in [FOSS Contribution Risk](#fosscontributionrisk).
+2.  Company Moderated and Company Interest FOSS contribution activities must use OSPO approved Standard Tools when performing contributions within the Company's network or on Company managed hardware.
+3.  These guidelines impose no tooling restrictions when making contributions outside the Company's network on non-Company managed hardware other than defined in [Company Infrastructure](#companyinfrastructure).
+4.  These guidelines imposes no tooling restrictions for Personal contributions other than defined in [Company Infrastructure](#companyinfrastructure).
+5.  Company Moderated FOSS projects are required to use an OSPO approved source code management tool.
+6.  Company Moderated FOSS projects must maintain a transaction history showing evidence of the peer review, approver, and date must be maintained.
+7.  The source code management, peer review, and scan requirements for Company Interest projects are defined by the relevant FOSS community.
+8.  All contribution activities which occur from within the Company network or on the Company managed hardware must be subject to compliance scanning and review. This includes manual or automated processes to validate:
+    1.  FOSS license compliance
+    2.  Maker/checker tools (e.g., Peer reviewer not the same person as contributor)
+    3.  Scans to reduce the risk of disclosing the Company non-public information, open source license violation, validated copyright text., and export regulations compliance.
 
-The FRB shall develop procedures governing the use of FOSS, designed to
-promote the Company’s FOSS strategy, compliance with regulations and
-obligations to third parties, and the security of Company Software
-Products incorporating FOSS. These procedures shall cover all use of
-FOSS, including: installation or use on employee workstations and
-Company servers; incorporation of FOSS into Company Software Products;
-and distribution of FOSS to customers and third parties.
+:::warning
+Company Moderated and Company Interest FOSS contribution activity must be registered in an OSPO approved inventory system
+:::
 
-**Best Practice - FOSS Use Procedures**
+#### Free and Open Source Software Consumption
 
-1.  FOSS Request Process. Each FOSS use is subject to the following
-    process:
+These guidelines do not introduce or change established requirements for the introduction and consumption of free and open source software.
 
-    1.  FOSS Use Report. The employee or Project Team wishing to use a
-        FOSS component shall submit to the FRB, via the FOSS Request
-        System, a FOSS Use Report including the information below. (If
-        the FOSS component has been preapproved for the proposed use,
-        some or all of this information may be pre-filled by the
-        system.)
+#### FOSS Identity
 
-        1.  Information about the FOSS component:
+1.  Company employees are required to establish an identity on the publicly accessible platform used to host the FOSS project in accordance with the below:
+2.  Contributors to Company Moderated and Company Interest projects must identify contributions using their Company external email address (e.g., john.doe@company.com) while employed at the Company. Contributors cannot use their Company internal email address or internal username.
+3.  On cessation of employment by the Company, contributors must not tag commits with their Company email.
+4.  Contributors to Personal Contribution projects must not use an identity that can be associated to the Company, for example Company external or internal email address or internal username.
 
-            1.  Name
+#### Compliance with the Code of Conduct and related Policies
 
-            2.  Version
+Employees must be made aware that their FOSS contribution activities must be in compliance with company conduct requirements which includes compliance with local laws and regulations at all times.
 
-            3.  Origin URI
+<a id="regulationalignment"></a> 
 
-            4.  Applicable FOSS license(s)
+### Specific Alignment with Relevant Regulations
 
-            5.  Any additional license requirements or exceptions
+#### Identity and Access Management
 
-            6.  Brief description of component’s purpose
+Identity and Access Management requirements do not apply to externally hosted tooling platforms leveraged by FOSS contribution efforts. FOSS contribution and governance activities internal to the Company must comply with the Identity and Access Management requirements.
 
-        2.  Information about the proposed use of the FOSS component:
+#### Records Management
 
-            1.  Requesting employee or Project Team
+The Company is obligated to retain certain records for legal, regulatory, or approved business reasons. This does not apply to FOSS contribution activities, and does apply to OSPO governance activities.
 
-            2.  The Company Software Product (if any) the Report relates
-                to
+<a id="technologyexportimportregulations"></a> 
 
-            3.  Brief description of use and its context
+#### Technology Export/Import Regulations
 
-            4.  Description of combinations or interactions with
-                Software Products
+Open source development is a global activity that makes software publicly available across national boundaries. Some countries may require FOSS project contributions to satisfy their local export control regulations. This is described in more detail in [Technology Export Regulations Compliance](#technologyexportregulationscompliance).
 
-            5.  Whether the FOSS component has been or will be modified
+#### Information Classification
 
-            6.  A summary of any modifications
+Open source contributions for Company Moderated and Company Interest project categories must be reviewed and approved for publication prior to transmitting out of the Company network:
 
-            7.  Whether the FOSS will be distributed outside Company
+1.  Contributions must be associated to an inventoried FOSS project registered in the OSPO FOSS inventory.
+2.  Contributions containing material non-public information, non-standard cryptography (as defined in [Technology Export Regulations Compliance](#technologyexportregulationscompliance)), or non-standard authentication mechanisms must be remediated (e.g., have sensitive information removed) before approval.
 
-        3.  Whether the FOSS License List identifies the proposed use as
-            pre-approved for the component’s FOSS License.
+#### Cross Border Data Flows
 
-    2.  Security Review. The FOSS component shall be reviewed for
-        vulnerabilities.
+Many countries impose regulatory requirements governing the flow of personal data outside of their jurisdiction.
 
-        1.  The review shall be conducted according to standards
-            promulgated by Security defining which tools must be used
-            for automated security reviews, when review by Security is
-            necessary, and when a third-party audit is required.
+1.  These do not apply to FOSS contributions which include only the following activities:
+    1.  Contributing source code or documentation which has been classified by the Company as public prior to contribution,
+    2.  Participating in working group meetings with non-Company participants where the subject matter does not include Company internal business matters,
+    3.  The use of data classified by the Company as public.
+2.  These do apply to all other FOSS Contributions that do not qualify under those activities listed above including FOSS Contribution activities which contain data in the clear or data that is anonymized or de-identified. These activities must be approved prior to contribution.
 
-        2.  The security review shall include consultation of the
-            National Vulnerabilities Database (<https://nvd.nist.gov>)
-            for any listed vulnerabilities.
+#### Corporate Communications
 
-        3.  The Project Team must fix any critical vulnerabilities and
-            any other vulnerabilities required by Security before the
-            use may be approved.
+Company Moderated or Company Interest project engagements which result in press releases or other public announcements must be approved.
 
-    3.  FRB Review. If the proposed use is not pre-approved, the FRB
-        shall:
+#### Electronic Communications
 
-        1.  Identify the applicable FOSS License(s) and any other terms.
+The Company has a regulatory obligation to retain records of specific telephone conversations and electronic communications that relate to the reception, transmission and execution of client orders and proprietary trading, including communications that are intended to result in a business transaction, even if ultimately they do not.
 
-        2.  Perform a risk analysis of the proposed use, consisting of:
+Company Moderated, Company Interest and Personal Contribution project activities are general in nature. They must never discuss Company business and are therefore out of scope of these regulations.
 
-            1.  Identifying any significant legal, financial,
-                reputational, security, or strategic risks;
+Electronic communications conducted within the Company's network on Company managed hardware must use approved channels and must never discuss Company business.
 
-            2.  Identify any risk-mitigating measures that should be
-                taken if the use should be approved.
+Electronic communications conducted outside the Company's network on non-Company managed hardware are not subject to these restrictions but must never discuss Company business.
 
-        3.  Approve or reject the FOSS Use Report and update the request
-            to indicate its decision.
+#### Third-party Management
 
-            1.  If the request is approved, the FRB should include with
-                its approval any applicable compliance and
-                risk-mitigation instructions particular to the proposed
-                use. The FOSS component shall then be made available to
-                the Project Team via an Approved Channel.
+A third-party relationship refers to the provision of services or products or other ongoing business relationship between the Company and a third-party, as described within one or more legal agreements that specifically outline the products, services, and performance expectations of the third-party.
 
-            2.  FRB approval is limited to the version identified in
-                request. If the FOSS component is later upgraded or
-                modified, a new FOSS Use Report must be submitted. If
-                the FOSS License for the component has not changed, the
-                new version shall be subject to any pre-approval
-                applicable to the preceding use.
+1.  Company staff contributing to open-source communities is distinguishable from third-party performance and expectations therefore out of scope.
+2.  Company Moderated projects that rely on externally hosted repositories and tools to support contributions are in scope.
 
-2.  Compliance. Once a FOSS Use Report is approved, the Project Team
-    must observe the following requirements:
+<br /> 
 
-    1.  FOSS source code files must be maintained separately from
-        non-FOSS source code in a Source Code Management (SCM) system.
-        (I.e. source code may not be copied from FOSS files into
-        non-FOSS files, and FOSS files may not be copied into
-        directories containing non-FOSS files.)
+<a id="governanceactivities"></a>
 
-    2.  Project Team must implement all compliance & risk mitigation
-        requirements identified in the FOSS License List and by the FRB.
+### Governance Activities
 
-3.  Maintenance.
+:::warning
+FOSS projects must be reviewed and approved by the OSPO before contributions can be made. Company contributions are prohibited when the OSPO withdraws their approval, or the FOSS project is retired/archived. OSPO review does not apply to Personal Contributions (see [FOSS Project Categories](#fossprojectcategories)).
+:::
 
-    1.  Security shall monitor vulnerability notifications for each FOSS
-        component in use at Company and shall notify Project Teams of
-        vulnerabilities in the FOSS components they are using.
+#### FOSS License Inventory and Management
 
-    2.  When a critical security vulnerability is identified, the
-        Project Team must promptly upgrade to a patched version (if
-        available) or implement any mitigating actions required by
-        Security.
+Free and Open-Source licenses are a legal agreement between the author(s) and consumers which dictate the terms and conditions that come with the use, modification, and distribution of the software.
 
-    3.  If the FOSS component has been distributed to customers or third
-        parties, the FRB shall arrange for appropriate notice and
-        remediation support to be provided to any recipients that can
-        reasonably be identified.
+1.  The OSPO must maintain an inventory of FOSS licenses approved for contribution activity by the Company contributors.
+2.  The inventory must provide an auditable workflow of Legal review and Business approval or rejection of licenses for contribution activities detailing their Permissions, Conditions and Limitations.
+3.  Review and approval or rejection of licenses for contribution activities must address the risks described in [FOSS Contribution Risk](#fosscontributionrisk).
 
-# FOSS Modification Policy
+#### Company-Moderated and Company Interest (Major) Projects
 
-The FRB shall develop procedures governing the modification of FOSS by
-employees. In addition to the priorities identified in the preceding
-section governing FOSS use (strategy, compliance, and security), these
-procedures should promote the documentation of all Company modifications
-to FOSS and the contribution of modifications to upstream FOSS Projects
-where appropriate and consistent with Company’s FOSS strategy and all
-applicable FOSS Licenses. These procedures shall cover all modifications
-to FOSS, whether intended for use internally, or with hosted or
-distributed Company Software Products.
+##### Opportunity Assessment and Registration
 
-**Best Practice – FOSS Modification Procedures**
+1.  All requests to participate and contribute to FOSS projects must be logged in an OSPO-approved tool.
+2.  The OSPO must review and approve the conditions of the Foundation or community membership. This includes seeking Legal review and accepting any identified risks related to CLAs/CCLAs (if applicable).
+3.  The request must include an intellectual property and competing interest review, and determine if there is a need for a trademark or patent application prior to commencing contribution.
+4.  The request must include approval from a manager with budgetary control who can accept financial write-down of the works potentially being contributed.
+5.  If the project license is not approved in the inventory, the OSPO must seek Legal review and categorization of the license.
 
-1.  Modification Process. The process for making modifications to
-    third-party FOSS is as follows:
+##### OSPO Review and Decision
 
-    1.  Request. A Project Team modifying a third-party FOSS component
-        must submit a new FOSS Use Report to the FRB, including details
-        about the nature and purpose of the proposed modifications. If
-        the proposed modifications are not pre-approved, they must be
-        approved by the FRB before they may be used in production,
-        distributed, or contributed outside the Company.
+1.  The OSPO shall review requests and return a disposition based on advice from Legal and other SMEs where required.
+2.  The OSPO has decision-making authority over requests and must record its decision in the system of record.
 
-    2.  FRB Determination. The FRB shall review and approve or reject
-        the FOSS Use Report according to the procedures implementing the
-        FOSS Use Policy. The FRB should maintain a policy, available to
-        Project Teams, stating the expected review time for FOSS Use
-        Reports.
+##### Initiation
 
-    3.  Making the Modifications.
+FOSS projects may be supported by a stand-alone community or exist under a parent organization (for example, the Linux Foundation).
 
-        1.  Modifications must be tracked using an SCM system so that
-            the differences from the baseline FOSS component’s source
-            readily identifiable. The SCM system must capture the
-            identity of any employee making Contributions accurately in
-            a manner consistent with Company’s internal audit
-            requirements.
+1.  Where the project is managed under a parent organization, the OSPO will appoint a Foundation Administrator to maintain the Company's relationship with the parent organization in good order and in compliance with the organization's charter.
+2.  Once the Foundation relationship has been established, the Foundation Administrator must appoint a FOSS Project Administrator to maintain the Company's relationship with the project(s) in good order. This includes compliance with its charter and license requirements.
+3.  For stand-alone FOSS projects that are not maintained under a parent organization, the OSPO will appoint a Non-Foundation Administrator who will oversee governance of all projects of this type. The Non-Foundation Administrator must appoint a FOSS Project Administrator to establish and maintain the Company's relationship with the project(s) in good order.
 
-        2.  If required by the applicable FOSS License(s), the Project
-            Team must include appropriate notice in the source code
-            stating that the FOSS has been modified and, if required,
-            describing the modifications.
+##### Maintenance
 
-    4.  Building the Modified FOSS. If applicable, the modified FOSS
-        component should be built using standard tools. If a custom
-        process or custom tools are required, the Project Team must
-        provide the infrastructure team documentation on the process,
-        tools, and their maintenance.
+1.  FOSS Foundation Administrators, Non-Foundation Administrators, Project Administrators, and related staff must monitor their engagements for relevant risk changes (e.g., inactive projects, license changes, cross-border impacts, export regulation changes etc.).
+2.  Potential changes in risk must be captured in the FOSS inventory upon identification, and the responsible Project Administrator must engage the relevant SMEs (e.g., Legal, Cross-Border etc.) for an impact assessment of the change.
+3.  An OSPO review must be conducted when a potential change in risk has been captured in the FOSS inventory The disposition and actions taken must be recorded in the FOSS inventory.
+4.  The OSPO must ensure all FOSS engagements are reviewed by the appointed FOSS Foundation Administrators, Non-Foundation Administrators or Project Administrators at least annually to identify material risk changes to the status of the FOSS engagement. The disposition and actions taken must be recorded in the FOSS Inventory.
+5.  Foundation Administrators must prepare retirement/migration requests for FOSS projects we wish to transition. These must be reviewed by the OSPO, and the disposition and actions taken must be recorded in the FOSS Inventory.
 
-2.  Compliance. Modifications to FOSS are subject to the compliance
-    requirements described in the FOSS Use Procedures, as well as any
-    additional requirements applicable to modifications, as identified
-    by the FRB or the applicable FOSS License.
+##### Transition/Retire
 
-3.  Maintenance. The modified FOSS is subject to the maintenance
-    requirements described in the FOSS Use Procedures. When contributing
-    the modifications to the originating FOSS Project would ease
-    maintenance and be consistent with Company’s FOSS strategy, Project
-    Teams should be encouraged to submit a FOSS Contribution Request.
+1.  A decision to disengage from a FOSS project, FOSS Foundation or open source community must be reviewed and approved by the OSPO.
+2.  An effective date must be agreed upon and recorded in the FOSS inventory having been petitioned by the stakeholder.
+3.  On determining that the Company no longer has an interest in a Company Moderated project, the project must either be transitioned to a non-Company community for on-going maintenance or archived. The conduct of these activities must avoid brand and reputational risk to the Company.
+4.  Administrators of retired FOSS Foundations and projects must ensure entitlements are removed from OSPO-approved tooling to ensure contribution cannot be conducted using the Company infrastructure on the agreed effective date.
 
-# FOSS Contribution and Publication Policy
+##### Closed
 
-The FRB shall develop procedures governing (i) employee Contributions of
-code and other materials to third-party FOSS Projects and (ii)
-publication of Company Software Products under FOSS Licenses. These
-procedures should promote the strategic, compliance, and security
-priorities identified in the FOSS Use Policy.
+The open source engagement or project must be successfully transitioned or retired on the agreed effective date and closure recorded in the FOSS inventory.
 
-**Best Practice – FOSS Contribution and Publication Procedures**
+#### Company Interest (Minor) Projects
 
-All employee Contributions to third-party FOSS Projects must be approved
-in advance by the FRB, either specifically or because it is
-pre-approved. Likewise, any publication of a Company Software Product,
-in whole or in part, under a FOSS License, must be approved in advance
-by the FRB.
+##### Opportunity Assessment and Registration
 
-If a proposed Contribution consists of modifications to an existing
-third-party FOSS Project, those modifications must be approved as
-described in the FOSS Modification Procedures before the FOSS
-Contribution Request may be approved.
+1.  Requests by any Company employee for access to contribute to a Company Interest (Minor) FOSS project must be submitted and recorded using an OSPO-approved tool.
+2.  Contributions to Company Interest (Minor) do not require explicit OSPO approval if the FOSS product is approved for use by Company applications in the Company's official third-party product inventory, and the Open Source license associated with the FOSS project is present in the OSPO license inventory system and is approved for contribution.
+3.  Company Interest (Minor) Projects may not be used to publish the Company patentable or trademarked contributions.
+4.  The FOSS project access request must be classified as Company Interest (Minor) and address the requirements appropriate to the FOSS Project category.
+5.  The requestor's line manager must approve the access request using the OSPO-approved tool, and must ensure the following requirements are met:
+    1.  The FOSS product is approved for use by the Company applications in the Company's official product inventory.
+    2.  It is beneficial to the Company to allow the requestor to contribute to the project (for example, the project is used in a business application developed by the requestor).
+    3.  If the project requires contributors to agree to a Contributor License Agreement, Developer Certificate of Origin, or similar agreement, Legal must be engaged via the OSPO for advice.
+    4.  Performing an intellectual property and competing interest review to determine the need for a trademark or patent application prior to commencing contribution.
 
-1.  Contribution Request Process.
+##### OSPO Review and Decision
 
-    1.  FOSS Contribution Request. The Project Team must submit a FOSS
-        Contribution Request via the FOSS Request System, including the
-        following information:
+1.  Contribution access requests to FOSS projects must be associated to an approved license in the OSPO license inventory.
+2.  The OSPO has decision-making authority over access requests and must record its decision in the system of record if appropriate.
 
-        1.  If the proposed Contribution consists of modifications to a
-            third-party FOSS Project:
+##### Maintenance
 
-            1.  a link to the approved FOSS Use Report; and
+1.  Project access requests must be recertified at least annually.
+2.  The project's open source license must be validated regularly to identify, record, and re-assess the impact license changes.
 
-            2.  links to information about the FOSS Project’s
-                contribution requirements, including any contributor
-                license agreements.
+<a id="transitionretire"></a> 
 
-        2.  If the proposed Contribution is of a Company Software
-            Product (in whole or in part):
+##### Transition/Retire
 
-            1.  The name and version (if applicable) of the Software
-                Product;
+FOSS contribution projects and any associated access requests configured in the OSPO-approved tooling must be decommissioned within 3 months of that project being retired or archived from its public repository or the Company's official product inventory.
 
-            2.  A description of the Contribution’s functionality;
+#### Personal Contribution Projects
 
-            3.  The Contribution’s relationship to any Company Software
-                Products;
+Company employees may contribute to FOSS projects in a personal capacity under the following conditions:
 
-            4.  A list of the Contribution’s dependencies, including on
-                FOSS, third-party proprietary, and Company proprietary
-                components; and
+1.  The FOSS project is not registered as a Company Moderated or Company Interest project in the FOSS Inventory.
+2.  Contribution to the project and engagement with the project community does not conflict with the code of conduct.
+3.  Contribution to the project and engagement with the project community must not represent a conflict of interest with Company business.
+4.  Contribution to the project and engagement with the project community must not leverage Company intellectual property.
+5.  Contribution to the project and engagement with the project community must adhere to use of social media guidelines.
+6.  Contributors may not represent themselves as Company employees.
+7.  Contributions must not be made from Company-owned hardware or infrastructure.
 
-            5.  The location of the internal SCM repository where the
-                proposed Contribution is maintained.
+<a id="technologyexportregulationscompliance"></a> 
 
-        3.  The Project Team’s rationale for the Contribution, including
-            a description of any associated benefits and risks.
+#### Technology Export Regulations Compliance
 
-        4.  The proposed contributors, including their names and (if
-            applicable) the GitHub ID or other account under which they
-            will make the Contribution.
+1.  Company-Moderated, Company Interest projects which provide or perform non-standard [\[1\]](#footnote-1) cryptography must be reviewed prior to OSPO approval (see [Technology Export/Import Regulations](#technologyexportimportregulations)).
+2.  Company staff participating in FOSS contribution activities must comply with local export regulations.
 
-    2.  FOSS Review Board review. The FRB will review the FOSS
-        Contribution Request and make a determination. In evaluating a
-        request, the FRB must consider the following risk factors:
+<a id="contributionactivities"></a>
 
-        1.  The potential impact on proprietary Company intellectual
-            property, including any:
+### Contribution Activities
 
-            1.  Reciprocal (i.e. copyleft) licensing requirements in the
-                applicable FOSS License(s);
+1.  For all contribution activities which occur from within the Company network or on Company managed hardware, OSPO approved controls must be implemented to mitigate the risks described in [FOSS Contribution Risk](#fosscontributionrisk).
+2.  FOSS contributions made from Company managed hardware or executed on the Company's network must use Company approved tools.
+3.  FOSS Contributions made from non-Company hardware outside of the Company's network are not restricted to the use of tools.
 
-            2.  Trade secrets that may be divulged as a result of the
-                Contribution; or
+#### Company Moderated Projects
 
-            3.  Patented or patentable inventions that may be published
-                or licensed as a result of the Contribution.
+1.  A FOSS Project team must be established consisting of the roles defined in [Roles & Responsibilities](#rolesandresponsiilities).
+2.  The FOSS Project Team must define and document OSPO approved instructions describing how to report security vulnerabilities in the project [\[2\]](#footnote-2).
+3.  Projects which are no longer moderated by a Company employee must be transitioned to Company Interest or Retired following the process described in Section [Transition/Retire](#transitionretire).
 
-        2.  Improper disclosures, including of:
+#### Company Interest (Major) Projects
 
-            1.  Third-party proprietary source code or other materials;
+1.  A FOSS Project team must be established consisting of the applicable roles defined in [Roles & Responsibilities](#rolesandresponsiilities).
+2.  Activities must follow the contribution processes established by the project community.
 
-            2.  Materials restricted by non-disclosure agreements and
-                similar covenants;
+#### Company Interest (Minor) Projects
 
-            3.  Personally identifiable information of customers,
-                employees, or others;
+Activities must follow contribution processes established by the project community.
 
-            4.  Other regulated information; or
+<a id="training"></a>
 
-            5.  Sensitive company data, including private keys,
-                passwords, or proprietary datasets.
+## Training
 
-        3.  The potential impact on the competitiveness of any Company
-            Software Product.
+Company staff participating in FOSS contribution activities as defined in these guidelines are required to complete an annual training class to demonstrate knowledge of these guidelines and associated governance consistent with their role.
 
-        4.  The potential impact on existing or prospective revenue
-            sources, including from software licensing.
+<a id="rolesandresponsiilities"></a> 
 
-        5.  The potential for reputational harm, including from issues
-            with the contributed materials, the Company’s subsequent
-            interactions with the FOSS community, and similar issues.
+## Roles & Responsibilities
 
-    3.  FRB Approval. When the FRB approves a request, it should
-        consider whether to pre-approve similar or related requests, as
-        provided for in [???](#Implementation).
+Roles and responsibilities for these guidelines include:
 
-2.  Pre-Contribution Requirements.
+| **Role** | **Project Category** | **Responsibility** |
+| --- | --- | --- |
+| Open Source Program Office (OSPO) <br /> <br /> (Chair/Members) | Company Moderated <br /> <br /> Company Interest (Major) <br /> <br /> Company Interest (Minor) | Committee responsible for maintaining the Open Source Contribution guidelines. |
+| Line Manager | Company Interest (Minor) | Approver of Company Interest Minor FOSS contribution requests via OSPO tooling. |
+| FOSS Project Moderator or Maintainer | Company Moderated <br /> <br /> Company Interest (Major) | <p>Establishing and ensuring the community adheres to:</p><ul><li>The OSPO approved community code of conduct, and</li><li>Formal contribution processes which can include defining other community activities and pull request approvals.</li></ul> |
+| FOSS Sponsor | Company Moderated <br /> <br /> Company Interest (Major) | Responsible for sponsoring the project including a documented business case, financial commitment and budget approval, intellectual property and competing interest review, and determining a need for trademark or patent applications. |
+| FOSS Contributor| Company Moderated <br /> <br /> Company Interest (Major) <br /> <br /> Company Interest (Minor) | A FOSS community term which refers to any person who contributes to a FOSS project in any capacity. Under the terms of these guidelines, it is specific to Company employees contributing to FOSS projects. |
+| FOSS Project Administrator | Company Moderated <br /> <br /> Company Interest (Major) | Ensuring the control requirements of these guidelines are met and evidenced for their FOSS project(s) |
+| FOSS Foundation Administrator | Company Moderated <br /> <br /> Company Interest (Major) | Ensuring the control requirements of these guidelines are met and evidenced for the Company's membership of FOSS Foundations. |
 
-    1.  Development. A proposed Contribution must be prepared in an
-        internal SCM tool.
+*Table 2: Roles*
 
-    2.  Legal.
+<a id="legalsupport"></a>
 
-        1.  Any contributor license agreement or other legal attestation
-            required for contributors to the FOSS Project must be
-            reviewed and approved by Legal (unless Contributions to the
-            FOSS Project have been previously approved and no additional
-            signatures/approvals are required).
+## Legal Support
 
-        2.  All intellectual property rights in the Contribution that
-            are held by any Company entity must be transferred to the
-            Contributing Entity.
+Free and Open-Source licenses are legal agreements between the author(s) and consumers. The OSPO maintains an inventory of FOSS licenses approved for contribution activity by Company contributors. The legal department's role is advisory to the OSPO. The OSPO engages legal as needed when adding a new license to the inventory, when changes occur to an existing license, when project contributors must first agree to a Contributor License Agreement, Developer Certificate of Origin, or similar agreement. Legal review activities and disposition will be captured and timestamped by the OSPO.
 
-    3.  Attribution. The Contribution must identify the company as the
-        Contribution’s copyright owner, where and as appropriate. The
-        Project Team members may be credited as the developers, where
-        and as appropriate.
+<br /> 
 
-    4.  Compliance. The Contribution must comply with the FOSS Project’s
-        policies, procedures, and codes of conduct, as well as with
-        Company policy. If there is a conflict among these, the
-        contributor must seek a resolution from the FRB before
-        proceeding.
+<a id="appendix"></a>
 
-    5.  Peer Review. After the FRB has approved a proposed Contribution
-        and before the Contribution is made, it must be reviewed by a
-        developer or manager familiar with this Policy. The peer
-        reviewer must determine that the Contribution:
+## Appendix A - Glossary 
 
-        1.  does not include any Company IP not approved by the FRB for
-            Contribution;
+| **Term** | **Definition** |
+| --- | --- |
+| Contributor License Agreement (CLA) | A contract between the FOSS project and either an individual developer or the company contributing code. CLAs may be categorized as Individual CLAs or Corporate CLAs (CCLA). |
+| Individual CLA | An individual developer agrees they have the right to contribute code and binds their contributions to the FOSS project under the terms of the CLA. |
+| Corporate CLA | Provide direct corporate authority for employees of a company to make contributions with explicit authority for a patent grant in an open source license. Corporate CLAs must be signed by an authorized signatory to be valid. |
+| Developer Certificate of Origin (DCO) | A per commit sign-off made by a contributor indicating they agree to the terms published at <a href="https://developercertificate.org">https://developercertificate.org</a> for that particular contribution. |
+| FOSS Community | Free and Open Source Software (FOSS); Free from most constraints on copyrights and cost. Software is made available under an Open Source Definition (OSD) compliant license in source code form to facilitate modification. "FOSS" and "Open Source" are interchangeable. <br /> <br /> A FOSS Community is group of authorized individuals with contribution/review entitlement to a FOSS project. The FOSS project can be organized as part of a foundation or for-profit entity (e.g., corporation).|
+| (The) Open Source Definition (OSD) | A document published by the <a href="https://opensource.org/about">Open Source Initiative</a> (OSI) used to determine if a license can be labeled with the Open Source Certification mark. |
+| Open Source Foundation (Organizations) | Not for profit and charitable organizations providing a neutral playing field for developers, technologists, and companies to collectively contribute to common solutions and growth. Notable foundations include The Apache Software Foundation, Cloud Native Computing Foundation, Eclipse Foundation, Free Software Foundation, Mozilla Foundation, and the Open Source Initiative. |
 
-        2.  does not include any confidential Company or third-party
-            information;
-
-        3.  does not include any other sensitive information;
-
-        4.  includes any compliance information required by the FOSS
-            License List or FRB;
-
-        5.  includes any required Company notices;
-
-        6.  conforms to the Company’s code of conduct and policies for
-            FOSS Contributions; and
-
-        7.  is consistent with the FOSS Project’s policies and code of
-            conduct.
-
-3.  Contribution. Contributions to public source code repositories must
-    be made from a user account (e.g. GitHub ID) associated with the
-    contributing Project Team member in the FOSS Records System. Any
-    copyright attribution must be to the Company.
-
-4.  Publication of Company Software Products. Any publication of a
-    Company Software Product under a FOSS License is subject to the
-    above requirements applicable to Contributions. In addition, before
-    publication of the Company Software Product, Finance must determine
-    whether any corresponding adjustment should be made to the Company
-    books, for example to reduce the investment cost of the Company
-    Software Product. It must then make any such adjustment before the
-    Company Software Product may be published.
-
-5.  Individual (“off-the-clock”) Contributions. If an employee produces
-    a Contribution on their own time and with their own hardware and
-    resources, and that does not constitute company property under the
-    employee’s IP assignment agreement, the Contribution is governed by
-    the Outside Business Dealings policy and subject to any applicable
-    approvals thereunder. Such Contributions should be made in the
-    employee’s own name and without reference to the Company.
-
-# General
-
-1.  Exceptions. Any exception to this Policy must be made in writing and
-    approved by the FRB.
-
-2.  Questions. Any questions regarding compliance with this Policy
-    should be directed to the FRB.
-
-3.  Ownership. This Policy is owned by the FRB.
-
-4.  Related Policies. The following Company policies may also be
-    applicable to various aspects of the use, modification,
-    contribution, and publication of FOSS as described in this Policy
-    and associated procedures:
-
-    1.  Code of Conduct
-
-    2.  Intellectual Property
-
-    3.  Technology Acquisition
-
-    4.  Social Media
-
-    5.  Business Process Change Management
-
-    6.  Information Security
-
-    7.  Information Classification
-
-    8.  Electronic Communications
-
-    9.  Software Development & Maintenance
-
-    10. Software and IT Infrastructure Development Lifecycle
-
-    11. Source Control Management
-
-    12. Secure Coding
-
-# Definitions
-
-As used in this Policy and associated procedures, the following terms
-have the meanings given below:
-
-Approved Channel  
-A software acquisition channel providing access to software artifacts
-approved by Company for use in Software Products.
-
-Company Software Product  
-Software originally developed wholly or primarily by Company.
-
-Contribution  
-Materials (including software source code, documentation, media assets,
-and other digital content) submitted for inclusion in a FOSS Project.
-
-Contributing Entity  
-The Company entity or affiliate that effects a Contribution.
-
-Free and Open Source Software (FOSS)  
-Software (including source code, executable files, documentation, media
-assets, and other digital content) licensed under the terms of a FOSS
-License.
-
-FOSS License  
-A license listed as an Open Source License by the [Open Source
-Initiative](https://opensource.org/licenses/) or as a Free Software
-License by the [Free Software
-Foundation](https://www.gnu.org/licenses/license-list.en.html).
-
-FOSS Project  
-A collaborative software-development effort undertaken by one or more
-individuals or entities.
-
-FOSS Request  
-A FOSS Use Report or FOSS Contribution Request.
-
-FOSS Contribution Request  
-A request by an employee or Project Team to make a Contribution to an
-external FOSS Project or to publish a Software Product as FOSS.
-
-FOSS Use Report  
-A request by an employee or Project Team to use third-party FOSS on
-Company hardware or incorporate third-party FOSS into a Software
-Product.
-
-FOSS Request System  
-An internal system for submitting, discussing, and resolving FOSS
-Requests.
-
-FOSS Review Board  
-The interdepartmental committee defined in the
-[???](#Roles and Responsibilities) section of this Policy.
-
-FOSS Training Program  
-The training program described by the [???](#Implementation) section of
-this Policy.
-
-[1] [“Risk Management of Free and Open Source
-Software”](https://www.fdic.gov/news/news/financial/2004/fil11404a.html)
-issued by the Federal Financial Institutions Examination Council
-(FFIEC), October 2004.
+*Table 3: Glossary*
