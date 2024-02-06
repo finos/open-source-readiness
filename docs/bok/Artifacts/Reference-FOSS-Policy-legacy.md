@@ -2,16 +2,15 @@
 authors:
   - name: Aaron Williamson
   - url: https://github.com/copiesofcopies
-title: "Reference FOSS Policy"
+title: 'Reference FOSS Policy'
 tags:
   - Legal (Role)
-sidebar_label: Policy (Reference)
+sidebar_label: Policy (Legacy Reference)
 ---
-
 
 <BoxOut title="Warning: Possibly out-of-date" image="/img/bok/roles/ospo.png">
 
-This is content originally from the [FINOS Reference FOSS Policy Project](https://github.com/finos/reference-foss-policy) which has not been updated recently.  Feel free to suggest edits.
+This is content originally from the [FINOS Reference FOSS Policy Project](https://github.com/finos/reference-foss-policy) which has not been updated recently. Feel free to suggest edits.
 
 </BoxOut>
 
@@ -645,56 +644,56 @@ Contribution Request may be approved.
 As used in this Policy and associated procedures, the following terms
 have the meanings given below:
 
-Approved Channel  
+Approved Channel
 A software acquisition channel providing access to software artifacts
 approved by Company for use in Software Products.
 
-Company Software Product  
+Company Software Product
 Software originally developed wholly or primarily by Company.
 
-Contribution  
+Contribution
 Materials (including software source code, documentation, media assets,
 and other digital content) submitted for inclusion in a FOSS Project.
 
-Contributing Entity  
+Contributing Entity
 The Company entity or affiliate that effects a Contribution.
 
-Free and Open Source Software (FOSS)  
+Free and Open Source Software (FOSS)
 Software (including source code, executable files, documentation, media
 assets, and other digital content) licensed under the terms of a FOSS
 License.
 
-FOSS License  
+FOSS License
 A license listed as an Open Source License by the [Open Source
 Initiative](https://opensource.org/licenses/) or as a Free Software
 License by the [Free Software
 Foundation](https://www.gnu.org/licenses/license-list.en.html).
 
-FOSS Project  
+FOSS Project
 A collaborative software-development effort undertaken by one or more
 individuals or entities.
 
-FOSS Request  
+FOSS Request
 A FOSS Use Report or FOSS Contribution Request.
 
-FOSS Contribution Request  
+FOSS Contribution Request
 A request by an employee or Project Team to make a Contribution to an
 external FOSS Project or to publish a Software Product as FOSS.
 
-FOSS Use Report  
+FOSS Use Report
 A request by an employee or Project Team to use third-party FOSS on
 Company hardware or incorporate third-party FOSS into a Software
 Product.
 
-FOSS Request System  
+FOSS Request System
 An internal system for submitting, discussing, and resolving FOSS
 Requests.
 
-FOSS Review Board  
+FOSS Review Board
 The interdepartmental committee defined in the
 [???](#Roles and Responsibilities) section of this Policy.
 
-FOSS Training Program  
+FOSS Training Program
 The training program described by the [???](#Implementation) section of
 this Policy.
 
