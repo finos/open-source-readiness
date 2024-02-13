@@ -25,6 +25,24 @@ function DocItemImage({doc}) {
   
 function DocItem({doc}) {
     return (
+      <article className="margin-vert--lg">
+      	<div className={styles.columns}>
+	      	<div className={styles.left}>
+	        	<img src={doc.frontMatter.image} className={styles.articleImage} />
+	        </div>
+	      	<div className={styles.right}>
+		        <Link to={doc.permalink}>
+		          <h3>{doc.title}</h3>
+		        </Link>
+		        {doc.description && <p>{doc.description}</p>}
+		     </div>
+	     </div>
+      </article>
+    );
+  }
+  
+function DocItem({doc}) {
+    return (
       <article className="margin-vert--lg" key={doc.id}>
         <Link key="link" to={doc.permalink}>
           <h3>{doc.title}</h3>
