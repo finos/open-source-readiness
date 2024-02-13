@@ -56,7 +56,7 @@ export default function BokTagList(props) {
             {
                oneTag
                 .filter(d => d.permalink.indexOf(filter) > -1) 
-                .filter(d => d.permalink.indexOf(location) == -1)
+                .filter(d => d.permalink != location)
                 .map(d => addImages ? <DocItemImage key={d} doc={d} /> : <DocItem key={d} doc={d} />)
             }
         </div>
