@@ -53,7 +53,7 @@ module.exports={
       "items": [
 		  {
 			  "label": "Open Source Readiness",
-			  "to": "/OpenSourceReadiness",
+			  "to": "/docs/bok/Introduction",
 			  "position": "right",
 		  },
 		  {
@@ -63,7 +63,7 @@ module.exports={
 		  },
 		  {
 			  "label": "Strategy",
-			  "to": "/Strategy",
+			  "to": "/docs/tags/strategy",
 			  "position": "right",
 		  }
       ]
@@ -122,7 +122,7 @@ module.exports={
           "items": [
             {
               "label": "OSR Meetings",
-              "to": "/OpenSourceReadiness#how-do-i-get-involved"
+              "to": "/docs/bok/Introduction#how-do-i-get-involved"
             },
             {
               "label": "InnerSource Meetings",
