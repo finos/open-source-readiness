@@ -5,6 +5,7 @@ sidebar_position: 5
 tags:
   - Level 5 (OSMM)
   - OSMM
+  - Strategy
 image: /img/bok/maturity/strategy.png
 ---
 

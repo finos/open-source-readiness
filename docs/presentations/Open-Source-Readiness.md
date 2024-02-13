@@ -6,6 +6,7 @@ sidebar_position: 2
 slug: /osr-resources/presentation
 tags:
  - Presentation
+ - Strategy
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>

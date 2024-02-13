@@ -5,6 +5,7 @@ tags:
   - CEO (Role)
   - CTO (Role)
   - Level 5 (OSMM)
+  - Strategy
 checklist: 
   - title: Something
     description: This is a very long guy on a line
