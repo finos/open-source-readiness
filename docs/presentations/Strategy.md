@@ -11,7 +11,7 @@ tags:
 <link href="/css/presentation/web.css" rel="stylesheet"></link>
 
 <Bio name="Victor Lu" image="/img/people/victor-lu.png" organisation="independent">
-Presentation by Victor Lu to FINOS OSR SIG on Feb 7 2024. 
+Presentation by Victor Lu and Rob Moffat to FINOS OSR SIG on Feb 7 2024. 
 </Bio>
 
 <div class="slides">
