@@ -4,6 +4,7 @@ sidebar_label: Introduction
 sidebar_position: 0
 tags: 
   - Introduction
+image: /img/bok/page-types/activity.png
 ---
 
 This section describes common activities performed by staff involved in the consumption or contribution of open source software.  Where possible, we identify the [role](../Roles/Introduction.md) performing this activity.

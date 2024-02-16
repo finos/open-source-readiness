@@ -4,6 +4,7 @@ sidebar_label: Introduction
 sidebar_position: 0
 tags: 
   - Introduction
+image: /img/bok/page-types/role.png
 ---
 Different roles within a firm have varying responsibilities towards the effective management of open source software. 
 

@@ -4,6 +4,8 @@ sidebar_label: Introduction
 sidebar_position: 0
 tags: 
   - Introduction
+image: /img/bok/page-types/regulation.png
+
 ---
 
 This section of the body of knowledge looks at the different laws that might apply to the consumption or contribution of open source within regulated industries.  

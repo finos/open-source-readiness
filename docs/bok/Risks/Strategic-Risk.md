@@ -4,6 +4,7 @@ tags:
   - Developer (Role)
   - CIO/CTO (Role)
   - Placeholder
+image: /img/bok/risks/strategic-risk.png
 ---
 
 <BoxOut title="Strategic Risk" image="/img/bok/risks/strategic-risk.png">
