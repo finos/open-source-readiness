@@ -70,7 +70,7 @@ Peter Smulovics is an Executive Director of Enterprise Application Infrastructur
 </Bio>
 
 <Bio name="Thomas Cooper" organisation="RBC" image="/img/people/thomas-cooper.jpeg">
-Director, Open Source Software Development
+Thomas Cooper is the Director, OSPO and part of the Developer Advocacy group at Royal Bank of Canada. He began his IT career in network operations at IBM in 2011 and joined RBC in 2013. With over a decade of industry experience in the financial sector, he has been a platform engineering lead, application developer, systems architect and community leader & champion for open source, InnerSource and cloud native technologies. In addition to his technical expertise, he has lead various community efforts for improving developer experience & productivity at RBC. He is passionate about improving the lives of others, high-quality & robust software, and building tools that are a joy to use. 
 </Bio>
 
 ### Executive Sponsors
