@@ -6,6 +6,7 @@ tags:
   - Introduction
   - Training
   - Placeholder
+image: /img/bok/page-types/training2.png
 ---
 
 This section of the body of knowledge looks at the available training on open source.

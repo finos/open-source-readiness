@@ -3,6 +3,7 @@ title: Staff Risk
 tags: 
   - HR/Training (Role)
   - CIO/CTO (Role)
+image: /img/bok/risks/staff-risk.png
 ---
 
 <BoxOut title="Staff Risk" image="/img/bok/risks/staff-risk.png">
