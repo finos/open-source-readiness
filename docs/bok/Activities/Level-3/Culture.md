@@ -10,7 +10,7 @@ tags:
 sidebar_position: 8
 sidebar_label: Culture
 authors:
-  - name: Vicki Chung3
+  - name: Vicki Chung
   - name: Rob Moffat
   - name: Rhyddian Olds
   - name: Andy Smith

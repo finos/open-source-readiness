@@ -70,7 +70,7 @@ Peter Smulovics is an Executive Director of Enterprise Application Infrastructur
 </Bio>
 
 <Bio name="Thomas Cooper" organisation="RBC" image="/img/people/thomas-cooper.jpeg">
-Director, Open Source Software Development
+Thomas Cooper is the Director, OSPO and part of the Developer Advocacy group at Royal Bank of Canada. He began his IT career in network operations at IBM in 2011 and joined RBC in 2013. With over a decade of industry experience in the financial sector, he has been a platform engineering lead, application developer, systems architect and community leader & champion for open source, InnerSource and cloud native technologies. In addition to his technical expertise, he has lead various community efforts for improving developer experience & productivity at RBC. He is passionate about improving the lives of others, high-quality & robust software, and building tools that are a joy to use. 
 </Bio>
 
 ### Executive Sponsors
@@ -78,7 +78,7 @@ Director, Open Source Software Development
 In 2023, FINOS aims to productize Open Source Readiness with new trainings and certification. The following are the FINOS board executive sponsors of this strategy:
 
 <Bio name="Rhyddian Olds" organisation="Citi" image="/img/people/Rhyddian-Photo-Circle.webp">
-Rhyddian is the Head of UI and Services for Citi’s institutional business, driving innovation in client and non-client facing UI applications.  In previous roles at JP Morgan and Deutsche Bank he led major transformational programs to create modern Digital UI Platforms including the acclaimed Autobahn Platform.  He led the first open source project contribution by Deutsche Bank to the brand new FINOS organisation and went on to serve as the FINOS board director for all three of these Platinum members.  <br /><br /> Since joining Citi two years ago, Rhyddian established and now leads Citi’s global Open Source Program Office which promotes open source contribution as an inclusive development pathway for all technology employees. As a passionate advocate of the Diversity, Equity and Inclusion and the benefits of open source contribution, Rhyddian is the FINOS executive sponsor of the FINOS Diversity, Equity and Inclusion and Open Source Readiness Special Interest Groups.</Bio>
+In previous roles at JP Morgan and Deutsche Bank Rhyddian led major transformational programs to create modern Digital UI Platforms including the acclaimed Autobahn Platform.  He led the first open source project contribution by Deutsche Bank to the brand new FINOS organisation and went on to serve as the FINOS board director for all three of these Platinum members.  <br /><br /> Since joining Citi two years ago, Rhyddian established and now leads Citi’s global Open Source Program Office which promotes open source contribution as an inclusive development pathway for all technology employees. As a passionate advocate of the Diversity, Equity and Inclusion and the benefits of open source contribution, Rhyddian is the FINOS executive sponsor of the FINOS Diversity, Equity and Inclusion and Open Source Readiness Special Interest Groups.</Bio>
 
 <Bio name="Chris Stevenson" organisation="UBS" image="/img/people/chris-stevenson.jpeg">
 Head of Strategy and Architecture, Execution and Platform Technology
@@ -135,8 +135,8 @@ When he's not working to help development teams he can usually be found in the k
 Mimi Flynn is a member of the OSPO team as a Vice President at Morgan Stanley. As a kid, she picked up BASIC via an Atari 800 leading her to a career in technology spanning the last two decades. In addition to her OSPO work, she gives back by teaching kids to code via Morgan Stanley’s Tech Philanthropy Tech Education programs. Outside of the office, she furthers her commitment to open source software with The Things Network New York, a non-profit that facilitates a community run IoT network, where she has served as a board member since 2018. Additionally, Mimi has been serving Secretary of Manhattan Community Board 1 where she has been a full board member since 2019 sitting on the Transportation, Quality of Life, and Executive committees.
 </Bio>
 
-<Bio name="Neetu Jain" organisation="JP Morgan" image="/img/people/neetu.jpeg">
-Neetu Jain is an Executive Director of Product at JP Morgan Chase, As part of JPMC’s  public cloud enablement effort she focuses on delivering scalable cloud networking solutions to improve developer productivity and to provide exceptional customer experiences while keeping the firm secure and compliant. Prior to her current role, Neetu career has spanned over companies like HP, IBM, USAA, Thomson Reuters as an engineer as well as Product. She got interested in Open Source at IBM as an engineer ( started her github repo, even contributed a PR to OpenStack once😊) but got to experience managing  open source governance and programs as a IT product at USAA. Neetu strongly believes product professionals ( like engineers and tech writers) have a lot to offer to open source world, She has also contributes her product skills  to Ortelius (CD foundation) project as time permits.
+<Bio name="Neetu Jain" organisation="JP Morgan Chase" image="/img/people/neetu.jpeg">
+"Neetu Jain is an Executive Director of Product at JP Morgan Chase, As part of JPMC’s public cloud enablement effort she focuses on delivering scalable cloud networking solutions to improve developer productivity and to provide exceptional customer experiences while keeping the firm secure and compliant. Prior to her current role, Neetu's career has spanned over multiple companies like HP, IBM, USAA, Thomson Reuters as an engineer as well as product professional.  She got interested in Open Source at IBM as an engineer (even contributed a PR to OpenStack once😊) but got to experience managing open source governance products and programs as an IT product leader at USAA.  Neetu strongly believes product professionals ( like engineers and tech writers) have a lot to offer to open source world.  She has also contributed her product skills to Ortelius (CD foundation) project in the past."
 </Bio>
 
 <Bio name="Katrina Novakovic" organisation="Citi" image="/img/people/katrina.jpeg">
@@ -147,6 +147,10 @@ Katrina has worked with organisations globally across different industries to st
 Based in London, Jamie Slome is the Operations Lead for Citi's Open Source Program Office (OSPO). He is responsible for implementing developer tooling that supports Citi's open source contribution initiatives and spearheads the expansion of the Open Source Program Office (OSPO). Prior to this, he co-founded and served as Chief Technology Officer at <a href="https://huntr.dev">huntr.dev</a> (<a href="https://uk.finance.yahoo.com/news/protect-ai-acquires-huntr-launches-130300083.html">acquired by ProtectAI</a>), a vulnerability management and responsible disclosure platform for world-renowned open source libraries include <a href="https://github.com/vim/vim">vim</a>, <a href="https://github.com/jgraph/drawio">draw.io</a> and <a href="https://github.com/nuxt">Nuxt.js</a>. Additionally, Jamie is the lead maintainer of <a href="https://github.com/finos/git-proxy">Git Proxy</a>, a highly configurable framework allowing developers and organizations to enforce customized push protections and policies on top of Git.
 </Bio>
 
+<Bio name="Gilles Gravier" organisation="Wipro" image="/img/people/no-headshot.png">
+ Gilles is an open source and inner source strategy advisor. He works with his clients to allow them to reap the maximum benefits from their open source and inner source activities by creating, or enhancing their open source or inner source strategy, and then driving its implementation over time. He has worked with multiple financial services organizations across the globe, as well as governmental organizations such as State Administration of Geneva, or Oman.
+ </Bio>
+
 <Bio name="Sally Ellard" organisation="Deutsche Bank" image="/img/people/no-headshot.png">
 TBC
 </Bio>
@@ -155,12 +159,8 @@ TBC
 Director, Open Source Lead
 </Bio>
 
-<Bio name="Pooi Cheong" organisation="Lloyds Bank" image="/img/people/pooi.jpeg">
+<Bio name="Pooi Ling Cheong" organisation="Lloyds Banking Group" image="/img/people/pooi.jpeg">
 Pooi is the Open Source Program Office lead at Lloyds Banking Group. She strongly believes that Open Source is the key to unlocking potential to transform the organisation, supporting the Bank’s purpose of Helping Britain Proper through bringing together different communities to deliver the solutions that provides the best experience for its customers.
-</Bio>
-
-<Bio name="Aronya Roy" organisation="Lloyds Bank" image="/img/people/no-headshot.png">
-TBC
 </Bio>
 
 <Bio name="William Rothwell" organisation="UBS" image="/img/people/no-headshot.png">
