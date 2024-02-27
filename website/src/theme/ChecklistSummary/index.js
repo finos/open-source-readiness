@@ -20,7 +20,7 @@ function ChecklistItem({ title, item }) {
 
 function completionCount(checklist, title) {
 	const items = checklist.length
-	const completedItems = checklist.filter(i => isChecked(title + "_" + i.title)).length;
+	const completedItems = checklist.filter(i => isChecked(`${title}_${i.title}`)).length;
 
 	return {
 		completed: completedItems,
