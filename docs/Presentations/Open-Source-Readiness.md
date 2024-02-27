@@ -342,8 +342,8 @@ Presentation by Rob Moffat to FINOS Members Meeting on June 15 2023.
     </div>
     <div className="slide-notes">
       <p>This is a view of our open Pull Requests on GitHub. We’ve
-        got stuff being worked on from Brittany Istines from FannyMae,
-        Peter Smuillovics from Morgan Stanley, Pooi Chong from Llloyds
+        got stuff being worked on from Brittany Istenes from Fanny Mae,
+        Peter Smulovics from Morgan Stanley, Pooi Chong from Llloyds
         and Cara Delia from RedHat.</p>
       <p>There are lots of articles here which appear to be by me -
         I am essentially “Ghost Writing” these with help from people
