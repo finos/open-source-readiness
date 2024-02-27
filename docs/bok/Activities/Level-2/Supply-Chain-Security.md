@@ -300,5 +300,7 @@ Following [SolarWinds](#example-solar-winds) the US government became concerned 
 
  - [CVEs](../../Artifacts/CVE) article from the BoK.
  
- - [SBOMs](../../Artifacts/SBOMs)
+ - [SBOMs](../../Artifacts/SBOMs) primer.
+ 
+ - [OpenChain Security Assurance](../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
 

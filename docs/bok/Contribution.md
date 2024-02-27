@@ -187,6 +187,10 @@ Andy Smith is a Distinguished Engineer at Discover Financial Services with over 
 TBC
 </Bio>
 
+<Bio name="Victor Lu" organisation="Independent" image="/img/people/victor-lu.png">
+Since 1996, I've been a database consultant. Despite starting with working towards a degree in high-energy particle physics and contributing to the discovery of the Top Quark at Fermi National Lab, I realized physics wasn't my true passion.  Since becoming an independent consultant in November 2022, I've discovered an even more exciting arena—the welcoming open-source community. Here, I can glean insights from global experts in virtually any field of interest. I've found my life's passion—to contribute to the world by leveraging my innate ability to absorb vast amounts of information, akin to Generative AI/ChatGPT. The presentation <a href="/docs/presentations/Strategy">about strategy and open source maturity model</a> marks the beginning of that journey
+</Bio>
+
 <Bio name="Chamindra de Silva" organisation="Citi" image="/img/people/chamindra-de-silva.jpeg">
 InnerSource product lead and solution architect.
 </Bio>

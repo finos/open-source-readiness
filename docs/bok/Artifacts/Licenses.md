@@ -190,4 +190,6 @@ Note that different usage situations will also determine which licenses are acce
 
 4.  [Open Source Initiative's License Browser](https://opensource.org/license/).  Try choosing "Popular/Strong Community" for the most commonly used licenses.
 
-5,  [Wikipedia's Softeware License Page](https://en.wikipedia.org/wiki/Software_license) contains two excellent tables summarising "Rights Granted" vs different types of software license.
+5.  [Wikipedia's Softeware License Page](https://en.wikipedia.org/wiki/Software_license) contains two excellent tables summarising "Rights Granted" vs different types of software license.
+
+6.  [OpenChain License Compliance Standard](OpenChain-LicenseCompliance) an ISO standard from the OpenChain Foundation.
