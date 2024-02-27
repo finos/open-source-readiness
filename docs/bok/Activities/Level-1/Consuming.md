@@ -71,4 +71,4 @@ Share process of leveraging open source with others
 
 ## Training Materials
 
-<BokTagList tag="Consuming (Activity)" filter="Training" images="true"/>
+<BokTagList tag="Consuming (Activity)" filter="Training" />

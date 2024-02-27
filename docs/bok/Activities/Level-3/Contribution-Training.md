@@ -185,7 +185,7 @@ As described in [Making The Case](Making-The-Case#Reputation), contributing to o
 
 Some training courses around how to behave correctly in an open source project:
 
-<BokTagList tag="Ethics-Training" filter="Training" images="true" />
+<BokTagList tag="Ethics-Training" filter="Training"  />
 
 ### Approval for Social Media 
 

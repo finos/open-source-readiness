@@ -11,4 +11,4 @@ This section breaks down the different types of risks that enterprises face by c
 
 ## The Risks
 
-<BokTagList filter="Risks" images="true"/>
+<BokTagList filter="Risks" />

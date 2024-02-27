@@ -12,4 +12,4 @@ This section of the Body of Knowledge describes common measurements you might ma
 
 ## Measurement Areas
 
-<BokTagList filter="Measurements" images="true"/>
+<BokTagList filter="Measurements" />

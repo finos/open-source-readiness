@@ -148,4 +148,4 @@ Please see the following introductory articles on these areas:
 
 ## Where To Start
 
-<BokTagList tag="Introduction" images="true" />
+<BokTagList tag="Introduction"  />

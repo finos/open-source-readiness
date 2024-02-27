@@ -29,7 +29,7 @@ Fortunately, there is common agreement between these two models about what pract
 
 ## The Five Levels
 
-<BokTagList filter="OSMM" images="true" />
+<BokTagList filter="OSMM"  />
 
 ## Measuring Levels
 
@@ -39,7 +39,7 @@ This means it is possible for an organization to be making progress on _multiple
 
 Only by completing _all_ the activities at a given level and the levels below can an organization be regarded to be operating at that level.  (Unless there is some convincing reason for omitting to perform a given activity.)
 
-<BokTagList tag="Checklist" images="true" />
+<BokTagList tag="Checklist"  />
 
 
 

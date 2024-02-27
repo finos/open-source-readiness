@@ -13,4 +13,4 @@ This section of the body of knowledge details certifications we are producing fo
 
 ## Certifications
 
-<BokTagList filter="Certifications" tag="Certification" images="true"/>
+<BokTagList filter="Certifications" tag="Certification" />
