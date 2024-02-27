@@ -28,6 +28,9 @@ module.exports={
         "blog": {},
         "theme": {
           "customCss": "src/css/customTheme.css"
+        },
+	"gtag": {
+          "trackingID": "G-FK3GN7DZ2J"
         }
       }
     ]

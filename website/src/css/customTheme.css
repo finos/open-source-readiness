@@ -151,3 +151,10 @@ td.calendar img {
 .boxout4 {
 	background: radial-gradient(circle, rgba(251, 86, 63, 0.0984768907563025) 0%, rgba(252, 160, 70, 0.13489145658263302) 100%);
 }
+
+/**
+ * InnerSource Page
+ */
+.meetingTable {
+	width: 100%;
+}

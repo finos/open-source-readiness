@@ -6,6 +6,7 @@ sidebar_position: 3
 slug: /bok/osr-resources/InnerSource
 tags:
  - Presentation
+ - InnerSource
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>

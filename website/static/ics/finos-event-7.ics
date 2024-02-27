@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+METHOD:REQUEST
+NAME:FINOS InnerSource Special Interest Group
+X-WR-CALNAME:FINOS InnerSource Special Interest Group
+BEGIN:VEVENT
+UID:6d56c4ef-5e75-4109-8347-c887ca688929
+SEQUENCE:0
+DTSTAMP:20240213T090529Z
+DTSTART:20240213T150000Z
+DTEND:20240213T160000Z
+RRULE:FREQ=MONTHLY;BYDAY=2TU
+SUMMARY:FINOS InnerSource Special Interest Group
+DESCRIPTION:InnerSource SIG\nhttps://github.com/finos/InnerSource\n\nJoin 
+ Zoom Meeting\nhttps://zoom.us/j/97717618541\nMeeting ID: 977 1761 8541\nPa
+ sscode: 878599\n\nOne tap mobile\n+15642172000\,\,94949043746# US\n+164655
+ 88656\,\,94949043746# US (New York)\n\nDial by your location\n      
+   +1 564 217 2000 US\n        +1 646 558 8656 US (New York)\n 
+        +1 646 931 3860 US\n        +1 669 444 9171 US\n  
+       +1 669 900 6833 US (San Jose)\n        +1 689 278 1000
+  US\n        +1 719 359 4580 US\n        +1 253 205 0468 U
+ S\n        +1 253 215 8782 US (Tacoma)\n        +1 301 715
+  8592 US (Washington DC)\n        +1 305 224 1968 US\n      
+   +1 309 205 3325 US\n        +1 312 626 6799 US (Chicago)\n  
+       +1 346 248 7799 US (Houston)\n        +1 360 209 5623 
+ US\n        +1 386 347 5053 US\n        +1 507 473 4847 US
+ \n        855 880 1246 US Toll-free\n        877 369 0926 
+ US Toll-free\n        +1 647 374 4685 Canada\n        +1 6
+ 47 558 0588 Canada\n        +1 778 907 2071 Canada\n       
+  +1 780 666 0144 Canada\n        +1 204 272 7920 Canada\n    
+     +1 438 809 7799 Canada\n        +1 587 328 1099 Canada\n 
+        855 703 8985 Canada Toll-free\n\nMeeting ID: 949 4904 3746\n
+ Find your local number: https://zoom.us/u/adJnH9JOiY
+END:VEVENT
+END:VCALENDAR
