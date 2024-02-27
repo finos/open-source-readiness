@@ -9,13 +9,6 @@ authors:
   - name: Brittany Istenes
 sidebar_position: 3
 sidebar_label: Maintaining
-checklist: 
-  - title: Something
-    description: This is a very long guy on a line
-  - title: Something else
-    description: getting your guys to look at some stuff
-  - title: Education
-    description: Having a program to educate employees about licenses
 image: /img/bok/page-types/activity.png
 ---
 
