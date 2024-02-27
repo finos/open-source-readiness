@@ -1,3 +1,16 @@
 {
-    "search.useIgnoreFiles": false
+  "diffEditor.codeLens": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript"],
+  "files.trimTrailingWhitespace": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributes": "force-aligned",
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "search.useIgnoreFiles": false
 }
