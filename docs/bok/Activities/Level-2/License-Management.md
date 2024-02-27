@@ -146,7 +146,3 @@ Using the correct licenses will form part of License Policy and it will be neces
 - **[A Developer's Guide To Open Source Licenses](https://www.toptal.com/open-source/developers-guide-to-open-source-licenses)**.  Delves into the details of what developers need to know about licenses.
 
 - **[FINOS License Categories](https://community.finos.org/docs/governance/Software-Projects/license-categories)**.  How licenses are categorized for the FINOS Foundation.
-
-## Maturity Checklist
-
-<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
