@@ -4,6 +4,7 @@ tags:
   - Dependency Risk
   - Developer (Role)
   - Policy
+image: /img/bok/risks/dependency-risk.png
 ---
 
 <BoxOut title="Software Dependency Risk" image="/img/bok/risks/dependency-risk.png">

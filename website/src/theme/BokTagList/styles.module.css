@@ -19,3 +19,21 @@
   font-size: 90%;
 }
 
+.columns {
+	display: flex;
+	
+}
+
+.left {
+	flex-basis: 7rem;
+	flex-shrink: 0;
+	padding: 1rem;
+}
+
+.left img {
+	width: 5rem;
+}
+
+.right {
+	flex-grow: 1;
+}

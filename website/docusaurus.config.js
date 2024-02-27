@@ -42,7 +42,7 @@ module.exports={
       "indexName": "osr-finos",
     },
     "navbar": {
-      "title": "FINOS Knowledge",
+      "title": "FINOS",
       "logo": {
         "alt": "FINOS Logo",
         "src": "/img/finos_light.svg",
@@ -50,7 +50,7 @@ module.exports={
       },
       "items": [
 		  {
-			  "label": "Open Source",
+			  "label": "Open Source Readiness",
 			  "to": "/OpenSourceReadiness",
 			  "position": "right",
 		  },
@@ -153,10 +153,10 @@ module.exports={
           "title": "UPDATES",
           "items": [
             {
-              "html": "<a href=\"https://github.com/finos/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/finos/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
+              "html": "<a title=\"GitHub\" href=\"https://github.com/finos/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/finos/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
             },
             {
-              "html": "<a href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
+              "html": "<a title=\"Twitter\" href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
             },
             {
               "label": "LinkedIn",

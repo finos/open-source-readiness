@@ -15,4 +15,4 @@ This site is designed as a collection of interconnecting documents and categorie
 
 Please see the following introductory articles on these areas:
 
-<BokTagList tag="Introduction"/>
+<BokTagList tag="Introduction" images="true" />

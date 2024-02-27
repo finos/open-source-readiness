@@ -4,6 +4,7 @@ sidebar_label: Introduction
 sidebar_position: 0
 tags: 
   - Introduction
+image: /img/bok/page-types/maturity.png
 ---
 
  The Open Source Maturity Model (OSMM) is a framework that helps organizations assess and improve their use of open source software. The primary purpose of the OSMM is to provide a structured way for organizations to evaluate their open source practices and identify areas for improvement. The model consists of a set of maturity levels, each with a defined set of characteristics and activities that an organization must achieve to move to the next level.

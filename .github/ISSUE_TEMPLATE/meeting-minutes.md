@@ -45,9 +45,9 @@ YYYYMMDD - time
 - [ ] ...
 
 ### Zoom Details
-- https://zoom.us/j/99753528440?pwd=OEFPWkQzLy9hWlV4NmM0RC9VRjhwQT09
-- **Meeting ID:** 997 5352 8440
-- **Passcode:** 987996
+- https://zoom.us/j/93808780892
+- Meeting ID: 938 0878 0892
+- Passcode: 358724
 
 ### Join by Phone
 - Find your local number: https://zoom.us/u/adl5rhui4P

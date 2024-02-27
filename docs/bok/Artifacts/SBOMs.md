@@ -45,11 +45,11 @@ Java libraries are distributed as files with the .jar suffix.  This file <https
 * I can also see that it relies on several other Java packages which are _dependencies_. That is, the main library will pull in other required libraries when it runs.  These include "commons-lang3-3.4.jar" - a common Apache library, also licensed under "Apache-2.0" license.
 * Further, the project also has _test dependencies:_ that is, libraries it requires when the CI/CD pipeline's suite of automated tests is run.  For example junit-4.12.jar, which is provided under the "EPL-1.0" license, which corresponds to "[Eclipse Public License 1.0](https://spdx.org/licenses/EPL-1.0.html)".  Test dependencies are important since when "App-BOM-ination" is built in your organisation, this external code will be in use and therefore represents a potential threat vector.
 
-**See Also:**
+## Further Reading
+ 
+1. **[OpenChain Security Assurance](OpenChain-Security-Assurance)**:  an ISO standard for open source license compliance.
 
-- **[OpenChain]( https://www.openchainproject.org/)**:  an ISO standard for open source license compliance, developed and hosted by the Linux Foundation. It provides a set of requirements to create effective open source management systems, helping companies to minimize legal risks related to open source software use and improve efficiency and trust in the software supply chain.
-
-## Training Materials
+## Training Materials
 
 <BokTagList tag="SBOMs (Artifacts)" filter="Training" />
 
