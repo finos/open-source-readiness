@@ -1,15 +1,20 @@
 .bio {
-    display: flex;
-    padding-bottom: 1rem;
-    align-items: center;
+	display: flex;
+	padding-bottom: 1rem;
 }
 
 .description {
-
+	flex-grow: 1;
 }
 
 .headshot {
-    width: 10rem;
-    border-radius: 50%;
-    padding: 1rem;
+	flex-basis: 10rem;
+	flex-shrink: 0;
+	flex-grow: 0;
+	padding: 1rem;
+}
+
+.headshot img {
+	border-radius: 50%;
+	max-height: 8rem;
 }
