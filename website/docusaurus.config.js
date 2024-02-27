@@ -161,7 +161,7 @@ module.exports={
               "html": "<a title=\"GitHub\" href=\"https://github.com/finos/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/finos/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
             },
             {
-              "html": "<a title=\"Twitter\" href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
+              "html": "<a title=\"X\" href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
             },
             {
               "label": "LinkedIn",
