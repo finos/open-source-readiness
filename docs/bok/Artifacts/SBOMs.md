@@ -48,7 +48,7 @@ Java libraries are distributed as files with the .jar suffix.  This file <https
 
 ## Further Reading
  
-1. **[OpenChain Security Assurance](OpenChain-Security-Assurance)**:  an ISO standard for open source license compliance.
+1. **[OpenChain Security Assurance](OpenChain-SecurityAssurance)**:  an ISO standard for open source license compliance.
 
 ## Training Materials
 
