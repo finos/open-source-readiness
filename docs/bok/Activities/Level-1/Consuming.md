@@ -10,6 +10,15 @@ tags:
   - Consuming (Activity)
 draft: true
 image: /img/bok/page-types/activity.png
+checklist:
+- title: Use
+  description: Open source components are used across the organisation.
+- title: Preferring Open Source
+  description: Open source solutions are preferred over proprietary software.
+- title: Procurement
+  description: There is a defined process for procuring open source in the organisation.
+- title: Process Efficiency
+  description: The procurement process doesn't hinder open source consumption. 
 ---
 
 THIS IS A PLACEHOLDER
@@ -64,4 +73,7 @@ Share process of leveraging open source with others
 
 ## Training Materials
 
-<BokTagList tag="Consuming (Activity)" filter="Training" />
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
