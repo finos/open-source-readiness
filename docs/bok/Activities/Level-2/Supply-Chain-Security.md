@@ -302,5 +302,5 @@ Following [SolarWinds](#example-solar-winds) the US government became concerned 
  
  - [SBOMs](../../Artifacts/SBOMs) primer.
  
- - [OpenChain Security Assurance](../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
+ - [OpenChain Security Assurance](../../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
 
