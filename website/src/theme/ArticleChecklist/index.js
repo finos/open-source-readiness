@@ -7,27 +7,33 @@ const expDays = 2000;
 const levels = [
 	{
 		name: "Unaware",
-		description: "No awareness of this activity"
+		description: "No awareness of this activity",
+		class: styles.unaware
 	},
 	{
 		name: "Initial",
-		description: "Unrepeatable process, poorly controlled, reactive"
+		description: "Unrepeatable process, poorly controlled, reactive",
+		class: styles.initial
 	},
 	{
 		name: "Managed",
-		description: "Ad-hoc processes exist, usually followed, reactive"
+		description: "Ad-hoc processes exist, usually followed, reactive",
+		class: styles.managed
 	},
 	{
 		name: "Defined",
-		description: "Processes in place, proactive application"
+		description: "Processes in place, proactive application",
+		class: styles.defined
 	},
 	{
 		name: "Quantitative",
-		description: "Processes measured and controlled"
+		description: "Processes measured and controlled",
+		class: styles.quantitative
 	},
 	{
 		name: "Optimised",
-		description: "The organisation has reached its goal in terms of this activity."
+		description: "The organisation has reached its goal in terms of this activity.",
+		class: styles.optimised
 	}
 ]
 
@@ -99,24 +105,27 @@ class Slider extends React.Component {
 				update(this.state.id);
 				this.handleForceupdateMethod();
 			}}>
-				<div key="control" className={styles.control}>
-					<input type="range" min={0} max={5} name={this.state.id} id={this.state.id} defaultValue={this.state.level} className={styles.checklistInput} />
-				</div>
-				<div key="label"  className={styles.label}>
-					<label htmlFor={this.state.id}>
-						<span className={styles.slider}>{this.props.label} </span>
-					</label>
+				<div className={levels[this.state.level].class}>
+					<div key="control" className={styles.control}>
+						<input type="range" min={0} max={5} name={this.state.id} id={this.state.id} defaultValue={this.state.level} className={styles.checklistInput} />
+					</div>
+					<div key="label" className={styles.label}>
+						<label htmlFor={this.state.id}>
+							{this.props.label}: <span className={styles.nameLabel}>{levels[this.state.level].name}</span>
+						</label>
 
-					<div key="k1" className={styles.description}>{this.props.description}</div>
+						<div key="k1" className={styles.description}>"{this.props.description}"</div>
 
-					<div key="k2" className={styles.valueDescription}>{levels[this.state.level].description}</div>
+						<div key="k2" className={styles.valueDescription}>{levels[this.state.level].description}</div>
+
+					</div>
 				</div>
 			</div>
 		)
 	}
 }
 
-	
+
 function ChecklistInner({ checklist, title }) {
 	return (<div className={styles.checklist}>
 		<div key="one" className={styles.header}>
@@ -125,7 +134,7 @@ function ChecklistInner({ checklist, title }) {
 		</div>
 		<form id="article-checklist-form" name="article-checklist" className={styles.checklistBody}>
 			{
-				checklist.map(item => <Slider label={item.title} description={item.description} page={title} /> )
+				checklist.map(item => <Slider label={item.title} description={item.description} page={title} />)
 			}
 		</form>
 		<div key="two" className={styles.contents}>

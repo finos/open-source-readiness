@@ -32,37 +32,191 @@
 	gap: 1rem;
 }
 
-.slider {
-	font-weight: bold;
-}
 
-.description {
-	color: #555;
-	font-size: smaller;
-}
-
-.checklistItem {
+.checklistItem>div {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
 }
 
+/** Control Side */
+
 .control {
 	flex-basis: 15rem;
 	flex-grow: 0;
 	flex-shrink: 0;
-	align-items: center;
+	padding: .3rem;
+	display: flex;
 }
+
+.control input[type="range"] {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	cursor: pointer;
+	outline: none;
+	overflow: hidden;
+	border-radius: 2rem;
+}
+
+
+/* Thumb: Chrome (from https://blog.logrocket.com/creating-custom-css-range-slider-javascript-upgrades/) */
+
+.control input[type="range"]::-webkit-slider-runnable-track {
+	height: 2.5rem;
+	border-radius: 2.5rem;
+}
+
+.control input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.unaware input::-webkit-slider-thumb {
+	border: 5px solid black;
+}
+
+.initial input::-webkit-slider-thumb {
+	border: 5px solid #880000;
+}
+
+.managed input::-webkit-slider-thumb {
+	border: 5px solid #666644;
+}
+
+.defined input::-webkit-slider-thumb {
+	border: 5px solid #888844;
+}
+
+.quantitative input::-webkit-slider-thumb {
+	border: 5px solid #448844;
+}
+
+.optimised input::-webkit-slider-thumb {
+	border: 5px solid #00AA00;
+}
+
+.unaware input::-webkit-slider-runnable-track  {
+	background: #00000080;
+}
+
+.initial input::-webkit-slider-runnable-track  {
+	background:  #88000080;
+}
+
+.managed input::-webkit-slider-runnable-track  {
+	background: #66664480;
+}
+
+.defined input::-webkit-slider-runnable-track  {
+	background: #88884480;
+}
+
+.quantitative input::-webkit-slider-runnable-track {
+	background: #44884480;
+}
+
+.optimised input::-webkit-slider-runnable-track  {
+	background:  #00AA0080;
+}
+
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 1px solid #f50;
+}
+
+input[type="range"]::-moz-range-track {
+	height: 15px;
+	background: #ccc;
+	border-radius: 16px;
+}
+
+
+/** Label Side */
 
 .label {
 	flex-basis: 10rem;
 	flex-grow: 1;
 }
 
-.checklistInput {
-	
+.label label {
+	font-weight: bold;
+	align-items: center;
 }
 
-.valueDescription {
-	
+.description {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	color: #555;
+	font-size: smaller;
+}
+
+/** Different Levels of Maturity get different colors */
+
+.nameLabel {
+	padding: .4rem;
+	border-radius: .2rem;
+}
+
+.unaware .nameLabel {
+	color: white;
+	background-color: black;
+}
+
+.initial .nameLabel {
+	color: white;
+	background-color: #880000;
+}
+
+.managed .nameLabel {
+	color: white;
+	background-color: #666644;
+}
+
+.defined .nameLabel {
+	color: white;
+	background-color: #888844;
+}
+
+.quantitative .nameLabel {
+	color: white;
+	background-color: #448844;
+}
+
+.optimised .nameLabel {
+	color: white;
+	background-color: #00AA00;
+}
+
+.unaware .valueDescription {
+	color: black;
+}
+
+.initial .valueDescription {
+	color: #880000;
+}
+
+.managed .valueDescription {
+	color: #884444;
+}
+
+.defined .valueDescription {
+	color: #888844;
+}
+
+.quantitative .valueDescription {
+	color: #448844;
+}
+
+.optimised .valueDescription {
+	color: #00AA00;
 }
