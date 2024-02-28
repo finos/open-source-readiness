@@ -1,0 +1,19 @@
+.columns {
+	display: flex;
+	padding-bottom: 1rem;
+	align-items: center;
+}
+
+.left {
+	flex-basis: 4rem;
+	flex-shrink: 0;
+	padding-right: .5rem;
+}
+
+.left img {
+	width: 3rem;
+}
+
+.right {
+	flex-grow: 1;
+}

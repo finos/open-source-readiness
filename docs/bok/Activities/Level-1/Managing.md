@@ -8,7 +8,10 @@ tags:
   - Placeholder
   - Level 1 (OSMM)
 draft: true
+image: /img/bok/page-types/activity.png
 ---
+
+THIS IS A PLACEHOLDER
 
 - projects
 - infrastructure

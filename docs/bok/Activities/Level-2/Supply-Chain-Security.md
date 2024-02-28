@@ -13,6 +13,7 @@ tags:
   - CVE (Artifact)
 sidebar_position: 4
 sidebar_label: Security
+image: /img/bok/page-types/activity.png
 ---
 
 In this article we are going to look at the growing issue of software supply chain attacks via some examples and then look at the emerging field of open source supply chain security:  what it is, current best practices, the institutional landscape and emerging legislation.
@@ -301,5 +302,5 @@ Following [SolarWinds](#example-solar-winds) the US government became concerned 
  
  - [SBOMs](../../Artifacts/SBOMs) primer.
  
- - [OpenChain Security Assurance](../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
+ - [OpenChain Security Assurance](../../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
 

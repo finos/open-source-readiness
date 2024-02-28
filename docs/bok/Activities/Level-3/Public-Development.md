@@ -6,6 +6,7 @@ tags:
   - Placeholder
 sidebar_position: 1
 sidebar_label: Public Development
+image: /img/bok/page-types/activity.png
 ---
 
 **THIS IS A PLACEHOLDER**

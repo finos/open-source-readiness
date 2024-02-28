@@ -6,6 +6,7 @@ tags:
   - CIO/CTO (Role)
 sidebar_position: 1
 sidebar_label: Why
+image: /img/bok/page-types/activity.png
 ---
 
 Just as there are many reasons to [contribute to open source projects](../Level-3/Making-The-Case), it is the same when it comes to a financial institution deciding to open-source.  However, the reasoning behind might be different. 

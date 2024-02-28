@@ -9,6 +9,7 @@ tags:
   - Staff Risk
 sidebar_position: 9
 sidebar_label: Talent
+image: /img/bok/page-types/activity.png
 --- 
 
 Managing talent in financial institutions is crucial because the quality, motivation, and expertise of their workforce directly influence the institutions' ability to innovate, maintain a competitive edge, comply with regulatory requirements, and ultimately drive financial performance and growth.

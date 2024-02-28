@@ -8,6 +8,7 @@ tags:
   - Placeholder
   - Policy
   - Contribution
+image: /img/bok/regs/accounting.png 
 ---
 
 <BoxOut title="Accountancy Regulations" image="/img/bok/regs/accounting.png">

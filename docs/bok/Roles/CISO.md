@@ -4,6 +4,7 @@ sidebar_label: CISO
 tags:
   - Security Expert (Role)
   - Policy
+image: /img/bok/roles/ciso.png
 ---
 
 <BoxOut title="Security Expert / CISO" image="/img/bok/roles/ciso.png">

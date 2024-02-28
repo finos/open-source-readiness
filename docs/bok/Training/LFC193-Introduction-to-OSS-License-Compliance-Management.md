@@ -15,6 +15,7 @@ course:
   cost: free
   link: https://training.linuxfoundation.org/training/introduction-to-open-source-license-compliance-management-lfc193/
 sidebar_label: LFC193
+image: /img/bok/page-types/training2.png
 ---
 
 This course is intended for developers, project managers and executive decision makers who already know the basics of what open source software is and how copyrights work and are ready to take the next step towards building a formal compliance program for their organization.

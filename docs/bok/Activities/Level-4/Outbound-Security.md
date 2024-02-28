@@ -7,6 +7,7 @@ tags:
   - CVE (Artifact)
 draft: true
 sidebar_position: 4
+image: /img/bok/page-types/activity.png
 ---
 
 how and why.

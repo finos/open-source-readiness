@@ -6,6 +6,7 @@ tags:
   - OSPO (Role)
   - Developer (Role)
 sidebar_label: Policy
+image: /img/bok/page-types/artifact.png
 ---
 
 An open source policy is a set of guidelines that outlines how an organization will consume, contribute to, and create open source software. It defines the rules that govern the use, distribution, and licensing of open source software within the organization. It establishes processes for evaluating open source software, managing the risks associated with its use, and ensuring compliance with legal and ethical requirements.

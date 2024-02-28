@@ -3,9 +3,10 @@ title: Site Reliability Engineers
 sidebar_label: SRE
 tags: 
   - SRE (Role)
+image: /img/bok/roles/sre.png
 ---
 
-<BoxOut title="Site Reliability Engineers" image="/img/bok/roles/developer.png">
+<BoxOut title="Site Reliability Engineers" image="/img/bok/roles/sre.png">
 
 In addition to many traditional SysAdmin tasks, SREs spend significant time on development tasks such as new features, scaling, or automation. 
 

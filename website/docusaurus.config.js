@@ -28,12 +28,17 @@ module.exports={
         "blog": {},
         "theme": {
           "customCss": "src/css/customTheme.css"
+        },
+	"gtag": {
+          "trackingID": "G-FK3GN7DZ2J"
         }
       }
     ]
   ],
   "plugins": [
-    './src/plugin/category-listing'
+    './src/plugin/category-listing',
+    './src/plugin/checklist-listing',
+    
   ],
   "themeConfig": {
     "algolia": {
@@ -51,17 +56,17 @@ module.exports={
       "items": [
 		  {
 			  "label": "Open Source Readiness",
-			  "to": "/OpenSourceReadiness",
+			  "to": "/docs/bok/Introduction",
 			  "position": "right",
 		  },
 		  {
 			  "label": "InnerSource",
-			  "to": "/InnerSource",
+			  "to": "/docs/InnerSource/Introduction",
 			  "position": "right",
 		  },
 		  {
 			  "label": "Strategy",
-			  "to": "/Strategy",
+			  "to": "/docs/tags/strategy",
 			  "position": "right",
 		  }
       ]
@@ -120,11 +125,11 @@ module.exports={
           "items": [
             {
               "label": "OSR Meetings",
-              "to": "/OpenSourceReadiness#how-do-i-get-involved"
+              "to": "/docs/bok/Introduction#how-do-i-get-involved"
             },
             {
               "label": "InnerSource Meetings",
-              "to": "/InnerSource"
+              "to": "/docs/InnerSource/Introduction#meetings"
             },
             {
               "label": "FINOS Events",
@@ -156,7 +161,7 @@ module.exports={
               "html": "<a title=\"GitHub\" href=\"https://github.com/finos/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/finos/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
             },
             {
-              "html": "<a title=\"Twitter\" href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
+              "html": "<a title=\"X\" href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
             },
             {
               "label": "LinkedIn",
@@ -164,7 +169,7 @@ module.exports={
             },
             {
               "label": "OSR Mailing List",
-              "to": "/OpenSourceReadiness#how-do-i-get-involved"
+              "to": "/docs/bok/Introduction#how-do-i-get-involved"
             }
           ]
         }

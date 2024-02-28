@@ -7,6 +7,7 @@ tags:
   - Placeholder
   - Contribution
   - Policy
+image: /img/bok/regs/sanctions.png 
 ---
  
 <BoxOut title="Sanctions" image="/img/bok/regs/sanctions.png">

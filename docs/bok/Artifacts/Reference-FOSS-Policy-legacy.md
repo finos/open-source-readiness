@@ -6,6 +6,7 @@ title: 'Reference FOSS Policy'
 tags:
   - Legal (Role)
 sidebar_label: Policy (Legacy Reference)
+image: /img/bok/page-types/artifact.png
 ---
 
 <BoxOut title="Warning: Possibly out-of-date" image="/img/bok/roles/ospo.png">
