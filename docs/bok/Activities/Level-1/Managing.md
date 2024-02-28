@@ -7,7 +7,6 @@ tags:
   - HR-Training (Role)
   - Placeholder
   - Level 1 (OSMM)
-draft: true
 image: /img/bok/page-types/activity.png
 checklist:
 - title: Choice

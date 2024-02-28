@@ -9,7 +9,11 @@ tags:
 sidebar_position: 5
 sidebar_label: Policy
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Consumption Policy
+    description: The organisation has an open source consumption policy
 ---
+
 **THIS IS A PLACEHOLDER**
 
 Refer to [Policy](../../Artifacts/Policy) as the _output_ from this activity.
@@ -39,3 +43,8 @@ When drafting open source policies, among the many topics that need to be discus
 ### The Policy
 
 It can take a long time to get policy approved - you need people on-side to help build this from the policy team (expand). (1 year as an example)
+
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

@@ -8,7 +8,6 @@ tags:
   - License (Artifact)
   - Level 1 (OSMM)
   - Consuming (Activity)
-draft: true
 image: /img/bok/page-types/activity.png
 checklist:
 - title: Use

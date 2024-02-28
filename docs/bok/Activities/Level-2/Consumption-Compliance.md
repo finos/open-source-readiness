@@ -8,6 +8,17 @@ tags:
 sidebar_position: 0
 sidebar_label: Compliance
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Risk Management
+    description: Enterprise risk management processes include open source risks
+  - title: Risk Appetite
+    description: Open source risk appetite is understood
+  - title: Compliance
+    description: Open source risk management is part of the organisational compliance policy
+  - title: Controls
+    description: Standardized controls are in place around open source consumption
+  - title: Monitoring
+    description: Open source controls are monitored
 ---
 
 Using open source within regulated organisations must be done in accordance with the policies and procedures in place to control risks and adhere to regulation.  In this article we will look at:
@@ -188,3 +199,6 @@ See Also:
 
 
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

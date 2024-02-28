@@ -14,6 +14,13 @@ tags:
 sidebar_position: 4
 sidebar_label: Security
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Security Training
+    description: Security training is provided for teams working on open source software
+  - title: Scanning
+    description: The organisation scans and audits software automatically and frequently
+  - title: Testing
+    description: The organisation performs penetration tests and periodic threat assessment
 ---
 
 In this article we are going to look at the growing issue of software supply chain attacks via some examples and then look at the emerging field of open source supply chain security:  what it is, current best practices, the institutional landscape and emerging legislation.
@@ -304,3 +311,7 @@ Following [SolarWinds](#example-solar-winds) the US government became concerned 
  
  - [OpenChain Security Assurance](../../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
