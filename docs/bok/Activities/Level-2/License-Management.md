@@ -18,6 +18,8 @@ checklist:
     description: The organization implements one or more allow-lists for open source licence types
   - title: License Training
     description: Internal license compliance training is provided for individuals who require it
+  - title: ISO/IEC 5230:2020
+    description: The firm embeds the OpenChain license compliance standard
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:

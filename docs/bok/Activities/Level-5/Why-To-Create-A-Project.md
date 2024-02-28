@@ -1,10 +1,10 @@
 ---
 title:  Why Open-Source a Firm Project?
 tags: 
-  - Level 4 (OSMM)
+  - Level 5 (OSMM)
   - OSPO (Role)
   - CIO/CTO (Role)
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: Why
 image: /img/bok/page-types/activity.png
 ---
@@ -83,4 +83,7 @@ If you using open source it is likely you will use standard open source tooling 
  * Good examples for this are [FDC3](https://fdc3.finos.org), [Legend](https://legend.finos.org), [Morphir](https://morphir.finos.org) and (the best example) [the Common Domain Model](https://github.com/finos/common-domain-model).
  * Teams working with these technologies and contributing to them learn the standard GitHub Actions/CI model, and are more likely to end up bringing back knowledge of these methods to internal development teams too.
 
+ 
+## Maturity Checklist
 
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

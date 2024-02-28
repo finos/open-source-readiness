@@ -21,6 +21,8 @@ checklist:
     description: The organisation scans and audits software automatically and frequently
   - title: Testing
     description: The organisation performs penetration tests and periodic threat assessment
+  - title: OpenChain 
+    description: The firm embeds the OpenChain supply chain standard
 ---
 
 In this article we are going to look at the growing issue of software supply chain attacks via some examples and then look at the emerging field of open source supply chain security:  what it is, current best practices, the institutional landscape and emerging legislation.

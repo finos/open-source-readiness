@@ -7,6 +7,11 @@ tags:
 sidebar_position: 1
 sidebar_label: Public Development
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Contribution
+    description: The organisation contributes to existing open source projects
+  - title: Recognition
+    description: The organisation recognises employees contributing in their own time
 ---
 
 **THIS IS A PLACEHOLDER**
@@ -38,3 +43,8 @@ QA as a process.
 - Graphics 
 - Marketing
 - Localisation
+
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

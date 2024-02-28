@@ -15,6 +15,13 @@ authors:
   - name: Rhyddian Olds
   - name: Andy Smith
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Promotion
+    description: The organisation promotes and rewards contribution to open source projects
+  - title: Contribution Efficiency
+    description: Organisational processes don't restrict open source contribution
+  - title: InnerSource
+    description: The organisation measures effectiveness of its InnnerSource program
 ---
 
 When people think about open source, most often they think about the _engineering aspects_: contributing or consuming code.  But community and culture are a central part of the open source world and should not be overlooked. 
@@ -205,3 +212,8 @@ source program that engages with the broader community helps to support an organ
 efforts to scale its open source ecosystem. Engaging with the open source community in a
 variety of ways helps to foster developer relations and encourage collaboration between
 organizations in the broader open source community.
+
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

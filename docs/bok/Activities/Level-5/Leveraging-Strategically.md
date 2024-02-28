@@ -7,6 +7,15 @@ tags:
   - Level 5 (OSMM)
   - Strategy
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Strategy
+    description: The organisation defines goals and objectives in its an open source strategy
+  - title: Performance
+    description: The firm measures the effectiveness of its open source strategy
+  - title: Leverage
+    description: Management leverages open source strategy to achieve objectives
+  - title: Benefits
+    description: The benefits of open source are considered when setting organisational strategy
 ---
 
 OSMM Level 5 is about [Strategy](../../Artifacts/Strategy). At this level, you seek to make decisions that shape the technology landscape in your favor to create new opportunities. 
@@ -65,3 +74,7 @@ There's one more thing: Success in open source implies you have contributed back
 - [Setting an Open Source Strategy](https://www.linuxfoundation.org/resources/open-source-guides/setting-an-open-source-strategy) - by Linux Foundation authors.
 - [How to write a Strategic Plan](https://projects.iq.harvard.edu/files/hks-communications-program/files/pp_how_to_write_a_strategic_plan.pdf) - Harvard Kennedy School
 - [Why You Need an Open Source Strategy](https://www.bcg.com/publications/2021/open-source-software-strategy-benefits) - Boston Consulting Group.
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

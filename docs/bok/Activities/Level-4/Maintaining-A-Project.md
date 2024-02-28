@@ -10,6 +10,11 @@ authors:
 sidebar_position: 3
 sidebar_label: Maintaining
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Maintainer
+    description: The organisation has maintainer status on open source projects
+  - title: Health
+    description: The organisation measures the health of the open source projects it maintains
 ---
 
 We currently live in a world where OSS is everywhere, consumable, helpful and can make a positive or negative outcome on the programs we rely on.  Strong open source projects can lessen technical debt, increase reusability and discoverability.  For the purpose of this guide, we will cover some key principles and practices for managing your open source project effectively.
@@ -90,3 +95,6 @@ It is a challenging task, but with the right mindset, tools and support, you can
 - Software development is tricky and it can take time to achieve your desired outcomes
 - It is importance to remain calm and focused when meeting potential persistent challenges and set backs.  
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

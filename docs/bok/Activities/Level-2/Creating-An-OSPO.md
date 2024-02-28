@@ -10,6 +10,10 @@ authors:
   name: Pooi Cheong
 image: /img/bok/page-types/activity.png
 checklist:
+  - title: Creation
+    description: The organisation has an open source project office (OSPO)
+  - title: Stakeholders
+    description: The OSPO has stakeholders from relevant functional areas of the organisation
   - title: Awareness
     description: Staff are aware of the purpose of the OSPO and how to engage with it
   - title: Consultation

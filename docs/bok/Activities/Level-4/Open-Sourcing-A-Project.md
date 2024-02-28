@@ -12,6 +12,11 @@ tags:
 sidebar_position: 2
 sidebar_label: How
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Life Cycle
+    description: There is a life cycle process around engaging with open source projects
+  - title: Marketing
+    description: Marketing are engaged with open source publishing efforts
 ---
 
 **THIS IS A PLACEHOLDER**
@@ -71,3 +76,7 @@ company logo
 
 - what licenses to use (chamindra).
 
+ 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

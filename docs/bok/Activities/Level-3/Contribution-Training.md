@@ -10,6 +10,9 @@ tags:
 sidebar_position: 4
 sidebar_label: Training
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Contribution Training
+    description: Staff are provided with training and coverage is measured
 ---
 
 It is generally preferable if an [Open Source Contribution Policy](Contribution-Compliance) can be enforced via tooling (so called _policy as code_).  However, often policy will refer to behaviours and expectations of staff which cannot be controlled through systems.  In these cases, training courses will be needed to help promote desired behaviours.
@@ -209,3 +212,6 @@ Describe procedures for approvals on this.
 
 Describe company policy on this.
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

@@ -7,6 +7,9 @@ tags:
 sidebar_position: 5
 sidebar_label: Surveillance
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Review
+    description: There is a review process for code and non-code contributions
 ---
 
 This article looks at the best practices around  surveillance (of communications) to enable open source contribution.
@@ -129,6 +132,7 @@ At the moment, this is an area of active investigation.
 ### Blocking Tools
 
  - Tools like [Slack](https://slack.comro) don't support surveillance.  Sometimes exemptions are granted to the broader communication policy for [Interacting with Foundations](../Level-4/Foundations) or working groups and other special cases.
- 
- 
- 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

@@ -7,6 +7,9 @@ tags:
 sidebar_position: 6
 sidebar_label: Publication
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Publication
+    description: There is a clear policy for how staff should publish to open source projects
 ---
 
 This article looks at the best practices around publication (of code) to enable open source contribution.
@@ -118,3 +121,7 @@ Like personal machines, but a vm within your desktop that can access _nothing in
 - See also: [GitPod](https://www.gitpod.io) and [CodeAnywhere](https://codeanywhere.com)
 - For Java developers, [EclipseChe](https://www.eclipse.org/che/)
 - [Microsoft DevBox](https://azure.microsoft.com/en-us/services/dev-box/)
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
