@@ -7,6 +7,7 @@ tags:
   - Legal Risk
   - Contribution 
   - Policy
+image: /img/bok/regs/communications.png 
 ---
 
 <BoxOut title="Communications" image="/img/bok/regs/communications.png">

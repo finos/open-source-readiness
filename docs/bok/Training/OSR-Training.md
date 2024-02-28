@@ -6,6 +6,7 @@ tags:
  - FINOS-Training
 slug: /osr-resources/Training
 sidebar_position: 1
+image: /img/bok/page-types/training2.png
 ---
 
 In November 2023 the OSR SIG team are proud to announce general availability of the following materials:

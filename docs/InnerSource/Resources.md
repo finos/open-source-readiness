@@ -3,6 +3,7 @@ title: InnerSource Resources
 tags:
   - InnerSource
 sidebar_position: 2
+image: /img/bok/page-types/resource.png
 ---
 
 This list is a curated collection of resources related to InnerSource, both for new explorers and experienced travellers in this space.

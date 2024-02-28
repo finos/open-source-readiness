@@ -7,6 +7,7 @@ tags:
   - Developer (Role)
 sidebar_position: 5
 sidebar_label: Foundations
+image: /img/bok/page-types/activity.png
 ---
 
 This article describes the importance of interacting with open source foundations, the roles they perform and ways in which your organisation can make the most of them.

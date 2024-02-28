@@ -8,4 +8,4 @@ image: /img/bok/page-types/resource.png
 ---
 
 The OSR SIG has produced several resources to help financial services firms along their open source journey.
-<BokTagList tag="Resources" />
+<BokTagList tag="Resources"  />

@@ -22,18 +22,6 @@ function DocItemImage({doc}) {
       </article>
     );
   }
-  
-function DocItem({doc}) {
-    return (
-      <article className="margin-vert--lg">
-        <Link to={doc.permalink}>
-          <h3>{doc.title}</h3>
-        </Link>
-        {doc.description && <p>{doc.description}</p>}
-      </article>
-    );
-  }
-  
 
 export default function BokTagList(props) {
 
@@ -47,17 +35,16 @@ export default function BokTagList(props) {
         .filter(uniqueOnly)
     const filter = props.filter ? '/'+props.filter+'/' : ''
     const location = useLocation().pathname;
-    const addImages = props.images;
 
     oneTag.sort((a, b) => a.order - b.order);
 
     return (
-        <div class="bok-tag-list" key={props.tag}>   
+        <div className="bok-tag-list" key={props.tag}>   
             {
                oneTag
                 .filter(d => d.permalink.indexOf(filter) > -1) 
                 .filter(d => d.permalink != location)
-                .map(d => addImages ? <DocItemImage key={d} doc={d} /> : <DocItem key={d} doc={d} />)
+                .map(d => <DocItemImage key={d} doc={d} />)
             }
         </div>
     );

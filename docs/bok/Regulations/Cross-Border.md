@@ -7,6 +7,7 @@ tags:
   - Placeholder
   - Contribution
   - Policy
+image: /img/bok/regs/cross-border.png 
 ---
 
 <BoxOut title="Cross Border Obligations" image="/img/bok/regs/cross-border.png">

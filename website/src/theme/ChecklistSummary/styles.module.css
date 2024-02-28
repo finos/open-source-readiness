@@ -1,0 +1,110 @@
+.level {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	font-size: smaller;
+}
+
+.levelIdentifier {
+	display: flex;
+	flex-direction: column;
+	background-color: #fafafa;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 10px;
+	align-items: center;
+	flex-basis: 150px;
+	flex-shrink: 0;
+}
+
+.levelIdentifier img {
+	width: 100px;
+	padding-bottom: 5px;
+	;
+}
+
+.checklistSummary {
+	display: flex;
+	flex-direction: column;
+}
+
+.docSummary {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 10px;
+	flex-basis: 100px;
+	flex-grow: 1;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 5px;
+	padding: 5px;
+}
+
+.docDetails {
+	background-color: #f3f3f3;
+	text-align: center;
+	flex-basis: 100px;
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.docDetails h5 {
+	font-size: smaller;
+}
+
+.checkListItem {
+	color: white;
+}
+
+.doneItem {
+	background-color: #88cc88;
+	width: 100%;
+	border-radius: 3px;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.notDoneItem {
+	background-color: #bb5555;
+	width: 100%;
+	border-radius: 3px;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.doneItem p,
+.notDoneItem p {
+	padding: 9px;
+	margin: 0;
+	align-items: center;
+	color: white;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: smaller;
+}
+
+.notdoneItem {
+	background-color: red;
+}
+
+.score {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.divider {
+	display: flex;
+	flex: 1;
+	flex-shrink: 1;
+	flex-grow: 1;
+}

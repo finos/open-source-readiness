@@ -9,9 +9,10 @@ tags:
   - Level 1 (OSMM)
   - Consuming (Activity)
 draft: true
+image: /img/bok/page-types/activity.png
 ---
 
-tbd.
+THIS IS A PLACEHOLDER
 
 ## Open Source vs Proprietary (Commercial) Software
 
