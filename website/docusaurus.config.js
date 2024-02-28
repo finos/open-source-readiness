@@ -61,7 +61,7 @@ module.exports={
 		  },
 		  {
 			  "label": "InnerSource",
-			  "to": "/InnerSource",
+			  "to": "/docs/InnerSource/Introduction",
 			  "position": "right",
 		  },
 		  {
@@ -129,7 +129,7 @@ module.exports={
             },
             {
               "label": "InnerSource Meetings",
-              "to": "/InnerSource"
+              "to": "/docs/InnerSource/Introduction#meetings"
             },
             {
               "label": "FINOS Events",
@@ -169,7 +169,7 @@ module.exports={
             },
             {
               "label": "OSR Mailing List",
-              "to": "/OpenSourceReadiness#how-do-i-get-involved"
+              "to": "/docs/bok/Introduction#how-do-i-get-involved"
             }
           ]
         }
