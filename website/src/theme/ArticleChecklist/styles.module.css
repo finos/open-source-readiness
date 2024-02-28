@@ -62,9 +62,24 @@
 
 /* Thumb: Chrome (from https://blog.logrocket.com/creating-custom-css-range-slider-javascript-upgrades/) */
 
+
+.control input[type="range"]::-moz-range-track {
+	height: 2.5rem;
+	border-radius: 2.5rem;
+}
+
 .control input[type="range"]::-webkit-slider-runnable-track {
 	height: 2.5rem;
 	border-radius: 2.5rem;
+}
+
+.control input[type="range"]::-moz-range-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: #fff;
+	border-radius: 50%;
 }
 
 .control input[type="range"]::-webkit-slider-thumb {
@@ -75,6 +90,7 @@
 	background-color: #fff;
 	border-radius: 50%;
 }
+
 
 .unaware input::-webkit-slider-thumb {
 	border: 5px solid black;
@@ -100,19 +116,19 @@
 	border: 5px solid #00AA00;
 }
 
-.unaware input::-webkit-slider-runnable-track  {
+.unaware input::-webkit-slider-runnable-track {
 	background: #00000080;
 }
 
-.initial input::-webkit-slider-runnable-track  {
+.initial input::-webkit-slider-runnable-track {
 	background:  #88000080;
 }
 
-.managed input::-webkit-slider-runnable-track  {
+.managed input::-webkit-slider-runnable-track {
 	background: #66664480;
 }
 
-.defined input::-webkit-slider-runnable-track  {
+.defined input::-webkit-slider-runnable-track {
 	background: #88884480;
 }
 
@@ -124,20 +140,52 @@
 	background:  #00AA0080;
 }
 
-
-/* Thumb: Firefox */
-input[type="range"]::-moz-range-thumb {
-	height: 15px;
-	width: 15px;
-	background-color: #fff;
-	border-radius: 50%;
-	border: 1px solid #f50;
+.unaware input[type="range"]::-moz-range-thumb {
+	border: 5px solid black;
 }
 
-input[type="range"]::-moz-range-track {
-	height: 15px;
-	background: #ccc;
-	border-radius: 16px;
+.initial input[type="range"]::-moz-range-thumb {
+	border: 5px solid #880000;
+}
+
+.managed input[type="range"]::-moz-range-thumb {
+	border: 5px solid #666644;
+}
+
+.defined input[type="range"]::-moz-range-thumb {
+	border: 5px solid #888844;
+}
+
+.quantitative input[type="range"]::-moz-range-thumb {
+	border: 5px solid #448844;
+}
+
+.optimised input[type="range"]::-moz-range-thumb {
+	border: 5px solid #00AA00;
+}
+
+.unaware input[type="range"]::-moz-range-track  {
+	background: #00000080;
+}
+
+.initial input[type="range"]::-moz-range-track  {
+	background:  #88000080;
+}
+
+.managed input[type="range"]::-moz-range-track  {
+	background: #66664480;
+}
+
+.defined input[type="range"]::-moz-range-track  {
+	background: #88884480;
+}
+
+.quantitative input[type="range"]::-moz-range-track {
+	background: #44884480;
+}
+
+.optimised input[type="range"]::-moz-range-track  {
+	background:  #00AA0080;
 }
 
 
