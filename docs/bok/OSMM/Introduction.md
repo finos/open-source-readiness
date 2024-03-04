@@ -37,7 +37,7 @@ Each level of the Open Source Maturity Model corresponds to a different set of [
 
 This means it is possible for an organization to be making progress on _multiple levels at the same time_:  they might be performing _all_ of the activities at [Level 1](Level-1) and [Level 2](Level-2) and _some_ of the activities of each of levels 3 to 5.  
 
-Only by completing _all_ the activities at a given level and the levels below can an organization be regarded to be operating at that level.  (Unless there is some convincing reason for omitting to perform a given activity.)
+The OSR SIG are working on a [Maturity Checklist](Checklist) which asks you to measure progress on each activity.  Take a look!
 
 
 
