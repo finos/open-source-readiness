@@ -101,26 +101,37 @@ class Slider extends React.Component {
 
 	render() {
 		return (
-			<div key={this.state.id} className={styles.checklistItem} onMouseUp={() => {
-				update(this.state.id);
-				this.handleForceupdateMethod();
-			}}>
-				<div className={levels[this.state.level].class}>
-					<div key="control" className={styles.control}>
+			<div className={levels[this.state.level].class}>
+				<div key={this.state.id} className={styles.checklistItem} onMouseUp={() => {
+					update(this.state.id);
+					this.handleForceupdateMethod();
+				}}>
+					<div className={styles.control}>
 						<input type="range" min={0} max={5} name={this.state.id} id={this.state.id} defaultValue={this.state.level} className={styles.checklistInput} />
 					</div>
-					<div key="label" className={styles.label}>
+					<div className={styles.label}>
 						<label htmlFor={this.state.id}>
-							{this.props.label}: <span className={styles.nameLabel}>{levels[this.state.level].name}</span>
+							<div>{this.props.label}</div>
 						</label>
-
-						<div key="k1" className={styles.description}>"{this.props.description}"</div>
-
-						<div key="k2" className={styles.valueDescription}>{levels[this.state.level].description}</div>
-
+					</div>
+					<div className={styles.value}>
+						<div className={styles.valueInner}>
+							{levels[this.state.level].name}
+						</div>
+					</div>
+					<div className={styles.labelDescription}>
+						<div className={styles.labelDescriptionInner}>
+							{this.props.description}
+						</div>
+					</div>
+					<div className={styles.valueDescription}>
+						<div className={styles.valueDescriptionInner}>
+							{levels[this.state.level].description}
+						</div>
 					</div>
 				</div>
 			</div>
+
 		)
 	}
 }
