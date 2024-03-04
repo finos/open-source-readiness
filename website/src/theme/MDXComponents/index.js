@@ -7,6 +7,7 @@ import DocExcerpt from '../DocExcerpt'
 import CourseList from '../CourseList'
 import CourseDetails from '../CourseDetails'
 import ArticleChecklist from '../ArticleChecklist'
+import CompleteChecklist from '../CompleteChecklist'
 import ChecklistSummary from '../ChecklistSummary'
 import ImageBullet from '../ImageBullet';
 
@@ -20,5 +21,6 @@ export default {
   CourseDetails,
   ArticleChecklist,
   ChecklistSummary,
-  ImageBullet
+  ImageBullet,
+  CompleteChecklist
 };

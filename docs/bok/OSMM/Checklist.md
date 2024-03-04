@@ -7,4 +7,4 @@ draft: true
 
 Some details here.
 
-<ChecklistSummary />
+<CompleteChecklist />

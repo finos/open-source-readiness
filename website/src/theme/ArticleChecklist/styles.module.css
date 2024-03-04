@@ -283,3 +283,15 @@
 .optimised .valueDescription {
 	color: #00AA00;
 }
+
+/** Footer Text */
+
+
+.footer {
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.footer p {
+	text-align: right;
+}

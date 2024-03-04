@@ -137,25 +137,28 @@ class Slider extends React.Component {
 }
 
 
-function ChecklistInner({ checklist, title }) {
+function ChecklistInner({ checklist, title, link, linkText }) {
 	return (<div className={styles.checklist}>
 		<div key="one" className={styles.header}>
-			<img className={styles.icon} src="/img/bok/maturity/checklist.png" alt="Maturity Checklist" />
-			<h3> Maturity Checklist </h3>
+			<img className={styles.icon} src="/img/bok/maturity/checklist.png" alt={title} />
+			<h3> {title} </h3>
 		</div>
 		<form id="article-checklist-form" name="article-checklist" className={styles.checklistBody}>
 			{
 				checklist.map(item => <Slider label={item.title} description={item.description} page={title} />)
 			}
 		</form>
-		<div key="two" className={styles.contents}>
-		</div>
+		<div className={styles.footer}> 
+        { 
+        	(link) ? <p><a href={link} className={styles.link}>{linkText}</a></p> : ""
+        }
+        </div>
 	</div>)
 }
 
-export default ({ checklist, title }) => {
+export default ({ checklist, title, link="/docs/bok/OSMM/Checklist", linkText="View Complete Checklist" }) => {
 	return (
-		<BrowserOnly>{() => <ChecklistInner checklist={checklist} title={title} />}</BrowserOnly>
+		<BrowserOnly>{() => <ChecklistInner checklist={checklist} title={title} link={link} linkText={linkText}/>}</BrowserOnly>
 	)
 
 }
