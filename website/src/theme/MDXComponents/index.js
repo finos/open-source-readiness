@@ -10,6 +10,7 @@ import ArticleChecklist from '../ArticleChecklist'
 import CompleteChecklist from '../CompleteChecklist'
 import ChecklistSummary from '../ChecklistSummary'
 import ImageBullet from '../ImageBullet';
+import PdfButton from '../PdfButton';
 
 export default {
   ...MDXComponents,
@@ -22,5 +23,6 @@ export default {
   ArticleChecklist,
   ChecklistSummary,
   ImageBullet,
-  CompleteChecklist
+  CompleteChecklist,
+  PdfButton
 };
