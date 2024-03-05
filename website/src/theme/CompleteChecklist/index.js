@@ -18,7 +18,7 @@ function DoDocList({ tag, uri, name, icon, description }) {
 	return (
 		<div className={styles.level}>
 			<div className={styles.levelIdentifier}>
-				<h4><a href={uri}>{name}</a></h4>
+				<h4><a id={name.replace(" ","-").toLowerCase()} href={uri}>{name}</a></h4>
 				<img src={icon} />
 				<p>{description}</p>
 				<div className={styles.divider}></div>

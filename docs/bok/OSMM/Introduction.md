@@ -37,8 +37,43 @@ Each level of the Open Source Maturity Model corresponds to a different set of [
 
 This means it is possible for an organization to be making progress on _multiple levels at the same time_:  they might be performing _all_ of the activities at [Level 1](Level-1) and [Level 2](Level-2) and _some_ of the activities of each of levels 3 to 5.  
 
-The OSR SIG are working on a [Maturity Checklist](Checklist) which asks you to measure progress on each activity.  Take a look!
+The OSR SIG are working on a [Maturity Checklist](Checklist) which asks you to measure progress on each activity.  
 
+For each activity you can assign one of the following values (taken from the [CMMI Model](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)):
+
+### 0. Unaware
+
+This is the default.  Leave this value as-is if you are not aware of how your organisation performs this activity.
+
+### 1. Initial
+
+At this level:
+
+ - Processes are typically ad hoc and chaotic. 
+ - The organization does not provide a stable environment. 
+ - Success in these organizations is likely to depend on the competence and heroics of the people in the organization and not on the use of proven processes.
+
+### 2. Managed
+
+ - Projects have ensured that processes are planned and executed in accordance with policy; 
+ - the projects employ skilled people who have adequate resources to produce controlled outputs; involve relevant stakeholders; are monitored, controlled, and reviewed; and are evaluated for adherence to their process descriptions.
+Outcome: The key aspect of this level is the establishment of project management disciplines covering planning, performance monitoring, and control.
+
+### 3. Defined
+
+ - The organization has a set of standard processes, which is the basis for Level 2, is further developed to take into account the tailored needs of different projects and is used consistently across the organization. 
+ - These standard processes are supported by the organization and are improved over time.
+ 
+### 4. Quantitative
+
+ - The organization and projects establish quantitative objectives for quality and process performance. 
+ - This level focuses on the use of measurement and statistical techniques to understand and control processes.
+ 
+### 5. Optimised
+
+ - The organization’s performance is optimised through incremental and innovative process and technological improvements. 
+ - The quantitative process-improvement objectives are established and continually revised to reflect changing business objectives, and the effects of deployed process improvements are measured.
+ 
 
 
 

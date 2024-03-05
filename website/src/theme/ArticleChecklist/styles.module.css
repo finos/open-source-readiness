@@ -230,57 +230,55 @@
 	padding: .2rem;
 }
 
-.unaware .valueInner {
+.valueInner a {
 	color: white;
+}
+
+.unaware .valueInner {
 	background-color: black;
 }
 
 .initial .valueInner {
-	color: white;
 	background-color: #880000;
 }
 
 .managed .valueInner {
-	color: white;
 	background-color: #666644;
 }
 
 .defined .valueInner {
-	color: white;
 	background-color: #888844;
 }
 
 .quantitative .valueInner {
-	color: white;
 	background-color: #448844;
 }
 
 .optimised .valueInner {
-	color: white;
 	background-color: #00AA00;
 }
 
-.unaware .valueDescription {
+.unaware .valueDescription a {
 	color: black;
 }
 
-.initial .valueDescription {
+.initial .valueDescription a {
 	color: #880000;
 }
 
-.managed .valueDescription {
+.managed .valueDescription a{
 	color: #666644;
 }
 
-.defined .valueDescription {
+.defined .valueDescription a {
 	color: #888844;
 }
 
-.quantitative .valueDescription {
+.quantitative .valueDescription a {
 	color: #448844;
 }
 
-.optimised .valueDescription {
+.optimised .valueDescription a {
 	color: #00AA00;
 }
 

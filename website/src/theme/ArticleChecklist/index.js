@@ -4,36 +4,48 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 
 const expDays = 2000;
 
-const levels = [
+export const levels = [
 	{
 		name: "Unaware",
 		description: "No awareness of this activity",
-		class: styles.unaware
+		class: styles.unaware,
+		color: "000000",
+		link: "/docs/bok/OSMM/Introduction#0-unaware"
 	},
 	{
 		name: "Initial",
 		description: "Unrepeatable process, poorly controlled, reactive",
-		class: styles.initial
+		class: styles.initial,
+		color: "880000",
+		link: "/docs/bok/OSMM/Introduction#1-initial"
 	},
 	{
 		name: "Managed",
 		description: "Ad-hoc processes exist, usually followed, reactive",
-		class: styles.managed
+		class: styles.managed,
+		color: "666644",
+		link: "/docs/bok/OSMM/Introduction#2-managed"
 	},
 	{
 		name: "Defined",
 		description: "Processes in place, proactive application",
-		class: styles.defined
+		class: styles.defined,
+		color: "888844",
+		link: "/docs/bok/OSMM/Introduction#3-defined"
 	},
 	{
 		name: "Quantitative",
 		description: "Processes measured and controlled",
-		class: styles.quantitative
+		class: styles.quantitative,
+		color: "448844",
+		link: "/docs/bok/OSMM/Introduction#4-quantitative"
 	},
 	{
 		name: "Optimised",
 		description: "The organisation has reached its goal in terms of this activity.",
-		class: styles.optimised
+		class: styles.optimised,
+		color: "00AA00",
+		link: "/docs/bok/OSMM/Introduction#5-optimised"
 	}
 ]
 
@@ -116,7 +128,7 @@ class Slider extends React.Component {
 					</div>
 					<div className={styles.value}>
 						<div className={styles.valueInner}>
-							{levels[this.state.level].name}
+							<a href={levels[this.state.level].link}>{levels[this.state.level].name}</a>
 						</div>
 					</div>
 					<div className={styles.labelDescription}>
@@ -126,7 +138,7 @@ class Slider extends React.Component {
 					</div>
 					<div className={styles.valueDescription}>
 						<div className={styles.valueDescriptionInner}>
-							{levels[this.state.level].description}
+							<a href={levels[this.state.level].link}>{levels[this.state.level].description}</a>
 						</div>
 					</div>
 				</div>
