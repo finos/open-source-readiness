@@ -10,12 +10,12 @@ function matchesTag(tags, t) {
 
 export default function CompleteChecklist({tag}) {
 	const allDocs = usePluginData('checklist-listing');
-	const matchingDocs = allDocs.filter(d => 3(d.tags, tag))
+	const matchingDocs = allDocs.filter(d => matchesTag(d.tags, tag))
 
 	return (
 		<div>
             {
-				matchingDocs.map(d => <ArticleChecklist checklist={d.checklist} title={d.title} link={"/docs/"+d.id} linkText="View original article"/>)
+				matchingDocs.map(d => <ArticleChecklist key={d.title} checklist={d.checklist} title={d.title} link={"/docs/"+d.id} linkText="View original article"/>)
 			}
 		</div>
 	)

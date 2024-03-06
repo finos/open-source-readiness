@@ -157,7 +157,7 @@ function ChecklistInner({ checklist, title, link, linkText }) {
 		</div>
 		<form id="article-checklist-form" name="article-checklist" className={styles.checklistBody}>
 			{
-				checklist.map(item => <Slider label={item.title} description={item.description} page={title} />)
+				checklist.map(item => <Slider key={item.title} label={item.title} description={item.description} page={title} />)
 			}
 		</form>
 		<div className={styles.footer}> 

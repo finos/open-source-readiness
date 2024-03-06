@@ -1,5 +1,6 @@
 import React from 'react';
 import html2pdf from 'html2pdf.js';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function download(id) {
 
@@ -22,7 +23,7 @@ function download(id) {
 
 export default function Button({id}) {
 	return (
-		<a onClick={() => download(id)} href="#">Download as PDF</a>
+		<BrowserOnly>{ () => <a onClick={() => download(id)} href="#">Download as PDF</a> }</BrowserOnly>
 	)
 }
 
