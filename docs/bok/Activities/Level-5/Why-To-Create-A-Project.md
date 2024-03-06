@@ -25,7 +25,7 @@ Often, when a new project is released, initial interest is low. This raises the 
 
 ## Pluggable Platforms
 
-When you start your open-sourcing effort, you hope for an ecosystem to form (see also: [Foundations](Foundations). But ecosystems grow gradually on an exponential curve and you do not yet know the upcoming usage.  Potential users of your project might be using another open source offering or using their own proprietary one.   They may need to be persuaded to switch.  This can raise the question - _was there any point in us open sourcing this project at all?_
+When you start your open-sourcing effort, you hope for an ecosystem to form (see also: [Foundations](../Level-4/Foundations). But ecosystems grow gradually on an exponential curve and you do not yet know the upcoming usage.  Potential users of your project might be using another open source offering or using their own proprietary one.   They may need to be persuaded to switch.  This can raise the question - _was there any point in us open sourcing this project at all?_
 
 Conversely, there should not be a reason for a company to own every line of the code they write:  most likely already using plenty of open source.  So by this argument, the code in a new project owned might as well be part open source.
 

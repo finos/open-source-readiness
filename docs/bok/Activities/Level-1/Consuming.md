@@ -45,7 +45,7 @@ Approved to leverage open source and pulling in dependency in their projects.
 
 ## Choosing Healthy Dependencies
 
-Choosing [healthy open source dependencies](../Measurements/Project-Health)
+Choosing [healthy open source dependencies](../../Measurements/Project)
 Risks of choosing defunct libraries.
 
 ## Choosing Languages
@@ -66,7 +66,7 @@ Things to look for in language choice.  (link to existing articles)
 
 Have own profile and develop in personal repos. 
 
-[Experimenting more with OSS outside of work.](Contributing-To-Projects)
+[Experimenting more with OSS outside of work.](../Level-3/Public-Development)
 
 Share process of leveraging open source with others
 

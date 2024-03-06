@@ -30,7 +30,7 @@ Some activities taken from the [GGI](../../Training/Good-Governance-Initiative):
 
 - Managing people who are using open source tools to develop with.
 - How to normalize the use of open source.
-- Accepting the new [TCO](../../Measurements/TCO) (paid support in some circumstances, but not usually) 
+- Accepting the new [TCO](../../Measurements/Project) (paid support in some circumstances, but not usually) 
 
 ## Skills Inventory
 
@@ -50,7 +50,7 @@ Once open source software has been chosen for consumption, it will need to be de
 
 > This activity is about controlling the use of open source and ensuring open source software is proactively managed. This concerns several perspectives, be it to use OSS tools and business solutions, or to include OSS as components in own developments or modify a version of a soft- ware adapting it to its own needs, etc. It is also about identifying areas where open source has become a (sometimes covert) de facto solution and assessing its suitability. - [OW2 Good Governance Initiative](../../Training/Good-Governance-Initiative)
 
-At this stage it may be necessary to evaluate the software's [Total Cost of Ownership](../../Measurements/TCO)
+At this stage it may be necessary to evaluate the software's [Total Cost of Ownership](../../Measurements/Project)
 
 ## Maturity Checklist
 

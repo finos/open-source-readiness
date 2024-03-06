@@ -22,7 +22,7 @@ Refer to [Policy](../../Artifacts/Policy) as the _output_ from this activity.
 
 
 
-<Excerpt link="https://todogroup.org/guides/create-program/#program-structure" title="Open Source Policy" from="TODO Group">
+<BoxOut image="/img/bok/page-types/artifact.png" link="https://todogroup.org/guides/create-program/#program-structure" title="Open Source Policy" linkText="From TODO Group">
 
 When drafting open source policies, among the many topics that need to be discussed are:
 
@@ -37,7 +37,7 @@ When drafting open source policies, among the many topics that need to be discus
 - How a company can grow a community of like-minded external developers around it to keep it thriving
 - Rules that help determine when code should be released as open source or kept as intellectual property
 
-</Excerpt>
+</BoxOut>
 
 
 ### The Policy

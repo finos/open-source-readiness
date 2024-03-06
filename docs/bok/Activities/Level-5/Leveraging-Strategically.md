@@ -42,7 +42,7 @@ There is an open source conversation in each of those topics: your [OSPO](../../
 
 For the OSPO, Level 5 is an opportunity to extend your reach and participate in executive decisions. In the earlier levels, OSPOs address three directions: 
 1. The head of the OSPO creates and operates a team, developing processes and deliverables. In hierarchical organizations, this is a _downward_ focus. 
-2. The OSPO operates in service of internal engineering groups, as well as [legal](../../roles/Legal), [information security](../../roles/Security-Expert), developer tooling, internal comms, and others. This is the _lateral_ focus on internal partners, peers, and customers of the OSPO services. 
+2. The OSPO operates in service of internal engineering groups, as well as [legal](../../roles/Legal), [information security](../../roles/CISO), developer tooling, internal comms, and others. This is the _lateral_ focus on internal partners, peers, and customers of the OSPO services. 
 3. As you engage with the external community, join [foundations](../level-4/Foundations), [launch projects](../level-4/Open-Sourcing-A-Project), and participate in collaborative refinement of open source, the OSPO also engages _outwardly_ with peers and open source communities. 
 
 In Level 5, the OSPO will be invited to a fourth direction: it will engage _upward_ to inform and engage executives in strategic opportunities. This is your opportunity to contribute to technology strategy.
