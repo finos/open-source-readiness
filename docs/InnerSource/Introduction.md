@@ -42,13 +42,11 @@ ownership issues that can stall innovation.
 	<thead>
 		<tr>
 			<th>Second Tuesday Every Month</th>
-			<th>Fourth Tuesday Every Month</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td className="calendar"><a href="/ics/finos-event-7.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download" /><br />Add To Calendar</a></td>
-			<td className="calendar"><a href="/ics/finos-event-8.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download" /><br />Add To Calendar</a></td>
 		</tr>
 	</tbody>
 </table>
