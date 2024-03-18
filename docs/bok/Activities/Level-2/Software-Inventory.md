@@ -9,6 +9,7 @@ tags:
   - Codebase Risk
   - Dependency Risk
   - CVE (Artifact)
+  - Repository (Artifact)
 sidebar_position: 1
 image: /img/bok/page-types/activity.png
 ---
@@ -65,7 +66,7 @@ GitHub's OSPO uses [Dependabot](https://github.com/dependabot) to review code in
 </BoxOut>
 
 
-<BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository">
+<BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository" link="../../Artifacts/Artifact-Repository" linkText="Main Article on Artifact Repositories">
 
 Here are some tools popular with teams involved in the body of knowledge for inventorying activities:
 
