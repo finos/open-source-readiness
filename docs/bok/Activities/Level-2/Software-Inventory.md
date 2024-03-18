@@ -53,7 +53,7 @@ It is important to understand that modern software is composed of smaller units 
 
 Let's work from left to right in the pipeline and examine what tools are available to help with each stage.
 
-<BoxOut image="/img/bok/destinations/source-repository.png" title="Source Control">
+<BoxOut image="/img/bok/destinations/source-repository.png" title="Source Control"  link="../../Artifacts/Repository#source-repository" linkText="Main Article on Source Repositories">
 
 #### Dependabot
 
@@ -66,7 +66,7 @@ GitHub's OSPO uses [Dependabot](https://github.com/dependabot) to review code in
 </BoxOut>
 
 
-<BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository" link="../../Artifacts/Artifact-Repository" linkText="Main Article on Artifact Repositories">
+<BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository" link="../../Artifacts/Repository#artifact-repository" linkText="Main Article on Artifact Repositories">
 
 Here are some tools popular with teams involved in the body of knowledge for inventorying activities:
 

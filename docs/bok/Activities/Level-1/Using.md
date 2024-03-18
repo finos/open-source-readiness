@@ -10,6 +10,7 @@ tags:
   - Consuming (Activity)
   - Repository (Artifact)
 image: /img/bok/page-types/activity.png
+sidebar_position: 0
 ---
 
 Using open source software within a financial services organisation can be problematic.  This article outlines some of the pitfalls in getting started.
@@ -36,7 +37,7 @@ Often it is impossible to download software from the Internet when working at a 
 
 1. You can try to get dispensation to access certain public repositories where open source software is held (e.g [npmjs.com](https://www.npmjs.com/) or [Maven Central](https://central.sonatype.com/)).   However, your firm might rightly point out that this is a potential malware vector.   This might be acceptable if your software is running only on your own PC and not entering "production" (i.e. more sensitive parts of the bank's network, or being made available on the internet).
 
-2. You can get the infrastructure team to run an [Artifact Repository](../../Artifacts/Artifact-Repository) from which open source software can be downloaded.  This is the recommended approach as it sets you on the right path for tackling [License Compliance](../../Activities/License-Management) and [Software Inventory](../../Activities/Software-Inventory) later in your open source journey.
+2. You can get the infrastructure team to run an [Artifact Repository](../../Artifacts/Repositories#artifact-repository) from which open source software can be downloaded.  This is the recommended approach as it sets you on the right path for tackling [License Compliance](../Level-2/License-Management) and [Software Inventory](../Level-2/Software-Inventory) later in your open source journey.
 
 ## Accessing GitHub / GitLab
 
