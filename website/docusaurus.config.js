@@ -71,7 +71,7 @@ module.exports={
 		  }
       ]
     },
-    "image": "img/bok/osr-header.svg",
+    "image": "img/site-preview.png",
     "footer": {
       "links": [
         {
