@@ -8,7 +8,7 @@ tags:
   - Level 2 (OSMM)
 sidebar_position: 5
 sidebar_label: Policy
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 **THIS IS A PLACEHOLDER**
 

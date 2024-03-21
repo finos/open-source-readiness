@@ -6,7 +6,7 @@ tags:
   - CTO (Role)
   - Level 5 (OSMM)
   - Strategy
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 OSMM Level 5 is about [Strategy](../../Artifacts/Strategy). At this level, you seek to make decisions that shape the technology landscape in your favor to create new opportunities. 

@@ -5,7 +5,7 @@ tags:
   - Operational Risk
   - Codebase Risk
   - Organisational-Measurement
-image: /img/bok/metric.png
+list_image: /img/bok/metric.png
 ---
 
 Code duplication occurs when internal staff are forced to create copies of external (or other internal code) and modify it to suit their own purposes, thereby increasing the maintenance overhead.

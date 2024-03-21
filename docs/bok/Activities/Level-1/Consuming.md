@@ -9,7 +9,7 @@ tags:
   - Level 1 (OSMM)
   - Consuming (Activity)
 draft: true
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 THIS IS A PLACEHOLDER

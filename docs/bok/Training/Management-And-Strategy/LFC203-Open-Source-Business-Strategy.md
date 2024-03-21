@@ -11,7 +11,7 @@ course:
   cost: n/a
   link: https://trainingportal.linuxfoundation.org/courses/open-source-business-strategy-lfc203
 sidebar_label: LFC203
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 This module covers an introduction to the business, strategic & programmatic elements of open source, and forms the core content within the ‘Strategy & Governance’ section of the open source framework. Understanding these elements is crucial for senior leadership because they form the backbone of effective open source utilization and engagement with the open source ecosystem. Being able to effectively articulate and utilize these strategic concepts gives learners the foundation to make decisions that extract the most business value from their organization’s investment in open source.

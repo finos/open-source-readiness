@@ -9,7 +9,7 @@ tags:
   - Operational Risk
 sidebar_position: 4
 sidebar_label: Training
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 It is generally preferable if an [Open Source Contribution Policy](Contribution-Compliance) can be enforced via tooling (so called _policy as code_).  However, often policy will refer to behaviours and expectations of staff which cannot be controlled through systems.  In these cases, training courses will be needed to help promote desired behaviours.

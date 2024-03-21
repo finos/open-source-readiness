@@ -13,7 +13,7 @@ course:
   cost: free
   link: https://training.linuxfoundation.org/training/open-source-licensing-basics-for-software-developers/
 sidebar_label: LFD102
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 This course is designed for developers who utilize open source code.

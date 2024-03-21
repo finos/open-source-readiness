@@ -3,7 +3,7 @@ title: The Open Source Way
 tags: 
   - OSPO (Role)
   - Other-Training
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 The open source way is a way of thinking about how people collaborate within a community to achieve common goals and interests.

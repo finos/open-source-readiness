@@ -12,7 +12,7 @@ course:
   cost: free
   link: https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/
 sidebar_label: LFC191
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 This course is addressed to software developers seeking to understand the ‘rules of the road’ of creating open source software, either as a newbie or as someone with experience primarily in creating proprietary code.

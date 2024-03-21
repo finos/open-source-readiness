@@ -5,7 +5,7 @@ sidebar_position: 2
 tags:
   - Level 2 (OSMM)
   - OSMM
-image: /img/bok/maturity/compliance.png
+list_image: /img/bok/maturity/compliance.png
 ---
 
 At this level, an organization has established some practices for managing open source software.  The organization has some [visibility into open source use](../Activities/Level-2/Software-Inventory) and there are limited controls in place to manage open source software and to [ensure compliance with licenses](../Activities/Level-2/License-Management).

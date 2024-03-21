@@ -79,6 +79,7 @@ This site also contains other resources to help firms on their open source journ
 				
 				
 <BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4'>
+
 #### Meetings
 
 <table>

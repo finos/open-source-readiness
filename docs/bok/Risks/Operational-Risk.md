@@ -4,7 +4,7 @@ tags:
   - Operational Risk
   - Compliance (Role)
   - Policy
-image: /img/bok/risks/operational-risk.png
+list_image: /img/bok/risks/operational-risk.png
 ---
 
 <BoxOut title="Operational Risk" image="/img/bok/risks/operational-risk.png">

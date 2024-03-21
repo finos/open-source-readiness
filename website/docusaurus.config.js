@@ -71,7 +71,7 @@ module.exports={
 		  }
       ]
     },
-    "image": "img/undraw_online.svg",
+    "image": "img/bok/osr-header.svg",
     "footer": {
       "links": [
         {
@@ -169,7 +169,7 @@ module.exports={
             },
             {
               "label": "OSR Mailing List",
-              "to": "/docs/bok/Introduction#how-do-i-get-involved"
+              "to": "mailto:osr+subscribe@finos.org?subject=Subscribe%20Me&body=Please%20subscribe%20me%20to%20the%20OSR%20Mailing%20List"
             }
           ]
         }

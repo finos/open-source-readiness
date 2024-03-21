@@ -4,7 +4,7 @@ tags:
   - Developer (Role)
   - OSPO (Role)
 sidebar_label: IP
-image: /img/bok/page-types/artifact.png
+list_image: /img/bok/page-types/artifact.png
 ---
 
 This article discusses the main types of intellectual property and their application to open source within financial services.

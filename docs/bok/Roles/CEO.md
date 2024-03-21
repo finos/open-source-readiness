@@ -4,7 +4,7 @@ sidebar_label: CEO
 tags: 
   - CEO (Role)
   - Policy
-image: /img/bok/roles/ceo.png
+list_image: /img/bok/roles/ceo.png
 ---
 
 <BoxOut title="Chief Executive Officer" image="/img/bok/roles/ceo.png">
