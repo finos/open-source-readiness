@@ -71,7 +71,7 @@ module.exports={
 		  }
       ]
     },
-    "image": "img/site-preview.png",
+    "image": "/img/site-preview.png",
     "footer": {
       "links": [
         {
