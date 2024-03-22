@@ -9,6 +9,17 @@ sidebar_label: OSPO
 authors:
   name: Pooi Cheong
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Creation
+    description: The organisation has an open source project office (OSPO)
+  - title: Stakeholders
+    description: The OSPO has stakeholders from relevant functional areas of the organisation
+  - title: Awareness
+    description: Staff are aware of the purpose of the OSPO and how to engage with it
+  - title: Consultation
+    description: The OSPO is consulted when the organisation starts new open source activity
+  - title: Measurement
+    description:  The OSPO measures usage according to published metrics
 ---
 
 An [Open Source Program Office (OSPO)](../../Artifacts/OSPO) is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group](https://github.com/todogroup/ospodefinition.org). 
@@ -186,3 +197,7 @@ At some point, you may be in the position to hire permanent staff for the OSPO, 
 
 - Is the OSPO able to make recommendations around which open source libraries and projects to invest in?  If so, can they create metrics around how much this simplifies the technology landscape?   
 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

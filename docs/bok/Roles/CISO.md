@@ -1,15 +1,15 @@
 ---
-title: Security Expert
+title: CISO / Security Expert
 sidebar_label: CISO
 tags:
-  - Security Expert (Role)
+  - CISO (Role)
   - Policy
 image: /img/bok/roles/ciso.png
 ---
 
 <BoxOut title="Security Expert / CISO" image="/img/bok/roles/ciso.png">
 
-Security Experts, headed by the Chief Information Security Officer (CISO) in a bank play a crucial role in maintaining security around the institution's sensitive data, IT systems, and digital assets.
+Security Experts, headed by the Chief Information Security Officer (CISO) in a bank play a crucial role in maintaining security around the institution's sensitive data, IT systems, and digital assets.  A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.
 
 The CISO is responsible for managing and mitigating risks associated with cybersecurity and ensuring compliance with relevant regulations and industry standards.
 

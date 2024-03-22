@@ -10,6 +10,15 @@ sidebar_label: Engagement
 authors:
   - name: "Brittany Istenes"
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Aspiration
+    description: The organisation tracks open source projects it intends to contribute to
+  - title: Community
+    description: The organisation has an open source community manager function
+  - title: Social Media
+    description: The organisation fosters and encourages social media for visibility of open source projects
+  - title: Measurement
+    description: The organisation measures the effectiveness of community engagement
 ---
 
 Within the Open Source Ecosystem, millions of projects exist and some of the projects are duplicate efforts.  The open source community is vast and sometimes very hard to reach.  
@@ -92,3 +101,7 @@ If you answered yes to many of the questions listed above, you can follow the gu
 - https://opensource.com/article/22/12/open-source-community-management
 - https://www.redhat.com/en/blog/best-practices-community-practice-open-source-way-journey
 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

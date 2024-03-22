@@ -8,6 +8,11 @@ tags:
 sidebar_position: 8
 sidebar_label: Training
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Training Program
+    description: The organisation has a training program for teams working on open source software
+  - title: Internal Training
+    description: The organisation provides internal training on open source usage policies and procedures
 ---
 
 This guide is intended to help OSPOs of all maturity levels build an open source training course that is created with purpose to deliver impact. Whether your OSPO recently launched or is looking into re-doing the firms open source training, this guide will provide ideas and content that can be implemented to a comprehensive open source training course. 
@@ -160,3 +165,6 @@ _Will the content need to be updated more frequently?_
 
 Example: External links can change from time to time. Using external resources on the training course will reduce the risk of having broken links and having to update the course.
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

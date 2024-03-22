@@ -1,110 +1,97 @@
-.level {
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	display: flex;
-	flex-direction: row;
-	font-size: smaller;
+.checklistOutline {	
+	border: 1px solid black;
+	border-radius: 1rem;;
+	font-size: .5rem;
+	max-width: 55rem;
+	padding: 1rem
 }
 
-.levelIdentifier {
+h4 {
+	font-size: .6rem;
+}
+
+.banner {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 1rem;
+	justify-content: center;
+	
+}
+
+.banner img {
+	width: 3rem;
+}
+
+
+.checklistSummary {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-template-rows: auto auto auto auto auto; 
+	gap: .5rem;
+	overflow: hidden;
+}
+
+.level {
 	display: flex;
 	flex-direction: column;
 	background-color: #fafafa;
-	border-radius: 3px;
-	margin: 10px;
-	padding: 10px;
+	border-radius: .5rem;
 	align-items: center;
-	flex-basis: 150px;
+	flex-basis: 10rem;
 	flex-shrink: 0;
 }
 
-.levelIdentifier img {
-	width: 100px;
-	padding-bottom: 5px;
-	;
+.level img {
+	padding-bottom: .5rem;
+	margin-bottom: auto;
+	height: 5rem;
 }
 
-.checklistSummary {
+.square {
 	display: flex;
 	flex-direction: column;
 }
 
-.docSummary {
-	display: flex;
-	flex-direction: column;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	margin: 10px;
-	flex-basis: 100px;
-	flex-grow: 1;
-	flex-shrink: 0;
+.detail {
 	align-items: center;
-	justify-content: flex-end;
-	gap: 5px;
-	padding: 5px;
-}
-
-.docDetails {
-	background-color: #f3f3f3;
 	text-align: center;
-	flex-basis: 100px;
-	width: 100%;
-	margin: 0px;
-	padding: 5px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-}
-
-.docDetails h5 {
-	font-size: smaller;
-}
-
-.checkListItem {
-	color: white;
-}
-
-.doneItem {
-	background-color: #88cc88;
-	width: 100%;
-	border-radius: 3px;
+	overflow: hidden;
+	flex-basis: 2rem;
 	flex-grow: 1;
-	text-align: center;
 }
 
-.notDoneItem {
-	background-color: #bb5555;
-	width: 100%;
-	border-radius: 3px;
-	flex-grow: 1;
-	text-align: center;
-}
-
-.doneItem p,
-.notDoneItem p {
-	padding: 9px;
-	margin: 0;
-	align-items: center;
-	color: white;
-	vertical-align: middle;
-	font-weight: bold;
-	font-size: smaller;
-}
-
-.notdoneItem {
-	background-color: red;
+.items a {
+	color: black;
 }
 
 .score {
-	padding: 0;
 	margin: 0;
-	padding-bottom: 10px;
+	font-size: 2rem;
+	margin-bottom: auto;
+	flex-basis: 3rem;
+	flex-grow: 0;
+	text-align: center;
 }
 
-.divider {
-	display: flex;
-	flex: 1;
-	flex-shrink: 1;
-	flex-grow: 1;
+.name {
+	flex-basis: 2rem;
+	padding: .5rem;
+	text-align: center;	
+}
+
+.name a {
+	color: black;
+	font-weight: bold;
+	
+}
+
+.items {
+	padding: .1rem;
+	list-style: none;
+}
+
+.items li {
+	text-align: center;
+	padding: .2rem;
 }

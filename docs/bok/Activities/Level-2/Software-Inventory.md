@@ -11,6 +11,19 @@ tags:
   - CVE (Artifact)
 sidebar_position: 1
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Tracking
+    description: The organisation has a software asset registry
+  - title: Runtime Awareness
+    description: The organisation is aware of the open source software running within it
+  - title: Life-cycle
+    description: Open source components are managed from ingestion through to end-of-life
+  - title: Requirements
+    description: The organisation tracks issues, fixes and versions for each component via an automated process
+  - title: Ownership
+    description: The organisation identifies an owner for each open source component in production
+  - title: Production Support
+    description: The organisation has a plan to support open source components in production
 ---
 
 Software inventory is a precondition to most of the activities involved in OSMM level 2.  The first step to licence compliance or supply chain security is _to understand what software is in your estate_.
@@ -94,3 +107,9 @@ Here are some tools marketed as handling runtime software inventory.  We are int
 
 
 </BoxOut>
+
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
+

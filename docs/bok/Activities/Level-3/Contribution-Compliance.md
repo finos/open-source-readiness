@@ -8,6 +8,17 @@ tags:
 sidebar_position: 3
 sidebar_label: Compliance
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Policy
+    description: The organisation has policies to govern contribution to open source ecosystems
+  - title: Tracking Contribution
+    description: The organisation tracks employee open source contributions irrespective of the classification of the project
+  - title: Contribution Risk Management
+    description: Enterprise risk management processes include open source contribution risks
+  - title: Contribution Risk Appetite
+    description: The balance of open source contribution risks are understood by stakeholders
+  - title: Contribution Efficiency
+    description: Organisational tools and processes don't restrict open source contribution
 ---
 
 Contributing to an open source project from within a regulated firm is likely to contravene one or more _policies_.   Staff who contribute to open source as part of their jobs are likely to be in breach of their terms of employment or likely to get disciplined.   For this reason, in order to enable open source contribution, new policy needs to be written which creates space within the compliance landscape.
@@ -81,3 +92,8 @@ Your policy is likely to want to mandate staff training so that staff are aware 
 In this section we look at some regulations that an open source policy will need to consider, and suggest appropriate controls for complying with each (and _evidencing_ compliance after the fact).
 
 <BokTagList tag="Contribution" filter="Regulations" />
+
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

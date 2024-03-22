@@ -10,6 +10,9 @@ tags:
 sidebar_position: 9
 sidebar_label: Talent
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Talent
+    description: Talent strategy leverages open source
 --- 
 
 Managing talent in financial institutions is crucial because the quality, motivation, and expertise of their workforce directly influence the institutions' ability to innovate, maintain a competitive edge, comply with regulatory requirements, and ultimately drive financial performance and growth.
@@ -54,3 +57,7 @@ Developers don't want to work on your organisation's proprietary platform as the
  - To _retain_ these high-performing staff, you have to give them the right tools to carry on contributing effectively.
  - GitHub is _becoming a CV_.
  
+ 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

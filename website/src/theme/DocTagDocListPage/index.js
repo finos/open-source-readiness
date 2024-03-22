@@ -115,9 +115,9 @@ export default function DocTagDocListPage({tag}) {
               {md ? <DocItem id={-1} doc={md} /> : ""}
               {categoryStubs
                 .filter(k => sorted[k])
-                .map(k=> <section className="margin-vert--lg">
+                .map(k=> <section key={k} className="margin-vert--lg">
                 <h2>{k}</h2>
-                {sorted[k].map((doc, i) => <DocItem id={i} doc={doc} />)}
+                {sorted[k].map((doc, i) => <DocItem key={i} id={i} doc={doc} />)}
               </section>)}
             </main>
           </div>

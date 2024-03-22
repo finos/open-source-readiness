@@ -258,3 +258,7 @@ One argument against [having an OSPO](../Level-2/Creating-An-OSPO) is the cost. 
 
 </BoxOut>
 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

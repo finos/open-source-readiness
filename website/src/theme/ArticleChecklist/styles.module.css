@@ -1,4 +1,4 @@
-.boxout {
+.checklist {
 	border: 1px solid lightgray;
 	border-radius: 1rem;
 	margin: 2rem 0rem;
@@ -24,90 +24,272 @@
 	margin: 0rem;
 }
 
-.checkboxWrapper {
-	flex-grow: 1;
-	flex-shrink: 0;
-	flex-basis: 400px;
-	padding: 5px;
-	box-sizing: border-box;
-}
 
-.checkboxWrapper *,
-.checkboxWrapper ::after,
-.checkboxWrapper ::before {
-	box-sizing: border-box;
-}
-
-.checkboxWrapper .cbx {
-	position: relative;
-	display: block;
-	float: left;
-	width: 25px;
-	height: 25px;
-	border-radius: 4px;
-	background-color: #e2e2ec;
-	background-image: linear-gradient(#474749, e2e2ec);
-	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15), inset 0 -1px 1px rgba(0, 0, 0, 0.15);
-	transition: all 0.15s ease;
-}
-
-.checkboxWrapper .cbx svg {
-	position: absolute;
-	top: 3px;
-	left: 3px;
-	fill: none;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	stroke: #fff;
-	stroke-width: 2;
-	stroke-dasharray: 40;
-	stroke-dashoffset: 40;
-	transform: translate3d(0, 0, 0);
-	transition: all 0.3s ease;
-}
-
-.checkboxWrapper .cbx+span {
-	float: left;
-	margin-left: 6px;
-}
-
-.checkboxWrapper {
-	user-select: none;
-}
-
-.checkboxWrapper label {
-	display: inline-block;
-	cursor: pointer;
-}
-
-.checkboxWrapper input[type="checkbox"] {
-	display: none;
-	visibility: hidden;
-}
-
-.checkboxWrapper input[type="checkbox"]:checked+.cbx {
-	background-color: #606062;
-	background-image: linear-gradient(#255cd2, #1d52c1);
-}
-
-.checkboxWrapper input[type="checkbox"]:checked+.cbx svg {
-	stroke-dashoffset: 0;
-	transition: all 0.3s ease;
-}
-
-
-.boxlist {
+.checklistBody {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-direction: column;
 	padding: 1rem 2rem;
+	gap: 1rem;
 }
 
-.checkbox {
+.checklistItem {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 3fr; 
+	grid-template-rows: 1fr 1fr; 
+	gap: .2rem .2rem;
+	padding-bottom: 2rem;
+}
+
+/** Slider Control */
+
+.control { 
+	justify-self: center;
+	grid-area: 1 / 1 / 3 / 2; 
+	display: flex;
+}
+
+/* Thumb: Chrome (from https://blog.logrocket.com/creating-custom-css-range-slider-javascript-upgrades/) */
+
+.control input[type="range"] {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	cursor: pointer;
+	outline: none;
+	overflow: hidden;
+	border-radius: 2rem;
+}
+
+.control input[type="range"]::-moz-range-track {
+	height: 2.5rem;
+	border-radius: 2.5rem;
+}
+
+.control input[type="range"]::-webkit-slider-runnable-track {
+	height: 2.5rem;
+	border-radius: 2.5rem;
+}
+
+.control input[type="range"]::-moz-range-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.control input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+/* Label */
+
+.label { 
+	justify-self: center;
+	grid-area: 1 / 2 / 2 / 3; 
+}
+
+.label label {
 	font-weight: bold;
+	text-align: center;
 }
 
-.description {
+.value { 
+	justify-self: center;
+	grid-area: 2 / 2 / 3 / 3;
+ }
+
+.description { 
+	grid-area: 1 / 3 / 2 / 4; 
 	color: #555;
 	font-size: smaller;
+	justify-self: center;
+}
+.valueDescription { 
+	grid-area: 2 / 3 / 3 / 4;  
+	justify-self: left;
+}
+
+.valueDescriptionInner {
+	padding: .2rem;
+}
+
+.labelDscription { 
+	grid-area: 1 / 3 / 2 / 4; 
+	justify-self: left;
+}
+
+/** Colours **/
+
+.unaware input::-webkit-slider-thumb {
+	border: 5px solid black;
+}
+
+.initial input::-webkit-slider-thumb {
+	border: 5px solid #880000;
+}
+
+.managed input::-webkit-slider-thumb {
+	border: 5px solid #666644;
+}
+
+.defined input::-webkit-slider-thumb {
+	border: 5px solid #888844;
+}
+
+.quantitative input::-webkit-slider-thumb {
+	border: 5px solid #448844;
+}
+
+.optimised input::-webkit-slider-thumb {
+	border: 5px solid #00AA00;
+}
+
+.unaware input::-webkit-slider-runnable-track {
+	background: #00000080;
+}
+
+.initial input::-webkit-slider-runnable-track {
+	background:  #88000080;
+}
+
+.managed input::-webkit-slider-runnable-track {
+	background: #66664480;
+}
+
+.defined input::-webkit-slider-runnable-track {
+	background: #88884480;
+}
+
+.quantitative input::-webkit-slider-runnable-track {
+	background: #44884480;
+}
+
+.optimised input::-webkit-slider-runnable-track  {
+	background:  #00AA0080;
+}
+
+.unaware input[type="range"]::-moz-range-thumb {
+	border: 5px solid black;
+}
+
+.initial input[type="range"]::-moz-range-thumb {
+	border: 5px solid #880000;
+}
+
+.managed input[type="range"]::-moz-range-thumb {
+	border: 5px solid #666644;
+}
+
+.defined input[type="range"]::-moz-range-thumb {
+	border: 5px solid #888844;
+}
+
+.quantitative input[type="range"]::-moz-range-thumb {
+	border: 5px solid #448844;
+}
+
+.optimised input[type="range"]::-moz-range-thumb {
+	border: 5px solid #00AA00;
+}
+
+.unaware input[type="range"]::-moz-range-track  {
+	background: #00000080;
+}
+
+.initial input[type="range"]::-moz-range-track  {
+	background:  #88000080;
+}
+
+.managed input[type="range"]::-moz-range-track  {
+	background: #66664480;
+}
+
+.defined input[type="range"]::-moz-range-track  {
+	background: #88884480;
+}
+
+.quantitative input[type="range"]::-moz-range-track {
+	background: #44884480;
+}
+
+.optimised input[type="range"]::-moz-range-track  {
+	background:  #00AA0080;
+}
+
+/** Different Levels of Maturity get different colors */
+
+.valueInner {
+	border-radius: .2rem;
+	padding: .2rem;
+}
+
+.valueInner a {
+	color: white;
+}
+
+.unaware .valueInner {
+	background-color: black;
+}
+
+.initial .valueInner {
+	background-color: #880000;
+}
+
+.managed .valueInner {
+	background-color: #666644;
+}
+
+.defined .valueInner {
+	background-color: #888844;
+}
+
+.quantitative .valueInner {
+	background-color: #448844;
+}
+
+.optimised .valueInner {
+	background-color: #00AA00;
+}
+
+.unaware .valueDescription a {
+	color: black;
+}
+
+.initial .valueDescription a {
+	color: #880000;
+}
+
+.managed .valueDescription a{
+	color: #666644;
+}
+
+.defined .valueDescription a {
+	color: #888844;
+}
+
+.quantitative .valueDescription a {
+	color: #448844;
+}
+
+.optimised .valueDescription a {
+	color: #00AA00;
+}
+
+/** Footer Text */
+
+
+.footer {
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.footer p {
+	text-align: right;
 }

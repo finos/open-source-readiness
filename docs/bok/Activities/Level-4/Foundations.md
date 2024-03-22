@@ -8,6 +8,13 @@ tags:
 sidebar_position: 5
 sidebar_label: Foundations
 image: /img/bok/page-types/activity.png
+checklist:
+  - title: Membership
+    description: The organisation is a member of one or more software foundations
+  - title: Membership Benefits
+    description: The organisation measures the benefit of foundation membership
+  - title: Foundation Contribution
+    description: Projects are contributed to foundations
 ---
 
 This article describes the importance of interacting with open source foundations, the roles they perform and ways in which your organisation can make the most of them.
@@ -98,3 +105,6 @@ In conclusion, working with open source foundations is essential for the success
 - [Antitrust Laws and Open Source Software Project Management and Participation](docs/bok/training/lfc105-antitrust-law) - Linux Foundation course covering antitrust implications of open source software collaboration.
 - [The Rise and Evolution of the Open Source Software Foundation](https://www.jolts.world/index.php/jolts/article/view/64) - Scholarly paper by Paula Hunter, Stephen Walli (2013).
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
