@@ -24,7 +24,7 @@ function download(id) {
 
 		html2pdf().set({
 			pagebreak: { mode: 'avoid-all', before: '#page2el' },
-			image: { type: 'png' },
+			image: { type: 'jpeg', quality: 1 },
 			html2Canvas: { scale: 5 },
 			filename: 'osr-maturity-checklist.pdf'
 		})
