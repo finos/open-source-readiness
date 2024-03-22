@@ -11,6 +11,7 @@ tags:
   - Operational Risk
   - Level 2 (OSMM) 
   - CVE (Artifact)
+  - Repository (Artifact)
 sidebar_position: 4
 sidebar_label: Security
 image: /img/bok/page-types/activity.png
