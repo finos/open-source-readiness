@@ -3,7 +3,7 @@ title: Site Reliability Engineers
 sidebar_label: SRE
 tags: 
   - SRE (Role)
-image: /img/bok/roles/sre.png
+list_image: /img/bok/roles/sre.png
 ---
 
 <BoxOut title="Site Reliability Engineers" image="/img/bok/roles/sre.png">

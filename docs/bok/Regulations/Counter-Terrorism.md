@@ -6,7 +6,7 @@ tags:
   - Legal Risk
   - Contribution
   - Policy
-image: /img/bok/regs/counter-terrorism.png 
+list_image: /img/bok/regs/counter-terrorism.png 
 ---
 
 <BoxOut title="Counter-Terrorism Laws" image="/img/bok/regs/counter-terrorism.png">

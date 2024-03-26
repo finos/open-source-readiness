@@ -5,7 +5,7 @@ sidebar_position: 0
 tags: 
   - Introduction
   - Placeholder
-image: /img/bok/page-types/measurement.png
+list_image: /img/bok/page-types/measurement.png
 ---
 
 This section of the Body of Knowledge describes common measurements you might make within an organisation to judge the health either of individual projects or the organisation's maturity of open source as a whole.

@@ -7,7 +7,7 @@ slug: /osr-resources/presentation
 tags:
  - Presentation
  - Strategy
-image: /img/bok/page-types/presentation.png  
+list_image: /img/bok/page-types/presentation.png  
 ---
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>

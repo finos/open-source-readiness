@@ -5,7 +5,7 @@ tags:
   - Developer (Role)
   - Security Expert (Role)
 sidebar_label: CVEs
-image: /img/bok/page-types/artifact.png
+list_image: /img/bok/page-types/artifact.png
 ---
 
 CVEs (Common Vulnerabilities and Exposures) are standardized identifiers for publicly known cybersecurity vulnerabilities which can be leveraged in exploits. The [MITRE Corporation](https://www.mitre.org) manages the CVE program, which receives funding from the U.S. Department of Homeland Security (DHS) and the Cybersecurity and Infrastructure Security Agency (CISA).

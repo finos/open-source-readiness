@@ -7,7 +7,7 @@ tags:
   - Placeholder
   - Contribution
   - Policy
-image: /img/bok/regs/export.png 
+list_image: /img/bok/regs/export.png 
 ---
 
 <BoxOut title="Export Controls" image="/img/bok/regs/export.png">

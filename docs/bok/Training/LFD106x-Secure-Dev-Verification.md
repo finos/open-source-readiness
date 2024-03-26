@@ -11,7 +11,7 @@ course:
   cost: free
   link: https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/
 sidebar_label: LFD106x
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 This course is designed to show you how to verify software for security, and gives you the chance to take a deeper dive into the basics of applying threat models and cryptography.

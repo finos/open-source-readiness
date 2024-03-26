@@ -3,7 +3,7 @@ title: Line Of Business
 sidebar_label: LOB
 tags: 
   - Business (Role)
-image: /img/bok/roles/business.png
+list_image: /img/bok/roles/business.png
 ---
 
 <BoxOut title="Line of Business" image="/img/bok/roles/business.png">

@@ -1,7 +1,7 @@
 ---
 title: Organizational Maturity
 sidebar_label:  Organization
-image: /img/bok/page-types/maturity.png
+list_image: /img/bok/page-types/maturity.png
 ---
 
 ## Transparency

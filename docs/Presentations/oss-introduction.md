@@ -6,7 +6,7 @@ sidebar_position: 1
 slug: /osr-resources/oss-introduction
 tags:
  - Presentation
-image: /img/bok/page-types/presentation.png  
+list_image: /img/bok/page-types/presentation.png  
 ---
 <link href="/css/presentation/web.css" rel="stylesheet"></link>
 <Bio name="Rob Moffat" image="/img/people/rob-moffat.jpeg" organisation="FINOS">

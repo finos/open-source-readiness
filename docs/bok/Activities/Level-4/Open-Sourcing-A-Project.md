@@ -11,7 +11,7 @@ tags:
   - Level 4 (OSMM)
 sidebar_position: 2
 sidebar_label: How
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 **THIS IS A PLACEHOLDER**

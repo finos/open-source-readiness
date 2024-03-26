@@ -7,7 +7,7 @@ tags:
   - Placeholder
   - Organisational-Measurement
 sidebar_label: Organisation
-image: /img/bok/metric.png
+list_image: /img/bok/metric.png
 ---
 
 For an organisation engaged in open source (or inner source), consider measuring the strength of contribution, security posture and legal compliance.

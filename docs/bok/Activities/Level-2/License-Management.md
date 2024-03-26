@@ -10,7 +10,7 @@ tags:
   - License (Artifact)
 sidebar_position: 2
 sidebar_label: License Management
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:
