@@ -5,7 +5,7 @@ tags:
   - Training
 course:
   publisher: Linux Foundation
-  code: LFC102-107
+  code: LFC202-208
   length: 10-15 hours
   certification: Digital
   cost: $499
