@@ -1,5 +1,5 @@
 ---
-title: Open Source Development In A Public Repository
+title: Developing in the Open
 tags: 
   - Developer (Role)
   - Level 3 (OSMM)
@@ -14,13 +14,15 @@ sidebar_label: Public Development
 
 The biggest thing to remember about open source development is that it happens in the public sphere, in written text, with other humans. Text can be a challenging medium in which to interact with others. Tone and intent can be hard to communicate - emoji help. Language barriers often exist. For this reason it is important open source developers strive for clarity, compassion, and empathy in their communication.
 
-Many folks have written in depth on this topic. The following articles dig a bit deeper into the human side of open, collaborative development:
+Many folks have written in depth on this topic. The following resources dig deeper into the human side of open, collaborative development:
 
 * [Why the success of open source depends on empathy](https://opensource.com/article/21/2/open-source-empathy), by Bronagh Sorota
-
-Developers' interactions, including code pushed and conversations that happen in Issues and Pull Requests are visible to the world.
+* [Inclusive Open Source Community Orientation - LFC102](https://trainingportal.linuxfoundation.org/courses/inclusive-open-source-community-orientation-lfc102), a Linux Foundation training course
+* [Inclusive Strategies for Open Source - LFC 103](https://trainingportal.linuxfoundation.org/courses/inclusive-strategies-for-open-source-lfc103), a Linux Foundation training course
 
 ### Publicly visible code
+
+Developers' interactions, including code pushed and conversations that happen in Issues and Pull Requests are visible to the world.
 
 A number of concerns come to mind when people think of publicly-visible code. Two of the most common may be summarized as:
 
@@ -42,7 +44,7 @@ Healthy open source communities actively work to promote positive environments f
 * Setting and enforcing norms for communication
 * Pointing new contributors to small, easier to tackle opportunities
 
-GitHub has published a helpful blog of [tips for creating a healthy and sustainable open source community](https://github.blog/2022-07-07-healthy-and-sustainable-communities/). It is helpful for new contributors and maintainers alike to familiarize themselves with these practices and embody them in their open source work.
+GitHub has published a blog of [tips for creating a healthy and sustainable open source community](https://github.blog/2022-07-07-healthy-and-sustainable-communities/). It is helpful for new contributors and maintainers alike to familiarize themselves with these practices and embody them in their open source work.
 
 ## Ways to Contribute
 
