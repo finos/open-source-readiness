@@ -36,7 +36,11 @@ Security risk is most commonly the primary concern of the developer's employer. 
   * [GitProxy](https://github.com/finos/git-proxy)
   * [internal-contribution-forks](https://github.com/github-community-projects/internal-contribution-forks)
 
-Personal risk is related to any fear or concern an individual may have around participation in an open source community. Putting your work for the world can, at first, be a bit unnerving for some. Common concerns include not knowing what to do or doing the "wrong thing," receiving less than constructive feedback, or having their contribution rejected. 
+Personal risk is related to any fear or concern an individual may have around participation in an open source community. Putting your work for the world can, at first, be a bit unnerving for some. Common concerns include not knowing what to do or doing the "wrong thing," receiving less than constructive feedback, or having their contribution rejected.
+
+Your firm likely has policies regarding public communication and social media, designed to limit risk to you and to the firm. Be sure to familiarize yourself with these policies and adhere to them.
+
+### Promoting healthy community
 
 Healthy open source communities actively work to promote positive environments for contributors by:
 
