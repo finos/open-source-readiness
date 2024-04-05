@@ -3,7 +3,7 @@ title: External Regulators and External Audit
 sidebar_label: Regulators
 tags: 
   - Regulator (Role)
-image: /img/bok/roles/regulator.png
+list_image: /img/bok/roles/regulator.png
 ---
 
 <BoxOut title="Regulators / External Audit" image="/img/bok/roles/regulator.png">

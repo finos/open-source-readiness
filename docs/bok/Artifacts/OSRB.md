@@ -6,7 +6,7 @@ tags:
   - Staff Risk
   - OSRB (Role)
 sidebar_label: OSRB
-image: /img/bok/page-types/artifact.png
+list_image: /img/bok/page-types/artifact.png
 ---
 
 tbd.  what is one.

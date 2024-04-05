@@ -11,7 +11,7 @@ tags:
   - CVE (Artifact)
   - Repository (Artifact)
 sidebar_position: 1
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 Software inventory is a precondition to most of the activities involved in OSMM level 2.  The first step to licence compliance or supply chain security is _to understand what software is in your estate_.

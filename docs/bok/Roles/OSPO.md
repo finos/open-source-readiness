@@ -7,7 +7,7 @@ tags:
   - Dependency Risk
   - Staff Risk
   - OSPO (Role)
-image: /img/bok/roles/ospo.png
+list_image: /img/bok/roles/ospo.png
 ---
 
 <BoxOut title="OSPO" image="/img/bok/roles/ospo.png">

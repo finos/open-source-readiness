@@ -5,7 +5,7 @@ tags:
   - Security Expert (Role)
   - Placeholder
   - Policy
-image: /img/bok/roles/security.png
+list_image: /img/bok/roles/security.png
 ---
 
 A security expert is responsible for ensuring the security of an organization's information systems and data. They conduct security assessments, identify vulnerabilities, and implement security controls to protect the company's data and systems.

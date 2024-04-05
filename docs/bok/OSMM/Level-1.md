@@ -5,7 +5,7 @@ sidebar_position: 1
 tags:
   - Level 1 (OSMM)
   - OSMM
-image: /img/bok/maturity/using.png
+list_image: /img/bok/maturity/using.png
 ---
 At this level, an organization has ad hoc or informal practices for managing open source software. There is no formal policy or process in place for managing open source software, and its use is left up to individual developers. The organization has limited visibility into open source use and does not keep track of the software used.
 

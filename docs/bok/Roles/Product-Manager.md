@@ -2,7 +2,7 @@
 title: Product Manager
 tags:
   - Product Manager (Role)
-image: /img/bok/roles/product-manager.png
+list_image: /img/bok/roles/product-manager.png
 ---  
 
 <BoxOut title="IT Department / Developers" image="/img/bok/roles/product-manager.png">

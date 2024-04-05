@@ -1,7 +1,7 @@
 ---
 title: Project Maturity
 sidebar_label: Project
-image: /img/bok/page-types/maturity.png
+list_image: /img/bok/page-types/maturity.png
 ---
 
 ## Tooling and Processes

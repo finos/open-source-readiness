@@ -6,7 +6,7 @@ tags:
   - Developer (Role)
 sidebar_position: 6
 sidebar_label: Incubation
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 Incubating an open source project within a foundation offers numerous benefits which includes increased visibility, community support, and access to resources that can propel your project to new heights. 

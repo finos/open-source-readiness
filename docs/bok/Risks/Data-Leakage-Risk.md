@@ -6,7 +6,7 @@ tags:
   - Data Leakage Risk
   - Placeholder
   - Policy
-image: /img/bok/risks/data-leakage-risk.png
+list_image: /img/bok/risks/data-leakage-risk.png
 ---
 
 <BoxOut title="Data Leakage Risk" image="/img/bok/risks/data-leakage-risk.png">

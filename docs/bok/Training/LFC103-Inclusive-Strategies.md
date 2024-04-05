@@ -12,7 +12,7 @@ course:
   cost: free
   link: https://training.linuxfoundation.org/training/inclusive-strategies-for-open-source-lfc103/
 sidebar_label: LFC103
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 This course is designed for open source community managers, open source maintainers, and other business and community leaders in the technology industry. While focused on inclusivity in open source communities, the course content can be of use to those working in any area of technology.

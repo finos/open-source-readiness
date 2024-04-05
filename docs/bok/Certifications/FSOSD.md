@@ -6,7 +6,7 @@ tags:
   - Certification
   - FSOSD (Certification)
 sidebar_label: FSOSD
-image: /img/bok/page-types/certification.png
+list_image: /img/bok/page-types/certification.png
 ---
 
 The FINOS / TODO Financial Services Open Source Developer exam is designed for developers contributing to open source projects whilst  working in financial institutions internationally. 

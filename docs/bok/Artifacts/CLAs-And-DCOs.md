@@ -6,7 +6,7 @@ tags:
   - Legal (Role)
   - Legal Risk
 sidebar_position: 2
-image: /img/bok/page-types/artifact.png
+list_image: /img/bok/page-types/artifact.png
 ---
 
 This article explains the concept of the **Contributor License Agreement (CLA)** and **Developer Certificate of Origin (DCO)** and the practical implications of these for organisations consuming and contributing to open source.
