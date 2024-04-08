@@ -7,7 +7,7 @@ tags:
  - Presentation
  - Data Leakage Risk
  - OSPO (Role)
-image: /img/bok/page-types/presentation.png  
+list_image: /img/bok/page-types/presentation.png  
 ---
 
 import ReactPlayer from 'react-player';
