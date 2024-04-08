@@ -7,7 +7,7 @@ tags:
   - Placeholder
   - Project-Measurement
 sidebar_label: Project
-image: /img/bok/metric.png
+list_image: /img/bok/metric.png
 ---
 
 For a given open source project, here are some ways of measuring the health of the project, thereby determining [Dependency Risk](../Risks/Dependency-Risk).

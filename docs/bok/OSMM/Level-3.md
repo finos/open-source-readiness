@@ -5,7 +5,7 @@ sidebar_position: 3
 tags:
   - Level 3 (OSMM)
   - OSMM
-image: /img/bok/maturity/contributing.png
+list_image: /img/bok/maturity/contributing.png
 ---
 
 At this level, an organization has established proactive practices for managing open source software. The organization has a comprehensive policy in place for managing open source software, and it is consistently applied across the organization. The organization has a comprehensive inventory of open source software in use and manages it effectively.   The organisation will begin to _contribute_ to existing open source projects that it finds strategically useful.  That is, becoming part of the _open source community_.

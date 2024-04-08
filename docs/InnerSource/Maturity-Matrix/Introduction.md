@@ -5,7 +5,7 @@ tags:
   - OSPO (Role)
   - ISPO (Role) 
   - InnerSource
-image: /img/bok/page-types/maturity.png
+list_image: /img/bok/page-types/maturity.png
 ---
 
 This maturity matrix is based upon the [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model) InnerSourcePattern

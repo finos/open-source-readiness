@@ -4,7 +4,7 @@ sidebar_label: HR
 tags:
   - HR/Training (Role)
   - Policy
-image: /img/bok/roles/hr.png
+list_image: /img/bok/roles/hr.png
 ---
 
 <BoxOut title="Human Resources / Training" image="/img/bok/roles/hr.png">

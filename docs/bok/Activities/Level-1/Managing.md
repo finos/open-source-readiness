@@ -7,8 +7,8 @@ tags:
   - HR-Training (Role)
   - Placeholder
   - Level 1 (OSMM)
-image: /img/bok/page-types/activity.png
 sidebar_position: 1
+list_image: /img/bok/page-types/activity.png
 ---
 
 This article is a follow-up to the [Using Open Source Software](Using) and covers some details about how to manage staff that are using open source.

@@ -5,7 +5,7 @@ sidebar_label: External Resources
 slug: /osr-resources/external-resources
 tags:
  - Resources
-image: /img/bok/page-types/resource.png
+list_image: /img/bok/page-types/resource.png
 ---
 
 ## Similar Efforts

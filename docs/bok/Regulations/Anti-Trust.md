@@ -7,7 +7,7 @@ tags:
   - Legal Risk
   - Contribution
   - Policy
-image: /img/bok/regs/anti-trust.png 
+list_image: /img/bok/regs/anti-trust.png 
 ---
 
 <BoxOut title="Anti-Trust" image="/img/bok/regs/anti-trust.png">

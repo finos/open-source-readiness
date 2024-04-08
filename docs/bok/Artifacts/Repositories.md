@@ -27,7 +27,7 @@ Having an internal repository:
  - **Reduces external dependencies** - code can be built entirely within the firm's network.
  - **Minimizes downtime** - as developers are not relying on third-party infrastructure such as [npmjs.com](https://www.npmjs.com/) or [Maven Central](https://central.sonatype.com/).
  
-## Source Repository
+## Source Repository
 
 In a financial services organization developing software, source control is essential.  Here are some reasons why:
 

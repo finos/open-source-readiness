@@ -46,7 +46,7 @@ ownership issues that can stall innovation.
 	</thead>
 	<tbody>
 		<tr>
-			<td className="calendar"><a href="/ics/finos-event-7.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download" /><br />Add To Calendar</a></td>
+			<td className="calendar"><a href="/ics/finos-event-7.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download" /><br />Add To Calendar (right click and open in a new tab)</a></td>
 		</tr>
 	</tbody>
 </table>

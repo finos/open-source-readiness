@@ -4,7 +4,7 @@ sidebar_label: Legal
 tags:
   - Legal (Role)
   - Policy
-image: /img/bok/roles/legal.png
+list_image: /img/bok/roles/legal.png
 ---
 
 <BoxOut title="Legal" image="/img/bok/roles/legal.png">

@@ -7,7 +7,7 @@ tags:
   - Placeholder
   - Organisational-Measurement
 sidebar_label: Process
-image: /img/bok/metric.png
+list_image: /img/bok/metric.png
 ---
 
 It is important to make sure that your organisation's staff are able to both _efficiently and compliantly_ contribute code to open source repositories.

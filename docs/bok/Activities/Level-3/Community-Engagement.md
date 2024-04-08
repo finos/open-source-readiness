@@ -9,7 +9,7 @@ sidebar_position: 7
 sidebar_label: Engagement
 authors:
   - name: "Brittany Istenes"
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 ---
 
 Within the Open Source Ecosystem, millions of projects exist and some of the projects are duplicate efforts.  The open source community is vast and sometimes very hard to reach.  

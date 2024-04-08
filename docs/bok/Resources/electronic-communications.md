@@ -5,7 +5,7 @@ sidebar_label: ECOM Policies
 slug: /operations/electronic-communications
 tags:
  - Resources
-image: /img/bok/page-types/resource.png
+list_image: /img/bok/page-types/resource.png
 ---
 
 <BoxOut title="Work In Progress" image="/img/bok/warning.png">

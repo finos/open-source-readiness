@@ -7,7 +7,7 @@ tags:
   - Placeholder
   - Organisational-Measurement
 sidebar_label: OSPO Support
-image: /img/bok/metric.png
+list_image: /img/bok/metric.png
 ---
 
 If you are running an [OSPO](../Artifacts/OSPO), does it have a support function?  If so, can you measure the amount of interaction with the OSPO and how it changes over time as a proxy for value?
