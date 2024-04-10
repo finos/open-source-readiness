@@ -22,25 +22,6 @@ slug: /osr-resources/CertificationInstructions
       <p></p>
     </div>
   </div>
-  <div className="slide slide--bordered">
-    <div className="slide-image">
-      <img src="/img/certification/0.5-feedback.jpeg" alt="Image of slide number 2" />
-    </div>
-    <div className="slide-notes">
-      <p>As evidenced by the length of these instructions, the process for taking the exam is quite involved.</p>
-      <p>As a beta tester, we would like you to <strong>provide feedback on the process</strong> so we can improve it.</p>
-      <p><a href="mailto:help@finos.org?subject=Certification%20Feedback&body=Please%20let%20us%20know%20if%20you%20experience%20any%20difficulties%20with%20scheduling%20or%20taking%20the%20exam%3A">Please click here to Email FINOS to provide feedback on the examination process.</a></p>  
-      <p>We are very interested in knowing if you have problems with the process and are interested in improving it for test takers after the beta period.</p>
-    </div>
-  </div>
-  <div className="slide slide--bordered">
-    <div className="slide-image">
-      <img src="/img/certification/15-t-shirts.jpg" alt="Image of slide number 2" />
-    </div>
-    <div className="slide-notes">
-      <p>If you <strong>complete</strong> the exam, you'll receive some <strong>FINOS swag</strong> (a t-shirt) and if you pass, the <strong>FSOSD Qualification</strong> to share on socials.</p>
-    </div>
-  </div>
 </div>
 
 ## Registering For The Exam
@@ -49,11 +30,11 @@ slug: /osr-resources/CertificationInstructions
 <div className="slides">
   <div className="slide slide--bordered">
     <div className="slide-image">
-      <img src="/img/certification/1-enroll-now.png" alt="Image of slide number 1" />
+      <img src="/img/certification/l1-enroll.png" alt="Image of slide number 1" />
     </div>
     <div className="slide-notes">
-      <p>Click on <a href="https://trainingportal.linuxfoundation.org/courses/finos-financial-services-open-source-developer-beta-exam-fsosd-beta?query=FSOSD">this link</a> to access the page shown on the left.</p>
-      <p>Click on “Enroll Now”, followed by “Secure Checkout”</p>
+      <p>Click on <a href="https://training.linuxfoundation.org/certification/finos-open-source-developer-fsosd/">this link</a> to access the page shown on the left.</p>
+      <p>Click on “Enroll Today”, followed by “Secure Checkout”</p>
     </div>
   </div>
   <div className="slide slide--bordered">
@@ -69,8 +50,7 @@ slug: /osr-resources/CertificationInstructions
       <img src="/img/certification/2-coupon.png" alt="Image of slide number 2" />
     </div>
     <div className="slide-notes">
-      <p>Next use the coupon code <strong>from the email</strong> in the box to reduce the price to zero.</p>
-      <p>Don't have a coupon? <a href="mailto:help@finos.org?subject=Please%20send%20me%20the%20Code%20for%20the%20FSOSD%20Beta!&body=Thanks!">Click here to drop us a mail to get one.</a></p>
+      <p>If your firm has provided a coupon code, use it in the box to reduce the price to zero.</p>
     </div>
   </div>
   <div className="slide slide--bordered">
@@ -299,20 +279,6 @@ slug: /osr-resources/CertificationInstructions
       <p>Next comes the exam <strong>admission</strong> process.  Follow the proctor's instructions and be ready to <strong>show the proctor around your room</strong>.  You'll need to demonstrate that your environment is set up correctly, as described above.</p>
       <p>You can then take the exam.  </p>
       <p><strong>Tip:</strong> preserve 30 minutes of your time for reviewing your answers at the end.</p>
-    </div>
-  </div>
-</div>
-
-## Feedback & Swag!
-
-<div className="slides">
-  <div className="slide slide--bordered">
-    <div className="slide-image">
-      <img src="/img/certification/15-t-shirts.jpg" alt="Image of slide number 14" />
-    </div>
-    <div className="slide-notes">
-      <p>After completing the exam, someone from FINOS will be in touch to organise mailing out your <strong>FREE T-Shirt</strong> and ask some questions about your background.</p>
-      <p><a href="mailto:help@finos.org?subject=Certification%20Feedback&body=Please%20let%20us%20know%20if%20you%20experience%20any%20difficulties%20with%20scheduling%20or%20taking%20the%20exam%3A">Please click here to Email FINOS to provide feedback on the examination process.</a></p>  
     </div>
   </div>
 </div>
