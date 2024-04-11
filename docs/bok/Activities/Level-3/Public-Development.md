@@ -6,6 +6,7 @@ tags:
   - Placeholder
 sidebar_position: 1
 sidebar_label: Public Development
+list_image: /img/bok/page-types/activity.png
 ---
 
 ## Public Development
