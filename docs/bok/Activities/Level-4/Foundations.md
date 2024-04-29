@@ -15,6 +15,7 @@ checklist:
     description: The organisation measures the benefit of foundation membership
   - title: Foundation Contribution
     description: Projects are contributed to foundations
+list_image: /img/bok/page-types/activity.png
 ---
 
 This article describes the importance of interacting with open source foundations, the roles they perform and ways in which your organisation can make the most of them.

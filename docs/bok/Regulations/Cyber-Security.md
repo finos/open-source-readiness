@@ -8,7 +8,7 @@ tags:
   - Placeholder
   - Consumption
   - Policy
-image: /img/bok/regs/security.png 
+list_image: /img/bok/regs/security.png 
 ---
 
 <BoxOut title="Cyber-Security" image="/img/bok/regs/security.png">

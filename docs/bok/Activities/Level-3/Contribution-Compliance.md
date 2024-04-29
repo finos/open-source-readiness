@@ -7,7 +7,6 @@ tags:
   - Compliance (Role)
 sidebar_position: 3
 sidebar_label: Compliance
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Policy
     description: The organisation has policies to govern contribution to open source ecosystems
@@ -19,6 +18,7 @@ checklist:
     description: The balance of open source contribution risks are understood by stakeholders
   - title: Contribution Efficiency
     description: Organisational tools and processes don't restrict open source contribution
+list_image: /img/bok/page-types/activity.png
 ---
 
 Contributing to an open source project from within a regulated firm is likely to contravene one or more _policies_.   Staff who contribute to open source as part of their jobs are likely to be in breach of their terms of employment or likely to get disciplined.   For this reason, in order to enable open source contribution, new policy needs to be written which creates space within the compliance landscape.

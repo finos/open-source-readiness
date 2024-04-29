@@ -4,7 +4,7 @@ sidebar_label: Risk/Compliance
 tags: 
   - Risk/Compliance (Role)
   - Policy
-image: /img/bok/roles/risk.png
+list_image: /img/bok/roles/risk.png
 ---
 
 <BoxOut title="Risk Officer / Compliance" image="/img/bok/roles/risk.png">

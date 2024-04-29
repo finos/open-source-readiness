@@ -6,7 +6,6 @@ tags:
   - CTO (Role)
   - Level 5 (OSMM)
   - Strategy
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Strategy
     description: The organisation defines goals and objectives in its an open source strategy
@@ -16,6 +15,7 @@ checklist:
     description: Management leverages open source strategy to achieve objectives
   - title: Benefits
     description: The benefits of open source are considered when setting organisational strategy
+list_image: /img/bok/page-types/activity.png
 ---
 
 OSMM Level 5 is about [Strategy](../../Artifacts/Strategy). At this level, you seek to make decisions that shape the technology landscape in your favor to create new opportunities. 

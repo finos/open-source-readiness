@@ -7,7 +7,6 @@ tags:
   - Legal Risk
 sidebar_position: 0
 sidebar_label: Compliance
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Risk Management
     description: Enterprise risk management processes include open source risks
@@ -19,6 +18,7 @@ checklist:
     description: Standardized controls are in place around open source consumption
   - title: Monitoring
     description: Open source controls are monitored
+list_image: /img/bok/page-types/activity.png
 ---
 
 Using open source within regulated organisations must be done in accordance with the policies and procedures in place to control risks and adhere to regulation.  In this article we will look at:

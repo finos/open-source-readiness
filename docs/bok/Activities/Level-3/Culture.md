@@ -14,7 +14,6 @@ authors:
   - name: Rob Moffat
   - name: Rhyddian Olds
   - name: Andy Smith
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Promotion
     description: The organisation promotes and rewards contribution to open source projects
@@ -22,6 +21,7 @@ checklist:
     description: Organisational processes don't restrict open source contribution
   - title: InnerSource
     description: The organisation measures effectiveness of its InnnerSource program
+list_image: /img/bok/page-types/activity.png
 ---
 
 When people think about open source, most often they think about the _engineering aspects_: contributing or consuming code.  But community and culture are a central part of the open source world and should not be overlooked. 

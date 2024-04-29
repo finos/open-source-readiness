@@ -7,7 +7,7 @@ sidebar_position: 6
 slug: /osr-resources/osr-checklist
 tags:
  - Resources
-image: /img/bok/page-types/resource.png
+list_image: /img/bok/page-types/resource.png
 ---
 
 <BoxOut title="Warning: Possibly out-of-date" image="/img/bok/roles/ospo.png">

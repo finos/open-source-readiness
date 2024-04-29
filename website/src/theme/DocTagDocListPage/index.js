@@ -38,7 +38,7 @@ function DocItem({doc}) {
   );
 }
 
-const categoryStubs = [ 'Risks', 'Regulations', 'Roles', 'OSMM', 'Activities', 'Certifications', 'Training', 'Artifacts', 'InnerSource', 'osr-resources'];
+const categoryStubs = [ 'Risks', 'Regulations', 'Roles', 'OSMM', 'Activities', 'Certifications', 'Training', 'Artifacts', 'InnerSource', 'osr-resources', 'Presentations'];
 
 function sortDocs(items, exclude) {
   const out = {}

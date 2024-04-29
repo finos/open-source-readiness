@@ -6,10 +6,10 @@ tags:
   - Level 3 (OSMM)
 sidebar_position: 5
 sidebar_label: Surveillance
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Review
     description: There is a review process for code and non-code contributions
+list_image: /img/bok/page-types/activity.png
 ---
 
 This article looks at the best practices around  surveillance (of communications) to enable open source contribution.

@@ -7,7 +7,7 @@ tags:
   - License (Artifact)
 sidebar_position: 1
 sidebar_label: Licenses
-image: /img/bok/page-types/artifact.png
+list_image: /img/bok/page-types/artifact.png
 ---
 
 This article provides some basic framing around the purpose of licenses within open source.

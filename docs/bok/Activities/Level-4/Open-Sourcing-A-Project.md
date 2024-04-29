@@ -11,12 +11,12 @@ tags:
   - Level 4 (OSMM)
 sidebar_position: 2
 sidebar_label: How
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Lifecycle
     description: There is a lifecycle process around engaging with open source projects
   - title: Marketing
     description: Marketing are engaged with open source publishing efforts
+list_image: /img/bok/page-types/activity.png
 ---
 
 **THIS IS A PLACEHOLDER**

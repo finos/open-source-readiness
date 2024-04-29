@@ -9,8 +9,8 @@ tags:
   - Codebase Risk
   - Dependency Risk
   - CVE (Artifact)
+  - Repository (Artifact)
 sidebar_position: 1
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Tracking
     description: The organisation has a software asset registry
@@ -24,6 +24,7 @@ checklist:
     description: The organisation identifies an owner for each open source component in production
   - title: Production Support
     description: The organisation has a plan to support open source components in production
+list_image: /img/bok/page-types/activity.png
 ---
 
 Software inventory is a precondition to most of the activities involved in OSMM level 2.  The first step to licence compliance or supply chain security is _to understand what software is in your estate_.
@@ -65,7 +66,7 @@ It is important to understand that modern software is composed of smaller units 
 
 Let's work from left to right in the pipeline and examine what tools are available to help with each stage.
 
-<BoxOut image="/img/bok/destinations/source-repository.png" title="Source Control">
+<BoxOut image="/img/bok/destinations/source-repository.png" title="Source Control"  link="../../Artifacts/Repository#source-repository" linkText="Main Article on Source Repositories">
 
 #### Dependabot
 
@@ -78,7 +79,7 @@ GitHub's OSPO uses [Dependabot](https://github.com/dependabot) to review code in
 </BoxOut>
 
 
-<BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository">
+<BoxOut image="/img/bok/destinations/artifact-repository.png" title="Artifact Repository" link="../../Artifacts/Repository#artifact-repository" linkText="Main Article on Artifact Repositories">
 
 Here are some tools popular with teams involved in the body of knowledge for inventorying activities:
 

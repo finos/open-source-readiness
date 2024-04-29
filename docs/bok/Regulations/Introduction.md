@@ -4,7 +4,7 @@ sidebar_label: Introduction
 sidebar_position: 0
 tags: 
   - Introduction
-image: /img/bok/page-types/regulation.png
+list_image: /img/bok/page-types/regulation.png
 
 ---
 

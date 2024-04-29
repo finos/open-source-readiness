@@ -11,7 +11,7 @@ course:
   cost: free
   link: https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/
 sidebar_label: LFD105x
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 This course covers the practical steps software developers can take, even if they have limited resources, to implement secure software.

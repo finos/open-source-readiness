@@ -10,7 +10,6 @@ tags:
   - License (Artifact)
 sidebar_position: 2
 sidebar_label: License Management
-image: /img/bok/page-types/activity.png
 checklist:
   - title: IP Compliance
     description: There is an automated process in place for managing IP compliance
@@ -20,6 +19,7 @@ checklist:
     description: Internal license compliance training is provided for individuals who require it
   - title: ISO/IEC 5230:2020
     description: The firm embeds the OpenChain license compliance standard
+list_image: /img/bok/page-types/activity.png
 ---
 
 There are several key points that a large enterprise should consider to ensure compliance with open-source license obligations:

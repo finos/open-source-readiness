@@ -8,7 +8,6 @@ sidebar_position: 7
 sidebar_label: OSPO
 authors:
   name: Pooi Cheong
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Creation
     description: The organisation has an open source project office (OSPO)
@@ -20,6 +19,7 @@ checklist:
     description: The OSPO is consulted when the organisation starts new open source activity
   - title: Measurement
     description:  The OSPO measures usage according to published metrics
+list_image: /img/bok/page-types/activity.png
 ---
 
 An [Open Source Program Office (OSPO)](../../Artifacts/OSPO) is designed to be the center of competency for an organization's open source operations and structure as defined by the [TODO group](https://github.com/todogroup/ospodefinition.org). 

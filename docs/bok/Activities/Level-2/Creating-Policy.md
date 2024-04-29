@@ -8,10 +8,10 @@ tags:
   - Level 2 (OSMM)
 sidebar_position: 5
 sidebar_label: Policy
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Consumption Policy
     description: The organisation has an open source consumption policy
+list_image: /img/bok/page-types/activity.png
 ---
 
 **THIS IS A PLACEHOLDER**

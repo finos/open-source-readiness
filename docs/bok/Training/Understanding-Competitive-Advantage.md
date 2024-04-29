@@ -5,7 +5,7 @@ tags:
   - CEO (Role)
   - Placeholder
   - Other-Training
-image: /img/bok/page-types/training2.png
+list_image: /img/bok/page-types/training2.png
 ---
 
 **THIS IS A PLACEHOLDER**

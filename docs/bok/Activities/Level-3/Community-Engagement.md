@@ -9,7 +9,6 @@ sidebar_position: 7
 sidebar_label: Engagement
 authors:
   - name: "Brittany Istenes"
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Aspiration
     description: The organisation tracks open source projects it intends to contribute to
@@ -19,6 +18,7 @@ checklist:
     description: The organisation fosters and encourages outreach for visibility of open source projects
   - title: Measurement
     description: The organisation measures the effectiveness of community engagement
+list_image: /img/bok/page-types/activity.png
 ---
 
 Within the Open Source Ecosystem, millions of projects exist and some of the projects are duplicate efforts.  The open source community is vast and sometimes very hard to reach.  

@@ -10,7 +10,7 @@ function DocItemImage({doc}) {
       <article key={doc.title} className="margin-vert--lg">
       	<div className={styles.columns}>
 	      	<div className={styles.left}>
-	        	<img src={doc.frontMatter.image} className={styles.articleImage} />
+	        	<img src={doc.frontMatter.list_image} className={styles.articleImage} />
 	        </div>
 	      	<div className={styles.right}>
 		        <Link to={doc.permalink}>

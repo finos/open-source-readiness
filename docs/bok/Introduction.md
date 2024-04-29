@@ -79,6 +79,7 @@ This site also contains other resources to help firms on their open source journ
 				
 				
 <BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4'>
+
 #### Meetings
 
 <table>
@@ -105,7 +106,7 @@ Meetings are open to anyone who would like to participate. Previous Meeting Minu
 
 #### Mailing List
 
-<strong><a href="https://groups.google.com/a/finos.org/forum/#!forum/osr"> Subscribe to our mailing list</a></strong> by <a href="mailto:osr+subscribe@finos.org](mailto:osr+subscribe@finos.org">sending an email to join.</a> You will get updates on upcoming meetings and other activity.
+<strong><a href="https://groups.google.com/a/finos.org/forum/#!forum/osr"> Subscribe to our mailing list</a></strong> by <a href="mailto:osr+subscribe@finos.org?subject=Subscribe%20Me&body=Please%20subscribe%20me%20to%20the%20OSR%20Mailing%20List">sending an email to join.</a> You will get updates on upcoming meetings and other activity.
 
 </BoxOut>
 

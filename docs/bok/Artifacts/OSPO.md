@@ -6,7 +6,7 @@ tags:
   - Staff Risk
   - OPSO (Role)
 sidebar_label: OSPO
-image: /img/bok/page-types/artifact.png
+list_image: /img/bok/page-types/artifact.png
 ---
 
 This article talks about the Open Source Program Office (OSPO) organisational structure and its value.

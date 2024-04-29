@@ -6,10 +6,10 @@ tags:
   - Level 3 (OSMM)
 sidebar_position: 6
 sidebar_label: Publication
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Publication
     description: There is a clear policy for how staff should publish to open source projects
+list_image: /img/bok/page-types/activity.png
 ---
 
 This article looks at the best practices around publication (of code) to enable open source contribution.

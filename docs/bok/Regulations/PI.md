@@ -8,7 +8,7 @@ tags:
   - Data Leakage Risk
   - Contribution
   - Policy
-image: /img/bok/regs/pi.png 
+list_image: /img/bok/regs/pi.png 
 ---
 
 <BoxOut title="Personal Information" image="/img/bok/regs/pi.png">

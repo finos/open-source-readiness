@@ -5,7 +5,7 @@ sidebar_position: 4
 tags:
   - Level 4 (OSMM)
   - OSMM
-image: /img/bok/maturity/foundation.png
+list_image: /img/bok/maturity/foundation.png
 ---
 
 At this level, an organization has a well-managed process for open source software.  Open source is culturally embedded in the organisation and its value is understood.  At this level _the organisation itself_ is _hosting and maintaining_ software projects that they have open-sourced. 

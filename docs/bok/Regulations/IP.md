@@ -8,7 +8,7 @@ tags:
   - Data Leakage Risk
   - Contribution
   - Policy
-image: /img/bok/regs/ip.png 
+list_image: /img/bok/regs/ip.png 
 ---
 
 <BoxOut title="Intellectual Property" image="/img/bok/regs/ip.png">

@@ -9,12 +9,12 @@ authors:
   - name: Brittany Istenes
 sidebar_position: 3
 sidebar_label: Maintaining
-image: /img/bok/page-types/activity.png
 checklist:
   - title: Maintainer
     description: The organisation has maintainer status on open source projects
   - title: Health
     description: The organisation measures the health of the open source projects it maintains
+list_image: /img/bok/page-types/activity.png
 ---
 
 We currently live in a world where OSS is everywhere, consumable, helpful and can make a positive or negative outcome on the programs we rely on.  Strong open source projects can lessen technical debt, increase reusability and discoverability.  For the purpose of this guide, we will cover some key principles and practices for managing your open source project effectively.
