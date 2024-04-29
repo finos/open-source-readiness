@@ -65,18 +65,11 @@ One of the common misconceptions of open source software is that the only way to
 - Improving docs
 - Triage / reproduce issues
 - Project Management
-<<<<<<< HEAD
 - Perform tests, write tests
 - Improve UI
 - Graphics 
 - Marketing
 - Localisation
-
-
-## Maturity Checklist
-
-<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
-=======
 - Performing / writing tests
 - Improving UI
 - Creating graphics 
@@ -88,4 +81,7 @@ One of the common misconceptions of open source software is that the only way to
 Many forms of contribution will require use of a Pull Request - a request to pull your proposed changes (to code, docs, etc.) into the repository. While GitHub provides some documentation on [how to create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), effective pull requests communicate their purpose.
 
 Keavy McMinn wrote a post on the GitHub blog in 2015 on [How to write the perfect Pull Request](https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/), based on thoughtbot's [code review guide](https://github.com/thoughtbot/guides/tree/main/code-review). Both are great resources to help open source contributors and maintainers communicate about proposed changes.
->>>>>>> main
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
