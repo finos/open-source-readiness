@@ -7,7 +7,7 @@ import styles from './styles.module.css'
 
 function DocItemImage({doc}) {
     return (
-      <article className="margin-vert--lg">
+      <article key={doc.title} className="margin-vert--lg">
       	<div className={styles.columns}>
 	      	<div className={styles.left}>
 	        	<img src={doc.frontMatter.list_image} className={styles.articleImage} />
@@ -44,7 +44,7 @@ export default function BokTagList(props) {
                oneTag
                 .filter(d => d.permalink.indexOf(filter) > -1) 
                 .filter(d => d.permalink != location)
-                .map(d => <DocItemImage key={d} doc={d} />)
+                .map(d => <DocItemImage key={d.title} doc={d} />)
             }
         </div>
     );

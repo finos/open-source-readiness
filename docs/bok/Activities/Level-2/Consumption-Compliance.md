@@ -7,6 +7,17 @@ tags:
   - Legal Risk
 sidebar_position: 0
 sidebar_label: Compliance
+checklist:
+  - title: Risk Management
+    description: The organisation's enterprise risk management function considers open source risks
+  - title: Risk Appetite
+    description: Open source risk appetite is understood
+  - title: Compliance
+    description: Open source risk management is part of the organisational compliance policy
+  - title: Controls
+    description: Standardized controls are in place around open source consumption
+  - title: Monitoring
+    description: Open source controls are monitored
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -188,3 +199,6 @@ See Also:
 
 
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

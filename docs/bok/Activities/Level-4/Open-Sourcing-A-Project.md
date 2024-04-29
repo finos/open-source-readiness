@@ -1,5 +1,5 @@
 ---
-title: Contributing Your Own Open Source Project
+title: Contributing A Firm Open Source Project
 tags: 
   - Developer (Role)
   - Data Leakage (Risk)
@@ -11,6 +11,11 @@ tags:
   - Level 4 (OSMM)
 sidebar_position: 2
 sidebar_label: How
+checklist:
+  - title: Lifecycle
+    description: There is a lifecycle process around engaging with open source projects
+  - title: Marketing
+    description: Marketing are engaged with open source publishing efforts
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -71,3 +76,7 @@ company logo
 
 - what licenses to use (chamindra).
 
+ 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

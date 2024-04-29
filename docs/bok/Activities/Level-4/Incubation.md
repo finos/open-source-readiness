@@ -6,6 +6,11 @@ tags:
   - Developer (Role)
 sidebar_position: 6
 sidebar_label: Incubation
+checklist:
+  - title: Open Sourcing
+    description: The organisation has a defined process for open sourcing projects
+  - title: Selection
+    description: Selection criteria exists for choosing projects to incubate
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -77,3 +82,7 @@ This may involve:
 Be prepared to collaborate closely with the foundation to ensure a smooth transition into the incubation phase.
 
 The process of incubation may vary depending on the foundation and the specific requirements they have for incubated projects. Be open to feedback, adapt your proposal if needed, and maintain good communication throughout the process. Incubation provides valuable resources and support, helping your open-source project thrive and reach its full potential.
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

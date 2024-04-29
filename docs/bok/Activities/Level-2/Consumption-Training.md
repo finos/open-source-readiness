@@ -7,6 +7,11 @@ tags:
   - OSPO (Role)
 sidebar_position: 8
 sidebar_label: Training
+checklist:
+  - title: Training Program
+    description: The organisation has a training program for teams working on open source software
+  - title: Internal Training
+    description: The organisation provides internal training on open source usage policies and procedures
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -160,3 +165,6 @@ _Will the content need to be updated more frequently?_
 
 Example: External links can change from time to time. Using external resources on the training course will reduce the risk of having broken links and having to update the course.
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

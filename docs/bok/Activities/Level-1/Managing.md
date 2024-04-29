@@ -7,13 +7,20 @@ tags:
   - HR-Training (Role)
   - Placeholder
   - Level 1 (OSMM)
+checklist:
+- title: Choice
+  description: The organisation has a process to choose between open source alternatives.
+- title: Realizing The Benefit
+  description: Management realizes the benefits of open source.
+- title: Cost Savings
+  description: Management understands the cost savings of open source.
+- title: Support
+  description: The organisation has a process for obtaining support for open source components.
 sidebar_position: 1
 list_image: /img/bok/page-types/activity.png
 ---
 
 This article is a follow-up to the [Using Open Source Software](Using) and covers some details about how to manage staff that are using open source.
-
-**PLACEHOLDER**
 
 ## Skills Inventory
 
@@ -35,13 +42,23 @@ Once open source software has been chosen for consumption, it will need to be de
 
 At this stage it may be necessary to evaluate the open source's [Total Cost of Ownership](../../Measurements/Project#total-cost-of-ownership-tco)
 
+## Open Source Support
+
+Paying for a support contract for open source software offers several significant benefits, especially for businesses that rely on these technologies for critical operation:
+
+- They ensures priority access to expert assistance.
+- Support contracts often come with assurances of regular updates and security patches,
+- Financial contributions through support contracts can fund ongoing development and improvements.
+
 ## Source Control
 
 Organisations involved in developing software should ensure they have appropriate [source control](../../Artifacts/Repositories#source-repository), whether or not they are using open source in the development process.
+
 
 ## Further Reading
 
 - [Good Governance Initiative](../../Training/Good-Governance-Initiative)
 
+## Maturity Checklist
 
-
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

@@ -14,6 +14,13 @@ authors:
   - name: Rob Moffat
   - name: Rhyddian Olds
   - name: Andy Smith
+checklist:
+  - title: Promotion
+    description: The organisation promotes and rewards contribution to open source projects
+  - title: Contribution Efficiency
+    description: Organisational processes don't restrict open source contribution
+  - title: InnerSource
+    description: The organisation measures effectiveness of its InnnerSource program
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -205,3 +212,8 @@ source program that engages with the broader community helps to support an organ
 efforts to scale its open source ecosystem. Engaging with the open source community in a
 variety of ways helps to foster developer relations and encourage collaboration between
 organizations in the broader open source community.
+
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

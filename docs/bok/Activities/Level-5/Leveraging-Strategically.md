@@ -6,6 +6,15 @@ tags:
   - CTO (Role)
   - Level 5 (OSMM)
   - Strategy
+checklist:
+  - title: Strategy
+    description: The organisation defines goals and objectives in its an open source strategy
+  - title: Performance
+    description: The firm measures the effectiveness of its open source strategy
+  - title: Leverage
+    description: Management leverages open source strategy to achieve objectives
+  - title: Benefits
+    description: The benefits of open source are considered when setting organisational strategy
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -33,7 +42,7 @@ There is an open source conversation in each of those topics: your [OSPO](../../
 
 For the OSPO, Level 5 is an opportunity to extend your reach and participate in executive decisions. In the earlier levels, OSPOs address three directions: 
 1. The head of the OSPO creates and operates a team, developing processes and deliverables. In hierarchical organizations, this is a _downward_ focus. 
-2. The OSPO operates in service of internal engineering groups, as well as [legal](../../roles/Legal), [information security](../../roles/Security-Expert), developer tooling, internal comms, and others. This is the _lateral_ focus on internal partners, peers, and customers of the OSPO services. 
+2. The OSPO operates in service of internal engineering groups, as well as [legal](../../roles/Legal), [information security](../../roles/CISO), developer tooling, internal comms, and others. This is the _lateral_ focus on internal partners, peers, and customers of the OSPO services. 
 3. As you engage with the external community, join [foundations](../level-4/Foundations), [launch projects](../level-4/Open-Sourcing-A-Project), and participate in collaborative refinement of open source, the OSPO also engages _outwardly_ with peers and open source communities. 
 
 In Level 5, the OSPO will be invited to a fourth direction: it will engage _upward_ to inform and engage executives in strategic opportunities. This is your opportunity to contribute to technology strategy.
@@ -65,3 +74,7 @@ There's one more thing: Success in open source implies you have contributed back
 - [Setting an Open Source Strategy](https://www.linuxfoundation.org/resources/open-source-guides/setting-an-open-source-strategy) - by Linux Foundation authors.
 - [How to write a Strategic Plan](https://projects.iq.harvard.edu/files/hks-communications-program/files/pp_how_to_write_a_strategic_plan.pdf) - Harvard Kennedy School
 - [Why You Need an Open Source Strategy](https://www.bcg.com/publications/2021/open-source-software-strategy-benefits) - Boston Consulting Group.
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

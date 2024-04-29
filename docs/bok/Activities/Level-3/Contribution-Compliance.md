@@ -7,6 +7,17 @@ tags:
   - Compliance (Role)
 sidebar_position: 3
 sidebar_label: Compliance
+checklist:
+  - title: Policy
+    description: The organisation has policies to govern contribution to open source ecosystems
+  - title: Tracking Contribution
+    description: The organisation tracks employee open source contributions irrespective of the classification of the project
+  - title: Contribution Risk Management
+    description: Enterprise risk management processes include open source contribution risks
+  - title: Contribution Risk Appetite
+    description: The balance of open source contribution risks are understood by stakeholders
+  - title: Contribution Efficiency
+    description: Organisational tools and processes don't restrict open source contribution
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -81,3 +92,8 @@ Your policy is likely to want to mandate staff training so that staff are aware 
 In this section we look at some regulations that an open source policy will need to consider, and suggest appropriate controls for complying with each (and _evidencing_ compliance after the fact).
 
 <BokTagList tag="Contribution" filter="Regulations" />
+
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

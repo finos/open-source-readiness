@@ -9,6 +9,11 @@ authors:
   - name: Brittany Istenes
 sidebar_position: 3
 sidebar_label: Maintaining
+checklist:
+  - title: Maintainer
+    description: The organisation has maintainer status on open source projects
+  - title: Health
+    description: The organisation measures the health of the open source projects it maintains
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -90,3 +95,6 @@ It is a challenging task, but with the right mindset, tools and support, you can
 - Software development is tricky and it can take time to achieve your desired outcomes
 - It is importance to remain calm and focused when meeting potential persistent challenges and set backs.  
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

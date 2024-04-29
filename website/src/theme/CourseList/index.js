@@ -76,7 +76,7 @@ export default function CourseList(props) {
 	      		original.frontMatter.tags
 	      			.filter(tag => tag.indexOf("(Role)") > -1)
 	      			.map(tag => tag.substring(0, tag.length - 7))
-	      			.map(tag => (<Tag label={tag} />))
+	      			.map(tag => (<Tag key={tag} label={tag} />))
 	      		
 	      	}
 	      </div>

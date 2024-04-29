@@ -6,6 +6,9 @@ tags:
   - Level 3 (OSMM)
 sidebar_position: 5
 sidebar_label: Surveillance
+checklist:
+  - title: Review
+    description: There is a review process for code and non-code contributions
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -129,6 +132,7 @@ At the moment, this is an area of active investigation.
 ### Blocking Tools
 
  - Tools like [Slack](https://slack.comro) don't support surveillance.  Sometimes exemptions are granted to the broader communication policy for [Interacting with Foundations](../Level-4/Foundations) or working groups and other special cases.
- 
- 
- 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

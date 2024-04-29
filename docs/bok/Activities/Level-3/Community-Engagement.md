@@ -9,6 +9,17 @@ sidebar_position: 7
 sidebar_label: Engagement
 authors:
   - name: "Brittany Istenes"
+checklist:
+  - title: Aspiration
+    description: The organisation tracks open source projects it intends to contribute to
+  - title: Community
+    description: The organisation has an open source community manager function
+  - title: Social Media
+    description: The organisation fosters and encourages outreach for visibility of open source projects
+  - title: Measurement
+    description: The organisation measures the effectiveness of community engagement
+  - title: Hosting
+    description: The organization hosts open source repositories on publicly accessible platforms
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -92,3 +103,7 @@ If you answered yes to many of the questions listed above, you can follow the gu
 - https://opensource.com/article/22/12/open-source-community-management
 - https://www.redhat.com/en/blog/best-practices-community-practice-open-source-way-journey
 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

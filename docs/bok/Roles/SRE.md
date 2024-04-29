@@ -29,7 +29,7 @@ SREs interact extensively with cloud APIs, whether on-prem or public cloud.
  - Operations teams
  - Project & [Product Managers](Product-Manager)
  - [Line Of Business](Line-of-Business) Managers
- - [Security Staff](Security-Expert)
+ - [Security Staff](CISO)
 
 ### Open Source Engagement
 

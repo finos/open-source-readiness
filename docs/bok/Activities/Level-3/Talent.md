@@ -9,6 +9,9 @@ tags:
   - Staff Risk
 sidebar_position: 9
 sidebar_label: Talent
+checklist:
+  - title: Talent
+    description: Talent strategy leverages open source
 list_image: /img/bok/page-types/activity.png
 --- 
 
@@ -54,3 +57,7 @@ Developers don't want to work on your organisation's proprietary platform as the
  - To _retain_ these high-performing staff, you have to give them the right tools to carry on contributing effectively.
  - GitHub is _becoming a CV_.
  
+ 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

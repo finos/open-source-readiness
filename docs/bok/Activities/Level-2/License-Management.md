@@ -1,5 +1,5 @@
 ---
-title: License Compliance Management
+title: Open Source Software License Compliance Management
 tags: 
   - CIO (Role)
   - Developer (Role)
@@ -10,6 +10,15 @@ tags:
   - License (Artifact)
 sidebar_position: 2
 sidebar_label: License Management
+checklist:
+  - title: IP Compliance
+    description: There is an automated process in place for managing OSS IP compliance
+  - title: Allow-List
+    description: The organization implements one or more allow-lists for open source licence types
+  - title: License Training
+    description: Internal license compliance training is provided for individuals who require it
+  - title: ISO/IEC 5230:2020
+    description: The firm embeds the OpenChain license compliance standard
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -146,3 +155,7 @@ Using the correct licenses will form part of License Policy and it will be neces
 - **[A Developer's Guide To Open Source Licenses](https://www.toptal.com/open-source/developers-guide-to-open-source-licenses)**.  Delves into the details of what developers need to know about licenses.
 
 - **[FINOS License Categories](https://community.finos.org/docs/governance/Software-Projects/license-categories)**.  How licenses are categorized for the FINOS Foundation.
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

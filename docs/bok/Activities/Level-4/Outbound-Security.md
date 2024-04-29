@@ -7,6 +7,9 @@ tags:
   - CVE (Artifact)
 draft: true
 sidebar_position: 4
+checklist:
+  - title: Vulnerabilities
+    description: There is a defined process around dealing with vulnerabilities in firm open source projects
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -17,3 +20,8 @@ how and why.
 
 
 https://roadmap.sh/cyber-security
+
+ 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

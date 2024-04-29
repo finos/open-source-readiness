@@ -9,6 +9,9 @@ tags:
   - Operational Risk
 sidebar_position: 4
 sidebar_label: Training
+checklist:
+  - title: Contribution Training
+    description: Staff are provided with training and coverage is measured
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -209,3 +212,6 @@ Describe procedures for approvals on this.
 
 Describe company policy on this.
 
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />

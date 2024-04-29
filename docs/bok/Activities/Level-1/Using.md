@@ -9,8 +9,17 @@ tags:
   - Level 1 (OSMM)
   - Consuming (Activity)
   - Repository (Artifact)
-image: /img/bok/page-types/activity.png
+list_image: /img/bok/page-types/activity.png
 sidebar_position: 0
+checklist:
+- title: Use
+  description: Open source components are used across the organisation.
+- title: Preferring Open Source
+  description: Open source solutions are preferred over proprietary software.
+- title: Procurement
+  description: There is a defined process for using open source in the organisation.
+- title: Process Efficiency
+  description: The procurement process doesn't hinder open source consumption. 
 ---
 
 Using open source software within a financial services organisation poses unique challenges.  This article outlines some of the potential pitfalls and solutions when getting started.

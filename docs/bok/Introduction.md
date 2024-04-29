@@ -8,7 +8,7 @@ hide_table_of_contents: true
 # Welcome to Open Source Readiness (OSR)
 
 <div className="frontPageContent">
-	<BoxOut image="/img/bok/page-types/what.png" title="What is it?" className='boxout1' link="/docs/bok/Introduction" linkText="Introduction to OSR">
+	<BoxOut image="/img/bok/page-types/what.png" title="What is it?" className='boxout1'>
 	
 The <strong>Open Source Readiness Special Interest Group (OSR SIG)</strong> is dedicated to helping financial services firms advance their open source programs.
 
@@ -27,7 +27,7 @@ Comprehensive <a href="/docs/osr-resources/Training">Training and Certification<
 </ImageBullet>
 </BoxOut>
 
-<BoxOut image="/img/bok/page-types/important.png" title="Why is it Important?" className='boxout2' link="/docs/tags/strategy" linkText="More Information">
+<BoxOut image="/img/bok/page-types/important.png" title="Why is it Important?" className='boxout2'>
 
 Open Source <em>use</em> and <em>contribution</em> are increasingly important both for <a href="/docs/tags/strategy">strategic competitive advantage</a> and to manage <a href="/docs/bok/Risks/Introduction">business risks</a>. 
 

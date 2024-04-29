@@ -14,6 +14,15 @@ tags:
   - Repository (Artifact)
 sidebar_position: 4
 sidebar_label: Security
+checklist:
+  - title: Security Training
+    description: Security training is provided for teams working on open source software
+  - title: Scanning
+    description: The organisation uses code scanning tool to scan and audit software composition
+  - title: Testing
+    description: The organisation performs penetration tests and periodic threat assessment
+  - title: OpenChain 
+    description: The firm embeds the OpenChain supply chain standard
 list_image: /img/bok/page-types/activity.png
 ---
 
@@ -305,3 +314,7 @@ Following [SolarWinds](#example-solar-winds) the US government became concerned 
  
  - [OpenChain Security Assurance](../../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
 
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
