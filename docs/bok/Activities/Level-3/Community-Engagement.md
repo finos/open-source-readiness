@@ -16,7 +16,7 @@ checklist:
   - title: Community
     description: The organisation has an open source community manager function
   - title: Social Media
-    description: The organisation fosters and encourages social media for visibility of open source projects
+    description: The organisation fosters and encourages outreach for visibility of open source projects
   - title: Measurement
     description: The organisation measures the effectiveness of community engagement
 ---
