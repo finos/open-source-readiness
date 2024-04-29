@@ -1,5 +1,5 @@
 ---
-title: Contributing Your Own Open Source Project
+title: Contributing A Firm Open Source Project
 tags: 
   - Developer (Role)
   - Data Leakage (Risk)

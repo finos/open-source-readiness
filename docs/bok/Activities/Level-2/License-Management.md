@@ -1,5 +1,5 @@
 ---
-title: License Compliance Management
+title: Open Source Software License Compliance Management
 tags: 
   - CIO (Role)
   - Developer (Role)
@@ -12,7 +12,7 @@ sidebar_position: 2
 sidebar_label: License Management
 checklist:
   - title: IP Compliance
-    description: There is an automated process in place for managing IP compliance
+    description: There is an automated process in place for managing OSS IP compliance
   - title: Allow-List
     description: The organization implements one or more allow-lists for open source licence types
   - title: License Training

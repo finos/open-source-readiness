@@ -9,7 +9,7 @@ sidebar_position: 0
 sidebar_label: Compliance
 checklist:
   - title: Risk Management
-    description: Enterprise risk management processes include open source risks
+    description: The organisation's enterprise risk management function considers open source risks
   - title: Risk Appetite
     description: Open source risk appetite is understood
   - title: Compliance

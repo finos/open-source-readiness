@@ -18,7 +18,7 @@ checklist:
   - title: Security Training
     description: Security training is provided for teams working on open source software
   - title: Scanning
-    description: The organisation scans and audits software automatically and frequently
+    description: The organisation uses code scanning tool to scan and audit software composition
   - title: Testing
     description: The organisation performs penetration tests and periodic threat assessment
   - title: OpenChain 

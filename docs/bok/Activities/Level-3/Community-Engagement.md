@@ -18,6 +18,8 @@ checklist:
     description: The organisation fosters and encourages outreach for visibility of open source projects
   - title: Measurement
     description: The organisation measures the effectiveness of community engagement
+  - title: Hosting
+    description: The organization hosts open source repositories on publicly accessible platforms
 list_image: /img/bok/page-types/activity.png
 ---
 

@@ -17,7 +17,7 @@ checklist:
 - title: Preferring Open Source
   description: Open source solutions are preferred over proprietary software.
 - title: Procurement
-  description: There is a defined process for procuring open source in the organisation.
+  description: There is a defined process for using open source in the organisation.
 - title: Process Efficiency
   description: The procurement process doesn't hinder open source consumption. 
 ---
