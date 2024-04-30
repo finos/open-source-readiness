@@ -91,3 +91,7 @@ One final point: open source isn't just something you need to do at work.  Have 
 ## Training Materials
 
 <BokTagList tag="Consuming (Activity)" filter="Training" />
+
+## Maturity Checklist
+
+<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
