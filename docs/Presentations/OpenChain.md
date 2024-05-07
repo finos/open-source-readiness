@@ -5,7 +5,9 @@ sidebar_position: 8
 slug: /bok/osr-resources/OpenChain
 tags:
  - Presentation
- - License Compliance Management (Activity)
+ - License (Artifact)
+ - Security Expert (Role)
+ - CVE (Artifact)
  - OSPO (Role)
 list_image: /img/bok/page-types/presentation.png  
 ---
