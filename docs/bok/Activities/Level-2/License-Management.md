@@ -131,6 +131,11 @@ This includes [CopyLeft](../../Artifacts/Licenses#3-copyleft-licenses) licenses 
 
 Using the correct licenses will form part of License Policy and it will be necessary to ensure developers in your organisation are aware of the limitations around the use of open source.  Although these limitations will vary from firm-to-firm, the Linux Foundation provides several training courses suitable for orienting developers on their responsibilities relating to open source licensing:
 
+**See:**
+
+<BokTagList tag="License Compliance Management (Activity)" filter="Training" />
+
+
 ## Final Points to Consider
 
 * The enterprise should have a _process_ in place for tracking open-source components, monitoring license changes, and ensuring compliance with all license obligations.  That is, it is important that license management is performed continually:  dependencies can change license, projects can take on new dependencies, risk appetite can change. 
