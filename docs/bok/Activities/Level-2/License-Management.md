@@ -133,7 +133,7 @@ Using the correct licenses will form part of License Policy and it will be neces
 
 **See:**
 
-<BokTagList tag="License Compliance Management (Role)" filter="Training" />
+<BokTagList tag="License Compliance Management (Activity)" filter="Training" />
 
 
 ## Final Points to Consider
