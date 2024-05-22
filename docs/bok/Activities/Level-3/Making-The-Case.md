@@ -257,8 +257,3 @@ One argument against [having an OSPO](../Level-2/Creating-An-OSPO) is the cost. 
 - **Sharing Cost**: Working on open source projects should mean that cost is amortised amongst the collaborating organisations.
 
 </BoxOut>
-
-
-## Maturity Checklist
-
-<ArticleChecklist checklist={frontMatter.checklist} title={frontMatter.title} />
