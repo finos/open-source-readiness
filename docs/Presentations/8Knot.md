@@ -11,7 +11,7 @@ list_image: /img/bok/page-types/presentation.png
 
 <link href="/css/presentation/web.css" rel="stylesheet"></link>
 
-<Bio name="Cali Dolfi" image="/img/people/cali-dolfi.jpeg" organisation="RedHat">
+<Bio name="Cali Dolfi" image="/img/people/cali-dolfi.jpeg" organisation="Red Hat">
 Presentation by Cali Dolfi to FINOS OSR SIG on June 5 2024. 
 </Bio>
 
