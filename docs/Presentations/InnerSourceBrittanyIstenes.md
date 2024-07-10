@@ -9,6 +9,9 @@ tags:
 list_image: /img/bok/page-types/presentation.png  
 ---
 
+import ReactPlayer from 'react-player';
+
+
 <link href="/css/presentation/web.css" rel="stylesheet"></link>
 
 <Bio name="Brittany Istenes" organisation="Fannie Mae" image="/img/people/brittany-istenes.jpeg">
