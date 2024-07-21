@@ -3,7 +3,7 @@ slug: /about
 title: Contributing
 ---
 
-The Open Source Readiness Special Interest Group (OSR SIG) is dedicated to helping financial services firms advance their open source programs. 
+The Open Source Readiness Special Interest Group (OSR SIG) is dedicated to helping financial services firms advance their open source programs.
 
 ## Open Source Readiness SIG Vision
 
@@ -33,7 +33,7 @@ Be a trusted venue for our members and community in their open source journey an
 			<td>A show-and-tell covering important topics in open source.  In 2024 we aim to have <a href="https://github.com/finos/open-source-readiness/issues/224">more guest speakers and monthly themes.</a>  Please suggest your own!</td>
 			<td>This meeting is more of a workshop session where we will try to work on articles for this site or organise further resources.  </td>
 		</tr>
-	</tbody>					
+	</tbody>
 </table>
 
 Meetings are open to anyone who would like to participate. Previous Meeting Minutes and Agendas are available on [GitHub](https://github.com/finos/open-source-readiness/issues?q=is%3Aissue++label%3Ameeting+).
@@ -69,10 +69,6 @@ Brittany Istenes started off her career as an elementary school educator which t
 Peter Smulovics is an Executive Director of Enterprise Application Infrastructure focusing on Microsoft technologies at Morgan Stanley. He is a publicist for IDG and for Architecture Journal; author and co-author of several books and a returning presenter on TechEd, DevDays, Techready, Agile DevCon, TechNet. He is a founder member of AgileAlliance, Architecture Forum, Architect Academy and .NET forum, Technical Lead on several OSS projects like Novell/JBoss’ Hibernate, Apache Velocity and similar. He is Microsoft, Ariba, JBoss, and SiteCore certified and also a trainer on several technologies. Working in IT since 1995, has project experience in different fields (FMCG, public, financial, energy, telecom, pharmaceutical, mobile, music, security). He worked at Compaq as Oracle DBA, worked at Microsoft on C#, .NET, Dynamics, Visual Studio .NET, SQL Server, Office, ASP.NET, Entity Framework, and Azure, and is the main organizer for the FSI Autism Hackathon.
 </Bio>
 
-<Bio name="Thomas Cooper" organisation="RBC" image="/img/people/thomas-cooper.jpeg">
-Thomas Cooper is the Director, OSPO and part of the Developer Advocacy group at Royal Bank of Canada. He began his IT career in network operations at IBM in 2011 and joined RBC in 2013. With over a decade of industry experience in the financial sector, he has been a platform engineering lead, application developer, systems architect and community leader & champion for open source, InnerSource and cloud native technologies. In addition to his technical expertise, he has lead various community efforts for improving developer experience & productivity at RBC. He is passionate about improving the lives of others, high-quality & robust software, and building tools that are a joy to use. 
-</Bio>
-
 ### Executive Sponsors
 
 In 2023, FINOS aims to productize Open Source Readiness with new trainings and certification. The following are the FINOS board executive sponsors of this strategy:
@@ -92,7 +88,7 @@ Amol is a seasoned professional with a passion for technology and a commitment t
 
 <Bio name="Ayush Arora" image="/img/people/ayush.jpeg" organisation="None">
 Ayush is a legal professional with a rich background in open source software licensing and technology contracting. With a distinguished career that spans pivotal roles, including serving as an Advisor to the PwC's Digital Products & Transformation team and as a Program Manager Digital Innovation at Deloitte's Global Tax & Legal, Ayush has consistently maintained himself at the intersection between law, technology, and innovation. He is also a Black Duck Legal specialist, with background in computer science; and is passionate about advancing innovation in the ever-evolving landscape of open source.
-</Bio> 
+</Bio>
 
 <Bio name="Elspeth Minty" organisation="RBC" image="/img/people/elspeth-minty.jpeg">
 Elspeth has worked in the Financial Industry for more than two decades. Her experience covers everything from developing core Java/C++ libraries to helping teams adopt cloud technologies. She has worked in a number of locations, including London, Shanghai and Montreal where she is now based. In her current role at RBC Capital Markets, Elspeth is helping to improve code re-use and consistent application design. She has been involved in FINOS for a number of years and is currently a member of its Technical Steering Committee, as well as a co-lead of the OpenSource Readiness SIG.  Elspeth has presented at conferences, including SpringOne, QCon in London and Shanghai, and InnerSource Commons Gathering.
@@ -168,7 +164,7 @@ TBC
 </Bio>
 
 <Bio name="Gil Yehuda" organisation="A bank in the U.S." image="/img/people/gil-yehuda.jpeg">
-Gil is the Head of Open Source at a large U.S.-based bank where he leads the OSPO, runs the InnerSource initiative, as well as the Application Vulnerability Management strategy. Gil has been an active advocate for open source program offices, setting their strategy, managing their operations, and publishing guidance for other organizations to leverage. He created and led the OSPOs at Yahoo, Verizon Media, and U.S. Bank. He was an industry analyst at Forrester Research, an enterprise architect at Fidelity Investments, and the president of the Yahoo Employee Foundation. 
+Gil is the Head of Open Source at a large U.S.-based bank where he leads the OSPO, runs the InnerSource initiative, as well as the Application Vulnerability Management strategy. Gil has been an active advocate for open source program offices, setting their strategy, managing their operations, and publishing guidance for other organizations to leverage. He created and led the OSPOs at Yahoo, Verizon Media, and U.S. Bank. He was an industry analyst at Forrester Research, an enterprise architect at Fidelity Investments, and the president of the Yahoo Employee Foundation.
 </Bio>
 
 <Bio name="Rob Underwood" organisation="tbd" image="/img/people/no-headshot.png">
