@@ -6,11 +6,11 @@ const expDays = 2000;
 
 export const levels = [
 	{
-		name: "Unaware",
-		description: "No awareness of this activity",
+		name: "N/A or Unaware",
+		description: "Prefer not to answer or unaware of firm level",
 		class: styles.unaware,
 		color: "000000",
-		link: "/docs/bok/OSMM/Introduction#0-unaware"
+		link: "/docs/bok/OSMM/Introduction#0-unaware-or-prefer-not-to-answer"
 	},
 	{
 		name: "Initial",

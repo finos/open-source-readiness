@@ -102,6 +102,7 @@
 
 .value { 
 	justify-self: center;
+	text-align: center;
 	grid-area: 2 / 2 / 3 / 3;
  }
 

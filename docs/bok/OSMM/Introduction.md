@@ -41,9 +41,9 @@ The OSR SIG are working on a [Maturity Checklist](Checklist) which asks you to m
 
 For each activity you can assign one of the following values (taken from the [CMMI Model](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)):
 
-### 0. Unaware
+### 0. Unaware or Prefer Not To Answer
 
-This is the default.  Leave this value as-is if you are not aware of how your organisation performs this activity.
+This is the default.  Leave this value as-is if you are not aware of how your organisation performs this activity, or you'd prefer not to give an answer.
 
 ### 1. Initial
 
