@@ -1,6 +1,6 @@
 ## Creating an Open Source Review Board
 
-Creating an Open Source Review Board (sometimes known as "Advisory Councils) for any open source contributions coming outside of a FINTECH enterprise involves establishing a structured group responsible for evaluating and guiding open source contributions made by the company's employees. This board ensures that these contributions align with the company's strategic interests, comply with legal and regulatory standards, risk and security standards as well as foster positive relationships within the open source community. 
+Creating an Open Source Review Board (sometimes known as "Advisory Councils") for any open source contributions coming outside of a FINTECH enterprise involves establishing a structured group responsible for evaluating and guiding open source contributions made by the company's employees. This board ensures that these contributions align with the company's strategic interests, comply with legal and regulatory standards, risk and security standards as well as foster positive relationships within the open source community. 
 
 **Read below for a structured approach to forming such a board**
 
