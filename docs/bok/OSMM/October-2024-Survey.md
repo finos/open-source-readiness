@@ -58,27 +58,6 @@ At a round table in October 2024, members of the FINOS community discussed the r
    - Examples include developer experience investment, structured documentation, and embedding open-source in the organizational culture.
 
 10. **Governance and Risk Management:**
-    - Without oversight, organizations risk exposure to unknown dependencies or security vulnerabilities.
-    - Governance frameworks are vital for visibility into the software supply chain.
+   - Without oversight, organizations risk exposure to unknown dependencies or security vulnerabilities.
+   - Governance frameworks are vital for visibility into the software supply chain.
 
-1. **Developer Advocacy and Community Support**: Inner source projects are distinguished from regular internal projects by their open and collaborative nature, emphasizing the importance of visibility, advocacy, and community involvement.
-
-2. **Technical Infrastructure for Inner Source**: Examples of tools like Backstage.io were discussed as strategic portals for cataloging and discovering inner source projects. Integrating repositories like GitLab or Bitbucket with centralized platforms was seen as vital for visibility and engagement.
-
-3. **Organizational Challenges**: Challenges related to maintaining focus on inner source in resource-constrained environments were highlighted, with suggestions like creating an incubator or assigning accountable roles to ensure continuity despite shifting priorities.
-
-4. **Cross-Divisional Collaboration**: The difficulties in achieving cross-divisional inner source adoption, especially when organizational silos and shifting focus can disrupt projects, were noted. Governance models and mature inner source ecosystems were proposed to mitigate these issues.
-
-5. **Criteria for Inner Source Designation**: Strict criteria for "official" inner source projects were discussed, such as contributions from multiple business units and meeting certain maturity standards to ensure reliability and prevent disruptions.
-
-6. **Global Complexities**: Differences in global operations, including tax implications for cross-border contributions and varied priorities across geographical divisions, add layers of complexity to inner source implementation.
-
-7. **Encouraging Discovery and Contribution**: Participants explored mechanisms to make it easier for developers to discover and contribute to inner source projects, suggesting unified views of projects with associated metrics like language, division, and impact.
-
-8. **Metrics and Recognition**: Recognizing and measuring the success of inner source projects, such as tracking forks, contributions, and other quantitative metrics, was highlighted as a way to demonstrate value and secure support.
-
-9. **Management Engagement and Advocacy**: The need to engage managers and align their goals with the benefits of inner source was reiterated, noting that while developers are often eager to participate, managerial support is crucial for sustained involvement.
-
-10. **Sustainability and Accountability**: Establishing formal governance and accountability for inner source projects, akin to open source foundations, was proposed as a way to address risks, ensure maintenance, and manage cross-organizational dependencies effectively.
-
-The discussion concluded with reflections on the strategic importance of inner source, the shared understanding that it involves organizational change management, and the need for tools, governance, and advocacy to ensure its success.
