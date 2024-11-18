@@ -2,7 +2,7 @@
 title: Open Source Review Board (OSRB)
 tags:
   - Staff Risk
-  - OPSO (Role)
+  - OSPO (Role)
 sidebar_label: OSRB
 list_image: /img/bok/page-types/artifact.png
 ---
