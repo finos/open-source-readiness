@@ -1,10 +1,34 @@
+---
+title: Open Source Review Board (OSRB)
+tags:
+  - Staff Risk
+  - OPSO (Role)
+sidebar_label: OSRB
+list_image: /img/bok/page-types/artifact.png
+---
+
+The Open Source Review Board (OSRB), sometimes known as an "Advisory Council" is a governance body that reviews and approves open-source usage and contributions to ensure compliance with policies, licenses, and security standards.
+
+### Relationship To OSPO
+
+![Relationship to OSPO](/img/bok/osrb.png)
+
+The Open Source Program Office (OSPO) and Open Source Review Board (OSRB) are key to managing an organization’s open-source engagement, but they have distinct roles: The [OSPO](OSPO) focuses on strategy, community engagement, advocacy, and ensuring organization-wide compliance, while the OSRB handles specific governance tasks like reviewing open-source usage and contributions for compliance and security. The OSPO has a broad, strategic scope, while the OSRB operates at an operational level to enforce policies. Together, they enable effective use of open-source software while mitigating risks and aligning with organizational goals. 
+
+## Examples Of Use
+
+- The OSRB might be able to influence the incentive structure to allow for sponsorship of products, hiring, speaking, contributing, gamification of desired behaviours... all kinds of things.
+
+- OSPO is often trying to find a happy medium between competing internal forces such as compliance, communications and so on. An OSRB brings together these different forces in a structured way to bring clarity to what the OSPO should do.
+
+- An OSRB might identify projects that needed funding and then allocated funding (perhaps staff, perhaps financial incentives) to get those OSS projects maintained.
+
+
 ## Creating an Open Source Review Board
 
-Creating an Open Source Review Board (sometimes known as "Advisory Councils") for any open source contributions coming outside of a FINTECH enterprise involves establishing a structured group responsible for evaluating and guiding open source contributions made by the company's employees. This board ensures that these contributions align with the company's strategic interests, comply with legal and regulatory standards, risk and security standards as well as foster positive relationships within the open source community. 
+Establishing an OSRB means creating a structured group responsible for evaluating and guiding open source contributions made by the company's employees. This board ensures that these contributions align with the company's strategic interests, comply with legal and regulatory standards, risk and security standards as well as foster positive relationships within the open source community. 
 
-**Read below for a structured approach to forming such a board**
-
-### Define the Purpose and Scope
+### 1. Define the Purpose and Scope
 
 **Objective**
 - Clarify the review board's primary goal, which could include ensuring that open source contributions enhance the company's reputation, comply with legal standards, and align with its strategic goals. 
@@ -12,8 +36,7 @@ Creating an Open Source Review Board (sometimes known as "Advisory Councils") fo
 **Scope**
 - Determine the types of projects or contributions that require review. This might encompass code contributions/enhancements, documentation, participation in open source project governance, starting new open source projects or taking these open source projects into foundation incubation.
 
-### Establish Governance and Policies 
-
+### 2. Establish Governance and Policies 
 **Composition** 
 - The board should include members from diverse backgrounds, such as legal experts specializing in intellectual property and open source licensing, software engineers with experience in open source projects, security experts, risk and representatives from product and strategy teams. 
 
@@ -23,7 +46,7 @@ Creating an Open Source Review Board (sometimes known as "Advisory Councils") fo
 **Decision-making process** 
 - Outline how decisions will be made, including voting mechanisms, quorum requirements, and conflict resolution procedures.
 
-### Set Up Operational Procedures 
+### 3. Set Up Operational Procedures 
 
 **Contribution Process** 
 - Define the process for submitting contributions for review, including necessary documentation, expected timelines, and communication channels. 
@@ -38,7 +61,7 @@ Creating an Open Source Review Board (sometimes known as "Advisory Councils") fo
 - Prepare the teams and team members for presenting their projects, contributions and ideas to the board.
 
 
-### Engage with the Open Source Community 
+### 4. Engage with the Open Source Community 
 
 **Community Management**
 - Develop strategies for engaging positively with the open source community, including sponsoring events or foundations, contributing to open source foundations, participating in community discussions or reaching out to the projects maintainers that your company relies upon to determine how your enterprise can get involved. 
@@ -46,7 +69,7 @@ Creating an Open Source Review Board (sometimes known as "Advisory Councils") fo
 **Transparency** 
 - Consider making aspects of the review process and policies publicly available to demonstrate the company's commitment to open source principles. 
 
-### Monitor and Evolve 
+### 5. Monitor and Evolve 
 
 **Tracking Contributions**
 - Set up systems to monitor approved contributions and assess their impact on both the company and the open source projects involved. Work with your source code management team or OSPO to set up these rules. 
@@ -54,7 +77,7 @@ Creating an Open Source Review Board (sometimes known as "Advisory Councils") fo
 **Continuous Improvement** 
 - Regularly review the board's policies, procedures, and effectiveness, adjusting as necessary to reflect changes in the open source ecosystem, legal standards, and the company's strategic direction.
 
-### Example Board Structure 
+## Example Board Structure 
 
 **Executive Sponsor**
 - For an Open Source Contribution model to be successful, your group will need to ensure that you have support from higher leadership.  Discuss your model with your CISO, CTO and CIO to get their buy in. This will make for a smooth transition to the open from a highly regulated industry.  
@@ -69,6 +92,6 @@ Creating an Open Source Review Board (sometimes known as "Advisory Councils") fo
 - Security Analyst
 - Community Manager - This person should be the main point person for all contributors to help guide them through the review board process
 
-### Conclusion
+## Conclusion
 
-Establishing an Open Source Review Board is a strategic move for a FINTECH enterprise looking to contribute to and create open source projects. By ensuring contributions are strategically aligned, legally compliant, secure and risk adverse and positively received by the open source community, the company can enhance its reputation, foster innovation, and maintain regulatory compliance.
+Establishing an Open Source Review Board is a strategic move for an enterprise looking to contribute to and create open source projects. By ensuring contributions are strategically aligned, legally compliant, secure and risk adverse and positively received by the open source community, the company can enhance its reputation, foster innovation, and maintain regulatory compliance.
