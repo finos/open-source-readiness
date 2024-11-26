@@ -4,7 +4,7 @@ tags:
   - Level 4 (OSMM)
   - OSPO (Role)
   - Developer (Role)
-sidebar_position: 6
+sidebar_position: 7
 sidebar_label: Incubation
 checklist:
   - title: Open Sourcing
