@@ -75,7 +75,7 @@ Being part of an open-source foundation is not just about code; it’s about com
 
 A data-driven approach ensures that your membership delivers value and evolves with your company’s needs.
 
-- **Participation**: Track the number of contributors, events attended, and working groups joined.
+- **Participation**: Track the number of contributors, events attended, and working groups joined, training courses taken.
 - **Internal Usage**: Measure adoption of foundation-supported projects within your company (e.g., [FDC3](https://fdc3.finos.org) or [CDM](https://cdm.finos.org) libraries).
 - **Impact on Business**: Quantify the benefits, such as cost savings (e.g., replacing proprietary software) or time efficiencies (e.g., fewer hours spent on security analysis).
 - Monitor metrics monthly to identify trends and areas for improvement.
