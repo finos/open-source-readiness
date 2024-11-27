@@ -69,7 +69,7 @@ Being part of an open-source foundation is not just about code; it’s about com
 - **Working Groups**: Join technical working groups to influence standards and collaborate with peers.
 - **Ambassadorship**: Promote the foundation’s mission both internally and externally, acting as a bridge between your company and the community.
 - **Internal Events**:  Arrange sessions with internal staff (perhaps tied into your own training events) that show case the foundation membership.
-- **Adopt training courses**: Where a foundation publishes training (FINOS and the LF publish lots) make sure you have a plan in place to make the most of this benefit and promulgate it widely to your staff.
+- **Adopt training courses**: Where a foundation publishes training (FINOS and the LF publish a wide variety of them) make sure you have a plan in place to make the most of this benefit and promulgate it widely to your staff.
 
 ## 6. Measure Success and Adapt
 
