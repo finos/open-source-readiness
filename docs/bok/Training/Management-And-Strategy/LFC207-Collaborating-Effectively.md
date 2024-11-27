@@ -10,7 +10,7 @@ course:
   code: LFC207
   length: 1 hour
   certification: Digital
-  cost: n/a
+  cost: 79.00$
   link: https://trainingportal.linuxfoundation.org/courses/collaborating-effectively-with-open-source-projects-lfc207
 sidebar_label: LFC207
 list_image: /img/bok/page-types/training2.png
