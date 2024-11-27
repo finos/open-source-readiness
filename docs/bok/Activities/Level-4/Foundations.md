@@ -1,7 +1,6 @@
 ---
 title: Open Source Foundations
 tags: 
-  - Placeholder
   - Level 4 (OSMM)
   - OSPO (Role)
   - Developer (Role)
