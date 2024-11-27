@@ -10,7 +10,7 @@ course:
   code: LFC205
   length: 1 hour
   certification: Digital
-  cost: n/a
+  cost: 79.00$
   link: https://trainingportal.linuxfoundation.org/courses/open-source-development-practices-lfc205
 sidebar_label: LFC205
 list_image: /img/bok/page-types/training2.png
