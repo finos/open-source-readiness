@@ -98,5 +98,5 @@ GitProxy is another open-source security tool introduced at the forum, designed 
 
 # Reference Links:
 
-https://www.finos.org/blog/finos-q4-and-osff-announcements 
-https://events.linuxfoundation.org/open-source-finance-forum-new-york
+- https://www.finos.org/blog/finos-q4-and-osff-announcements 
+- https://events.linuxfoundation.org/open-source-finance-forum-new-york
