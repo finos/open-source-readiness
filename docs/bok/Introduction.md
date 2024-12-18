@@ -38,7 +38,7 @@ A <a href="/docs/osr-resources/presentation">Presentation on Open Source Readine
 </ImageBullet>
 
 <ImageBullet image="/img/bok/page-types/knowledge.png" alt="Knowledge Base">
-An <a href="(https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">executive whitepaper</a> on the business value of open source.
+An <a href="https://www.finos.org/business-value-of-open-source-for-financial-services-firms-download-page?hsLang=en-us">executive whitepaper</a> on the business value of open source.
 </ImageBullet>
 
 #### Distilled Best Practices
