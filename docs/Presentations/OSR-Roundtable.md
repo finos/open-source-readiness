@@ -8,7 +8,7 @@ tags:
  - OSPO (Role)
  - OSMM
  - GitProxy
-list_image: /img/bok/page-types/presentation.png  
+list_image: /img/bok/page-types/presentation.png
 ---
 
 <Bio name="Vishwanath Gorti" organisation="Deutsche Bank" image="/img/people/Vishwanath-Gorti.jpeg">
@@ -28,7 +28,7 @@ Open-Source Readiness (OSR) Roundtable at OSFF 2024 focused on several pressing 
 - Cultural Shift: There was a strong emphasis on the cultural aspects of open-source adoption. Successful OSS integration requires a shift towards collaboration, transparency, and community participation. Strategies for fostering an open- source mindset within traditionally conservative financial institutions were discussed.
 
 ## Supply Chain Security:
-- OSS Security Practices: Securing the software supply chain remains a major concern. The roundtable examined how financial institutions can contribute to, and benefit from, initiatives like the Open-Source Security Foundation (OpenSSF). Topic covered included ensuring code quality in OSS dependencies, vulnerability management, and implementing tools like Software Bill of Materials 9SBOM) to track and secure code bases.
+- OSS Security Practices: Securing the software supply chain remains a major concern. The roundtable examined how financial institutions can contribute to, and benefit from, initiatives like the Open-Source Security Foundation (OpenSSF). Topic covered included ensuring code quality in OSS dependencies, vulnerability management, and implementing tools like Software Bill of Materials (SBOM) to track and secure code bases.
 - Log4Shell and Beyond: Recent high-profile vulnerabilities like Log4Shell have exposed the risks of using widely adopted open-source libraries. The discussion highlighted proactive measure FSIs can take to detect, migrate, and respond to such incidents through better OSS management and collaboration with broader open-source security communities.
 
 ## Contributing to OSS Projects:
@@ -98,5 +98,5 @@ GitProxy is another open-source security tool introduced at the forum, designed 
 
 # Reference Links:
 
-- https://www.finos.org/blog/finos-q4-and-osff-announcements 
+- https://www.finos.org/blog/finos-q4-and-osff-announcements
 - https://events.linuxfoundation.org/open-source-finance-forum-new-york
