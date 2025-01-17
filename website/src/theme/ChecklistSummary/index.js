@@ -57,8 +57,10 @@ function Square({ name, level, row }) {
 			<h4 className={styles.name}><a href={levels[level].link} title={levels[level].description}>{levels[level].name}</a></h4>
 			<div className={styles.score}>{count}</div>
 			<ul className={styles.items}>
-				{(relevantDocs.length < 6) ? relevantDocs.map(d => <DetailRow key={d.slug + "_" + d.name} d={d} />) : relevantDocs.slice(0, 4).map(d => <DetailRow key={d.slug + "_" + d.name} d={d} />)}
-				{(relevantDocs.length > 5) ? <li><em>& {relevantDocs.length - 4} others</em></li> : ""}
+				{(relevantDocs.length < 10) ? relevantDocs.map(d => <DetailRow key={d.slug + "_" + d.name} d={d} />) : relevantDocs.slice(0, 9).map(d => <DetailRow key={d.slug + "_" + d.name} d={d} />)}
+				{(relevantDocs.length > 9) ? <li><a href="#" title={
+					relevantDocs.slice(10, relevantDocs.length).map(d => d.name).join("\n")}
+					>& {relevantDocs.length - 9} others</a></li> : ""}
 			</ul>
 
 		</div>
