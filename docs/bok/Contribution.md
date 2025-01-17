@@ -57,16 +57,16 @@ There are several people fulfilling leadership roles within OSR, listed below. T
 
 The Open Source Readiness Special Interest Group (OSR SIG) co-chairs are:
 
-<Bio name="Cara Delia" organisation="Red Hat" image="/img/people/cara-delia.jpeg">
-Cara Delia advocates open source principles and practices by contributing to external open source communities focused on Financial Services and Climate Sustainability at Red Hat. Community leadership includes: FINOS Open Source Readiness Co-Chair, FINOS Technical Steering Committee and Technical Lead and founding charter member for the CNCF Environmental Sustainability technical advisory group (TAG).
-</Bio>
-
 <Bio name="Brittany Istenes" organisation="Fannie Mae" image="/img/people/brittany-istenes.jpeg">
 Brittany Istenes started off her career as an elementary school educator which then led to a path of technology. Brittany has led advisory councils, open source ambassador programs, open source contributions, InnerSource initiatives and all the gray areas in between at scale within large companies. Now at Fannie Mae, Brittany is hopeful to share these best practices for OSS and InnerSource with the teams at Fannie Mae. Her main goal is to create a frictionless developer/centric environment where not only are we creating the best products for our customers, but we are doing so in a way that is better, faster, secure and more innovative within the FinTech world.
 </Bio>
 
 <Bio name="Peter Smulovics" organisation="Morgan Stanley" image="/img/people/peter-smulovics.jpeg">
 Peter Smulovics is an Executive Director of Enterprise Application Infrastructure focusing on Microsoft technologies at Morgan Stanley. He is a publicist for IDG and for Architecture Journal; author and co-author of several books and a returning presenter on TechEd, DevDays, Techready, Agile DevCon, TechNet. He is a founder member of AgileAlliance, Architecture Forum, Architect Academy and .NET forum, Technical Lead on several OSS projects like Novell/JBoss’ Hibernate, Apache Velocity and similar. He is Microsoft, Ariba, JBoss, and SiteCore certified and also a trainer on several technologies. Working in IT since 1995, has project experience in different fields (FMCG, public, financial, energy, telecom, pharmaceutical, mobile, music, security). He worked at Compaq as Oracle DBA, worked at Microsoft on C#, .NET, Dynamics, Visual Studio .NET, SQL Server, Office, ASP.NET, Entity Framework, and Azure, and is the main organizer for the FSI Autism Hackathon.
+</Bio>
+
+<Bio name="Kay Xiong Pachay" organisation="Goldman Sachs" image="/img/people/kay-xiong-pachay.jpeg">
+Open Source Program Manager.
 </Bio>
 
 ### Executive Sponsors
@@ -94,6 +94,10 @@ Ayush is a legal professional with a rich background in open source software lic
 Elspeth has worked in the Financial Industry for more than two decades. Her experience covers everything from developing core Java/C++ libraries to helping teams adopt cloud technologies. She has worked in a number of locations, including London, Shanghai and Montreal where she is now based. In her current role at RBC Capital Markets, Elspeth is helping to improve code re-use and consistent application design. She has been involved in FINOS for a number of years and is currently a member of its Technical Steering Committee, as well as a co-lead of the OpenSource Readiness SIG.  Elspeth has presented at conferences, including SpringOne, QCon in London and Shanghai, and InnerSource Commons Gathering.
 </Bio>
 
+<Bio name="Cara Delia" organisation="Red Hat" image="/img/people/cara-delia.jpeg">
+Cara Delia advocates open source principles and practices by contributing to external open source communities focused on Financial Services and Climate Sustainability at Red Hat. Community leadership includes: FINOS Open Source Readiness Co-Chair, FINOS Technical Steering Committee and Technical Lead and founding charter member for the CNCF Environmental Sustainability technical advisory group (TAG).
+</Bio>
+
 <Bio name="Rob Moffat" image="/img/people/rob-moffat.jpeg" organisation="FINOS">
 Rob Moffat is a seasoned IT professional living in the UK. Over the last twenty years, he has worked at many of the top-tier investment banks in London on regulatory and transformation IT projects. Rob is a staunch advocate of Open Source and works on many open source projects, including the FINOS "Spring Bot" project which he built and contributed whilst working at Deutsche Bank.  Rob holds a Computer Science degree and an MBA and is the author of <a href="https://www.amazon.co.uk/Risk-First-Software-Development-1-Menagerie/dp/1717491855">Risk-First Software Development</a>.
 </Bio>
@@ -112,10 +116,6 @@ An open source advocate and enthusiast. His major focus areas include Open Sourc
 
 <Bio name="Vicki Chung" organisation="Goldman Sachs" image="/img/people/vicki.jpeg">
 Vicki is a product manager of Goldman Sachs’ Core Engineering, where she delivers software to improve developer productivity and to provide exceptional customer experiences. Prior to her current role, Vicki was the OSPO program manager and an instrumental part of building out the firm’s open source program. Before joining Goldman Sachs in 2021, Vicki was in the e-commerce and software consulting spaces in Japan and Taiwan.
-</Bio>
-
-<Bio name="Kay Xiong Pachay" organisation="Goldman Sachs" image="/img/people/kay-xiong-pachay.jpeg">
-Open Source Program Manager.
 </Bio>
 
 <Bio name="Zack Koppert" organisation="Github" image="/img/people/zack-koppert.jpeg">
