@@ -29,6 +29,7 @@ YYYYMMDD - time
 - [ ] Display [FINOS Antitrust Policy summary slide](https://community.finos.org/Compliance-Slides/Antitrust-Compliance-Slide.pdf) 
 - [ ] Review Meeting Notices (see above)
 - [ ] Approve past meeting minutes
+- [ ] Introduce New Joiners
 - [ ] Agenda item 1
 - [ ] Agenda item 2
 - [ ] ...
