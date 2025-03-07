@@ -24,7 +24,7 @@ Candidates passing this examination will have demonstrated understanding of the 
 ## Includes
 
 - Online
-- Certification valid for 3 Years
+- Certification valid for 2 Years
 - Includes 12 Month Exam Eligibility
 - One Retake
 - Multiple Choice Exam
