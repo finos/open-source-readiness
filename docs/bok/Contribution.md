@@ -26,8 +26,8 @@ Be a trusted venue for our members and community in their open source journey an
 	</thead>
 	<tbody>
 		<tr>
-			<td className="calendar"><a href="https://calendar.finos.org/4ceeknoiieiu0g9k6rmf4t3n44.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
-			<td className="calendar"><a href="https://calendar.finos.org/3oeu8ev0okjen2i8v5hstg5abt.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
+			<td className="calendar"><a href="https://calendar.finos.org/signup/?eventId=4ceeknoiieiu0g9k6rmf4t3n44_20250205T150000Z&title=Open%20Source%20Readiness%20SIG"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
+			<td className="calendar"><a href="https://calendar.finos.org/signup/?eventId=3oeu8ev0okjen2i8v5hstg5abt_20250219T140000Z&title=Open%20Source%20Readiness%20SIG%20-%20Checkpoint%20Session"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
 		</tr>
 		<tr>
 			<td>A show-and-tell covering important topics in open source.  In 2024 we aim to have <a href="https://github.com/finos/open-source-readiness/issues/224">more guest speakers and monthly themes.</a>  Please suggest your own!</td>
