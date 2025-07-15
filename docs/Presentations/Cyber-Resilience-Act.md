@@ -14,7 +14,7 @@ list_image: /img/bok/page-types/presentation.png
 Discussion led by Eddie Knight for FINOS OSR SIG on June 4 2025.
 </Bio>
 
-\_See Also: [The Linux Foundation CRA Training Course](../bok/Training/LFEL1001-CRA)
+_See Also: [The Linux Foundation CRA Training Course](../bok/Training/LFEL1001-CRA)_
 
 As global reliance on digital technology grows, so do efforts to secure its ecosystem. One such legislative move is the European Union's Cyber Resilience Act (CRA), which is poised to reshape how organizations—particularly those in technology, consumer electronics, and financial services—approach cybersecurity and compliance.
 
