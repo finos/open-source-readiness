@@ -5,12 +5,12 @@ tags:
   - Training
 course:
   publisher: Linux Foundation
-  code: LFS142x
+  code: LFS142
   length: 10 hours
   certification: Digital
   cost: free
-  link: https://training.linuxfoundation.org/training/developing-secure-software-lfd121/
-sidebar_label: LFS142x
+  link: https://training.linuxfoundation.org/training/introduction-to-backstage-developer-portals-made-easy-lfs142/
+sidebar_label: LFS142
 list_image: /img/bok/page-types/training2.png
 ---
 

@@ -1,18 +1,20 @@
 ---
 title: Cyber Resilience Act (CRA)
-sidebar_label: CRA 
+sidebar_label: CRA
 author: Eddie Knight
 sidebar_position: 20
 tags:
- - Presentation
- - Strategy
- - Legal (Risk)
-list_image: /img/bok/page-types/presentation.png  
+  - Presentation
+  - Strategy
+  - Legal (Risk)
+list_image: /img/bok/page-types/presentation.png
 ---
 
 <Bio name="Eddie Knight" image="/img/people/eddie-knight.jpeg" organisation="Sonatype">
-Discussion led by Eddie Knight for FINOS OSR SIG on June 4 2025. 
+Discussion led by Eddie Knight for FINOS OSR SIG on June 4 2025.
 </Bio>
+
+\_See Also: [The Linux Foundation CRA Training Course](../bok/Training/LFEL1001-CRA)
 
 As global reliance on digital technology grows, so do efforts to secure its ecosystem. One such legislative move is the European Union's Cyber Resilience Act (CRA), which is poised to reshape how organizations—particularly those in technology, consumer electronics, and financial services—approach cybersecurity and compliance.
 
@@ -56,4 +58,3 @@ The CRA can be seen as both a challenge and an opportunity. On one hand, it adds
 ## Final Thoughts
 
 The CRA signals a new era in digital regulation—one that holds companies accountable not just for what they build, but for how they build it. It underscores the need for organizations to embrace secure-by-design principles, robust supply chain hygiene, and deeper collaboration with the open source community.
-
