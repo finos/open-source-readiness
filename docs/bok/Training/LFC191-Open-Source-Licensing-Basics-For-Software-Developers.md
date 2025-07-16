@@ -1,12 +1,12 @@
 ---
 title: A Beginner's Guide to Open Source Software Development
-tags: 
+tags:
   - Consuming (Activity)
   - Training
   - LF-Training
 course:
   publisher: Linux Foundation
-  code: LFD102
+  code: LFD191
   length: 2 hours
   certification: Digital
   cost: free

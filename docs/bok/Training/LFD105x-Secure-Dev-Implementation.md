@@ -14,7 +14,7 @@ sidebar_label: LFD105x
 list_image: /img/bok/page-types/training2.png
 ---
 
-This course covers the practical steps software developers can take, even if they have limited resources, to implement secure software.
+This course covers the practical steps software developers can take, even if they have limited resources, to implement secure software. This is part of [LFD121](LFD121-Secure-Software-Dev).
 
 ## Details
 

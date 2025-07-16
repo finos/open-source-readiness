@@ -14,8 +14,7 @@ sidebar_label: LFD104x
 list_image: /img/bok/page-types/training2.png
 ---
 
-This course is designed to give you an overview of security basics, including system security requirements, secure design principles and best practices, and how to securely select and reuse software for your systems.
-
+This course is designed to give you an overview of security basics, including system security requirements, secure design principles and best practices, and how to securely select and reuse software for your systems. This is part of [LFD121](LFD121-Secure-Software-Dev).
 
 ## Details
 

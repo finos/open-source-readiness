@@ -1,6 +1,6 @@
 ---
-title: Community Orientation
-tags: 
+title: Inclusive Open Source Community Orientation
+tags:
   - Developer (Role)
   - OSPO (Role)
   - Product Manager (Role)

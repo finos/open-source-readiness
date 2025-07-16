@@ -1,6 +1,6 @@
 ---
 title: Software Bill of Materials (SBOM)
-tags: 
+tags:
   - OSPO (Role)
   - Developer (Role)
 sidebar_label: SBOM
@@ -34,23 +34,18 @@ The SPDX file is composed of several sections, described [here](https://www.csoo
 3. **File information** includes file metadata such as names, checksum licenses and copyright information.
 4. **Snippets** are optional and are primarily used when data has been derived from a different original source or tied to another license.
 5. SPDX also supports **relationships** for documents, packages, and files.
-6. **Annotations** allow a reviewer to include information from their review activities in an SPDX document. 
+6. **Annotations** allow a reviewer to include information from their review activities in an SPDX document.
 
 ### An Example: App-BOM-Ination
 
 Java libraries are distributed as files with the .jar suffix.  This file <https://github.com/spdx/spdx-examples/blob/master/example9/spdx/appbomination.spdx.json> contains an example SPDX definition for a Java Library called "App-BOM-ination":
 
-* The start of the file contains the document creation information.  From this, I can determine that the SPDX was created by Gary O'Neall, and has a license of "CC0-1.0", which corresponds to the "[Creative Commons Zero v1.0 Universal](https://spdx.org/licenses/CC0-1.0.html)" License.
-* The SPDX defines many packages, but the main one has an id of "SPDXRef-1" and is named "App-BOM-ination".  It has a downloadLocation pointing to a URL on GitHub, a description and a SHA1 checksum.  It's license ID is "Apache 2.0", which corresponds to the "[Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)" License.
-* I can see that it also includes several _files,_ such as a "README.md", "settings.gradle" and a java source file called "InsufficientKarmaException.java".
-* I can also see that it relies on several other Java packages which are _dependencies_. That is, the main library will pull in other required libraries when it runs.  These include "commons-lang3-3.4.jar" - a common Apache library, also licensed under "Apache-2.0" license.
-* Further, the project also has _test dependencies:_ that is, libraries it requires when the CI/CD pipeline's suite of automated tests is run.  For example junit-4.12.jar, which is provided under the "EPL-1.0" license, which corresponds to "[Eclipse Public License 1.0](https://spdx.org/licenses/EPL-1.0.html)".  Test dependencies are important since when "App-BOM-ination" is built in your organisation, this external code will be in use and therefore represents a potential threat vector.
+- The start of the file contains the document creation information.  From this, I can determine that the SPDX was created by Gary O'Neall, and has a license of "CC0-1.0", which corresponds to the "[Creative Commons Zero v1.0 Universal](https://spdx.org/licenses/CC0-1.0.html)" License.
+- The SPDX defines many packages, but the main one has an id of "SPDXRef-1" and is named "App-BOM-ination".  It has a downloadLocation pointing to a URL on GitHub, a description and a SHA1 checksum.  It's license ID is "Apache 2.0", which corresponds to the "[Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html)" License.
+- I can see that it also includes several _files,_ such as a "README.md", "settings.gradle" and a java source file called "InsufficientKarmaException.java".
+- I can also see that it relies on several other Java packages which are _dependencies_. That is, the main library will pull in other required libraries when it runs.  These include "commons-lang3-3.4.jar" - a common Apache library, also licensed under "Apache-2.0" license.
+- Further, the project also has _test dependencies:_ that is, libraries it requires when the CI/CD pipeline's suite of automated tests is run.  For example junit-4.12.jar, which is provided under the "EPL-1.0" license, which corresponds to "[Eclipse Public License 1.0](https://spdx.org/licenses/EPL-1.0.html)".  Test dependencies are important since when "App-BOM-ination" is built in your organisation, this external code will be in use and therefore represents a potential threat vector.
 
 ## Further Reading
- 
-1. **[OpenChain Security Assurance](OpenChain-SecurityAssurance)**:  an ISO standard for open source license compliance.
 
-## Training Materials
-
-<BokTagList tag="SBOMs (Artifacts)" filter="Training" />
-
+1. **[OpenChain Security Assurance](OpenChain-SecurityAssurance)**: an ISO standard for open source license compliance.

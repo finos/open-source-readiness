@@ -14,7 +14,7 @@ sidebar_label: LFD106x
 list_image: /img/bok/page-types/training2.png
 ---
 
-This course is designed to show you how to verify software for security, and gives you the chance to take a deeper dive into the basics of applying threat models and cryptography.
+This course is designed to show you how to verify software for security, and gives you the chance to take a deeper dive into the basics of applying threat models and cryptography. This is part of [LFD121](LFD121-Secure-Software-Dev).
 
 ## Details
 

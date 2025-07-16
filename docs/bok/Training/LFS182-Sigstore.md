@@ -1,16 +1,16 @@
 ---
-title: Securing Your Software Supply Chain with Sigstore 
+title: Securing Your Software Supply Chain with Sigstore
 tags:
   - LF-Training
   - Training
 course:
   publisher: Linux Foundation
-  code: LFS182x
+  code: LFS182
   length: 8 hours
   certification: Digital
   cost: free
   link: https://training.linuxfoundation.org/training/securing-your-software-supply-chain-with-sigstore-lfs182x/
-sidebar_label: LFS182x
+sidebar_label: LFS182
 list_image: /img/bok/page-types/training2.png
 ---
 
@@ -19,4 +19,3 @@ Building and distributing software that is secure throughout its entire lifecycl
 ## Details
 
 <CourseDetails course={frontMatter.course}/>
-
