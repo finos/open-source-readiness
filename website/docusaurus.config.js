@@ -1,4 +1,4 @@
-module.exports={
+module.exports = {
   "title": "FINOS",
   "tagline": "OVERCOMING OBSTACLES TO OPEN SOURCE",
   "url": "https://osr.finos.org/",
@@ -29,7 +29,7 @@ module.exports={
         "theme": {
           "customCss": "src/css/customTheme.css"
         },
-	"gtag": {
+        "gtag": {
           "trackingID": "G-FK3GN7DZ2J"
         }
       }
@@ -38,7 +38,7 @@ module.exports={
   "plugins": [
     './src/plugin/category-listing',
     './src/plugin/checklist-listing',
-    
+    "docusaurus-plugin-generate-llms-txt"
   ],
   "themeConfig": {
     "algolia": {
@@ -54,21 +54,21 @@ module.exports={
         "srcDark": "/img/finos_dark.svg"
       },
       "items": [
-		  {
-			  "label": "Open Source Readiness",
-			  "to": "/docs/bok/Introduction",
-			  "position": "right",
-		  },
-		  {
-			  "label": "InnerSource",
-			  "to": "/docs/InnerSource/Introduction",
-			  "position": "right",
-		  },
-		  {
-			  "label": "Strategy",
-			  "to": "/docs/tags/strategy",
-			  "position": "right",
-		  }
+        {
+          "label": "Open Source Readiness",
+          "to": "/docs/bok/Introduction",
+          "position": "right",
+        },
+        {
+          "label": "InnerSource",
+          "to": "/docs/InnerSource/Introduction",
+          "position": "right",
+        },
+        {
+          "label": "Strategy",
+          "to": "/docs/tags/strategy",
+          "position": "right",
+        }
       ]
     },
     "image": "/img/site-preview.png",
@@ -92,10 +92,10 @@ module.exports={
             {
               "label": "InnerSource",
               "to": "/docs/InnerSource/Introduction"
-            },            
+            },
           ]
         },
-         {
+        {
           "title": "DOCS",
           "items": [
             {
@@ -120,7 +120,7 @@ module.exports={
             }
           ]
         },
-         {
+        {
           "title": "EVENTS",
           "items": [
             {
@@ -139,7 +139,7 @@ module.exports={
         },
         {
           "title": "COMMUNITY",
-          "items" : [
+          "items": [
             {
               "label": "FINOS Website",
               "to": "https://www.finos.org"
