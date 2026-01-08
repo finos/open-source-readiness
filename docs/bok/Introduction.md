@@ -9,7 +9,7 @@ hide_table_of_contents: true
 
 <div className="frontPageContent">
 	<BoxOut image="/img/bok/page-types/what.png" title="What is it?" className='boxout1'>
-	
+
 The <strong>Open Source Readiness Special Interest Group (OSR SIG)</strong> is dedicated to helping financial services firms advance their open source programs.
 
 We produce and collect:
@@ -29,7 +29,7 @@ Comprehensive <a href="/docs/osr-resources/Training">Training and Certification<
 
 <BoxOut image="/img/bok/page-types/important.png" title="Why is it Important?" className='boxout2'>
 
-Open Source <em>use</em> and <em>contribution</em> are increasingly important both for <a href="/docs/tags/strategy">strategic competitive advantage</a> and to manage <a href="/docs/bok/Risks/Introduction">business risks</a>. 
+Open Source <em>use</em> and <em>contribution</em> are increasingly important both for <a href="/docs/tags/strategy">strategic competitive advantage</a> and to manage <a href="/docs/bok/Risks/Introduction">business risks</a>.
 
 Here are some resources to help make this case:
 
@@ -43,7 +43,7 @@ An <a href="https://www.finos.org/business-value-of-open-source-for-financial-se
 
 #### Distilled Best Practices
 
-The materials on this site are built by the consensus of financial services firms.  This means they reflect best practices and thinking for our industry.
+The materials on this site are built by the consensus of financial services firms. This means they reflect best practices and thinking for our industry.
 </BoxOut>
 
 <BoxOut image="/img/bok/page-types/how.png" title="How Does it Work?" className='boxout3'>
@@ -70,14 +70,13 @@ The OSR SIG is building out articles describing the expected activities at each 
 
 This site also contains other resources to help firms on their open source journey, such as:
 
- - A <a href="/docs/bok/Artifacts/Reference-FOSS-Policy">reference open source policy</a> for FSI firms.
- - An <a href="/docs/operations/oslc">Open Source License Compliance Handbook</a> with information about complying with common open source licenses.
+- A <a href="/docs/bok/Artifacts/Reference-FOSS-Policy">reference open source policy</a> for FSI firms.
+- An <a href="/docs/operations/oslc">Open Source License Compliance Handbook</a> with information about complying with common open source licenses.
 
 </ImageBullet>
 
 </BoxOut>
-				
-				
+
 <BoxOut image="/img/bok/page-types/involved.png" title="How Do I Get Involved?" className='boxout4'>
 
 #### Meetings
@@ -86,17 +85,14 @@ This site also contains other resources to help firms on their open source journ
 	<thead>
 		<tr>
 			<th>First Wednesday <br /> Every Month</th>
-			<th>Third Wednesday <br /> Every Month</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td className="calendar"><a href="https://calendar.finos.org/signup/?eventId=4ceeknoiieiu0g9k6rmf4t3n44_20250205T150000Z&title=Open%20Source%20Readiness%20SIG"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
-			<td className="calendar"><a href="https://calendar.finos.org/signup/?eventId=3oeu8ev0okjen2i8v5hstg5abt_20250219T140000Z&title=Open%20Source%20Readiness%20SIG%20-%20Checkpoint%20Session"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download"/><br />Add To Calendar</a></td>
 		</tr>
 		<tr>
-			<td>A show-and-tell covering important topics in open source.  In 2024 we aim to have <a href="https://github.com/finos/open-source-readiness/issues/224">more guest speakers and monthly themes.</a>  Please suggest your own!</td>
-			<td>This meeting is more of a workshop session where we will try to work on articles for this site or organise further resources.  </td>
+			<td>A show-and-tell covering important topics in open source.  Visit <a href="https://github.com/finos/open-source-readiness/issues/224">to suggest topics</a>  but please come along and raise any topics you feel are relevant.  Previous meetings' content is often added in the <a href="/docs/Presentations">Presentations</a> section, so take a look there at what we've covered in the past.</td>
 		</tr>
 	</tbody>
 
@@ -114,7 +110,6 @@ Meetings are open to anyone who would like to participate. Previous Meeting Minu
 
 In November 2023 the OSR SIG team are proud to announce general availability of two new Linux Foundation training products:
 
-
 <ImageBullet image="/img/bok/page-types/training2.png" alt="Training Course">
 	<strong><a href="/docs/bok/Training/LFD137-Contribution-In-Finance">Open Source Contribution in Finance (LFD137)</a> </strong> - a comprehensive training enabling developers in financial services to safely participate in open source communities,
 	drawing from the best practices of the world's top financial institutions.
@@ -129,7 +124,7 @@ In November 2023 the OSR SIG team are proud to announce general availability of 
 
 <BoxOut title="Contributing" image="/img/bok/page-types/contribution.png" className='boxout1' link="/docs/about" linkText="More on Contributing">
 
-Please help contribute to the knowledge base or help improve our resources for open source programs. Most OSR resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers. 
+Please help contribute to the knowledge base or help improve our resources for open source programs. Most OSR resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers.
 
 If you have a project to propose, <a href="https://github.com/finos/open-source-readiness/issues">open a GitHub issue</a> and share your vision!
 
@@ -141,7 +136,7 @@ Alternatively, most pages have an "edit" button where you can propose changes to
 
 ## Information Architecture
 
-This site is designed as a collection of interconnecting documents and categories which can be browsed in any order.   The following diagram summarizes the information architecture:
+This site is designed as a collection of interconnecting documents and categories which can be browsed in any order. The following diagram summarizes the information architecture:
 
 ![Information Architecture](/img/bok/information-architecture.png)
 
