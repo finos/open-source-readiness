@@ -1,6 +1,6 @@
 ---
 title: Open Source Supply Chain Security
-tags: 
+tags:
   - Developer (Role)
   - Risk-Compliance (Role)
   - Security Expert (Role)
@@ -9,7 +9,7 @@ tags:
   - Codebase Risk
   - Dependency Risk
   - Operational Risk
-  - Level 2 (OSMM) 
+  - Level 2 (OSMM)
   - CVE (Artifact)
   - Repository (Artifact)
 sidebar_position: 4
@@ -21,110 +21,80 @@ checklist:
     description: The organisation uses code scanning tool to scan and audit software composition
   - title: Testing
     description: The organisation performs penetration tests and periodic threat assessment
-  - title: OpenChain 
+  - title: OpenChain
     description: The firm embeds the OpenChain supply chain standard
 list_image: /img/bok/page-types/activity.png
 ---
 
-In this article we are going to look at the growing issue of software supply chain attacks via some examples and then look at the emerging field of open source supply chain security:  what it is, current best practices, the institutional landscape and emerging legislation.
+This article covers the growing issue of software supply chain security: what it is, the difference between vulnerabilities and attacks, current best practices, the institutional landscape, and emerging legislation.
 
-Since there are more authoritative sources on the Internet, this article aims to provide the key concepts.  This is an executive summary of this topic with lots of references to further reading.
+Since there are more authoritative sources on the Internet, this article aims to provide an executive summary with key concepts and references to further reading.
 
-## Supply Chain Attacks
+## What is Open Source Supply Chain Security?
 
-A software supply chain attack occurs when an attacker compromises the software development or distribution process to introduce malicious code into legitimate software or updates that are then delivered to end users.
+[Digital Supply Chain Security](https://en.wikipedia.org/wiki/Digital_supply_chain_security) refers to the strategies and measures implemented to protect digital assets and processes (such as software) as they move through various stages of development, distribution, and deployment.
 
-> "A supply chain attack is a cyber-attack that seeks to damage an organization by targeting less secure elements in the supply chain.[1] A supply chain attack can occur in any industry, from the financial sector, oil industry, to a government sector.  A supply chain attack can happen in software or hardware. Cybercriminals typically tamper with the manufacturing or distribution of a product by installing malware or hardware-based spying components." - [Supply Chain Attack, _Wikipedia_](https://en.wikipedia.org/wiki/Supply_chain_attack)
+When focusing on open source, supply chain security becomes particularly challenging because of the communal and transparent nature of the development environment. Open source software often involves numerous contributors, some anonymous, and can be integrated into a wide variety of applications and platforms.
 
-### Example: Solar Winds
-
-The SolarWinds attack, uncovered in late 2020, stands as one of the most significant and sophisticated cyber espionage campaigns ever. Attackers compromised [SolarWinds' Orion software](https://www.solarwinds.com/orion-platform), a network management tool used by numerous government agencies and large corporations worldwide. 
-
-By doing so, the perpetrators were able to embed malicious code within legitimate software updates, enabling them to gain unauthorized access to the networks of organizations that installed these tainted updates. Once inside, they could move laterally, steal data, and potentially disrupt operations. The scale of the attack was massive, with thousands of entities affected, including key U.S. government agencies. 
-
-**Further Reading**:
-
- - [The SolarWinds Cyber-Attack: What You Need to Know](https://www.cisecurity.org/solarwinds).  March 2021.
-
-## Open Source Supply Chain Security
-
-[Digital Supply Chain Security](https://en.wikipedia.org/wiki/Digital_supply_chain_security) refers to the strategies and measures implemented to protect digital assets and processes (such as software) as they move through various stages of development, distribution, and deployment - essentially trying to prevent attacks like the one above.
-
-When focusing on open source, supply chain security becomes particularly challenging because of the communal and transparent nature of the development environment. 
-
-Open source software often involves numerous contributors, some anonymous, and can be integrated into a wide variety of applications and platforms. As such, it's imperative to ensure that malicious actors don't introduce vulnerabilities, either inadvertently or deliberately, into these shared code bases. 
-
-**Open source supply chain security**, therefore, emphasizes:
+**Open source supply chain security** emphasizes:
 
  - rigorous vetting of contributions
  - continuous monitoring of dependencies
  - prompt patching of known vulnerabilities
- - community collaboration to maintain the trustworthiness of shared software resources.
-
-### Examples
-
-- **[event-stream (2018)](https://es-incident.github.io)**: A malicious actor took over maintenance of a popular (>2m downloads per week) [npm](https://www.npmjs.com) package, introducing a targeted payload that stole Bitcoin funds from several users. 
-
-- **[us-parser-js (2021)](https://www.rapid7.com/blog/post/2021/10/25/npm-library-ua-parser-js-hijacked-what-you-need-to-know/)**:  Threat actors offered access to the developer account of this package on the dark web.  An installation script was introduced into the package so that the victim's computer would be used to mine crypto currency and report back user credentials.
-
-- **[left-pad (2016)](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/)**: While SolarWinds is a high-profile, deliberate attack, the supply chain is at risk from vandalism too. [left-pad](https://www.npmjs.com/package/left-pad) was a popular but small JavaScript library that was removed from the [npm](https://www.npmjs.com) repository by its author [in protest over a decision made by NPM's administrators](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/), unexpectedly breaking numerous dependent projects and highlighting vulnerabilities in modern software dependencies.
-
-- **[Heartbleed / OpenSSL](https://www.buzzfeed.com/chrisstokelwalker/the-internet-is-being-protected-by-two-guys-named-st)**: The [OpenSSL](https://www.openssl.org) library is the default encryption implementation used by the majority of the Internet.  The critical [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed) vulnerability of 2012 not only affected vast nubmers of servers and applications, but demonstrated a weakness in the open source supply chain present in many packages - that of too few maintainers.  This is commonly refered to as the "One Guy in Nebraska Problem" after this [XKCD cartoon](https://www.explainxkcd.com/wiki/index.php/2347:_Dependency).  
-
-### A Growing Problem
-
-As the volume of open source software grows, the number of open source developers increases, the cost of compute reduces and the cost of _initiating_ a supply chain attack reduces, the importance of securing the open source supply chain grows more important:
-
-> "Supply chain attacks are increasing exponentially.  In 2021 the world witnessed a 650% increase in software supply chain attacks, aimed at exploiting weaknesses in upstream open source ecosystems. For perspective, the same statistic was 430% in the 2020 version of the report." - [State of the software Supply Chain, SonaType](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf)
-
-### Transitive Dependencies
-
-It is worth drawing attention to the issue of _transitive dependencies_.  A developer may make use of up to fifteen (say) dependencies directly in a moderately-sized software application.   However, each of these dependencies may have dependencies of their own _and so on_.
-
-It is estimated that the average JavaScript dependency tree contains 86 packages, while for [PyPI](https://pypi.org) (Python libraries) it is 7.3. **See: **[How much do we really know about how packages behave on the npm registry?](https://snyk.io/blog/how-much-do-we-really-know-about-how-packages-behave-on-the-npm-registry/)
-
-**Further Reading**:
-
- - [JavaScript Growing Pains: From 0 to 13,000 Dependencies](https://blog.appsignal.com/2020/05/14/javascript-growing-pains-from-0-to-13000-dependencies.html).  An example of how easy it is to end up with 13,000 dependencies in a simple JavaScript application.
+ - community collaboration to maintain the trustworthiness of shared software resources
 
 ### Components of the Open Source Supply Chain
 
 ![Open Source Supply Chain, adapted from the LF Open Source Software Supply Chain Security article.](/img/bok/supply-chain.png)
 
-Attacks can occur at any point in the open source supply chain, so let's look at the different parts of this system.  The above diagram (adapted from ["Open Source Software Supply Chain Security" by the Linux Foundation](https://project.linuxfoundation.org/hubfs/Reports/oss_supply_chain_security.pdf?hsLang=en) shows the four main components, arranged in a cycle:
+Attacks can occur at any point in the open source supply chain. The above diagram (adapted from ["Open Source Software Supply Chain Security" by the Linux Foundation](https://project.linuxfoundation.org/hubfs/Reports/oss_supply_chain_security.pdf?hsLang=en)) shows the four main components, arranged in a cycle:
 
 - **Users:** Individuals or systems that utilize software for various tasks and applications.
 - **Package Managers:** Tools or software that automate the process of installing, upgrading, configuring, and removing software packages in a consistent manner.
 - **Repositories:** Centralized storage locations or databases where software packages are archived, distributed, and made available for download.
 - **Developers:** Individuals or teams responsible for creating, updating, and maintaining software codebases and packages.
 
-Each of these is an opportunity for an attack.  
+Each of these is an opportunity for an attack. Critically, attacks also occur in the **gaps between these components** — the build processes, CI/CD pipelines, and automation that connect them. For example, the [Shai-Hulud campaign (2025)](https://www.infosecurity-magazine.com/news-features/five-flaws-exploited-2025-software/) exploited GitHub Actions workflows and npm preinstall scripts to spread malware through the spaces between developers, repositories, and package managers.
 
-## Exploits. Vulnerabilities & Attacks
+## Vulnerabilities vs. Supply Chain Attacks
 
-- **Exploits** (or "hacks") are methods that leverage a vulnerability to bypass security and gain unauthorized access, privileges, or capabilities within a system.
+Understanding the difference between vulnerabilities and supply chain attacks is critical because they require different response timelines and strategies.
 
-  > "An exploit (from the English verb to exploit, meaning "to use something to one’s own advantage") is a piece of software, a chunk of data, or a sequence of commands that takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior to occur on computer software, hardware, or something electronic (usually computerized)." - [Exploit, _Wikipedia_](https://en.wikipedia.org/wiki/Exploit_(computer_security))
+### Vulnerabilities
 
-- **Vulnerabilities** can be accidentally introduced by maintainers, and they may range from low impact or not possible for an attacker to exploit, to high impact and easily exploitable. 
+**Vulnerabilities** are accidental flaws in code that *could* be exploited by attackers. They may range from low impact to critical severity.
 
-  > "Vulnerabilities are flaws in a computer system that weaken the overall security of the device/system. Vulnerabilities can be weaknesses in either the hardware itself, or the software that runs on the hardware. Vulnerabilities can be exploited by a threat actor, such as an attacker, to cross privilege boundaries (i.e. perform unauthorized actions) within a computer system." - [Vulnerability, _Wikipedia_](https://en.wikipedia.org/wiki/Vulnerability_(computing))
+> "Vulnerabilities are flaws in a computer system that weaken the overall security of the device/system. Vulnerabilities can be weaknesses in either the hardware itself, or the software that runs on the hardware." - [Vulnerability, _Wikipedia_](https://en.wikipedia.org/wiki/Vulnerability_(computing))
 
-  Even if you have vulnerabilities in production, you have some time to address them; they may not be discovered or exploited before you update to a fixed version.  
-  
-  **See**:
-  
-   - Vulnerabilities in software are [catalogued as CVEs](../../Artifacts/CVE).
-
-- **Supply Chain Attacks** (or exploit) involve malware that is intentionally introduced into a package by an attacker. 
-
-  > "A supply chain attack can happen in software or hardware. Cybercriminals typically tamper with the manufacturing or distribution of a product by installing malware or hardware-based spying components." - [Supply Chain Attack, _Wikipedia_](https://en.wikipedia.org/wiki/Supply_chain_attack)
-
-  You don't have a few days or weeks to mitigate the issue. You need to catch it before you install it on your own laptop or on a production server.
+**Key point:** Even if vulnerabilities exist in production, you typically have days or weeks to patch them before they're discovered or exploited. This is why regular patching cycles and vulnerability scanning are effective defenses.
 
   **See:**
 
-    - [The MITRE ATT&CK](https://attack.mitre.org) aims to be a knowledge base of all the tactics, techniques, and procedures (TTPs) used by attackers in cyberattacks.
+ - Vulnerabilities in software are [catalogued as CVEs](../../Artifacts/CVE).
+ - [The MITRE ATT&CK](https://attack.mitre.org) aims to be a knowledge base of all the tactics, techniques, and procedures (TTPs) used by attackers.
+
+### Supply Chain Attacks
+
+**Supply Chain Attacks** involve malicious code that is *intentionally* introduced by an attacker into a package, dependency, or build process.
+
+> "A supply chain attack can happen in software or hardware. Cybercriminals typically tamper with the manufacturing or distribution of a product by installing malware." - [Supply Chain Attack, _Wikipedia_](https://en.wikipedia.org/wiki/Supply_chain_attack)
+
+**Key point:** There is no grace period. You must catch malicious packages *before* installation, as the attack is active immediately upon use. This is why tools like [Socket Security](https://socket.dev) that analyze package behavior (not just known CVEs) are increasingly important.
+
+
+### Examples of High-Impact Vulnerabilities
+
+Vulnerabilities in widely-used frameworks and libraries can have massive downstream impact, affecting millions of applications simultaneously:
+
+| Vulnerability | Description | Impact |
+|---------------|-------------|--------|
+| [Log4Shell (CVE-2021-44228)](https://en.wikipedia.org/wiki/Log4Shell) | Critical RCE vulnerability in Apache Log4j, a ubiquitous Java logging library. | Affected millions of Java applications; exploited within hours of disclosure. |
+| [Heartbleed (CVE-2014-0160)](https://en.wikipedia.org/wiki/Heartbleed) | Buffer over-read in OpenSSL allowing attackers to steal sensitive data from server memory. | Affected ~17% of all "secure" web servers; highlighted the "one maintainer" problem. |
+| [React2Shell (CVE-2025-55182)](https://www.infosecurity-magazine.com/news-features/five-flaws-exploited-2025-software/) | Critical RCE in React Server Components affecting Next.js applications. | 77,000+ vulnerable IPs; exploited by nation-state groups within days. |
+| [CitrixBleed 2 (CVE-2025-5777)](https://www.infosecurity-magazine.com/news-features/five-flaws-exploited-2025-software/) | Authentication bypass in Citrix NetScaler ADC/Gateway allowing session hijacking. | Mirrors the 2023 CitrixBleed; enables MFA bypass. |
+| [ToolShell (CVE-2025-53770/53771)](https://www.infosecurity-magazine.com/news-features/five-flaws-exploited-2025-software/) | Chained exploit in SharePoint on-premises servers. | Exploited by Chinese APT groups; 396 systems confirmed compromised. |
+| [Oracle EBS (CVE-2025-61882)](https://www.infosecurity-magazine.com/news-features/five-flaws-exploited-2025-software/) | Critical zero-day in Oracle E-Business Suite. | Exploited by Clop ransomware group for data theft and extortion. |
+
 
 ### Examples of Common Supply Chain Attacks
 
@@ -139,18 +109,85 @@ Each of these is an opportunity for an attack.
 | [Trojan Package](https://jfrog.com/blog/five-examples-of-infection-methods-attackers-use-to-spread-malicious-packages/#Trojan-Package)                         | In the trojan package infection method, the attacker publishes a fully functional library but hides malicious code in it.                                                                                                                                                                                                                                      | `lemaaa`                                                                                          |
 | [Joke Packages](https://dev.to/codesphere/javascript-flaws-5-stupid-npm-packages-5fi)                                                                          | Not strictly an attack, but publishing packages as jokes.  Can harm the supply chain and cause dependency bloat.                                                                                                                                                                                                                                               | [true](https://www.npmjs.com/package/true)                                                        |
 | [Cache Poisoning](https://snyk.io/blog/cache-poisoning-in-popular-open-source-packages/)                                                                       | Exploiting weaknesses in parameter handling by package managers.                                                                                                                                                                                                                                                                                               | [Rack](https://security.snyk.io/vuln/SNYK-RUBY-RACK-1061917)                                      |
-| [TypoSquatting](https://jfrog.com/blog/five-examples-of-infection-methods-attackers-use-to-spread-malicious-packages/#Typosquatting)                           | Typosquatting is the practice of obtaining (or squatting) a famous name with a slight typographical error.                                                                                                                                                                                                                                                     | "Amzon.com"                                                                                       |                                                                                       |
+| [TypoSquatting](https://jfrog.com/blog/five-examples-of-infection-methods-attackers-use-to-spread-malicious-packages/#Typosquatting)                           | Typosquatting is the practice of obtaining (or squatting) a famous name with a slight typographical error.                                                                                                                                                                                                                                                     | "Amzon.com"                                                                                       |
+| [Long-Term Maintainer Takeover](https://www.kaspersky.com/blog/cve-2024-3094-vulnerability-backdoor/51705/)                                                     | Attackers spend extended periods (months or years) contributing to a project to build trust and gain maintainer authority, then insert backdoors or malicious changes from inside. Much more sophisticated than simple hijacking.                                                                                                                            | [XZ Utils Backdoor (CVE-2024-3094)](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) - "Jia Tan" built trust over ~2 years, then pushed a backdoor into liblzma |
+| [CI/CD Pipeline Compromise](https://www.techradar.com/pro/security/critical-aws-supply-chain-vulnerability-could-have-let-hackers-take-over-key-github-repositories) | Attacks that abuse build automation (webhooks, GitHub Actions, build jobs) to inject malicious code or steal secrets without touching the mainline source code.                                                                                                                                                                                              | AWS CodeBuild "CodeBreach" - misconfigured GitHub webhook filters allowed privileged builds from untrusted users |
+| [Wormable Supply-Chain Malware](https://www.tomshardware.com/tech-industry/cyber-security/shai-hulud-malware-campaign-dubbed-the-largest-and-most-dangerous-npm-supply-chain-compromise-in-history-hundreds-of-javascript-packages-affected) | Self-propagating malware that spreads through package ecosystems by infecting downstream dependencies via maintainer or automation compromise, then republishing infected packages.                                                                                                                                                                           | [Shai-Hulud Campaign (2025)](https://www.infosecurity-magazine.com/news-features/five-flaws-exploited-2025-software/) - compromised hundreds of npm packages and spread via GitHub Actions |
+| [OAuth/SaaS Integration Abuse](https://socradar.io/blog/major-cyber-attacks-august-2025/)                                                                        | Attackers exploit trust relationships between SaaS apps or OAuth integrations to steal tokens or pivot into customer environments, without attacking code or infrastructure directly.                                                                                                                                                                          | [Salesloft-Drift Token Theft (2025)](https://www.techradar.com/pro/security/salesloft-breached-to-steal-oauth-tokens-for-salesforce-data-theft-attacks) - 700+ organizations affected via OAuth token compromise |
+| [Mass Maintainer Account Hijack](https://cymulate.com/blog/npm-under-siege-supply-chain-attacks/)                                                                | Attackers compromise maintainer accounts of high-traffic packages (via phishing or credential theft) to publish malicious updates to packages with large downstream usage.                                                                                                                                                                                    | `chalk`, `debug`, `supports-color` npm packages had malicious versions pushed after maintainer account compromise |
+| [Firmware/Update Mechanism Hijacking](https://www.techradar.com/pro/security/chinas-plushdaemon-group-uses-edgestepper-implant-to-infect-network-devices-with-slowstepper-malware-in-global-supply-chain-attacks) | Intercepting or redirecting legitimate software or firmware update channels to deliver malware to devices.                                                                                                                                                                                                                                                    | [PlushDaemon/SlowStepper Campaign](https://www.welivesecurity.com/en/eset-research/plushdaemon-compromises-supply-chain-korean-vpn-service/) - network device update hijacking |
 
 Once a package, even a legitimate one, becomes dependent on a malicious package, it might unknowingly propagate the malicious behavior when others use it.
 
-**Note:** this table is just a list of notable examples.  See [The MITRE ATT&CK](https://attack.mitre.org) for a complete, authoritative list.
+**Note:** this table is just a list of notable examples. See [The MITRE ATT&CK](https://attack.mitre.org) for a complete, authoritative list.
+
+## The Scale of the Problem
+
+As the volume of open source software grows, the number of open source developers increases, and the cost of compute reduces, the importance of securing the open source supply chain becomes ever more critical.
+
+> "Supply chain attacks are increasing exponentially. In 2021 the world witnessed a 650% increase in software supply chain attacks, aimed at exploiting weaknesses in upstream open source ecosystems. For perspective, the same statistic was 430% in the 2020 version of the report." - [State of the Software Supply Chain, SonaType](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf)
+
+### High-Profile Incidents
+
+Several incidents have demonstrated the potential impact of supply chain security failures:
+
+- **[SolarWinds (2020)](https://www.cisecurity.org/solarwinds)**: Attackers compromised the Orion software build process, embedding malicious code in legitimate updates delivered to thousands of government agencies and corporations worldwide.
+- **[event-stream (2018)](https://es-incident.github.io)**: A malicious actor took over maintenance of a popular npm package (>2m downloads/week), introducing a targeted payload that stole Bitcoin funds.
+- **[left-pad (2016)](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/)**: A small JavaScript library was removed from npm in protest, unexpectedly breaking numerous dependent projects and highlighting the fragility of modern software dependencies.
+
+### The Exponential Growth of Vulnerabilities
+
+The security landscape is becoming increasingly challenging due to the sheer volume of vulnerabilities being discovered and reported:
+
+- **CVE volume is exploding.** In 2024, over **40,000 CVEs were published** — a 38% increase year-over-year. More than 20,000 had CVSS scores ≥ 7.0 (high or above), and over 4,400 were critical (CVSS 9-10). This volume makes it nearly impossible for security teams to manually triage every vulnerability.
+
+- **Faster time to exploitation.** Nearly a quarter (~23.6%) of Known Exploited Vulnerabilities (KEVs) are now being exploited *on or before* their public disclosure. Attackers are moving faster than security teams can respond.
+
+- **Supply chain attacks climbing dramatically.** Between 2021-2023, supply chain cyber attacks increased **431%**, with projections pointing to continued sharp rises. In October 2025, supply chain attacks reached a new record high, 32% above the previous peak.
+
+- **High blast-radius ecosystem attacks.** Examples like the Shai-Hulud npm worm and maintainer hijacks of packages like `chalk` and `debug` (with billions of weekly downloads) show that a single compromise can cascade through millions of downstream projects and users.
+
+This exponential growth means organizations can no longer rely on manual vulnerability management processes. Automation, prioritization frameworks (like EPSS - Exploit Prediction Scoring System), and proactive supply chain security measures are becoming essential rather than optional.
+
+**VEX (Vulnerability Exploitability eXchange)** is an emerging standard designed to make [SBOMs](../../Artifacts/SBOMs) more actionable by providing context about whether a vulnerability is actually exploitable in a specific product or environment. A VEX document accompanies an SBOM and indicates one of several statuses for each vulnerability:
+
+VEX helps organizations dramatically reduce false positives. For example, an SBOM might list dozens of CVEs in a dependency, but VEX metadata can clarify that most are "Not Affected" because the vulnerable code paths are never executed. This enables security teams to focus on genuinely exploitable vulnerabilities rather than drowning in noise.
+
+VEX documents can be created using formats like [CSAF-VEX](https://docs.oasis-open.org/csaf/csaf/v2.0/csaf-v2.0.html) or [OpenVEX](https://github.com/openvex/spec), and are increasingly supported by vulnerability management tools.
+
+**See:**
+
+ - [OpenCVE Statistics](https://app.opencve.io/statistics) - real-time CVE tracking showing current vulnerability publication rates
+ - [2025 Supply Chain Vulnerability Report](https://content.blackkite.com/ebook/2025-supply-chain-vulnerability-report/executive-summary) by Black Kite
+ - [Cyble - Record Surge in Software Supply Chain Attacks](https://cyble.com/blog/record-surge-in-software-supply-chain-attacks/)
+ - [FIRST EPSS - Exploit Prediction Scoring System](https://www.first.org/epss/)
+ - [CISA VEX Overview](https://www.cisa.gov/sbom) - guidance on VEX and SBOMs from the Cybersecurity & Infrastructure Security Agency
+ - [OpenVEX Specification](https://github.com/openvex/spec) - open standard for creating VEX documents
+
+### Transitive Dependencies
+
+It is worth drawing attention to the issue of _transitive dependencies_. A developer may make use of up to fifteen (say) dependencies directly in a moderately-sized software application. However, each of these dependencies may have dependencies of their own _and so on_.
+
+It is estimated that the average JavaScript dependency tree contains 86 packages, while for [PyPI](https://pypi.org) (Python libraries) it is 7.3. Research shows that on npm, each declared dependency brings in an average of **4.3× more indirect dependencies**, with dependency chains averaging ~4.4 levels deep.
+
+Compounding the risk, approximately **61% of npm packages** have had no new release in the past 12 months, yet many continue to be widely downloaded — meaning unpatched vulnerabilities persist in actively-used code.
+
+In 2016, [Eric Wittern](https://www.wittern.net/blog/analysis-npm) showed that not only was the number of npm packages growing exponentially (at nearly 200,000 packages by the end of 2016) but also the number of dependencies used by each package was increasing exponentially, going from zero in 2011 to nine in 2016.
+
+By 2023, the number of npm packages was over three million. According to [GitHub](https://github.blog/security/supply-chain-security/best-practices-to-keep-your-projects-secure-on-github/) in 2020, although the average number of direct dependencies of a package is ten, the average number of indirect dependencies introduced _as a result of those ten_ is 683.
+
+
+**See:**
+ - [How much do we really know about how packages behave on the npm registry?](https://snyk.io/blog/how-much-do-we-really-know-about-how-packages-behave-on-the-npm-registry/) — Snyk's analysis of npm package behavior, abandonment rates, and dependency depths
+ - [State of the Software Supply Chain](https://www.sonatype.com/state-of-the-software-supply-chain/introduction) — Sonatype's annual report on open source consumption trends and security
+ - [JavaScript Growing Pains: From 0 to 13,000 Dependencies](https://blog.appsignal.com/2020/05/14/javascript-growing-pains-from-0-to-13000-dependencies.html) — An example of how easy it is to end up with 13,000 dependencies in a simple JavaScript application
 
 ## Best Practices
 
 As mentioned at the start of the article, this is a fast-evolving area.   In this section, we'll outline a few important concepts that you should be aware of.
 
-**See:** 
- 
+**See:**
+
  - [OpenSSF Best Practice Guides](https://openssf.org/resources/guides) are a useful first stop.
  - [Linux Security Blog Article](https://linuxsecurity.com/features/open-source-software-supply-chain-security) on best practices.
 
@@ -162,14 +199,14 @@ According to https://en.wikipedia.org/wiki/Software_Composition_Analysis:
 
 **See Also:**
 
-- Many SCA tools produce [SBOMs](../../Artifacts/SBOMs) which can then be checked for vulnerabilities.   
+- Many SCA tools produce [SBOMs](../../Artifacts/SBOMs) which can then be checked for vulnerabilities.  
 - A long list of SCA tools is provided here: https://todogroup.org/guides/management-tools/#tools-for-managing-source-code
 - [Dependabot](https://github.com/dependabot) on GitHub
 
 
 ### Static Application Security Testing (SAST)
 
-SAST, or Static Application Security Testing, is a type of software security testing that analyzes the source code of an application for potential security vulnerabilities without executing the code. 
+SAST, or Static Application Security Testing, is a type of software security testing that analyzes the source code of an application for potential security vulnerabilities without executing the code.
 
 > "SAST is a vulnerability scanning technique that focuses on source code, bytecode, or assembly code. The scanner can run early in your CI pipeline or even as an IDE plugin while coding. SAST tools monitor your code, ensuring protection from security issues such as saving a password in clear text or sending data over an unencrypted connection." - [Static Application Security Testing, _Snyk_](https://snyk.io/learn/application-security/static-application-security-testing/)
 
@@ -178,7 +215,7 @@ Some leading SAST tools are [Checkmarx](https://checkmarx.com/cxsast-source-code
 **See Also:**
 
  - [Socket Security](https://github.com/apps/socket-security) - a GitHub App for performing SAST
- - [CodeQL](https://codeql.github.com) also built into GitHub's Action system. 
+ - [CodeQL](https://codeql.github.com) also built into GitHub's Action system.
 
 ### Dynamic Application Security Testing / Penetration Testing
 
@@ -191,8 +228,8 @@ Tools for these include [Metasploit](https://www.metasploit.com), [Zed Attack Pr
 **See:**
 
  - [Penetration Testing Reviews and Ratings](https://www.gartner.com/reviews/market/penetration-testing) by Gartner.
- - [DAST Tools](https://www.softwaretestinghelp.com/dynamic-application-security-testing-dast-software/). 
- 
+ - [DAST Tools](https://www.softwaretestinghelp.com/dynamic-application-security-testing-dast-software/).
+
 ### Infrastructure Security Testing
 
 Infrastructure security testing involves evaluating the security of the underlying infrastructure that supports a software system or application, such as networks, servers, and databases.
@@ -207,7 +244,7 @@ This is useful when producing or consuming open source software.
 
 ### Developer Best Practces
 
-[Linux Security](https://linuxsecurity.com/features/open-source-software-supply-chain-security) suggests: 
+[Linux Security](https://linuxsecurity.com/features/open-source-software-supply-chain-security) suggests:
 
 - Using multifactor authentication on developer accounts.
 - Having a formal change-tracking process.
@@ -234,7 +271,7 @@ https://en.wikipedia.org/wiki/Endpoint_detection_and_response
 
 **See:**
 
-- Consider Gartner's [Application Security Testing](https://www.gartner.com/reviews/market/application-security-testing) summary page.  Lots of overlap in the tools between many of these categories.  
+- Consider Gartner's [Application Security Testing](https://www.gartner.com/reviews/market/application-security-testing) summary page.  Lots of overlap in the tools between many of these categories.
 
 ## Initiatives / Industry Bodies
 
@@ -245,14 +282,14 @@ https://en.wikipedia.org/wiki/Endpoint_detection_and_response
   - **[OSV](https://osv.dev)** - synthesises CVEs fom the databases for a given commit hash.
 
 - **[OpenSSF](https://openssf.org)**: A foundation (part of [LF](https://linuxfoundation.org)) devoted to the securing the open source ecosystem.  Most of its projects are hosted on [GitHub](https://github.com/ossf).  Projects of note include:
- 
-  - **[GUAC](https://github.com/guacsec/guac)**: Graph for Understanding Artifact Composition  
+
+  - **[GUAC](https://github.com/guacsec/guac)**: Graph for Understanding Artifact Composition
   - **[Best Practices Working group](https://www.bestpractices.dev/en)**: publishes best practices around hosting open source projects, issuing badges for meeting [their criteria](https://www.bestpractices.dev/en/criteria/0).
   - **[Digital Identity Attestation](https://www.sigstore.dev)**: an initiative for allowing contributors to sign open source code.
   - **[AllStar](https://openssf.org/blog/2021/08/11/introducing-the-allstar-github-app/)**: A GitHub App for [heuristically testing](https://github.com/ossf/scorecard/blob/main/docs/checks.md#check-documentation) best practices around open source governance.
   - **[CVE Schema](https://ossf.github.io/osv-schema/)** Standard format for reporting of CVEs.
 
-- **[The MITRE ATT&CK](https://attack.mitre.org)** aims to be a knowledge base of all the tactics used in such supply chain attacks. 
+- **[The MITRE ATT&CK](https://attack.mitre.org)** aims to be a knowledge base of all the tactics used in such supply chain attacks.
 
 - **[SLSA](https://slsa.dev/spec/v1.0/threats-overview)**: "Supply chain Levels for Software Artifacts".  This is a framework designed for creating repeatable builds with provenance of their components.
 
@@ -287,15 +324,15 @@ Following [SolarWinds](#example-solar-winds) the US government became concerned 
  - [FACT SHEET](https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/): President Signs Executive Order Charting New Course to Improve the Nation’s Cybersecurity and Protect Federal Government Networks]
 
 ### EU
- 
- - [EU Cybersecurity Strategy (2020)](https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy) aiming to bolster the digital supply chain's resilience and security. 
+
+ - [EU Cybersecurity Strategy (2020)](https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy) aiming to bolster the digital supply chain's resilience and security.
  - [Digital Operational Resilience Act (2020)](https://www.digital-operational-resilience-act.com) ensure that all financial entities can withstand potential ICT threats, thus addressing the risks that ICT (including supply chain vulnerabilities) can pose to financial stability.
  - [EU Cyber Resilience Act (2022)](https://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act) regulation on cybersecurity requirements for products with digital elements.
- 
+
 ### UK
 
  - [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk)
- 
+
 ## Further Reading
 
 - [State of the Software Supply Chain](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf) - SonaType's 2021 Report
@@ -309,9 +346,9 @@ Following [SolarWinds](#example-solar-winds) the US government became concerned 
 - [Protect your open source project from supply chain attacks](https://opensource.googleblog.com/2021/10/protect-your-open-source-project-from-supply-chain-attacks.html) - 2021 blog article adapted from talk at All Things Open 2021, in the form of a Supply Chain Security quiz.
 
  - [CVEs](../../Artifacts/CVE) article from the BoK.
- 
+
  - [SBOMs](../../Artifacts/SBOMs) primer.
- 
+
  - [OpenChain Security Assurance](../../Artifacts/OpenChain-SecurityAssurance) an ISO Standard from the Linux Foundation.
 
 
