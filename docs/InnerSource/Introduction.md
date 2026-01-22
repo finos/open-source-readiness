@@ -36,22 +36,7 @@ ownership issues that can stall innovation.
 
 <BoxOut image="/img/bok/page-types/involved.png" title="Get Involved" className='boxout2'>
 
-### Meetings
-
-<table className="meetingTable">
-	<thead>
-		<tr>
-			<th>Second Tuesday Every Month</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td className="calendar"><a href="/ics/finos-event-7.ics"><img src="/img/bok/page-types/calendar.png" alt="Meeting Download" /><br />Add To Calendar (right click and open in a new tab)</a></td>
-		</tr>
-	</tbody>
-</table>
-
-Meetings are open to anyone who would like to participate. Previous Meeting Minutes and Agendas are available on [GitHub](https://github.com/finos/open-source-readiness/issues?q=is%3Aissue++label%3Ameeting).
+Meetings are open to anyone who would like to participate. Previous Meeting Minutes and Agendas are available on [GitHub](https://github.com/finos/open-source-readiness/issues?q=is%3Aissue++label%3Ameeting). For current meetings, follow the [FINOS Calendar](https://calendar.finos.org).
 
 ### Subscribe to the Mailing List
 
