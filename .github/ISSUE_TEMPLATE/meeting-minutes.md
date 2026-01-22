@@ -46,9 +46,6 @@ YYYYMMDD - time
 - [ ] ...
 
 ### Zoom Details
-- https://zoom.us/j/93808780892
-- Meeting ID: 938 0878 0892
-- Passcode: 358724
+- [Meeting link](https://zoom-lfx.platform.linuxfoundation.org/meeting/99536057059?password=2a772de5-8e26-4f8e-b026-97da76952ad6)
+- [Registration link](https://zoom-lfx.platform.linuxfoundation.org/meeting/99536057059?password=2a772de5-8e26-4f8e-b026-97da76952ad6&invite=true)
 
-### Join by Phone
-- Find your local number: https://zoom.us/u/adl5rhui4P
