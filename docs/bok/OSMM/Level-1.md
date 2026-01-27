@@ -22,6 +22,6 @@ At this level, an organization has ad hoc or informal practices for managing ope
     > [This level] is about using OSS and competences in using OSS. It covers technical ability and experience with OSS. Plus developing some understanding and awareness of OSS.
 
 
-## Level 1 Expected Activities
+## Level 1 Expected Activities ([Cheat Sheet](../Activities/Level-1/Ad-Hoc-Usage))
 
 <BokTagList tag="Level 1 (OSMM)" filter="Activities" />

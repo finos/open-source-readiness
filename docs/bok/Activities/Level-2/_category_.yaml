@@ -1,5 +1,6 @@
-position: 1 
-label: '2. Compliant Usage'
+---
+label: 2. Compliant Usage
 link:
-  type: generated-index
-  title: Compliant Usage
+  id: Compliant-Usage
+  type: doc
+position: 2

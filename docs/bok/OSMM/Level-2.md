@@ -27,6 +27,6 @@ According to the [TODO Group's maturity model](../Training/Evolution-OSPO):
 2. The [TODO Group](https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/LF%20Research/Evolution%20of%20the%20Open%20Source%20Program%20Office%20-%20Report.pdf) refers to this level as "Providing OSS Compliance,
 Inventory, and Developer Education".
 
-## OSMM Level 2 Expected Activities
+## Level 2 Expected Activities ([Cheat Sheet](../Activities/Level-2/Compliant-Usage))
 
 <BokTagList tag="Level 2 (OSMM)" filter="Activities" />
