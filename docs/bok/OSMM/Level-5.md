@@ -31,6 +31,6 @@ The [TODO Group](../Training/Evolution-OSPO) suggests that an OSPO might provide
 
     >  ... the CTO and other technology leaders consult the OSPO and its leadership on which open source technologies to rely on and which decision criteria to use in judging open source projects. Because major open source technology choices tend to generate significant secondary and tertiary costs and affect upstream and downstream technolo- gies as well as hiring plans, the choice of open source projects becomes a major business decision.
 
-## OSMM Level 5 Expected Activities
+## Level 5 Expected Activities ([Cheat Sheet](../Activities/Level-5/Strategic-Leverage))
 
 <BokTagList tag="Level 5 (OSMM)" filter="Activities" />
