@@ -1,5 +1,6 @@
-position: 1 
-label: '3. Contribution'
+---
+label: 3. Contribution
 link:
-  type: generated-index
-  title: Contributing to Open Source
+  id: Contribution
+  type: doc
+position: 3

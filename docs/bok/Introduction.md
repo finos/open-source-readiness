@@ -122,13 +122,29 @@ In November 2023 the OSR SIG team are proud to announce general availability of 
 
 </BoxOut>
 
-<BoxOut title="Contributing" image="/img/bok/page-types/contribution.png" className='boxout1' link="/docs/about" linkText="More on Contributing">
+<BoxOut title="Quick Start Guides" image="/img/bok/page-types/activity.png" className='boxout1'>
 
-Please help contribute to the knowledge base or help improve our resources for open source programs. Most OSR resources are collaboratively produced as open source projects, and we're always on the lookout for ways to enable participants to share knowledge and best practices in a form that's useful to their peers.
+Start with the cheat sheet for your organisation's current maturity level:
 
-If you have a project to propose, <a href="https://github.com/finos/open-source-readiness/issues">open a GitHub issue</a> and share your vision!
+<ImageBullet image="/img/bok/page-types/maturity.png" alt="Level 1">
+<strong><a href="/docs/bok/Activities/Level-1/Ad-Hoc-Usage">Level 1: Ad-Hoc Usage</a></strong> — open source is being used, but without formal governance.
+</ImageBullet>
 
-Alternatively, most pages have an "edit" button where you can propose changes to a page via the <a href="https://github.com/finos/open-source-readiness/pulls">GitHub Pull Request</a> process.
+<ImageBullet image="/img/bok/page-types/maturity.png" alt="Level 2">
+<strong><a href="/docs/bok/Activities/Level-2/Compliant-Usage">Level 2: Compliant Usage</a></strong> — establishing governance, compliance, and an OSPO.
+</ImageBullet>
+
+<ImageBullet image="/img/bok/page-types/maturity.png" alt="Level 3">
+<strong><a href="/docs/bok/Activities/Level-3/Contribution">Level 3: Contribution</a></strong> — enabling staff to contribute to open source projects.
+</ImageBullet>
+
+<ImageBullet image="/img/bok/page-types/maturity.png" alt="Level 4">
+<strong><a href="/docs/bok/Activities/Level-4/Hosting-Projects">Level 4: Hosting Projects</a></strong> — maintaining and contributing projects to foundations.
+</ImageBullet>
+
+<ImageBullet image="/img/bok/page-types/maturity.png" alt="Level 5">
+<strong><a href="/docs/bok/Activities/Level-5/Strategic-Leverage">Level 5: Strategic Leverage</a></strong> — using open source as a strategic tool.
+</ImageBullet>
 
 </BoxOut>
 

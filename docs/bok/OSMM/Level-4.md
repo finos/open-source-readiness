@@ -36,6 +36,6 @@ At this level, an organisation might work closely with an open source foundation
 
     > At Stage 3, organizations initiate and then host or act as primary sponsors of OSS projects. They will dedicate one or more FTEs to a project, and they accept responsibility for nurturing a project community and ensuring its health. They don’t confuse this level of organizational commitment with individual employees who decide to open-source their projects
 
-## OSMM Level 4 Expected Activities
+## Level 4 Expected Activities ([Cheat Sheet](../Activities/Level-4/Hosting-Projects))
 
 <BokTagList tag="Level 4 (OSMM)" filter="Activities" />

@@ -30,6 +30,6 @@ At this level, individual employees may be contributing to the open source _ecos
 
 2. The [TODO Group's maturity model](../Training/Evolution-OSPO) refers to this level as "Evangelizing OSS Use and Ecosystem Participation".
 
-## OSMM Level 3 Expected Activities
+## Level 3 Expected Activities ([Cheat Sheet](../Activities/Level-3/Contribution))
 
 <BokTagList tag="Level 3 (OSMM)" filter="Activities" />
