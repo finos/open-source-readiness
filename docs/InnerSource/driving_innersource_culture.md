@@ -1,3 +1,6 @@
+---
+title: InnerSource Culture
+---
 # Driving InnerSource Culture within your Organizations – FINTECH Edition
 
 
