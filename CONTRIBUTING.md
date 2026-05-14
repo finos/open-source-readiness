@@ -1,6 +1,6 @@
 # Open Source Readiness Contribution and Governance Policies
 
-This document describes the contribution process and governance policies of the FINOS Open Source Readiness project. The project is also governed by the [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/antitrust-policy/), and the FINOS [IP Policy](https://community.finos.org/assets/files/IP-Policy-9b1cd5f6c1d682e073c3c15224fc6d86.pdf), [Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct), [Collaborative Principles](https://community.finos.org/docs/governance/collaborative-principles/), and [Meeting Procedures](https://community.finos.org/docs/governance/meeting-procedures/).
+This document describes the contribution process and governance policies of the LF Energy Open Source Readiness project. The project is also governed by the [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/antitrust-policy/) and the LF Energy [Code of Conduct](https://tac.lfenergy.org/code_of_conduct.html).
 
 ## Contribution Process
 
@@ -11,7 +11,7 @@ Before making a contribution, please take the following steps:
 4. Fork the project repository and prepare your proposed contribution.
 5. Submit a pull request.
 
-NOTE: All contributors must have a contributor license agreement (CLA) on file with FINOS before their pull requests will be merged. Please review the FINOS [contribution requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements) and submit (or have your employer submit) the required CLA before submitting a pull request.
+NOTE: All contributions must be signed off using the [Developer Certificate of Origin (DCO)](https://tac.lfenergy.org/process/contribution_guidelines.html#contribution-sign-off). Please review the LF Energy contribution guidelines and ensure each commit includes a `Signed-off-by` line before submitting a pull request.
 
 ## Governance
 
@@ -20,7 +20,7 @@ NOTE: All contributors must have a contributor license agreement (CLA) on file w
 The project community consists of Contributors and Maintainers:
 * A **Contributor** is anyone who submits a contribution to the project. (Contributions may include code, issues, comments, documentation, media, or any combination of the above.)
 * A **Maintainer** is a Contributor who, by virtue of their contribution history, has been given write access to project repositories and may merge approved contributions.
-* The **Lead Maintainer** is the project's interface with the FINOS team and Board. They are responsible for approving [quarterly project reports](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/93225748/Board+Reporting+and+Program+Health+Checks) and communicating on behalf of the project. The Lead Maintainer is elected by a vote of the Maintainers. 
+* The **Lead Maintainer** is the project's interface with the LF Energy Technical Advisory Council (TAC). They are responsible for representing the project within the [LF Energy project lifecycle process](https://tac.lfenergy.org/process/lifecycle.html) and communicating on behalf of the project. The Lead Maintainer is elected by a vote of the Maintainers.
 
 ### Contribution Rules
 
