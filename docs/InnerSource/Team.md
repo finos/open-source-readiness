@@ -7,7 +7,7 @@ sidebar_position: 1
 | :------------- | :------------------ | :----------------------- |
 | Brittany Istenes | Fannie Mae        | SIG Co-Lead              |
 | Chamindra de Silva  | Citi           | SIG Co-Lead              |
-| Pooi Cheong   | Natwest           .  | SIG Co-Lead              |
+| Pooi Ling Cheong  | NatWest Group    | SIG Co-Lead              |
 | Rob Moffat    | FINOS  | SIG Secretary            |
 | Peter Smulovics   | Morgan Stanley      | SIG Leadership Committee |
 | Miguel Captiao  | Deutsche bank            | SIG Leadership Committee |
