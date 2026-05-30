@@ -16,6 +16,7 @@ The list includes both free resources, and those which you have to pay to use -
 ## Useful Reading
 
 - [An introduction to InnerSource (GitHub)](https://resources.github.com/whitepapers/introduction-to-innersource/)
+- [InnerSource Value Metrics Whitepaper](https://www.finos.org/innersource-value-metrics-white-paper) - find out how to measure the value of innersource
 - [What is InnerSource (GitLab)](https://about.gitlab.com/topics/version-control/what-is-innersource/)
 - [Getting Started with InnerSource](https://innersourcecommons.org/documents/books/GettingStartedWithInnerSource.pdf)
   by Andy Oram
