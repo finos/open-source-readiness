@@ -12,6 +12,8 @@ This file lists the maintainers of this repository.
 | @eminty69 | Elspeth Minty | *please add organization* | *please add email* |
 | @mimiflynn | Mimi Flynn | @morganstanley  | *please add email* |
 | @psmulovics | Peter Smulovics | Morgan Stanley | *please add email* |
+| @pcheong-lbg | Pooi Ling Cheong | NatWat | Pooiling.Cheong@natwest.com |
+| @chamindra | Chamindra Dasilva | Citi | chamindra.desilva@citi.com |
 
 For information about maintainer responsibilities and resources, see the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
 
