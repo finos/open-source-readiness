@@ -36,7 +36,8 @@ ownership issues that can stall innovation.
 
 <BoxOut image="/img/bok/page-types/involved.png" title="Get Involved" className='boxout2'>
 
-Meetings are open to anyone who would like to participate. Previous Meeting Minutes and Agendas are available on [GitHub](https://github.com/finos/open-source-readiness/issues?q=is%3Aissue++label%3Ameeting). For current meetings, follow the [FINOS Calendar](https://calendar.finos.org).
+Meetings are open to anyone who would like to participate. Previous Meeting Minutes and Agendas are available on [GitHub](https://github.com/finos/InnerSource/issues?q=is%3Aissue++label%3Ameeting)
+    . For current meetings, follow the [FINOS Calendar](https://calendar.finos.org).
 
 ### Subscribe to the Mailing List
 
