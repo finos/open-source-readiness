@@ -43,8 +43,7 @@ Provide teams with the assets, standards, and guidance needed to create an Inner
 Typical activities include:
 - Configuring repository visibility and access controls
 - Providing documentation templates (for example, README and CONTRIBUTING guides)
-- Guidance on making project discoverable
-- Establishing project metadata and InnerSource classifications
+- Guidance on making project discoverable (for example, registering the project on the organisation's software catalogue using agreed InenrSource tags)
 
 The goal is to make it straightforward for teams to set up projects consistently while meeting organisational expectations.
 
