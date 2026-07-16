@@ -51,7 +51,8 @@ The goal is to make it straightforward for teams to set up projects consistently
 **3. Define Ownership and Governance**
 
 Successful InnerSource projects have clear ownership and decision-making structures.
-The blueprint should guide teams to establish an ownership model that defines how the project is maintained, how decisions are made, and who is responsible for reviewing and approving contributions. Depending on the maturity and objectives of the project, [different ownership models](https://patterns.innersourcecommons.org/p/governance-levels#known-instances) may be appropriate.
+
+The blueprint should guide teams to establish an ownership model that defines how the project is maintained, how decisions are made, and who is responsible for reviewing and approving contributions. Depending on the maturity and objectives of the project, [different ownership models](https://patterns.innersourcecommons.org/p/governance-levels#known-instances) may be appropriate. The chosen ownership model will often influence the project's governance approach, contribution workflow, and contributor experience.
 
 **4. Establish the Contribution Operating Model**
 
