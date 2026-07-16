@@ -24,7 +24,7 @@ Drawing on [established InnerSource practices](https://patterns.innersourcecommo
 - **Discoverability:** An InnerSource project cannot attract contributors if people cannot find it. Projects should therefore be published on a platform that is familiar and accessible to the engineering community, such as an engineering portal, software catalogue, or internal developer platform. Projects should also be clearly identified as InnerSource through agreed metadata, tags, or classifications.
 
 ## Blueprint Structure
-While implementation details will vary between organisations, a typical InnerSource Blueprint includes the following stages.
+The following six stages guide teams from initial alignment through to a formal InnerSource launch. While implementation details will vary between organisations—particularly where tooling environments are constrained or platform choices are governed by organisational policy—the stages provide a consistent framework that can be adapted accordingly.
 
 **1. Align Stakeholders and Objectives**
 
@@ -52,7 +52,7 @@ The goal is to make it straightforward for teams to set up projects consistently
 
 Successful InnerSource projects have clear ownership and decision-making structures.
 
-The blueprint should guide teams to establish an ownership model that defines how the project is maintained, how decisions are made, and who is responsible for reviewing and approving contributions. Depending on the maturity and objectives of the project, [different ownership models](https://patterns.innersourcecommons.org/p/governance-levels#known-instances) may be appropriate. The chosen ownership model will often influence the project's governance approach, contribution workflow, and contributor experience.
+The blueprint should guide teams to establish an ownership model that defines how the project is maintained, how decisions are made, and who is responsible for reviewing and approving contributions. Depending on the maturity and objectives of the project, [different ownership models](https://patterns.innersourcecommons.org/p/governance-levels#known-instances) may be appropriate. For example, a Trusted Committer model where a small group of experienced contributors hold merge rights and guide the project's direction, or a more distributed model as the contributor community matures. The chosen ownership model will often influence the project's governance approach, contribution workflow, and contributor experience.
 
 **4. Establish the Contribution Operating Model**
 
@@ -64,7 +64,7 @@ The blueprint should encourage teams to define:
 - Review service level objectives (SLOs)
 - How contribution decisions are communicated
 
-A predictable contribution experience helps build trust and encourages participation.
+Review SLOs should be published alongside the CONTRIBUTING guide—not just defined internally. Transparency about response times is one of the most effective ways to build contributor trust and encourage sustained participation.
 
 **5. Create Communication Channels**
 
@@ -73,7 +73,7 @@ InnerSource is as much about community as it is about code. Projects should esta
 - Chat or collaboration platforms
 - Community meetings
 
-Contributors should be able to easily determine where to ask questions, provide feedback, and engage with core team.
+Contributors should be able to easily determine where to ask questions, provide feedback, and engage with the core team.
 
 **6. Validate Readiness and Launch**
 
