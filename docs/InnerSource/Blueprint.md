@@ -24,7 +24,7 @@ An InnerSource project should clearly communicate:
 - **Communication and Support:** Potential contributors should know who maintains the project and how to engage with the community. Communication information may be included within the README or maintained as a separate document. The key requirement is that it is clearly visible and easy for contributors to find.
 - **Discoverability:** An InnerSource project cannot attract contributors if people cannot find it. Projects should therefore be published on a platform that is familiar and accessible to the engineering community, such as an engineering portal, software catalogue, or internal developer platform. Projects should also be clearly identified as InnerSource through agreed metadata, tags, or classifications to improve searchability and visibility.
 
-- ## Blueprint Structure
+## Blueprint Structure
 While implementation details will vary between organisations, a typical InnerSource Blueprint includes the following stages.
 
 **1. Align Stakeholders and Objectives**
@@ -35,7 +35,7 @@ Key considerations include:
 - What outcomes are expected?
 - Who are the target users and contributors?
 
-For organisations new to InnerSource, this stage may include engagement with an InnerSource Program Office, platform team, or community of practice to assess readiness and identify gaps.
+For organisations new to InnerSource, this stage may include engagement with an InnerSource or Open Source Program Office, or community of practice to assess readiness and identify gaps.
 
 **2. Establish Project Foundation**
 
