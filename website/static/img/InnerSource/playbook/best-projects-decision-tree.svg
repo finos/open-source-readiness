@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 1300" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <style>
+    .q { fill:#eef2ff; stroke:#4338ca; stroke-width:2; }
+    .prop { fill:#f3f4f6; stroke:#6b7280; stroke-width:2; }
+    .inner { fill:#dbeafe; stroke:#2563eb; stroke-width:2; }
+    .open { fill:#dcfce7; stroke:#16a34a; stroke-width:2; }
+    .qtext { fill:#312e81; font-weight:600; font-size:15px; }
+    .ltext { fill:#111827; font-weight:600; font-size:15px; }
+    .edge { stroke:#9ca3af; stroke-width:2; fill:none; marker-end:url(#arrow); }
+    .yes { fill:#15803d; font-weight:700; font-size:13px; }
+    .no  { fill:#b91c1c; font-weight:700; font-size:13px; }
+  </style>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+
+  <!-- ===== Edges (drawn first, so boxes sit on top) ===== -->
+  <!-- Q1 -> Q2 (Yes) -->
+  <path class="edge" d="M490,90 H760"/>
+  <text class="yes" x="600" y="80" text-anchor="middle">Yes</text>
+  <!-- Q1 -> Q3 (No) -->
+  <path class="edge" d="M320,140 V340"/>
+  <text class="no" x="300" y="245" text-anchor="middle">No</text>
+
+  <!-- Q2 -> leaf2a InnerSource (Yes) -->
+  <path class="edge" d="M810,140 L750,220"/>
+  <text class="yes" x="760" y="185" text-anchor="middle">Yes</text>
+  <!-- Q2 -> leaf2b Proprietary (No) -->
+  <path class="edge" d="M1010,140 L1030,220"/>
+  <text class="no" x="1030" y="185" text-anchor="middle">No</text>
+
+  <!-- Q3 -> leaf3 (Yes) -->
+  <path class="edge" d="M490,390 H650"/>
+  <text class="yes" x="570" y="380" text-anchor="middle">Yes</text>
+  <!-- Q3 -> Q4 (No) -->
+  <path class="edge" d="M320,440 V520"/>
+  <text class="no" x="300" y="485" text-anchor="middle">No</text>
+
+  <!-- Q4 -> leaf4 (Yes) -->
+  <path class="edge" d="M490,570 H650"/>
+  <text class="yes" x="570" y="560" text-anchor="middle">Yes</text>
+  <!-- Q4 -> Q5 (No) -->
+  <path class="edge" d="M320,620 V700"/>
+  <text class="no" x="300" y="665" text-anchor="middle">No</text>
+
+  <!-- Q5 -> leaf5 (Yes) -->
+  <path class="edge" d="M490,755 H650"/>
+  <text class="yes" x="570" y="745" text-anchor="middle">Yes</text>
+  <!-- Q5 -> Q6 (No) -->
+  <path class="edge" d="M320,810 V890"/>
+  <text class="no" x="300" y="855" text-anchor="middle">No</text>
+
+  <!-- Q6 -> leaf6a Open Source (Yes) -->
+  <path class="edge" d="M490,945 H650"/>
+  <text class="yes" x="570" y="935" text-anchor="middle">Yes</text>
+  <!-- Q6 -> leaf6b InnerSource for now (No) -->
+  <path class="edge" d="M320,1000 V1080"/>
+  <text class="no" x="300" y="1045" text-anchor="middle">No</text>
+
+  <!-- ===== Decision nodes ===== -->
+  <!-- Q1 -->
+  <rect class="q" x="150" y="40" width="340" height="100" rx="12"/>
+  <text class="qtext" x="320" y="80" text-anchor="middle">Q1. Must the code stay</text>
+  <text class="qtext" x="320" y="100" text-anchor="middle">confidential? (regulatory,</text>
+  <text class="qtext" x="320" y="120" text-anchor="middle">competitive, security, data)</text>
+
+  <!-- Q2 -->
+  <rect class="q" x="760" y="40" width="300" height="100" rx="12"/>
+  <text class="qtext" x="910" y="80" text-anchor="middle">Q2. Reuse potential</text>
+  <text class="qtext" x="910" y="100" text-anchor="middle">beyond the team that</text>
+  <text class="qtext" x="910" y="120" text-anchor="middle">built it?</text>
+
+  <!-- Q3 -->
+  <rect class="q" x="150" y="340" width="340" height="100" rx="12"/>
+  <text class="qtext" x="320" y="380" text-anchor="middle">Q3. Competitive</text>
+  <text class="qtext" x="320" y="400" text-anchor="middle">differentiator or</text>
+  <text class="qtext" x="320" y="420" text-anchor="middle">strategic IP?</text>
+
+  <!-- Q4 -->
+  <rect class="q" x="150" y="520" width="340" height="100" rx="12"/>
+  <text class="qtext" x="320" y="560" text-anchor="middle">Q4. Only useful against</text>
+  <text class="qtext" x="320" y="580" text-anchor="middle">internal-only systems /</text>
+  <text class="qtext" x="320" y="600" text-anchor="middle">connectors / data?</text>
+
+  <!-- Q5 -->
+  <rect class="q" x="150" y="700" width="340" height="110" rx="12"/>
+  <text class="qtext" x="320" y="738" text-anchor="middle">Q5. Sets a brand/UX/data</text>
+  <text class="qtext" x="320" y="758" text-anchor="middle">standard needing</text>
+  <text class="qtext" x="320" y="778" text-anchor="middle">central control?</text>
+
+  <!-- Q6 -->
+  <rect class="q" x="150" y="890" width="340" height="110" rx="12"/>
+  <text class="qtext" x="320" y="928" text-anchor="middle">Q6. Commodity capability,</text>
+  <text class="qtext" x="320" y="948" text-anchor="middle">and capacity to maintain</text>
+  <text class="qtext" x="320" y="968" text-anchor="middle">it publicly?</text>
+
+  <!-- ===== Leaves ===== -->
+  <!-- leaf2a: InnerSource -->
+  <rect class="inner" x="620" y="220" width="240" height="80" rx="12"/>
+  <text class="ltext" x="740" y="255" text-anchor="middle">InnerSource</text>
+  <text class="ltext" x="740" y="275" text-anchor="middle" font-weight="400" font-size="13">confidential + multi-team reuse</text>
+
+  <!-- leaf2b: Proprietary -->
+  <rect class="prop" x="900" y="220" width="240" height="80" rx="12"/>
+  <text class="ltext" x="1020" y="255" text-anchor="middle">Proprietary</text>
+  <text class="ltext" x="1020" y="275" text-anchor="middle" font-weight="400" font-size="13">confidential, single-team only</text>
+
+  <!-- leaf3: InnerSource or Proprietary -->
+  <rect class="inner" x="650" y="340" width="340" height="100" rx="12"/>
+  <text class="ltext" x="820" y="380" text-anchor="middle">InnerSource or Proprietary</text>
+  <text class="ltext" x="820" y="400" text-anchor="middle" font-weight="400" font-size="13">don't give away the differentiator,</text>
+  <text class="ltext" x="820" y="418" text-anchor="middle" font-weight="400" font-size="13">even if legally allowed to publish</text>
+
+  <!-- leaf4: InnerSource -->
+  <rect class="inner" x="650" y="520" width="260" height="100" rx="12"/>
+  <text class="ltext" x="780" y="562" text-anchor="middle">InnerSource</text>
+  <text class="ltext" x="780" y="582" text-anchor="middle" font-weight="400" font-size="13">no realistic external audience</text>
+  <text class="ltext" x="780" y="600" text-anchor="middle" font-weight="400" font-size="13">for internal-only integrations</text>
+
+  <!-- leaf5: InnerSource strong governance -->
+  <rect class="inner" x="650" y="700" width="400" height="110" rx="12"/>
+  <text class="ltext" x="850" y="738" text-anchor="middle">InnerSource</text>
+  <text class="ltext" x="850" y="758" text-anchor="middle" font-weight="400" font-size="13">with strong central governance</text>
+  <text class="ltext" x="850" y="776" text-anchor="middle" font-weight="400" font-size="13">(external PRs could dilute the standard)</text>
+
+  <!-- leaf6a: Open Source -->
+  <rect class="open" x="650" y="890" width="260" height="110" rx="12"/>
+  <text class="ltext" x="780" y="932" text-anchor="middle">Open Source</text>
+  <text class="ltext" x="780" y="952" text-anchor="middle" font-weight="400" font-size="13">check FINOS/industry initiatives</text>
+  <text class="ltext" x="780" y="970" text-anchor="middle" font-weight="400" font-size="13">before starting a new project</text>
+
+  <!-- leaf6b: InnerSource for now -->
+  <rect class="inner" x="150" y="1080" width="340" height="100" rx="12"/>
+  <text class="ltext" x="320" y="1122" text-anchor="middle">InnerSource (for now)</text>
+  <text class="ltext" x="320" y="1142" text-anchor="middle" font-weight="400" font-size="13">revisit once capacity exists or</text>
+  <text class="ltext" x="320" y="1160" text-anchor="middle" font-weight="400" font-size="13">the industry consolidates on a home</text>
+
+  <!-- ===== Legend ===== -->
+  <rect x="150" y="1230" width="20" height="20" class="q"/>
+  <text x="178" y="1246" font-size="14" fill="#111827">Decision point</text>
+
+  <rect x="330" y="1230" width="20" height="20" class="prop"/>
+  <text x="358" y="1246" font-size="14" fill="#111827">Proprietary</text>
+
+  <rect x="500" y="1230" width="20" height="20" class="inner"/>
+  <text x="528" y="1246" font-size="14" fill="#111827">InnerSource</text>
+
+  <rect x="680" y="1230" width="20" height="20" class="open"/>
+  <text x="708" y="1246" font-size="14" fill="#111827">Open Source</text>
+</svg>
