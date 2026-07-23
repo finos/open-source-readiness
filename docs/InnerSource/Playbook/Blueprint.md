@@ -1,7 +1,7 @@
 ---
 title: InnerSource Blueprint
 sidebar_label: InnerSource Blueprint
-sidebar_position: 2.5
+sidebar_position: 6
 authors:
   - name: "Pooi Ling Cheong"
 ---
