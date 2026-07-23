@@ -1,12 +1,11 @@
 ---
-title: Identifying the Best Projects for InnerSource
+title: InnerSource Blueprint
 sidebar_label: InnerSource Blueprint
 sidebar_position: 2.5
 authors:
   - name: "Pooi Ling Cheong"
 ---
 
-# InnerSource Blueprint
 
 A common blocker to InnerSource adoption is the gap between understanding the concept and knowing how to implement it. While teams may support the idea of open collaboration, many struggle to answer practical questions such as:
 - What does an InnerSource-ready project look like?
