@@ -69,6 +69,8 @@ The two examples referenced in the [decision tree](#decision-tree) above are pat
 | Naming or data-standard registry used to keep systems interoperable internally | Needs consistent, centrally governed adoption; external contributions could fragment the standard | Q5: sets a data standard needing central control |
 | Shared compliance/audit logging library tied to internal regulatory requirements | Must stay confidential for regulatory reasons, but multiple teams have the same obligation | Q1 → Q2: confidential, with reuse potential beyond one team |
 | Pricing/risk calculation library wired to internal, proprietary market data feeds | The calculation approach is reusable across desks, but the data dependencies keep it confidential | Q1 → Q2: confidential, with reuse potential beyond one team |
+| Standardised DevOps pipeline template used across engineering teams to implement CI/CD, testing, security scanning, and deployment controls | Used by many teams and benefits from contributions across the organisation, but typically embeds internal engineering practices, platform integrations, security controls, and compliance requirements that are specific to the organisation | Q5: sets a data standard needing central control |
+| Enterprise API standards and tooling | Encourages teams to collaborate on shared API standards, templates, governance, and supporting tools. Contributions improve consistency and reuse across the organisation while maintaining alignment with internal architecture and compliance requirements | Q5: sets a data standard needing central control |
 
 ## Other factors worth weighing
 
