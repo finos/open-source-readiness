@@ -74,14 +74,15 @@ InnerSource is as much about community as it is about code. Projects should esta
 
 Contributors should be able to easily determine where to ask questions, provide feedback, and engage with the core team.
 
-**6. Validate Readiness and Launch**
+**6. Launch and Promote the Project (Recommended)**
 
-The final stage is to formally recognise the project as InnerSource-ready and introduce it to the wider organisation.
+Once the project meets the organisation's InnerSource requirements, teams should consider formally introducing it to the wider engineering community.
 
 Typical launch activities may include:
-- Verifying that minimum requirements have been met
-- Confirming documentation and governance are in place
+- Reviewing whether the minimum InnerSource requirements have been met
+- Confirming documentation, ownership, and governance arrangements are in place
 - Announcing the project through engineering communication channels
+- Highlighting contribution opportunities and ways to get involved
 
 A formal launch creates visibility, signals organisational support, and helps establish momentum for community participation.
 
