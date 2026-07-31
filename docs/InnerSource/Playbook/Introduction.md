@@ -1,13 +1,10 @@
 ---
-title: InnerSource Playbook for Financial Services
+title:  Welcome to the FINOS InnerSource Playbook
 sidebar_label: Introduction
 sidebar_position: 0
 tags: 
   - Introduction
 ---
-
-# Welcome to the FINOS InnerSource Playbook
-
 This playbook is a community-driven resource created by members of the FINOS InnerSource Special Interest Group (SIG). It captures experiences, lessons learned, and practical insights from financial services organisations that are adopting and evolving InnerSource practices.
 
 The playbook builds on the foundations, patterns, and knowledge shared by the wider InnerSource community, including [InnerSource Commons](https://innersourcecommons.org/). Our focus is to complement these resources with perspectives and practical considerations specific to financial services organisations.
