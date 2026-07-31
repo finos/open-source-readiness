@@ -5,7 +5,6 @@ sidebar_position: 6
 authors:
   - name: "Pooi Ling Cheong"
 ---
-
 A common blocker to InnerSource adoption is the gap between understanding the concept and knowing how to implement it. While teams may support the idea of open collaboration, many struggle to answer practical questions such as:
 - What does an InnerSource-ready project look like?
 - What documentation is required?
