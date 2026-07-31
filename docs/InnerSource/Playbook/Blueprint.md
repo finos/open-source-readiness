@@ -6,7 +6,6 @@ authors:
   - name: "Pooi Ling Cheong"
 ---
 
-
 A common blocker to InnerSource adoption is the gap between understanding the concept and knowing how to implement it. While teams may support the idea of open collaboration, many struggle to answer practical questions such as:
 - What does an InnerSource-ready project look like?
 - What documentation is required?
@@ -14,24 +13,21 @@ A common blocker to InnerSource adoption is the gap between understanding the co
 - Who is responsible for governance and decision-making?
 - How can contributors discover and engage with the project?
 
-Without clear guidance, teams are often left to define their own approaches. This can lead to inconsistent practices, increased onboarding effort, and a fragmented contributor experience—ultimately slowing adoption.
+Without a clear and consistent approach, teams often establish their own ways of working. This can lead to fragmented contributor experiences, reduced discoverability, inconsistent governance, and lower levels of participation across the organisation.
 
-The InnerSource Blueprint is a practical solution to this adoption challenge.
+The **InnerSource Blueprint** provides a practical framework to help teams establish InnerSource projects in a way that is consistent, discoverable, and easy to consume and contribute to. Each element of the blueprint is designed to address common adoption and sustainability challenges.
 
-Rather than expecting every team to design its own InnerSource model, the blueprint provides a predefined path that helps teams establish projects in a way that is consistent, discoverable, and easy to contribute to.
-
-## Minimum Requirements for an InnerSource Project
-To reduce barriers to contribution and create a consistent experience across projects, every InnerSource project should meet a minimum set of requirements before it is promoted to the wider engineering community.
-
-Drawing on [established InnerSource practices](https://patterns.innersourcecommons.org/p/base-documentation), every project should make the following information readily available.
-
-- **Project Purpose:** Contributors should be able to understand what the project does, who it is intended for, and why it exists. This information is typically provided in a README
-- **Contribution Process:** Contributors should have clear guidance on how they can participate in the project such as how to submit contributions. This is typically documented in a CONTRIBUTING guide
-- **Communication and Support:** Users and contributors should know who maintains the project and how to engage with the community. This information may be included within the README or maintained separately. The key requirement is that it is visible and easy to find
-- **Discoverability:** An InnerSource project cannot attract contributors if people cannot find it. Projects should therefore be published on a platform that is familiar and accessible to the engineering community, such as an engineering portal, software catalogue, or internal developer platform. Projects should also be clearly identified as InnerSource through agreed metadata, tags, or classifications.
+| Blueprint Element | Why It Matters | Risk if Missing |
+|-------------------|----------------|-----------------|
+| Stakeholder Alignment | Aligns expectations and secures organisational support | Conflicting objectives, lack of sponsorship, resistance to adoption |
+| Project Foundations | Makes projects discoverable, understandable, and accessible | Poor onboarding experience, low discoverability, inconsistent project setup |
+| Ownership & Governance | Creates clear accountability and decision-making | Unclear ownership, delayed decisions, inconsistent project direction |
+| Contribution Operating Model | Enables a predictable contributor experience | Contributor frustration, inconsistent reviews, reduced participation |
+| Communication Channels | Supports collaboration and community building | Knowledge silos, limited engagement, slower community growth |
+| Launch & Promotion | Creates visibility and encourages adoption | Low awareness, limited reuse, reduced return on investment |
 
 ## Blueprint Structure
-The following six stages guide teams from initial alignment through to a formal InnerSource launch. While implementation details will vary between organisations—particularly where tooling environments are constrained or platform choices are governed by organisational policy—the stages provide a consistent framework that can be adapted accordingly.
+The InnerSource Blueprint consists of six stages. Together, they provide a practical starting point for establishing and growing InnerSource projects while allowing organisations to adapt the implementation to their own context.
 
 **1. Align Stakeholders and Objectives**
 
@@ -49,7 +45,7 @@ Provide teams with the assets, standards, and guidance needed to create an Inner
 
 Typical activities include:
 - Configuring repository visibility and access controls, protected branches, and merge controls in line with the organisation's platform governance model
-- Providing documentation templates (for example, README and CONTRIBUTING guides)
+- Establishing [core project documentation](https://patterns.innersourcecommons.org/p/base-documentation) and provide templates where appropriate
 - Guidance on making project discoverable (for example, registering the project on the organisation's software catalogue using agreed InnerSource tags)
 
 The goal is to make it straightforward for teams to set up projects consistently while meeting organisational expectations.
@@ -79,7 +75,7 @@ InnerSource is as much about community as it is about code. Projects should esta
 - Chat or collaboration platforms
 - Community meetings
 
-Contributors should be able to easily determine where to ask questions, provide feedback, and engage with the core team.
+Contributors should be able to easily determine where to ask questions, provide feedback, and engage with the core team. Projects should also consider documenting expected community behaviours and ways of working through a Code of Conduct.
 
 **6. Launch and Promote the Project (Recommended)**
 
@@ -92,5 +88,18 @@ Typical launch activities may include:
 - Highlighting contribution opportunities and ways to get involved
 
 A formal launch creates visibility, signals organisational support, and helps establish momentum for community participation.
+
+
+
+TO DELETE:
+## Minimum Requirements for an InnerSource Project
+To reduce barriers to contribution and create a consistent experience across projects, every InnerSource project should meet a minimum set of requirements before it is promoted to the wider engineering community.
+
+Drawing on [established InnerSource practices](https://patterns.innersourcecommons.org/p/base-documentation), every project should make the following information readily available.
+
+- **Project Purpose:** Contributors should be able to understand what the project does, who it is intended for, and why it exists. This information is typically provided in a README
+- **Contribution Process:** Contributors should have clear guidance on how they can participate in the project such as how to submit contributions. This is typically documented in a CONTRIBUTING guide
+- **Communication and Support:** Users and contributors should know who maintains the project and how to engage with the community. This information may be included within the README or maintained separately. The key requirement is that it is visible and easy to find
+- **Discoverability:** An InnerSource project cannot attract contributors if people cannot find it. Projects should therefore be published on a platform that is familiar and accessible to the engineering community, such as an engineering portal, software catalogue, or internal developer platform. Projects should also be clearly identified as InnerSource through agreed metadata, tags, or classifications.
 
 
