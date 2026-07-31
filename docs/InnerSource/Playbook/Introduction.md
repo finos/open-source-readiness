@@ -14,7 +14,7 @@ The playbook builds on the foundations, patterns, and knowledge shared by the wi
 
 The content reflects the collective knowledge of practitioners from across the industry, shaped through real-world implementation, collaboration, and ongoing discussions within the SIG. While organisations may differ in size, culture, technology landscape, and operating model, many share similar challenges and opportunities when building more collaborative and reusable ways of working.
 
-The purpose of this playbook is to help the financial services community learn from one another and accelerate progress together. By sharing experiences and co-creating guidance, practices, and frameworks, we aim to reduce duplication of effort and make it easier for organisations to benefit from the lessons already learned by others.
+By sharing experiences and co-creating guidance, practices, and frameworks, we aim to reduce duplication of effort and make it easier for organisations to benefit from the lessons already learned by others.
 
 Whether you are exploring new ideas, looking for proven approaches, or contributing back your own experiences, we hope this playbook serves as a practical resource and a catalyst for collaboration across the industry.
 
