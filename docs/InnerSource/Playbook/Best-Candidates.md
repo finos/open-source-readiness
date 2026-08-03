@@ -1,6 +1,6 @@
 ---
-title: Identifying the Best Projects for InnerSource
-sidebar_label: Best Projects
+title: Identifying InnerSource Project Candidates
+sidebar_label: Best Candidates
 sidebar_position: 3
 authors:
   - name: "Chamindra de Silva"
