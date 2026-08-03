@@ -12,5 +12,5 @@ Whether you are exploring InnerSource for the first time, launching an initial p
 ### If You're New to InnerSource
 
 Start with:
-- [Identifying the Best Projects for InnerSource]() to understand what makes a good InnerSource candidate and how to choose an effective pilot
-- [InnerSource Blueprint]() to learn how to establish an InnerSource-ready project, including documentation, ownership, governance, contribution workflows, discoverability, and community engagement
+- [Identifying the Best Projects for InnerSource](./Best-Projects.md) to understand what makes a good InnerSource candidate and how to choose an effective pilot
+- [InnerSource Blueprint](./Blueprint.md) to learn how to establish an InnerSource-ready project, including documentation, ownership, governance, contribution workflows, discoverability, and community engagement
