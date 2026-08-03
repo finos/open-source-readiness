@@ -17,6 +17,8 @@
     </marker>
   </defs>
 
+  <text class="qtext" x="660" y="24" text-anchor="middle" font-size="20">Decision guide: where should this project live?</text>
+
   <!-- ===== Edges (drawn first, so boxes sit on top) ===== -->
   <!-- Q1 -> Q2 (Yes) -->
   <path class="edge" d="M490,90 H760"/>
@@ -63,80 +65,80 @@
   <!-- ===== Decision nodes ===== -->
   <!-- Q1 -->
   <rect class="q" x="150" y="40" width="340" height="100" rx="12"/>
-  <text class="qtext" x="320" y="80" text-anchor="middle">Q1. Must the code stay</text>
+  <text class="qtext" x="320" y="80" text-anchor="middle">Q1. Must it stay</text>
   <text class="qtext" x="320" y="100" text-anchor="middle">confidential? (regulatory,</text>
-  <text class="qtext" x="320" y="120" text-anchor="middle">competitive, security, data)</text>
+  <text class="qtext" x="320" y="120" text-anchor="middle">security, competitive, data)</text>
 
   <!-- Q2 -->
   <rect class="q" x="760" y="40" width="300" height="100" rx="12"/>
-  <text class="qtext" x="910" y="80" text-anchor="middle">Q2. Reuse potential</text>
-  <text class="qtext" x="910" y="100" text-anchor="middle">beyond the team that</text>
-  <text class="qtext" x="910" y="120" text-anchor="middle">built it?</text>
+  <text class="qtext" x="910" y="80" text-anchor="middle">Q2. Is there reuse</text>
+  <text class="qtext" x="910" y="100" text-anchor="middle">value across teams?</text>
+  <text class="qtext" x="910" y="120" text-anchor="middle">(not just one team)</text>
 
   <!-- Q3 -->
   <rect class="q" x="150" y="340" width="340" height="100" rx="12"/>
-  <text class="qtext" x="320" y="380" text-anchor="middle">Q3. Competitive</text>
+  <text class="qtext" x="320" y="380" text-anchor="middle">Q3. Is it a strategic</text>
   <text class="qtext" x="320" y="400" text-anchor="middle">differentiator or</text>
-  <text class="qtext" x="320" y="420" text-anchor="middle">strategic IP?</text>
+  <text class="qtext" x="320" y="420" text-anchor="middle">important IP?</text>
 
   <!-- Q4 -->
   <rect class="q" x="150" y="520" width="340" height="100" rx="12"/>
-  <text class="qtext" x="320" y="560" text-anchor="middle">Q4. Only useful against</text>
-  <text class="qtext" x="320" y="580" text-anchor="middle">internal-only systems /</text>
-  <text class="qtext" x="320" y="600" text-anchor="middle">connectors / data?</text>
+  <text class="qtext" x="320" y="560" text-anchor="middle">Q4. Is it only useful</text>
+  <text class="qtext" x="320" y="580" text-anchor="middle">with internal systems,</text>
+  <text class="qtext" x="320" y="600" text-anchor="middle">connectors, or data?</text>
 
   <!-- Q5 -->
   <rect class="q" x="150" y="700" width="340" height="110" rx="12"/>
-  <text class="qtext" x="320" y="738" text-anchor="middle">Q5. Sets a brand/UX/data</text>
-  <text class="qtext" x="320" y="758" text-anchor="middle">standard needing</text>
-  <text class="qtext" x="320" y="778" text-anchor="middle">central control?</text>
+  <text class="qtext" x="320" y="738" text-anchor="middle">Q5. Would external</text>
+  <text class="qtext" x="320" y="758" text-anchor="middle">contributions dilute</text>
+  <text class="qtext" x="320" y="778" text-anchor="middle">a central standard?</text>
 
   <!-- Q6 -->
   <rect class="q" x="150" y="890" width="340" height="110" rx="12"/>
-  <text class="qtext" x="320" y="928" text-anchor="middle">Q6. Commodity capability,</text>
-  <text class="qtext" x="320" y="948" text-anchor="middle">and capacity to maintain</text>
-  <text class="qtext" x="320" y="968" text-anchor="middle">it publicly?</text>
+  <text class="qtext" x="320" y="928" text-anchor="middle">Q6. Is it a commodity</text>
+  <text class="qtext" x="320" y="948" text-anchor="middle">and can you support it</text>
+  <text class="qtext" x="320" y="968" text-anchor="middle">publicly?</text>
 
   <!-- ===== Leaves ===== -->
   <!-- leaf2a: InnerSource -->
   <rect class="inner" x="620" y="220" width="240" height="80" rx="12"/>
   <text class="ltext" x="740" y="255" text-anchor="middle">InnerSource</text>
-  <text class="ltext" x="740" y="275" text-anchor="middle" font-weight="400" font-size="13">confidential + multi-team reuse</text>
+  <text class="ltext" x="740" y="275" text-anchor="middle" font-weight="400" font-size="13">confidential and reused across teams</text>
 
   <!-- leaf2b: Proprietary -->
   <rect class="prop" x="900" y="220" width="240" height="80" rx="12"/>
   <text class="ltext" x="1020" y="255" text-anchor="middle">Proprietary</text>
-  <text class="ltext" x="1020" y="275" text-anchor="middle" font-weight="400" font-size="13">confidential, single-team only</text>
+  <text class="ltext" x="1020" y="275" text-anchor="middle" font-weight="400" font-size="13">confidential and single-team use</text>
 
   <!-- leaf3: InnerSource or Proprietary -->
   <rect class="inner" x="650" y="340" width="340" height="100" rx="12"/>
   <text class="ltext" x="820" y="380" text-anchor="middle">InnerSource or Proprietary</text>
-  <text class="ltext" x="820" y="400" text-anchor="middle" font-weight="400" font-size="13">don't give away the differentiator,</text>
-  <text class="ltext" x="820" y="418" text-anchor="middle" font-weight="400" font-size="13">even if legally allowed to publish</text>
+  <text class="ltext" x="820" y="400" text-anchor="middle" font-weight="400" font-size="13">protect the differentiator</text>
+  <text class="ltext" x="820" y="418" text-anchor="middle" font-weight="400" font-size="13">even if public release is allowed</text>
 
   <!-- leaf4: InnerSource -->
   <rect class="inner" x="650" y="520" width="260" height="100" rx="12"/>
   <text class="ltext" x="780" y="562" text-anchor="middle">InnerSource</text>
-  <text class="ltext" x="780" y="582" text-anchor="middle" font-weight="400" font-size="13">no realistic external audience</text>
-  <text class="ltext" x="780" y="600" text-anchor="middle" font-weight="400" font-size="13">for internal-only integrations</text>
+  <text class="ltext" x="780" y="582" text-anchor="middle" font-weight="400" font-size="13">best fit for internal-only</text>
+  <text class="ltext" x="780" y="600" text-anchor="middle" font-weight="400" font-size="13">systems and integrations</text>
 
   <!-- leaf5: InnerSource strong governance -->
   <rect class="inner" x="650" y="700" width="400" height="110" rx="12"/>
   <text class="ltext" x="850" y="738" text-anchor="middle">InnerSource</text>
   <text class="ltext" x="850" y="758" text-anchor="middle" font-weight="400" font-size="13">with strong central governance</text>
-  <text class="ltext" x="850" y="776" text-anchor="middle" font-weight="400" font-size="13">(external PRs could dilute the standard)</text>
+  <text class="ltext" x="850" y="776" text-anchor="middle" font-weight="400" font-size="13">to protect the standard</text>
 
   <!-- leaf6a: Open Source -->
   <rect class="open" x="650" y="890" width="260" height="110" rx="12"/>
   <text class="ltext" x="780" y="932" text-anchor="middle">Open Source</text>
-  <text class="ltext" x="780" y="952" text-anchor="middle" font-weight="400" font-size="13">check FINOS/industry initiatives</text>
-  <text class="ltext" x="780" y="970" text-anchor="middle" font-weight="400" font-size="13">before starting a new project</text>
+  <text class="ltext" x="780" y="952" text-anchor="middle" font-weight="400" font-size="13">good candidate if it is</text>
+  <text class="ltext" x="780" y="970" text-anchor="middle" font-weight="400" font-size="13">a commodity and you can support it</text>
 
   <!-- leaf6b: InnerSource for now -->
   <rect class="inner" x="150" y="1080" width="340" height="100" rx="12"/>
   <text class="ltext" x="320" y="1122" text-anchor="middle">InnerSource (for now)</text>
-  <text class="ltext" x="320" y="1142" text-anchor="middle" font-weight="400" font-size="13">revisit once capacity exists or</text>
-  <text class="ltext" x="320" y="1160" text-anchor="middle" font-weight="400" font-size="13">the industry consolidates on a home</text>
+  <text class="ltext" x="320" y="1142" text-anchor="middle" font-weight="400" font-size="13">revisit once capacity or</text>
+  <text class="ltext" x="320" y="1160" text-anchor="middle" font-weight="400" font-size="13">industry support exists</text>
 
   <!-- ===== Legend ===== -->
   <rect x="150" y="1230" width="20" height="20" class="q"/>
