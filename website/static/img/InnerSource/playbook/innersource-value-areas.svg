@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <style>
+    .org   { fill:#dbeafe; stroke:#2563eb; stroke-width:2; }
+    .biz   { fill:#dcfce7; stroke:#16a34a; stroke-width:2; }
+    .prod  { fill:#fee2e2; stroke:#dc2626; stroke-width:2; }
+    .item  { fill:#ffffff; stroke-width:1.5; }
+    .item-org  { stroke:#2563eb; }
+    .item-biz  { stroke:#16a34a; }
+    .item-prod { stroke:#dc2626; }
+    .grouplabel { font-weight:700; font-size:15px; }
+    .grouplabel-org  { fill:#1d4ed8; }
+    .grouplabel-biz  { fill:#15803d; }
+    .grouplabel-prod { fill:#b91c1c; }
+    .itemtitle { fill:#111827; font-weight:700; font-size:15px; }
+    .itemdesc  { fill:#374151; font-weight:400; font-size:12.5px; }
+    .title { fill:#111827; font-weight:700; font-size:20px; }
+  </style>
+
+  <text class="title" x="450" y="32" text-anchor="middle">Four key value areas of InnerSource</text>
+
+  <!-- Left column: Organizational Saving -->
+  <rect class="org" x="40" y="60" width="380" height="440" rx="18"/>
+  <text class="grouplabel grouplabel-org" x="60" y="90">Organizational Saving</text>
+
+  <rect class="item item-org" x="60" y="110" width="340" height="170" rx="10"/>
+  <text class="itemtitle" x="80" y="140">Development Cost Savings</text>
+  <text class="itemtitle" x="80" y="160">(Reuse)</text>
+  <text class="itemdesc" x="80" y="188">Avoiding duplicate work by reusing</text>
+  <text class="itemdesc" x="80" y="206">internal components instead of</text>
+  <text class="itemdesc" x="80" y="224">building them again in every team.</text>
+
+  <rect class="item item-org" x="60" y="300" width="340" height="180" rx="10"/>
+  <text class="itemtitle" x="80" y="330">Reduced Cost of Ownership</text>
+  <text class="itemdesc" x="80" y="358">One centralized fix or update</text>
+  <text class="itemdesc" x="80" y="376">benefits every downstream</text>
+  <text class="itemdesc" x="80" y="394">consumer at once, instead of each</text>
+  <text class="itemdesc" x="80" y="412">team patching separately.</text>
+
+  <!-- Right column, top: Business Benefit -->
+  <rect class="biz" x="460" y="60" width="400" height="205" rx="18"/>
+  <text class="grouplabel grouplabel-biz" x="480" y="90">Business Benefit</text>
+  <rect class="item item-biz" x="480" y="110" width="360" height="135" rx="10"/>
+  <text class="itemtitle" x="500" y="140">Time-to-Market Gains</text>
+  <text class="itemdesc" x="500" y="168">Delivering products and features</text>
+  <text class="itemdesc" x="500" y="186">faster by leveraging existing,</text>
+  <text class="itemdesc" x="500" y="204">proven solutions instead of</text>
+  <text class="itemdesc" x="500" y="222">building from scratch.</text>
+
+  <!-- Right column, bottom: Product Team Benefit -->
+  <rect class="prod" x="460" y="295" width="400" height="205" rx="18"/>
+  <text class="grouplabel grouplabel-prod" x="480" y="325">Product Team Benefit</text>
+  <rect class="item item-prod" x="480" y="345" width="360" height="135" rx="10"/>
+  <text class="itemtitle" x="500" y="375">Development Cost Saved</text>
+  <text class="itemdesc" x="500" y="403">Cost of developing features that</text>
+  <text class="itemdesc" x="500" y="421">the core team avoided because</text>
+  <text class="itemdesc" x="500" y="439">other teams contributed them</text>
+  <text class="itemdesc" x="500" y="457">back through InnerSource.</text>
+</svg>
