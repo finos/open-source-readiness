@@ -40,7 +40,6 @@ The InnerSource SIG is open to anyone interested in learning about, contributing
 - **Register to receive meeting invitations:** [Registration Link](https://zoom-lfx.platform.linuxfoundation.org/meeting/92852768369?password=9ffd3106-34d9-42bc-b530-8c7866386826&invite=true)
 - Meeting schedule: **Weekly on Mondays** at 2:00 PM UK, 3:00 PM CET, 6:30 PM IST, and 9:00 AM ET
 - Upcoming meetings and joining details: [FINOS Calendar](https://calendar.finos.org).
-- **Subscribe to the Mailing List:** [Mailing List](mailto:innersource+subscribe@finos.org)
 - Previous meeting agendas and minutes: [GitHub Link](https://github.com/finos/InnerSource/issues?q=is%3Aissue++label%3Ameeting)
 
 </BoxOut>
