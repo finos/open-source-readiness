@@ -6,11 +6,11 @@ authors:
   - name: "Russell Rutledge"
 ---
 
-AI coding agents raise an honest question inside every bank experimenting with them: if an agent can produce working code in seconds, is InnerSource - sharing and reusing code across teams so no one rebuilds the same thing twice - still worth the overhead? The answer for financial services organisations is the opposite of what the question implies: agentic development makes InnerSource *more* necessary, not less, and InnerSource is what makes a flood of agent-generated code safe to run at institutional scale.
+AI coding agents raise an honest question inside every financial institution experimenting with them: if an agent can produce working code in seconds, is InnerSource - sharing and reusing code across teams so no one rebuilds the same thing twice - still worth the overhead? The answer for financial services organisations is the opposite of what the question implies: agentic development makes InnerSource *more* necessary, not less, and InnerSource is what makes a flood of agent-generated code safe to run at institutional scale.
 
 ## Agentic development raises the InnerSource stakes
 
-Coding agents collapse the cost of producing code that compiles and looks right. They do nothing about the cost of producing code that is **correct** - highly available, secure, and compliant with the regulatory and audit requirements a bank has learned the hard way. That cost is exactly as high as it has ever been; an agent just hides it behind something that looks finished.
+Coding agents collapse the cost of producing code that compiles and looks right. They do nothing about the cost of producing code that is **correct** - highly available, secure, and compliant with the regulatory and audit requirements a financial institution has learned the hard way. That cost is exactly as high as it has ever been; an agent just hides it behind something that looks finished.
 
 There is a second effect that makes this urgent for regulated environments specifically: **when code gets cheap to produce, you get more of it, including duplication.** Duplication used to be self-limiting because it was slow and expensive. Remove that brake and every agent, on every task, will happily re-derive its own slightly different auth flow, retry logic, or logging wrapper, at machine speed. The result isn't one duplicate control - it's a sprawl of near-identical, subtly inconsistent implementations across the estate, and inconsistency is exactly where outages, audit findings, and security gaps live.
 
@@ -18,7 +18,7 @@ InnerSource is the counterweight that moves at the same speed as the problem. A 
 
 ## InnerSource makes agentic development cheaper and safer
 
-- **Context and token economy.** An agent's context window is a scarce, costly resource, and a bloated context degrades its output. Without a discoverable shared module, an agent has no way to know a capability already exists, so it rebuilds the whole thing from the prompt, burning tokens and reasoning to re-derive something the bank already owns - and often getting the hard parts subtly wrong. A registered InnerSource project lets the agent bring in only the *interface*, not the full implementation: cheaper in tokens, and more correct, because it's standing on a version that's already been hardened.
+- **Context and token economy.** An agent's context window is a scarce, costly resource, and a bloated context degrades its output. Without a discoverable shared module, an agent has no way to know a capability already exists, so it rebuilds the whole thing from the prompt, burning tokens and reasoning to re-derive something the institution already owns - and often getting the hard parts subtly wrong. A registered InnerSource project lets the agent bring in only the *interface*, not the full implementation: cheaper in tokens, and more correct, because it's standing on a version that's already been hardened.
 - **Correctness the agent doesn't know to ask for.** The developer or agent driving a task doesn't know what it doesn't know - the uptime guarantees, the security posture, the compliance edge cases a shared component accreted over years, most of which was never written down anywhere an agent could read. Reproducing that from scratch would take an entire dedicated session and still miss the unknowns. A mature InnerSource project *is* that institutional knowledge, already packaged and correct on first use.
 
 ## Agentic development removes InnerSource's traditional adoption barriers
@@ -47,4 +47,4 @@ Agentic development doesn't make those practices optional; it makes them load-be
 
 ## The bottom line
 
-The discipline doesn't disappear with agentic development - it becomes the control point. Coding agents are generating code at a scale no bank has had to absorb before; InnerSource, applied deliberately to agent-assisted contributions as well as human ones, is how that scale turns into a consistent, auditable asset instead of an unmanaged sprawl.
+The discipline doesn't disappear with agentic development - it becomes the control point. Coding agents are generating code at a scale no financial institution has had to absorb before; InnerSource, applied deliberately to agent-assisted contributions as well as human ones, is how that scale turns into a consistent, auditable asset instead of an unmanaged sprawl.
