@@ -90,6 +90,10 @@ module.exports={
               "to": "/docs/osr-resources/Training"
             },
             {
+              "label": "Glossary",
+              "to": "/docs/bok/Resources/glossary"
+            },
+            {
               "label": "InnerSource",
               "to": "/docs/InnerSource/Introduction"
             },            
