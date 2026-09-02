@@ -38,7 +38,7 @@ _Open source development on top of prioprietary codebase_
 
 ## Further Reading
 
- - [Patents & Trademarks](../Artifacts/IP) 
+ - [Patents](../Artifacts/Patents) 
  - [License Compliance Management](../Activities/Level-2/License-Management.md)
  - [Training](../Activities/Level-3/Contribution-Training)
  

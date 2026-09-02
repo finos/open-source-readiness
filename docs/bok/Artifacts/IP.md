@@ -42,4 +42,5 @@ Information such as intellectual property is normally classified in the followin
 
 ## Further Reading
 
+- **[Patents](Patents)**: how patents support open source innovation, including financial services examples.
 - **[Licenses](Licenses)**: main article on Software Licenses.
