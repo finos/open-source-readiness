@@ -31,7 +31,7 @@ _Open source development on top of prioprietary codebase_
 
 ### Controls
 
-  - All data and documentation within a bank must be given an information classification.  E.g. public, confidential, etc.  
+  - All data and documentation within a bank must be given an [information classification](../Artifacts/Information-Classification).  E.g. public, confidential, etc.  
   - Part of the [Publication process](../Activities/Level-3/Publication) should be to make sure that only _public_ information is allowed to be contributed.
   - Integrate firm Identity and Access Management (IAM) with the [Publication process](../Activities/Level-3/Publication).
   - Ensure the [Publication process](../Activities/Level-3/Publication) only allows contribution to firm-approved repositories.
