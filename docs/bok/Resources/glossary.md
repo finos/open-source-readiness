@@ -55,7 +55,6 @@ This glossary is a quick index of the main terms used across the Open Source Rea
 - [Open Source Foundations](/docs/bok/Activities/Level-4/Foundations) — Activities › Level 4
 - [Open Source Software License Compliance Management](/docs/bok/Activities/Level-2/License-Management) — Activities › Level 2
 - [Open Source Supply Chain Security](/docs/bok/Activities/Level-2/Supply-Chain-Security) — Activities › Level 2
-- [Outbound Security](/docs/bok/Activities/Level-4/Outbound-Security) — Activities › Level 4
 - [Publication Processes](/docs/bok/Activities/Level-3/Publication) — Activities › Level 3
 - [Software Inventory](/docs/bok/Activities/Level-2/Software-Inventory) — Activities › Level 2
 - [Strategic Open Source Leverage](/docs/bok/Activities/Level-5/Strategic-Leverage) — Activities › Level 5
@@ -153,14 +152,14 @@ This glossary is a quick index of the main terms used across the Open Source Rea
 
 ## Resources
 
-- [Considerations and Guidance for Electronic Communications Policies and Open Source](/docs/bok/Resources/electronic-communications) — Resources
-- [External Resources](/docs/bok/Resources/external-resources) — Resources
+- [Considerations and Guidance for Electronic Communications Policies and Open Source](/docs/operations/electronic-communications) — Resources
+- [External Resources](/docs/osr-resources/external-resources) — Resources
 - [FAQ](/docs/bok/Resources/FAQ) — Resources
-- [Open Source Compliance Workflows](/docs/bok/Resources/compliance-workflows) — Resources
-- [OSLC Handbook](/docs/bok/Resources/oslc) — Resources
-- [OSLC Handbook Licenses](/docs/bok/Resources/oslc-licenses) — Resources
+- [Open Source Compliance Workflows](/docs/operations/compliance-workflows) — Resources
+- [OSLC Handbook](/docs/operations/oslc) — Resources
+- [OSLC Handbook Licenses](/docs/osr-resources/oslc-licenses) — Resources
 - [OSR Resources](/docs/bok/Resources/osr-resources) — Resources
-- [White Paper: Business Value of Open Source in Financial Services](/docs/bok/Resources/whitepaper) — Resources
+- [White Paper: Business Value of Open Source in Financial Services](/docs/osr-resources/whitepaper) — Resources
 
 ## Training
 
@@ -181,7 +180,7 @@ This glossary is a quick index of the main terms used across the Open Source Rea
 - [Open Source Introduction](/docs/bok/Training/Management-And-Strategy/LFC202-Open Source Introduction) — Training › Management And Strategy
 - [Open Source Licensing Basics for Software Developers](/docs/bok/Training/LFD102-Beginner-Guide-to-Open-Source-Development) — Training
 - [Open Source Management & Strategy](/docs/bok/Training/Management-And-Strategy/LF-Open-Source-Management-And-Strategy) — Training › Management And Strategy
-- [OSR Training and Certification](/docs/bok/Training/OSR-Training) — Training
+- [OSR Training and Certification](/docs/osr-resources/Training) — Training
 - [Securing Your Software Supply Chain with Sigstore](/docs/bok/Training/LFS182-Sigstore) — Training
 - [The Evolution of the Open Source Program Office (OSPO)](/docs/bok/Training/Evolution-OSPO) — Training
 - [The Good Governance Initiative](/docs/bok/Training/Good-Governance-Initiative) — Training
@@ -194,7 +193,7 @@ This glossary is a quick index of the main terms used across the Open Source Rea
 
 - [Certifications](/docs/bok/Certifications/Introduction) — Certifications
 - [FINOS Financial Services Open Source Developer (FSOSD)](/docs/bok/Certifications/FSOSD) — Certifications
-- [FINOS Financial Services Open Source Developer (FSOSD) Exam Instructions](/docs/bok/Certifications/certification-instructions) — Certifications
+- [FINOS Financial Services Open Source Developer (FSOSD) Exam Instructions](/docs/osr-resources/CertificationInstructions) — Certifications
 
 ## InnerSource
 
