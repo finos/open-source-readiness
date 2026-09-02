@@ -36,6 +36,16 @@ Specifically, publication must observe the controls that have been set up to gua
 
 </BoxOut>
 
+### Passwords, Secrets and Diagnostic Data
+
+Publication controls should explicitly cover **passwords, API keys, tokens, certificates and signing keys**. These secrets can be leaked not only in source code, but also in commit messages, pull request descriptions, screenshots, test fixtures, configuration files, logs and error messages.
+
+The Microsoft Storm-0558 incident is a useful reminder that operational and diagnostic information can help attackers obtain highly privileged secrets. Teams should therefore treat publication artefacts around the code with the same care as the code itself: if it is not clearly public, do not publish it.
+
+- Scan commits and repositories for secrets before publication.
+- Review examples, sample configuration and screenshots for accidental disclosure.
+- Avoid publishing verbose internal error messages or debug output which may reveal credentials, key identifiers, hostnames or other sensitive implementation details.
+
 ### 1. Outgoing Control Process
 
 _Developers work inside the firm and contribute Git pull requests via a controlled, monitored process._
