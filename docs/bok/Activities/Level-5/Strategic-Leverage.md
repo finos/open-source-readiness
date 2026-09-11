@@ -15,7 +15,9 @@ A quick reference guide for organisations at Level 5 maturity—using open sourc
 
 At this level, open source moves beyond operational efficiency to become a strategic tool.   Mature organisations don't just consume the open source landscape—they shape it through strategic contribution, project creation, and foundation leadership.
 
-**See:** [Leveraging Open Source as a Strategy](Leveraging-Strategically) for the components of strategy (landscape, climate, doctrine, leadership, purpose), how OSPOs contribute to technology decisions, and strategy as an evolutionary process.
+**See:** [Leveraging Open Source as a Strategy](Leveraging-Strategically) for the Level 5 playbook and how to choose practical strategy plays.
+
+**See:** [Commodification of Complements](Commodification-Of-Complements), [Open Source Ecosystem](Open-Source-Ecosystem), and [Open-Source-Led Strategy](Open-Source-Led-Strategy) for focused strategic activities.
 
 **See:** [Why Create An Open Source Project](Why-To-Create-A-Project) for the strategic rationale behind hosting your own projects.
 

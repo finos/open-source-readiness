@@ -264,6 +264,17 @@ Endpoint Detection and Response (EDR) is a cybersecurity solution that continuou
 
 https://en.wikipedia.org/wiki/Endpoint_detection_and_response
 
+### Security Threat Intelligence
+
+Security threat intelligence services help organizations monitor threat actors, active campaigns, leaked credentials, malicious infrastructure, and signs that a software supplier, dependency, or development team may be under active attack.
+
+These services complement vulnerability scanning and software composition analysis by helping teams prioritize defenses based on what attackers are actively doing, not just on published CVEs.
+
+**See:**
+
+- Gartner's [Security Threat Intelligence Services](https://www.gartner.com/reviews/market/security-threat-intelligence-services) market page.
+- Representative services in this space include Recorded Future, Google Threat Intelligence / Mandiant, CrowdStrike Falcon Intelligence, and Digital Shadows (now part of ReliaQuest).
+
 ### Web / Mobile Application Security Testing.
 
 - **Web Application Security Testing:** Web application security testing focuses on identifying security vulnerabilities in web applications, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).
