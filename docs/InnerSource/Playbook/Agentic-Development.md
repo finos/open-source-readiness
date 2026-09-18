@@ -12,7 +12,7 @@ Practitioners putting these tools to work are finding the opposite of what the q
 
 ## Agentic development raises the InnerSource stakes
 
-Coding agents collapse the cost of producing code that compiles and looks right. They do nothing about the cost of producing code that is **correct** - highly available, secure, and compliant with the regulatory and audit requirements a financial institution has learned the hard way. That cost is exactly as high as it has ever been; an agent just hides it behind something that looks finished.
+Coding agents collapse the cost of producing code that compiles and looks right. They do nothing about the cost of producing code that is **correct** - highly available, secure, and compliant with the regulatory and audit requirements. These are lessons a financial institution has learned the hard way. That cost of producing code that meets those requirements is as high as it has ever been; an agent just hides it behind something that looks finished.
 
 There is a second effect that makes this urgent for regulated environments specifically: **when code gets cheap to produce, you get more of it, including duplication.** Duplication used to be self-limiting because it was slow and expensive. Remove that brake and agents will, task after task, re-derive their own slightly different auth flow, retry logic, or logging wrapper, at machine speed. The result isn't one duplicate control - it's a sprawl of near-identical, subtly inconsistent implementations across the estate, and inconsistency is exactly where outages, audit findings, and security gaps live.
 
