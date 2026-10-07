@@ -6,115 +6,188 @@ authors:
   - name: "Russell Rutledge"
 ---
 
-Every InnerSource project has an owner, even when nobody has written the word down.
-Someone decides what gets merged, what gets built next, and who answers when production breaks at 2am.
-InnerSource changes who is allowed to *propose* a change, but it does not remove the need for someone to be accountable for the result.
+The [InnerSource Blueprint](./Blueprint.md) asks every project to "establish an ownership model that defines how the project is maintained, how decisions are made, and who is responsible for reviewing and approving contributions".
+This page is the detail behind that step: how to form an ownership model for your project, and how the models the InnerSource community has already published fit together.
 
-In a financial services organisation that accountability is not optional.
-Regulators, auditors, and risk teams all expect a named owner for every piece of production code, and InnerSource projects are no exception.
-The ownership model is the answer to the question "who is on the hook, and how do outsiders get work in?"
+The names vary.
+The InnerSource Commons pattern [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels) notes: "Instead of "governance levels" we might also say "operating models", or "ownership models"."
+Whatever the name, the problem it solves is the same.
+Teams all describe their way of working as "InnerSource", while welcoming outside contributions to very different degrees, and the result is "confusion and frustration when teams collaborate as the expectation of what InnerSource means in practice is different in each team."
+As the [InnerSource Learning Path](https://innersourcecommons.org/learn/learning-path/project-leader/05/) puts it: "Just because two projects you depend on use pull requests on a daily basis does not mean that their openness to team-external contributions is the same."
 
-This page describes the common ownership models, when each one fits, and how a project moves from one to the next as it matures.
-It builds on the [Blueprint](./Blueprint.md), which asks every project to define ownership and governance, and on the InnerSource Commons [governance levels pattern](https://patterns.innersourcecommons.org/p/governance-levels).
+## Forming your ownership model: three questions
 
-## What ownership has to cover
+An ownership model is your answer to three independent questions.
+Answer all three, write the answers down, and contributors, consumers and leaders all know what to expect from the project.
 
-Whatever model a project picks, it should be explicit about five things:
+1. **Who maintains it?**
+2. **What do the maintainers commit to do?**
+3. **What are the maintainers open to receiving from others?**
 
-- **Direction.** Who decides what the project is for, what goes on the roadmap, and what is out of scope.
-- **Merge rights.** Who may approve and merge a contribution, and what the review expectations are.
-- **Operations.** Who carries the pager, handles incidents, and owns patching and vulnerability response.
-- **Accountability.** Which named person or team answers to risk, audit, and the business for the project.
-- **Succession.** What happens when the owning team is reorganised, loses headcount, or moves on.
+The published models described [further down this page](#how-published-models-answer-the-three-questions) each answer some combination of these questions, often folded into a single scale.
+Separating them makes it easier to describe a project precisely, and to see where two models that look different are actually making the same choice.
 
-A model that leaves any of these blank still has an owner, just an accidental one.
+### 1. Who maintains it?
 
-## The models
+The first part of the answer is whether maintaining the project is someone's day job, with time formally allocated to it, or something people do on top of their day job.
+The second part is how many maintainers there are, and how they are spread across the organisation.
 
-### 1. Single owning team, open contributions
+| Who maintains it | Day job? | Published examples |
+|---|---|---|
+| Nobody | - | FINOS Maturity Matrix, Ownership level 0: "It is not clear who is responsible" |
+| One person, on the side | No | Learning Path: "In grassroots communities, the founders often assume the role of the Trusted Committer"; "On small, grass roots efforts a single person often fills both" the Product Owner and Trusted Committer roles |
+| A group of volunteers | No | [Group Support](https://patterns.innersourcecommons.org/p/group-support): "No one is assigned by their day job to work on it" |
+| One assigned team | Yes | [Core Team](https://patterns.innersourcecommons.org/p/core-team); Flutter's "maintaining team" at stages 1 and 2 of its [InnerSource Pyramid](https://innersource.flutter.com/how/pyramid/) |
+| An assigned team plus Trusted Committers from other teams | Yes, for the team | [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer) |
+| Maintainers in several teams, each with allocated time | Yes, part-time | Flutter stage 3, [Maintainers in Multiple Teams](https://innersource.flutter.com/how/multiple-teams/) |
 
-One team owns the project end to end and accepts contributions from anyone in the organisation.
-The owning team sets the roadmap, reviews every contribution, and keeps the final say.
-Contributors work through issues and pull requests like any open source contributor.
+Points the sources make about this question:
 
-This is the usual starting point.
-It changes the least about existing accountability, so it is the easiest model to get approved.
+- A dedicated team is formed so the organisation can "empower and hold them accountable in the same way as any other team" ([Core Team](https://patterns.innersourcecommons.org/p/core-team)). Core Team members can be full-time or part-time.
+- Volunteer support is "best effort" only, and "not well-suited for run-time critical, production projects like live APIs" ([Group Support](https://patterns.innersourcecommons.org/p/group-support)).
+- Flutter's maintainers in multiple teams are not volunteers: "No-one is a full-time maintainer", but the role "is usually recognised to take 10-20% of their working time", in groups "commonly ... between 4-8" ([Flutter, Maintainer](https://innersource.flutter.com/how/roles/maintainer/)).
+- More than one maintainer "makes it easier when someone leaves the company or moves on from the role" ([Learning Path, Becoming a Trusted Committer](https://innersourcecommons.org/learn/learning-path/trusted-committer/07/)).
+- The [FINOS Maturity Matrix](../Maturity-Matrix/Project.md) scores spread across the organisation at its top Ownership level: "Have at least 3 maintainers and at least 1 from different department or business group."
 
-- **Fits when:** the project is new to InnerSource, has one clear business owner, or supports a critical or regulated service.
-- **Strength:** clear accountability and fast decisions.
-- **Risk:** the owning team becomes the bottleneck, and contributors drift away when reviews are slow.
+### 2. What do the maintainers commit to?
 
-### 2. Trusted committers
+| Commitment | What it covers | Published examples |
+|---|---|---|
+| Best effort | No guarantees. | [Group Support](https://patterns.innersourcecommons.org/p/group-support): support is "best effort" only, and the group "is not expected to implement any new functionality for others"; FINOS Maturity Matrix Ownership level 0: "maintenance done on a best effort basis with no SLAs" |
+| Maintenance | Guaranteed bug fixes, security fixes and dependency upgrades, and running the software: deployment and on-call. | [Core Team](https://patterns.innersourcecommons.org/p/core-team): "Production bugs", "CI/CD", "Versioning", "Monitoring"; Flutter stage 2: the maintaining team "retain full accountability" and takes "forward responsibility" for accepted contributions |
+| Maintenance and features | Maintenance as above, plus new features built by the maintainers. | Flutter stage 1: "all changes to the service implemented by this maintaining team" |
 
-The owning team names a small group of experienced contributors, some from outside the team, who hold merge rights and help guide the project.
-The owning team keeps accountability, but review load and day-to-day stewardship are shared.
+Points the sources make about this question:
 
-The InnerSource Commons [Trusted Committer pattern](https://patterns.innersourcecommons.org/p/trusted-committer) describes this model in detail.
+- The [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels) pattern explains its first level with the best-effort case from open source: "you can report the bug, but its on the owner to find the time to fix it."
+- Accepting a contribution is a maintenance commitment. The Learning Path lists "Ongoing maintenance of submitted code (after the [warranty window](https://patterns.innersourcecommons.org/p/30-day-warranty))" among the host team's duties ([Is InnerSource Right for My Project?](https://innersourcecommons.org/learn/learning-path/introduction/08/)).
+- A Core Team "doesn't have its own business agenda that determines its contributions", and its work "enables contributors to add and use the features that provide value to their scenarios" ([Core Team](https://patterns.innersourcecommons.org/p/core-team)).
+- Security updates, dependency upgrades and refactoring are the work most at risk of being left undone. Flutter describes four ways to get it done: by the maintaining team in dedicated time, by sponsorship across teams, by a virtual team of maintainers, or by a "strategic intervention" where "A senior leader must sponsor the project, and fund and mobilise a team to do it" ([Flutter, Unpopular Work](https://innersource.flutter.com/blog/unpopular-work)).
+- The ISC [Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model) scores this question in its Support and Maintenance row, from "A business contract guaranties the support" (SM-0) to support "given by a mature community" (SM-3).
 
-- **Fits when:** contribution volume has outgrown the owning team's review capacity, and a few outside contributors have earned the team's trust.
-- **Strength:** removes the review bottleneck without handing over accountability.
-- **Risk:** needs a visible, agreed path for becoming a trusted committer, or it looks like an inner circle.
+### 3. What are the maintainers open to?
 
-### 3. Shared stewardship across teams
+This is the question the published ladders mostly answer, and the sources agree closely on the rungs.
 
-Several teams that depend on the project share ownership.
-Each contributes people, and a steering group made up of those teams sets direction and approves changes to the project's scope.
-Merge rights are spread across the participating teams.
+| Open to | [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels) | [Flutter InnerSource Pyramid](https://innersource.flutter.com/how/pyramid/) |
+|---|---|---|
+| Nothing; the code is closed | - | Stage 0, Closed Source |
+| Issues and bug reports | 1. Bug Reports and Issues Welcome | Stage 1, Readable Source |
+| Small fixes | 2. Contributions Welcome | Stage 2, Guest Contribution |
+| Entire features | 2. Contributions Welcome | Stage 2, Guest Contribution |
+| Write access for people outside the maintaining group | 3. Shared Write Access | Stage 3, Maintainers in Multiple Teams |
+| Write access, plus an equal say on direction and on who joins | 4. Shared Ownership | Stage 3, Maintainers in Multiple Teams |
 
-- **Fits when:** the project is a shared platform or library that many teams depend on and no single team is the natural owner.
-- **Strength:** the teams that rely on the project have a real voice in it, which supports adoption.
-- **Risk:** decisions slow down, and "everyone owns it" can quietly become "nobody is accountable." Name one accountable team or role even in a shared model.
+Points the sources make about this question:
 
-### 4. Community-of-practice ownership
+- Each rung "adds more influence/karma to the contributing team. However each step also requires more transparency and shared communication resources between both teams" ([Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels)).
+- Higher is not better: "a higher stage does not mean "better" - it just means "more complex"", and it is "only justified if the circumstances require it" ([Flutter, Pyramid](https://innersource.flutter.com/how/pyramid/)).
+- "Increased sharing increases the need for communication and co-ordination. Increased shared accountabilities can slow down decision making" ([Learning Path, Options for Shared Ownership](https://innersourcecommons.org/learn/learning-path/project-leader/05/)).
+- Opening up does not mean accepting everything: "It is the team of Trusted Committers that sets the mission and goals for the project. They are then in a position to set direction and decide on change acceptance accordingly" (same chapter).
+- Flutter gives three reasons a capability needs maintainers in several teams: velocity, control, and maturity ([Flutter, Maintainers in Multiple Teams](https://innersource.flutter.com/how/multiple-teams/)).
+- Small fixes and entire features can be handled differently. Flutter's [Major vs Minor](https://innersource.flutter.com/blog/major-vs-minor) triage, for example, needs one maintainer's approval for a minor change and a written design agreed by a maintainer in each division for a major one.
 
-A community of practice or guild owns a body of shared guidance, templates, or tooling rather than a deployed service.
-Ownership is a role the community fills, with a rotating or elected set of maintainers.
+## Someone is always accountable
 
-- **Fits when:** the shared asset is documentation, standards, or reference implementations with no production runtime attached.
-- **Strength:** low overhead and broad participation.
-- **Risk:** without a sponsor and a small amount of protected time, maintenance fades once the early energy passes.
+Whatever the answers, every source agrees that a project still has an accountable owner.
 
-## Choosing a model
+- "If everyone owns it, nobody is accountable." Each InnerSource project therefore "has a dedicated team of Trusted Committers" ([Learning Path, Options for Shared Ownership](https://innersourcecommons.org/learn/learning-path/project-leader/05/)).
+- "Technical ownership and accountability is important at all stages of the inner source pyramid. At stage 1 or 2 the owner is the leader of the maintaining team. At stage 3 the owner isn't obvious from the org chart, and it helps to recognise a named individual as a Capability Owner." Without one, a capability risks becoming "a shared resource that's incrementally ruined by all divisions acting rationally but purely in their own interests" ([Flutter, Capability Owner](https://innersource.flutter.com/how/roles/owner/)).
+- In the software catalogue Backstage, an owner is "the singular entity (commonly a team) that bears ultimate responsibility for the component", and "there will always be one ultimate owner" ([Backstage descriptor format](https://backstage.io/docs/features/software-catalog/descriptor-format/)).
+- For teams worried that sharing means losing control: "Your team remains the core maintainers - Your group reviews, approves, and shape contributions" ([Driving InnerSource Culture](https://osr.finos.org/docs/InnerSource/driving_innersource_culture)).
 
-| Question | Points toward |
+## How published models answer the three questions
+
+Each published model is a particular set of answers.
+"-" means the source does not address that question.
+
+| Published model | 1. Who maintains it | 2. Commitment | 3. Open to |
+|---|---|---|---|
+| [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels), level 1 | Host team | Best effort | Issues and bug reports |
+| Explicit Governance Levels, level 2 | Host team | - | Contributions |
+| Explicit Governance Levels, level 3 | Host team plus outside committers | - | Write access |
+| Explicit Governance Levels, level 4 | Equal peers from different teams | - | Write access, equal say on direction and on who joins |
+| [Flutter InnerSource Pyramid](https://innersource.flutter.com/how/pyramid/), stage 0 | One team | Maintenance and features | Closed |
+| Flutter stage 1, Readable Source | One maintaining team | Maintenance and features | Issues, with read access |
+| Flutter stage 2, Guest Contribution | One maintaining team | Maintenance, at least | Contributions |
+| Flutter stage 3, Maintainers in Multiple Teams | A maintainer in each contributing team with allocated time, and a named Capability Owner | - | Write access |
+| [Group Support](https://patterns.innersourcecommons.org/p/group-support) | Volunteers from anywhere in the organisation | Best effort, no new features for others | Contributions |
+| [Core Team](https://patterns.innersourcecommons.org/p/core-team) | A dedicated team | Maintenance | Contributions |
+| [ISC Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model), Support and Maintenance | From a core or dedicated support team (SM-0, SM-1) to a mature community (SM-3) | Maintenance | - |
+| [FINOS Maturity Matrix](../Maturity-Matrix/Project.md), Ownership | From nobody (level 0) to at least 3 maintainers, one from another department (level 3) | From best effort (level 0) to the owning team responsible for contributed code (level 2) | Up to "More than one department with decision making ability" (level 3) |
+| [Learning Path, Options for Shared Ownership](https://innersourcecommons.org/learn/learning-path/project-leader/05/) | Trusted Committers tied to the host team, then shared | - | Same rungs as Explicit Governance Levels |
+| [Identifying InnerSource Project Candidates](./Best-Candidates.md), "InnerSource with strong central governance" | "a small maintainer group" | - | Curated contributions |
+
+Some published models also include things that are not ownership choices.
+They are covered elsewhere on this page or in the playbook:
+
+- **What contributors commit to after a merge**, such as the [30 Day Warranty](https://patterns.innersourcecommons.org/p/30-day-warranty) and the Maturity Matrix's Ownership level 1. See [Patterns for common pressures](#patterns-for-common-pressures).
+- **Outcomes you measure rather than choose**, such as "Have more than one department contributing" or "The people finding the issues are the ones fixing the code".
+- **Lifecycle practices**, such as "putting projects up for adoptions" and "a clear maintenance / deprecation strategy". See [Moving between models](#moving-between-models).
+- **Who can see the code.** See [Financial services considerations](#financial-services-considerations).
+
+## Declaring your model
+
+Writing the answers down is what turns a way of working into a model others can rely on.
+
+- Define your organisation's models centrally, give each a name, and "Present the governance levels as a menu of adoption options when launching new InnerSource projects" ([Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels)).
+- Label each project with its model in your [InnerSource Portal](https://patterns.innersourcecommons.org/p/innersource-portal) or software catalogue.
+- Tell contributors what to expect, including "Response times to expect when submitting changes", the "communication channels to use", and the "governance levels to expect from the project" ([Learning Path, Options for Shared Ownership](https://innersourcecommons.org/learn/learning-path/project-leader/05/)).
+- [Governance Level Guided Project Setup](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/governance-based-project-setup.md) (an early-stage pattern) lists the patterns and maturity levels to start with for each level.
+
+A short section in the project's README or CONTRIBUTING guide is enough, for example:
+
+```markdown
+## Ownership
+
+- **Maintained by:** the Payments Platform team (assigned team),
+  with Trusted Committers from Cards and Lending.
+- **Commitment:** maintenance - bug fixes, security fixes, dependency
+  upgrades and on-call. New features come from contributors.
+- **Open to:** entire features. Open an issue before starting large changes.
+```
+
+## Making ownership visible
+
+- [Standard Base Documentation](https://patterns.innersourcecommons.org/p/base-documentation) includes a "Who we are" section naming the Trusted Committers, and "An explanation of what the criteria are for the project to turn contributors into Trusted Committers - if that path exists."
+- The [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer) pattern lists Maintainers and Trusted Committers in the README, and recommends documenting "the scope of your Trusted Committer role".
+- GitHub's [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) file lets you "define individuals or teams that are responsible for code in a repository", and branch protection can require their approval.
+- Backstage's `spec.owner` field records the owner in a software catalogue. It is for display, and "not to be used by automated processes to for example assign authorization in runtime systems".
+- [Centralized InnerSource Repository Governance](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/centralized-repository-governance.md) (an early-stage pattern) audits repositories against a readiness profile per operating model, including CODEOWNERS.
+
+## Patterns for common pressures
+
+| Pressure | Published responses |
 |---|---|
-| Does the project support a regulated or critical production service? | Single owning team, then trusted committers |
-| Is review capacity the main constraint on contribution? | Trusted committers |
-| Do many teams depend on it and none is the natural owner? | Shared stewardship |
-| Is it guidance or reference material rather than a running service? | Community of practice |
-| Is the project brand new to InnerSource? | Single owning team |
+| The host team won't take on maintenance of contributed code | [30 Day Warranty](https://patterns.innersourcecommons.org/p/30-day-warranty); [Reluctance to Accept Contributions](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/reluctance-to-accept-contributions.md) |
+| Teams can't share deployment or on-call | [Service vs. Library](https://patterns.innersourcecommons.org/p/service-vs-library); the Learning Path's options for "You build it, you run it" in [Options for Shared Ownership](https://innersourcecommons.org/learn/learning-path/project-leader/05/) |
+| The host team is flooded with contributions | [Extensions for Sustainable Growth](https://patterns.innersourcecommons.org/p/extensions-for-sustainable-growth); [Core Team](https://patterns.innersourcecommons.org/p/core-team); Flutter's [Major vs Minor](https://innersource.flutter.com/blog/major-vs-minor) |
+| Nobody owns it any more | [Group Support](https://patterns.innersourcecommons.org/p/group-support); [Explicit Shared Ownership](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/explicit-shared-ownership.md) |
+| Decisions across maintainers in different teams | [Transparent Cross-Team Decision Making using RFCs](https://patterns.innersourcecommons.org/p/transparent-cross-team-decision-making-using-rfcs); Flutter's [Lazy Consensus](https://innersource.flutter.com/blog/lazy-consensus) |
+| Unpopular work, such as security and dependency upgrades | Flutter's [Unpopular Work](https://innersource.flutter.com/blog/unpopular-work) |
+| An emergency change outside normal approvals | The "Emergency Changes" section of Flutter's [Major vs Minor](https://innersource.flutter.com/blog/major-vs-minor) |
 
-Most projects do not stay in one model.
-A common path is a single owning team, then trusted committers as contributors prove themselves, then shared stewardship if the project becomes a platform other teams build on.
-Treat the model as something to revisit as the project's maturity and contributor community change, and record the current choice in the project's governance document so contributors can see how decisions are made.
+## Financial services considerations
 
-## The human side of ownership
+- **Who can see the code is a separate question from who decides on it.** [Balancing Openness and Security](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/balancing-openness-and-security.md) (an early-stage pattern) describes sharing levels such as PUBLIC, INTERNAL, RESTRICTED and CLOSED, and agreed rules such as "Code from SHARED repositories will not be distributed directly to Production."
+- **Regulation can be a reason to keep deployment separate while sharing code.** [Service vs. Library](https://patterns.innersourcecommons.org/p/service-vs-library) lists "Teams may have different security or regulatory constraints governing their deployments" as a force, and Flutter's use of it is "driven by varying regulatory requirements, service and incident management practices and infrastructure skill sets in different areas of the business."
+- **Some changes need explicit sign-off, whatever the model.** "When a change introduces a new 3rd party dependency the security, data protection and legal teams must have time to review this usage. Such teams typically require you to wait for an explicit approval before proceeding" ([Flutter, Lazy Consensus](https://innersource.flutter.com/blog/lazy-consensus)).
+- **Review is part of the compliance story.** "Support Compliance - Standardized review processes aligned with regulatory needs to build audit-friendly software" ([Driving InnerSource Culture](https://osr.finos.org/docs/InnerSource/driving_innersource_culture)).
+- PayPal's InnerSource programme began with regional teams that "ensure that PayPal complies with the different regulations of the many different countries it works in" ([InfoQ](https://www.infoq.com/news/2015/10/innersource-at-paypal)).
 
-Ownership problems in InnerSource are often not structural.
-They are about people and incentives.
+## Moving between models
 
-- **Fear of losing ownership.** Teams worry that opening a project means giving it away.
-  Say plainly, in the project's governance, that the owning team keeps accountability and the final decision.
-  InnerSource adds contributors and does not remove the owner.
-- **Competing priorities.** Owning teams are measured on their own delivery budget and timeline, and reusability rarely shows up in those measures.
-  Contribution review needs protected time and an expectation from management, or it loses to the delivery plan every time.
-- **Building contributors, not just users.** An owning team that treats contributors as a source of free labour will not keep them.
-  Respond to contributions quickly, explain review decisions, and credit contributors publicly.
-- **Recognition.** If a contributor's own manager cannot see the work, it will not last.
-  Make it easy for the owning team to tell a contributor's manager what was delivered.
+A project's answers change over time.
 
-## Practical guidance
+- Group Support is expected to "dissolve again at some point". If the project continues in the long run, "use this period of stable group support to find a long-lived way to support it (e.g. Core Team)" ([Group Support](https://patterns.innersourcecommons.org/p/group-support)).
+- At Flutter, Guest Contribution capabilities "if contribution stops over time can become Delegated", that is, built and run by one division for the others ([Flutter, Choosing Inner Source](https://innersource.flutter.com/how/choose/)).
+- When contractors built the code, plan the handover from the start, including "Identification of new a maintainer team" ([Transitioning Contractor Code to InnerSource Model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/transitioning-contractor-code-to-innersource-model.md), an early-stage pattern).
+- Plan for Trusted Committers leaving, and thank them publicly ([Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)).
+- At its top Ownership level the [FINOS Maturity Matrix](../Maturity-Matrix/Project.md) asks for "a clear adoption strategy (putting projects up for adoptions)" and "a clear maintenance / deprecation strategy".
 
-1. **Write the model down.** Put ownership, merge rights, and decision-making in the project's governance document, linked from the README.
-2. **Name one accountable owner.** Even in shared models, one team or role answers to risk, audit, and the business.
-3. **Publish the path to more responsibility.** Say how a contributor becomes a trusted committer or steering group member.
-4. **Set a review expectation.** State a target response time for contributions, and measure it.
-5. **Plan for succession.** Record what happens to the project if the owning team changes, so a reorganisation does not orphan a shared dependency.
-6. **Revisit on a schedule.** Review the model at least yearly, or when contribution volume, dependent teams, or team structure change.
+## Related playbook pages
 
-## Related pages
-
-- [Blueprint](./Blueprint.md) for where ownership fits in setting up an InnerSource project
-- [Project Guidance](./Project-Guidance.md) for running a project and growing its community
-- [Best Candidates](./Best-Candidates.md) for deciding which projects to share at all
-- [Agentic Development](./Agentic-Development.md) for how agent-authored contributions fit the same ownership model
+- [InnerSource Blueprint](./Blueprint.md), step 3, Define Ownership and Governance.
+- [Identifying InnerSource Project Candidates](./Best-Candidates.md), for when a project needs strong central governance.
+- [Organisational Enablement](./Organisational-Enablement.md), for funding and management structures such as [Review Committee](https://patterns.innersourcecommons.org/p/review-committee), [Contracted Contributor](https://patterns.innersourcecommons.org/p/contracted-contributor) and [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader).
+- [Agentic Development](./Agentic-Development.md): agent-written changes go through the same ownership and review model.
