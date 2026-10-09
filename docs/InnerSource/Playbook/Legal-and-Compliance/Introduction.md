@@ -3,9 +3,7 @@ title: Legal & Compliance
 sidebar_label: Legal & Compliance
 sidebar_position: 8
 ---
-# Legal & Compliance
-
-This chapter explores legal and compliance considerations that may affect the adoption and operation of InnerSource in financial services organisations.
+This section explores legal and compliance considerations that may affect the adoption and operation of InnerSource in financial services organisations.
 
 ## Regulatory Boundaries and InnerSource
 
