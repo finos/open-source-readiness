@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <style>
+    .outer { fill:#eef2ff; stroke:#4338ca; stroke-width:2; }
+    .comp-a { fill:#fed7aa; stroke:#c2410c; stroke-width:1.5; }
+    .comp-b { fill:#fecaca; stroke:#b91c1c; stroke-width:1.5; }
+    .comp-c { fill:#fde68a; stroke:#a16207; stroke-width:1.5; }
+    .comp-d { fill:#bbf7d0; stroke:#15803d; stroke-width:1.5; }
+    .comp-e { fill:#c7d2fe; stroke:#4338ca; stroke-width:1.5; }
+    .comp-f { fill:#e9d5ff; stroke:#7e22ce; stroke-width:1.5; }
+    .outertitle { fill:#312e81; font-weight:700; font-size:19px; }
+    .comptext { fill:#111827; font-weight:600; font-size:13.5px; }
+    .title { fill:#111827; font-weight:700; font-size:20px; }
+    .reuse { fill:#16a34a; font-weight:700; font-size:15px; }
+    .contribute { fill:#c2410c; font-weight:700; font-size:15px; }
+    .arrow-reuse { stroke:#16a34a; stroke-width:3; fill:none; marker-end:url(#arrow-green); }
+    .arrow-contribute { stroke:#c2410c; stroke-width:3; fill:none; marker-end:url(#arrow-orange); }
+  </style>
+
+  <defs>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c2410c"/>
+    </marker>
+  </defs>
+
+  <text class="title" x="600" y="32" text-anchor="middle">Conceptual model: how components flow between projects</text>
+
+  <!-- InnerSource Project (left) -->
+  <rect class="outer" x="40" y="70" width="480" height="440" rx="18"/>
+  <text class="outertitle" x="280" y="105" text-anchor="middle">InnerSource Project</text>
+
+  <rect class="comp-a" x="70" y="130" width="200" height="120" rx="10"/>
+  <text class="comptext" x="170" y="195" text-anchor="middle">InnerSource Component</text>
+
+  <rect class="comp-b" x="290" y="130" width="200" height="120" rx="10"/>
+  <text class="comptext" x="390" y="195" text-anchor="middle">InnerSource Component</text>
+
+  <rect class="comp-c" x="70" y="270" width="200" height="120" rx="10"/>
+  <text class="comptext" x="170" y="335" text-anchor="middle">InnerSource Component</text>
+
+  <rect class="comp-d" x="290" y="270" width="200" height="120" rx="10"/>
+  <text class="comptext" x="390" y="335" text-anchor="middle">InnerSource Component</text>
+
+  <!-- Downstream Project (right) -->
+  <rect class="outer" x="680" y="70" width="480" height="440" rx="18"/>
+  <text class="outertitle" x="920" y="105" text-anchor="middle">Downstream Project</text>
+
+  <rect class="comp-b" x="710" y="130" width="200" height="120" rx="10"/>
+  <text class="comptext" x="810" y="195" text-anchor="middle">InnerSource Component</text>
+
+  <rect class="comp-e" x="930" y="130" width="200" height="120" rx="10"/>
+  <text class="comptext" x="1030" y="195" text-anchor="middle">Project Specific Code</text>
+
+  <rect class="comp-d" x="710" y="270" width="200" height="120" rx="10"/>
+  <text class="comptext" x="810" y="325" text-anchor="middle">InnerSource Component</text>
+  <text class="comptext" x="810" y="345" text-anchor="middle">+ Improve</text>
+
+  <rect class="comp-f" x="930" y="270" width="200" height="120" rx="10"/>
+  <text class="comptext" x="1030" y="325" text-anchor="middle">New Reusable</text>
+  <text class="comptext" x="1030" y="345" text-anchor="middle">Component</text>
+
+  <!-- Arrows between the two projects -->
+  <path class="arrow-reuse" d="M525,180 H655"/>
+  <text class="reuse" x="590" y="170" text-anchor="middle">Reuse</text>
+
+  <path class="arrow-contribute" d="M655,420 H525"/>
+  <text class="contribute" x="590" y="410" text-anchor="middle">Contribute</text>
+
+  <!-- Legend -->
+  <text class="comptext" x="70" y="450" font-weight="400" fill="#4b5563" font-size="13">Components built to be reusable across the</text>
+  <text class="comptext" x="70" y="468" font-weight="400" fill="#4b5563" font-size="13">organization live in the InnerSource project.</text>
+
+  <text class="comptext" x="710" y="450" font-weight="400" fill="#4b5563" font-size="13">Downstream teams reuse components as-is,</text>
+  <text class="comptext" x="710" y="468" font-weight="400" fill="#4b5563" font-size="13">improve them, or contribute new ones back.</text>
+</svg>
