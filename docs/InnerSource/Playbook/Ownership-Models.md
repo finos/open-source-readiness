@@ -32,14 +32,14 @@ Separating them makes it easier to describe a project precisely, and to see wher
 The first part of the answer is whether maintaining the project is someone's day job, with time formally allocated to it, or something people do on top of their day job.
 The second part is how many maintainers there are, and how they are spread across the organisation.
 
-| Who maintains it | Day job? | Published examples |
+| Who maintains it | Time allocated in their day job? | Published examples |
 |---|---|---|
 | Nobody | - | FINOS Maturity Matrix, Ownership level 0: "It is not clear who is responsible" |
 | One person, on the side | No | Learning Path: "In grassroots communities, the founders often assume the role of the Trusted Committer"; "On small, grass roots efforts a single person often fills both" the Product Owner and Trusted Committer roles |
 | A group of volunteers | No | [Group Support](https://patterns.innersourcecommons.org/p/group-support): "No one is assigned by their day job to work on it" |
 | One assigned team | Yes | [Core Team](https://patterns.innersourcecommons.org/p/core-team); Flutter's "maintaining team" at stages 1 and 2 of its [InnerSource Pyramid](https://innersource.flutter.com/how/pyramid/) |
-| An assigned team plus Trusted Committers from other teams | Yes, for the team | [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer) |
-| Maintainers in several teams, each with allocated time | Yes, part-time | Flutter stage 3, [Maintainers in Multiple Teams](https://innersource.flutter.com/how/multiple-teams/) |
+| An assigned team plus Trusted Committers from other teams | The team: yes. Trusted Committers: no, they review alongside their own team's work | [Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer) |
+| Maintainers in several teams, each with allocated time | Yes, every maintainer, as a part of their time | Flutter stage 3, [Maintainers in Multiple Teams](https://innersource.flutter.com/how/multiple-teams/) |
 
 Points the sources make about this question:
 
