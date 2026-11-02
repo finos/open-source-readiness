@@ -1,6 +1,6 @@
 ---
 title: SIG Leadership Team
-sidebar_position: 1
+sidebar_position: 10
 ---
 
 | Name           | Firm                | Role                     |

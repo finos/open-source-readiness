@@ -2,7 +2,7 @@
 title: InnerSource Resources
 tags:
   - InnerSource
-sidebar_position: 2
+sidebar_position: 9
 list_image: /img/bok/page-types/resource.png
 ---
 

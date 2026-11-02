@@ -1,6 +1,6 @@
 ---
 title: Thank Yous
-sidebar_position: 4
+sidebar_position: 11
 ---
 
 Thank you to all the people that contributed to the creation of work in the InnerSource SIG:

@@ -1,7 +1,6 @@
 ---
 title: Legal & Compliance
 sidebar_label: Legal & Compliance
-sidebar_position: 8
 authors:
   - name: "Pooi Ling Cheong"
 ---

@@ -1,6 +1,7 @@
 ---
 title: InnerSource Job Creator
 sidebar_label: Job Creator
+sidebar_position: 4
 tags:
  - InnerSource
 list_image: /img/bok/page-types/presentation.png  
