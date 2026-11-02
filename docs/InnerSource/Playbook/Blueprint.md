@@ -87,18 +87,3 @@ Typical launch activities may include:
 - Highlighting contribution opportunities and ways to get involved
 
 A formal launch creates visibility, signals organisational support, and helps establish momentum for community participation.
-
-
-
-TO DELETE:
-## Minimum Requirements for an InnerSource Project
-To reduce barriers to contribution and create a consistent experience across projects, every InnerSource project should meet a minimum set of requirements before it is promoted to the wider engineering community.
-
-Drawing on [established InnerSource practices](https://patterns.innersourcecommons.org/p/base-documentation), every project should make the following information readily available.
-
-- **Project Purpose:** Contributors should be able to understand what the project does, who it is intended for, and why it exists. This information is typically provided in a README
-- **Contribution Process:** Contributors should have clear guidance on how they can participate in the project such as how to submit contributions. This is typically documented in a CONTRIBUTING guide
-- **Communication and Support:** Users and contributors should know who maintains the project and how to engage with the community. This information may be included within the README or maintained separately. The key requirement is that it is visible and easy to find
-- **Discoverability:** An InnerSource project cannot attract contributors if people cannot find it. Projects should therefore be published on a platform that is familiar and accessible to the engineering community, such as an engineering portal, software catalogue, or internal developer platform. Projects should also be clearly identified as InnerSource through agreed metadata, tags, or classifications.
-
-
