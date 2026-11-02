@@ -18,3 +18,10 @@ When InnerSource collaboration crosses these boundaries, teams need to consider 
 
 This does not necessarily prevent collaboration. However, it can affect how collaboration must be structured and where ownership and accountability should remain.
 
+## Our Approach
+
+Regulatory requirements vary widely between jurisdictions and types of institution, and each one can affect InnerSource collaboration in different ways. Rather than attempt to cover everything at once, this section evaluates one regulation at a time, looking at what it means for how InnerSource projects are shared, owned, supported and maintained.
+
+The first regulation covered is [UK Ring-Fencing](./UK%20Ring%20Fencing.md), which requires certain UK banking entities to remain operationally independent from the rest of their banking group.
+
+Further regulations will be added in future versions of this playbook. If there is a regulation you would like to see covered, or experience you can share, we welcome contributions through the [FINOS InnerSource SIG](../../SIG.md).
