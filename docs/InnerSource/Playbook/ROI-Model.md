@@ -38,7 +38,7 @@ Avoiding rebuilding a component every time it's needed. Summed across a project'
 
 > `Cost Saved = Σ (Times Adopted − 1) × (Cost of Development − Cost of Adoption)`
 
-Commonly measured via SBoM/dependency analysis (e.g. Snyk, Maven/Gradle dependency graphs) for adoption counts, and lines-of-code-based cost models (COCOMO II, Caper Jones) or internal PM data for development cost.
+Commonly measured via SBoM/dependency analysis (e.g. Snyk, Maven/Gradle dependency graphs) for adoption counts, and lines-of-code-based cost models (COCOMO II, Capers Jones) or internal PM data for development cost.
 
 **Improved Time-to-Market (TTM)**
 
@@ -54,7 +54,7 @@ Centralizing the patching of vulnerabilities and dependency upgrades avoids ever
 
 > `Reduced TCO = Σ Times Adopted × (Cost of Vulnerabilities + Upgrades)`
 
-Commonly measured via ticketing-system effort data (Jira/GitHub API aggregated with a tool like GrimoireLab) or industry cost-of-bug-fix references (ISBSG, Caper Jones data).
+Commonly measured via ticketing-system effort data (Jira/GitHub API aggregated with a tool like GrimoireLab) or industry cost-of-bug-fix references (ISBSG, Capers Jones data).
 
 **Development Cost Saved from external contributions**
 
@@ -77,7 +77,7 @@ When taking this to leadership, the whitepaper recommends framing the numbers ar
 
 ## Further resources
 
-- **Whitepaper** — the full framework, including the complete metric tables, data-gathering strategies, and recommended tooling per metric: [*InnerSource Value Metrics*](https://www.finos.org/innersource-value-metrics-white-paper) (FINOS and InnerSource Commons), also available as a [direct PDF download](https://2419532.hs-sites.com/hubfs/Case%20Studies/InnerSource%20Value%20Metrics%20FINAL2.pdf?hsCtaAttrib=199578461847).
+- **Whitepaper** — the full framework, including the complete metric tables, data-gathering strategies, and recommended tooling per metric: [*InnerSource Value Metrics*](https://www.finos.org/innersource-value-metrics-white-paper) (FINOS and InnerSource Commons).
 - **Talk** — Chamindra de Silva and Daniel Izquierdo presenting this framework at [InnerSource Summit 2024](https://innersourcecommons.org/events/isc-2024/):
 
 <ReactPlayer playing={false} controls width="100%" height="400px" url="https://www.youtube.com/watch?v=QlVA9bvnbyM" />

@@ -6,7 +6,9 @@ authors:
   - name: "Chamindra de Silva"
 ---
 
-Once the [ROI model](ROI-Model) tells you *how* to value a candidate project, the next question is *where it should live*: kept proprietary to one team, shared internally through InnerSource, or released as open source. Getting this wrong in either direction has a cost, open sourcing something that's actually a competitive differentiator gives away an edge, while keeping something proprietary that dozens of teams are quietly re-building wastes engineering budget across the bank, this is particularly the case with the new wave of agentic development where replicating work becomes easy but this increases the total cost of ownership to the institution for maintainence, hosting and now token cost.
+Every candidate project raises the question of *where it should live*: kept proprietary to one team, shared internally through InnerSource, or released as open source. Getting this wrong in either direction has a cost. Open sourcing something that is actually a competitive differentiator gives away an edge. Keeping something proprietary that dozens of teams are quietly rebuilding wastes engineering budget across the bank.
+
+Agentic development raises the stakes further. AI coding agents make it easy to replicate existing work, but every duplicate adds to the institution's total cost of ownership through maintenance, hosting, and now token costs. The [ROI model](./ROI-Model.md) shows how to put a value on a candidate once you have decided where it belongs.
 
 This article gives a decision tree for sorting a candidate project into one of the three buckets, followed by the individual factors worth weighing.
 
@@ -25,7 +27,7 @@ This article gives a decision tree for sorting a candidate project into one of t
    - **No** → go to 3.
 
 2. **Is there reuse potential beyond the team that built it**, meaning do other teams have, or will likely have, the same problem?
-   - **Yes** → **InnerSource**. This is the classic case you've already spotted: code that must stay inside the bank but is valuable to more than one team.
+   - **Yes** → **InnerSource**. This is the classic InnerSource case: code that must stay inside the bank but is valuable to more than one team.
    - **No** → **Proprietary**. Confidential and single-use isn't worth the overhead of InnerSource practices (documentation, contribution process, a maintainer role).
 
 3. **Is it a source of competitive differentiation or strategic IP**, even though nothing legally prevents publishing it (e.g. it's not regulated, just valuable)?
@@ -33,11 +35,11 @@ This article gives a decision tree for sorting a candidate project into one of t
    - **No** → go to 4.
 
 4. **Does it only make sense against internal-only systems** (proprietary connectors, internal APIs, legacy mainframe integrations, internal identity or entitlement systems), such that nobody outside the bank could use it even if they had the code?
-   - **Yes** → **InnerSource**. This is your second example: a connector to an internal DevOps/testing system has real reuse value across internal teams, but zero external audience, so open sourcing buys you nothing but overhead.
+   - **Yes** → **InnerSource**. For example, a connector to an internal DevOps or testing system has real reuse value across internal teams, but no external audience, so open sourcing it adds overhead without benefit.
    - **No** → go to 5.
 
-5. **Does it set a standard you need to control centrally** (a brand, a customer-facing UI/UX framework, a naming or data standard) where accepting external pull requests could dilute, fork, or drift the standard away from what the bank needs?
-   - **Yes** → **InnerSource with strong central governance** (a small maintainer group that curates contributions, mandated adoption across internal teams). This is your first example. Note that some banks *do* open source design systems for marketing/brand-recognition reasons, but that's a deliberate exception made after this question, not a default.
+5. **Does it set a standard you need to control centrally** (a brand, a customer-facing UI/UX framework, a naming or data standard, or an engineering or architecture standard such as a CI/CD pipeline template or API guidelines) where accepting external pull requests could dilute, fork, or drift the standard away from what the bank needs?
+   - **Yes** → **InnerSource with strong central governance** (a small maintainer group that curates contributions, mandated adoption across internal teams). A standards-based UI/design system is the typical example. Note that some banks *do* open source design systems for marketing/brand-recognition reasons, but that's a deliberate exception made after this question, not a default.
    - **No** → go to 6.
 
 6. **Is it a commodity capability** that the wider industry also needs (generic tooling, non-differentiating infrastructure, common file formats/parsers), **and** does the bank have or want the capacity to run it as a public project (security disclosure process, legal review of external PRs, community management)?
@@ -51,13 +53,13 @@ This article gives a decision tree for sorting a candidate project into one of t
 | Must stay confidential (regulatory/competitive/security) | ✓ if single-team | ✓ if multi-team | ✗ |
 | Competitive differentiator / strategic IP | possible | ✓ | ✗ |
 | Depends on internal-only systems, connectors, or data with no external meaning | possible | ✓ | ✗ |
-| Sets a brand/UX/data standard that needs centralized control | ✗ | ✓ | possible, as a deliberate exception |
+| Sets a brand, UX, data, engineering, or architecture standard that needs centralized control | ✗ | ✓ | possible, as a deliberate exception |
 | Commodity/non-differentiating, industry also needs it | ✗ | possible (interim) | ✓ |
 | No reuse beyond originating team | ✓ | ✗ | ✗ |
 
 ## Examples of good InnerSource candidates
 
-The two examples referenced in the [decision tree](#decision-tree) above are patterns that recur across financial institutions. A few more, with the question in the tree they typically turn on:
+The examples referenced in the [decision tree](#decision-tree) above are patterns that recur across financial institutions. A few more, with the question in the tree they typically turn on:
 
 | Example | Why it's InnerSource, not Proprietary or Open Source | Decision tree question |
 |---|---|---|
@@ -69,8 +71,8 @@ The two examples referenced in the [decision tree](#decision-tree) above are pat
 | Naming or data-standard registry used to keep systems interoperable internally | Needs consistent, centrally governed adoption; external contributions could fragment the standard | Q5: sets a data standard needing central control |
 | Shared compliance/audit logging library tied to internal regulatory requirements | Must stay confidential for regulatory reasons, but multiple teams have the same obligation | Q1 → Q2: confidential, with reuse potential beyond one team |
 | Pricing/risk calculation library wired to internal, proprietary market data feeds | The calculation approach is reusable across desks, but the data dependencies keep it confidential | Q1 → Q2: confidential, with reuse potential beyond one team |
-| Standardised DevOps pipeline template used across engineering teams to implement CI/CD, testing, security scanning, and deployment controls | Used by many teams and benefits from contributions across the organisation, but typically embeds internal engineering practices, platform integrations, security controls, and compliance requirements that are specific to the organisation | Q5: sets a data standard needing central control |
-| Enterprise API standards and tooling | Encourages teams to collaborate on shared API standards, templates, governance, and supporting tools. Contributions improve consistency and reuse across the organisation while maintaining alignment with internal architecture and compliance requirements | Q5: sets a data standard needing central control |
+| Standardised DevOps pipeline template used across engineering teams to implement CI/CD, testing, security scanning, and deployment controls | Used by many teams and benefits from contributions across the organisation, but typically embeds internal engineering practices, platform integrations, security controls, and compliance requirements that are specific to the organisation | Q5: sets an engineering standard needing central control |
+| Enterprise API standards and tooling | Encourages teams to collaborate on shared API standards, templates, governance, and supporting tools. Contributions improve consistency and reuse across the organisation while maintaining alignment with internal architecture and compliance requirements | Q5: sets an architecture standard needing central control |
 
 ## Other factors worth weighing
 
