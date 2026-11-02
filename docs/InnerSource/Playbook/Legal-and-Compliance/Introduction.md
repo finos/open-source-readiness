@@ -4,6 +4,10 @@ sidebar_label: Legal & Compliance
 authors:
   - name: "Pooi Ling Cheong"
 ---
+:::caution
+This section highlights considerations for discussion with your legal and compliance teams. It does not constitute legal or regulatory advice.
+:::
+
 This section explores legal and compliance considerations that may affect the adoption and operation of InnerSource in financial services organisations.
 
 ## Regulatory Boundaries and InnerSource

@@ -4,6 +4,10 @@ sidebar_label: UK Ring-Fencing
 authors:
   - name: "Pooi Ling Cheong"
 ---
+:::caution
+This page highlights considerations for discussion with your legal and compliance teams. It does not constitute legal or regulatory advice.
+:::
+
 In the UK, ring-fencing regulation requires certain banking entities to maintain operational independence from other parts of the banking group. As a result, InnerSource collaboration may need to be structured to avoid inappropriate operational dependencies while still enabling knowledge sharing and community-driven development.
 
 Under ring-fencing requirements, two key principles commonly influence how InnerSource collaboration is structured:

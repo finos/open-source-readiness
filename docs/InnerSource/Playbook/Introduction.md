@@ -16,3 +16,7 @@ By sharing experiences and co-creating guidance, practices, and frameworks, we a
 Whether you are exploring new ideas, looking for proven approaches, or contributing back your own experiences, we hope this playbook serves as a practical resource and a catalyst for collaboration across the industry.
 
 **This is a living playbook, developed by the community and for the community. As the industry continues to evolve, so will the knowledge, practices, and insights shared here.**
+
+:::note Disclaimer
+The content of this playbook reflects the experiences and views of individual contributors and does not necessarily represent the views, policies, or practices of their employers or of FINOS. Nothing in this playbook constitutes legal, regulatory, or compliance advice. Organisations should seek appropriate professional advice before acting on any of the guidance provided.
+:::
