@@ -60,12 +60,12 @@ Points the sources make about this question:
 
 Points the sources make about this question:
 
-- **Best effort comes from open source.** The [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels) pattern explains its first level with this case: "you can report the bug, but its on the owner to find the time to fix it."
+- **Best effort comes from open source.** The [Explicit Governance Levels](https://patterns.innersourcecommons.org/p/governance-levels) pattern explains its first level with this case: "you can report the bug, but its [sic] on the owner to find the time to fix it."
 - **Accepting a contribution is a maintenance commitment.** The Learning Path lists "Ongoing maintenance of submitted code (after the [warranty window](https://patterns.innersourcecommons.org/p/30-day-warranty))" among the host team's duties ([Is InnerSource Right for My Project?](https://innersourcecommons.org/learn/learning-path/introduction/08/)).
 - **A Core Team leaves features to contributors.** A Core Team "doesn't have its own business agenda that determines its contributions", and its work "enables contributors to add and use the features that provide value to their scenarios" ([Core Team](https://patterns.innersourcecommons.org/p/core-team)).
 - **Unpopular work needs an owner.** Security updates, dependency upgrades and refactoring are the work most at risk of being left undone.
   Flutter describes four ways to get it done: by the maintaining team in dedicated time, by sponsorship across teams, by a virtual team of maintainers, or by a "strategic intervention" where "A senior leader must sponsor the project, and fund and mobilise a team to do it" ([Flutter, Unpopular Work](https://innersource.flutter.com/blog/unpopular-work)).
-- **The ISC Maturity Model scores this question.** Its Support and Maintenance row runs from "A business contract guaranties the support" (SM-0) to support "given by a mature community" (SM-3) ([Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)).
+- **The ISC Maturity Model scores this question.** Its Support and Maintenance row runs from "A business contract guaranties [sic] the support" (SM-0) to support "given by a mature community" (SM-3) ([Maturity Model](https://patterns.innersourcecommons.org/p/maturity-model)).
 
 ### 3. What are the maintainers open to?
 
@@ -98,7 +98,7 @@ Whatever the answers, every source agrees that a project still has an accountabl
 - **Flutter.** "Technical ownership and accountability is important at all stages of the inner source pyramid. At stage 1 or 2 the owner is the leader of the maintaining team. At stage 3 the owner isn't obvious from the org chart, and it helps to recognise a named individual as a Capability Owner."
   Without one, a capability risks becoming "a shared resource that's incrementally ruined by all divisions acting rationally but purely in their own interests" ([Flutter, Capability Owner](https://innersource.flutter.com/how/roles/owner/)).
 - **Software catalogues.** In Backstage, an owner is "the singular entity (commonly a team) that bears ultimate responsibility for the component", and "there will always be one ultimate owner" ([Backstage descriptor format](https://backstage.io/docs/features/software-catalog/descriptor-format/)).
-- **FINOS.** For teams worried that sharing means losing control: "Your team remains the core maintainers - Your group reviews, approves, and shape contributions" ([Driving InnerSource Culture](https://osr.finos.org/docs/InnerSource/driving_innersource_culture)).
+- **FINOS.** For teams worried that sharing means losing control: "Your team remains the core maintainers - Your group reviews, approves, and shape [sic] contributions" ([Driving InnerSource Culture](https://osr.finos.org/docs/InnerSource/driving_innersource_culture)).
 
 ## How published models answer the three questions
 
@@ -197,7 +197,7 @@ A project's answers change over time.
 - **Volunteer groups need a long-term home.** Group Support is expected to "dissolve again at some point".
   If the project continues in the long run, "use this period of stable group support to find a long-lived way to support it (e.g. Core Team)" ([Group Support](https://patterns.innersourcecommons.org/p/group-support)).
 - **Contributions can stop over time.** At Flutter, Guest Contribution capabilities "if contribution stops over time can become Delegated", that is, built and run by one division for the others ([Flutter, Choosing Inner Source](https://innersource.flutter.com/how/choose/)).
-- **Contractor code needs a handover plan.** Plan it from the start, including "Identification of new a maintainer team" ([Transitioning Contractor Code to InnerSource Model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/transitioning-contractor-code-to-innersource-model.md), an early-stage pattern).
+- **Contractor code needs a handover plan.** Plan it from the start, including "Identification of new a [sic] maintainer team" ([Transitioning Contractor Code to InnerSource Model](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/transitioning-contractor-code-to-innersource-model.md), an early-stage pattern).
 - **Trusted Committers move on.** Plan for them leaving, and thank them publicly ([Trusted Committer](https://patterns.innersourcecommons.org/p/trusted-committer)).
 - **Projects get adopted or retired.** At its top Ownership level the [FINOS Maturity Matrix](../Maturity-Matrix/Project.md) asks for "a clear adoption strategy (putting projects up for adoptions)" and "a clear maintenance / deprecation strategy".
 
@@ -207,5 +207,5 @@ These playbook pages cover the topics next to ownership.
 
 - **[InnerSource Blueprint](./Blueprint.md)**, step 3, Define Ownership and Governance.
 - **[Identifying InnerSource Project Candidates](./Best-Candidates.md)**, for when a project needs strong central governance.
-- **[Organisational Enablement](./Organisational-Enablement.md)**, for funding and management structures such as [Review Committee](https://patterns.innersourcecommons.org/p/review-committee), [Contracted Contributor](https://patterns.innersourcecommons.org/p/contracted-contributor) and [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader).
+- **Organisational enablement**, for funding and management structures such as [Review Committee](https://patterns.innersourcecommons.org/p/review-committee), [Contracted Contributor](https://patterns.innersourcecommons.org/p/contracted-contributor) and [Dedicated Community Leader](https://patterns.innersourcecommons.org/p/dedicated-community-leader).
 - **[Agentic Development](./Agentic-Development.md)**: agent-written changes go through the same ownership and review model.
