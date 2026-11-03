@@ -6,9 +6,9 @@ authors:
   - name: "Russell Rutledge"
 ---
 
-AI coding agents raise an honest question inside every financial institution experimenting with them. If an agent can produce working code in seconds, is InnerSource - sharing and reusing code across teams so no one rebuilds the same thing twice - still worth the overhead?
+AI coding agents raise an honest question for the financial institutions experimenting with them. If an agent can produce working code in seconds, is InnerSource - sharing and reusing code across teams so no one rebuilds the same thing twice - still worth the overhead?
 
-Practitioners putting these tools to work are finding the opposite of what the question implies. Agentic development makes InnerSource *more* necessary, not less, and InnerSource is what makes a flood of agent-generated code safe to run at institutional scale.
+In the SIG's experience, the answer is the opposite of what the question implies. Agentic development makes InnerSource *more* necessary, not less, and InnerSource is what makes a flood of agent-generated code safe to run at institutional scale.
 
 ## Agentic development raises the InnerSource stakes
 
