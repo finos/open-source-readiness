@@ -6,9 +6,9 @@ authors:
   - name: "Russell Rutledge"
 ---
 
-AI coding agents raise an honest question inside every financial institution experimenting with them. If an agent can produce working code in seconds, is InnerSource - sharing and reusing code across teams so no one rebuilds the same thing twice - still worth the overhead?
+AI coding agents raise an honest question for the financial institutions experimenting with them. If an agent can produce working code in seconds, is InnerSource - sharing and reusing code across teams so no one rebuilds the same thing twice - still worth the overhead?
 
-Practitioners putting these tools to work are finding the opposite of what the question implies. Agentic development makes InnerSource *more* necessary, not less, and InnerSource is what makes a flood of agent-generated code safe to run at institutional scale.
+In the SIG's experience, the answer is the opposite of what the question implies. Agentic development makes InnerSource *more* necessary, not less, and InnerSource is what makes a flood of agent-generated code safe to run at institutional scale.
 
 ## Agentic development raises the InnerSource stakes
 
@@ -38,7 +38,7 @@ The practical effect: people who were previously locked out of contributing - be
 
 ## Treat the agent as your most frequent first-time contributor
 
-An agent is a first-time contributor on every single session: it wakes up with no memory of your codebase and has to get oriented from scratch, every time. That is exactly the contributor InnerSource readiness was built for. Every [practice this playbook already recommends](./Practices.md) - a clear README, a real CONTRIBUTING guide, defined ownership, a working test suite - was designed to let a capable stranger land a change without a personal tour.
+An agent is a first-time contributor on every single session: it wakes up with no memory of your codebase and has to get oriented from scratch, every time. That is exactly the contributor InnerSource readiness was built for. Every [practice this playbook already recommends](./Blueprint.md) - a clear README, a real CONTRIBUTING guide, defined ownership, a working test suite - was designed to let a capable stranger land a change without a personal tour.
 
 Agentic development doesn't make those practices optional; it makes them load-bearing in a new way. A README and CONTRIBUTING guide are no longer just documentation for humans - they're the operating instructions an agent reads before it acts. Projects written to be read fluently by both humans and agents will see faster, safer contributions from both.
 
